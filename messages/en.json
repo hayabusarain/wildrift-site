@@ -28,7 +28,7 @@
     "btnCalc": "Damage & EHP Calculator",
     "metaTitle": "Top Meta Picks",
     "metaDesc": "Highest win rate champions per role (Meta)",
-    "metaUpdated": "Last Updated: 2026/05/26 (Patch 7.1e) / Data Source: Chinese Official Site (Diamond+)",
+    "metaUpdated": "Last Updated: 2026/05/28 / Data Source: Chinese Official Site (Diamond+)",
     "viewAllTier": "View Full Tier List",
     "noticeTitle": "Announcement",
     "noticeItemsAndRunes": "Currently only champion data is available, but item and rune databases will be added in the future!",
@@ -53,7 +53,7 @@
     "all": "All Roles"
   },
   "TierList": {
-    "title": "Latest Tier List (Patch 7.1e)",
+    "title": "Latest Tier List",
     "subtitle": "Ranking the strongest champions in every role.",
     "winRate": "Win Rate",
     "pickRate": "Pick",

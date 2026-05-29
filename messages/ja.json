@@ -28,7 +28,7 @@
     "btnCalc": "ダメージ＆EHP計算機",
     "metaTitle": "今パッチの最強ピック",
     "metaDesc": "各ロールで最も勝率の高いチャンピオン（メタ）",
-    "metaUpdated": "最終更新日: 2026/05/26 (Patch 7.1e) / データ元: 中国公式サイト ダイヤモンドランク以上",
+    "metaUpdated": "最終更新日: 2026/05/28 / データ元: 中国公式サイト ダイヤモンドランク以上",
     "viewAllTier": "Tier表をすべて見る",
     "noticeTitle": "お知らせ",
     "noticeItemsAndRunes": "現在チャンピオンデータベースのみですが、今後アイテムやルーンのデータ一覧も追加作成予定です！",
@@ -53,7 +53,7 @@
     "all": "すべてのロール"
   },
   "TierList": {
-    "title": "最新Tier List (パッチ7.1e)",
+    "title": "最新Tier List",
     "subtitle": "各ロールにおける最強チャンピオンをランキング形式で紹介します。",
     "winRate": "勝率",
     "pickRate": "Pick",
