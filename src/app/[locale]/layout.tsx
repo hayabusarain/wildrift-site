@@ -51,6 +51,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: t('description'),
       images: ['/images/og-image.jpg'],
     },
+    other: {
+      'google-adsense-account': 'ca-pub-7201202773518258',
+    },
   };
 }
 
