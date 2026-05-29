@@ -46,16 +46,6 @@ export default function ContactPage() {
               <div className="text-sm text-slate-500">@hub_gamecom</div>
             </div>
           </a>
-          
-          <div className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl border border-slate-200 w-fit pr-8 opacity-50 cursor-not-allowed">
-            <div className="w-10 h-10 bg-slate-400 rounded-full flex items-center justify-center text-white">
-              <Mail size={20} />
-            </div>
-            <div>
-              <div className="font-bold text-slate-800">メールフォーム</div>
-              <div className="text-sm text-slate-500">現在準備中です</div>
-            </div>
-          </div>
         </div>
         
         <section className="mt-12 pt-8 border-t border-slate-100">
