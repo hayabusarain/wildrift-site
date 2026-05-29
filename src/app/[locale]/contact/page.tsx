@@ -12,13 +12,13 @@ export default function ContactPage() {
           <p>If you have any questions, feedback, or found a bug on the site, feel free to reach out via X (Twitter).</p>
           
           <div className="mt-8 flex flex-col gap-4">
-            <a href="https://twitter.com/intent/tweet?text=@DummyAccount" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors border border-slate-200 w-fit pr-8">
+            <a href="https://x.com/WildRiftHub_" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors border border-slate-200 w-fit pr-8">
               <div className="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center text-white">
                 <MessageCircle size={20} />
               </div>
               <div>
                 <div className="font-bold text-slate-800">Contact via X (Twitter)</div>
-                <div className="text-sm text-slate-500">@DummyAccount</div>
+                <div className="text-sm text-slate-500">@WildRiftHub_</div>
               </div>
             </a>
           </div>
@@ -37,13 +37,13 @@ export default function ContactPage() {
         </p>
         
         <div className="mt-8 flex flex-col gap-4">
-          <a href="https://twitter.com/intent/tweet?text=@DummyAccount" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors border border-slate-200 w-fit pr-8">
+          <a href="https://x.com/WildRiftHub_" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors border border-slate-200 w-fit pr-8">
             <div className="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center text-white">
               <MessageCircle size={20} />
             </div>
             <div>
               <div className="font-bold text-slate-800">X（旧Twitter）で連絡する</div>
-              <div className="text-sm text-slate-500">@DummyAccount（準備中）</div>
+              <div className="text-sm text-slate-500">@WildRiftHub_</div>
             </div>
           </a>
           
