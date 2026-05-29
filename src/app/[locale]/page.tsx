@@ -193,7 +193,11 @@ export default function Home() {
               >
                 <div 
                   className="absolute inset-0 bg-cover bg-top transition-transform duration-700 group-hover:scale-110"
-                  style={{ backgroundImage: `url('https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${pick.champion_name_en}_0.jpg'), url('/images/champions/${pick.champion_name_en}.avif')` }}
+                  style={{ 
+                    backgroundImage: pick.champion_name_en === 'Norra'
+                      ? `url('/images/champions/Norra.avif')`
+                      : `url('https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${pick.champion_name_en}_0.jpg')`
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent opacity-90" />
                 
