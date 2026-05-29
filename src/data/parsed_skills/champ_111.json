@@ -1,0 +1,208 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "無害なカカシ",
+      "tags": [
+        "自動効果",
+        "妨害"
+      ],
+      "cooldown_text": null,
+      "description": "チャンピオンからキルまたはアシストを奪うと、<span class=\"text-orange-500 font-bold\">3秒間</span>、「<span class=\"text-orange-500 font-bold\">身代わり人形</span>」を1体召喚する。「<span class=\"text-orange-500 font-bold\">身代わり人形</span>」は自動的に最も近い敵チャンピオンを追いかけ、追いつくか効果時間が終了した際に爆発して、周囲のすべての敵チャンピオンに<span class=\"text-purple-500 font-bold\">フィアー効果</span>を与える。<br>一度に存在できる「<span class=\"text-orange-500 font-bold\">身代わり人形</span>」は1体のみ。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "テラー",
+      "tags": [
+        "魔法",
+        "妨害"
+      ],
+      "cooldown_text": "13.5秒",
+      "description": "自動効果: 非戦闘時で2秒間敵に見られていない状態または<span class=\"text-white-500 font-bold\">「身代わり人形」</span>のふりをしてる時にスキルで敵にダメージを与えると、1.2秒間<span class=\"text-orange-500 font-bold\">フィアー効果</span>を与える。<br>発動効果: 恐ろしいカラスの群れを解き放ち、触れた対象に1.2秒間<span class=\"text-orange-500 font-bold\">フィアー効果</span>を与えて、<span class=\"text-emerald-500 font-bold\">減少体力の4%の魔法ダメージ</span>を与える。このダメージは<span class=\"text-white-500 font-bold\">100HP</span>ごとに<span class=\"text-red-500 font-bold\">1.5%</span>増加する。最低でも<span class=\"text-orange-500 font-bold\">45のダメージ</span>を与える。<br>対象が直前に<span class=\"text-orange-500 font-bold\">フィアー効果</span>を受けていた場合は、<span class=\"text-orange-500 font-bold\">フィアー効果</span>を再度与える代わりに、与えるダメージが<span class=\"text-orange-500 font-bold\">200%</span>増加する。<br>モンスターに与えるダメージは最大<span class=\"text-orange-500 font-bold\">400</span>が上限。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "13.5",
+              "13",
+              "12.5",
+              "12"
+            ]
+          },
+          {
+            "label": "現在体力%",
+            "values": [
+              "4%",
+              "5%",
+              "6%",
+              "7%"
+            ]
+          },
+          {
+            "label": "最小ダメージ",
+            "values": [
+              "45",
+              "70",
+              "95",
+              "120"
+            ]
+          },
+          {
+            "label": "フィアー効果時間",
+            "values": [
+              "1.2",
+              "1.4",
+              "1.6",
+              "1.8"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "豊かな収穫",
+      "tags": [
+        "魔法",
+        "回復"
+      ],
+      "cooldown_text": "11秒",
+      "description": "詠唱して周囲の敵の魂を吸収し、2秒間、毎秒<span class=\"text-purple-500 font-bold\">60の魔法ダメージ (60 + 30%AP)</span>を与え、最後の瞬間に<span class=\"text-purple-500 font-bold\">対象の減少体力の10%にあたるダメージ</span>を追加で与える。<br>苦痛から得るもの: <span class=\"text-emerald-500 font-bold\">ダメージの40%の体力</span>を回復する(軽減前ダメージをもとに計算)。<br>詠唱中は、自分は<span class=\"text-orange-500 font-bold\">30%の</span>スロウ効果を受ける。<br>いつでも再発動すると詠唱を早めに終了できる。フィドルスティックスが中断されることなく詠唱を完了できた場合は、このスキルの残りクールダウンが<span class=\"text-orange-500 font-bold\">50%短縮</span>される。<br>対象の種類ごとに回復する体力:<br>チャンピオン: <span class=\"text-orange-500 font-bold\">40%</span><br>ミニオン: <span class=\"text-orange-500 font-bold\">15%</span><br>モンスター: <span class=\"text-orange-500 font-bold\">45%</span><br>モンスターには<span class=\"text-purple-500 font-bold\">160%のダメージ</span>を与える。<br>ミニオンには<span class=\"text-purple-500 font-bold\">50%のダメージ</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "11",
+              "10",
+              "9",
+              "8"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "60",
+              "90",
+              "120",
+              "150"
+            ]
+          },
+          {
+            "label": "回復",
+            "values": [
+              "40%",
+              "45%",
+              "50%",
+              "55%"
+            ]
+          },
+          {
+            "label": "追加ダメージ",
+            "values": [
+              "10%",
+              "11.5%",
+              "13%",
+              "14.5%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "刈り取り",
+      "tags": [
+        "魔法",
+        "スロウ"
+      ],
+      "cooldown_text": "9秒",
+      "description": "指定範囲を鎌で切りつけ、範囲内の敵に<span class=\"text-purple-500 font-bold\">70の魔法ダメージ(70 + 50%魔法攻撃力)</span>を与えて、<span class=\"text-orange-500 font-bold\">1.25秒間35%のスロウ効果</span>を与える。中心部にいた敵には<span class=\"text-red-500 font-bold\">サイレンス効果</span>を付与する。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "9",
+              "8",
+              "7",
+              "6"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "70",
+              "120",
+              "170",
+              "220"
+            ]
+          },
+          {
+            "label": "スロウ",
+            "values": [
+              "35%",
+              "40%",
+              "45%",
+              "50%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "クロウストーム",
+      "tags": [
+        "魔法"
+      ],
+      "cooldown_text": "100秒",
+      "description": "1.5秒間詠唱する。その後指定地点までブリンクし、「クロウストーム」を召喚して5秒間、0.25秒ごとに周囲の敵に<span class=\"text-orange-500 font-bold\">30の魔法ダメージ</span>(<span class=\"text-orange-500 font-bold\">30 + 10%AP</span>)を与える。「クロウストーム」は最大で<span class=\"text-orange-500 font-bold\">600の魔法ダメージ</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "100",
+              "80",
+              "60"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "30",
+              "50",
+              "70"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

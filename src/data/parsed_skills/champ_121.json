@@ -1,0 +1,142 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "浪人道",
+      "tags": [
+        "自動効果",
+        "バフ"
+      ],
+      "cooldown_text": null,
+      "description": "不惑の心: 移動距離に応じて「波動」がたまっていく。「波動」の量はリソースゲージで確認できる。「波動」が満タンの状態でチャンピオンかモンスターからダメージを受けると、1秒間、<span class=\"text-emerald-500 font-bold\">115</span>のダメージ(115 + <span class=\"text-red-500 font-bold\">クリティカル率1%ごとに1</span>)を吸収する<span class=\"text-emerald-500 font-bold\">シールド</span>を獲得する。<br><br>不屈の心: <span class=\"text-red-500 font-bold\">クリティカル率</span>が倍になる。<br><br>100%を超えた分のクリティカル率は攻撃力に変換され、クリティカル率1%あたり攻撃力が0.6増加する。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "抜刀",
+      "tags": [
+        "物理"
+      ],
+      "cooldown_text": "3.7秒",
+      "description": "前方に突きを行い、<span class=\"text-orange-500 font-bold\">81の物理ダメージ</span>(20 + <span class=\"text-orange-500 font-bold\">105%AD</span>)を与える。突きで敵にダメージを与えると「つむじ風」のスタックを獲得する。2スタックで「抜刀」使用時に「つむじ風」を発生させる。「つむじ風」は敵を<span class=\"text-purple-500 font-bold\">ノックアップ</span>する。<br><br>「風薙ぎ」のダッシュ中にタップすると、「抜刀」が周囲を斬り払う斬撃になる。<br><br>「抜刀」は通常攻撃扱いで<span class=\"text-red-500 font-bold\">クリティカル判定</span>があり、その際は75%の追加ダメージを与え、命中したすべてのユニットに<span class=\"text-purple-500 font-bold\">通常攻撃時効果</span>を適用する。このスキルのクールダウンと詠唱時間は攻撃速度で短縮される。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "20",
+              "50",
+              "80",
+              "110"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "風殺の壁",
+      "tags": [],
+      "cooldown_text": "18秒",
+      "description": "4秒間、敵のあらゆる遠隔攻撃をブロックする300ユニットの壁を作り出す。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "壁の幅",
+            "values": [
+              "300",
+              "400",
+              "500",
+              "600"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "風薙ぎ",
+      "tags": [
+        "魔法",
+        "機動性"
+      ],
+      "cooldown_text": "0.4秒",
+      "description": "ダッシュして敵を通り抜けて、<span class=\"text-cyan-500 font-bold\">70の魔法ダメージ</span>(70 + <span class=\"text-orange-500 font-bold\">20%増加AD</span> + <span class=\"text-purple-500 font-bold\">60%AP</span>)を与える。使用するごとに次のダッシュの基本ダメージが25%増加し、最大+50%まで増加する。<br><br>同一の敵には7秒間使用できない。<br><br>このダッシュ中に「抜刀」をタップすると、周囲を斬り払う斬撃を繰り出す。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "0.4",
+              "0.3",
+              "0.2",
+              "0.1"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "70",
+              "80",
+              "90",
+              "100"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "鬼哭啾々",
+      "tags": [
+        "物理",
+        "妨害"
+      ],
+      "cooldown_text": "50秒",
+      "description": "<span class=\"text-purple-500 font-bold\">ノックアップ</span>した敵チャンピオンの元へブリンクして<span class=\"text-orange-500 font-bold\">250の物理ダメージ</span>(250 + <span class=\"text-orange-500 font-bold\">160%増加AD</span>)を与え、範囲内の<span class=\"text-purple-500 font-bold\">ノックアップ</span>中の敵すべてを追加で1.3秒間ノックアップさせる。さらに波動が最大までたまるが、<span class=\"text-yellow-500 font-bold\">つむじ風</span>のスタックをすべて消費する。<br><br>その後15秒間、クリティカル時に40%の増加物理防御貫通が適用される。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "50",
+              "40",
+              "30"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "250",
+              "400",
+              "550"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

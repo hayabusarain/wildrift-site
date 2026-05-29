@@ -1,0 +1,187 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "ソウルサイフォン",
+      "tags": [
+        "自動効果",
+        "バフ"
+      ],
+      "cooldown_text": null,
+      "description": "チャンピオン、大型ミニオン、大型モンスターにスキルで与えたダメージの20%にあたる体力を回復する。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "ダークバインド",
+      "tags": [
+        "魔法",
+        "妨害"
+      ],
+      "cooldown_text": "9秒",
+      "description": "闇のエネルギーを発射して、最初に命中した敵に2秒間のスネア効果と<span class=\"text-indigo-400 font-bold\">80魔法ダメージ</span>(80 + <span class=\"text-indigo-400 font-bold\">90%AP</span>)を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "コスト",
+            "values": [
+              "55",
+              "60",
+              "65",
+              "70"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "80",
+              "160",
+              "240",
+              "320"
+            ]
+          },
+          {
+            "label": "スネア効果時間",
+            "values": [
+              "2",
+              "2.25",
+              "2.5",
+              "2.75"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "苦悶の影",
+      "tags": [
+        "魔法"
+      ],
+      "cooldown_text": "12秒",
+      "description": "5秒間、一定範囲に呪いをかけ、範囲内にいる敵に0.5秒ごとに<span class=\"text-indigo-400 font-bold\">7の魔法ダメージ</span>(7+<span class=\"text-indigo-400 font-bold\">7%AP</span>)を与える。このダメージは対象の減少体力に応じて最大170%増加する。<br><br>モンスターに対しては195%のダメージを与える。<br>「<span class=\"text-orange-400 font-bold\">ソウルサイフォン</span>」が発動するたびに、このスキルの現在のクールダウンが最大クールダウンの3.5%短縮される。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "コスト",
+            "values": [
+              "70",
+              "90",
+              "110",
+              "130"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "7",
+              "12",
+              "17",
+              "22"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "ブラックシールド",
+      "tags": [
+        "バフ"
+      ],
+      "cooldown_text": "13秒",
+      "description": "5秒間、味方チャンピオン1体の周囲にバリアを展開する。バリアは<span class=\"text-indigo-400 font-bold\">70の魔法ダメージ</span>(70 + <span class=\"text-indigo-400 font-bold\">50%AP</span>)を吸収し、シールド展開中は行動不能効果を防ぐ。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "13",
+              "12",
+              "11",
+              "10"
+            ]
+          },
+          {
+            "label": "シールド",
+            "values": [
+              "70",
+              "150",
+              "230",
+              "310"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "魂の足枷",
+      "tags": [
+        "魔法",
+        "スロウ"
+      ],
+      "cooldown_text": "75秒",
+      "description": "魂の鎖: 近くにいる敵チャンピオンを3秒間鎖で縛り、<span class=\"text-indigo-400 font-bold\">150の魔法ダメージ</span>(150 + <span class=\"text-indigo-400 font-bold\">70%AP</span>)を与え、<span class=\"text-purple-400 font-bold\">15%のスロウ効果</span>を付与する。<br><br>鎖が維持されている間は:<br>- 対象を可視化する。<br>- 対象が射程内にいる間は移動速度が10%増加する。<br><br>鎖の破断 :<br>3秒後、鎖を振りほどけなかった敵に追加で<span class=\"text-indigo-400 font-bold\">150の魔法ダメージ</span>(150 + <span class=\"text-indigo-400 font-bold\">70%AP</span>)を与え、1.5秒間の<span class=\"text-purple-400 font-bold\">スタン効果</span>を付与する。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "75",
+              "65",
+              "55"
+            ]
+          },
+          {
+            "label": "1段目ダメージ",
+            "values": [
+              "150",
+              "225",
+              "300"
+            ]
+          },
+          {
+            "label": "2段目ダメージ",
+            "values": [
+              "150",
+              "225",
+              "300"
+            ]
+          },
+          {
+            "label": "移動速度",
+            "values": [
+              "10%",
+              "25%",
+              "40%"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

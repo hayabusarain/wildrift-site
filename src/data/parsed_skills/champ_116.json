@@ -1,0 +1,180 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "魔樹液",
+      "tags": [
+        "自動効果",
+        "回復"
+      ],
+      "cooldown_text": null,
+      "description": "24秒ごとに、次の通常攻撃で体力が<span class=\"text-emerald-500 font-bold\">30HP</span>回復する。<br>自分がスキルを使用するか、敵チャンピオンのスキルを受けると、このスキルのクールダウンが<br>3秒短縮される。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "茨打ち",
+      "tags": [
+        "灼霊",
+        "魔法"
+      ],
+      "cooldown_text": "8秒",
+      "description": "地面に拳を叩きつけて衝撃波を発生させ、<span class=\"text-orange-500 font-bold\">(60 + 50%AP)</span> + <span class=\"text-emerald-500 font-bold\">対象の最大体力の5%</span>の<span class=\"text-purple-500 font-bold\">魔法ダメージ</span>を与え、0.25秒間、<span class=\"text-blue-500 font-bold\">スロウ効果</span>を付与する。また、近くにいる敵をノックバックさせる。<br>モンスターには<span class=\"text-orange-500 font-bold\">120の追加ダメージ</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "8",
+              "7",
+              "6",
+              "5"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "60",
+              "115",
+              "170",
+              "225"
+            ]
+          },
+          {
+            "label": "対象の最大体力",
+            "values": [
+              "2.5%",
+              "3%",
+              "3.5%",
+              "4%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "樹人の進撃",
+      "tags": [
+        "機動性",
+        "妨害"
+      ],
+      "cooldown_text": "14秒",
+      "description": "巨大な動く根の塊になって<span class=\"text-purple-500 font-bold\">対象に指定されなくなり</span>、対象の敵チャンピオンに向かってダッシュする。対象に到達すると、<span class=\"text-purple-500 font-bold\">0.8秒間</span>の<span class=\"text-purple-500 font-bold\">スネア効果</span>と<span class=\"text-orange-500 font-bold\">60</span>の魔法ダメージ(<span class=\"text-orange-500 font-bold\">60</span> + <span class=\"text-purple-500 font-bold\">50%AP</span>)を与える。モンスターには<span class=\"text-emerald-500 font-bold\">180%のダメージ</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "14",
+              "13",
+              "12",
+              "11"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "60",
+              "95",
+              "130",
+              "165"
+            ]
+          },
+          {
+            "label": "スネア効果時間",
+            "values": [
+              "0.8",
+              "0.95",
+              "1.1",
+              "1.25"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "苗木投げ",
+      "tags": [
+        "魔法"
+      ],
+      "cooldown_text": "14秒",
+      "description": "苗木を投げる。苗木は落ちた場所で20秒間、敵を監視する。苗木は周囲の敵を追いかけ、敵に到達すると爆発して<span class=\"text-orange-500 font-bold\">60の魔法ダメージ</span> (<span class=\"text-orange-500 font-bold\">60 + 25%AP</span> + <span class=\"text-orange-500 font-bold\">6%増加HP</span>) を与え、周囲の敵に<span class=\"text-blue-500 font-bold\">30%のスロウ効果</span>を付与する。<br>茂みに配置した場合は30秒間監視を行う。対象に到達した際の爆発が大きくなり、<span class=\"text-orange-500 font-bold\">200%の魔法ダメージ</span>を与えて、3秒間、命中した敵に<span class=\"text-blue-500 font-bold\">30%のスロウ効果</span> (<span class=\"text-blue-500 font-bold\">+増加1.5%HP</span> + <span class=\"text-blue-500 font-bold\">増加100ごとに1%AP</span>) を付与する。<br>苗木は茂みに配置されたかどうかに関係なく、ミニオンには<span class=\"text-orange-500 font-bold\">130%のダメージ</span>を与える。<br>苗木はモンスターに最大で<span class=\"text-orange-500 font-bold\">300のダメージ</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "60",
+              "90",
+              "120",
+              "150"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "大地の捕縛",
+      "tags": [
+        "妨害",
+        "魔法"
+      ],
+      "cooldown_text": "80秒",
+      "description": "ゆっくりと移動する巨大な波を召喚し、<span class=\"text-orange-500 font-bold\">175の魔法ダメージ</span>(<span class=\"text-white font-bold\">175</span> + <span class=\"text-purple-500 font-bold\">65%AP</span>)を与え、触れた敵に<span class=\"text-purple-500 font-bold\">0.8秒間</span>、<span class=\"text-purple-500 font-bold\">スネア効果</span>を付与する。スネア効果時間は次の移動距離に応じて増加する。このスキルが敵チャンピオンに命中すると、自分の<span class=\"text-orange-500 font-bold\">移動速度が40%増加</span>する。この移動速度は2秒かけて徐々に元に戻る。新たな対象に命中すると、この効果時間がリフレッシュされる。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "80",
+              "75",
+              "70"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "175",
+              "250",
+              "325"
+            ]
+          },
+          {
+            "label": "移動速度",
+            "values": [
+              "40%",
+              "50%",
+              "60%"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "狩鬼道",
+      "tags": [
+        "自動効果"
+      ],
+      "cooldown_text": null,
+      "description": "鋼と霊: 通常攻撃2回ごとに、そのダメージの50%を代わりに<span class=\"text-purple-500 font-bold\">魔法ダメージ</span>として与える。<br><br>不屈の心: <span class=\"text-orange-500 font-bold\">クリティカル率</span>が倍になる。<br><br>100%を超えた分のクリティカル率は攻撃力に変換され、クリティカル率1%あたり攻撃力が0.6増加する。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "斬命刀",
+      "tags": [
+        "物理"
+      ],
+      "cooldown_text": "4秒",
+      "description": "前方に突きを行い、<span class=\"text-orange-500 font-bold\">84の物理ダメージ</span>(30 + <span class=\"text-orange-500 font-bold\">100%</span>)を与える。突きで敵にダメージを与えると「つむじ風」のスタックを獲得する。2スタックで「斬命刀」使用時に前方にダッシュし、「つむじ風」を発生させて敵を<span class=\"text-purple-500 font-bold\">ノックアップ</span>する。<br><br>「斬命刀」は通常攻撃扱いで<span class=\"text-orange-500 font-bold\">クリティカル判定</span>があり、その際は追加ダメージを与え、命中したすべてのユニットに<span class=\"text-purple-500 font-bold\">通常攻撃時効果</span>を適用する。このスキルのクールダウンと詠唱時間は攻撃速度で短縮される。<br>モンスターには65%のダメージを与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "30",
+              "50",
+              "70",
+              "90"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "霊断刀",
+      "tags": [
+        "物理"
+      ],
+      "cooldown_text": "14秒",
+      "description": "扇状になぎ払い、25+対象の最大体力の11%にあたる<span class=\"text-orange-500 font-bold\">物理ダメージ</span>と<span class=\"text-purple-500 font-bold\">魔法ダメージ</span>を与える。<br><br>なぎ払いが敵に命中した場合は1.5秒間<span class=\"text-green-500 font-bold\">45</span>(45 + <span class=\"text-orange-500 font-bold\">80%増加</span>)の耐久値のシールドを獲得する。このシールド量はチャンピオンに命中すると100%増加し、さらに2体目以降に命中したチャンピオン1体につき40%増加する。<br><br>ミニオンには最低でも60のダメージを与える。<br>モンスターには最大で30のダメージを与える。<br>クールダウンと詠唱時間は攻撃速度で短縮される。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "25",
+              "35",
+              "45",
+              "55"
+            ]
+          },
+          {
+            "label": "最大体力反映率",
+            "values": [
+              "11%",
+              "12%",
+              "13%",
+              "14%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "縛魂の解放",
+      "tags": [
+        "機動性",
+        "バフ"
+      ],
+      "cooldown_text": "20秒",
+      "description": "前方にダッシュして霊魂形態となり、5秒間幽体離脱する。霊魂形態の間は効果時間をかけて移動速度が10%増加し、通常攻撃またはスキルでダメージを与えたチャンピオンをマークする。<br><br>このスキルが終了すると肉体に戻され、効果時間中に自分が与えたダメージの24%をマークした敵に確定ダメージとして与える。<br><br>再発動:このスキルを早めに終了する。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "20",
+              "17",
+              "14",
+              "11"
+            ]
+          },
+          {
+            "label": "ダメージ反映率",
+            "values": [
+              "24%",
+              "28%",
+              "32%",
+              "36%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "冥封一閃",
+      "tags": [
+        "物理",
+        "妨害"
+      ],
+      "cooldown_text": "80秒",
+      "description": "進路上にいたすべての敵に攻撃して244(200 + <span class=\"text-orange-500 font-bold\">80%</span>)の<span class=\"text-orange-500 font-bold\">物理ダメージ</span>と<span class=\"text-purple-500 font-bold\">魔法ダメージ</span>を与え、最後に命中したチャンピオンの背後に瞬間移動して自分の方向に引き寄せる。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "80",
+              "70",
+              "60"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "200",
+              "350",
+              "500"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

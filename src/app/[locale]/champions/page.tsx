@@ -1,0 +1,273 @@
+'use client';
+
+import { Link } from "@/i18n/routing";
+import { useEffect, useState, useMemo } from 'react';
+import { createClient } from '@supabase/supabase-js';
+import { Search, Users, Star, Target, Shield, Zap, Crosshair, HeartPulse, Sparkles, ArrowRight } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+interface ChampionData {
+  id: string;
+  key: string;
+  name: string;
+  title: string;
+  blurb: string;
+  tags: string[];
+  info: {
+    attack: number;
+    defense: number;
+    magic: number;
+    difficulty: number;
+  };
+}
+
+interface ChampionStat {
+  champion_name_en: string;
+  tier: string;
+  win_rate: number;
+  role: string;
+}
+
+export default function ChampionsPage() {
+  const t = useTranslations("Champions");
+  const r = useTranslations("Role");
+  const locale = useLocale();
+  const [champions, setChampions] = useState<ChampionData[]>([]);
+  const [tierData, setTierData] = useState<Record<string, ChampionStat[]>>({});
+  const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeFilter, setActiveFilter] = useState('All');
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const langCode = locale === 'ja' ? 'ja_JP' : 'en_US';
+        // Fetch from DataDragon dynamically based on locale
+        const ddRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/16.10.1/data/${langCode}/champion.json`);
+        const ddData = await ddRes.json();
+        const champsArray = Object.values(ddData.data) as ChampionData[];
+        
+        // 強制的にNorraを追加（確実なハードコード）
+        const hasNorra = champsArray.some(c => c.id === 'Norra');
+        if (!hasNorra) {
+          champsArray.push({
+            id: 'Norra',
+            key: 'Norra',
+            name: langCode === 'ja_JP' ? 'ノラ' : 'Norra',
+            title: 'Wild Rift Exclusive',
+            blurb: 'Wild Rift専用のチャンピオンです。',
+            tags: ['Mage', 'Support'],
+            info: { attack: 2, defense: 3, magic: 8, difficulty: 5 }
+          });
+        }
+        
+        // Fetch from Supabase for Tier integration
+        const existingIds = new Set(champsArray.map(c => c.id));
+        
+        // Fetch tier data to know which champs exist in WR
+        const { data } = await supabase.from('champion_stats').select('*');
+        if (data) {
+          const grouped = data.reduce((acc, curr) => {
+            if (!acc[curr.champion_name_en]) acc[curr.champion_name_en] = [];
+            acc[curr.champion_name_en].push(curr);
+            return acc;
+          }, {} as Record<string, any[]>);
+          
+          setTierData(grouped);
+          
+          // Add missing champions (e.g. Norra)
+          Object.keys(grouped).forEach(champId => {
+            if (!existingIds.has(champId)) {
+              console.log('Adding missing champion:', champId);
+              // ティアデータに含まれる日本語名を取得（先頭のレコードを使用）
+              const nameJa = grouped[champId][0]?.champion_name || champId;
+              
+              champsArray.push({
+                id: champId,
+                key: champId,
+                name: langCode === 'ja_JP' ? nameJa : champId,
+                title: 'Wild Rift Exclusive',
+                blurb: 'Wild Rift専用のチャンピオンです。',
+                tags: [grouped[champId][0]?.role || 'Mage'],
+                info: { attack: 5, defense: 5, magic: 5, difficulty: 5 }
+              } as ChampionData);
+            }
+          });
+
+          // ワイリフ未実装キャラの除外（groupedにキーがあるか判定）
+          const filteredChampsArray = champsArray.filter(champ => !!grouped[champ.id] || champ.id === 'Norra' || champ.id === 'Heimerdinger');
+          setChampions(filteredChampsArray);
+        } else {
+          setChampions(champsArray);
+        }
+
+        console.log('Final champsArray length:', champions.length);
+      } catch (err) {
+        console.error('Failed to fetch champions:', err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchData();
+  }, []);
+
+  const roles = [
+    { id: 'All', label: 'All', icon: <Users size={16} /> },
+    { id: 'Fighter', label: 'Fighter', icon: <Target size={16} /> },
+    { id: 'Tank', label: 'Tank', icon: <Shield size={16} /> },
+    { id: 'Mage', label: 'Mage', icon: <Sparkles size={16} /> },
+    { id: 'Assassin', label: 'Assassin', icon: <Zap size={16} /> },
+    { id: 'Marksman', label: 'Marksman', icon: <Crosshair size={16} /> },
+    { id: 'Support', label: 'Support', icon: <HeartPulse size={16} /> },
+  ];
+
+  const filteredChampions = useMemo(() => {
+    const result = champions.filter(champ => {
+      // データベース（ティア表）に存在しないチャンピオンは表示しない
+      // 大文字小文字の違いを吸収
+      const statsEntry = Object.entries(tierData).find(([key]) => key.toLowerCase() === champ.id.toLowerCase());
+      const stats = statsEntry ? statsEntry[1] : [];
+      
+      // 確実な安全装置：Norraはデータが無くても強制的に表示リストに入れる
+      if (stats.length === 0 && champ.id !== 'Norra') return false;
+
+      const matchesSearch = champ.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                            champ.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                            champ.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                            (champ.id === 'Norra' && 'ノラ'.includes(searchQuery));
+      const matchesFilter = activeFilter === 'All' || champ.tags.includes(activeFilter);
+      return matchesSearch && matchesFilter;
+    }).sort((a, b) => a.name.localeCompare(b.name));
+    
+    return result;
+  }, [champions, searchQuery, activeFilter, tierData]);
+
+  const renderStars = (difficulty: number) => {
+    // Difficulty is 1-10. Let's map to 1-3 stars.
+    let stars = 1;
+    if (difficulty > 3) stars = 2;
+    if (difficulty > 7) stars = 3;
+    
+    return (
+      <div className="flex text-amber-400">
+        {[...Array(3)].map((_, i) => (
+          <Star key={i} size={14} className={i < stars ? "fill-amber-400" : "text-slate-200"} />
+        ))}
+      </div>
+    );
+  };
+
+  const getRoleColor = (role: string) => {
+    switch (role) {
+      case 'TOP': return 'bg-orange-100 text-orange-700 border-orange-200';
+      case 'JUNGLE': return 'bg-emerald-100 text-emerald-700 border-emerald-200';
+      case 'MID': return 'bg-blue-100 text-blue-700 border-blue-200';
+      case 'ADC': return 'bg-rose-100 text-rose-700 border-rose-200';
+      case 'SUPPORT': return 'bg-teal-100 text-teal-700 border-teal-200';
+      default: return 'bg-slate-100 text-slate-700 border-slate-200';
+    }
+  };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-[50vh]">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-7xl mx-auto space-y-8 pb-12">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+        <div className="flex items-center gap-3">
+          <div className="p-3 bg-indigo-100 text-indigo-600 rounded-xl shadow-inner">
+            <Users size={28} />
+          </div>
+          <div className="mb-8">
+          <h1 className="text-3xl font-black text-slate-800 tracking-tight mb-2">
+            {t('title')}
+          </h1>
+          <p className="text-slate-500 font-medium">
+            {t('subtitle')}
+          </p>
+        </div>
+        </div>
+
+        <div className="relative">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
+          <input
+            type="text"
+            placeholder={t('searchPlaceholder')}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full sm:w-64 pl-10 pr-4 py-2 bg-slate-100 border-none rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none transition-shadow text-slate-700 placeholder-slate-400 font-medium"
+          />
+        </div>
+      </div>
+
+      {/* Role Filters */}
+      <div className="flex flex-wrap gap-2 bg-white p-2 rounded-xl border border-slate-200 shadow-sm">
+        {roles.map(role => (
+          <button
+            key={role.id}
+            onClick={() => setActiveFilter(role.id)}
+            className={`flex items-center justify-center gap-2 flex-1 py-2 px-3 rounded-lg font-bold text-sm transition-all duration-200 ${
+              activeFilter === role.id
+                ? 'bg-indigo-600 text-white shadow-md'
+                : 'bg-transparent text-slate-500 hover:bg-slate-50 hover:text-slate-700'
+            }`}
+          >
+            {role.icon}
+            <span className="hidden sm:inline">{role.label}</span>
+          </button>
+        ))}
+      </div>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+        {filteredChampions.map(champion => {
+          return (
+            <Link 
+              key={champion.id} 
+              href={`/champions/${champion.id}`} 
+              className="group relative rounded-3xl bg-white/60 backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(99,102,241,0.15)] transition-all duration-500 border border-white/80 overflow-hidden flex flex-col items-center p-6 hover:-translate-y-2"
+            >
+              <div className="relative w-24 h-24 sm:w-28 sm:h-28 mb-4 rounded-[1.25rem] overflow-hidden shadow-inner bg-slate-100 group-hover:shadow-lg transition-all duration-500">
+                <img 
+                  src={champion.id === 'Norra' ? `/images/champions/Norra.avif` : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champion.id}.png`}
+                  alt={champion.name}
+                  className="w-full h-full object-cover scale-[1.02] group-hover:scale-110 transition-transform duration-700"
+                  onError={(e) => {
+                    // Fallback to local image if sprite fails
+                    (e.target as HTMLImageElement).src = `/images/champions/${champion.id}.avif`;
+                    (e.target as HTMLImageElement).onerror = null;
+                  }}
+                />
+              </div>
+              <h3 className="text-base font-bold text-slate-800 text-center tracking-tight group-hover:text-indigo-600 transition-colors">
+                {champion.name}
+              </h3>
+              
+              <div className="absolute top-4 right-4 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-400 ease-out">
+                <div className="bg-white/90 backdrop-blur text-indigo-600 rounded-full p-2 shadow-sm border border-slate-100">
+                  <ArrowRight size={14} strokeWidth={3} />
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+      
+      {filteredChampions.length === 0 && (
+        <div className="text-center py-20 bg-white rounded-2xl border border-slate-200">
+          <Users className="mx-auto h-12 w-12 text-slate-300 mb-3" />
+          <h3 className="text-lg font-bold text-slate-800">見つかりませんでした</h3>
+          <p className="text-slate-500">検索条件に一致するチャンピオンがいません。</p>
+        </div>
+      )}
+    </div>
+  );
+}

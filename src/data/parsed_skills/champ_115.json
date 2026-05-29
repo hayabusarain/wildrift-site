@@ -1,0 +1,198 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "無慈悲の嵐",
+      "tags": [
+        "自動効果",
+        "魔法"
+      ],
+      "cooldown_text": null,
+      "description": "スキルまたは通常攻撃でダメージを与えるたびに6秒間攻撃速度が<span class=\"text-emerald-500 font-bold\">5%(5% + 4%攻撃速度)</span>増加する。最大5スタック。<br>5スタックになるとボリベアの爪が雷で発火し、通常攻撃時に自分からもっとも近い4体の敵に追加で<span class=\"text-purple-500 font-bold\">11(11[レベル] - 11[AP] + 40%AP)</span>の魔法ダメージを与える。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "稲妻の猛攻",
+      "tags": [
+        "物理",
+        "バフ"
+      ],
+      "cooldown_text": "13秒",
+      "description": "4秒間、移動速度が<span class=\"text-emerald-500 font-bold\">10%</span>、敵チャンピオンに向かっている場合は<span class=\"text-emerald-500 font-bold\">20%</span>増加する。発動後最初に打つ通常攻撃が対象に<span class=\"text-orange-500 font-bold\">(15 + 100%増加物理ダメージ)の物理ダメージ</span>を与え、1秒間対象を<span class=\"text-yellow-500 font-bold\">スタン</span>させる。<br>対象を<span class=\"text-yellow-500 font-bold\">スタン</span>させる前に敵から<span class=\"text-orange-500 font-bold\">移動不能効果</span>を受けると、「稲妻の猛攻」の効果時間の減少が一時停止する。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "13",
+              "12",
+              "11",
+              "10"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "15",
+              "40",
+              "65",
+              "90"
+            ]
+          },
+          {
+            "label": "移動速度",
+            "values": [
+              "20",
+              "30",
+              "40",
+              "50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "激昂の斬撃",
+      "tags": [
+        "物理"
+      ],
+      "cooldown_text": "5秒",
+      "description": "敵に踏みつき、<span class=\"text-orange-500 font-bold\">67の物理ダメージ</span>(<span class=\"text-orange-500 font-bold\">5</span> + <span class=\"text-orange-500 font-bold\">100%AD</span> + <span class=\"text-emerald-500 font-bold\">6.5%増加HP</span>)を与える。チャンピオンか大型モンスターに踏みついた場合は8秒間、<span class=\"text-purple-500 font-bold\">「撃猛」</span>状態になる。<br><span class=\"text-purple-500 font-bold\">「撃猛」</span>状態中にこのスキルを使用すると、与えるダメージが<span class=\"text-orange-500 font-bold\">108の物理ダメージ</span>(<span class=\"text-orange-500 font-bold\">8</span> + <span class=\"text-orange-500 font-bold\">160%AD</span> + <span class=\"text-emerald-500 font-bold\">10.4%増加HP</span>)に増加し、自分の体力を<span class=\"text-emerald-500 font-bold\">20</span>(<span class=\"text-emerald-500 font-bold\">20</span> + <span class=\"text-emerald-500 font-bold\">減少体力の5%</span>)回復する。<br>このスキルは通常攻撃時効果を適用する。<br>モンスターには80%のダメージを与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "コスト",
+            "values": [
+              "35",
+              "40",
+              "45",
+              "50"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "5",
+              "30",
+              "55",
+              "80"
+            ]
+          },
+          {
+            "label": "回復",
+            "values": [
+              "20",
+              "30",
+              "40",
+              "50"
+            ]
+          },
+          {
+            "label": "強化ダメージ",
+            "values": [
+              "8",
+              "48",
+              "88",
+              "128"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "天破の一撃",
+      "tags": [
+        "魔法",
+        "スロウ"
+      ],
+      "cooldown_text": "13秒",
+      "description": "雷雲を召喚して稲妻を落とし、<span class=\"text-orange-500 font-bold\">80 + 50%AP</span> + <span class=\"text-emerald-500 font-bold\">対象の最大体力の11%</span>の魔法ダメージを与え、2秒間、<span class=\"text-purple-500 font-bold\">40%のスロウ</span>を付与する。<br>自分が効果範囲内にいた場合は、2.5秒間、<span class=\"text-orange-500 font-bold\">97(75%) + 最大体力の14%</span>の耐久値のシールドを獲得する。<br>チャンピオン以外に対するダメージは<span class=\"text-orange-500 font-bold\">150</span>が上限。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "80",
+              "110",
+              "140",
+              "170"
+            ]
+          },
+          {
+            "label": "モンスターに対する最大ダメージ",
+            "values": [
+              "150",
+              "250",
+              "350",
+              "450"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "嵐を起こす者",
+      "tags": [
+        "[物理]",
+        "[バフ]"
+      ],
+      "cooldown_text": "90秒",
+      "description": "変身して指定地点に飛びかかり、<span class=\"text-white font-bold\">12秒間</span>、<span class=\"text-white font-bold\">体力</span>が<span class=\"text-purple-500 font-bold\">17</span>、射程が<span class=\"text-purple-500 font-bold\">50</span>増加する。<br>着地時に大地を砕き、周囲のタワーを<span class=\"text-white font-bold\">3秒間無効化</span>して、<span class=\"text-orange-500 font-bold\">300 + 100%ボーナスAD</span>の物理ダメージを与える。周囲の敵は<span class=\"text-white font-bold\">50%</span>の<span class=\"text-purple-500 font-bold\">スロウ効果</span>を受ける。この効果は<span class=\"text-white font-bold\">1秒かけて元に戻る</span>。自分の真下にいた敵は<span class=\"text-orange-500 font-bold\">300 + 100%ボーナスAD + 210%AP</span>の物理ダメージを受ける。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "90",
+              "80",
+              "70"
+            ]
+          },
+          {
+            "label": "体力",
+            "values": [
+              "175",
+              "350",
+              "525"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "300",
+              "500",
+              "700"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

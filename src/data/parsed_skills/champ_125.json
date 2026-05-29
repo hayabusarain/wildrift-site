@@ -1,0 +1,190 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "神秘の翼",
+      "tags": [
+        "自動効果",
+        "バフ"
+      ],
+      "cooldown_text": "35秒",
+      "description": "35秒(クールダウン)ごとに<span class=\"text-emerald-500 font-bold\">31の耐久値のシールド</span>(31 + <span class=\"text-purple-500 font-bold\">80%AP</span>)を獲得する。敵チャンピオンに通常攻撃を行うかスキルを使用すると、このクールダウンが1秒短縮される。<br><br>「愛の跳躍」 - <span class=\"text-yellow-500 font-bold\">ザヤ</span>とラカンはお互いのリコールに加わることができる。その際は、先に始めたりコールの終了時に両者とも出撃地点に戻ることができる。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "キラリ羽根",
+      "tags": [
+        "魔法",
+        "回復"
+      ],
+      "cooldown_text": "10秒",
+      "description": "魔法の羽根を投げて、最初に当たった敵ユニットに<span class=\"text-cyan-400 font-bold\">90の魔法ダメージ</span>(90 + <span class=\"text-purple-500 font-bold\">60%AP</span>)を与える。<br><br>羽根が敵チャンピオンかエピックモンスターに当たると、3秒後、または自分か味方に触れた時に、自分と周囲の味方の体力を<span class=\"text-emerald-500 font-bold\">56</span>(50 + 6 + <span class=\"text-purple-500 font-bold\">70%AP</span>)回復する。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "10",
+              "9",
+              "8",
+              "7"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "90",
+              "150",
+              "210",
+              "270"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "華麗なる登場",
+      "tags": [
+        "魔法",
+        "妨害"
+      ],
+      "cooldown_text": "16秒",
+      "description": "指定地点にダッシュする。到着時に空中に舞い上がり、敵に<span class=\"text-cyan-400 font-bold\">70の魔法ダメージ</span>(70 + <span class=\"text-purple-500 font-bold\">45%魔力</span>)を与えて、1秒間ノックアップさせる。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "16",
+              "14",
+              "12",
+              "10"
+            ]
+          },
+          {
+            "label": "コスト",
+            "values": [
+              "50",
+              "60",
+              "70",
+              "80"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "70",
+              "135",
+              "200",
+              "265"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "バトルダンス",
+      "tags": [
+        "機動性",
+        "バフ"
+      ],
+      "cooldown_text": "18秒",
+      "description": "味方チャンピオンのところまで飛び、3秒間<span class=\"text-emerald-500 font-bold\">50の耐久値のシールド</span>(50 + <span class=\"text-purple-500 font-bold\">65%魔力</span>)を付与する。その後5秒間コスト無しで再使用できる。<br><br><span class=\"text-yellow-500 font-bold\">ザヤ</span>に使用するとシールド量が25%増加し、クールダウンが短縮される。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "18",
+              "16",
+              "14",
+              "12"
+            ]
+          },
+          {
+            "label": "コスト",
+            "values": [
+              "60",
+              "70",
+              "80",
+              "90"
+            ]
+          },
+          {
+            "label": "シールド",
+            "values": [
+              "50",
+              "80",
+              "110",
+              "140"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "みんなオレに夢中",
+      "tags": [
+        "魔法",
+        "妨害"
+      ],
+      "cooldown_text": "80秒",
+      "description": "4秒間移動速度が60%増加する。触れた敵に<span class=\"text-cyan-400 font-bold\">100の魔法ダメージ</span>(100 + <span class=\"text-purple-500 font-bold\">50%AP</span>)と1秒間のチャーム効果を与える。これは1ユニットに1回しか発生しない。敵チャンピオンにチャーム効果を与えると一度だけラカンの移動速度を75%増加させる。移動速度は徐々に元に戻る。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "80",
+              "70",
+              "60"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "100",
+              "200",
+              "300"
+            ]
+          },
+          {
+            "label": "チャーム効果時間",
+            "values": [
+              "1",
+              "1.25",
+              "1.5"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

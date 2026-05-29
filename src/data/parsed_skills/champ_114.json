@@ -1,0 +1,208 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "鋼鉄の大使",
+      "tags": [
+        "自動効果",
+        "バフ"
+      ],
+      "cooldown_text": null,
+      "description": "12秒(◆)ごとに、次の通常攻撃でバックラーを投げ、射程距離が350増加して、<span class=\"text-purple-500 font-bold\">20の追加魔法ダメージ</span>(AP)を与える。<br>バックラーは対象に跳ね返り、4秒間近くに落ちる。それを拾うと3秒間、<span class=\"text-orange-500 font-bold\">耐久値86のシールド</span>(<span class=\"text-emerald-500 font-bold\">最大体力の13%HP</span>)(AP)を獲得する。<br>バックラーが対象をキルした場合、または対象が命中前に倒された場合、自動的に自分のところに戻ってくる。敵はバックラーを踏んで壊すことはできない。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "ハンマーショック",
+      "tags": [
+        "物理",
+        "スロウ"
+      ],
+      "cooldown_text": "7 秒",
+      "description": "ハンマーを打ち下ろして<span class=\"text-orange-500 font-bold\">50 (+90%増加攻撃力 + 対象の最大体力9%)の物理ダメージ</span>を与え、足場が不安定なエリアを作り出す。<br>不安定なエリアは敵に<span class=\"text-purple-500 font-bold\">25%のスロウ効果</span>を与える。このエリアは1秒後に爆発して、再度<span class=\"text-orange-500 font-bold\">50 (+90%増加攻撃力 + 対象の最大体力9%)の物理ダメージ</span>を与える。<br>体力に応じたダメージはモンスターに対しては命中ごとに<span class=\"text-yellow-500 font-bold\">40</span>が上限となる。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "7",
+              "6",
+              "5",
+              "4"
+            ]
+          },
+          {
+            "label": "1段目ダメージ",
+            "values": [
+              "50",
+              "70",
+              "90",
+              "110"
+            ]
+          },
+          {
+            "label": "スロウ",
+            "values": [
+              "25%",
+              "30%",
+              "35%",
+              "40%"
+            ]
+          },
+          {
+            "label": "2段目ダメージ",
+            "values": [
+              "50",
+              "70",
+              "90",
+              "110"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "ステッドファスト",
+      "tags": [
+        "スロウ",
+        "バフ"
+      ],
+      "cooldown_text": "19秒",
+      "description": "自動効果: 物理防御が<span class=\"text-yellow-500 font-bold\">12%</span>、魔法防御が<span class=\"text-blue-500 font-bold\">12%</span>増加する。自分の体力が<span class=\"text-red-500 font-bold\">40%</span>未満の場合は、このボーナスが<span class=\"text-yellow-500 font-bold\">2倍</span>になる。<br>発動効果: 移動速度が<span class=\"text-emerald-500 font-bold\">40%</span>増加し、<span class=\"text-red-500 font-bold\">2秒間</span>の間に周囲の敵のダッシュを止めるゾーンを作り出します。このゾーンで止めた敵には<span class=\"text-orange-500 font-bold\">95の魔法ダメージ (95 + 70%AP)</span>を与えて、<span class=\"text-red-500 font-bold\">2秒間</span>、<span class=\"text-purple-500 font-bold\">釘付け</span>にし、<span class=\"text-blue-500 font-bold\">25%のスロウ効果</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "19",
+              "16.5",
+              "14",
+              "11.5"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "95",
+              "140",
+              "185",
+              "230"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "ヒロイックチャージ",
+      "tags": [
+        "ダッシュ",
+        "妨害"
+      ],
+      "cooldown_text": "13秒",
+      "description": "敵に向かって突撃し、<span class=\"text-orange-500 font-bold\">75の物理ダメージ</span>(<span class=\"text-orange-500 font-bold\">75%増加攻撃力</span>)を与えて突き飛ばす。<br>地形にぶつけた場合、対象を<span class=\"text-orange-500 font-bold\">1.7秒</span>スタンさせ、<span class=\"text-orange-500 font-bold\">75の物理ダメージ</span>(<span class=\"text-orange-500 font-bold\">75%増加攻撃力</span>)を追加で与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "13",
+              "12",
+              "11",
+              "10"
+            ]
+          },
+          {
+            "label": "初期ダメージ",
+            "values": [
+              "75",
+              "100",
+              "125",
+              "150"
+            ]
+          },
+          {
+            "label": "衝撃ダメージ",
+            "values": [
+              "75",
+              "100",
+              "125",
+              "150"
+            ]
+          },
+          {
+            "label": "スタン効果時間",
+            "values": [
+              "1.7",
+              "1.8",
+              "1.9",
+              "2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "守護者の鉄槌",
+      "tags": [
+        "妨害",
+        "物理"
+      ],
+      "cooldown_text": "90秒",
+      "description": "長押し: 最大4秒間、ハンマーをチャージして、自分から<span class=\"text-orange-500 font-bold\">15%のスロウ効果</span>を受ける。<br>放す: 地面を引きつけ、衝撃波を発生させて、最初に命中した敵チャンピオンと周囲の敵に<span class=\"text-orange-500 font-bold\">200の物理ダメージ</span> (<span class=\"text-orange-500 font-bold\">200 + 90%AD</span>) を与え、ネクサスに向かってノックバックし、飛んでいる間は対象指定不可にする。射程とノックバック距離はチャージ時間に応じて増加する。<br>チャージしていない叩きつけは、敵に<span class=\"text-orange-500 font-bold\">100の物理ダメージ</span> (<span class=\"text-orange-500 font-bold\">100 + 45%AD</span>) を与え、1秒間ノックアップする。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "90",
+              "80",
+              "70"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "200",
+              "300",
+              "400"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "100",
+              "150",
+              "200"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

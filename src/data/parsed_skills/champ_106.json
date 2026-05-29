@@ -1,0 +1,144 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "ヘクステックの親和性",
+      "tags": [
+        "自動効果",
+        "バフ"
+      ],
+      "cooldown_text": null,
+      "description": "味方のタワーおよび自分が設置した砲台の近くにいると、移動速度が20%増加する。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "H-28G 革新砲",
+      "tags": [
+        "魔法"
+      ],
+      "cooldown_text": "1秒",
+      "description": "砲台を設置する。砲台は徐々にチャージが増加し、周囲の敵を攻撃する。砲台は命中時に<span class=\"text-purple-500 font-bold\">5の魔法ダメージ(5 + 25%AP)</span>を与え、チャージが最大になるとビームを発射して<span class=\"text-purple-500 font-bold\">25の魔法ダメージ(25 + 45%AP)</span>を与える。<br>同時に3個のアクティブな「H-28G革新砲」を設置できる。ハイマーディンガーが一定距離以上離れると、砲台は休止状態になる。<br><br>アップグレード！！！技術拡張で、このスキルが<span class=\"text-orange-500 font-bold\">H-28G超絶砲</span>にアップグレードされる。<br><br>H-28G革新砲のステータス：<br>基本攻撃力: <span class=\"text-orange-500 font-bold\">(110 (+ 3%AD + 45%AP))</span><br>基本体力: <span class=\"text-emerald-500 font-bold\">10HP</span><br>基本物理防御: <span class=\"text-yellow-500 font-bold\">25AR</span><br>モンスターには40%のダメージを与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "5",
+              "10",
+              "15",
+              "20"
+            ]
+          },
+          {
+            "label": "砲台のスキルダメージ",
+            "values": [
+              "25",
+              "45",
+              "65",
+              "85"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "ヘクステック小型ロケット",
+      "tags": [
+        "魔法"
+      ],
+      "cooldown_text": "10秒",
+      "description": "5発のロケット弾を一斉発射して、最初に命中した敵に<span class=\"text-orange-500 font-bold\">60の魔法ダメージ (60 + 60%AP)</span>を与える。ロケットがチャンピオンに命中するたびに、近くのタワーは<span class=\"text-orange-500 font-bold\">20%のチャージ</span>を獲得する。同一のチャンピオンまたはモンスターに1発目以降に追加で命中したロケットは、<span class=\"text-orange-500 font-bold\">20%の魔法ダメージ</span>のみ与える。このダメージはミニオンに対しては<span class=\"text-orange-500 font-bold\">60%増加</span>する。<br><br>アップグレード！！技術拡張により、このスキルはヘクステックロケット弾幕へとアップグレードした。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "10",
+              "9",
+              "8",
+              "7"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "60",
+              "85",
+              "110",
+              "135"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "CH-2超電磁グレネード",
+      "tags": [
+        "魔法",
+        "妨害"
+      ],
+      "cooldown_text": "11秒",
+      "description": "グレネードを投げて指定範囲内に<span class=\"text-purple-500 font-bold\">70の魔法ダメージ(70 + 60%AP)</span>を与え、<span class=\"text-purple-500 font-bold\">2秒間35%のスロウ効果</span>を与える。さらに、中心にいた敵を<span class=\"text-orange-500 font-bold\">1.25秒間スタン</span>させる。<br>チャンピオンに命中すると周囲の割合が最大までチャージされる。<br><br>アップグレード！！：技能拡張で、このスキルが<span class=\"text-purple-500 font-bold\">CH3X種グレネード</span>にアップグレードされる。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "70",
+              "120",
+              "170",
+              "220"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "アップグレード！！！",
+      "tags": [
+        "バフ"
+      ],
+      "cooldown_text": "80秒",
+      "description": "発動効果: 次の通常スキルがアップグレードされる。<br>H-28Q起爆式中型ロケット弾: <br>10秒間アップグレードされた砲台を設置し、3発あたりの魔法ダメージ (<span class=\"text-purple-500 font-bold\">80 + 35%AP</span>) を与える。チャージが最大になると、<span class=\"text-orange-500 font-bold\">100の魔法ダメージ (100 + 60%AP)</span> に増加する。命中すると1秒間スロウ効果を与える。<br>ヘクステックロケット弾幕: <br>複数のロケット弾を4回に分けて発射し、ロケット弾はそれぞれ、最初に命中した敵に <span class=\"text-purple-500 font-bold\">135の魔法ダメージ (135 + 45%AP)</span> を与える。同一のチャンピオンまたはモンスターに2発目より後に命中したロケットは、1発あたり <span class=\"text-purple-500 font-bold\">25%の魔法ダメージ</span> のみ与える。対象に5発のロケットが命中すると、ダメージはさらに減衰する。ロケット弾幕は敵チャンピオンもしくはモンスターに対して最大で <span class=\"text-purple-500 font-bold\">524の魔法ダメージ (524 + 175%AP)</span> を与える。<br>CH-3X超精密グレネード: <br>グレネード弾がバウンドし、3回放電して、それぞれ <span class=\"text-purple-500 font-bold\">100の魔法ダメージ (100 + 60%AP)</span> を与える。スタンとスロウの効果範囲が広がり、グレネード弾は <span class=\"text-orange-500 font-bold\">40%のスロウ効果</span> を敵に与える。<br>再発動: このスキルをキャンセルする。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "80",
+              "70",
+              "60"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

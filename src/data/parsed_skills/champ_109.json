@@ -1,0 +1,199 @@
+{
+  "skills": [
+    {
+      "id": "P",
+      "name": "デュエリスト・ダンス",
+      "tags": [
+        "自動効果",
+        "確定"
+      ],
+      "cooldown_text": null,
+      "description": "2秒後(グランドチャレンジのレベルに応じて)、近くにいる敵チャンピオン1体の急所を明らかにする。<br>急所を攻撃すると対象の<span class=\"text-orange-500 font-bold\">最大体力の3.5%(3.5% + 0.05%増加AD)</span>を<span class=\"text-orange-500 font-bold\">確定ダメージ</span>として与え、自分の体力を<span class=\"text-emerald-500 font-bold\">45回復(HP)</span>し、(グランドチャレンジのレベルに応じて)<span class=\"text-yellow-500 font-bold\">移動速度が30%増加</span>する。この移動速度は1.75秒かけて元に戻る。<br>急所を1つ攻撃するか、16.75秒経過すると、新たな急所が1つ明らかになる。",
+      "table": null
+    },
+    {
+      "id": "Q",
+      "name": "ファント",
+      "tags": [
+        "物理",
+        "機動性"
+      ],
+      "cooldown_text": "12秒",
+      "description": "指定地点に向かってダッシュし、移動した地点から一番近くにいる敵ユニットをレイピアで突いて、<span class=\"text-orange-500 font-bold\">75の物理ダメージ (75 + 110% 追加攻撃力)</span> を与える。対象に攻撃が命中するとファントのクールダウンが50%短縮される。<br>ファントは<span class=\"text-orange-500 font-bold\">急所</span>およびスキル可能な敵を優先して攻撃し、<span class=\"text-orange-500 font-bold\">通常攻撃効果</span>を対象に適用する。<br>モンスターには50%のダメージを与える。ファントはタワーにはダメージを与えることができない。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "12",
+              "10",
+              "8",
+              "6"
+            ]
+          },
+          {
+            "label": "コスト",
+            "values": [
+              "20",
+              "25",
+              "30",
+              "35"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "75",
+              "85",
+              "95",
+              "105"
+            ]
+          },
+          {
+            "label": "増加攻撃力反映率",
+            "values": [
+              "110%",
+              "115%",
+              "120%",
+              "125%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "W",
+      "name": "リポスト",
+      "tags": [
+        "魔法",
+        "スロウ"
+      ],
+      "cooldown_text": "18秒",
+      "description": "0.75秒間、自分が受けるダメージとデバフをすべて無効化する。その後の、指定方向突進を実行し、最初に当たった敵チャンピオンには<span class=\"text-purple-500 font-bold\">120</span>の<span class=\"text-purple-500 font-bold\">魔法ダメージ(120 + 100%AP)</span>を与え、1.5秒間移動速度と攻撃速度を50%低下させる。<br>「リポスト」で行動妨害を防御した場合はスロウの代わりにスタン効果を付与する。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "18",
+              "16",
+              "14",
+              "12"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "120",
+              "170",
+              "220",
+              "270"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "ブレードワーク",
+      "tags": [
+        "バフ",
+        "スロウ"
+      ],
+      "cooldown_text": "11秒",
+      "description": "次の2回の通常攻撃が<span class=\"text-orange-500 font-bold\">強化</span>されて<span class=\"text-orange-500 font-bold\">60%の増加攻撃速度</span>を修得します。最初の通常攻撃は<span class=\"text-purple-500 font-bold\">1秒間30%のスロウ効果</span>を付与しますが、クリティカル判定が無く<span class=\"text-orange-500 font-bold\">なる</span>。2回目の通常攻撃は常に<span class=\"text-red-500 font-bold\">クリティカル</span>になり、<span class=\"text-red-500 font-bold\">170%の物理ダメージ</span>を与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "11",
+              "9",
+              "7",
+              "5"
+            ]
+          },
+          {
+            "label": "コスト",
+            "values": [
+              "30",
+              "35",
+              "40",
+              "45"
+            ]
+          },
+          {
+            "label": "クリティカルダメージ",
+            "values": [
+              "170%",
+              "180%",
+              "190%",
+              "200%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R",
+      "name": "グランドチャレンジ",
+      "tags": [
+        "確定",
+        "バフ"
+      ],
+      "cooldown_text": "70秒",
+      "description": "自動効果: 急所を明らかにするために必要な時間が<span class=\"text-orange-500 font-bold\">0.25秒</span>短縮される。<br>発動効果: <span class=\"text-orange-500 font-bold\">8秒間</span>、敵チャンピオン1体の<span class=\"text-orange-500 font-bold\">4つ</span>の急所をすべて明らかにして、その近くにいる間は<span class=\"text-purple-500 font-bold\">デュエリスト・ダンス</span>の増加移動速度を獲得する。<br><span class=\"text-orange-500 font-bold\">8秒</span>以内に<span class=\"text-orange-500 font-bold\">4つ</span>の急所をすべて攻撃するか、敵チャンピオンが倒れるまでに<span class=\"text-orange-500 font-bold\">1カ所</span>以上攻撃すると、その後<span class=\"text-orange-500 font-bold\">2秒</span>から<span class=\"text-orange-500 font-bold\">5秒間</span>、自身と周囲にいる味方チャンピオンの<span class=\"text-emerald-500 font-bold\">体力</span>が<span class=\"text-emerald-500 font-bold\">毎秒80回復する</span>(80 + 60%追加攻撃力)。この回復時間は、攻撃した急所の数に応じて増加する。<br><span class=\"text-orange-500 font-bold\">4カ所</span>の急所をすべて攻撃すると、対象の最大体力の<span class=\"text-orange-500 font-bold\">14%</span>を確定ダメージとして与える。",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "70",
+              "60",
+              "50"
+            ]
+          },
+          {
+            "label": "回復",
+            "values": [
+              "80",
+              "110",
+              "140"
+            ]
+          },
+          {
+            "label": "急所可視化の時間短縮",
+            "values": [
+              "0.25",
+              "0.5",
+              "0.75"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
