@@ -6,7 +6,7 @@ import { createClient } from '@supabase/supabase-js';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2 } from 'lucide-react';
-import { parseLocalizedText, parseVariables } from '@/utils/localization';
+import { parseLocalizedText, parseVariables, formatSkillDescription } from '@/utils/localization';
 import { PatchTable } from '@/components/patches/PatchTable';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
@@ -388,12 +388,13 @@ export default function ChampionDetailsPage() {
   };
 
   const renderDescriptionWithIcons = (htmlContent: string) => {
-    let replaced = htmlContent;
+    if (!htmlContent) return { __html: '' };
+
+    // 1. Keyword based coloring
+    let replaced = formatSkillDescription(htmlContent);
     
     // 改行コードを <br /> に変換
     replaced = replaced.replace(/\n/g, '<br />');
-    
-    // 1. Keyword based coloring は無効化（ユーザー要望）
     
     // 2. Icon placeholders
     replaced = replaced.replace(/\[ICON_AD\]/g, '<span class="inline-flex items-center justify-center bg-orange-100 text-orange-600 border border-orange-300 rounded px-1 mx-0.5 text-[10px] font-black" title="物理攻撃力 (AD)">⚔️AD</span>');
