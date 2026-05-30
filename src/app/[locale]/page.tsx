@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Trophy, Users, Sparkles, Package, Hexagon, ArrowRight, TrendingUp, History, Calculator, Bell } from "lucide-react";
+import { Trophy, Users, Sparkles, Package, Hexagon, ArrowRight, TrendingUp, History, Calculator, Bell, BookOpen } from "lucide-react";
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
@@ -137,8 +137,14 @@ export default function Home() {
             {t('heroDesc')}
           </p>
           
-          <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-12">
-            {/* The calculator button was here, now moved to grid */}
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-6">
+            <Link 
+              href="/guide" 
+              className="inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-600 hover:to-violet-700 text-white font-extrabold px-8 py-3.5 rounded-2xl shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/35 hover:scale-[1.02] active:scale-[0.98] transition-all transform hover:-translate-y-0.5 duration-200"
+            >
+              <BookOpen size={18} />
+              <span>{locale === 'ja' ? '初心者ガイドを見る' : "Read Beginner's Guide"}</span>
+            </Link>
           </div>
         </div>
       </div>
@@ -222,7 +228,7 @@ export default function Home() {
       </div>
 
       {/* Quick Access Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         <Link href="/champions" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
           <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
             <Users size={24} />
@@ -260,6 +266,16 @@ export default function Home() {
           <div>
             <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-emerald-600 transition-colors">{t('qaCalcTitle')}</h3>
             <p className="text-xs text-slate-500">{t('qaCalcDesc')}</p>
+          </div>
+        </Link>
+
+        <Link href="/guide" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-violet-500 hover:shadow-lg transition-all flex flex-col gap-4">
+          <div className="w-12 h-12 bg-violet-100 text-violet-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <BookOpen size={24} />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-violet-600 transition-colors">{t('qaGuideTitle')}</h3>
+            <p className="text-xs text-slate-500">{t('qaGuideDesc')}</p>
           </div>
         </Link>
       </div>

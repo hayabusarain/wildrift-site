@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/routing";
-import { LayoutDashboard, Map, Calculator, Trophy, Users, Database, Sparkles, Package, Hexagon, History, X } from "lucide-react";
+import { LayoutDashboard, Map, Calculator, Trophy, Users, Database, Sparkles, Package, Hexagon, History, X, BookOpen } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 
 interface SidebarProps {
@@ -79,6 +79,15 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
           >
             <Calculator size={20} />
             <span>{t("calculator")}</span>
+          </Link>
+
+          <Link 
+            href="/guide" 
+            onClick={onClose}
+            className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
+          >
+            <BookOpen size={20} />
+            <span>{t("guide")}</span>
           </Link>
 
         </nav>
