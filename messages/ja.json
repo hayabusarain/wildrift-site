@@ -3,7 +3,7 @@
     "title": "Wild Rift Hub"
   },
   "Sidebar": {
-    "title": "WILD RIFT HUB",
+    "title": "ワイルドリフト ハブ",
     "home": "トップページ",
     "tierList": "Tier List",
     "dashboard": "パッチノート",
@@ -123,7 +123,7 @@
     "filterAdjust": "調整",
     "crossSearchActive": "過去の全パッチバージョンから串刺し検索しています",
     "displayVersion": "表示するバージョン:",
-    "noResults": "条件に一致するパッチノートが見つかりませんでした。"
+    "noResults": "結果が見つかりません。データが見つかりません。"
   },
   "Calculator": {
     "title": "ダメージ＆EHP計算機",

@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "ocr": "node scripts/ocr.js"
+    "ocr": "node scripts/ocr.js",
+    "test": "node scripts/run-e2e-tests.mjs",
+    "compile-data": "node scripts/compile-offline-data.mjs"
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.65",

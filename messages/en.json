@@ -123,7 +123,7 @@
     "filterAdjust": "Adjust",
     "crossSearchActive": "Searching across all past patch versions",
     "displayVersion": "Display version:",
-    "noResults": "No patch notes found matching your criteria."
+    "noResults": "No results. No balance updates found matching your criteria."
   },
   "Calculator": {
     "title": "Damage & EHP Calculator",

@@ -1,0 +1,2442 @@
+[
+  {
+    "version": "6.3",
+    "champion_name": "ニダリー",
+    "champion_name_en": "Nidalee",
+    "change_type": "new",
+    "description": "新チャンピオンとして実装。原生林の奥深くで育った半獣の狩人。人間とパッカー（クーガー）の姿を切り替えて戦う。",
+    "description_en": "New champion release. A shapeshifter who switches between human and cougar forms.",
+    "is_champion": true,
+    "id": "6.3-Nidalee-0"
+  },
+  {
+    "version": "6.3",
+    "champion_name": "セナ",
+    "champion_name_en": "Senna",
+    "change_type": "buff",
+    "description": "魂の赦し: 攻撃されなかった場合、近くの魂が消滅時に自動的に吸収されるように。通常攻撃が他のスキルで中断されないよう操作性を最適化。\nピアシングダークネス: 味方の回復範囲が2.3から2.8に拡大。",
+    "description_en": "Passive now auto-collects un-attacked souls upon expiration. Auto-attack optimization. Q allied heal range increased.",
+    "is_champion": true,
+    "id": "6.3-Senna-1"
+  },
+  {
+    "version": "6.3",
+    "champion_name": "ナサス",
+    "champion_name_en": "Nasus",
+    "change_type": "nerf",
+    "description": "基本ステータス:\n基本攻撃力が62から58に減少。",
+    "description_en": "Base Attack Damage reduced.",
+    "is_champion": true,
+    "id": "6.3-Nasus-2"
+  },
+  {
+    "version": "6.3",
+    "champion_name": "ヴァルス",
+    "champion_name_en": "Varus",
+    "change_type": "nerf",
+    "description": "復讐の化身: キル/アシスト時の増加攻撃速度が低下。\n枯死の矢筒: 通常攻撃の追加魔法ダメージが低下(20/30/40/50 → 15/25/35/45)。",
+    "description_en": "Passive attack speed on takedown/minion kill reduced. W on-hit magic damage reduced.",
+    "is_champion": true,
+    "id": "6.3-Varus-3"
+  },
+  {
+    "version": "6.3",
+    "champion_name": "アッシュ",
+    "champion_name_en": "Ashe",
+    "change_type": "nerf",
+    "description": "レンジャーフォーカス: 攻撃速度増加量が低下(20/30/40/50% → 15/25/35/45%)。\nボレー: 基本ダメージが低下(20/40/60/80 → 20/35/50/65)。",
+    "description_en": "Q attack speed reduced. W base damage reduced.",
+    "is_champion": true,
+    "id": "6.3-Ashe-4"
+  },
+  {
+    "version": "6.3",
+    "champion_name": "バード",
+    "champion_name_en": "Bard",
+    "change_type": "nerf",
+    "description": "宇宙の法則(Q): 基本ダメージが低下(120/160/200/240 → 90/140/190/240)。",
+    "description_en": "Q base damage reduced at lower ranks.",
+    "is_champion": true,
+    "id": "6.3-Bard-5"
+  },
+  {
+    "version": "6.3",
+    "champion_name": "暁光の美徳",
+    "champion_name_en": "RadiantVirtue",
+    "change_type": "new",
+    "description": "新アイテムとして追加。価格: 2850G、最大体力: +300、物理防御: +45、スキルヘイスト: +15。",
+    "description_en": "New item release. Costs 2850g, grants HP, Armor, and Haste.",
+    "is_champion": false,
+    "id": "6.3-RadiantVirtue-6"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "マナ ブーツ",
+    "champion_name_en": "BootsOfMana",
+    "change_type": "nerf",
+    "description": "基本ステータス\n魔力：55 → 魔力：45",
+    "description_en": "Base AP decreased from 55 to 45.",
+    "is_champion": false,
+    "id": "6.3a-BootsOfMana-0"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "グラトナス ブーツ",
+    "champion_name_en": "GluttonousGreaves",
+    "change_type": "nerf",
+    "description": "基本ステータス\n攻撃力：35 → 攻撃力：30",
+    "description_en": "Base AD decreased from 35 to 30.",
+    "is_champion": false,
+    "id": "6.3a-GluttonousGreaves-1"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "バーサーカー ブーツ",
+    "champion_name_en": "BerserkersGreaves",
+    "change_type": "nerf",
+    "description": "基本ステータス\n攻撃力：20 → 攻撃力：15",
+    "description_en": "Base AD decreased from 20 to 15.",
+    "is_champion": false,
+    "id": "6.3a-BerserkersGreaves-2"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "アイオニア ブーツ",
+    "champion_name_en": "IonianBootsOfLucidity",
+    "change_type": "nerf",
+    "description": "基本ステータス \nスキルヘイスト：30 → スキルヘイスト：+20",
+    "description_en": "Ability Haste decreased from 30 to 20.",
+    "is_champion": false,
+    "id": "6.3a-IonianBootsOfLucidity-3"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "ダイナミズム ブーツ",
+    "champion_name_en": "BootsOfDynamism",
+    "change_type": "nerf",
+    "description": "ストライク\n物理防御貫通：10 → 物理防御貫通：8",
+    "description_en": "Armor Penetration decreased from 10 to 8.",
+    "is_champion": false,
+    "id": "6.3a-BootsOfDynamism-4"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "プレート スチールキャップ",
+    "champion_name_en": "PlatedSteelcaps",
+    "change_type": "nerf",
+    "description": "ブロック\nチャンピオンから受ける物理ダメージ軽減量：7%～10% → チャンピオンから受ける物理ダメージ軽減量：3%～10%",
+    "description_en": "Physical damage reduction from champions decreased from 7%-10% to 3%-10%.",
+    "is_champion": false,
+    "id": "6.3a-PlatedSteelcaps-5"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "マーキュリー ブーツ",
+    "champion_name_en": "MercurysTreads",
+    "change_type": "nerf",
+    "description": "ディゾルブ： \nチャンピオンから受ける魔法ダメージを7%～12%軽減 → チャンピオンから受ける魔法ダメージを3%～12%軽減",
+    "description_en": "Magic damage reduction from champions decreased from 7%-12% to 3%-12%.",
+    "is_champion": false,
+    "id": "6.3a-MercurysTreads-6"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "魂の収穫",
+    "champion_name_en": "DarkHarvest",
+    "change_type": "new",
+    "description": "キーストーンルーン：魂の収穫\n体力が50%未満の敵チャンピオンを攻撃すると、アダプティブダメージを与え、その魂を収穫し、「魂の収穫」のダメージが恒久的に10増加する。\n\n「魂の収穫」のダメージ：50 + 「魂」スタック数×10 + 増加攻撃力の25% + 魔力の15%\n\nクールダウン20秒。敵からキルまたはアシストを奪うとクールダウンが1秒にリセットされる。",
+    "description_en": "New Keystone Rune: Dark Harvest. Damaging a champion below 50% HP deals adaptive damage and permanently increases Dark Harvest damage by 10.",
+    "is_champion": false,
+    "id": "6.3a-DarkHarvest-7"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "チェーンアサルト",
+    "champion_name_en": "ChainAssault",
+    "change_type": "new",
+    "description": "覇道：チェーンアサルト\n発動効果スキルで敵を攻撃すると、その敵に印がつき、次の2回の攻撃または発動効果スキルで（20～35 + 増加攻撃力の5% + 魔力の2.5%）の追加アダプティブダメージを与える。（クールダウン15秒）",
+    "description_en": "New Domination Rune: Chain Assault. Hitting an enemy with an active ability marks them, causing the next 2 attacks or abilities to deal bonus adaptive damage.",
+    "is_champion": false,
+    "id": "6.3a-ChainAssault-8"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "タイラント",
+    "champion_name_en": "Tyrant",
+    "change_type": "new",
+    "description": "覇道：タイラント\n体力が50%未満の敵チャンピオンに通常攻撃を行うと、（30～50 + 増加攻撃力の7.5% + 増加魔力の3.5%）の追加アダプティブダメージを与える。（クールダウン10秒）",
+    "description_en": "New Domination Rune: Tyrant. Basic attacks against champions below 50% HP deal bonus adaptive damage.",
+    "is_champion": false,
+    "id": "6.3a-Tyrant-9"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "堅忍不抜",
+    "champion_name_en": "Fortitude",
+    "change_type": "new",
+    "description": "不滅：堅忍不抜\n物理防御と魔法防御が5%増加する。周囲の敵チャンピオン1体ごとに、物理防御と魔法防御が追加で4%増加する（最大3体まで）。スタックが最大になると、スロウ耐性が20%増加する。",
+    "description_en": "New Resolve Rune: Fortitude. Increases Armor and MR by 5%, plus 4% per nearby enemy champion (up to 3). Max stacks grant 20% slow resist.",
+    "is_champion": false,
+    "id": "6.3a-Fortitude-10"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "追い風",
+    "champion_name_en": "Celerity",
+    "change_type": "new",
+    "description": "天啓：追い風 \nすべての増加移動速度が7%増加し、さらに増加移動速度が2%増加する。",
+    "description_en": "New Inspiration Rune: Celerity. Increases all bonus movement speed by 7%, plus an additional 2% bonus MS.",
+    "is_champion": false,
+    "id": "6.3a-Celerity-11"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "アクシオム アルカニスト",
+    "champion_name_en": "AxiomArcanist",
+    "change_type": "new",
+    "description": "天啓：アクシオム アルカニスト \nアルティメットスキルのダメージ、体力回復効果、シールド量が10%増加する（範囲ダメージの場合は5%）。\n\n敵からキルまたはアシストを奪うと、アルティメットスキルの現在のクールダウンが7%短縮される。",
+    "description_en": "New Inspiration Rune: Axiom Arcanist. Increases Ultimate damage, healing, and shielding by 10%. Takedowns refund 7% of current Ultimate cooldown.",
+    "is_champion": false,
+    "id": "6.3a-AxiomArcanist-12"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "敗者の烙印",
+    "champion_name_en": "MarkOfTheWeak",
+    "change_type": "remove",
+    "description": "削除されたルーン \n覇道：敗者の烙印",
+    "description_en": "Removed Domination Rune: Mark of the Weak.",
+    "is_champion": false,
+    "id": "6.3a-MarkOfTheWeak-13"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "オンスロート",
+    "champion_name_en": "Onslaught",
+    "change_type": "remove",
+    "description": "削除されたルーン\n不滅：オンスロート",
+    "description_en": "Removed Resolve Rune: Onslaught.",
+    "is_champion": false,
+    "id": "6.3a-Onslaught-14"
+  },
+  {
+    "version": "6.3a",
+    "champion_name": "狙撃手",
+    "champion_name_en": "Sniper",
+    "change_type": "remove",
+    "description": "削除されたルーン\n天啓：狙撃手",
+    "description_en": "Removed Inspiration Rune: Sniper.",
+    "is_champion": false,
+    "id": "6.3a-Sniper-15"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "ダイブブレイク (ラララランダムミッド)",
+    "champion_name_en": "ARAMDiveBreak",
+    "change_type": "nerf",
+    "description": "ダメージ：30% → 最大体力の25%",
+    "description_en": "Damage decreased from 30% to 25% of maximum health.",
+    "is_champion": false,
+    "id": "6.3b-ARAMDiveBreak-0"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "トキシックアビス (ラララランダムミッド)",
+    "champion_name_en": "ARAMToxicAbyss",
+    "change_type": "nerf",
+    "description": "スタックごとに増加する継続ダメージ：20% → 10%",
+    "description_en": "Damage over time increase per stack reduced from 20% to 10%.",
+    "is_champion": false,
+    "id": "6.3b-ARAMToxicAbyss-1"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "オーバーロード (ラララランダムミッド)",
+    "champion_name_en": "ARAMOverload",
+    "change_type": "buff",
+    "description": "スタックごとの増加率：スキルヘイスト3% → 8%、移動速度5% → 8%",
+    "description_en": "Ability Haste per stack increased from 3% to 8%, Movement Speed per stack increased from 5% to 8%.",
+    "is_champion": false,
+    "id": "6.3b-ARAMOverload-2"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "共鳴撃 (ラララランダムミッド)",
+    "champion_name_en": "ARAMResonatingStrike",
+    "change_type": "buff",
+    "description": "クールダウン：8秒 → 0.5秒",
+    "description_en": "Cooldown significantly reduced from 8s to 0.5s.",
+    "is_champion": false,
+    "id": "6.3b-ARAMResonatingStrike-3"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "影の秘術 (ラララランダムミッド)",
+    "champion_name_en": "ARAMShadowArt",
+    "change_type": "buff",
+    "description": "マーク付与中のダメージ：30% → 50%",
+    "description_en": "Damage while marked increased from 30% to 50%.",
+    "is_champion": false,
+    "id": "6.3b-ARAMShadowArt-4"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "ブルズアイ (ラララランダムミッド)",
+    "champion_name_en": "ARAMBullseye",
+    "change_type": "buff",
+    "description": "ダメージ：50～150 × （1 + 通常攻撃回数×20%） → 50～150×（1 + 通常攻撃回数×40%）",
+    "description_en": "Damage scaling with basic attacks increased from 20% to 40%.",
+    "is_champion": false,
+    "id": "6.3b-ARAMBullseye-5"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "バグ修正 (ラララランダムミッド)",
+    "champion_name_en": "ARAMBugFixes",
+    "change_type": "adjust",
+    "description": "オーグメントの不具合、「救急箱」の回復量とタグ、不死者の握撃の表示などを修正。「超精密シャープシューター」を調整し再導入。",
+    "description_en": "Various bug fixes including augments, First Aid Kit healing, Grasp of the Undying visual bugs. Super Precision Sharpshooter reintroduced.",
+    "is_champion": false,
+    "id": "6.3b-ARAMBugFixes-6"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "金床 (アリーナ)",
+    "champion_name_en": "ArenaAnvil",
+    "change_type": "adjust",
+    "description": "マナ消費と自動回復の補正を最適化。物理攻撃系チャンピオンが魔力系のステータスとアイテムも入手可能に。",
+    "description_en": "Mana cost and regen optimized. AD champions can now roll AP stats and items for more build flexibility.",
+    "is_champion": false,
+    "id": "6.3b-ArenaAnvil-7"
+  },
+  {
+    "version": "6.3b",
+    "champion_name": "血の契約：虐殺 (アリーナ)",
+    "champion_name_en": "ArenaBloodContractSlaughter",
+    "change_type": "remove",
+    "description": "一時的に削除されました。",
+    "description_en": "Temporarily removed.",
+    "is_champion": false,
+    "id": "6.3b-ArenaBloodContractSlaughter-8"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "グウェン",
+    "champion_name_en": "Gwen",
+    "change_type": "buff",
+    "description": "スキップスラッシュ: 強化通常攻撃ダメージが 10 + 魔力の15% から 10 + 魔力の18% に増加。",
+    "description_en": "Skip'n Slash enhanced attack damage increased.",
+    "is_champion": true,
+    "id": "6.3c-Gwen-0"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "アーゴット",
+    "champion_name_en": "Urgot",
+    "change_type": "buff",
+    "description": "コラプトシェル: 基本ダメージが増加。\nパージ: 基本ダメージが増加。",
+    "description_en": "Corrosive Charge and Purge base damage increased.",
+    "is_champion": true,
+    "id": "6.3c-Urgot-1"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "マルファイト",
+    "champion_name_en": "Malphite",
+    "change_type": "buff",
+    "description": "基本攻撃力が増加。\nグラウンドスラム: 基本ダメージと攻撃速度の低下率が増加。",
+    "description_en": "Base AD increased. Ground Slam base damage and attack speed reduction increased.",
+    "is_champion": true,
+    "id": "6.3c-Malphite-2"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "オレリオン・ソル",
+    "champion_name_en": "AurelionSol",
+    "change_type": "buff",
+    "description": "天空への飛翔: マナコストが減少し、星炎の息吹のダメージが増加。\n特異点: 敵を閉じ込めた際の星屑獲得スタックが増加。",
+    "description_en": "Astral Flight mana cost reduced and damage increased. Singularity grants more Stardust stacks.",
+    "is_champion": true,
+    "id": "6.3c-AurelionSol-3"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ゼド",
+    "champion_name_en": "Zed",
+    "change_type": "buff",
+    "description": "基本物理・魔法防御が増加。\n風魔手裏剣: 進路上にいるその他の敵に与えるダメージ量が増加。",
+    "description_en": "Base armor and MR increased. Razor Shuriken secondary damage increased.",
+    "is_champion": true,
+    "id": "6.3c-Zed-4"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ワーウィック",
+    "champion_name_en": "Warwick",
+    "change_type": "nerf",
+    "description": "野獣の牙: 追加ダメージが攻撃力の130%から120%に減少。",
+    "description_en": "Jaws of the Beast bonus damage decreased.",
+    "is_champion": true,
+    "id": "6.3c-Warwick-5"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ノクターン",
+    "champion_name_en": "Nocturne",
+    "change_type": "nerf",
+    "description": "基本攻撃力が58から54に減少。",
+    "description_en": "Base AD decreased.",
+    "is_champion": true,
+    "id": "6.3c-Nocturne-6"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ゾーイ",
+    "champion_name_en": "Zoe",
+    "change_type": "nerf",
+    "description": "基本攻撃力が減少。\nスパークル！: 基本ダメージが減少。\nスペルシーフ: 基本ダメージが減少。",
+    "description_en": "Base AD decreased. More Sparkles! and Spell Thief base damage decreased.",
+    "is_champion": true,
+    "id": "6.3c-Zoe-7"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ビクター",
+    "champion_name_en": "Viktor",
+    "change_type": "adjust",
+    "description": "スキルのおすすめレベルアップ順が変更 (メイン1、2 → メイン2、1)。",
+    "description_en": "Recommended skill level-up order adjusted.",
+    "is_champion": true,
+    "id": "6.3c-Viktor-8"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ヨードルのライアンドリーの仮面",
+    "champion_name_en": "LiandrysTorment",
+    "change_type": "adjust",
+    "description": "苦悶: 毎秒ダメージが対象の最大体力の0.6%～2.0%から0.3%～2.75%に調整。\n地獄の苦悶: ダメージが低下。",
+    "description_en": "Torment damage scaling adjusted to be weaker early and stronger late. Hell's Torment damage decreased.",
+    "is_champion": false,
+    "id": "6.3c-LiandrysTorment-9"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "暁光の美徳",
+    "champion_name_en": "RadiantVirtue",
+    "change_type": "nerf",
+    "description": "導きの光: 自身の最大体力の増加が12.5%から10%に減少。",
+    "description_en": "Guiding Light max health increase decreased.",
+    "is_champion": false,
+    "id": "6.3c-RadiantVirtue-10"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "リーサルテンポ",
+    "champion_name_en": "LethalTempo",
+    "change_type": "nerf",
+    "description": "スタックごとの攻撃速度増加が近接・遠隔ともに減少。",
+    "description_en": "Attack speed per stack decreased for both melee and ranged.",
+    "is_champion": false,
+    "id": "6.3c-LethalTempo-11"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "秘儀の彗星",
+    "champion_name_en": "ArcaneComet",
+    "change_type": "nerf",
+    "description": "基本ダメージが減少 (23～100 → 18～95)。",
+    "description_en": "Base damage decreased.",
+    "is_champion": false,
+    "id": "6.3c-ArcaneComet-12"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ファーストストライク",
+    "champion_name_en": "FirstStrike",
+    "change_type": "nerf",
+    "description": "与えた追加確定ダメージ量が8%から7%に減少。",
+    "description_en": "Bonus true damage decreased.",
+    "is_champion": false,
+    "id": "6.3c-FirstStrike-13"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "Faker & TheShy コラボ",
+    "champion_name_en": "FakerTheShyCollab",
+    "change_type": "new",
+    "description": "FakerとTheShyのコラボレーションスキンがリリース。",
+    "description_en": "Faker & TheShy collaboration skins released.",
+    "is_champion": false,
+    "id": "6.3c-FakerTheShyCollab-14"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "ラララランダムミッド",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "共鳴撃のクールダウンが0秒に短縮。その他多数のバグ修正とVFX改善。",
+    "description_en": "Resonating Strike cooldown removed. Various bug fixes and VFX improvements.",
+    "is_champion": false,
+    "id": "6.3c-ARAM-15"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "アリーナ",
+    "champion_name_en": "Arena",
+    "change_type": "adjust",
+    "description": "血の契約：虐殺のオムニヴァンプ無限スタック問題を修正して再有効化。金床システムのステータス付与を最適化。一部アイテムのステータス付与バグ修正。",
+    "description_en": "Blood Pact: Carnage re-enabled. Anvil system stat randomization optimized. Item stat bugs fixed.",
+    "is_champion": false,
+    "id": "6.3c-Arena-16"
+  },
+  {
+    "version": "6.3c",
+    "champion_name": "システム・バグ修正",
+    "champion_name_en": "SystemBugfixes",
+    "change_type": "adjust",
+    "description": "ゾーイのスペルシーフ、暁光の美徳のショップ表示、アクシオムアルカニスト関連（シンドラ、ケイン、ワーウィック、ヴィエゴ）、魂の収穫などのシステムバグを修正。",
+    "description_en": "Fixed various system bugs including Zoe's Spell Thief, shop displays, and Axiom Arcane interactions.",
+    "is_champion": false,
+    "id": "6.3c-SystemBugfixes-17"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ユーミ",
+    "champion_name_en": "Yuumi",
+    "change_type": "adjust",
+    "description": "パッシブが「ネコはトモダチ」に変更され、キル/アシストで「フレンドシップ」を獲得して「ベストフレンド」を強化する仕組みに。通常攻撃で回復とシールドの付与が可能。きまぐれミサイルは常にスロウを与え、ダメージが調整された。バビューン！はシールド付与と攻撃速度アップに変更。ファイナルチャプターは命中時に味方を回復し、敵にスロウを付与するように調整。",
+    "description_en": "Reworked passive introducing 'Feline Friendship' to empower 'Best Friend'. Prowling Projectile now always slows. Zoomies changed to grant shield and attack speed. Final Chapter now heals allies and slows enemies on hit.",
+    "is_champion": true,
+    "id": "6.3d-Yuumi-0"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ジェイス",
+    "champion_name_en": "Jayce",
+    "change_type": "buff",
+    "description": "基本体力自動回復が7.5から10に増加。「ライトニング」の通常攻撃ごとの獲得マナと合計ダメージが増加。",
+    "description_en": "Base health regen increased. Lightning mana on attack and total damage increased.",
+    "is_champion": true,
+    "id": "6.3d-Jayce-1"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "グラガス",
+    "champion_name_en": "Gragas",
+    "change_type": "buff",
+    "description": "「ハッピーアワー」と「タル転がし」のクールダウンが短縮。「タル転がし」のミニオンダメージが50%から80%に増加。「飲みすぎ注意」の基本ダメージが増加。",
+    "description_en": "Happy Hour and Barrel Roll cooldowns decreased. Barrel Roll minion damage increased. Drunken Rage base damage increased.",
+    "is_champion": true,
+    "id": "6.3d-Gragas-2"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ゼリ",
+    "champion_name_en": "Zeri",
+    "change_type": "buff",
+    "description": "基本攻撃力が54から58に増加。「スパークサージ」のクールダウンが短縮。",
+    "description_en": "Base AD increased. Spark Surge cooldown decreased.",
+    "is_champion": true,
+    "id": "6.3d-Zeri-3"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ランブル",
+    "champion_name_en": "Rumble",
+    "change_type": "nerf",
+    "description": "「スピットファイア」の基本ダメージとデンジャーゾーンの基本ダメージが減少。",
+    "description_en": "Flamespitter base damage and Danger Zone damage decreased.",
+    "is_champion": true,
+    "id": "6.3d-Rumble-4"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "シヴァーナ",
+    "champion_name_en": "Shyvana",
+    "change_type": "nerf",
+    "description": "「バーンアウト」の毎秒基本ダメージと「フレイムブレス」のドラゴンフォーム時の継続炎ダメージが減少。",
+    "description_en": "Burnout base damage per second and Flame Breath dragon form burn damage decreased.",
+    "is_champion": true,
+    "id": "6.3d-Shyvana-5"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ヴィエゴ",
+    "champion_name_en": "Viego",
+    "change_type": "nerf",
+    "description": "「滅びの王剣」の突きの基本ダメージと「ハートブレイカー」の範囲ダメージが減少。",
+    "description_en": "Blade of the Ruined King base thrust damage and Heartbreaker AoE damage decreased.",
+    "is_champion": true,
+    "id": "6.3d-Viego-6"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "リー・シン",
+    "champion_name_en": "LeeSin",
+    "change_type": "nerf",
+    "description": "「響掌」「共鳴撃」および「龍の怒り」の増加攻撃力反映率が減少。",
+    "description_en": "Sonic Wave/Resonating Strike and Dragon's Rage bonus AD ratios decreased.",
+    "is_champion": true,
+    "id": "6.3d-LeeSin-7"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ルシアン",
+    "champion_name_en": "Lucian",
+    "change_type": "nerf",
+    "description": "「二挺拳銃」の2発目のダメージと「ピアシングライト」の基本ダメージが減少。",
+    "description_en": "Lightslinger second shot damage and Piercing Light base damage decreased.",
+    "is_champion": true,
+    "id": "6.3d-Lucian-8"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ルナーン ハリケーン",
+    "champion_name_en": "RunaansHurricane",
+    "change_type": "buff",
+    "description": "連撃の風：矢1本ごとの物理ダメージが攻撃力の55%から60%に増加。",
+    "description_en": "Wind's Fury: Physical damage per bolt increased from 55% to 60% AD.",
+    "is_champion": false,
+    "id": "6.3d-RunaansHurricane-9"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ルーンのバランス調整",
+    "champion_name_en": "Runes",
+    "change_type": "adjust",
+    "description": "電撃、フリートフットワーク、魂の収穫、溢れる力、追火の調整。",
+    "description_en": "Adjustments to Electrocute, Fleet Footwork, Dark Harvest, Overheal, and Scorch.",
+    "is_champion": false,
+    "id": "6.3d-Runes-10"
+  },
+  {
+    "version": "6.3d",
+    "champion_name": "ゲームモードの変更",
+    "champion_name_en": "GameModes",
+    "change_type": "adjust",
+    "description": "ラララランダムミッド等の調整。",
+    "description_en": "Adjustments to ARAM and other game modes.",
+    "is_champion": false,
+    "id": "6.3d-GameModes-11"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "コグ＝マウ",
+    "champion_name_en": "KogMaw",
+    "change_type": "new",
+    "description": "新チャンピオン。イカシアの荒れ地の奥深くにあるヴォイドの浸食から生まれたコグ＝マウは腐食性の大きな口を持つ好奇心旺盛な腐敗した生物だ。",
+    "description_en": "New Champion: Kog'Maw. A curious and corrosive creature from the Void.",
+    "is_champion": true,
+    "id": "6.3e-KogMaw-0"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ユーミ",
+    "champion_name_en": "Yuumi",
+    "change_type": "buff",
+    "description": "序盤の性能を強化。固有スキル、Q、W、Eの回復・シールド量やダメージが向上。",
+    "description_en": "Early game buffs. Increased damage, healing, and shielding across her abilities.",
+    "is_champion": true,
+    "id": "6.3e-Yuumi-1"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "イブリン",
+    "champion_name_en": "Evelynn",
+    "change_type": "buff",
+    "description": "ジャングル周回がスムーズに。Qの基本ダメージとミニオンに対するダメージが増加。",
+    "description_en": "Smoother jungle clear. Increased Q base damage and damage to minions.",
+    "is_champion": true,
+    "id": "6.3e-Evelynn-2"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "カリスタ",
+    "champion_name_en": "Kalista",
+    "change_type": "buff",
+    "description": "味方と協力して確実に敵を仕留められるように。Eのダメージ増加とRのクールダウン短縮。",
+    "description_en": "Better synergy with allies. Increased E damage and reduced R cooldown.",
+    "is_champion": true,
+    "id": "6.3e-Kalista-3"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ニダリー",
+    "champion_name_en": "Nidalee",
+    "change_type": "nerf",
+    "description": "ダメージ抑制。基本攻撃力低下、クーガー形態のQのダメージが低下。",
+    "description_en": "Damage output reduced. Lowered base AD and cougar Q damage.",
+    "is_champion": true,
+    "id": "6.3e-Nidalee-4"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ティーモ",
+    "champion_name_en": "Teemo",
+    "change_type": "nerf",
+    "description": "キノコの爆発力が低下。QとRの魔力反映率が減少。",
+    "description_en": "Mushroom burst reduced. Lowered AP ratios on Q and R.",
+    "is_champion": true,
+    "id": "6.3e-Teemo-5"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "モルガナ",
+    "champion_name_en": "Morgana",
+    "change_type": "nerf",
+    "description": "スキル連打を抑制。Wによるクールダウン短縮効果が減少。",
+    "description_en": "Skill spamming nerfed. Reduced cooldown refund on W.",
+    "is_champion": true,
+    "id": "6.3e-Morgana-6"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ヴェイン",
+    "champion_name_en": "Vayne",
+    "change_type": "nerf",
+    "description": "機動性を抑制。Qの序盤のクールダウンが延長。",
+    "description_en": "Mobility nerfed. Increased Q cooldown in the early game.",
+    "is_champion": true,
+    "id": "6.3e-Vayne-7"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ブラッドサースター",
+    "champion_name_en": "Bloodthirster",
+    "change_type": "adjust",
+    "description": "価格低下、攻撃力増加、最大体力追加。攻撃速度とライフライン効果が削除。",
+    "description_en": "Adjusted: Lower price, added Max HP, removed Attack Speed and Lifeline passive.",
+    "is_champion": false,
+    "id": "6.3e-Bloodthirster-8"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ファントムダンサー",
+    "champion_name_en": "PhantomDancer",
+    "change_type": "buff",
+    "description": "攻撃速度と移動速度増加の持続時間が6秒に延長、クールダウンが10秒に短縮。",
+    "description_en": "Buffed: Increased buff duration and reduced cooldown.",
+    "is_champion": false,
+    "id": "6.3e-PhantomDancer-9"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "マグネティック ブラスター",
+    "champion_name_en": "MagneticBlaster",
+    "change_type": "adjust",
+    "description": "価格上昇。チャンピオンへのダメージが低下し、ミニオンへの追加ダメージが上昇。",
+    "description_en": "Adjusted: Increased price, lower damage to champions, higher damage to minions.",
+    "is_champion": false,
+    "id": "6.3e-MagneticBlaster-10"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "デス ダンス",
+    "champion_name_en": "DeathsDance",
+    "change_type": "nerf",
+    "description": "物理・魔法ダメージの蓄積量が30%から27%へ低下。",
+    "description_en": "Nerfed: Damage storage reduced from 30% to 27%.",
+    "is_champion": false,
+    "id": "6.3e-DeathsDance-11"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "リーライ クリスタル セプター",
+    "champion_name_en": "RylaisCrystalScepter",
+    "change_type": "nerf",
+    "description": "スロウ効果の持続時間が1秒から0.75秒へ短縮。",
+    "description_en": "Nerfed: Slow duration reduced to 0.75 seconds.",
+    "is_champion": false,
+    "id": "6.3e-RylaisCrystalScepter-12"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "バーサーカー ブーツ",
+    "champion_name_en": "BerserkersGreaves",
+    "change_type": "buff",
+    "description": "通常攻撃命中時の体力回復量が8から10に増加。",
+    "description_en": "Buffed: Increased healing on hit.",
+    "is_champion": false,
+    "id": "6.3e-BerserkersGreaves-13"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "マーキュリー ブーツ",
+    "champion_name_en": "MercurysTreads",
+    "change_type": "nerf",
+    "description": "チャンピオンから受ける魔法ダメージ軽減量が3%～12%から3%～10%に低下。",
+    "description_en": "Nerfed: Reduced magic damage reduction.",
+    "is_champion": false,
+    "id": "6.3e-MercurysTreads-14"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "プレート スチールキャップ",
+    "champion_name_en": "PlatedSteelcaps",
+    "change_type": "nerf",
+    "description": "チャンピオンから受ける物理ダメージ軽減量が3%～10%から3%～9%に低下。",
+    "description_en": "Nerfed: Reduced physical damage reduction.",
+    "is_champion": false,
+    "id": "6.3e-PlatedSteelcaps-15"
+  },
+  {
+    "version": "6.3e",
+    "champion_name": "ガーゴイル エンチャント",
+    "champion_name_en": "GargoyleEnchant",
+    "change_type": "nerf",
+    "description": "シールドの基本量および物理・魔法防御に応じた上限値が低下。",
+    "description_en": "Nerfed: Reduced base shield and bonus shield from resistances.",
+    "is_champion": false,
+    "id": "6.3e-GargoyleEnchant-16"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ザイラ",
+    "champion_name_en": "Zyra",
+    "change_type": "adjust",
+    "description": "リワーク実施。植物の存在感を高める調整。「棘吹草」のステータス調整、追加効果付与。「狂い咲き」が周囲の棘吹草を激昂させるようにリワークされるなど、キット全体が変更。",
+    "description_en": "Reworked to enhance plant presence and impact. Plants trigger item effects, W enrages plants.",
+    "is_champion": true,
+    "id": "6.3f-Zyra-0"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ゼド",
+    "champion_name_en": "Zed",
+    "change_type": "buff",
+    "description": "アサシンとしての扱いやすさを向上するため、気コストを減少。「風魔手裏剣」の気コスト減少、「影分身」の気回復量増加。",
+    "description_en": "Energy costs reduced for Q, energy restore increased for W to make him more accessible.",
+    "is_champion": true,
+    "id": "6.3f-Zed-1"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ケイトリン",
+    "champion_name_en": "Caitlyn",
+    "change_type": "buff",
+    "description": "レーン戦以降の火力を底上げするため、レベルごとの攻撃力増加量を上昇 (4 → 4.5)。",
+    "description_en": "AD growth increased to improve mid-to-late game scaling.",
+    "is_champion": true,
+    "id": "6.3f-Caitlyn-2"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ジンクス",
+    "champion_name_en": "Jinx",
+    "change_type": "buff",
+    "description": "アイテム変更の影響による勝率低下を補うため、「スイッチング！」ロケットのダメージ倍率を上昇。",
+    "description_en": "Q rocket launcher AD ratio increased to compensate for recent item changes.",
+    "is_champion": true,
+    "id": "6.3f-Jinx-3"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ミス・フォーチュン",
+    "champion_name_en": "MissFortune",
+    "change_type": "nerf",
+    "description": "序盤のレーン戦での圧倒的な強さを抑えるため、「ダブルアップ」の基本ダメージと序盤のAD反映率を低下。",
+    "description_en": "Q base damage and early AD ratio reduced to balance her oppressive laning phase.",
+    "is_champion": true,
+    "id": "6.3f-MissFortune-4"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ケイル",
+    "champion_name_en": "Kayle",
+    "change_type": "nerf",
+    "description": "終盤の無敵と高火力が強力すぎるため弱体化。基本移動速度低下、Eの自動効果基本ダメージ低下、Rのダメージと反映率低下。",
+    "description_en": "Base MS decreased, E passive base damage reduced, and R damage/scaling lowered to tone down her late-game godhood.",
+    "is_champion": true,
+    "id": "6.3f-Kayle-5"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "コグ＝マウ",
+    "champion_name_en": "KogMaw",
+    "change_type": "nerf",
+    "description": "中盤のパワースパイクが早すぎるため、序盤の基本攻撃力を低下させ、Wの最大体力割合ダメージを低レベル帯で減少。",
+    "description_en": "Base AD decreased and W max health damage reduced at early ranks to delay his power spike.",
+    "is_champion": true,
+    "id": "6.3f-KogMaw-6"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "アーデント センサー",
+    "champion_name_en": "ArdentCenser",
+    "change_type": "adjust",
+    "description": "サポートの回復とシールド効果が強力すぎたため数値を低下させ、より早く購入できるよう調整。",
+    "description_en": "Healing and shielding numbers reduced, cost likely adjusted for earlier purchase.",
+    "is_champion": false,
+    "id": "6.3f-ArdentCenser-7"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "フロー ウォーター スタッフ",
+    "champion_name_en": "StaffOfFlowingWater",
+    "change_type": "adjust",
+    "description": "回復とシールド効果が強力すぎたため性能を低下させ、ステータスを調整。",
+    "description_en": "Healing and shielding effects reduced, base stats adjusted.",
+    "is_champion": false,
+    "id": "6.3f-StaffOfFlowingWater-8"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "フォビドゥンアイドル",
+    "champion_name_en": "ForbiddenIdol",
+    "change_type": "adjust",
+    "description": "上位アイテムの変更に合わせてステータスを調整。",
+    "description_en": "Stats adjusted in line with its completed items.",
+    "is_champion": false,
+    "id": "6.3f-ForbiddenIdol-9"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "オケアノス トライデント",
+    "champion_name_en": "OceanidsTrident",
+    "change_type": "nerf",
+    "description": "シールド破壊効果は維持しつつ、強力になりすぎていた基本ステータスを引き下げ。",
+    "description_en": "Base stats reduced to balance its strong shield-breaking utility.",
+    "is_champion": false,
+    "id": "6.3f-OceanidsTrident-10"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ジーク コンバージェンス",
+    "champion_name_en": "ZekesConvergence",
+    "change_type": "nerf",
+    "description": "タンクチャンピオンに過剰なダメージと追撃性能を与えていたため弱体化。",
+    "description_en": "Nerfed to reduce the excessive damage and chase potential it gave to tank champions.",
+    "is_champion": false,
+    "id": "6.3f-ZekesConvergence-11"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "プロトベルト エンチャント",
+    "champion_name_en": "ProtobeltEnchant",
+    "change_type": "nerf",
+    "description": "エンチャントアイテムのダメージを減少。",
+    "description_en": "Damage reduced.",
+    "is_champion": false,
+    "id": "6.3f-ProtobeltEnchant-12"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ゲイルフォース",
+    "champion_name_en": "Galeforce",
+    "change_type": "nerf",
+    "description": "エンチャントアイテムのダメージを減少。",
+    "description_en": "Damage reduced.",
+    "is_champion": false,
+    "id": "6.3f-Galeforce-13"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ゴアドリンカー",
+    "champion_name_en": "Goredrinker",
+    "change_type": "nerf",
+    "description": "エンチャントアイテムのダメージを減少。",
+    "description_en": "Damage reduced.",
+    "is_champion": false,
+    "id": "6.3f-Goredrinker-14"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ストライドブレイカー",
+    "champion_name_en": "Stridebreaker",
+    "change_type": "nerf",
+    "description": "エンチャントアイテムのダメージを減少。",
+    "description_en": "Damage reduced.",
+    "is_champion": false,
+    "id": "6.3f-Stridebreaker-15"
+  },
+  {
+    "version": "6.3f",
+    "champion_name": "ハウリングアビス / ARAM",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "ハウリングアビスのマップ調整、ラララランダムミッドの新たなオーグメント追加など。",
+    "description_en": "Howling Abyss map adjustments and new augments added to ARAM.",
+    "is_champion": false,
+    "id": "6.3f-ARAM-16"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "フィズ",
+    "champion_name_en": "Fizz",
+    "change_type": "buff",
+    "description": "ウニトゲストライク: 対象ロジックを最適化することでフィズが進路上の敵をより正確に認識できるようになり、ダメージを与え損なうケースが減少しました。",
+    "description_en": "Urchin Strike: Optimization of targeting logic to reduce missed damage.",
+    "is_champion": true,
+    "id": "7.0a-Fizz-0"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ニダリー",
+    "champion_name_en": "Nidalee",
+    "change_type": "nerf",
+    "description": "ジャンプ（クーガーの心）: 基本ダメージが80/115/150/185から65/100/135/170に低下。クーガー形態でキルまたはマークした対象に使用した際のクールダウン短縮時間が2/1.75/1.5/1.25秒から2.75/2.25/1.75/1.25秒に増加（弱体化）。",
+    "description_en": "Pounce: Base damage decreased. Cooldown refund nerfed.",
+    "is_champion": true,
+    "id": "7.0a-Nidalee-1"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ヴェイン",
+    "champion_name_en": "Vayne",
+    "change_type": "nerf",
+    "description": "タンブル: 追加ダメージが攻撃力の40/50/60/70%から35/45/55/65%に低下。ファイナルアワー: 攻撃力増加が20/30/40から15/25/35に低下。",
+    "description_en": "Tumble: Bonus damage decreased. Final Hour: Bonus AD decreased.",
+    "is_champion": true,
+    "id": "7.0a-Vayne-2"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "スモルダー",
+    "champion_name_en": "Smolder",
+    "change_type": "nerf",
+    "description": "スーパーこげこげブレス: クールダウンが4.5/4/3.5/3秒から5.5/5/4.5/4秒に増加。くしゅん！: くしゃみブラストのダメージが低下。",
+    "description_en": "Super Scorcher Breath: Cooldown increased. Achooo!: Base damage decreased.",
+    "is_champion": true,
+    "id": "7.0a-Smolder-3"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ジリアン",
+    "champion_name_en": "Zilean",
+    "change_type": "nerf",
+    "description": "クロノシフト: クールダウンが90/80/70秒から100/85/70秒に増加。ルーンの復活効果を発動しなかった場合のクールダウン短縮率が15%から10%に低下。",
+    "description_en": "Chronoshift: Cooldown increased. Cooldown refund decreased.",
+    "is_champion": true,
+    "id": "7.0a-Zilean-4"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ルナーン・ハリケーン",
+    "champion_name_en": "RunaansHurricane",
+    "change_type": "buff",
+    "description": "価格が3000ゴールドから2900ゴールドに低下。",
+    "description_en": "Cost decreased from 3000 to 2900 gold.",
+    "is_champion": false,
+    "id": "7.0a-RunaansHurricane-5"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "暁光の美徳",
+    "champion_name_en": "RadiantVirtue",
+    "change_type": "nerf",
+    "description": "導きの光: 秒間回復量が最大体力の3%から2.5%に低下。",
+    "description_en": "Guiding Light: Healing decreased from 3% to 2.5% max HP.",
+    "is_champion": false,
+    "id": "7.0a-RadiantVirtue-6"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ショウジンの矛",
+    "champion_name_en": "SpearOfShojin",
+    "change_type": "nerf",
+    "description": "基本ステータス: 攻撃力が45から40に低下。ドラゴンフォース: 基本スキルヘイストが+25から+20に低下。",
+    "description_en": "AD decreased from 45 to 40. Dragonforce: Basic ability haste decreased from 25 to 20.",
+    "is_champion": false,
+    "id": "7.0a-SpearOfShojin-7"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "超能力プロジェクター",
+    "champion_name_en": "PsychicProjector",
+    "change_type": "nerf",
+    "description": "コンバージョン: 魔力増加量が増加体力の5%から3.5%に低下。",
+    "description_en": "Conversion: AP conversion from bonus HP decreased from 5% to 3.5%.",
+    "is_champion": false,
+    "id": "7.0a-PsychicProjector-8"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "バグ修正",
+    "champion_name_en": "BugFixes",
+    "change_type": "adjust",
+    "description": "モルガナやレネクトンのタグ修正、堅忍不抜の不具合修正など。",
+    "description_en": "Bug fixes including Morgana and Renekton tags, and Perseverance rune.",
+    "is_champion": false,
+    "id": "7.0a-BugFixes-9"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ランダムミッド",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "15分時点でのデス時のリスポーン時間を50秒に調整。イブリン、シヴィア、フィオラ、ヴァイ、ゼド、アカリの与ダメージ調整。",
+    "description_en": "Death timer at 15 min adjusted to 50s. Multiple champion damage adjusted.",
+    "is_champion": false,
+    "id": "7.0a-ARAM-10"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "ラララランダムミッド",
+    "champion_name_en": "UltimateSpellbookARAM",
+    "change_type": "adjust",
+    "description": "キラーヴォイド、ヒットコンボ、オリジン：リーサルテンポのオーグメント追加。複数のオーグメント調整。グウェンの与ダメージ調整。",
+    "description_en": "New augments added and existing augments adjusted. Gwen damage adjusted.",
+    "is_champion": false,
+    "id": "7.0a-UltimateSpellbookARAM-11"
+  },
+  {
+    "version": "7.0a",
+    "champion_name": "アリーナ",
+    "champion_name_en": "Arena",
+    "change_type": "adjust",
+    "description": "ライズ、ヴェイン、ニダリー、レンガーのバランス調整。オーグメント、アイテムのステータス調整。",
+    "description_en": "Multiple champion, augment, and item balance adjustments.",
+    "is_champion": false,
+    "id": "7.0a-Arena-12"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "ノラ",
+    "champion_name_en": "Norra",
+    "change_type": "buff",
+    "description": "ノラは生存力とウェーブクリア能力が他のメイジに比べてやや不足しているため、リスクを背負わずに他のメイジに追いつけるよう、これらの面で強化を行います。あわせて、ノラがランク戦に登場した際にさらに輝けるよう、彼女のメカニクスについても整理とクオリティー向上を実施します。\n\n愛用のトリンケット\nチャンピオンに命中時のクールダウン短縮：1.5秒 → 最大クールダウンの20%\n\n記憶の波動\nチャージ開始時のスロウ効果：25% → 20%\nチャージ中の最大スロウ効果：55% → 30%\nクールダウン：8/7/6/5秒 → 7.5/6.5/5.5/4.5秒\n基本ダメージ：60/110/160/210 → 60/120/180/240\n\nどこでもない場所へ\nスキル発動中のスレッドのサイズ増加効果の持続時間計算を最適化しました。これにより、対象が異次元にいる間は、サイズ増加効果のタイマーが一時停止するようになります。\n\n帰郷のスレッド\n[NEW] モンスターとミニオンには115%のダメージを与える",
+    "description_en": "Enhanced survivability and wave clear. Trinket CD refund adjusted. Skill 1 slow reduced but damage increased and CD reduced. Portal timer optimized. Portal now deals 115% damage to monsters and minions.",
+    "is_champion": true,
+    "id": "7.0c-Norra-0"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "ライズ",
+    "champion_name_en": "Ryze",
+    "change_type": "adjust",
+    "description": "ライズのスキルコンボの対象ロジックを最適化し、攻撃の精度を向上しました。\n\nオーバーロード\n「スペルフラックス→オーバーロード」（スキル3→1）コンボの対象ロジックを調整しました。このコンボを素早く連続で繰り出すとき、「オーバーロード」（スキル1）が「スペルフラックス」（スキル3）のマークが付いた対象を優先して攻撃するようになりました。",
+    "description_en": "Skill target logic optimized for E->Q combo. Q will now prioritize targets marked with E when cast in rapid succession.",
+    "is_champion": true,
+    "id": "7.0c-Ryze-1"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "アーリ",
+    "champion_name_en": "Ahri",
+    "change_type": "adjust",
+    "description": "アーリのスキルの使用感と対象ロジックを最適化し、集団戦でより活躍できるようにしました。\n\nフォックスファイア\nアーリの「フォックスファイア」（スキル2）の対象ロジックを最適化しました。通常攻撃または「チャーム」（スキル3）で敵にマークを付与すると、「フォックスファイア」（スキル2）の拡散が抑えられます。\n\nチャーム\n「チャーム」（スキル3）の操作感を最適化し、「チャーム→フラッシュ」のコンボ（スキル3→フラッシュ）をより簡単に行えるようにすることで、ハイライト級のプレイを生み出しやすくしました。",
+    "description_en": "Optimized skill feel and targeting logic. W targeting logic improved when marking enemies with auto attacks or E. E->Flash combo made easier.",
+    "is_champion": true,
+    "id": "7.0c-Ahri-2"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "バード",
+    "champion_name_en": "Bard",
+    "change_type": "nerf",
+    "description": "バードの序盤のプレッシャーは強力すぎる状態でした。高いダメージと長い通常攻撃の射程により、敵に対して安全にハラスやゾーニングを行えていました。そこで、敵が対抗できる機会を確保できるように調整を行います。\n\n基本ステータス\n射程距離：550 → 500\n\n宇宙の法則\n基本ダメージ：90/140/190/240 → 80/130/180/230\nエネルギー弾の飛翔速度を低下させました。\nエネルギー弾の当たり判定の幅を狭くしました。",
+    "description_en": "Attack range decreased. Q base damage reduced, projectile speed slowed, and hit box width narrowed to reduce early pressure.",
+    "is_champion": true,
+    "id": "7.0c-Bard-3"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "ナサス",
+    "champion_name_en": "Nasus",
+    "change_type": "nerf",
+    "description": "最近のタワーの調整により、ナサスの序盤のファームは安定しましたが、その強力なスロウ効果は対戦相手にとって非常に厄介な存在にもなっています。ナサスのスロウ効果のスケーリング曲線を調整し、自動効果による序盤のサステインを低下させました。これにより、対戦相手が彼の成長を妨げる機会が増えるでしょう。\n\nソウルイーター\n物理ヴァンプ：8/16/24%（チャンピオンレベル1/5/9） → 6/12/18/24%（チャンピオンレベル1/5/9/13）\n\nウィザー\nスロウ効果は最初の4秒間で徐々に増加して45/60/75/90%に達し、最後の1秒間は最大スロウ効果が維持される → スロウ効果は5秒間かけて徐々に増加して45/60/75/90%に達する",
+    "description_en": "Passive physical vamp reduced at early levels. W slow scaling curve adjusted to build up over 5 seconds instead of 4.",
+    "is_champion": true,
+    "id": "7.0c-Nasus-4"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "アッシュ",
+    "champion_name_en": "Ashe",
+    "change_type": "buff",
+    "description": "今回のアップデートでは、アイテムの変更によってマークスマン全体が強化されました。しかし、ここ最近のアッシュのパフォーマンスが芳しくないため、他のマークスマンに追いつけるよう彼女の能力を強化することにしました。\n\n基本ステータス\n基本体力：600 → 630\n\nレンジャーフォーカス\n攻撃速度増加：15/25/35/45% → 20/30/40/50%",
+    "description_en": "Base HP increased. Q attack speed boost increased to help her compete with other marksmen.",
+    "is_champion": true,
+    "id": "7.0c-Ashe-5"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "マスター・イー",
+    "champion_name_en": "MasterYi",
+    "change_type": "nerf",
+    "description": "新アイテムがリフトのゲームプレイに新鮮さをもたらしていることを嬉しく思いますが、その強さは適正な範囲に留めておく必要があります。マスター・イーと「グインソー レイジブレード」のシナジーは想定以上に強力で、カウンタープレイの余地がほとんどありませんでした。そこで、「アルファストライク」のクールダウンを延長し、全体的なダメージも調整することで、スケールは維持しつつも対処しやすくしました。\n\nアルファストライク\nクールダウン：16/15/14/13秒 → 17/16/15/14秒\nダメージ：30/70/110/150 → 20/60/100/140\nモンスターとミニオンへの追加ダメージ：95/125/155/185 → 105/135/165/195",
+    "description_en": "Q cooldown increased and base damage reduced to tone down synergy with Guinsoo's Rageblade. Monster bonus damage increased to compensate for jungle clear.",
+    "is_champion": true,
+    "id": "7.0c-MasterYi-6"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "カタリナ",
+    "champion_name_en": "Katarina",
+    "change_type": "buff",
+    "description": "カタリナは最上位帯では活躍していますが、大多数のプレイヤーにとっては依然として扱いづらく、特に「クイックシルバー エンチャント」の変更による影響が出ています。今回の変更によって序盤から中盤にかけての交戦力と柔軟性が強化され、早期から機動力を活かしてスノーボールを狙えるようになるでしょう。\n\n基本ステータス\n基本物理防御：30 → 34\n\n瞬歩\nクールダウン：14/12/10/8秒 → 11/10/9/8秒",
+    "description_en": "Base armor increased. E cooldown reduced at early levels to improve early-mid game skirmishing.",
+    "is_champion": true,
+    "id": "7.0c-Katarina-7"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "ルインドキング ブレード",
+    "champion_name_en": "BladeOfTheRuinedKing",
+    "change_type": "buff",
+    "description": "「ルインドキング ブレード」は通常攻撃時効果を主軸とするマークスマンにとって重要なアイテムですが、戦闘での有効性は私たちが望む水準に達していません。特に、このアイテムのステータスをより効果的に活用できる近接攻撃チャンピオンと比較すると、その差は明らかです。そのため、遠隔攻撃チャンピオンが使用した際の自動効果を強化し、マークスマン向けのコアアイテムとしての競争力を高めます。",
+    "description_en": "Passive effects enhanced for ranged champions to increase its viability as a core item for marksmen.",
+    "is_champion": false,
+    "id": "7.0c-BladeOfTheRuinedKing-8"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "テルミヌス",
+    "champion_name_en": "Terminus",
+    "change_type": "buff",
+    "description": "終盤の集団戦における通常攻撃時効果中心のマークスマンのパフォーマンスを向上させるため、「テルミヌス」のコストパフォーマンスを強化します。",
+    "description_en": "Cost-effectiveness improved to boost the performance of on-hit marksmen in late-game team fights.",
+    "is_champion": false,
+    "id": "7.0c-Terminus-9"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "ウィッツ エンド",
+    "champion_name_en": "WitsEnd",
+    "change_type": "buff",
+    "description": "「ウィッツ エンド」の効果は遠隔攻撃チャンピオンにとっては弱すぎたため、十分なサステインと回復効果を発揮しにくい状態でした。そこで、遠隔攻撃チャンピオンが使用した際の自動効果を強化します。",
+    "description_en": "Passive effects enhanced for ranged champions to improve sustain and healing.",
+    "is_champion": false,
+    "id": "7.0c-WitsEnd-10"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "デス ダンス",
+    "champion_name_en": "DeathsDance",
+    "change_type": "nerf",
+    "description": "「デス ダンス」がファイターにもたらす生存能力が過剰であったため、コストをわずかに増加させて費用対効果を調整します。",
+    "description_en": "Cost slightly increased to adjust its cost-effectiveness, as it was providing excessive survivability to fighters.",
+    "is_champion": false,
+    "id": "7.0c-DeathsDance-11"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "クイックシルバー エンチャント",
+    "champion_name_en": "QuicksilverEnchant",
+    "change_type": "nerf",
+    "description": "「クイックシルバー エンチャント」はクールダウンが短すぎる上に行動妨害無効の効果時間も長いため、アルティメットスキルの行動妨害に頼るチャンピオンにとって、アイテムのクールダウンの隙を突くのが難しくなっています。また、耐久力の低いチャンピオンがアサシンやファイターによるエンゲージに対抗するのも困難になっています。そこで、行動妨害を得意とするチャンピオンがその強みをもっと発揮できるように、このアイテムを弱体化します。",
+    "description_en": "Weakened to allow CC-reliant champions more opportunities, as its short cooldown and long CC immunity duration were oppressive.",
+    "is_champion": false,
+    "id": "7.0c-QuicksilverEnchant-12"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "不滅パス",
+    "champion_name_en": "Resolve",
+    "change_type": "nerf",
+    "description": "全体のダメージ量を抑えたこともあり、キルタイムが極端に短くならないよう目指しています。しかし、現状としてルーンの「不滅」パスが全体的に強力すぎるため、過度なパワーを持つ一部のルーンを調整し、各クラスの特徴をより的確に強化できる形にします。",
+    "description_en": "Overperforming runes in the Resolve path adjusted to ensure each class's characteristics are appropriately enhanced without making TTK too slow.",
+    "is_champion": false,
+    "id": "7.0c-Resolve-13"
+  },
+  {
+    "version": "7.0c",
+    "champion_name": "アリーナ",
+    "champion_name_en": "Arena",
+    "change_type": "adjust",
+    "description": "チャンピオンのバランス調整\nノラ、ヴェックス\n\nオーグメントのバランス調整\nピックスアタック、電撃連鎖",
+    "description_en": "Balance adjustments for champions (Norra, Vex) and augments (Pix Attack, Chain Lightning) in Arena mode.",
+    "is_champion": false,
+    "id": "7.0c-Arena-14"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "メル",
+    "champion_name_en": "Mel",
+    "change_type": "new",
+    "description": "メル・メダルダは、かつてはノクサスで最も権勢を誇ったメダルダ家の後継者と目される人物。表向きは優雅な貴族のように見えるが、その実体は、出会う相手のすべてについて知り尽くそうとする、卓越した政治家である。謎に満ちた黒薔薇団との邂逅を経て、母の欺瞞の深さを知ることとなったメルは、自分自身の手に余る可能性がある状況に直面する。新たに目覚めた魔法の力を携え、答えを求めて故郷へと出帆したメル。その内なる光を押さえ込もうとする者は後を絶たないが、彼女の魂が屈することは決してない。\n\nメルは日本時間3月13日09時01分にリリースされます。",
+    "description_en": "Mel is introduced as a new champion. She is a powerful politician from Noxus with newly awakened magical powers. She will be released on March 13.",
+    "is_champion": true,
+    "id": "7.0d-Mel-0"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "フィドルスティックス",
+    "champion_name_en": "Fiddlesticks",
+    "change_type": "adjust",
+    "description": "フィドルスティックスは全体的にパフォーマンスが低く、意図しないテクニックがいくつか存在することで、上達への道筋が不明瞭になっていました。この変更により、彼の強さの分かりにくい部分を取り除き、その分の強さを彼の核となるゲームプレイに戻すことを目指しています。さらに、彼の固有スキルは効果が分かりにくく、どう反応すべきか敵の判断を迷わせる一方で、戦略的な価値もありませんでした。そこで、リターンと総合的なダメージ、クラウドコントロール性能を向上させ、トリッキーな要素への依存度を下げ、スキル下限とスキル上限の差を縮めることにしました。また、彼のパッシブである「身代わり人形」の明瞭性を向上させ、発動時のカウンタープレイと効果の両方を、より明確でインパクトのあるものにします。\n\n【無害なカカシ】(固有スキル)\n[New] キルまたはアシストを達成すると、最も近くにいる敵に向かって歩く「身代わり人形」を召喚する。3秒後、または対象に到達すると爆発し、周囲の敵チャンピオンに「フィアー」を与える。\n\n【テラー】\n[削除] 経路上にいる対象に「フィアー」を与える。\n[New] 選択した対象に「フィアー」を与える。\nフィアー効果時間：1/1.1/1.2/1.3秒 → 1.2/1.4/1.6/1.8秒\n\n【豊かな収穫】\n[New] 発動中、フィドルスティックスは30%のスロウ状態になる。\n[New] スキルの詠唱を完了するか、詠唱が終了する前に範囲内のすべての対象をキルすると、このスキルのクールダウンが50%短縮される。\n[New] 1秒後、このスキルを再発動して早めに終了できる。\n[New] 詠唱中、フィドルスティックスはその他のスキルや通常攻撃を使用できない。\nクールダウン：8/7.5/7/6.5秒 → 11/10/9/8秒\n毎秒ダメージ：60/90/120/150 + 魔力の25% → 60/90/120/150 + 魔力の35%\n対象の減少体力に応じたダメージ：減少体力の10/11.5/13/14.5% → 12/14/16/18%\n\n【クロウストーム】\n0.25秒ごとのダメージ：25/42.5/60 + 魔力の10% → 30/50/70 + 魔力の10%",
+    "description_en": "Fiddlesticks receives an adjustment. Passive reworked to summon an effigy on takedown. Q now targets specifically. W slows him, has cooldown refund on full channel/kill, can be recast to end early, locks out other actions, cooldown and damage increased. R damage increased.",
+    "is_champion": true,
+    "id": "7.0d-Fiddlesticks-1"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "ザヤ",
+    "champion_name_en": "Xayah",
+    "change_type": "buff",
+    "description": "オートエイム使用時のザヤのアルティメットスキルは、近くに攻撃可能な対象がいない場合には信頼性が低く、飛んでくる遠隔攻撃を効果的に回避できないことが判明しました。そこで、使いやすさを最適化しました。\n\n【フェザーストーム】\n[New] 近くにターゲットがいない場合でも、タップでスキルを発動できるようになりました。",
+    "description_en": "Xayah's ultimate (Featherstorm) can now be cast with a simple tap even when there are no targets nearby, improving reliability for dodging.",
+    "is_champion": true,
+    "id": "7.0d-Xayah-2"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "レル",
+    "champion_name_en": "Rell",
+    "change_type": "buff",
+    "description": "最近のレルは少々手綱が緩すぎる状態にあるようです。ルーンの変更によって耐久力が他のサポートに比べて見劣りするようになったため、生存能力と序盤のレーン戦での交戦力を強化することで、彼女が再び疾走できるように後押しします。\n\n【基本ステータス】\n基本物理防御：40 → 46\n基本攻撃力：58 → 62\n\n【破鋼撃】\nダメージ：70/125/180/235 → 70/130/190/250",
+    "description_en": "Rell base armor and attack damage increased. Q (Shattering Strike) damage increased.",
+    "is_champion": true,
+    "id": "7.0d-Rell-3"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "ノラ",
+    "champion_name_en": "Norra",
+    "change_type": "nerf",
+    "description": "現在ノラはスキル2の行動妨害によってサポートロールにより圧倒的な強さを見せており、想定を上回る活躍をしています。このダメージを低下させ、中盤から終盤にかけてのクールダウンを延長することで、相手が反撃できる機会を増やします。\n\n【どこでもない場所へ】\nクールダウン：18/16.5/15/13.5秒 → 18/17/16/15秒\nダメージ：75/115/155/195 → 65/105/145/185",
+    "description_en": "Norra W (Portal) cooldown increased and damage decreased to reduce her dominant crowd control presence as a support.",
+    "is_champion": true,
+    "id": "7.0d-Norra-4"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "モルデカイザー",
+    "champion_name_en": "Mordekaiser",
+    "change_type": "buff",
+    "description": "モルデカイザーは、アルティメットで奪った増加攻撃力の効果を実感しにくい状態でした。そこで、スキル1の増加攻撃力反映率を増加させました。これにより、奪ったステータスの意義が向上し、アイテムビルドの選択肢も広がります。\n\n【滅魂の一撃】\nダメージ：80/110/140/170（+4～70（チャンピオンレベルに応じて））（+魔力の70%）） → 80/110/140/170（+4～70（チャンピオンレベルに応じて））（+魔力の70%）（+増加攻撃力の120%）",
+    "description_en": "Mordekaiser Q (Obliterate) now scales with 120% bonus AD, making the AD stolen from his ultimate more impactful.",
+    "is_champion": true,
+    "id": "7.0d-Mordekaiser-5"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "ヘカリム",
+    "champion_name_en": "Hecarim",
+    "change_type": "adjust",
+    "description": "高レベル帯では、ヘカリムが序盤のローム性能の高さによって圧倒的な活躍を見せています。そこで序盤のダメージを抑え、終盤の勢いを強化しました。\n\n【基本ステータス】\n基本攻撃力：58 → 54\nレベルアップごとの攻撃力増加量：3.6 → 4\n\n【ソウルドレイン】\nダメージ：15/20/25/30 → 12/18/24/30",
+    "description_en": "Hecarim base AD decreased but AD growth increased. W (Spirit of Dread) damage adjusted, decreasing early but matching late game.",
+    "is_champion": true,
+    "id": "7.0d-Hecarim-6"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "クラーケン スレイヤー",
+    "champion_name_en": "KrakenSlayer",
+    "change_type": "new",
+    "description": "マークスマン向けに、通常攻撃時効果を持つアイテムを新たに追加します。これにより、継続的な戦闘で高いダメージを与えられるようになるでしょう。",
+    "description_en": "New on-hit item added for marksmen to deal sustained damage in combat.",
+    "is_champion": false,
+    "id": "7.0d-KrakenSlayer-7"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "騎士の誓い",
+    "champion_name_en": "KnightsVow",
+    "change_type": "new",
+    "description": "サポート向けに、味方1人を守ることに特化した新アイテムが登場します。このアイテムを装備すると、味方のダメージを一部肩代わりしつつ、自分の体力を回復できるようになります。",
+    "description_en": "New support item to protect an ally, absorbing some of their damage and healing the user.",
+    "is_champion": false,
+    "id": "7.0d-KnightsVow-8"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "覇王のブラッドメイル",
+    "champion_name_en": "OverlordsBloodmail",
+    "change_type": "new",
+    "description": "ファイター向けに、体力が低下した際に大量の攻撃力を獲得して反撃を可能にする、新たな逆転用アイテムを追加します。",
+    "description_en": "New fighter item that grants massive Attack Damage when health is low for turnaround plays.",
+    "is_champion": false,
+    "id": "7.0d-OverlordsBloodmail-9"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "終わりなき絶望",
+    "champion_name_en": "UnendingDespair",
+    "change_type": "new",
+    "description": "タンク向けに、戦闘中に継続的に回復しながら敵にダメージを与え続けられるサステインアイテムを実装します。",
+    "description_en": "New tank item providing sustained healing and continuous damage in combat.",
+    "is_champion": false,
+    "id": "7.0d-UnendingDespair-10"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "実験的ヘクスプレート",
+    "champion_name_en": "ExperimentalHexplate",
+    "change_type": "new",
+    "description": "ファイター向けに、アルティメットスキル使用後に大幅なパワーを得られる、まったく新しいアルティメットスキルアイテムを追加します。",
+    "description_en": "New fighter item that grants significant power after casting an ultimate ability.",
+    "is_champion": false,
+    "id": "7.0d-ExperimentalHexplate-11"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "タイタン ハイドラ",
+    "champion_name_en": "TitanicHydra",
+    "change_type": "adjust",
+    "description": "タイタン ハイドラがステータスを得る方法を調整しました。今後は体力ベースではなく、購入時に直接一定量の攻撃力が付与されるようになります。",
+    "description_en": "Titanic Hydra no longer grants AD based on health; it now provides a flat amount of Attack Damage directly upon purchase.",
+    "is_champion": false,
+    "id": "7.0d-TitanicHydra-12"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "ラララランダムミッド",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "今回のパッチで、15種類の全く新しいオーグメントが追加されました。さらに、過去に人気だった4つのオーグメントと8つのイースターエッグが復活します。",
+    "description_en": "ARAM receives 15 new augments, 4 returning popular augments, and 8 easter eggs.",
+    "is_champion": false,
+    "id": "7.0d-ARAM-13"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "アリーナ",
+    "champion_name_en": "Arena",
+    "change_type": "adjust",
+    "description": "炎術師のクローク、モーグル メイルの調整など",
+    "description_en": "Adjustments made to Arena items like Pyromancer Cloak and Mogul Mail.",
+    "is_champion": false,
+    "id": "7.0d-Arena-14"
+  },
+  {
+    "version": "7.0d",
+    "champion_name": "ゾーイ(バグ修正)",
+    "champion_name_en": "ZoeBugFix",
+    "change_type": "adjust",
+    "description": "ゾーイの「スリープバブル」をオートエイムで使用した際、標的の位置を余分に索敵してしまう不具合を修正しました。",
+    "description_en": "Fixed a bug where Zoe's Sleepy Trouble Bubble would over-track target locations when using auto-aim.",
+    "is_champion": false,
+    "id": "7.0d-ZoeBugFix-15"
+  },
+  {
+    "version": "7.0e",
+    "champion_name": "オリジナルのタイタン ハイドラ",
+    "champion_name_en": "OriginalTitanicHydra",
+    "change_type": "nerf",
+    "description": "通常攻撃とスキルのダメージ倍率：通常攻撃とスキルで増加体力の3%にあたる追加ダメージを与える → 増加体力の1.5%にあたる追加ダメージを与える\n\n衝撃波のダメージ倍率：増加体力の10% → 増加体力の5%",
+    "description_en": "Attack and skill damage ratio: 3% bonus HP -> 1.5% bonus HP. Shockwave damage ratio: 10% bonus HP -> 5% bonus HP.",
+    "is_champion": false,
+    "id": "7.0e-OriginalTitanicHydra-0"
+  },
+  {
+    "version": "7.0e",
+    "champion_name": "人形劇",
+    "champion_name_en": "Puppetry",
+    "change_type": "remove",
+    "description": "現在、「人形劇」に想定外の問題が確認され、クラッシュを引き起こす可能性があるため、一時的に無効化されています。",
+    "description_en": "Temporarily disabled due to an issue that could cause crashes.",
+    "is_champion": false,
+    "id": "7.0e-Puppetry-1"
+  },
+  {
+    "version": "7.0e",
+    "champion_name": "万能薬",
+    "champion_name_en": "Panacea",
+    "change_type": "adjust",
+    "description": "「万能薬」が誤って「死の円環」を発動してしまう不具合を修正。",
+    "description_en": "Fixed a bug where Panacea would incorrectly trigger Circle of Death.",
+    "is_champion": false,
+    "id": "7.0e-Panacea-2"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "スモルダー",
+    "champion_name_en": "Smolder",
+    "change_type": "nerf",
+    "description": "基本ステータス\nレベルアップごとの攻撃力増加量：4 → 3.5\n\n駆けだしドラゴン\nスーパーこげこげブレスの追加ダメージ：40% → 30%\n\nスーパーこげこげブレス\n基本ダメージ：55/90/125/160 → 45/80/115/150",
+    "description_en": "Base AD growth decreased. Passive bonus damage and Q base damage decreased.",
+    "is_champion": true,
+    "id": "7.0f-Smolder-0"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "ノラ",
+    "champion_name_en": "Norra",
+    "change_type": "nerf",
+    "description": "どこでもない場所へ\nクールダウン：18/17/16/15秒 → 23/22/21/20秒",
+    "description_en": "Portal skill cooldown increased to reduce portal pressure in the late game.",
+    "is_champion": true,
+    "id": "7.0f-Norra-1"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "トリスターナ",
+    "champion_name_en": "Tristana",
+    "change_type": "buff",
+    "description": "ラピッドファイア\nクールダウン：18/17/16/15秒 → 17/16/15/14秒",
+    "description_en": "Rapid Fire cooldown reduced to allow more frequent combat participation.",
+    "is_champion": true,
+    "id": "7.0f-Tristana-2"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "レル",
+    "champion_name_en": "Rell",
+    "change_type": "buff",
+    "description": "フェロマンシー:装着/騎馬\nクールダウン：5秒 → 9秒",
+    "description_en": "Ferromancy - Crash Down/Mount Up cooldown adjusted to allow more frequent form switching.",
+    "is_champion": true,
+    "id": "7.0f-Rell-3"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "ジャックス",
+    "champion_name_en": "Jax",
+    "change_type": "buff",
+    "description": "ウェポングランドマスター\nチャンピオンへの攻撃命中時に獲得する、物理防御に応じた増加攻撃力：40% → 50%\nチャンピオンへの攻撃命中時に獲得する、魔法防御に応じた増加攻撃力：24% → 30%",
+    "description_en": "Grandmaster's Might defense scaling based on AD increased for better late-game teamfight survivability.",
+    "is_champion": true,
+    "id": "7.0f-Jax-4"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "アカリ",
+    "champion_name_en": "Akali",
+    "change_type": "buff",
+    "description": "黄昏の帳\n不可視状態解除までの時間：0.8秒 → 0.67秒\n\n翻身手裏剣\n[新規追加] 最初の発動：「黄昏の帳」の煙をマークできるようになりました。",
+    "description_en": "Twilight Shroud fade time decreased. Shuriken Flip can now mark the Twilight Shroud smoke.",
+    "is_champion": true,
+    "id": "7.0f-Akali-5"
+  },
+  {
+    "version": "7.0f",
+    "champion_name": "デス ダンス",
+    "champion_name_en": "DeathsDance",
+    "change_type": "nerf",
+    "description": "焼灼\n受けた物理ダメージの一部が自分に適用される時間が4秒 → 3秒に\n\n拒絶\n回復量が自身の最大体力の10% → 8%に",
+    "description_en": "Cauterize bleed time reduced from 4s to 3s. Defy heal reduced from 10% to 8% max health.",
+    "is_champion": false,
+    "id": "7.0f-DeathsDance-6"
+  },
+  {
+    "version": "7.0g",
+    "champion_name": "前衛ミニオン",
+    "champion_name_en": "MeleeMinion",
+    "change_type": "adjust",
+    "description": "🔪🐶🛡️",
+    "description_en": "Melee minions are now dogs with knives and shields.",
+    "is_champion": false,
+    "id": "7.0g-MeleeMinion-0"
+  },
+  {
+    "version": "7.0g",
+    "champion_name": "後衛ミニオン",
+    "champion_name_en": "CasterMinion",
+    "change_type": "adjust",
+    "description": "🐶🪄",
+    "description_en": "Caster minions are now magic dogs.",
+    "is_champion": false,
+    "id": "7.0g-CasterMinion-1"
+  },
+  {
+    "version": "7.0g",
+    "champion_name": "砲台ミニオン",
+    "champion_name_en": "SiegeMinion",
+    "change_type": "adjust",
+    "description": "🚀🐶\n🛡️",
+    "description_en": "Siege minions are now dogs with rockets and shields.",
+    "is_champion": false,
+    "id": "7.0g-SiegeMinion-2"
+  },
+  {
+    "version": "7.0g",
+    "champion_name": "砲撃ミニオン",
+    "champion_name_en": "BombardMinion",
+    "change_type": "adjust",
+    "description": "🚗🐶\n🔪🛡️🔪",
+    "description_en": "Bombard minions are driving dogs with multiple knives and shields.",
+    "is_champion": false,
+    "id": "7.0g-BombardMinion-3"
+  },
+  {
+    "version": "7.0g",
+    "champion_name": "スーパーミニオン",
+    "champion_name_en": "SuperMinion",
+    "change_type": "adjust",
+    "description": "🛡️💪🐶🗡️",
+    "description_en": "Super minions are super buff dogs with armor and swords.",
+    "is_champion": false,
+    "id": "7.0g-SuperMinion-4"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ランダムミッド (ARAM)",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "【緊急調整 (4月11日)】\n【フィールドの調整】\nレースのスタート地点とミッドレーンからテレポートトラックを削除",
+    "description_en": "[Hotfix] Removed teleport tracks from start and mid.",
+    "is_champion": false,
+    "id": "7.1-ARAM-0"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ラララランダムミッド",
+    "champion_name_en": "Arena",
+    "change_type": "nerf",
+    "description": "【緊急調整 (4月11日)】\n【フィールドの調整】\nレースのスタート地点の位置を調整\n\n【サモナースペルの調整】\n・雪玉チャリオット\nダメージ：60-200 + 最大体力の4% → 30-90 + 最大体力の1%\n射程：20 → 15 (アップグレード後 30 → 20)\n\n・活力の雪玉チャリオット\nダメージ、体力回復量、射程を減少\n\n・弾道の雪玉チャリオット\n雪玉とチャリオットのダメージ、射程を減少\n\n【オーグメントの調整】\n強化版「メガ雪玉」：追加確定ダメージ低下\n強化版「貫通雪玉」：追加確定ダメージ低下\n強化版「ヘイスト雪玉」：スキルヘイスト 100 → 50",
+    "description_en": "[Hotfix] Various nerfs to Snowball Chariot variants and Snowball augments. Field start position adjusted.",
+    "is_champion": false,
+    "id": "7.1-Arena-1"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "バグ修正",
+    "champion_name_en": "Bugfixes",
+    "change_type": "adjust",
+    "description": "【緊急調整 (4月11日)】\nチャンピオン選択画面でオーグメントを切り替える際に、時々失敗することがあった不具合を修正。",
+    "description_en": "[Hotfix] Fixed an issue with swapping augments in champ select.",
+    "is_champion": false,
+    "id": "7.1-Bugfixes-2"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "カ・サンテ",
+    "champion_name_en": "KSante",
+    "change_type": "new",
+    "description": "ナズーマの誇り、カ・サンテが参戦！",
+    "description_en": "K'Sante, the Pride of Nazumah, joins the Rift!",
+    "is_champion": true,
+    "id": "7.1-KSante-0"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "バード",
+    "champion_name_en": "Bard",
+    "change_type": "adjust",
+    "description": "【運命の調律】着弾インジケーターのタイミング：スキル詠唱後 → スキル詠唱開始時",
+    "description_en": "[Tempered Fate] Indicator timing adjusted.",
+    "is_champion": true,
+    "id": "7.1-Bard-1"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "イレリア",
+    "champion_name_en": "Irelia",
+    "change_type": "nerf",
+    "description": "【瞬刃】回復量: 攻撃力の16/20/24/28% → 攻撃力の11/14/17/20%",
+    "description_en": "[Bladesurge] Healing reduced.",
+    "is_champion": true,
+    "id": "7.1-Irelia-2"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ゾーイ",
+    "champion_name_en": "Zoe",
+    "change_type": "buff",
+    "description": "【スペルシーフ】ミサイルの基本ダメージ: 20-50 → 25-55\n【スリープバブル】弾速増加\n【ポータルジャンプ】クールダウン短縮",
+    "description_en": "[Spell Thief] Damage increased. [Sleepy Trouble Bubble] Missile speed increased. [Portal Jump] CD reduced.",
+    "is_champion": true,
+    "id": "7.1-Zoe-3"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "コーキ",
+    "champion_name_en": "Corki",
+    "change_type": "buff",
+    "description": "【基本ステータス】攻撃力：50 → 54\n【閃光弾】ダメージ反映率: 増加攻撃力の110% → 125%",
+    "description_en": "[Base Stats] AD increased. [Phosphorus Bomb] AD ratio increased.",
+    "is_champion": true,
+    "id": "7.1-Corki-4"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "フィオラ",
+    "champion_name_en": "Fiora",
+    "change_type": "nerf",
+    "description": "【デュエリスト・ダンス】対象の最大体力に応じた確定ダメージ: 4% + (増加攻撃力100ごとに6%) → 3.5% + (増加攻撃力100ごとに5%)",
+    "description_en": "[Duelist's Dance] True damage ratio reduced.",
+    "is_champion": true,
+    "id": "7.1-Fiora-5"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "レネクトン",
+    "champion_name_en": "Renekton",
+    "change_type": "nerf",
+    "description": "【ミートカット】通常攻撃命中時の回復量と回復上限が低下",
+    "description_en": "[Cull the Meek] Healing and healing cap reduced.",
+    "is_champion": true,
+    "id": "7.1-Renekton-6"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "メル",
+    "champion_name_en": "Mel",
+    "change_type": "nerf",
+    "description": "【灼熱の輝き】キル確定体力割合へのスタックごとの魔力反映率: 0.6% → 0.5%\n【ソーラーフレア】スネア効果時間、直撃時の基本ダメージ低下\n【黄金蝕】追加ダメージの魔力反映率: 3% → 2.5%",
+    "description_en": "[Passive] AP ratio reduced. [Q] Root duration and damage reduced. [E] Damage AP ratio reduced.",
+    "is_champion": true,
+    "id": "7.1-Mel-7"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ジグス",
+    "champion_name_en": "Ziggs",
+    "change_type": "buff",
+    "description": "【ショートヒューズ】強化ダメージの魔力反映率低下\n【バウンドボム】クールダウン短縮\n【ヘクステックマイン】クールダウン短縮",
+    "description_en": "[Short Fuse] AP ratio reduced. [Bouncing Bomb] CD reduced. [Hexplosive Minefield] CD reduced.",
+    "is_champion": true,
+    "id": "7.1-Ziggs-8"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ラカン",
+    "champion_name_en": "Rakan",
+    "change_type": "nerf",
+    "description": "【華麗なる登場】ダメージと魔力反映率低下",
+    "description_en": "[Grand Entrance] Damage and AP ratio reduced.",
+    "is_champion": true,
+    "id": "7.1-Rakan-9"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "シヴァーナ",
+    "champion_name_en": "Shyvana",
+    "change_type": "adjust",
+    "description": "【バーンアウト】ドラゴンフォームでの増加ヘイスト低下\n【龍族の血統】増加体力上昇",
+    "description_en": "[Burnout] Dragon form haste reduced. [Dragon's Descent] Bonus HP increased.",
+    "is_champion": true,
+    "id": "7.1-Shyvana-10"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ヤスオ",
+    "champion_name_en": "Yasuo",
+    "change_type": "nerf",
+    "description": "【抜刀】基本ダメージ低下\n【鬼哭啾々】物理防御貫通率：50% → 40%",
+    "description_en": "[Sweeping Blade] Base damage reduced. [Last Breath] Armor pen reduced.",
+    "is_champion": true,
+    "id": "7.1-Yasuo-11"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ドミニク リガード",
+    "champion_name_en": "LordDominiksRegards",
+    "change_type": "new",
+    "description": "【新アイテム】コスト3300。+25 AD, +36% 物理防御貫通, +25% クリティカル。ジャイアントスレイヤー: 敵の増加体力に応じて最大12%追加ダメージ",
+    "description_en": "New item: +25 AD, +36% Armor Pen, +25% Crit. Giant Slayer passive.",
+    "is_champion": false,
+    "id": "7.1-LordDominiksRegards-12"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "プロテクターの誓い",
+    "champion_name_en": "ProtectorsVow",
+    "change_type": "remove",
+    "description": "【削除】新ルーン「ガーディアン」との効果重複のため削除",
+    "description_en": "Removed due to overlap with Guardian rune.",
+    "is_champion": false,
+    "id": "7.1-ProtectorsVow-13"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ブーツ全般",
+    "champion_name_en": "Boots",
+    "change_type": "adjust",
+    "description": "すべてのアップグレードブーツの価格が引き下げられ、ステータスが低下しました。",
+    "description_en": "All upgraded boots received cost and stat reductions.",
+    "is_champion": false,
+    "id": "7.1-Boots-14"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "リッチ ベイン",
+    "champion_name_en": "LichBane",
+    "change_type": "buff",
+    "description": "【基本ステータス】価格：2950 → 2800ゴールド",
+    "description_en": "Cost reduced from 2950 to 2800.",
+    "is_champion": false,
+    "id": "7.1-LichBane-15"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "コレクター",
+    "champion_name_en": "TheCollector",
+    "change_type": "nerf",
+    "description": "【基本ステータス】価格：2900 → 3000ゴールド",
+    "description_en": "Cost increased from 2900 to 3000.",
+    "is_champion": false,
+    "id": "7.1-TheCollector-16"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ルーデン エコー",
+    "champion_name_en": "LudensEcho",
+    "change_type": "buff",
+    "description": "【基本ステータス】価格：3000 → 2900ゴールド",
+    "description_en": "Cost reduced from 3000 to 2900.",
+    "is_champion": false,
+    "id": "7.1-LudensEcho-17"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ルーンシステムアップデート",
+    "champion_name_en": "Runes",
+    "change_type": "adjust",
+    "description": "ルーンシステムの大規模アップデート。新ルーン「ガーディアン」「氷の暴君」「エンパワーメント」や、新たな「魔道」パスの導入、「アフターショック」「グレイシャルオーグメント」などの削除。",
+    "description_en": "Major rune system overhaul. New runes like Guardian, Iceborn, Empowerment. New Sorcery tree.",
+    "is_champion": false,
+    "id": "7.1-Runes-18"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "システム変更＆新規要素",
+    "champion_name_en": "System",
+    "change_type": "new",
+    "description": "ゲームエンジンのアップグレード、新シーズン S21 (輝ける威光ジャックス)、新たなワイルドパス、ジャングルモンスターのアグロ表示改善など",
+    "description_en": "Game engine upgrade, Season 21, New Wild Pass, Jungle aggro display.",
+    "is_champion": false,
+    "id": "7.1-System-19"
+  },
+  {
+    "version": "7.1",
+    "champion_name": "ラララランダムミッド / アリーナ",
+    "champion_name_en": "Modes",
+    "change_type": "new",
+    "description": "ラララランダムミッドの常設化。レースマップテーマ、新サモナースペル、新オーグメント。アリーナの複数チーム編成や新アイテム（プローラークロウなど）追加。",
+    "description_en": "Arena/ARAM permanent and massive updates. Racing theme, new items, and augments.",
+    "is_champion": false,
+    "id": "7.1-Modes-20"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "タロン",
+    "champion_name_en": "Talon",
+    "change_type": "buff",
+    "description": "【飛燕手裏剣】\n第1フェーズのダメージ：35/45/55/65 + 増加攻撃力の45% → 40/50/60/70 + 増加攻撃力の50%\nジャングルモンスターへのダメージ率：70% → 80%",
+    "description_en": "[Rake] 1st phase damage: 35-65 + 45% bonus AD -> 40-70 + 50% bonus AD\nJungle monster damage ratio: 70% -> 80%",
+    "is_champion": true,
+    "id": "7.1b-Talon-0"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "フィズ",
+    "champion_name_en": "Fizz",
+    "change_type": "buff",
+    "description": "【ウニトゲストライク】\n魔力反映率：50% → 60%",
+    "description_en": "[Urchin Strike] AP ratio: 50% -> 60%",
+    "is_champion": true,
+    "id": "7.1b-Fizz-1"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ラムス",
+    "champion_name_en": "Rammus",
+    "change_type": "nerf",
+    "description": "【かたくなる】\n物理防御反映率：55%/60%/65%/70% → 45%/50%/55%/60%",
+    "description_en": "[Defensive Ball Curl] Armor ratio: 55-70% -> 45-60%",
+    "is_champion": true,
+    "id": "7.1b-Rammus-2"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ジャックス",
+    "champion_name_en": "Jax",
+    "change_type": "adjust",
+    "description": "【基本ステータス】\nレベルアップごとの物理防御増加量：3.9 → 4.5\n\n【アサルトアタック】\nレベルアップごとの攻撃速度増加量：5～19 → 6～20\n\n【カウンターストライク】\n最大体力に対するダメージ率：3% → 3.5%\n\n【ウェポングランドマスター】\n自動効果基本ダメージ：60/110/160 → 75/130/185\n発動効果基本ダメージ：150/250/350 → 100/200/300",
+    "description_en": "[Base Stats] Armor per level: 3.9 -> 4.5\n[Relentless Assault] AS per level: 5-19 -> 6-20\n[Counter Strike] Max HP damage ratio: 3% -> 3.5%\n[Grandmaster's Might] Passive base damage: 60-160 -> 75-185\nActive base damage: 150-350 -> 100-300",
+    "is_champion": true,
+    "id": "7.1b-Jax-3"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ヴァルス",
+    "champion_name_en": "Varus",
+    "change_type": "buff",
+    "description": "【復讐の化身】\nチャンピオン以外のユニットをキルした際の攻撃速度：15%/20%/25% → 20%/25%/30%\nチャンピオンキル時の攻撃速度：50% ⇒ 55%",
+    "description_en": "[Living Vengeance] AS on non-champion kill: 15-25% -> 20-30%\nAS on champion kill: 50% -> 55%",
+    "is_champion": true,
+    "id": "7.1b-Varus-4"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "トゥイッチ",
+    "champion_name_en": "Twitch",
+    "change_type": "buff",
+    "description": "【スゴイ毒ダ！】\n最大速度時の攻撃速度：10/15/20/25/30% → 30/35/40/45/50%",
+    "description_en": "[Deadly Venom] AS at max stacks: 10-30% -> 30-50%",
+    "is_champion": true,
+    "id": "7.1b-Twitch-5"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "レネクトン",
+    "champion_name_en": "Renekton",
+    "change_type": "nerf",
+    "description": "【基本ステータス】\n攻撃力：70 → 66\n\n【メッタ斬り】\nクールダウン：12.5/11/9.5/8秒 → 14/12/10/8秒\n基本ダメージ：30/60/90/120 → 24/48/72/96\n強化時の基本ダメージ：45/90/135/180 → 36/72/108/144",
+    "description_en": "[Base Stats] AD: 70 -> 66\n[Ruthless Predator] Cooldown: 12.5-8s -> 14-8s\nBase damage: 30-120 -> 24-96\nEmpowered base damage: 45-180 -> 36-144",
+    "is_champion": true,
+    "id": "7.1b-Renekton-6"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "スウェイン",
+    "champion_name_en": "Swain",
+    "change_type": "nerf",
+    "description": "【魔帝戴冠】\n再発動時の魔力反映率：60% → 45%",
+    "description_en": "[Demonic Ascension] Recast AP ratio: 60% -> 45%",
+    "is_champion": true,
+    "id": "7.1b-Swain-7"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ヨネ",
+    "champion_name_en": "Yone",
+    "change_type": "buff",
+    "description": "【霊断刀】\nシールド量：30 + 増加攻撃力の70% → 45 + 増加攻撃力の80%",
+    "description_en": "[Spirit Cleave] Shield amount: 30 + 70% bonus AD -> 45 + 80% bonus AD",
+    "is_champion": true,
+    "id": "7.1b-Yone-8"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ティーモ",
+    "champion_name_en": "Teemo",
+    "change_type": "nerf",
+    "description": "【毒たっぷり吹き矢】\n通常攻撃時効果の基本ダメージ：10～38 → 8～36\n毎秒の基本ダメージ：11～53 → 8～50\n\n【目つぶしダーツ】\n基本ダメージ：60/110/160/210 → 50/95/140/185",
+    "description_en": "[Toxic Shot] On-hit base damage: 10-38 -> 8-36\nDoT base damage: 11-53 -> 8-50\n[Blinding Dart] Base damage: 60-210 -> 50-185",
+    "is_champion": true,
+    "id": "7.1b-Teemo-9"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "アムム",
+    "champion_name_en": "Amumu",
+    "change_type": "nerf",
+    "description": "【めそめそ】\n基本ダメージ：1.4/1.8/2.2/2.6% → 1.2/1.5/1.8/2.1%\n\n【だだっこ】\nスロウ効果：20% → 10%",
+    "description_en": "[Despair] Base damage: 1.4-2.6% -> 1.2-2.1%\n[Tantrum] Slow: 20% -> 10%",
+    "is_champion": true,
+    "id": "7.1b-Amumu-10"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "フォビドゥン アイドル",
+    "champion_name_en": "ForbiddenIdol",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nマナ自動回復：+0 → +25%",
+    "description_en": "[Base Stats] Mana Regen: +0 -> +25%",
+    "is_champion": false,
+    "id": "7.1b-ForbiddenIdol-11"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ハーモニック エコー",
+    "champion_name_en": "HarmonicEcho",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nマナ自動回復：+0 → +50%",
+    "description_en": "[Base Stats] Mana Regen: +0 -> +50%",
+    "is_champion": false,
+    "id": "7.1b-HarmonicEcho-12"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "フロー ウォーター スタッフ",
+    "champion_name_en": "StaffofFlowingWater",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nマナ自動回復：+0 → +50%",
+    "description_en": "[Base Stats] Mana Regen: +0 -> +50%",
+    "is_champion": false,
+    "id": "7.1b-StaffofFlowingWater-13"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "アーデント センサー",
+    "champion_name_en": "ArdentCenser",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nマナ自動回復：+0 → +50%",
+    "description_en": "[Base Stats] Mana Regen: +0 -> +50%",
+    "is_champion": false,
+    "id": "7.1b-ArdentCenser-14"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "アイオニア ブーツ",
+    "champion_name_en": "IonianBootsofLucidity",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nマナ自動回復：+0 → +50%",
+    "description_en": "[Base Stats] Mana Regen: +0 -> +50%",
+    "is_champion": false,
+    "id": "7.1b-IonianBootsofLucidity-15"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "トリニティ フォース",
+    "champion_name_en": "TrinityForce",
+    "change_type": "adjust",
+    "description": "【基本ステータス】\n体力：+250 → +333\nスキルヘイスト：+25 → +20\n\n【勇猛】\n[削除] キルを獲得すると、移動速度が60増加する。",
+    "description_en": "[Base Stats] Health: +250 -> +333\nAbility Haste: +25 -> +20\n[Rage] Removed: 60 bonus MS on kill.",
+    "is_champion": false,
+    "id": "7.1b-TrinityForce-16"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ナヴォリ クイックブレード",
+    "champion_name_en": "NavoriQuickblades",
+    "change_type": "adjust",
+    "description": "【基本ステータス】\n価格：3000 → 2800ゴールド\n攻撃力：+40 → +0\n攻撃速度：+15% → +45%\n移動速度：+0 → +5%\n\n【限りある命】\n[削除]\n\n【巧みな一撃】\n[調整] 通常攻撃を行うと、通常スキルの残りクールダウンが15%短縮される。",
+    "description_en": "[Base Stats] Cost: 3000 -> 2800\nAD: +40 -> 0\nAS: +15% -> +45%\nMS: +0 -> +5%\n[Impermenence] Removed\n[Deft Strikes] Adjusted: Basic attacks reduce remaining basic ability cooldowns by 15%.",
+    "is_champion": false,
+    "id": "7.1b-NavoriQuickblades-17"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ナッシャー トゥース",
+    "champion_name_en": "NashorsTooth",
+    "change_type": "buff",
+    "description": "【基本ステータス】\n価格：3000ゴールド ⇒ 2800ゴールド",
+    "description_en": "[Base Stats] Cost: 3000 -> 2800",
+    "is_champion": false,
+    "id": "7.1b-NashorsTooth-18"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "ゲームモード変更",
+    "champion_name_en": "Modes",
+    "change_type": "adjust",
+    "description": "【ランダムミッド】\n15分経過時点でのデスタイマーを50秒に調整\n\n【ラララランダムミッド】\nレースのスタート地点：発進後のハンドリングがさらにスムーズになります。\nオーグメントの調整（行動妨害耐性リバリー、文武両道、全速前進、レースカー強化キットなど）",
+    "description_en": "[ARAM] Death timer at 15 mins adjusted to 50s.\n[Arena] Start area handling smoothed out. Augment adjustments.",
+    "is_champion": false,
+    "id": "7.1b-Modes-19"
+  },
+  {
+    "version": "7.1b",
+    "champion_name": "バグ修正",
+    "champion_name_en": "Bugfixes",
+    "change_type": "adjust",
+    "description": "セナの攻撃速度バグ、エンチャントのVFX、ルーン説明文の修正などを実施。",
+    "description_en": "Fixed Senna AS bug, enchant VFX, and rune tooltips.",
+    "is_champion": false,
+    "id": "7.1b-Bugfixes-20"
+  },
+  {
+    "version": "7.1c",
+    "champion_name": "ランダムミッド (ARAM)",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "【サモナースペルの調整】\n「雪玉」の再発動時の速度が増加。\n※ランダムミッド、ラララランダムミッド、スペルブック ランダムミッドに適用",
+    "description_en": "[Summoner Spells] Snowball recast speed increased.",
+    "is_champion": false,
+    "id": "7.1c-ARAM-0"
+  },
+  {
+    "version": "7.1c",
+    "champion_name": "ラララランダムミッド",
+    "champion_name_en": "Arena",
+    "change_type": "adjust",
+    "description": "【フィールドの調整】\nミッドレーンのテレポートトラックからアイテムを削除。\n最初のペイント選択フェーズは時間無制限となり、インターフェースを閉じられるようになりました。\n\n【オーグメントの調整】\n「初志貫徹」を選択した際に、アルティメットスキルに関連するオーグメントが出現しなくなります。\nオーグメントプールの最適化：一部のオーグメントが特定のクラス専用になりました。",
+    "description_en": "Field adjustments, augment optimizations.",
+    "is_champion": false,
+    "id": "7.1c-Arena-1"
+  },
+  {
+    "version": "7.1c",
+    "champion_name": "ソーンメイル",
+    "champion_name_en": "Thornmail",
+    "change_type": "nerf",
+    "description": "【魔法ダメージ】\n20 + 増加物理防御の6% + 増加体力の2% → 20 + 増加物理防御の6% + 増加体力の1%",
+    "description_en": "[Magic Damage] 20 + 6% Bonus Armor + 2% Bonus HP -> 20 + 6% Bonus Armor + 1% Bonus HP",
+    "is_champion": false,
+    "id": "7.1c-Thornmail-2"
+  },
+  {
+    "version": "7.1c",
+    "champion_name": "ギャンブラーの剣",
+    "champion_name_en": "GamblersBlade",
+    "change_type": "adjust",
+    "description": "アイテムパネルで所持しているゴールドのスタック数を確認できるようになりました。",
+    "description_en": "Gold stacks can now be checked in the item panel.",
+    "is_champion": false,
+    "id": "7.1c-GamblersBlade-3"
+  },
+  {
+    "version": "7.1c",
+    "champion_name": "炎術師のクローク",
+    "champion_name_en": "PyromancersCloak",
+    "change_type": "nerf",
+    "description": "【浄化の炎】\n継続ダメージ：60秒 → 30秒\n火傷効果ごとのダメージ: 40秒 → 30秒",
+    "description_en": "[Cleansing Flame] DoT: 60s -> 30s\nDamage per burn: 40s -> 30s",
+    "is_champion": false,
+    "id": "7.1c-PyromancersCloak-4"
+  },
+  {
+    "version": "7.1c",
+    "champion_name": "バグ修正",
+    "champion_name_en": "Bugfixes",
+    "change_type": "adjust",
+    "description": "・「スタックサウルス・レックス」のスタックが「ヒュブリス」に正しく作用していなかった不具合を修正\n・特定の状況で「エーテル武器」が発動しない不具合を修正\n・オーグメント「お抱え運転手」とユーミの相互作用に関する不具合を修正",
+    "description_en": "Various bugfixes including Hubris, Etherial Weapon, and Yuumi with Chauffeur.",
+    "is_champion": false,
+    "id": "7.1c-Bugfixes-5"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "ヴェイン",
+    "champion_name_en": "Vayne",
+    "change_type": "nerf",
+    "description": "【タンブル】\n通常攻撃強化時間：7秒 → 4秒\n\n【シルバーボルト】\n確定ダメージ：3/6/9/12% → 2/5/8/11%\n攻撃速度：15/20/25/30% → 10/15/20/25%",
+    "description_en": "[Tumble] Empowered attack duration: 7s -> 4s\n[Silver Bolts] True damage: 3/6/9/12% -> 2/5/8/11%\nAttack speed: 15-30% -> 10-25%",
+    "is_champion": true,
+    "id": "7.1d-Vayne-0"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "アーゴット",
+    "champion_name_en": "Urgot",
+    "change_type": "buff",
+    "description": "【基本ステータス】\n基本攻撃力：58 → 62\n\n【エコーフレイム】\n攻撃力反映率：50/65/80/95% → 60/75/90/105%",
+    "description_en": "[Base Stats] AD: 58 -> 62\n[Echoing Flames] AD ratio: 50-95% -> 60-105%",
+    "is_champion": true,
+    "id": "7.1d-Urgot-1"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "トリスターナ",
+    "champion_name_en": "Tristana",
+    "change_type": "buff",
+    "description": "【ヨードルグレネード】\nユニットキル後の爆発ダメージ：55/85/115/145 → 65/100/135/170",
+    "description_en": "[Explosive Charge] Explosion damage on kill: 55-145 -> 65-170",
+    "is_champion": true,
+    "id": "7.1d-Tristana-2"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "メル",
+    "champion_name_en": "Mel",
+    "change_type": "nerf",
+    "description": "【輝きの連撃】\n爆発ごとのダメージ：13/16/19/22 + 魔力の7% → 11/14/17/20 + 魔力の6%\nミニオンに対するダメージ補正： 75% → 90%\n\n【反駁】\nクールダウン：32/29/26/23秒 → 38/36/34/32秒",
+    "description_en": "[Shimmering Strike] Explosion damage: 13-22 + 7% AP -> 11-20 + 6% AP\nMinion damage modifier: 75% -> 90%\n[Rebuttal] Cooldown: 32-23s -> 38-32s",
+    "is_champion": true,
+    "id": "7.1d-Mel-3"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "ブラッドミア",
+    "champion_name_en": "Vladimir",
+    "change_type": "buff",
+    "description": "【基本ステータス】\n基本物理防御：34 → 37\n\n【真紅の盟約】\n魔力から増加体力への変換率：120% → 140%",
+    "description_en": "[Base Stats] Armor: 34 -> 37\n[Crimson Pact] AP to bonus health conversion: 120% -> 140%",
+    "is_champion": true,
+    "id": "7.1d-Vladimir-4"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "リヴェン",
+    "champion_name_en": "Riven",
+    "change_type": "adjust",
+    "description": "【ルーンブレード】\n追加ダメージの反映率：32%～60% → 22%～50%\nジャングルモンスターへのダメージ率：50% → 65%",
+    "description_en": "[Runic Blade] Bonus damage ratio: 32%-60% -> 22%-50%\nJungle monster damage ratio: 50% -> 65%",
+    "is_champion": true,
+    "id": "7.1d-Riven-5"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "シヴィア",
+    "champion_name_en": "Sivir",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nレベルアップごとの攻撃力増加量：3.5 → 4\n\n【ブーメランブレード】\n攻撃力反映率：70/75/80/85% → 75/80/85/90%",
+    "description_en": "[Base Stats] AD per level: 3.5 -> 4\n[Boomerang Blade] AD ratio: 70-85% -> 75-90%",
+    "is_champion": true,
+    "id": "7.1d-Sivir-6"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "ゼリ",
+    "champion_name_en": "Zeri",
+    "change_type": "buff",
+    "description": "【基本ステータス】\nレベルアップごとの攻撃力増加量：3.5 → 4\n\n【生体バッテリー】\n攻撃力反映率：104/108/112/116/120% → 105/110/115/120/125%\n\n【スパークサージ】\nクールダウン：24/21.5/19/16.5秒 → 22/19.5/17/14.5秒",
+    "description_en": "[Base Stats] AD per level: 3.5 -> 4\n[Living Battery] AD ratio: 104-120% -> 105-125%\n[Spark Surge] Cooldown: 24-16.5s -> 22-14.5s",
+    "is_champion": true,
+    "id": "7.1d-Zeri-7"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "ルーン調整",
+    "champion_name_en": "Runes",
+    "change_type": "adjust",
+    "description": "【リーサルテンポ】\nスタックごとの攻撃速度（遠隔）：3%～12% → 3%～10%\n\n【エンパワーメント】\nダメージ増加効果：8% → 9%\nアダプティブダメージ：40～180 → 60～200\n\n【英気集中】\n発動の下限値：70% → 65%\nアダプティブフォース：1～15 → 2～20\n\n【イシュタルの種入れ】\n各プラントの再取得までの時間：45秒 → 30秒",
+    "description_en": "[Lethal Tempo] AS per stack (ranged): 3-12% -> 3-10%\n[Empowerment] Damage increase: 8% -> 9%\n[Absolute Focus] Threshold: 70% -> 65%\n[Ixtali Seedjar] Plant respawn: 45s -> 30s",
+    "is_champion": false,
+    "id": "7.1d-Runes-8"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "ランダムミッド (ARAM)",
+    "champion_name_en": "ARAM",
+    "change_type": "adjust",
+    "description": "序盤の復活タイマーを延長。\nオレリオン・ソル、セト、ベイガー、レオナ、ラムス、シェン、アリスター、ブラッドミア、シヴァーナ、ガレン、ヴェイン、ジグス、ミス・フォーチュン、ザヤ、トゥイッチ、ヴァルスのダメージ調整。",
+    "description_en": "Early game respawn timers extended. Various champion damage adjustments.",
+    "is_champion": false,
+    "id": "7.1d-ARAM-9"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "ラララランダムミッド",
+    "champion_name_en": "Arena",
+    "change_type": "adjust",
+    "description": "【フィールドの調整】\nレース開始地点でのノックアップ効果時間: 0.5秒 → 0.2秒\n\n【新オーグメント】\n「暴虐なる搾取」「チャージストライク」「ワンストライク」「ソードストライク」「アックスストライク」「パワー同期」「防御同期」「ヘイスト同期」などを追加。\n\n【オーグメントの調整】\nアダプティブフォース: 2 → 1\nプールの調整など。",
+    "description_en": "Field adjustments, new augments added, augment adjustments.",
+    "is_champion": false,
+    "id": "7.1d-Arena-10"
+  },
+  {
+    "version": "7.1d",
+    "champion_name": "新スキン",
+    "champion_name_en": "Skins",
+    "change_type": "new",
+    "description": "ネオンデアデビル カイ＝サ\nネオンデアデビル ヘカリム\nネオンデアデビル イレリア\nネオンデアデビル オーロラ\nネオンデアデビル ゼド\nネオンデアデビル グラガス\nプレステージセレクト ネオンデアデビル カイ＝サ\n(日本時間4月30日9時01分リリース)",
+    "description_en": "Neon Daredevil Kai'Sa, Hecarim, Irelia, Aurora, Zed, Gragas & Prestige Kai'Sa (Apr 30)",
+    "is_champion": false,
+    "id": "7.1d-Skins-11"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "ケイル",
+    "champion_name_en": "Kayle",
+    "change_type": "buff",
+    "description": "【基本ステータス】\n基本攻撃力：50 → 54\nマナ自動回復：12 → 16\n\n【天の祝福】\n基本体力回復量：65/105/145/185 → 95/125/155/185",
+    "description_en": "[Base Stats] AD and Mana regen increased. [Celestial Blessing] Base heal increased.",
+    "is_champion": true,
+    "id": "7.1f-Kayle-0"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "タリヤ",
+    "champion_name_en": "Taliyah",
+    "change_type": "nerf",
+    "description": "【スレッドボレー】\n5個の岩の初撃の基本ダメージ：50/70/90/110 → 40/60/80/100\n\n【サイズミックシャーブ】\n詠唱範囲：9 → 8\n\n【アンレイベルアース】\n最初の岩の爆発ダメージ：30/45/60/75 → 20/35/50/65",
+    "description_en": "[Threaded Volley] Damage reduced. [Seismic Shove] Cast range reduced. [Unraveled Earth] Damage reduced.",
+    "is_champion": true,
+    "id": "7.1f-Taliyah-1"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "アンベッサ",
+    "champion_name_en": "Ambessa",
+    "change_type": "adjust",
+    "description": "【断交】\nシールド耐久値：95～319 + 増加攻撃力の125% → 50～330 + 増加攻撃力の120%",
+    "description_en": "[Repudiation] Shield scaling adjusted (weaker early, stronger late).",
+    "is_champion": true,
+    "id": "7.1f-Ambessa-2"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "カ・サンテ",
+    "champion_name_en": "KSante",
+    "change_type": "nerf",
+    "description": "【オールアウト】\n最大体力低下量：25% → 30%\n増加物理防御低下量：70% → 80%\n増加魔法防御低下量：70% → 80%",
+    "description_en": "[All Out] HP and Armor/MR reduction increased.",
+    "is_champion": true,
+    "id": "7.1f-KSante-3"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "グラガス",
+    "champion_name_en": "Gragas",
+    "change_type": "adjust",
+    "description": "【飲みすぎ注意】\nダメージ：65/90/115/140 + 魔力の90% + 対象の最大体力の7% → 35/70/105/140 + 魔力の70% + 対象の最大体力の8%",
+    "description_en": "[Drunken Rage] Base damage and AP ratio reduced, Max HP ratio increased.",
+    "is_champion": true,
+    "id": "7.1f-Gragas-4"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "ヴィエゴ",
+    "champion_name_en": "Viego",
+    "change_type": "nerf",
+    "description": "【滅びの王剣】\n対象の現在体力に応じたダメージ：3%/4%/5%/6% → 2%/3%/4%/5%\n\n【ハートブレイカー】\nダメージ範囲：3 → 2.75",
+    "description_en": "[Blade of the Ruined King] Current HP damage reduced. [Heartbreaker] Damage radius reduced.",
+    "is_champion": true,
+    "id": "7.1f-Viego-5"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "アクシャン",
+    "champion_name_en": "Akshan",
+    "change_type": "buff",
+    "description": "【報復のブーメラン】\nダメージ：5/35/65/95 + 攻撃力の80% → 10/40/70/100 + 攻撃力の85%",
+    "description_en": "[Avengerang] Damage and AD ratio increased.",
+    "is_champion": true,
+    "id": "7.1f-Akshan-6"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "ノラ",
+    "champion_name_en": "Norra",
+    "change_type": "nerf",
+    "description": "【記憶の波動】\n基本ダメージ：60/120/180/240 → 55/110/165/220\n\n【ポータルパルーザ！】\nダメージ：100/150/200 + 魔力の60% → 100/140/180 + 魔力の55%",
+    "description_en": "[S1] Base damage reduced. [Ult] Damage and AP ratio reduced.",
+    "is_champion": true,
+    "id": "7.1f-Norra-7"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "コグ＝マウ",
+    "champion_name_en": "KogMaw",
+    "change_type": "nerf",
+    "description": "【有機性魔力砲】\n最大体力に応じたダメージ率：2/3/4/5% → 1.5/2.5/3.5/4.5%",
+    "description_en": "[Bio-Arcane Barrage] Max HP damage ratio reduced.",
+    "is_champion": true,
+    "id": "7.1f-KogMaw-8"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "シェン",
+    "champion_name_en": "Shen",
+    "change_type": "buff",
+    "description": "【護刃招来】\n最大体力に応じたダメージ率：2.5/3/3.5/4% → 3/3.5/4/4.5%\n強化時の最大体力に応じたダメージ率：5/5.5/6/6.5% → 5.5/6/6.5/7%",
+    "description_en": "[Twilight Assault] Max HP damage ratio increased.",
+    "is_champion": true,
+    "id": "7.1f-Shen-9"
+  },
+  {
+    "version": "7.1f",
+    "champion_name": "バグ修正",
+    "champion_name_en": "Bugfixes",
+    "change_type": "adjust",
+    "description": "親しいフレンドシステム、ロールトレード時のUI不具合、iOSでのクラッシュ、デバイス加熱問題やカクつき等のパフォーマンス最適化を実施。",
+    "description_en": "Various UI bugfixes and performance optimizations to address stuttering, crashing, and device heating.",
+    "is_champion": false,
+    "id": "7.1f-Bugfixes-10"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "タリヤ",
+    "champion_name_en": "Taliyah",
+    "is_champion": true,
+    "change_type": "new",
+    "description": "【新チャンピオン参戦】\nタリヤは少女の好奇心と大人の責任感の間で揺れ動く、シュリーマ出身の流浪のメイジだ。\n日本時間5月15日9時01分にリリース予定。",
+    "description_en": "[New Champion] Taliyah, the Stoneweaver, will be released on May 15 at 09:01 JST.",
+    "id": "7.1e-Taliyah-0"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "ガレン",
+    "champion_name_en": "Garen",
+    "is_champion": true,
+    "change_type": "nerf",
+    "description": "【タフガイ】\n一定時間ダメージや敵のスキルを受けなかった際の体力自動回復：レベルに応じて1.3%～5.5% → 1.2%～4%\n\n【ジャッジメント】\n基本ダメージ：15/19/23/27 → 13/17/21/25\n物理防御低下：15% → 10%",
+    "description_en": "[Perseverance] Health regen: 1.3%-5.5% -> 1.2%-4%\n[Judgment] Base damage: 15/19/23/27 -> 13/17/21/25\nArmor reduction: 15% -> 10%",
+    "id": "7.1e-Garen-1"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "シヴァーナ",
+    "champion_name_en": "Shyvana",
+    "is_champion": true,
+    "change_type": "adjust",
+    "description": "【基本ステータス】\n基本攻撃力：58 → 62\n\n【龍血の憤怒】\n大型モンスターキル時の「龍血の力」スタック数：10 → 8\n\n【ツインバイト】\nドラゴン形態時のスロウ効果：50% → 30%\n\n【龍族の血統】\n毎秒獲得するフューリー：1.5/2/2.5 → 1/1.5/2",
+    "description_en": "[Base Stats] AD: 58 -> 62\n[Fury of the Dragonborn] Stacks from large monsters: 10 -> 8\n[Twin Bite] Dragon form slow: 50% -> 30%\n[Dragon's Descent] Fury per second: 1.5/2/2.5 -> 1/1.5/2",
+    "id": "7.1e-Shyvana-2"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "ライズ",
+    "champion_name_en": "Ryze",
+    "is_champion": true,
+    "change_type": "nerf",
+    "description": "【基本ステータス】\n基本攻撃力：58 → 54\n\n【オーバーロード】\n発動後の増加移動速度：30%/35%/40%/45% → 20%/27.5%/35%/42.5%\n基本ダメージ：80/105/130/155 → 70/95/120/145",
+    "description_en": "[Base Stats] AD: 58 -> 54\n[Overload] Movement speed: 30%-45% -> 20%-42.5%\nBase damage: 80/105/130/155 -> 70/95/120/145",
+    "id": "7.1e-Ryze-3"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "ツイステッド・フェイト",
+    "champion_name_en": "TwistedFate",
+    "is_champion": true,
+    "change_type": "nerf",
+    "description": "【イカサマダイス】\nユニットキル時の追加ゴールド：2～12 → 1～9\n\n【スタックデッキ】\n発動中の攻撃速度：30%/35%/40%/45% → 20%/25%/30%/35%",
+    "description_en": "[Loaded Dice] Bonus gold per kill: 2-12 -> 1-9\n[Stacked Deck] Attack speed: 30%-45% -> 20%-35%",
+    "id": "7.1e-TwistedFate-4"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "バード",
+    "champion_name_en": "Bard",
+    "is_champion": true,
+    "change_type": "buff",
+    "description": "【回復の遺物】\nチャージ時間：15秒(全ランク) → 15/14.5/14/13.5秒\n\n【運命の調律】\nクールダウン：80/70/60秒 → 75/65/55秒",
+    "description_en": "[Caretaker's Shrine] Charge time: 15s -> 15/14.5/14/13.5s\n[Tempered Fate] Cooldown: 80/70/60s -> 75/65/55s",
+    "id": "7.1e-Bard-5"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "グレイブス",
+    "champion_name_en": "Graves",
+    "is_champion": true,
+    "change_type": "buff",
+    "description": "【エンドライン】\n爆発時の増加攻撃力反映率：80%/110%/140%/170% → 110%/130%/150%/170%\n\n【クイックドロー】\nクールダウン：16/15/14/13秒 → 13/13/13/13秒",
+    "description_en": "[End of the Line] Explosion bonus AD ratio: 80%-170% -> 110%-170%\n[Quickdraw] Cooldown: 16-13s -> 13s at all ranks",
+    "id": "7.1e-Graves-6"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "ケイン",
+    "champion_name_en": "Kayn",
+    "is_champion": true,
+    "change_type": "buff",
+    "description": "【緋眼の大鎌】\n「影の暗殺者」形態時の追加ダメージの反映率：48%～62% → 52%～66%\n\n【刃影襲】\n増加攻撃力反映率：110% → 120%",
+    "description_en": "[The Darkin Scythe] Shadow Assassin bonus damage: 48%-62% -> 52%-66%\n[Blade's Reach] Bonus AD ratio: 110% -> 120%",
+    "id": "7.1e-Kayn-7"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "スモルダー",
+    "champion_name_en": "Smolder",
+    "is_champion": true,
+    "change_type": "adjust",
+    "description": "【スーパーこげこげブレス】\n強化効果の発動に必要なスタック数：20/85/150 → 25/100/175\nクリティカルベースのダメージ反映率：クリティカル率 × 50% → （クリティカル率 + 追加クリティカルダメージ）× 45%",
+    "description_en": "[Super Scorcher Breath] Required stacks for upgrade: 20/85/150 -> 25/100/175\nCrit damage ratio: Crit Chance * 50% -> (Crit Chance + Bonus Crit Damage) * 45%",
+    "id": "7.1e-Smolder-8"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "ランデュイン オーメン",
+    "champion_name_en": "RanduinsOmen",
+    "is_champion": false,
+    "change_type": "buff",
+    "description": "【忍耐力】\nクリティカルダメージ軽減：20% → 30%",
+    "description_en": "[Determination] Critical damage reduction: 20% -> 30%",
+    "id": "7.1e-RanduinsOmen-9"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "クラーケンスレイヤー",
+    "champion_name_en": "KrakenSlayer",
+    "is_champion": false,
+    "change_type": "buff",
+    "description": "【基本ステータス】\n価格：3000ゴールド → 2800ゴールド\n\n【打倒】\n減少体力に応じた最大ダメージ：50% → 70%",
+    "description_en": "[Base Stats] Cost: 3000g -> 2800g\n[Bring It Down] Max damage based on missing health: 50% -> 70%",
+    "id": "7.1e-KrakenSlayer-10"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "サンダード スカイ",
+    "champion_name_en": "SunderedSky",
+    "is_champion": false,
+    "change_type": "buff",
+    "description": "【基本ステータス】\n体力：300 → 350\n\n【ライトシールドストライク】\n減少体力に応じた回復量：5% → 6%",
+    "description_en": "[Base Stats] Health: 300 -> 350\n[Lightshield Strike] Missing health healing: 5% -> 6%",
+    "id": "7.1e-SunderedSky-11"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "ランダムミッド (ARAM)",
+    "champion_name_en": "ARAM",
+    "is_champion": false,
+    "change_type": "adjust",
+    "description": "【オーグメント調整】\nバンパーカー: CD 40秒→60秒、ノックアップ 1.5秒→0.5秒\nゆっくり着実に: 変換率 0.75→1\nワンストライク: 基本購入ゴールド減少率 5%→4%\nチャージシールド: シールド量 30%→25%\nその他、複数のオーグメントでスキルヘイストやダメージの調整。",
+    "description_en": "Various adjustments to ARAM augments including Bumper Cars, Slow and Steady, One Strike, and Charged Shield.",
+    "id": "7.1e-ARAM-12"
+  },
+  {
+    "version": "7.1e",
+    "champion_name": "新スキン",
+    "champion_name_en": "Skins",
+    "is_champion": false,
+    "change_type": "new",
+    "description": "【カフェキューティーズ ノラ】 5月20日リリース予定\n【プールパーティー タリヤ】 5月15日リリース予定",
+    "description_en": "Cafe Cuties Norra (May 20)\nPool Party Taliyah (May 15)",
+    "id": "7.1e-Skins-13"
+  },
+  {
+    "version": "システム要件変更 (2025/11/25)",
+    "champion_name": "動作環境変更",
+    "champion_name_en": "SystemRequirements",
+    "change_type": "adjust",
+    "description": "パッチ7.0に合わせてシステム要件が変更されます。\n\n【Androidの必要動作環境】\nOS：Android 8以降\nメモリ：3 GB RAM\nCPU：クアッドコアCortex-A53 2.0GHz Exynos 850、Helio A22\nGPU：Mali-G52MP1、PowerVR GE8320、Adreno 610\n\n【Appleの必要動作環境】\nモデル：iPhone 6s以降 \nOS：iOS 15以降\nメモリ：2 GB RAM\nCPU：Apple A9デュアルコア1.84 GHzプロセッサ\nGPU：PowerVR GT7600 GPU",
+    "description_en": "System requirements update for Patch 7.0 (Android & Apple).",
+    "is_champion": false,
+    "id": "システム要件変更 (2025/11/25)-SystemRequirements-0"
+  }
+]

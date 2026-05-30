@@ -1,0 +1,77 @@
+[
+  {
+    "version": "6.3",
+    "prediction_ja": "強力なADCであるヴァルスとアッシュへのナーフにより、ボットレーンのパワーバランスが変化。セナへのバフと相まって、サスティン型のサポートADCが台頭する可能性があります。また、新アイテム『暁光の美徳』の登場により、タンク系サポートやエンゲージタンクの集団戦での影響力が向上しそうです。ジャングルには高い機動力とポーク能力を持つニダリーが加わり、序盤からゲームを動かすメタが予想されます。",
+    "prediction_en": "Nerfs to dominant ADCs like Varus and Ashe will shift bot lane dynamics, potentially allowing sustain-focused marksmen like Senna to rise. The new item Radiant Virtue bolsters tank supports and engagers in team fights. In the jungle, Nidalee's arrival introduces a highly mobile, early-game oriented skirmisher to the meta."
+  },
+  {
+    "version": "6.3a",
+    "prediction_ja": "ブーツ系アイテムが全体的にナーフされ、序盤のステータスによる有利が小さくなりました。一方で、攻撃的な新ルーン（魂の収穫、チェーンアサルト、タイラント）が多数追加されたため、バーストダメージやキルポテンシャルが高いチャンピオンがより脅威になり、スノーボールしやすいメタになると予想されます。",
+    "prediction_en": "Overall nerfs to boot items reduce early game stat advantages. However, the introduction of aggressive new runes (such as Dark Harvest, Chain Assault, and Tyrant) will significantly enhance burst damage and kill potential. The meta is expected to favor snowballing and high-burst champions."
+  },
+  {
+    "version": "7.0a",
+    "prediction_ja": "パッチ7.0aでは、序盤に強力なニダリーやスモルダー、ジリアンが弱体化され、ゲームの序盤でのスノーボールが抑えられる傾向にあります。ヴェインのダメージ低下や、ショウジンの矛、超能力プロジェクターの弱体化により、ブルーザーや体力依存のメイジの影響力が低下するでしょう。一方でルナーン・ハリケーンが値下げされたため、複数の対象を攻撃するマークスマンが間接的に強化されています。",
+    "prediction_en": "Patch 7.0a tones down early-game snowballing by nerfing dominant early picks like Nidalee, Smolder, and Zilean. Damage nerfs to Vayne, Spear of Shojin, and Psychic Projector will slightly reduce the impact of bruisers and health-scaling mages. The cost reduction of Runaan's Hurricane offers a minor buff to multi-target marksmen."
+  },
+  {
+    "version": "7.0c",
+    "prediction_ja": "パッチ7.0cでは、遠隔攻撃チャンピオン向けの「ルインドキング ブレード」や「テルミヌス」、「ウィッツ エンド」の強化により、オンヒット系マークスマンの存在感が高まるでしょう。さらにアッシュの直接強化も相まって、ADCが試合をキャリーしやすい環境になると予想されます。一方、「デス ダンス」の弱体化によってファイターの生存能力が低下し、相対的にマークスマンの地位が向上します。また、マスター・イーやナサス、バードといった序盤・中盤で高い影響力を持つチャンピオンが軒並みナーフされたことで、試合展開がやや落ち着き、スケーリングを重視する構成が有利になる可能性があります。メイジ・アサシン層ではカタリナの序盤強化やアーリの操作性向上が入るため、ミッドレーンでの主導権争いがよりアクティブになりそうです。",
+    "prediction_en": "In Patch 7.0c, the buffs to ranged on-hit items like Blade of the Ruined King, Terminus, and Wit's End, coupled with Ashe's direct buff, will likely elevate the prominence of on-hit marksmen, creating an environment where ADCs can more easily carry. Meanwhile, the nerf to Death's Dance reduces fighter survivability, further solidifying the marksmen's relative power. Nerfs to early-mid game powerhouses like Master Yi, Nasus, and Bard suggest a slightly more stabilized early game, favoring scaling team compositions. In the mid lane, Katarina's early-game buffs and Ahri's logic optimizations will likely make skirmishes for priority much more active and rewarding."
+  },
+  {
+    "version": "7.0d",
+    "prediction_ja": "パッチ7.0dでは新チャンピオンのメルが登場し、メタに新たな風を吹き込みます。また、多数の新アイテム（クラーケンスレイヤー、騎士の誓い、覇王のブラッドメイル、終わりなき絶望、実験的ヘクスプレート）の追加により、マークスマン、サポート、ファイター、タンクそれぞれのビルドの幅が大きく広がります。特にファイターは新たなアイテムを活用することでスプリットプッシュや集団戦での影響力が増しそうです。チャンピオン調整では、フィドルスティックスが大幅にリワークされ操作性が改善し、レルやモルデカイザーの強化によりジャガーノートやエンゲージサポートの活躍が見込まれます。一方、ノラは弱体化を受け、サポートピックの優先度が少し下がるでしょう。",
+    "prediction_en": "Patch 7.0d introduces the new champion Mel, bringing a fresh dynamic to the meta. The addition of several new items (Kraken Slayer, Knight's Vow, Overlord's Bloodmail, Unending Despair, Experimental Hexplate) significantly expands build options across marksmen, supports, fighters, and tanks. Fighters in particular will likely gain more influence in split-pushing and team fights. Fiddlesticks receives a major rework to improve usability, while buffs to Rell and Mordekaiser will likely see a rise in engage supports and juggernauts. Conversely, Norra's nerfs may slightly lower her priority as a support pick."
+  },
+  {
+    "version": "7.0e",
+    "prediction_ja": "パッチ7.0eでは、ARAM（ラララランダムミッド）のオーグメントバランス調整が行われました。特に「オリジナルのタイタン ハイドラ」が大きく弱体化されたことで、増加体力に依存するタンクやブルーザーの火力が低下し、他のオーグメントの優先度が上がると予想されます。また、バグ修正により意図しないダメージシナジーが解消されました。",
+    "prediction_en": "Patch 7.0e focuses on ARAM augment balancing. The significant nerf to 'Original Titanic Hydra' will lower the damage output of health-stacking tanks and bruisers, likely increasing the priority of other augments. Bug fixes also remove unintended damage synergies."
+  },
+  {
+    "version": "7.0g",
+    "prediction_ja": "エイプリルフールのジョークパッチにより、サモナーズリフトがドッグランへと変貌しました。可愛いワンちゃんたち（ミニオン）を攻撃するのは心理的負担が極めて大きいため、CSを取る難易度が過去最高に跳ね上がるでしょう。全プレイヤーが平和主義者となり、ファームを放棄して犬と戯れ続けるため、試合時間が無制限に延びるアルティメット・レイトゲームメタが予想されます！🐶🐾",
+    "prediction_en": "Due to the April Fools' joke patch, Summoner's Rift has been transformed into a dog park. Attacking these adorable doggy minions carries a heavy psychological burden, making CSing harder than ever. We expect an ultimate late-game meta where all players become pacifists and abandon farming to play with the dogs, extending match times indefinitely! 🐶🐾"
+  },
+  {
+    "version": "7.1",
+    "prediction_ja": "カ・サンテの参戦とルーンシステムの大規模アップデートにより、メタ全体が激変します。「ドミニク・リガード」の追加により対タンクの手段が増えた一方で、新ルーンによるビルドの多様化が進みます。また、全ブーツのコスト低下により序盤のパワースパイクが早まり、レーン戦の動きが活発になるでしょう。アリーナやラララランダムミッドも常設化され、ゲーム全体がスピーディな展開になりそうです。",
+    "prediction_en": "The addition of K'Sante and the major overhaul of the rune system will drastically shift the meta. The new item Lord Dominik's Regards offers strong anti-tank capabilities, while the new runes provide diverse build paths. Across-the-board boot cost reductions will accelerate early-game power spikes. With Arena and ARAM changes, expect faster-paced games across all modes."
+  },
+  {
+    "version": "7.1f",
+    "prediction_ja": "今回のパッチは、強力すぎたチャンピオンの抑制と活躍できていなかったチャンピオンの救済が中心です。特にカ・サンテ、ヴィエゴ、タリヤなどの上位ティア常連ピックがナーフされたことで、ピックの多様性が広がります。一方でシェンやケイル、アクシャンといったチャンピオンが強化されたため、トップやミッドレーンでのダメージトレードの様相が変わり、新たな有利・不利のマッチアップが形成されるメタになるでしょう。",
+    "prediction_en": "This patch focuses on reigning in overly dominant champions while uplifting struggling ones. Nerfs to top-tier regulars like K'Sante, Viego, and Taliyah will encourage wider pick diversity. Conversely, buffs to Shen, Kayle, and Akshan will shake up trading dynamics in the Top and Mid lanes, creating new favorable matchups and altering the meta landscape."
+  },
+  {
+    "version": "7.1e",
+    "prediction_ja": "このパッチ7.1eでは、新チャンピオン「タリヤ」の参戦と、一部チャンピオンのバランス調整が行われます。ガレンの耐久力やシヴァーナのスノーボール性能が適正化される一方で、バードやグレイブス、ケインといったチャンピオンの序盤・中盤のパフォーマンスが強化されます。また、ランデュインオーメンの強化により、ADキャリーへのカウンターとしてのタンクの役割がさらに重要になります。全体として、タンクや中盤のテンポを重視した構成が環境の中心になると予想されます。",
+    "prediction_en": "In Patch 7.1e, the new champion Taliyah joins the rift alongside balance adjustments for several champions. While Garen's durability and Shyvana's snowball potential are tuned down, early to mid-game performers like Bard, Graves, and Kayn receive meaningful buffs. Furthermore, the buff to Randuin's Omen strengthens the role of tanks as a counter to AD carries. Overall, team compositions focusing on tanks and mid-game tempo are expected to dominate the meta."
+  },
+  {
+    "version": "7.1d",
+    "prediction_ja": "シヴィアやゼリといったレイトゲーム向けADCが強化された一方で、リーサルテンポがナーフされたため、マークスマンのビルド選択により多様性が生まれます。アーゴットやブラッドミアのバフにより、トップやミッドでのスケーリングピックが再び注目されるでしょう。ヴェインやメルのナーフによって、対面時の理不尽なプレッシャーは和らぐと予想されます。",
+    "prediction_en": "With buffs to late-game hypercarries like Sivir and Zeri, alongside Lethal Tempo nerfs for ranged champions, ADC build paths will see more diversity. Buffs to Urgot and Vladimir will bring scaling picks back into the spotlight for Top and Mid lanes. Facing Vayne and Mel will be slightly less oppressive following their nerfs."
+  },
+  {
+    "version": "7.1c",
+    "prediction_ja": "「ソーンメイル」や「炎術師のクローク」といったアイテムのダメージが低下したことで、タンクや重装ファイターのパッシブなダメージアウトプットが若干低下します。サモナーズリフトのメタへの影響は限定的ですが、アリーナなどの冒険モードではオーグメントプールの最適化により、これまでとは異なる強力なシナジーがメタの主流になる可能性があります。",
+    "prediction_en": "Nerfs to Thornmail and Pyromancer's Cloak will slightly reduce the passive damage output of tanks and juggernauts. While the impact on Summoner's Rift is limited, the augment pool optimization in Arena will likely give rise to new, powerful synergies."
+  },
+  {
+    "version": "7.1b",
+    "prediction_ja": "「トリニティ フォース」からキル時の移動速度上昇が削除されたことで、一部ファイターの機動力が低下し、集団戦でカイトされやすくなります。その反面、サポートアイテムのマナ回復力強化によりエンチャンターのポークが強力になり、タロンやフィズといったアサシンの強化と相まって、序盤から中盤にかけてのロームや小競り合いが試合を動かす鍵となるメタが予想されます。",
+    "prediction_en": "The removal of movement speed on kill from Trinity Force will make some fighters easier to kite in teamfights. Meanwhile, mana regen buffs for Enchanter items and buffs to assassins like Talon and Fizz suggest a meta where early-to-mid game roaming and skirmishes dictate the pace of the game."
+  },
+  {
+    "version": "7.1",
+    "prediction_ja": "冒険モード（アリーナやランダムミッド）において、「雪玉チャリオット」のダメージや射程が大幅にナーフされたため、遠距離から雪玉で強引にエンゲージしてキルをもぎ取る戦術の理不尽さが解消されました。今後はエンゲージのタイミングや、ポーク構成の立ち回りがより重要視される環境になるでしょう。",
+    "prediction_en": "Significant nerfs to Snowball Chariot's damage and range in Arena/ARAM mean that aggressive, cross-screen snowball engages are far less oppressive. The mode will shift toward valuing careful engage timing and traditional poke compositions."
+  },
+  {
+    "version": "システム要件変更 (2025/11/25)",
+    "prediction_ja": "パッチ7.0に向けたシステム要件の引き上げにより、プレイ環境の向上が期待される",
+    "prediction_en": "The increase in system requirements for Patch 7.0 is expected to improve the playing environment."
+  }
+]

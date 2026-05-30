@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useParams } from 'next/navigation';
 import { createClient } from '@supabase/supabase-js';
 import { useLocale, useTranslations } from 'next-intl';
@@ -8,6 +8,9 @@ import { Link } from '@/i18n/routing';
 import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2 } from 'lucide-react';
 import { parseLocalizedText, parseVariables, formatSkillDescription } from '@/utils/localization';
 import { PatchTable } from '@/components/patches/PatchTable';
+import fallbackStats from '@/data/champion_stats.json';
+import skillsJa from '../../../../../public/data/skills/ja.json';
+import skillsEn from '../../../../../public/data/skills/en.json';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
@@ -34,11 +37,73 @@ export default function ChampionDetailsPage() {
   const t = useTranslations("ChampionDetail");
   const r = useTranslations("Role");
   
-  const [champion, setChampion] = useState<ChampionDetailData | null>(null);
-  const [stats, setStats] = useState<any[]>([]);
-  const [wrDetails, setWrDetails] = useState<any>(null);
+  const champId = Array.isArray(id) ? id[0] : id;
+
+  const { initialChampion, initialStats, initialWrDetails } = useMemo(() => {
+    if (!champId) {
+      return { initialChampion: null, initialStats: [], initialWrDetails: null };
+    }
+
+    const matchedStats = (fallbackStats as any[]).filter(
+      (s) => s.champion_name_en.toLowerCase() === champId.toLowerCase()
+    );
+
+    let fallbackName = champId;
+    let fallbackRole = 'Mage';
+    if (matchedStats.length > 0) {
+      fallbackName = locale === 'ja' ? matchedStats[0].champion_name : matchedStats[0].champion_name_en;
+      fallbackRole = matchedStats[0].role;
+    } else if (champId.toLowerCase() === 'norra') {
+      fallbackName = locale === 'ja' ? 'ノラ' : 'Norra';
+      fallbackRole = 'Support';
+    }
+
+    let specificLore = locale === 'ja' 
+      ? "ヨードルの魔女であるノラは、マジカルキャット「ユーミ」のかつてのご主人です。彼女は「境界の書」の最後のページと繋がる世界に行こうとした際、はるか遠くの奇妙な世界に飛ばされ、失踪してしまいました。現在は領域の果てで出会った少し変わった新しい友人たちの助けを借りながら、愛猫のユーミが待つ家へ帰るための正しいポータルを探す壮大な旅を続けています。"
+      : "Norra is a yordle enchantress and the former master of the magical cat Yuumi. While attempting to travel to the world connected by the final page of the Book of Thresholds, she was accidentally transported to a strange, distant realm. Now, with the help of new, peculiar friends she met at the edge of the realm, she is on an epic journey to find the right portal back home to her beloved cat.";
+
+    if (champId.toLowerCase() === 'norra') {
+      specificLore = locale === 'ja' 
+        ? "ヨードルの魔女であるノラは、マジカルキャット「ユーミ」のかつてのご主人です。彼女は「境界の書」の最後のページと繋がる世界に行こうとした際、はるか遠くの奇妙な世界に飛ばされ、失踪してしまいました。現在は領域の果てで出会った少し変わった新しい友人たちの助けを借りながら、愛猫のユーミが待つ家へ帰るための正しいポータルを探す壮大な旅を続けています。"
+        : "Norra is a yordle enchantress and the former master of the magical cat Yuumi. While attempting to travel to the world connected by the final page of the Book of Thresholds, she was accidentally transported to a strange, distant realm. Now, with the help of new, peculiar friends she met at the edge of the realm, she is on an epic journey to find the right portal back home to her beloved cat.";
+    } else if (champId.toLowerCase() === 'garen') {
+      specificLore = locale === 'ja'
+        ? "気高き戦士ガレンは、デマーシアの軍隊「不屈の先鋒」を率いる模範的指揮官である。"
+        : "Garen is a noble warrior who leads the Dauntless Vanguard.";
+    }
+
+    const champDetail: ChampionDetailData = {
+      id: champId,
+      name: fallbackName,
+      title: champId === 'Norra' ? 'Wild Rift Exclusive' : 'The Might of Demacia',
+      lore: specificLore,
+      tags: [fallbackRole],
+      info: { attack: 5, defense: 5, magic: 5, difficulty: 5 },
+      champion_name_en: champId
+    };
+
+    const skillsSource = locale === 'ja' ? skillsJa : skillsEn;
+    const skillKey = Object.keys(skillsSource).find(
+      key => key.toLowerCase() === champId.toLowerCase() || key.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() === champId.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+    );
+    const initialSkills = skillKey ? (skillsSource as any)[skillKey] : null;
+    const wrDet = initialSkills ? {
+      champion_id: champId,
+      skills: initialSkills
+    } : null;
+
+    return {
+      initialChampion: champDetail,
+      initialStats: matchedStats,
+      initialWrDetails: wrDet
+    };
+  }, [champId, locale]);
+  
+  const [champion, setChampion] = useState<ChampionDetailData | null>(initialChampion);
+  const [stats, setStats] = useState<any[]>(initialStats);
+  const [wrDetails, setWrDetails] = useState<any>(initialWrDetails);
   const [counters, setCounters] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // インライン編集用のステート
   const [isDevelopment, setIsDevelopment] = useState(false);
@@ -99,6 +164,10 @@ export default function ChampionDetailsPage() {
 
   useEffect(() => {
     async function fetchData() {
+      setChampion(initialChampion);
+      setStats(initialStats);
+      setWrDetails(initialWrDetails);
+      setLoading(false);
       try {
         let langCode = 'en_US';
         switch (locale) {
@@ -476,8 +545,8 @@ export default function ChampionDetailsPage() {
                 {t('latestMetaStats')}
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {stats.map(stat => (
-                  <div key={stat.role} className="flex items-center justify-between bg-slate-50 border border-slate-200 p-4 rounded-xl shadow-inner">
+                {stats.map((stat, idx) => (
+                  <div key={stat.id ? `${stat.id}-${idx}` : `${stat.role}-${idx}`} className="flex items-center justify-between bg-slate-50 border border-slate-200 p-4 rounded-xl shadow-inner">
                     <span className={`text-sm font-black px-3 py-1 rounded-md border ${getRoleColor(stat.role)}`}>
                       {stat.role}
                     </span>
@@ -608,11 +677,13 @@ export default function ChampionDetailsPage() {
 
                     {/* Level Progression Table */}
                     {skill.table && (
-                      <div className="mt-2 ml-[72px] overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+                      <div className="mt-2 ml-0 md:ml-[72px] overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
                         <table className="w-full text-sm text-left">
                           <thead className="bg-slate-800 text-slate-100 uppercase font-black text-xs">
                             <tr>
-                              <th className="px-4 py-2 border-r border-slate-700">{t('growthData')}</th>
+                              <th className="px-4 py-2 border-r border-slate-700">
+                                {idx === 1 ? t('growthData') : (locale === 'ja' ? '詳細' : 'Details')}
+                              </th>
                               {skill.table.headers.map((h: string, i: number) => (
                                 <th key={i} className="px-4 py-2 text-center text-indigo-300">{h}</th>
                               ))}

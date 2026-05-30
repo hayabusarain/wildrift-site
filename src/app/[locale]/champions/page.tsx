@@ -5,6 +5,7 @@ import { useEffect, useState, useMemo } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import { Search, Users, Star, Target, Shield, Zap, Crosshair, HeartPulse, Sparkles, ArrowRight } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
+import fallbackStats from "@/data/champion_stats.json";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
@@ -36,9 +37,66 @@ export default function ChampionsPage() {
   const t = useTranslations("Champions");
   const r = useTranslations("Role");
   const locale = useLocale();
-  const [champions, setChampions] = useState<ChampionData[]>([]);
-  const [tierData, setTierData] = useState<Record<string, ChampionStat[]>>({});
-  const [loading, setLoading] = useState(true);
+  const initialTierData = useMemo(() => {
+    return (fallbackStats as any[]).reduce((acc, curr) => {
+      const champName = curr.champion_name_en;
+      if (!acc[champName]) acc[champName] = [];
+      acc[champName].push({
+        champion_name_en: curr.champion_name_en,
+        tier: curr.tier,
+        win_rate: curr.win_rate,
+        role: curr.role
+      });
+      return acc;
+    }, {} as Record<string, ChampionStat[]>);
+  }, []);
+
+  const initialChampions = useMemo(() => {
+    const list: ChampionData[] = [];
+    const seen = new Set<string>();
+    
+    for (const stat of fallbackStats as any[]) {
+      if (!seen.has(stat.champion_name_en)) {
+        seen.add(stat.champion_name_en);
+        
+        let tags = ['Mage'];
+        if (stat.role === 'TOP') tags = ['Fighter', 'Tank'];
+        else if (stat.role === 'JUNGLE') tags = ['Fighter', 'Assassin'];
+        else if (stat.role === 'MID') tags = ['Mage', 'Assassin'];
+        else if (stat.role === 'ADC') tags = ['Marksman'];
+        else if (stat.role === 'SUPPORT') tags = ['Support', 'Tank'];
+        
+        list.push({
+          id: stat.champion_name_en,
+          key: stat.champion_name_en,
+          name: locale === 'ja' ? stat.champion_name : stat.champion_name_en,
+          title: 'Wild Rift Champion',
+          blurb: '',
+          tags: tags,
+          info: { attack: 5, defense: 5, magic: 5, difficulty: 5 }
+        });
+      }
+    }
+    
+    // Ensure Norra is present
+    if (!seen.has('Norra')) {
+      list.push({
+        id: 'Norra',
+        key: 'Norra',
+        name: locale === 'ja' ? 'ノラ' : 'Norra',
+        title: 'Wild Rift Exclusive',
+        blurb: 'Wild Rift専用のチャンピオンです。',
+        tags: ['Mage', 'Support'],
+        info: { attack: 2, defense: 3, magic: 8, difficulty: 5 }
+      });
+    }
+    
+    return list;
+  }, [locale]);
+
+  const [champions, setChampions] = useState<ChampionData[]>(initialChampions);
+  const [tierData, setTierData] = useState<Record<string, ChampionStat[]>>(initialTierData);
+  const [loading, setLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('All');
 
