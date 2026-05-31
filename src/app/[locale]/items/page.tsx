@@ -134,7 +134,7 @@ export default function ItemsPage() {
   const [sortBy, setSortBy] = useState<'gold' | 'ad' | 'ap' | 'as' | 'crit' | 'hp' | 'ar' | 'mr' | 'haste' | 'mana' | 'name'>('gold');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const [filterCompleted, setFilterCompleted] = useState<'all' | 'core' | 'intermediate' | 'basic' | 'boots'>('core'); // デフォルトはコア（完成品）
-  const [showHelp, setShowHelp] = useState(true); // データベース仕様説明の表示制御用ステート
+  const [showHelp, setShowHelp] = useState(false); // データベース仕様説明の表示制御用ステート
  
   // ローカル環境・編集用のステート
   const [isDevelopment, setIsDevelopment] = useState(false);
