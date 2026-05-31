@@ -193,10 +193,13 @@ export default function ChampionsPage() {
       // 確実な安全装置：Norraはデータが無くても強制的に表示リストに入れる
       if (stats.length === 0 && champ.id !== 'Norra') return false;
 
-      const matchesSearch = champ.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                            champ.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            champ.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            (champ.id === 'Norra' && 'ノラ'.includes(searchQuery));
+      // 表記揺れ（スペースや中黒「・」の有無）対策として、これらをすべて取り除いて比較
+      const cleanStr = (s: string) => s.replace(/[\s\u3000・]+/g, '').toLowerCase();
+      const query = cleanStr(searchQuery);
+      const matchesSearch = cleanStr(champ.name).includes(query) || 
+                            cleanStr(champ.title).includes(query) ||
+                            cleanStr(champ.id).includes(query) ||
+                            (champ.id === 'Norra' && cleanStr('ノラ').includes(query));
       const matchesFilter = activeFilter === 'All' || champ.tags.includes(activeFilter);
       return matchesSearch && matchesFilter;
     }).sort((a, b) => a.name.localeCompare(b.name));

@@ -11,6 +11,7 @@
     "tacticalBoard": "Tactical Board",
     "quiz": "Quiz",
     "calculator": "Calculator",
+    "items": "Items",
     "guide": "Beginner's Guide",
     "admin": "Admin",
     "dataManagement": "Data Management",
@@ -45,6 +46,8 @@
     "qaCalcDesc": "Calculate actual damage considering items and defense.",
     "qaGuideTitle": "Beginner's Guide",
     "qaGuideDesc": "Learn basic rules, lane roles, and recommended mobile settings.",
+    "qaItemsTitle": "Items List",
+    "qaItemsDesc": "Detailed stats and effects for all items.",
     "contactUs": "Contact Us"
   },
   "Role": {

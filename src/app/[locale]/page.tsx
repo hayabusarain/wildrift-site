@@ -1,10 +1,12 @@
 'use client';
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Trophy, Users, Sparkles, Package, Hexagon, ArrowRight, TrendingUp, History, Calculator, Bell, BookOpen } from "lucide-react";
+import { Trophy, Users, Sparkles, Package, Hexagon, ArrowRight, TrendingUp, History, Calculator, Bell, BookOpen, ShoppingBag } from "lucide-react";
 import { createClient } from '@supabase/supabase-js';
+import itemsData from '@/data/physical_items_final.json';
+import fallbackPatches from '@/data/patches.json';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
@@ -112,6 +114,193 @@ export default function Home() {
     }
   };
 
+  const [featuredItems, setFeaturedItems] = useState<any[]>([]);
+  const [featuredChampions, setFeaturedChampions] = useState<any[]>([]);
+
+  useEffect(() => {
+    async function fetchBuffedData() {
+      // Helper function to sort patch versions numerically and suffix-sensitively
+      const compareVersions = (a: string, b: string): number => {
+        const regex = /^(\d+)\.(\d+)([a-z])?$/i;
+        const matchA = a.match(regex);
+        const matchB = b.match(regex);
+
+        if (!matchA && !matchB) return a.localeCompare(b);
+        if (!matchA) return -1;
+        if (!matchB) return 1;
+
+        const majorA = parseInt(matchA[1], 10);
+        const minorA = parseInt(matchA[2], 10);
+        const suffixA = matchA[3] || '';
+
+        const majorB = parseInt(matchB[1], 10);
+        const minorB = parseInt(matchB[2], 10);
+        const suffixB = matchB[3] || '';
+
+        if (majorA !== majorB) return majorA - majorB;
+        if (minorA !== minorB) return minorA - minorB;
+        return suffixA.localeCompare(suffixB);
+      };
+
+      // Helper to check if two patches represent the same change
+      const isDuplicatePatch = (a: any, b: any): boolean => {
+        if ((a.version || '').toLowerCase().trim() !== (b.version || '').toLowerCase().trim()) return false;
+        if ((a.change_type || '').toLowerCase().trim() !== (b.change_type || '').toLowerCase().trim()) return false;
+        
+        const normAJa = (a.champion_name || '').toLowerCase().replace(/[\s・_-]/g, '');
+        const normAEn = (a.champion_name_en || '').toLowerCase().replace(/[\s・_-]/g, '');
+        
+        const normBJa = (b.champion_name || '').toLowerCase().replace(/[\s・_-]/g, '');
+        const normBEn = (b.champion_name_en || '').toLowerCase().replace(/[\s・_-]/g, '');
+
+        const matchJa = normAJa && normBJa && normAJa === normBJa;
+        const matchEn = normAEn && normBEn && normAEn === normBEn;
+        
+        return matchJa || matchEn;
+      };
+
+      let patchesList: any[] = [];
+      try {
+        const { data, error } = await supabase
+          .from('patches')
+          .select('*')
+          .eq('change_type', 'buff');
+
+        const fallbackFiltered = fallbackPatches.filter(
+          (p: any) => p.change_type === 'buff'
+        );
+
+        if (!error && data && data.length > 0) {
+          const merged = [...data];
+          fallbackFiltered.forEach((p: any) => {
+            const isDup = merged.some(existing => isDuplicatePatch(existing, p));
+            if (!isDup) {
+              merged.push(p);
+            }
+          });
+          patchesList = merged;
+        } else {
+          patchesList = fallbackFiltered;
+        }
+      } catch (e) {
+        patchesList = fallbackPatches.filter(
+          (p: any) => p.change_type === 'buff'
+        );
+      }
+
+      const normalize = (name: string) => name.toLowerCase().replace(/[\s・_]/g, '');
+
+      // 1. Process Items
+      const itemPatches = patchesList.filter(p => !p.is_champion);
+      const matchedItemPatches = itemPatches.filter((patch: any) => {
+        const normPatchJa = normalize(patch.champion_name || '');
+        const normPatchEn = normalize(patch.champion_name_en || '');
+        return itemsData.some((item: any) => {
+          const normItemJa = normalize(item.nameJa || '');
+          const normItemEn = normalize(item.nameEn || '');
+          return (normPatchJa && normItemJa && normItemJa === normPatchJa) ||
+                 (normPatchEn && normItemEn && normItemEn === normPatchEn);
+        });
+      });
+
+      if (matchedItemPatches.length > 0) {
+        const itemVersions = Array.from(new Set(matchedItemPatches.map((p: any) => p.version)))
+          .sort((a: any, b: any) => compareVersions(b, a));
+        
+        const latestItemVersion = itemVersions[0];
+        const latestItemPatches = matchedItemPatches.filter((p: any) => p.version === latestItemVersion);
+
+        const seenItemIds = new Set();
+        const itemsMap = latestItemPatches.map((patch: any) => {
+          const normPatchJa = normalize(patch.champion_name || '');
+          const normPatchEn = normalize(patch.champion_name_en || '');
+          const foundItem = itemsData.find((item: any) => {
+            const normItemJa = normalize(item.nameJa || '');
+            const normItemEn = normalize(item.nameEn || '');
+            return (normPatchJa && normItemJa && normItemJa === normPatchJa) ||
+                   (normPatchEn && normItemEn && normItemEn === normPatchEn);
+          });
+          if (foundItem) {
+            if (seenItemIds.has(foundItem.id)) return null;
+            seenItemIds.add(foundItem.id);
+            return {
+              ...foundItem,
+              patchDescription: locale === 'ja' ? patch.description : patch.description_en,
+              patchVersion: patch.version,
+              isBuffed: true
+            };
+          }
+          return null;
+        }).filter(Boolean);
+        setFeaturedItems(itemsMap);
+      } else {
+        setFeaturedItems([]);
+      }
+
+      // 2. Process Champions
+      const champPatches = patchesList.filter(p => p.is_champion);
+      if (champPatches.length > 0) {
+        const champVersions = Array.from(new Set(champPatches.map((p: any) => p.version)))
+          .sort((a: any, b: any) => compareVersions(b, a));
+        
+        const latestChampVersion = champVersions[0];
+        const latestChampPatches = champPatches.filter((p: any) => p.version === latestChampVersion);
+
+        const seenChampNames = new Set();
+        const champsMap = latestChampPatches.map((patch: any) => {
+          const nameKey = (patch.champion_name_en || patch.champion_name || '').toLowerCase().trim();
+          if (seenChampNames.has(nameKey)) return null;
+          seenChampNames.add(nameKey);
+          return {
+            champion_name: locale === 'ja' ? patch.champion_name : (patch.champion_name_en || patch.champion_name),
+            champion_name_en: patch.champion_name_en,
+            patchDescription: locale === 'ja' ? patch.description : patch.description_en,
+            patchVersion: patch.version,
+            isBuffed: true
+          };
+        }).filter(Boolean);
+        setFeaturedChampions(champsMap);
+      } else {
+        setFeaturedChampions([]);
+      }
+    }
+
+    fetchBuffedData();
+  }, [locale]);
+
+  const getItemSearchString = (item: any) => {
+    let str = (item.stats || []).join(' ').toLowerCase();
+    if (item.passives && Array.isArray(item.passives)) {
+      item.passives.forEach((p: any) => {
+        if (p.name) str += ' ' + p.name.toLowerCase();
+        if (p.description) str += ' ' + p.description.toLowerCase();
+      });
+    }
+    return str;
+  };
+
+  const getItemGlowClass = (item: any) => {
+    if (item.isBuffed) {
+      return 'from-emerald-500/10 via-slate-900 to-slate-900 hover:border-emerald-500/35 group-hover:shadow-emerald-500/5';
+    }
+    const searchStr = getItemSearchString(item);
+    if (searchStr.includes('攻撃力') || searchStr.includes('ad')) return 'from-rose-500/10 via-slate-900 to-slate-900 hover:border-rose-500/30 group-hover:shadow-rose-500/5';
+    if (searchStr.includes('魔力') || searchStr.includes('ap')) return 'from-purple-500/10 via-slate-900 to-slate-900 hover:border-purple-500/30 group-hover:shadow-purple-500/5';
+    if (searchStr.includes('物理防御') || searchStr.includes('魔法防御') || searchStr.includes('防御') || searchStr.includes('mr') || searchStr.includes('armor')) return 'from-emerald-500/10 via-slate-900 to-slate-900 hover:border-emerald-500/30 group-hover:shadow-emerald-500/5';
+    return 'from-indigo-500/10 via-slate-900 to-slate-900 hover:border-indigo-500/30 group-hover:shadow-indigo-500/5';
+  };
+
+  const getIconGlowColor = (item: any) => {
+    if (item.isBuffed) {
+      return 'bg-emerald-500/20';
+    }
+    const searchStr = getItemSearchString(item);
+    if (searchStr.includes('攻撃力') || searchStr.includes('ad')) return 'bg-rose-500/20';
+    if (searchStr.includes('魔力') || searchStr.includes('ap')) return 'bg-purple-500/20';
+    if (searchStr.includes('物理防御') || searchStr.includes('魔法防御') || searchStr.includes('防御') || searchStr.includes('mr') || searchStr.includes('armor')) return 'bg-emerald-500/20';
+    return 'bg-indigo-500/20';
+  };
+
   return (
     <div className="space-y-12 pb-16">
       
@@ -137,15 +326,7 @@ export default function Home() {
             {t('heroDesc')}
           </p>
           
-          <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-6">
-            <Link 
-              href="/guide" 
-              className="inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-600 hover:to-violet-700 text-white font-extrabold px-8 py-3.5 rounded-2xl shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/35 hover:scale-[1.02] active:scale-[0.98] transition-all transform hover:-translate-y-0.5 duration-200"
-            >
-              <BookOpen size={18} />
-              <span>{locale === 'ja' ? '初心者ガイドを見る' : "Read Beginner's Guide"}</span>
-            </Link>
-          </div>
+
         </div>
       </div>
 
@@ -227,8 +408,168 @@ export default function Home() {
         )}
       </div>
 
+      {/* Featured Champions Showcase Section (Carousel) */}
+      {featuredChampions.length > 0 && (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-2xl font-black text-slate-800 flex items-center gap-3">
+                <Users className="text-emerald-500" size={28} />
+                {locale === 'ja' 
+                  ? `最新パッチ ${featuredChampions[0]?.patchVersion || ''} のバフ対象チャンピオン` 
+                  : `Buffed Champions in Patch ${featuredChampions[0]?.patchVersion || ''}`}
+              </h2>
+              <p className="text-slate-500 font-medium mt-1 mb-1">
+                {locale === 'ja' ? '直近のアップデートでスキルやステータスが上方修正（バフ）されたチャンピオン' : 'Champions who received buffs in the recent update'}
+              </p>
+            </div>
+            <Link href="/champions" className="text-indigo-600 font-bold hover:text-indigo-800 flex items-center gap-1 text-sm bg-indigo-50 px-4 py-2 rounded-full transition-colors">
+              {locale === 'ja' ? 'すべてのチャンピオンを見る' : 'View All Champions'} <ArrowRight size={14} />
+            </Link>
+          </div>
+
+          {/* Horizontal scrollable carousel */}
+          <div className="flex gap-4 overflow-x-auto pb-4 pt-1 snap-x snap-mandatory scroll-smooth scrollbar-thin scrollbar-thumb-slate-300 hover:scrollbar-thumb-slate-400 scrollbar-track-transparent">
+            {featuredChampions.map((champ: any, idx) => {
+              return (
+                <Link
+                  key={idx}
+                  href={`/champions/${champ.champion_name_en}`}
+                  className="group relative flex-none w-[200px] sm:w-[240px] snap-start bg-slate-900 border border-slate-800 rounded-3xl p-5 flex flex-col items-center text-center hover:scale-[1.03] hover:shadow-xl hover:border-transparent bg-gradient-to-b from-emerald-500/10 via-slate-900 to-slate-900 hover:border-emerald-500/35 transition-all duration-300 overflow-hidden"
+                >
+                  {/* BUFF Badge */}
+                  <span className="absolute top-2 right-2 text-[9px] font-black text-emerald-400 bg-emerald-500/20 border border-emerald-500/30 rounded-md px-1.5 py-0.5 z-20 animate-pulse">
+                    BUFF
+                  </span>
+
+                  {/* Glow behind icon */}
+                  <div className="absolute top-4 w-16 h-16 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 bg-emerald-500/20" />
+
+                  <div className="relative w-16 h-16 rounded-full overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-4 group-hover:scale-110 transition-transform duration-300 shrink-0">
+                    <img
+                      src={
+                        champ.champion_name_en === 'Norra'
+                          ? '/images/champions/Norra.avif'
+                          : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champ.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`
+                      }
+                      alt={champ.champion_name}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const parent = e.currentTarget.parentElement;
+                        if (parent && !parent.querySelector('.fallback-icon')) {
+                          const fallback = document.createElement('div');
+                          fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-sm shadow-inner';
+                          fallback.innerText = champ.champion_name?.substring(0, 1) || '?';
+                          parent.appendChild(fallback);
+                        }
+                      }}
+                    />
+                  </div>
+
+                  <div className="space-y-1 relative z-10 flex-1 flex flex-col justify-between">
+                    <div>
+                      <h3 className="font-black text-slate-100 text-sm line-clamp-1 group-hover:text-white transition-colors">
+                        {champ.champion_name}
+                      </h3>
+                    </div>
+                    
+                    <div className="text-[10px] text-emerald-400 font-medium line-clamp-2 mt-2 leading-relaxed">
+                      {champ.patchDescription}
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Featured Items Showcase Section */}
+      <div className="space-y-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-2xl font-black text-slate-800 flex items-center gap-3">
+              <ShoppingBag className="text-emerald-500" size={28} />
+              {locale === 'ja' 
+                ? `最新パッチ ${featuredItems.find(f => f.isBuffed)?.patchVersion || ''} のバフ対象アイテム` 
+                : `Buffed Items in Patch ${featuredItems.find(f => f.isBuffed)?.patchVersion || ''}`}
+            </h2>
+            <p className="text-slate-500 font-medium mt-1 mb-1">
+              {locale === 'ja' ? '直近のアップデートで能力値や効果が上方修正（バフ）された注目の装備' : 'Key items that received buffs in the recent update'}
+            </p>
+          </div>
+          <Link href="/items" className="text-indigo-600 font-bold hover:text-indigo-800 flex items-center gap-1 text-sm bg-indigo-50 px-4 py-2 rounded-full transition-colors">
+            {locale === 'ja' ? 'すべてのアイテムを見る' : 'View All Items'} <ArrowRight size={14} />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          {featuredItems.map((item: any, idx) => {
+            const glowClass = getItemGlowClass(item);
+            const iconGlow = getIconGlowColor(item);
+            return (
+              <Link
+                key={idx}
+                href="/items"
+                className={`group relative bg-slate-900 border border-slate-800 rounded-3xl p-5 flex flex-col items-center text-center hover:scale-[1.05] hover:shadow-xl hover:border-transparent bg-gradient-to-b ${glowClass} transition-all duration-300 overflow-hidden`}
+              >
+                {/* BUFF Badge */}
+                {item.isBuffed && (
+                  <span className="absolute top-2 right-2 text-[9px] font-black text-emerald-400 bg-emerald-500/20 border border-emerald-500/30 rounded-md px-1.5 py-0.5 z-20 animate-pulse">
+                    BUFF
+                  </span>
+                )}
+
+                {/* Glow behind icon */}
+                <div className={`absolute top-4 w-16 h-16 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 ${iconGlow}`} />
+
+                <div className="relative w-16 h-16 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-4 group-hover:scale-110 transition-transform duration-300 shrink-0">
+                  <img
+                    src={
+                      item.image === 'default_item.png'
+                        ? 'https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/1055.png'
+                        : item.image.startsWith('/')
+                        ? item.image
+                        : `https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/${item.image}`
+                    }
+                    alt={item.nameJa}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/1055.png';
+                    }}
+                  />
+                </div>
+
+                <div className="space-y-1 relative z-10 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="font-black text-slate-100 text-sm line-clamp-1 group-hover:text-white transition-colors">
+                      {item.nameJa}
+                    </h3>
+                    <span className="text-[10px] font-black text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded-md px-1.5 py-0.5 mt-1 inline-block">
+                      {item.gold} G
+                    </span>
+                  </div>
+                  
+                  {/* Primary stat preview or patch description */}
+                  <div className="text-[10px] text-slate-400 font-semibold line-clamp-2 mt-2 leading-relaxed">
+                    {item.patchDescription ? (
+                      <span className="text-emerald-400 font-medium">
+                        {item.patchDescription}
+                      </span>
+                    ) : (
+                      item.stats[0] || (item.passives[0] ? item.passives[0].name : '効果のみ')
+                    )}
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Quick Access Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         <Link href="/champions" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
           <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
             <Users size={24} />
@@ -236,6 +577,16 @@ export default function Home() {
           <div>
             <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaChampionsTitle')}</h3>
             <p className="text-xs text-slate-500">{t('qaChampionsDesc')}</p>
+          </div>
+        </Link>
+
+        <Link href="/items" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
+          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <ShoppingBag size={24} />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaItemsTitle')}</h3>
+            <p className="text-xs text-slate-500">{t('qaItemsDesc')}</p>
           </div>
         </Link>
         

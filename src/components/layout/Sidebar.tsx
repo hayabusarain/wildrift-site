@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/routing";
-import { LayoutDashboard, Map, Calculator, Trophy, Users, Database, Sparkles, Package, Hexagon, History, X, BookOpen } from "lucide-react";
+import { LayoutDashboard, Map, Calculator, Trophy, Users, Database, Sparkles, Package, Hexagon, History, X, BookOpen, ShoppingBag } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 
 interface SidebarProps {
@@ -48,6 +48,22 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             <span>{t("home")}</span>
           </Link>
           <Link 
+            href="/champions" 
+            onClick={onClose}
+            className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
+          >
+            <Users size={20} />
+            <span>{t("champions")}</span>
+          </Link>
+          <Link 
+            href="/items" 
+            onClick={onClose}
+            className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
+          >
+            <ShoppingBag size={20} />
+            <span>{t("items")}</span>
+          </Link>
+          <Link 
             href="/tier-list" 
             onClick={onClose}
             className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
@@ -64,15 +80,6 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             <span>{t("dashboard")}</span>
           </Link>
           <Link 
-            href="/champions" 
-            onClick={onClose}
-            className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
-          >
-            <Users size={20} />
-            <span>{t("champions")}</span>
-          </Link>
-
-          <Link 
             href="/calculator" 
             onClick={onClose}
             className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
@@ -80,7 +87,6 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             <Calculator size={20} />
             <span>{t("calculator")}</span>
           </Link>
-
           <Link 
             href="/guide" 
             onClick={onClose}
@@ -89,7 +95,6 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             <BookOpen size={20} />
             <span>{t("guide")}</span>
           </Link>
-
         </nav>
         <div className="p-4 border-t border-slate-800 text-xs text-slate-500/70 leading-relaxed space-y-3">
           <div className="flex flex-col space-y-2 mb-4">

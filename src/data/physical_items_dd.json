@@ -1,0 +1,562 @@
+[
+  {
+    "id": "3004",
+    "nameJa": "マナムネ",
+    "nameEn": "Manamune",
+    "gold": 2900,
+    "description": "<mainText><stats>攻撃力<attention>35</attention><br>マナ<attention>500</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>畏怖</passive><br>マナに応じて増加攻撃力を獲得する。<br><br><passive>マナフロー</passive><br>スキルまたは通常攻撃が対象に命中すると増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「ムラマナ」</rarityLegendary>に変化する。</mainText>",
+    "image": "3004.png"
+  },
+  {
+    "id": "3026",
+    "nameJa": "ガーディアン エンジェル",
+    "nameEn": "Guardian Angel",
+    "gold": 3200,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>物理防御 <attention>45</attention></stats><br><br><passive>起死回生</passive><br>体力がゼロになった際、少し遅れて復活する。</mainText>",
+    "image": "3026.png"
+  },
+  {
+    "id": "3031",
+    "nameJa": "インフィニティ エッジ",
+    "nameEn": "Infinity Edge",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<attention>65</attention><br>クリティカル率<attention>20%</attention><br>クリティカルダメージ<attention>50%</attention></stats><br><br></mainText>",
+    "image": "3031.png"
+  },
+  {
+    "id": "3033",
+    "nameJa": "モータル リマインダー",
+    "nameEn": "Mortal Reminder",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>40</attention><br>物理防御貫通<attention>35%</attention><br>クリティカル率<attention>20%</attention></stats><br><br><passive>重傷</passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「重傷」</keyword>を付与する。</mainText>",
+    "image": "3033.png"
+  },
+  {
+    "id": "3036",
+    "nameJa": "ドミニク リガード",
+    "nameEn": "Lord Dominik's Regards",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>40</attention><br>クリティカル率<attention>20%</attention><br>物理防御貫通<attention>35%</attention></stats><br><br><passive>ジャイアント スレイヤー</passive><br>自身より最大体力の多いチャンピオンに対して追加ダメージを与える。</mainText>",
+    "image": "3036.png"
+  },
+  {
+    "id": "3042",
+    "nameJa": "ムラマナ",
+    "nameEn": "Muramana",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>35</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>畏怖</passive><br>マナに応じて攻撃力が増加する。<br><br><passive>ショック</passive><br>チャンピオンに対する通常攻撃と攻撃スキルが追加物理ダメージを与える。</mainText>",
+    "image": "3042.png"
+  },
+  {
+    "id": "3046",
+    "nameJa": "ファントム ダンサー",
+    "nameEn": "Phantom Dancer",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃力<attention>20</attention><br>攻撃速度<attention>30%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>10%</attention></stats><br><br><br><li><passive>幽霊のワルツ:</passive> 通常攻撃で<status>ゴースト化</status>して、スタック可能な増加攻撃速度を獲得する。<br><br><rules><status>ゴースト化</status>したユニットは、他のユニットをすり抜けて移動する。</rules></mainText>",
+    "image": "3046.png"
+  },
+  {
+    "id": "3053",
+    "nameJa": "ステラックの篭手",
+    "nameEn": "Sterak's Gage",
+    "gold": 3000,
+    "description": "<mainText><stats>体力<attention>400</attention><br>行動妨害耐性<attention>20%</attention></stats><br><br><passive>獲物を狙う爪</passive><br>攻撃力が増加する。<br><br><passive>ライフライン</passive> (0秒)<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、シールドを得る。</mainText>",
+    "image": "3053.png"
+  },
+  {
+    "id": "3071",
+    "nameJa": "ブラック クリーバー",
+    "nameEn": "Black Cleaver",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>体力<attention>400</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><passive>カーブ</passive><br>チャンピオンに物理ダメージを与えると、対象に物理防御低下のスタックを付与する。<br><br><passive>熱情</passive><br>物理ダメージを与えると移動速度が増加する。</mainText>",
+    "image": "3071.png"
+  },
+  {
+    "id": "3072",
+    "nameJa": "ブラッドサースター",
+    "nameEn": "Bloodthirster",
+    "gold": 3400,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>18%</attention></stats><br><br><passive>飽満</passive><br>体力が一定量を上回っていると、攻撃力が増加する。</mainText>",
+    "image": "3072.png"
+  },
+  {
+    "id": "3073",
+    "nameJa": "実験的へクスプレート",
+    "nameEn": "Experimental Hexplate",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>攻撃速度<attention>25%</attention><br>体力<attention>300</attention></stats><br><br><passive>へクスチャージ</passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br><passive>オーバードライブ</passive><br>アルティメットスキル発動から少しの間、攻撃速度と移動速度が増加する。<br></mainText>",
+    "image": "3073.png"
+  },
+  {
+    "id": "3074",
+    "nameJa": "ラヴァナス ハイドラ",
+    "nameEn": "Ravenous Hydra",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<attention>70</attention><br>スキルヘイスト<attention>20</attention><br>ライフ スティール<attention>12%</attention></stats><br><br><passive>なぎ払い</passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br><active>発動効果</active> (0秒)<br><active>貪欲な三日月</active><br>周囲の敵に物理ダメージを与えて、ライフスティールを適用する。</mainText>",
+    "image": "3074.png"
+  },
+  {
+    "id": "3078",
+    "nameJa": "トリニティ フォース",
+    "nameEn": "Trinity Force",
+    "gold": 3333,
+    "description": "<mainText><stats>攻撃力<attention>45</attention><br>攻撃速度<attention>33%</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><passive>追撃</passive><br>スキルを使った後、次の通常攻撃が強化されて追加物理ダメージを与える。<br><br><passive>加速</passive><br>通常攻撃を行うと移動速度が増加する。<br><br></mainText>",
+    "image": "3078.png"
+  },
+  {
+    "id": "3085",
+    "nameJa": "ルナーン ハリケーン",
+    "nameEn": "Runaan's Hurricane",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃速度<attention>40%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>7%</attention></stats><br><br><passive>串刺し</passive><br>通常攻撃時効果で追加魔法ダメージを与える。<br><br><passive>連撃の風</passive><br>通常攻撃時、対象の周囲にいる敵(最大2体)にも矢を放つ。矢には通常攻撃時効果が適用され、クリティカル判定がある。<br><br><rules>このアイテムは遠隔攻撃チャンピオン専用。</rules></mainText>",
+    "image": "3085.png"
+  },
+  {
+    "id": "3087",
+    "nameJa": "スタティック シヴ",
+    "nameEn": "Statikk Shiv",
+    "gold": 2900,
+    "description": "<mainText><stats>攻撃力<attention>50</attention><br>攻撃速度<attention>30%</attention><br>クリティカル率<attention>20%</attention></stats><br><br><passive>電気ショック</passive><br>エネルギー充填状態の通常攻撃が魔法ダメージを与える電撃を放つ。 </mainText>",
+    "image": "3087.png"
+  },
+  {
+    "id": "3091",
+    "nameJa": "ウィッツ エンド",
+    "nameEn": "Wit's End",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃速度<attention>55%</attention><br>魔法防御<attention>50</attention><br>行動妨害耐性<attention>20%</attention></stats><br><br><passive>フレイ</passive><br>通常攻撃時効果で魔法ダメージを与える。</mainText>",
+    "image": "3091.png"
+  },
+  {
+    "id": "3094",
+    "nameJa": "ラピッド ファイアキャノン",
+    "nameEn": "Rapid Firecannon",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>30</attention><br>攻撃速度<attention>20%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>7%</attention></stats><br><br><passive>心眼</passive><br>エネルギー充填状態の通常攻撃が追加魔法ダメージを与え、その射程が増加する。</mainText>",
+    "image": "3094.png"
+  },
+  {
+    "id": "3095",
+    "nameJa": "ストームレイザー",
+    "nameEn": "Stormrazor",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<attention>60</attention><br>攻撃速度<attention>15%</attention><br>クリティカル率<attention>20%</attention></stats><br><br><passive>稲妻</passive><br>エネルギー充填状態の通常攻撃が追加魔法ダメージを与え、移動速度を増加させる。</mainText>",
+    "image": "3095.png"
+  },
+  {
+    "id": "3110",
+    "nameJa": "フローズン ハート",
+    "nameEn": "Frozen Heart",
+    "gold": 2500,
+    "description": "<mainText><stats>物理防御 <attention>65</attention><br>マナ<attention>400</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><passive>冬の抱擁</passive><br>周囲の敵の<attackSpeed>攻撃速度</attackSpeed>を20%低下させる。<br><br><passive>岩より固く</passive><br>通常攻撃で受けるダメージを最大0軽減する。通常攻撃のダメージの0%が上限。</mainText>",
+    "image": "3110.png"
+  },
+  {
+    "id": "3115",
+    "nameJa": "ナッシャー トゥース",
+    "nameEn": "Nashor's Tooth",
+    "gold": 3000,
+    "description": "<mainText><stats>魔力<attention>90</attention><br>攻撃速度<attention>50%</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>イカシアの牙</passive><br>通常攻撃が<magicDamage>魔法ダメージ</magicDamage> <OnHit>通常攻撃時効果</OnHit>を与える。</mainText>",
+    "image": "3115.png"
+  },
+  {
+    "id": "3124",
+    "nameJa": "グインソー レイジブレード",
+    "nameEn": "Guinsoo's Rageblade",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>35</attention><br>魔力<attention>35</attention><br>攻撃速度<attention>25%</attention></stats><br><br><passive>激憤</passive><br>通常攻撃が<magicDamage>30の魔法ダメージ <OnHit>通常攻撃時効果</OnHit></magicDamage>を与える。<br><br><passive>シージングストライク</passive><br>通常攻撃によって<attackSpeed>攻撃速度が8%</attackSpeed>増加する。この効果は4回までスタックし、最大で<attackSpeed>攻撃速度が0</attackSpeed>増加する。スタックが最大の間は、通常攻撃3回ごとに<OnHit>通常攻撃時効果</OnHit>を2回適用する。<br><br></mainText>",
+    "image": "3124.png"
+  },
+  {
+    "id": "3139",
+    "nameJa": "マーキュリアル シミター",
+    "nameEn": "Mercurial Scimitar",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>40</attention><br>クリティカル率<attention>20%</attention><br>魔法防御<attention>50</attention></stats><br><br><br><br><active>発動効果</active> (0秒)<br><active>水銀</active><br>すべての行動妨害系デバフ(<keyword>ノックアップ</keyword>を除く)を除去し、1.5秒間<speed>移動速度が50%</speed>増加する。</mainText>",
+    "image": "3139.png"
+  },
+  {
+    "id": "3142",
+    "nameJa": "妖夢の霊剣",
+    "nameEn": "Youmuu's Ghostblade",
+    "gold": 2700,
+    "description": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention></stats><br><br><passive>幽鬼</passive> <br>非戦闘時に<speed>移動速度</speed>が増加する。<br><br><br><active>発動効果</active> (0秒)<br><active>幽霊の歩み</active><br><speed>移動速度</speed>が増加して<keyword>ゴースト化</keyword>する。</mainText>",
+    "image": "3142.png"
+  },
+  {
+    "id": "3143",
+    "nameJa": "ランデュイン オーメン",
+    "nameEn": "Randuin's Omen",
+    "gold": 2700,
+    "description": "<mainText><stats>体力<attention>400</attention><br>物理防御 <attention>55</attention></stats><br><br><passive>岩より固く</passive><br>通常攻撃で受けるダメージが軽減される。<br><br><passive>クリティカル耐性</passive><br>クリティカルで受けるダメージが軽減される。<br><br><active>発動効果</active><br><active>卑下</active><br>周囲の敵に<keyword>スロウ効果</keyword>を付与する。</mainText>",
+    "image": "3143.png"
+  },
+  {
+    "id": "3153",
+    "nameJa": "ルインドキング ブレード",
+    "nameEn": "Blade of The Ruined King",
+    "gold": 3200,
+    "description": "<mainText><stats>攻撃力<attention>40</attention><br>攻撃速度<attention>25%</attention><br>ライフ スティール<attention>8%</attention></stats><br><br><passive>ミストエッジ</passive><br>通常攻撃が敵の現在体力のにあたる物理ダメージ <OnHit>通常攻撃時効果</OnHit>を追加で与える。<br><br><passive>引き裂く影</passive> (0秒)<br>チャンピオンに対する最初の通常攻撃がスロウ効果を与える。</mainText>",
+    "image": "3153.png"
+  },
+  {
+    "id": "3156",
+    "nameJa": "マルモティウスの胃袋",
+    "nameEn": "Maw of Malmortius",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃力<attention>65</attention><br>魔法防御<attention>50</attention></stats><br><br><passive>ライフライン</passive><br>魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、魔法ダメージを防ぐシールドを得る。<passive>「ライフライン」</passive>が発動すると、戦闘終了までオムニヴァンプを獲得する。  </mainText>",
+    "image": "3156.png"
+  },
+  {
+    "id": "3161",
+    "nameJa": "ショウジンの矛",
+    "nameEn": "Spear of Shojin",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><passive>ドラゴンフォース</passive><br>アルティメット以外のスキルがスキルヘイストを獲得する。<br><br><passive>研ぎ澄ました意志</passive><br>スキルが命中するごとにスタックを獲得する。保持しているスタックごとに、スキルで与えるダメージが増加する。</mainText>",
+    "image": "3161.png"
+  },
+  {
+    "id": "3179",
+    "nameJa": "アンブラル グレイブ",
+    "nameEn": "Umbral Glaive",
+    "gold": 2600,
+    "description": "<mainText><stats>攻撃力<attention>50</attention><br>脅威<attention>15</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>ブラックアウト</passive><br>周囲にある罠を可視化してワードを無効化する。通常攻撃でワードに与えるダメージが増加する。</mainText>",
+    "image": "3179.png"
+  },
+  {
+    "id": "3181",
+    "nameJa": "ハルブレイカー",
+    "nameEn": "Hullbreaker",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>65</attention><br>体力<attention>350</attention><br>移動速度<attention>5%</attention></stats><br><br><passive>艦長</passive><br>チャンピオンまたはエピックモンスターに対する通常攻撃5回ごとに追加物理ダメージを与える。対象が建造物の場合はこのダメージが増加する。<br><br><passive>乗船部隊</passive><br>周囲にいる味方の砲撃ミニオンおよびスーパーミニオンが、物理/魔法防御を獲得する。 </mainText>",
+    "image": "3181.png"
+  },
+  {
+    "id": "3302",
+    "nameJa": "テルミヌス",
+    "nameEn": "Terminus",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>40</attention><br>攻撃速度<attention>30%</attention></stats><br><br><passive>シャドウ</passive><br>通常攻撃が魔法ダメージ<OnHit>通常攻撃時効果</OnHit>を与える。<br><br><passive>ジャクスタポジション</passive><br>チャンピオンに対する通常攻撃時に、通常攻撃時効果を<keywordMajor>「ライト」</keywordMajor>と<keywordMajor>「ダーク」</keywordMajor>の間で切り替える。<li><keywordMajor>「ライト」</keywordMajor>の通常攻撃は<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>を増加させる。<li><keywordMajor>「ダーク」</keywordMajor>の通常攻撃は、<scaleArmor>物理防御貫通</scaleArmor>と<scaleMR>魔法防御貫通</scaleMR>を増加させる。</mainText>",
+    "image": "3302.png"
+  },
+  {
+    "id": "3504",
+    "nameJa": "アーデント センサー",
+    "nameEn": "Ardent Censer",
+    "gold": 2300,
+    "description": "<mainText><stats>魔力<attention>50</attention><br>回復効果およびシールド量<attention>8%</attention><br>基本マナ自動回復<attention>125%</attention><br>移動速度<attention>8%</attention></stats><br><br><passive>サンクティファイ</passive><br>味方に体力回復効果またはシールドを付与すると、6秒間、自身とその味方の両方が強化され、攻撃速度が<attackSpeed>25%</attackSpeed>増加して、<magicDamage>20の魔法ダメージ</magicDamage> <OnHit>通常攻撃時効果</OnHit>を与える。</mainText>",
+    "image": "3504.png"
+  },
+  {
+    "id": "3508",
+    "nameJa": "エッセンス リーバー",
+    "nameEn": "Essence Reaver",
+    "gold": 2900,
+    "description": "<mainText><stats>攻撃力<attention>60</attention><br>クリティカル率<attention>20%</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><passive>追撃</passive><br>スキルを使った後、次の通常攻撃が追加ダメージを与え、マナを回復する。</mainText>",
+    "image": "3508.png"
+  },
+  {
+    "id": "3748",
+    "nameJa": "タイタン ハイドラ",
+    "nameEn": "Titanic Hydra",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<attention>50</attention><br>体力<attention>550</attention></stats><br><br><passive>なぎ払い</passive><br>通常攻撃が追加で<physicalDamage>0の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を与え、対象の背後にいる敵に<physicalDamage>0の物理ダメージ</physicalDamage>を与える。<br><br><active>発動効果</active><br><active>巨大な三日月</active><br>次の通常攻撃時、<passive>「なぎ払い」</passive>が対象および衝撃波が当たった周囲の敵に追加物理ダメージを与える。</mainText>",
+    "image": "3748.png"
+  },
+  {
+    "id": "3814",
+    "nameJa": "ナイト エッジ",
+    "nameEn": "Edge of Night",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃力<attention>50</attention><br>脅威<attention>15</attention><br>体力<attention>250</attention></stats><br><br><passive>破棄</passive><br>スペルシールドを獲得する。</mainText>",
+    "image": "3814.png"
+  },
+  {
+    "id": "4645",
+    "nameJa": "シャドウフレイム",
+    "nameEn": "Shadowflame",
+    "gold": 3200,
+    "description": "<mainText><stats>魔力<attention>120</attention><br>魔法防御貫通<attention>12</attention></stats><br><br><passive>シンダーブルーム</passive><br>体力が低下した敵に対する<magicDamage>魔法ダメージ</magicDamage>および<trueDamage>確定ダメージ</trueDamage>がクリティカルになる。</mainText>",
+    "image": "4645.png"
+  },
+  {
+    "id": "6333",
+    "nameJa": "デス ダンス",
+    "nameEn": "Death's Dance",
+    "gold": 3200,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>スキルヘイスト<attention>15</attention><br>物理防御 <attention>40</attention></stats><br><br><passive>強行突破</passive><br>受けたダメージの一定割合を一定時間をかけて受けるようになる。<br><br><passive>拒絶</passive><br>ダメージを与えていたチャンピオンが倒されると、<passive>「強行突破」</passive>の残りダメージが除去されて、数秒かけて体力を回復する。</mainText>",
+    "image": "6333.png"
+  },
+  {
+    "id": "6609",
+    "nameJa": "ケミパンク チェーンソード",
+    "nameEn": "Chempunk Chainsword",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>両断</passive><br>敵チャンピオンに物理ダメージを与えると、3秒間40%の<keyword>「重傷」</keyword>を付与する。</mainText>",
+    "image": "6609.png"
+  },
+  {
+    "id": "6610",
+    "nameJa": "サンダード スカイ",
+    "nameEn": "Sundered Sky",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<attention>45</attention><br>体力<attention>450</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>ライトシールドストライク</passive><br>チャンピオンに対する最初の通常攻撃がクリティカルになり、自身の体力を回復する。<br><br><rules>余剰の回復量は一時的な増加体力として獲得できる。</rules></mainText>",
+    "image": "6610.png"
+  },
+  {
+    "id": "6631",
+    "nameJa": "ストライドブレイカー",
+    "nameEn": "Stridebreaker",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<attention>50</attention><br>攻撃速度<attention>30%</attention><br>体力<attention>450</attention></stats><br><br><passive>なぎ払い</passive><br>通常攻撃が周囲の敵に物理ダメージを与える。<br><br><passive>短気</passive><br><physicalDamage>物理ダメージ</physicalDamage>を与えると移動速度が増加する。<br><br><active>発動効果</active><br><active>破壊の衝撃波</active><br>周囲の敵に物理ダメージと<status>スロウ効果</status>を与え、命中したチャンピオン1体ごとに増加移動速度を得る。移動中に使用できる。</mainText>",
+    "image": "6631.png"
+  },
+  {
+    "id": "6672",
+    "nameJa": "クラーケン スレイヤー",
+    "nameEn": "Kraken Slayer",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>40</attention><br>攻撃速度<attention>35%</attention><br>クリティカル率<attention>20%</attention></stats><br><br><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに通常攻撃時効果で追加物理ダメージを与える。このダメージは同じ対象を繰り返し攻撃すると増加する。</mainText>",
+    "image": "6672.png"
+  },
+  {
+    "id": "6673",
+    "nameJa": "イモータル シールドボウ",
+    "nameEn": "Immortal Shieldbow",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>50</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>12%</attention></stats><br><br><passive>ライフライン</passive><br>体力が一定割合未満になるダメージを受けると、シールドを獲得する。</mainText>",
+    "image": "6673.png"
+  },
+  {
+    "id": "6675",
+    "nameJa": "ナヴォリ クイックブレード",
+    "nameEn": "Navori Quickblades",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<attention>65</attention><br>クリティカル率<attention>20%</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>至上</passive><br>通常攻撃でアルティメット以外のスキルのクールダウンが短縮される。<br><br><passive>無常</passive><br>スキルのダメージがクリティカル率に応じて増加する。 </mainText>",
+    "image": "6675.png"
+  },
+  {
+    "id": "6676",
+    "nameJa": "コレクター",
+    "nameEn": "The Collector",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>クリティカル率<attention>20%</attention><br>脅威<attention>16</attention></stats><br><br><passive>死</passive><br>体力が5%未満のチャンピオンにとどめを刺す。<br><br><passive>税金</passive><br>チャンピオンをキルした際、追加で<gold>25ゴールド</gold>を獲得する。</mainText>",
+    "image": "6676.png"
+  },
+  {
+    "id": "6692",
+    "nameJa": "赤月の刃",
+    "nameEn": "Eclipse",
+    "gold": 2800,
+    "description": "<mainText><stats>攻撃力<attention>70</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>沈まぬ月</passive><br>2秒以内に3つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加ダメージを与え、自身はシールドを獲得する。<br><br></mainText>",
+    "image": "6692.png"
+  },
+  {
+    "id": "6693",
+    "nameJa": "プローラー クロウ",
+    "nameEn": "Prowler's Claw",
+    "gold": 2900,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>22</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>エミネンス</passive><br>ダメージを与えていたチャンピオンが倒されると攻撃力が増加する。<br><br><passive>エゴ</passive><br>チャンピオンをキルすると、自身の像を1体作り出す。すでに像がある場合は、それがアップグレードされる。</mainText>",
+    "image": "6693.png"
+  },
+  {
+    "id": "6694",
+    "nameJa": "セリルダの怨恨",
+    "nameEn": "Serylda's Grudge",
+    "gold": 3200,
+    "description": "<mainText><stats>攻撃力<attention>45</attention><br>脅威<attention>15</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>敵意</passive><br>物理防御貫通が0増加する。<br><br><passive>厳寒</passive><br>攻撃スキルが、体力50%未満の敵に1秒間30%の<status>スロウ効果</status>を与える。</mainText>",
+    "image": "6694.png"
+  },
+  {
+    "id": "6695",
+    "nameJa": "毒蛇の牙",
+    "nameEn": "Serpent's Fang",
+    "gold": 2500,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>15</attention></stats><br><br><passive>盾崩し</passive><br>敵チャンピオンにダメージを与えると、対象が獲得するシールドの耐久値を低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を低下させる。</mainText>",
+    "image": "6695.png"
+  },
+  {
+    "id": "6696",
+    "nameJa": "アクシオム アーク",
+    "nameEn": "Axiom Arc",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>25</attention></stats><br><br><passive>流転</passive><br>ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの一部が解消される。</mainText>",
+    "image": "6696.png"
+  },
+  {
+    "id": "6697",
+    "nameJa": "ヒュブリス",
+    "nameEn": "Hubris",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>エミネンス</passive><br>キルを獲得すると、キルしたチャンピオンの数に応じて一時的に攻撃力が増加する。</mainText>",
+    "image": "6697.png"
+  },
+  {
+    "id": "6698",
+    "nameJa": "プロフェイン ハイドラ",
+    "nameEn": "Profane Hydra",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><passive>なぎ払い</passive><br>通常攻撃が追加ダメージ <OnHit>通常攻撃時効果</OnHit>を与え、衝撃波を発生させて対象の背後の敵にダメージを与える。<br><br><active>発動効果</active><br><active>異端の斬撃</active><br>周囲の敵に物理ダメージを与える。体力が低下している敵に対しては、このダメージが増加する。</mainText>",
+    "image": "6698.png"
+  },
+  {
+    "id": "6699",
+    "nameJa": "ボルテイク サイクロソード",
+    "nameEn": "Voltaic Cyclosword",
+    "gold": 2900,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><passive>刺激</passive><br>ダッシュするかステルス状態になると、エネルギー充填状態のスタックが速く溜まる。<br><br><passive>ファーマメント</passive><br>エネルギー充填状態の通常攻撃が敵に追加物理ダメージを与え、スロウ効果を付与する。</mainText>",
+    "image": "6699.png"
+  },
+  {
+    "id": "6701",
+    "nameJa": "オポチュニティー",
+    "nameEn": "Opportunity",
+    "gold": 2700,
+    "description": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>18</attention><br>移動速度<attention>5%</attention></stats><br><br><passive>エミネンス</passive><br>ダメージを与えていたチャンピオンが倒されると攻撃力が増加する。<br><br><passive>エゴ</passive><br>チャンピオンをキルすると、自身の像を1体作り出す。すでに像がある場合は、それがアップグレードされる。</mainText>",
+    "image": "6701.png"
+  },
+  {
+    "id": "7001",
+    "nameJa": "朔望",
+    "nameEn": "Syzygy",
+    "gold": 2800,
+    "description": "",
+    "image": "7001.png"
+  },
+  {
+    "id": "7006",
+    "nameJa": "タイフーン",
+    "nameEn": "Typhoon",
+    "gold": 3400,
+    "description": "<mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>攻撃速度<ornnBonus>30%</ornnBonus><br>クリティカル率<attention>20%</attention><br>移動速度<ornnBonus>10%</ornnBonus></stats><br><br><br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention><br><br><rules>敵の体力が25%未満だと、飛翔物が与えるダメージが最大になる。<br>「クラウドバースト」のダッシュは地形を越えられない。</rules><br><br><active>発動効果 -</active> <active>クラウドバースト:</active> 指定方向にダッシュして、目標地点の近くにいる最も体力の低い敵に3発の飛翔物を発射して物理ダメージを与える。体力が低下した対象には与えるダメージが増加する。</mainText>",
+    "image": "7006.png"
+  },
+  {
+    "id": "7007",
+    "nameJa": "ソードネイド",
+    "nameEn": "Swordnado",
+    "gold": 2900,
+    "description": "<mainText><stats>攻撃力<ornnBonus>70</ornnBonus><br>脅威<ornnBonus>27</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><passive>刺激</passive><br>ダッシュするかステルス状態になると、エネルギー充填状態のスタックが速く溜まる。<br><br><passive>ファーマメント</passive><br>エネルギー充填状態の通常攻撃が敵に追加物理ダメージを与え、スロウ効果を付与する。</mainText>",
+    "image": "7007.png"
+  },
+  {
+    "id": "7008",
+    "nameJa": "アタラクシア",
+    "nameEn": "Ataraxia",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>27</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><passive>エミネンス</passive><br>ダメージを与えていたチャンピオンが倒されると攻撃力が増加する。<br><br><passive>エゴ</passive><br>チャンピオンをキルすると、自身の像を1体作り出す。すでに像がある場合は、それがアップグレードされる。</mainText>",
+    "image": "7008.png"
+  },
+  {
+    "id": "7016",
+    "nameJa": "ドリームシャター",
+    "nameEn": "Dreamshatter",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>攻撃速度<ornnBonus>40%</ornnBonus><br>体力<ornnBonus>600</ornnBonus></stats><br><br><passive>なぎ払い</passive><br>通常攻撃が周囲の敵に物理ダメージを与える。<br><br><passive>短気</passive><br><physicalDamage>物理ダメージ</physicalDamage>を与えると移動速度が増加する。<br><br><active>発動効果</active><br><active>破壊の衝撃波</active><br>周囲の敵に物理ダメージと<status>スロウ効果</status>を与え、命中したチャンピオン1体ごとに増加移動速度を得る。移動中に使用できる。</mainText>",
+    "image": "7016.png"
+  },
+  {
+    "id": "7018",
+    "nameJa": "インフィニティ フォース",
+    "nameEn": "Infinity Force",
+    "gold": 3333,
+    "description": "<mainText><stats>攻撃力<ornnBonus>55</ornnBonus><br>攻撃速度<ornnBonus>43%</ornnBonus><br>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><passive>追撃</passive><br>スキルを使った後、次の通常攻撃が強化されて追加物理ダメージを与える。<br><br><passive>加速</passive><br>通常攻撃を行うと移動速度が増加する。<br><br></mainText>",
+    "image": "7018.png"
+  },
+  {
+    "id": "7022",
+    "nameJa": "サーテンティ",
+    "nameEn": "Certainty",
+    "gold": 2700,
+    "description": "<mainText><stats>攻撃力<ornnBonus>70</ornnBonus><br>脅威<ornnBonus>27</ornnBonus><br>移動速度<ornnBonus>8%</ornnBonus></stats><br><br><passive>エミネンス</passive><br>ダメージを与えていたチャンピオンが倒されると攻撃力が増加する。<br><br><passive>エゴ</passive><br>チャンピオンをキルすると、自身の像を1体作り出す。すでに像がある場合は、それがアップグレードされる。</mainText>",
+    "image": "7022.png"
+  },
+  {
+    "id": "7029",
+    "nameJa": "妖夢の目覚め",
+    "nameEn": "Youmuu's Wake",
+    "gold": 2700,
+    "description": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus></stats><br><br><passive>幽鬼</passive> <br>非戦闘時に<speed>移動速度</speed>が増加する。<br><br><br><active>発動効果</active> (0秒)<br><active>幽霊の歩み</active><br><speed>移動速度</speed>が増加して<keyword>ゴースト化</keyword>する。</mainText>",
+    "image": "7029.png"
+  },
+  {
+    "id": "7030",
+    "nameJa": "シージング ソロウ",
+    "nameEn": "Seething Sorrow",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<ornnBonus>45</ornnBonus><br>魔力<ornnBonus>55</ornnBonus><br>攻撃速度<ornnBonus>35%</ornnBonus></stats><br><br><passive>激憤</passive><br>通常攻撃が<magicDamage>30の魔法ダメージ <OnHit>通常攻撃時効果</OnHit></magicDamage>を与える。<br><br><passive>シージングストライク</passive><br>通常攻撃によって<attackSpeed>攻撃速度が8%</attackSpeed>増加する。この効果は4回までスタックし、最大で<attackSpeed>攻撃速度が0</attackSpeed>増加する。スタックが最大の間は、通常攻撃3回ごとに<OnHit>通常攻撃時効果</OnHit>を2回適用する。<br><br></mainText>",
+    "image": "7030.png"
+  },
+  {
+    "id": "7031",
+    "nameJa": "ファイナリティ エッジ",
+    "nameEn": "Edge of Finality",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<ornnBonus>95</ornnBonus><br>クリティカル率<attention>20%</attention><br>クリティカルダメージ<attention>50%</attention></stats><br><br></mainText>",
+    "image": "7031.png"
+  },
+  {
+    "id": "7032",
+    "nameJa": "フリッカー",
+    "nameEn": "Flicker",
+    "gold": 3300,
+    "description": "<mainText><stats>攻撃力<ornnBonus>85</ornnBonus><br>クリティカル率<attention>20%</attention><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><passive>至上</passive><br>通常攻撃でアルティメット以外のスキルのクールダウンが短縮される。<br><br><passive>無常</passive><br>スキルのダメージがクリティカル率に応じて増加する。 </mainText>",
+    "image": "7032.png"
+  },
+  {
+    "id": "7036",
+    "nameJa": "T.U.R.B.O.",
+    "nameEn": "T.U.R.B.O.",
+    "gold": 3000,
+    "description": "",
+    "image": "7036.png"
+  },
+  {
+    "id": "7037",
+    "nameJa": "オブシディアン クリーバー",
+    "nameEn": "Obsidian Cleaver",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>体力<ornnBonus>600</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><passive>カーブ</passive><br>チャンピオンに物理ダメージを与えると、対象に物理防御低下のスタックを付与する。<br><br><passive>熱情</passive><br>物理ダメージを与えると移動速度が増加する。</mainText>",
+    "image": "7037.png"
+  },
+  {
+    "id": "7038",
+    "nameJa": "ショウジンの誓い",
+    "nameEn": "Shojin's Resolve",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>体力<ornnBonus>500</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><passive>ドラゴンフォース</passive><br>アルティメット以外のスキルがスキルヘイストを獲得する。<br><br><passive>研ぎ澄ました意志</passive><br>スキルが命中するごとにスタックを獲得する。保持しているスタックごとに、スキルで与えるダメージが増加する。</mainText>",
+    "image": "7038.png"
+  },
+  {
+    "id": "7039",
+    "nameJa": "ヘブンズフォール",
+    "nameEn": "Heavensfall",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>体力<ornnBonus>600</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><passive>ライトシールドストライク</passive><br>チャンピオンに対する最初の通常攻撃がクリティカルになり、自身の体力を回復する。余剰の回復量は一時的な増加体力として獲得できる。</mainText>",
+    "image": "7039.png"
+  },
+  {
+    "id": "7040",
+    "nameJa": "台風の目",
+    "nameEn": "Eye of the Storm",
+    "gold": 3100,
+    "description": "<mainText><stats>攻撃力<ornnBonus>80</ornnBonus><br>攻撃速度<ornnBonus>25%</ornnBonus><br>クリティカル率<attention>20%</attention></stats><br><br><passive>稲妻</passive><br>エネルギー充填状態の通常攻撃が追加魔法ダメージを与え、移動速度を増加させる。</mainText>",
+    "image": "7040.png"
+  },
+  {
+    "id": "7041",
+    "nameJa": "ワームフォールン サクリファイス",
+    "nameEn": "Wyrmfallen Sacrifice",
+    "gold": 3000,
+    "description": "<mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>攻撃速度<ornnBonus>45%</ornnBonus><br>クリティカル率<attention>20%</attention></stats><br><br><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに通常攻撃時効果で追加物理ダメージを与える。このダメージは同じ対象を繰り返し攻撃すると増加する。</mainText>",
+    "image": "7041.png"
+  },
+  {
+    "id": "7042",
+    "nameJa": "バロンズ ギフト",
+    "nameEn": "The Baron's Gift",
+    "gold": 3000,
+    "description": "<mainText><stats>魔力<ornnBonus>120</ornnBonus><br>攻撃速度<ornnBonus>60%</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><passive>イカシアの牙</passive><br>通常攻撃が<magicDamage>魔法ダメージ</magicDamage> <OnHit>通常攻撃時効果</OnHit>を与える。</mainText>",
+    "image": "7042.png"
+  }
+]

@@ -19,6 +19,29 @@ type PatchMeta = {
 
 // dummyPatches removed
 
+// Helper function to sort patch versions numerically and suffix-sensitively
+const compareVersions = (a: string, b: string): number => {
+  const regex = /^(\d+)\.(\d+)([a-z])?$/i;
+  const matchA = a.match(regex);
+  const matchB = b.match(regex);
+
+  if (!matchA && !matchB) return a.localeCompare(b);
+  if (!matchA) return -1;
+  if (!matchB) return 1;
+
+  const majorA = parseInt(matchA[1], 10);
+  const minorA = parseInt(matchA[2], 10);
+  const suffixA = matchA[3] || '';
+
+  const majorB = parseInt(matchB[1], 10);
+  const minorB = parseInt(matchB[2], 10);
+  const suffixB = matchB[3] || '';
+
+  if (majorA !== majorB) return majorA - majorB;
+  if (minorA !== minorB) return minorA - minorB;
+  return suffixA.localeCompare(suffixB);
+};
+
 export function PatchTable({ championId }: { championId?: string }) {
   const t = useTranslations("PatchTable");
   const locale = useLocale();
@@ -33,7 +56,7 @@ export function PatchTable({ championId }: { championId?: string }) {
   // Derive unique versions from the loaded patches (only include standard numeric versions)
   const uniqueVersions = Array.from(new Set(patches.map(p => p.version)))
     .filter(v => v && /^\d/.test(v))
-    .sort((a, b) => b.localeCompare(a));
+    .sort((a, b) => compareVersions(b, a));
 
   const [selectedVersion, setSelectedVersion] = useState<string | null>(uniqueVersions[0] || null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -78,10 +101,43 @@ export function PatchTable({ championId }: { championId?: string }) {
       }
 
       if (patchesData && patchesData.length > 0) {
-        setPatches(patchesData);
+        const typedData = patchesData as Patch[];
+        const merged = [...typedData];
+        
+        // Helper to check if two patches represent the same change
+        const isDuplicatePatch = (a: any, b: any): boolean => {
+          if ((a.version || '').toLowerCase().trim() !== (b.version || '').toLowerCase().trim()) return false;
+          if ((a.change_type || '').toLowerCase().trim() !== (b.change_type || '').toLowerCase().trim()) return false;
+          
+          const normAJa = (a.champion_name || '').toLowerCase().replace(/[\s・_-]/g, '');
+          const normAEn = (a.champion_name_en || '').toLowerCase().replace(/[\s・_-]/g, '');
+          
+          const normBJa = (b.champion_name || '').toLowerCase().replace(/[\s・_-]/g, '');
+          const normBEn = (b.champion_name_en || '').toLowerCase().replace(/[\s・_-]/g, '');
+
+          const matchJa = normAJa && normBJa && normAJa === normBJa;
+          const matchEn = normAEn && normBEn && normAEn === normBEn;
+          
+          return matchJa || matchEn;
+        };
+
+        const filteredFallback = championId
+          ? (fallbackPatches as Patch[]).filter(p => p.champion_name_en === championId)
+          : (fallbackPatches as Patch[]);
+        
+        filteredFallback.forEach((p: any) => {
+          const isDup = merged.some(existing => isDuplicatePatch(existing, p));
+          if (!isDup) {
+            merged.push(p);
+          }
+        });
+        setPatches(merged);
         setPatchMetas(metaData || []);
       } else {
-        setPatches([]);
+        const filteredFallback = championId
+          ? (fallbackPatches as Patch[]).filter(p => p.champion_name_en === championId)
+          : (fallbackPatches as Patch[]);
+        setPatches(filteredFallback);
       }
     } catch (err: any) {
       console.error("Supabase fetch error:", err);

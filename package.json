@@ -9,7 +9,8 @@
     "lint": "eslint",
     "ocr": "node scripts/ocr.js",
     "test": "node scripts/run-e2e-tests.mjs",
-    "compile-data": "node scripts/compile-offline-data.mjs"
+    "compile-data": "node scripts/compile-offline-data.mjs",
+    "merge-items": "node scratch/partition_pending.js"
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.65",
