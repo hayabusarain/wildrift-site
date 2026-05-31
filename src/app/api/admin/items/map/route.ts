@@ -9,7 +9,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing parameters' }, { status: 400 });
     }
 
-    const publicDir = path.join(process.cwd(), 'public', 'images', 'items');
+    const publicDir = path.join(/*turbopackIgnore: true*/ process.cwd(), 'public', 'images', 'items');
     const rawPath = path.join(publicDir, 'raw', screenshotName);
     const destPath = path.join(publicDir, `${itemId}.png`);
 
@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     fs.renameSync(rawPath, destPath);
 
     // Save/update mapping in src/data/item_mappings.json
-    const mappingPath = path.join(process.cwd(), 'src', 'data', 'item_mappings.json');
+    const mappingPath = path.join(/*turbopackIgnore: true*/ process.cwd(), 'src', 'data', 'item_mappings.json');
     let mapping: Record<string, string> = {};
     if (fs.existsSync(mappingPath)) {
       try {
@@ -43,7 +43,7 @@ export async function POST(request: Request) {
 // GET to return list of unmapped screenshots and current mappings
 export async function GET() {
   try {
-    const publicDir = path.join(process.cwd(), 'public', 'images', 'items');
+    const publicDir = path.join(/*turbopackIgnore: true*/ process.cwd(), 'public', 'images', 'items');
     const rawDir = path.join(publicDir, 'raw');
     
     let rawScreenshots: string[] = [];
@@ -58,7 +58,7 @@ export async function GET() {
         });
     }
 
-    const mappingPath = path.join(process.cwd(), 'src', 'data', 'item_mappings.json');
+    const mappingPath = path.join(/*turbopackIgnore: true*/ process.cwd(), 'src', 'data', 'item_mappings.json');
     let mappings: Record<string, string> = {};
     if (fs.existsSync(mappingPath)) {
       mappings = JSON.parse(fs.readFileSync(mappingPath, 'utf-8'));

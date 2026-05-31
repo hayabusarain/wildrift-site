@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-const ITEMS_FILE_PATH = path.join(process.cwd(), 'src', 'data', 'physical_items_final.json');
+const ITEMS_FILE_PATH = path.join(/*turbopackIgnore: true*/ process.cwd(), 'src', 'data', 'physical_items_final.json');
 
 export async function POST(req: Request) {
   try {
