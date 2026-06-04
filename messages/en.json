@@ -12,6 +12,7 @@
     "quiz": "Quiz",
     "calculator": "Calculator",
     "items": "Items",
+    "summonerSpells": "Summoner Spells",
     "guide": "Beginner's Guide",
     "admin": "Admin",
     "dataManagement": "Data Management",
@@ -20,7 +21,8 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "legal": "Legal Disclaimer",
-    "contact": "Contact & About"
+    "contact": "Contact & About",
+    "runes": "Runes"
   },
   "Home": {
     "heroBadge": "Wild Rift Complete Database",
@@ -30,7 +32,7 @@
     "btnCalc": "Damage & EHP Calculator",
     "metaTitle": "Top Meta Picks",
     "metaDesc": "Highest win rate champions per role (Meta)",
-    "metaUpdated": "Last Updated: 2026/05/28 / Data Source: Chinese Official Site (Diamond+)",
+    "metaUpdated": "Last Updated: 2026/06/03 / Data Source: Chinese Official Site (Diamond+)",
     "viewAllTier": "View Full Tier List",
     "noticeTitle": "Announcement",
     "noticeItemsAndRunes": "Item database has been added! Rune databases and more will be added in the future.",
@@ -48,7 +50,11 @@
     "qaGuideDesc": "Learn basic rules, lane roles, and recommended mobile settings.",
     "qaItemsTitle": "Items List",
     "qaItemsDesc": "Detailed stats and effects for all items.",
-    "contactUs": "Contact Us"
+    "qaSpellsTitle": "Summoner Spells",
+    "qaSpellsDesc": "All summoner spells and details.",
+    "contactUs": "Contact Us",
+    "qaRunesTitle": "Runes List",
+    "qaRunesDesc": "Detailed effects for all keystones and minor runes."
   },
   "Role": {
     "top": "Top (Solo)",
@@ -243,5 +249,19 @@
     "inGameChatDesc": "Prevents in-game chat toxicity from random teammates. Strongly recommended to maintain peace of mind and focus on your own performance.",
     "inGameDashTitle": "• Dash in Movement Direction: ON",
     "inGameDashDesc": "Forces dash abilities to fire towards your left-stick movement direction rather than locking onto nearby enemies. Crucial for clean escapes."
+  },
+  "Runes": {
+    "title": "Runes Database",
+    "subtitle": "Check the detailed effects of all keystones and runes in Wild Rift.",
+    "searchPlaceholder": "Search by rune name or effect...",
+    "all": "All",
+    "keystone": "Keystones",
+    "domination": "Domination",
+    "resolve": "Resolve",
+    "precision": "Precision",
+    "inspiration": "Inspiration",
+    "effects": "Effects",
+    "cooldown": "Cooldown",
+    "detailTitle": "Rune Details"
   }
 }

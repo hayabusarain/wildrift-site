@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ghost",
+    "nameJa": "ゴースト",
+    "nameEn": "Ghost",
+    "cooldown": 90,
+    "image": "/images/spells/ghost.png",
+    "descriptionJa": "瞬間的に移動速度が大幅に増加し、その後6秒かけて増加移動速度25%まで徐々に低下する。キルまたはアシストを得るたびにゴーストの効果時間が6秒延長されて効果がリセットされ、元の値まで戻る。",
+    "descriptionEn": "Greatly increases movement speed instantly, then gradually decreases to 25% bonus speed over 6 seconds. Resets and extends duration by 6 seconds on kill or assist."
+  },
+  {
+    "id": "heal",
+    "nameJa": "ヒール",
+    "nameEn": "Heal",
+    "cooldown": 100,
+    "image": "/images/spells/heal.png",
+    "descriptionJa": "自分と付近にいる最も体力が低下した味方チャンピオン1体の体力を110(110-400)回復して、両者に2秒間30%の増加移動速度を付与する。",
+    "descriptionEn": "Heals you and the most wounded nearby ally champion for 110 (110-400) and grants both 30% increased movement speed for 2 seconds."
+  },
+  {
+    "id": "barrier",
+    "nameJa": "バリア",
+    "nameEn": "Barrier",
+    "cooldown": 100,
+    "image": "/images/spells/barrier.png",
+    "descriptionJa": "2.5秒間、120のダメージ(120-560)を無効化するシールドを獲得する。",
+    "descriptionEn": "Grants a shield that absorbs 120 damage (120-560) for 2.5 seconds."
+  },
+  {
+    "id": "exhaust",
+    "nameJa": "イグゾースト",
+    "nameEn": "Exhaust",
+    "cooldown": 100,
+    "image": "/images/spells/exhaust.png",
+    "descriptionJa": "敵チャンピオンを疲弊させ、2.5秒間、35%のスロウ効果を付与し、対象が与えるダメージを40%低下させる。スロウ効果は効果時間をかけて徐々に元に戻る。",
+    "descriptionEn": "Exhausts target enemy champion, reducing their movement speed by 35% and damage dealt by 40% for 2.5 seconds. The slow effect gradually returns to normal over the duration."
+  },
+  {
+    "id": "cleanse",
+    "nameJa": "クレンズ",
+    "nameEn": "Cleanse",
+    "cooldown": 110,
+    "image": "/images/spells/cleanse.png",
+    "descriptionJa": "チャンピオンに影響する行動不能効果(スキルのデバフを含む)を除去し、0.25秒間、行動不能効果を受けなくなる。",
+    "descriptionEn": "Removes all disables affecting your champion and grants 0.25 seconds of immunity to disables."
+  },
+  {
+    "id": "flash",
+    "nameJa": "フラッシュ",
+    "nameEn": "Flash",
+    "cooldown": 150,
+    "image": "/images/spells/flash.png",
+    "descriptionJa": "前方または指定方向に短い距離をテレポートする。",
+    "descriptionEn": "Teleport a short distance forward or towards a target direction."
+  },
+  {
+    "id": "ignite",
+    "nameJa": "イグナイト",
+    "nameEn": "Ignite",
+    "cooldown": 100,
+    "image": "/images/spells/ignite.png",
+    "descriptionJa": "敵チャンピオンを燃やし、5秒かけて72の確定ダメージ(72-380)を与え、対象に重傷を付与してその対象を可視化する。",
+    "descriptionEn": "Ignites an enemy champion, dealing 72 true damage over 5 seconds, applying Grievous Wounds, and revealing them."
+  },
+  {
+    "id": "smite",
+    "nameJa": "スマイト",
+    "nameEn": "Smite",
+    "cooldown": 10,
+    "image": "/images/spells/smite.png",
+    "descriptionJa": "モンスター、エピックモンスター、敵ミニオンには600の確定ダメージを与える。モンスターにスマイトを使用すると体力が127回復(70 + 10% )する。3回使用すると、チル・スマイトにアップグレードされる。",
+    "descriptionEn": "Deals 600 true damage to monsters, epic monsters, and enemy minions. Heals 127 health when used on monsters. Upgrades to Chill Smite after 3 uses."
+  },
+  {
+    "id": "teleport",
+    "nameJa": "テレポート",
+    "nameEn": "Teleport",
+    "cooldown": 150,
+    "image": "/images/spells/teleport.png",
+    "descriptionJa": "3.5秒間の詠唱後、味方のチャンピオン、建造物、ワードのいずれかの位置に自分をテレポートさせる(敵のインヒビターの射程範囲は除く)。試合開始から6分経過するまでは建造物にしかテレポートできない。",
+    "descriptionEn": "After a 3.5-second channel, teleport to an allied champion, structure, or ward (excluding enemy inhibitor range). Can only teleport to structures for the first 6 minutes of the match."
+  }
+]

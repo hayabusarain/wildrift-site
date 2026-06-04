@@ -364,19 +364,18 @@ export default function Home() {
         </div>
 
         {loading ? (
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="flex gap-4 overflow-x-auto pb-4 md:grid md:grid-cols-5 md:gap-4 md:overflow-visible md:pb-0">
             {[1, 2, 3, 4, 5].map(i => (
-              <div key={i} className="h-48 bg-slate-100 animate-pulse rounded-3xl border border-slate-200"></div>
+              <div key={i} className="flex-none w-[130px] aspect-[308/560] md:w-auto bg-slate-100 animate-pulse rounded-2xl md:rounded-3xl border border-slate-200"></div>
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="flex gap-4 overflow-x-auto pb-4 pt-1 snap-x snap-mandatory scroll-smooth scrollbar-thin scrollbar-thumb-slate-300 hover:scrollbar-thumb-slate-400 scrollbar-track-transparent md:grid md:grid-cols-5 md:gap-4 md:overflow-visible md:pb-0">
             {metaPicks.map((pick, idx) => (
               <Link 
                 href={`/champions/${pick.champion_name_en}`} 
                 key={idx}
-                className="group relative rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border-2 border-transparent hover:border-indigo-400 flex flex-col justify-end"
-                style={{ minHeight: '320px' }}
+                className="group relative flex-none w-[130px] aspect-[308/560] snap-start md:w-auto md:flex-initial rounded-2xl md:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border-2 border-transparent hover:border-indigo-400 flex flex-col justify-end"
               >
                 <div 
                   className="absolute inset-0 bg-cover bg-top transition-transform duration-700 group-hover:scale-110"
@@ -388,19 +387,19 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent opacity-90" />
                 
-                <div className="relative z-10 p-4">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className={`text-[10px] font-bold text-white px-2 py-0.5 rounded-full ${getRoleColor(pick.role)}`}>
+                <div className="relative z-10 p-3 md:p-4">
+                  <div className="flex items-center justify-between mb-1.5 md:mb-2 gap-1">
+                    <span className={`text-[8px] md:text-[10px] font-bold text-white px-1.5 md:px-2 py-0.5 rounded-full truncate ${getRoleColor(pick.role)}`}>
                       {pick.role}
                     </span>
-                    <span className="text-xs font-black text-amber-400 bg-amber-900/80 px-2 py-0.5 rounded-md border border-amber-500/50">
+                    <span className="text-[9px] md:text-xs font-black text-amber-400 bg-amber-900/80 px-1.5 md:px-2 py-0.5 rounded-md border border-amber-500/50 shrink-0">
                       Tier {pick.tier}
                     </span>
                   </div>
-                  <h3 className="text-lg font-black text-white group-hover:text-indigo-300 transition-colors truncate">
+                  <h3 className="text-sm md:text-lg font-black text-white group-hover:text-indigo-300 transition-colors truncate">
                     {pick.champion_name}
                   </h3>
-                  <p className="text-xs text-slate-300 font-medium">{t('winRate')}: <span className="text-emerald-400 font-bold">{pick.win_rate}%</span></p>
+                  <p className="text-[10px] md:text-xs text-slate-300 font-medium">{t('winRate')}: <span className="text-emerald-400 font-bold">{pick.win_rate}%</span></p>
                 </div>
               </Link>
             ))}
@@ -569,7 +568,7 @@ export default function Home() {
       </div>
 
       {/* Quick Access Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         <Link href="/champions" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
           <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
             <Users size={24} />
@@ -587,6 +586,26 @@ export default function Home() {
           <div>
             <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaItemsTitle')}</h3>
             <p className="text-xs text-slate-500">{t('qaItemsDesc')}</p>
+          </div>
+        </Link>
+
+        <Link href="/spells" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
+          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <Sparkles size={24} />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaSpellsTitle')}</h3>
+            <p className="text-xs text-slate-500">{t('qaSpellsDesc')}</p>
+          </div>
+        </Link>
+
+        <Link href="/runes" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
+          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <Hexagon size={24} />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaRunesTitle')}</h3>
+            <p className="text-xs text-slate-500">{t('qaRunesDesc')}</p>
           </div>
         </Link>
         

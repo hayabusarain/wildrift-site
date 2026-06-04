@@ -64,6 +64,22 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             <span>{t("items")}</span>
           </Link>
           <Link 
+            href="/spells" 
+            onClick={onClose}
+            className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
+          >
+            <Sparkles size={20} />
+            <span>{t("summonerSpells")}</span>
+          </Link>
+          <Link 
+            href="/runes" 
+            onClick={onClose}
+            className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
+          >
+            <Hexagon size={20} />
+            <span>{t("runes")}</span>
+          </Link>
+          <Link 
             href="/tier-list" 
             onClick={onClose}
             className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-slate-800 hover:text-white transition-colors"
@@ -96,15 +112,13 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             <span>{t("guide")}</span>
           </Link>
         </nav>
-        <div className="p-4 border-t border-slate-800 text-xs text-slate-500/70 leading-relaxed space-y-3">
-          <div className="flex flex-col space-y-2 mb-4">
+        <div className="p-4 border-t border-slate-800 text-xs text-slate-500/70 leading-relaxed space-y-3 mt-auto">
+          <div className="flex flex-col space-y-2">
             <Link href="/terms" onClick={onClose} className="hover:text-slate-300 transition-colors">{t("terms")}</Link>
             <Link href="/privacy" onClick={onClose} className="hover:text-slate-300 transition-colors">{t("privacy")}</Link>
             <Link href="/legal" onClick={onClose} className="hover:text-slate-300 transition-colors">{t("legal")}</Link>
             <Link href="/contact" onClick={onClose} className="hover:text-slate-300 transition-colors">{t("contact")}</Link>
           </div>
-          <p className="text-[10px]">{t("legalText")}</p>
-          <p className="font-bold text-slate-500 text-[10px]">{t("footer")}</p>
         </div>
       </aside>
     </>

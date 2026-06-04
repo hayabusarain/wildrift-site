@@ -12,6 +12,7 @@
     "quiz": "適正診断",
     "calculator": "ダメージ計算機",
     "items": "アイテム一覧",
+    "summonerSpells": "サモナースペル",
     "guide": "初心者ガイド",
     "admin": "管理者用",
     "dataManagement": "データ管理",
@@ -20,7 +21,8 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "legal": "免責事項",
-    "contact": "運営者情報・お問い合わせ"
+    "contact": "運営者情報・お問い合わせ",
+    "runes": "ルーン一覧"
   },
   "Home": {
     "heroBadge": "Wild Rift 完全攻略データベース",
@@ -30,7 +32,7 @@
     "btnCalc": "ダメージ＆EHP計算機",
     "metaTitle": "今パッチの最強ピック",
     "metaDesc": "各ロールで最も勝率の高いチャンピオン（メタ）",
-    "metaUpdated": "最終更新日: 2026/05/28 / データ元: 中国公式サイト ダイヤモンドランク以上",
+    "metaUpdated": "最終更新日: 2026/06/03 / データ元: 中国公式サイト ダイヤモンドランク以上",
     "viewAllTier": "Tier表をすべて見る",
     "noticeTitle": "お知らせ",
     "noticeItemsAndRunes": "アイテムデータベースを追加しました！今後はルーンのデータ一覧なども順次追加していく予定です。",
@@ -48,7 +50,11 @@
     "qaGuideDesc": "基本ルール、レーンの役割、おすすめ設定解説。",
     "qaItemsTitle": "アイテム一覧",
     "qaItemsDesc": "全アイテムのステータスと効果詳細。",
-    "contactUs": "お問い合わせはこちら"
+    "qaSpellsTitle": "サモナースペル",
+    "qaSpellsDesc": "サモナースペルの全種類・効果詳細。",
+    "contactUs": "お問い合わせはこちら",
+    "qaRunesTitle": "ルーン一覧",
+    "qaRunesDesc": "ルーン（キーストーン・一般）の効果詳細。"
   },
   "Role": {
     "top": "トップ (Solo)",
@@ -243,5 +249,19 @@
     "inGameChatDesc": "野良の味方からの暴言（インゲームチャットの荒れ）を防ぎ、自分のプレイに100%集中できます。ゲームの楽しさを守るためにも推奨します。",
     "inGameDashTitle": "・移動方向へのダッシュ: オン",
     "inGameDashDesc": "ダッシュスキルを素早く入力した際、敵の方ではなく「自分が移動スティックを倒している方向」にダッシュします。安全に逃げるために必須の設定です。"
+  },
+  "Runes": {
+    "title": "ルーンデータベース",
+    "subtitle": "ワイルドリフトの全ルーンの効果詳細を確認できます。",
+    "searchPlaceholder": "ルーン名や効果で検索...",
+    "all": "すべて",
+    "keystone": "キーストーン",
+    "domination": "覇道",
+    "resolve": "不滅",
+    "precision": "栄華",
+    "inspiration": "天啓",
+    "effects": "効果",
+    "cooldown": "クールダウン",
+    "detailTitle": "ルーン詳細"
   }
 }
