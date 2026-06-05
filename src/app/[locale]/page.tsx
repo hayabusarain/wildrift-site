@@ -302,27 +302,27 @@ export default function Home() {
   };
 
   return (
-    <div className="space-y-12 pb-16">
+    <div className="space-y-8 pb-16">
       
       {/* Hero Section */}
-      <div className="relative rounded-[2.5rem] overflow-hidden bg-slate-900 border border-slate-800 shadow-2xl group">
+      <div className="relative rounded-3xl overflow-hidden bg-slate-900 border border-slate-800 shadow-2xl group">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-1000 scale-105 group-hover:scale-100"
           style={{ backgroundImage: "url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent" />
         
-        <div className="relative z-10 p-10 md:p-16 max-w-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/20 text-indigo-300 text-sm font-bold border border-indigo-500/30 mb-6 backdrop-blur-sm">
+        <div className="relative z-10 p-6 max-w-2xl">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/20 text-indigo-300 text-[10px] font-bold border border-indigo-500/30 mb-4 backdrop-blur-sm">
             <Sparkles size={14} />
             <span>{t('heroBadge')}</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight tracking-tight whitespace-pre-line">
+          <h1 className="text-2xl font-black text-white mb-4 leading-tight tracking-tight whitespace-pre-line">
             {t('heroTitle')}
           </h1>
           
-          <p className="text-lg text-slate-300 mb-10 leading-relaxed font-medium">
+          <p className="text-sm text-slate-300 mb-6 leading-relaxed font-medium">
             {t('heroDesc')}
           </p>
           
@@ -331,9 +331,9 @@ export default function Home() {
       </div>
 
       {/* Notice / Announcement Section */}
-      <div className="bg-amber-50 border border-amber-200 rounded-3xl p-6 shadow-sm">
-        <h2 className="text-lg font-bold text-amber-800 flex items-center gap-2 mb-3">
-          <Bell className="text-amber-600" size={20} />
+      <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 shadow-sm mx-4">
+        <h2 className="text-base font-bold text-amber-800 flex items-center gap-2 mb-2">
+          <Bell className="text-amber-600" size={16} />
           {t('noticeTitle')}
         </h2>
         <ul className="list-disc list-inside space-y-2 text-sm text-amber-900/80 font-medium ml-1">
@@ -348,11 +348,11 @@ export default function Home() {
       </div>
 
       {/* Top Meta Picks Section */}
-      <div className="space-y-6">
-        <div className="flex items-center justify-between">
+      <div className="space-y-4 px-2">
+        <div className="flex items-center justify-between px-2">
           <div>
-            <h2 className="text-2xl font-black text-slate-800 flex items-center gap-3">
-              <TrendingUp className="text-rose-500" size={28} />
+            <h2 className="text-xl font-black text-slate-800 flex items-center gap-2">
+              <TrendingUp className="text-rose-500" size={20} />
               {t('metaTitle')}
             </h2>
             <p className="text-slate-500 font-medium mt-1 mb-1">{t('metaDesc')}</p>
@@ -409,11 +409,11 @@ export default function Home() {
 
       {/* Featured Champions Showcase Section (Carousel) */}
       {featuredChampions.length > 0 && (
-        <div className="space-y-6">
-          <div className="flex items-center justify-between">
+        <div className="space-y-4 px-2">
+          <div className="flex items-center justify-between px-2">
             <div>
-              <h2 className="text-2xl font-black text-slate-800 flex items-center gap-3">
-                <Users className="text-emerald-500" size={28} />
+              <h2 className="text-xl font-black text-slate-800 flex items-center gap-2">
+                <Users className="text-emerald-500" size={20} />
                 {locale === 'ja' 
                   ? `最新パッチ ${featuredChampions[0]?.patchVersion || ''} のバフ対象チャンピオン` 
                   : `Buffed Champions in Patch ${featuredChampions[0]?.patchVersion || ''}`}
@@ -434,7 +434,7 @@ export default function Home() {
                 <Link
                   key={idx}
                   href={`/champions/${champ.champion_name_en}`}
-                  className="group relative flex-none w-[200px] sm:w-[240px] snap-start bg-slate-900 border border-slate-800 rounded-3xl p-5 flex flex-col items-center text-center hover:scale-[1.03] hover:shadow-xl hover:border-transparent bg-gradient-to-b from-emerald-500/10 via-slate-900 to-slate-900 hover:border-emerald-500/35 transition-all duration-300 overflow-hidden"
+                  className="group relative flex-none w-[160px] snap-start bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col items-center text-center hover:scale-[1.03] hover:shadow-xl hover:border-transparent bg-gradient-to-b from-emerald-500/10 via-slate-900 to-slate-900 hover:border-emerald-500/35 transition-all duration-300 overflow-hidden"
                 >
                   {/* BUFF Badge */}
                   <span className="absolute top-2 right-2 text-[9px] font-black text-emerald-400 bg-emerald-500/20 border border-emerald-500/30 rounded-md px-1.5 py-0.5 z-20 animate-pulse">
@@ -442,9 +442,9 @@ export default function Home() {
                   </span>
 
                   {/* Glow behind icon */}
-                  <div className="absolute top-4 w-16 h-16 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 bg-emerald-500/20" />
+                  <div className="absolute top-4 w-12 h-12 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 bg-emerald-500/20" />
 
-                  <div className="relative w-16 h-16 rounded-full overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-4 group-hover:scale-110 transition-transform duration-300 shrink-0">
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-3 group-hover:scale-110 transition-transform duration-300 shrink-0">
                     <img
                       src={
                         champ.champion_name_en === 'Norra'
@@ -485,11 +485,11 @@ export default function Home() {
       )}
 
       {/* Featured Items Showcase Section */}
-      <div className="space-y-6">
-        <div className="flex items-center justify-between">
+      <div className="space-y-4 px-2">
+        <div className="flex items-center justify-between px-2">
           <div>
-            <h2 className="text-2xl font-black text-slate-800 flex items-center gap-3">
-              <ShoppingBag className="text-emerald-500" size={28} />
+            <h2 className="text-xl font-black text-slate-800 flex items-center gap-2">
+              <ShoppingBag className="text-emerald-500" size={20} />
               {locale === 'ja' 
                 ? `最新パッチ ${featuredItems.find(f => f.isBuffed)?.patchVersion || ''} のバフ対象アイテム` 
                 : `Buffed Items in Patch ${featuredItems.find(f => f.isBuffed)?.patchVersion || ''}`}
@@ -503,15 +503,15 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {featuredItems.map((item: any, idx) => {
+        <div className="grid grid-cols-3 gap-3">
+          {featuredItems.slice(0, 6).map((item: any, idx) => {
             const glowClass = getItemGlowClass(item);
             const iconGlow = getIconGlowColor(item);
             return (
               <Link
                 key={idx}
                 href="/items"
-                className={`group relative bg-slate-900 border border-slate-800 rounded-3xl p-5 flex flex-col items-center text-center hover:scale-[1.05] hover:shadow-xl hover:border-transparent bg-gradient-to-b ${glowClass} transition-all duration-300 overflow-hidden`}
+                className={`group relative bg-slate-900 border border-slate-800 rounded-2xl p-3 flex flex-col items-center text-center hover:scale-[1.05] hover:shadow-xl hover:border-transparent bg-gradient-to-b ${glowClass} transition-all duration-300 overflow-hidden`}
               >
                 {/* BUFF Badge */}
                 {item.isBuffed && (
@@ -521,9 +521,9 @@ export default function Home() {
                 )}
 
                 {/* Glow behind icon */}
-                <div className={`absolute top-4 w-16 h-16 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 ${iconGlow}`} />
+                <div className={`absolute top-3 w-10 h-10 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 ${iconGlow}`} />
 
-                <div className="relative w-16 h-16 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-4 group-hover:scale-110 transition-transform duration-300 shrink-0">
+                <div className="relative w-10 h-10 rounded-xl overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-2 group-hover:scale-110 transition-transform duration-300 shrink-0">
                   <img
                     src={
                       item.image === 'default_item.png'
@@ -542,7 +542,7 @@ export default function Home() {
 
                 <div className="space-y-1 relative z-10 flex-1 flex flex-col justify-between">
                   <div>
-                    <h3 className="font-black text-slate-100 text-sm line-clamp-1 group-hover:text-white transition-colors">
+                    <h3 className="font-black text-slate-100 text-[11px] leading-tight line-clamp-1 group-hover:text-white transition-colors">
                       {item.nameJa}
                     </h3>
                     <span className="text-[10px] font-black text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded-md px-1.5 py-0.5 mt-1 inline-block">
@@ -551,7 +551,7 @@ export default function Home() {
                   </div>
                   
                   {/* Primary stat preview or patch description */}
-                  <div className="text-[10px] text-slate-400 font-semibold line-clamp-2 mt-2 leading-relaxed">
+                  <div className="text-[9px] text-slate-400 font-semibold line-clamp-2 mt-1 leading-tight">
                     {item.patchDescription ? (
                       <span className="text-emerald-400 font-medium">
                         {item.patchDescription}
@@ -568,84 +568,84 @@ export default function Home() {
       </div>
 
       {/* Quick Access Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-        <Link href="/champions" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <Users size={24} />
+      <div className="grid grid-cols-2 gap-3 px-2">
+        <Link href="/champions" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <Users size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaChampionsTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaChampionsDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaChampionsTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaChampionsDesc')}</p>
           </div>
         </Link>
 
-        <Link href="/items" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <ShoppingBag size={24} />
+        <Link href="/items" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <ShoppingBag size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaItemsTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaItemsDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaItemsTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaItemsDesc')}</p>
           </div>
         </Link>
 
-        <Link href="/spells" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <Sparkles size={24} />
+        <Link href="/spells" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <Sparkles size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaSpellsTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaSpellsDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaSpellsTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaSpellsDesc')}</p>
           </div>
         </Link>
 
-        <Link href="/runes" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <Hexagon size={24} />
+        <Link href="/runes" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <Hexagon size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">{t('qaRunesTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaRunesDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaRunesTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaRunesDesc')}</p>
           </div>
         </Link>
         
-        <Link href="/tier-list" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-rose-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-rose-100 text-rose-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:-rotate-3 transition-transform">
-            <Trophy size={24} />
+        <Link href="/tier-list" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-rose-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:-rotate-3 transition-transform">
+            <Trophy size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-rose-600 transition-colors">{t('qaTierTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaTierDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-rose-600 transition-colors">{t('qaTierTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaTierDesc')}</p>
           </div>
         </Link>
 
-        <Link href="/patches" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-sky-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-sky-100 text-sky-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <History size={24} />
+        <Link href="/patches" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-sky-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <History size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-sky-600 transition-colors">{t('qaPatchTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaPatchDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-sky-600 transition-colors">{t('qaPatchTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaPatchDesc')}</p>
           </div>
         </Link>
 
-        <Link href="/calculator" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:-rotate-3 transition-transform">
-            <Calculator size={24} />
+        <Link href="/calculator" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:-rotate-3 transition-transform">
+            <Calculator size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-emerald-600 transition-colors">{t('qaCalcTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaCalcDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-emerald-600 transition-colors">{t('qaCalcTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaCalcDesc')}</p>
           </div>
         </Link>
 
-        <Link href="/guide" className="group bg-white p-6 rounded-3xl shadow-sm border border-slate-200 hover:border-violet-500 hover:shadow-lg transition-all flex flex-col gap-4">
-          <div className="w-12 h-12 bg-violet-100 text-violet-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <BookOpen size={24} />
+        <Link href="/guide" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-violet-500 hover:shadow-lg transition-all flex flex-col gap-3">
+          <div className="w-10 h-10 bg-violet-100 text-violet-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
+            <BookOpen size={20} />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-violet-600 transition-colors">{t('qaGuideTitle')}</h3>
-            <p className="text-xs text-slate-500">{t('qaGuideDesc')}</p>
+            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-violet-600 transition-colors">{t('qaGuideTitle')}</h3>
+            <p className="text-[10px] leading-tight text-slate-500">{t('qaGuideDesc')}</p>
           </div>
         </Link>
       </div>

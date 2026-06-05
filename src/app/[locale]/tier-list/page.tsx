@@ -156,12 +156,12 @@ export default function TierListPage() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto space-y-8 pb-12">
-      <div className="mb-10 text-center">
-        <h1 className="text-4xl font-black text-slate-800 mb-4 tracking-tight">
+    <div className="max-w-md mx-auto space-y-6 pb-24 pt-4 px-4">
+      <div className="mb-6 text-center">
+        <h1 className="text-2xl font-black text-slate-800 mb-2 tracking-tight">
           {t('title')}
         </h1>
-        <p className="text-lg text-slate-500 max-w-2xl mx-auto mb-2">
+        <p className="text-sm text-slate-500 mb-2">
           {t('subtitle')}
         </p>
         <p className="text-xs font-bold text-slate-400">
@@ -169,16 +169,16 @@ export default function TierListPage() {
         </p>
       </div>
 
-      {/* Role Tabs */}
-      <div className="flex flex-wrap gap-2 mb-8 bg-white p-2 rounded-xl border border-slate-200 shadow-sm">
+      {/* Role Tabs - scrollable horizontally */}
+      <div className="flex overflow-x-auto pb-2 -mx-4 px-4 gap-2 snap-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         {roles.map(role => (
           <button
             key={role.id}
             onClick={() => setActiveTab(role.id)}
-            className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all duration-200 ${
+            className={`flex-shrink-0 py-2.5 px-5 rounded-xl font-bold text-sm transition-all duration-200 snap-center ${
               activeTab === role.id
-                ? 'bg-indigo-600 text-white shadow-md transform scale-[1.02]'
-                : 'bg-transparent text-slate-500 hover:bg-slate-50 hover:text-slate-700'
+                ? 'bg-indigo-600 text-white shadow-md'
+                : 'bg-white text-slate-500 border border-slate-200 active:bg-slate-50'
             }`}
           >
             {role.label}
@@ -186,75 +186,49 @@ export default function TierListPage() {
         ))}
       </div>
 
-      <div className="space-y-8">
+      <div className="space-y-6">
         {groupedStats.map(({ tier, champions }) => (
           <div key={tier} className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-            <div className={`px-6 py-3 border-b-2 flex items-center gap-4 ${getTierStyle(tier)}`}>
-              <span className="text-4xl font-black italic tracking-wider drop-shadow-sm">{tier}</span>
-              <span className="font-bold opacity-90">{t('tier', { count: champions.length })}</span>
+            <div className={`px-4 py-2 border-b flex items-center justify-between ${getTierStyle(tier)}`}>
+              <div className="flex items-baseline gap-2">
+                <span className="text-2xl font-black italic tracking-wider drop-shadow-sm">{tier}</span>
+                <span className="text-xs font-bold opacity-90 uppercase tracking-widest">Tier</span>
+              </div>
+              <span className="text-xs font-bold opacity-80 bg-black/10 px-2 py-1 rounded-md">{t('tier', { count: champions.length })}</span>
             </div>
             
-            <div className="p-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            <div className="p-4 grid grid-cols-4 gap-3">
               {champions.map((champion) => (
                 <Link 
                   key={champion.id} 
                   href={`/champions/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}`}
-                  className="group relative bg-slate-50 hover:bg-white p-4 rounded-xl border border-slate-100 hover:border-indigo-200 hover:shadow-md transition-all duration-200 block"
+                  className="flex flex-col items-center group active:scale-95 transition-transform"
                 >
-                  <div className="flex items-center gap-4 mb-3">
-                    <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 overflow-hidden ring-2 ring-white shadow-sm group-hover:scale-105 transition-transform">
-                      <img 
-                        src={`https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.png`}
-                        alt={champion.champion_name_en}
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = `/images/champions/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.avif`;
-                          (e.target as HTMLImageElement).onerror = (e2: any) => {
-                            const el = e2.target as HTMLImageElement;
-                            el.style.display = 'none';
-                            const parent = el.parentElement;
-                            if (parent && !parent.querySelector('.fallback-icon')) {
-                              const fallback = document.createElement('div');
-                              fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-xl shadow-inner';
-                              fallback.innerText = champion.champion_name.substring(0, 1);
-                              parent.appendChild(fallback);
-                            }
-                          };
-                        }}
-                      />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-slate-800 text-lg leading-tight group-hover:text-indigo-600 transition-colors">{champion.champion_name}</h3>
-                      <p className="text-xs text-slate-400 font-medium">{champion.champion_name_en}</p>
+                  <div className="w-14 h-14 bg-slate-200 rounded-2xl flex items-center justify-center font-bold text-slate-500 overflow-hidden shadow-inner mb-1 relative">
+                    <img 
+                      src={`https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.png`}
+                      alt={champion.champion_name_en}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = `/images/champions/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.avif`;
+                        (e.target as HTMLImageElement).onerror = (e2: any) => {
+                          const el = e2.target as HTMLImageElement;
+                          el.style.display = 'none';
+                          const parent = el.parentElement;
+                          if (parent && !parent.querySelector('.fallback-icon')) {
+                            const fallback = document.createElement('div');
+                            fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-lg shadow-inner';
+                            fallback.innerText = champion.champion_name.substring(0, 1);
+                            parent.appendChild(fallback);
+                          }
+                        };
+                      }}
+                    />
+                    <div className="absolute bottom-0 right-0 bg-white/90 backdrop-blur rounded-tl-lg px-1 text-[9px] font-bold text-slate-700 shadow-sm border-t border-l border-slate-100 leading-tight">
+                      {Math.round(champion.win_rate)}%
                     </div>
                   </div>
-                  
-                  <div className="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-slate-100">
-                    <div className="text-center">
-                      <div className="text-xs text-slate-400 font-semibold mb-1 flex items-center justify-center gap-1">
-                        <Swords size={12} /> {t('winRate')}
-                      </div>
-                      <div className={`font-black ${champion.win_rate >= 50 ? 'text-emerald-600' : 'text-rose-500'}`}>
-                        {champion.win_rate}%
-                      </div>
-                    </div>
-                    <div className="text-center border-l border-r border-slate-100">
-                      <div className="text-xs text-slate-400 font-semibold mb-1 flex items-center justify-center gap-1">
-                        <Target size={12} /> {t('pickRate')}
-                      </div>
-                      <div className="font-bold text-slate-700">
-                        {champion.pick_rate}%
-                      </div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-xs text-slate-400 font-semibold mb-1 flex items-center justify-center gap-1">
-                        <ShieldBan size={12} /> {t('banRate')}
-                      </div>
-                      <div className="font-bold text-slate-700">
-                        {champion.ban_rate}%
-                      </div>
-                    </div>
-                  </div>
+                  <h3 className="text-[10px] font-bold text-slate-700 text-center leading-tight w-full truncate">{champion.champion_name}</h3>
                 </Link>
               ))}
             </div>

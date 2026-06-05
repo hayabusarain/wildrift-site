@@ -6,9 +6,10 @@ import { useLocale, useTranslations } from "next-intl";
 
 interface HeaderProps {
   onMenuToggle?: () => void;
+  hideMenuButton?: boolean;
 }
 
-export function Header({ onMenuToggle }: HeaderProps) {
+export function Header({ onMenuToggle, hideMenuButton }: HeaderProps) {
   const t = useTranslations("Header");
   const locale = useLocale();
   const router = useRouter();
@@ -20,16 +21,19 @@ export function Header({ onMenuToggle }: HeaderProps) {
   };
 
   return (
-    <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-6">
-      <div className="flex items-center space-x-3">
-        <button 
-          onClick={onMenuToggle}
-          className="p-2 -ml-2 rounded-md hover:bg-slate-100 transition-colors lg:hidden"
-          aria-label="Open menu"
-        >
-          <Menu size={24} className="text-slate-600" />
-        </button>
-        <div className="font-semibold text-slate-800">
+    <header className="h-14 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-4 sticky top-0 z-40">
+      <div className="flex items-center space-x-2">
+        {!hideMenuButton && (
+          <button 
+            onClick={onMenuToggle}
+            className="p-2 -ml-2 rounded-md hover:bg-slate-100 transition-colors"
+            aria-label="Open menu"
+          >
+            <Menu size={24} className="text-slate-600" />
+          </button>
+        )}
+        <div className="font-bold text-lg tracking-tight text-indigo-600 dark:text-indigo-400">
+
           {t("title")}
         </div>
       </div>

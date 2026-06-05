@@ -16,16 +16,15 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
       {/* Backdrop overlay for mobile drawer */}
       {isOpen && (
         <div 
-          className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-40 lg:hidden"
+          className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-[60]"
           onClick={onClose}
         />
       )}
 
       <aside className={`
-        fixed inset-y-0 left-0 z-50 w-64 bg-slate-900 text-slate-300 h-screen flex flex-col border-r border-slate-800
+        fixed inset-y-0 left-0 md:left-auto z-[70] w-64 bg-slate-900 text-slate-300 h-full flex flex-col border-r border-slate-800
         transition-transform duration-300 ease-in-out transform
         ${isOpen ? "translate-x-0" : "-translate-x-full"}
-        lg:translate-x-0 lg:static lg:flex
       `}>
         <div className="p-6 flex items-center justify-between">
           <h2 className="text-xl font-bold text-white tracking-wider">{t("title")}</h2>

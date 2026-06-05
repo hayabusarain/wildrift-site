@@ -91,7 +91,7 @@ export default async function RootLayout({
           `}
         </Script>
       </head>
-      <body className="flex h-screen overflow-hidden bg-slate-50 text-slate-900 font-sans antialiased">
+      <body className="min-h-screen bg-slate-200 dark:bg-slate-900 text-slate-900 font-sans antialiased overflow-y-scroll">
         <NextIntlClientProvider messages={messages}>
           <LayoutShell>
             {children}

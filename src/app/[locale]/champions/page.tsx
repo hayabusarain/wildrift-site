@@ -242,91 +242,84 @@ export default function ChampionsPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto space-y-8 pb-12">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+    <div className="max-w-md mx-auto space-y-6 pb-24 px-4 pt-4">
+      <div className="flex flex-col gap-4">
         <div className="flex items-center gap-3">
           <div className="p-3 bg-indigo-100 text-indigo-600 rounded-xl shadow-inner">
-            <Users size={28} />
+            <Users size={24} />
           </div>
-          <div className="mb-8">
-          <h1 className="text-3xl font-black text-slate-800 tracking-tight mb-2">
-            {t('title')}
-          </h1>
-          <p className="text-slate-500 font-medium">
-            {t('subtitle')}
-          </p>
-        </div>
+          <div>
+            <h1 className="text-2xl font-black text-slate-800 tracking-tight">
+              {t('title')}
+            </h1>
+            <p className="text-sm text-slate-500 font-medium">
+              {t('subtitle')}
+            </p>
+          </div>
         </div>
 
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
           <input
             type="text"
             placeholder={t('searchPlaceholder')}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full sm:w-64 pl-10 pr-4 py-2 bg-slate-100 border-none rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none transition-shadow text-slate-700 placeholder-slate-400 font-medium"
+            className="w-full pl-11 pr-4 py-3.5 bg-white border border-slate-200 rounded-2xl shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none transition-shadow text-slate-700 placeholder-slate-400 font-medium text-base"
           />
         </div>
       </div>
 
       {/* Role Filters */}
-      <div className="flex flex-wrap gap-2 bg-white p-2 rounded-xl border border-slate-200 shadow-sm">
+      <div className="flex overflow-x-auto pb-2 -mx-4 px-4 gap-2 snap-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         {roles.map(role => (
           <button
             key={role.id}
             onClick={() => setActiveFilter(role.id)}
-            className={`flex items-center justify-center gap-2 flex-1 py-2 px-3 rounded-lg font-bold text-sm transition-all duration-200 ${
+            className={`flex items-center justify-center gap-2 flex-shrink-0 py-2.5 px-4 rounded-xl font-bold text-sm transition-all duration-200 snap-center ${
               activeFilter === role.id
                 ? 'bg-indigo-600 text-white shadow-md'
-                : 'bg-transparent text-slate-500 hover:bg-slate-50 hover:text-slate-700'
+                : 'bg-white text-slate-500 border border-slate-200 active:bg-slate-50'
             }`}
           >
             {role.icon}
-            <span className="hidden sm:inline">{role.label}</span>
+            <span>{role.label}</span>
           </button>
         ))}
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+      <div className="grid grid-cols-3 gap-3">
         {filteredChampions.map(champion => {
           return (
             <Link 
               key={champion.id} 
               href={`/champions/${champion.id}`} 
-              className="group relative rounded-3xl bg-white/60 backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(99,102,241,0.15)] transition-all duration-500 border border-white/80 overflow-hidden flex flex-col items-center p-6 hover:-translate-y-2"
+              className="flex flex-col items-center p-3 bg-white rounded-2xl shadow-sm border border-slate-100 active:scale-95 transition-transform"
             >
-              <div className="relative w-24 h-24 sm:w-28 sm:h-28 mb-4 rounded-[1.25rem] overflow-hidden shadow-inner bg-slate-100 group-hover:shadow-lg transition-all duration-500">
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 mb-2 rounded-[1rem] overflow-hidden shadow-inner bg-slate-100">
                 <img 
                   src={champion.id === 'Norra' ? `/images/champions/Norra.avif` : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champion.id}.png`}
                   alt={champion.name}
-                  className="w-full h-full object-cover scale-[1.02] group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover scale-[1.02]"
                   onError={(e) => {
-                    // Fallback to local image if sprite fails
                     (e.target as HTMLImageElement).src = `/images/champions/${champion.id}.avif`;
                     (e.target as HTMLImageElement).onerror = null;
                   }}
                 />
               </div>
-              <h3 className="text-base font-bold text-slate-800 text-center tracking-tight group-hover:text-indigo-600 transition-colors">
+              <h3 className="text-xs font-bold text-slate-800 text-center tracking-tight leading-tight w-full truncate">
                 {champion.name}
               </h3>
-              
-              <div className="absolute top-4 right-4 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-400 ease-out">
-                <div className="bg-white/90 backdrop-blur text-indigo-600 rounded-full p-2 shadow-sm border border-slate-100">
-                  <ArrowRight size={14} strokeWidth={3} />
-                </div>
-              </div>
             </Link>
           );
         })}
       </div>
       
       {filteredChampions.length === 0 && (
-        <div className="text-center py-20 bg-white rounded-2xl border border-slate-200">
+        <div className="text-center py-16 bg-white rounded-2xl border border-slate-200 shadow-sm mt-4">
           <Users className="mx-auto h-12 w-12 text-slate-300 mb-3" />
           <h3 className="text-lg font-bold text-slate-800">見つかりませんでした</h3>
-          <p className="text-slate-500">検索条件に一致するチャンピオンがいません。</p>
+          <p className="text-sm text-slate-500 mt-1">検索条件に一致するチャンピオンがいません。</p>
         </div>
       )}
     </div>

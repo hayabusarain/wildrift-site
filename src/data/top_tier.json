@@ -1,0 +1,57 @@
+[
+  {
+    "id": 355,
+    "champion_name": "ウーコン",
+    "champion_name_en": "MonkeyKing",
+    "win_rate": 52.97,
+    "pick_rate": 2.97,
+    "ban_rate": 0.46,
+    "tier": "S",
+    "created_at": "2026-06-04T13:38:25.570844+00:00",
+    "role": "TOP"
+  },
+  {
+    "id": 356,
+    "champion_name": "サイオン",
+    "champion_name_en": "Sion",
+    "win_rate": 52.75,
+    "pick_rate": 4.9,
+    "ban_rate": 0.59,
+    "tier": "S",
+    "created_at": "2026-06-04T13:38:25.570844+00:00",
+    "role": "TOP"
+  },
+  {
+    "id": 357,
+    "champion_name": "ヴェイン",
+    "champion_name_en": "Vayne",
+    "win_rate": 52.66,
+    "pick_rate": 2.27,
+    "ban_rate": 12.55,
+    "tier": "S",
+    "created_at": "2026-06-04T13:38:25.570844+00:00",
+    "role": "TOP"
+  },
+  {
+    "id": 358,
+    "champion_name": "ティーモ",
+    "champion_name_en": "Teemo",
+    "win_rate": 52.48,
+    "pick_rate": 4.22,
+    "ban_rate": 19.62,
+    "tier": "S",
+    "created_at": "2026-06-04T13:38:25.570844+00:00",
+    "role": "TOP"
+  },
+  {
+    "id": 359,
+    "champion_name": "カリスタ",
+    "champion_name_en": "Kalista",
+    "win_rate": 52.33,
+    "pick_rate": 1.33,
+    "ban_rate": 3.54,
+    "tier": "S",
+    "created_at": "2026-06-04T13:38:25.570844+00:00",
+    "role": "TOP"
+  }
+]
