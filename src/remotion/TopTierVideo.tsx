@@ -4,7 +4,7 @@ import topTierData from '../data/top_tier.json';
 import { ShadowbanPreventer } from './utils/ShadowbanPreventer';
 
 interface TopTierVideoProps {
-  seed: number;
+  seed?: number;
 }
 
 const ChampionCard: React.FC<{ champion: any; index: number; seed: number }> = ({ champion, index, seed }) => {
@@ -74,7 +74,7 @@ const ChampionCard: React.FC<{ champion: any; index: number; seed: number }> = (
   );
 };
 
-export const TopTierVideo: React.FC<TopTierVideoProps> = ({ seed }) => {
+export const TopTierVideo: React.FC<TopTierVideoProps> = ({ seed = 1 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 

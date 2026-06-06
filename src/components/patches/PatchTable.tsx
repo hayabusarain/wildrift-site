@@ -227,42 +227,42 @@ export function PatchTable({ championId }: { championId?: string }) {
 
       {/* 検索・フィルター UI (チャンピオン指定時は非表示) */}
       {!championId && (
-      <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200 mb-6">
-        <div className="flex flex-col md:flex-row gap-4">
-          <div className="relative flex-1">
+      <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="flex flex-col gap-3">
+          <div className="relative w-full">
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Search className="h-5 w-5 text-slate-400" />
+              <Search className="h-4 w-4 text-slate-400" />
             </div>
             <input
               type="text"
-              className="block w-full pl-10 pr-3 py-2.5 border border-slate-200 rounded-xl leading-5 bg-white text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm shadow-sm transition-all"
+              className="block w-full pl-9 pr-3 py-2 border border-slate-200 rounded-xl bg-slate-50 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:bg-white text-xs font-bold shadow-inner transition-all"
               placeholder={t("searchPlaceholder")}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
-          <div className="flex gap-2 flex-wrap">
+          <div className="grid grid-cols-4 gap-2 w-full">
             <button 
               onClick={() => setFilterType('all')}
-              className={`px-4 py-2 text-sm font-bold rounded-xl border transition-all ${filterType === 'all' ? 'bg-slate-800 text-white border-slate-800 shadow-md' : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-100'}`}
+              className={`py-2 text-[10px] font-black rounded-lg border transition-all ${filterType === 'all' ? 'bg-slate-800 text-white border-slate-800 shadow-sm' : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-50'}`}
             >
               {t("filterAll")}
             </button>
             <button 
               onClick={() => setFilterType('buff')}
-              className={`px-4 py-2 text-sm font-bold rounded-xl border transition-all ${filterType === 'buff' ? 'bg-emerald-500 text-white border-emerald-500 shadow-md' : 'bg-white text-emerald-600 border-slate-200 hover:bg-emerald-50'}`}
+              className={`py-2 text-[10px] font-black rounded-lg border transition-all ${filterType === 'buff' ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm' : 'bg-white text-emerald-600 border-slate-200 hover:bg-emerald-50'}`}
             >
               {t("filterBuff")}
             </button>
             <button 
               onClick={() => setFilterType('nerf')}
-              className={`px-4 py-2 text-sm font-bold rounded-xl border transition-all ${filterType === 'nerf' ? 'bg-rose-500 text-white border-rose-500 shadow-md' : 'bg-white text-rose-600 border-slate-200 hover:bg-rose-50'}`}
+              className={`py-2 text-[10px] font-black rounded-lg border transition-all ${filterType === 'nerf' ? 'bg-rose-500 text-white border-rose-500 shadow-sm' : 'bg-white text-rose-600 border-slate-200 hover:bg-rose-50'}`}
             >
               {t("filterNerf")}
             </button>
             <button 
               onClick={() => setFilterType('adjust')}
-              className={`px-4 py-2 text-sm font-bold rounded-xl border transition-all ${filterType === 'adjust' ? 'bg-amber-500 text-white border-amber-500 shadow-md' : 'bg-white text-amber-600 border-slate-200 hover:bg-amber-50'}`}
+              className={`py-2 text-[10px] font-black rounded-lg border transition-all ${filterType === 'adjust' ? 'bg-amber-500 text-white border-amber-500 shadow-sm' : 'bg-white text-amber-600 border-slate-200 hover:bg-amber-50'}`}
             >
               {t("filterAdjust")}
             </button>
@@ -271,20 +271,40 @@ export function PatchTable({ championId }: { championId?: string }) {
         
         {/* 検索中（串刺しモード）のインジケーター */}
         {(searchQuery.length > 0 || filterType !== 'all') && (
-          <div className="mt-3 text-sm font-medium text-indigo-600 flex items-center gap-1.5 bg-indigo-50 px-3 py-1.5 rounded-lg inline-flex">
-            <Sparkles size={16} />
+          <div className="mt-3 text-[10px] font-bold text-indigo-600 flex items-center gap-1 bg-indigo-50 px-2 py-1.5 rounded-md inline-flex border border-indigo-100">
+            <Sparkles size={12} />
             {t("crossSearchActive")}
           </div>
         )}
       </div>
       )}
 
+      {!championId && uniqueVersions.length > 0 && searchQuery.length === 0 && filterType === 'all' && (
+        <div className="mb-4 flex items-center gap-3 bg-white border border-slate-200 px-4 py-2.5 rounded-xl shadow-sm">
+          <label htmlFor="version-select" className="text-xs font-bold text-slate-500 shrink-0">
+            {t("displayVersion")}
+          </label>
+          <select
+            id="version-select"
+            value={selectedVersion || ""}
+            onChange={(e) => setSelectedVersion(e.target.value)}
+            className="bg-transparent border-none outline-none text-sm font-black text-slate-800 focus:ring-0 w-full pl-1"
+          >
+            {uniqueVersions.map(v => (
+              <option key={v} value={v}>Patch {v}</option>
+            ))}
+          </select>
+        </div>
+      )}
+
       {!championId && selectedPatchMeta && !searchQuery && filterType === 'all' && (
-        <div className="bg-indigo-50 border border-indigo-100 p-4 rounded-xl mb-6">
-          <h3 className="font-bold text-indigo-900 mb-2">
+        <div className="bg-gradient-to-br from-indigo-50 to-white border border-indigo-100 p-4 rounded-2xl shadow-sm relative overflow-hidden mb-6">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none opacity-50" />
+          <h3 className="text-xs font-black text-indigo-900 mb-2 flex items-center gap-1.5 relative z-10">
+            <Sparkles size={14} className="text-indigo-500" />
             {locale === 'en' ? 'AI Meta Prediction' : 'AI メタ予想'}
           </h3>
-          <p className="text-sm text-indigo-800 leading-relaxed">
+          <p className="text-xs text-slate-700 leading-relaxed font-medium relative z-10">
             {locale === 'en' ? selectedPatchMeta.prediction_en : selectedPatchMeta.prediction_ja}
           </p>
         </div>
@@ -293,192 +313,85 @@ export function PatchTable({ championId }: { championId?: string }) {
       {/* Error message removed */}
       
       <div>
-        {!championId && uniqueVersions.length > 0 && searchQuery.length === 0 && filterType === 'all' && (
-          <div className="mb-4">
-            <label htmlFor="version-select" className="text-sm font-medium text-slate-600 mr-2">
-              {t("displayVersion")}
-            </label>
-            <select
-              id="version-select"
-              value={selectedVersion || ""}
-              onChange={(e) => setSelectedVersion(e.target.value)}
-              className="px-3 py-1.5 bg-white border border-slate-300 rounded-md text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-colors"
-            >
-              {uniqueVersions.map(v => (
-                <option key={v} value={v}>Patch {v}</option>
-              ))}
-            </select>
-          </div>
-        )}
-
         {filteredPatches.length === 0 ? (
           <div className="text-center py-12 text-slate-400 font-medium">
             {t("noResults")}
           </div>
         ) : (
-          <>
-            <div className="hidden md:block overflow-x-auto">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="bg-slate-100 text-slate-600 text-sm">
-                    <th className="p-3 border-b border-slate-200 font-semibold w-16"></th>
-                    <th className="p-3 border-b border-slate-200 font-semibold">{t("version")}</th>
-                    <th className="p-3 border-b border-slate-200 font-semibold">{t("champion")}</th>
-                    <th className="p-3 border-b border-slate-200 font-semibold">{t("type")}</th>
-                    <th className="p-3 border-b border-slate-200 font-semibold">{t("description")}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {filteredPatches.map((patch) => (
-                    <tr 
-                      key={patch.id} 
-                      className="border-b border-slate-100 hover:bg-slate-50 transition-colors"
-                    >
-                      <td className="p-3 align-top">
-                        <div className="w-10 h-10 rounded-full overflow-hidden bg-slate-200 flex items-center justify-center border border-slate-300">
-                          {(patch as any).is_champion !== false ? (
-                            <img 
-                              src={patch.champion_name_en === 'Norra' ? '/images/ノラ.avif' : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`}
-                              alt={patch.champion_name_en || patch.champion_name}
-                              className="w-full h-full object-cover"
-                              onError={(e) => {
-                                (e.target as HTMLImageElement).style.display = 'none';
-                                const parent = (e.target as HTMLImageElement).parentElement;
-                                if (parent && !parent.querySelector('.fallback-icon')) {
-                                  const fallback = document.createElement('div');
-                                  fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-sm shadow-inner';
-                                  fallback.innerText = patch.champion_name?.substring(0, 1) || '?';
-                                  parent.appendChild(fallback);
-                                }
-                              }}
-                            />
-                          ) : iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || ''] ? (
-                            <img 
-                              src={iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || '']}
-                              alt={patch.champion_name_en || patch.champion_name}
-                              className="w-full h-full object-cover"
-                              onError={(e) => {
-                                (e.target as HTMLImageElement).style.display = 'none';
-                                const parent = (e.target as HTMLImageElement).parentElement;
-                                if (parent && !parent.querySelector('.fallback-icon')) {
-                                  const fallback = document.createElement('div');
-                                  fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-slate-200 text-slate-500 font-black text-sm shadow-inner';
-                                  fallback.innerText = '⚔️';
-                                  parent.appendChild(fallback);
-                                }
-                              }}
-                            />
-                          ) : (
-                            <span className="text-lg">⚔️</span>
-                          )}
-                        </div>
-                      </td>
-                      <td className="p-3 text-sm font-black text-indigo-900 align-top pt-5 whitespace-nowrap">{patch.version}</td>
-                      <td className="p-3 text-sm font-bold text-slate-800 align-top pt-5">
-                        {locale === 'en' ? (patch.champion_name_en || patch.champion_name) : patch.champion_name}
-                      </td>
-                      <td className="p-3 text-sm align-top pt-5 whitespace-nowrap">
-                        <span
-                          className={`px-3 py-1 rounded-full text-xs font-bold ${
-                            patch.change_type === "buff"
-                              ? "bg-emerald-100 text-emerald-700 border border-emerald-200"
-                              : patch.change_type === "nerf"
-                              ? "bg-rose-100 text-rose-700 border border-rose-200"
-                              : patch.change_type === "adjust"
-                              ? "bg-amber-100 text-amber-700 border border-amber-200"
-                              : patch.change_type === "new"
-                              ? "bg-purple-100 text-purple-700 border border-purple-200"
-                              : "bg-slate-100 text-slate-700 border border-slate-200"
-                          }`}
-                        >
-                          {patch.change_type.toUpperCase()}
-                        </span>
-                      </td>
-                      <td className="p-3">
-                        {renderDescription(locale === 'en' ? (patch.description_en || patch.description) : patch.description)}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-
-            <div className="md:hidden space-y-4">
-              {filteredPatches.map((patch) => (
-                <div 
-                  key={patch.id} 
-                  className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-3"
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <div className="w-10 h-10 rounded-full overflow-hidden bg-slate-200 flex items-center justify-center border border-slate-300">
-                        {(patch as any).is_champion !== false ? (
-                          <img 
-                            src={patch.champion_name_en === 'Norra' ? '/images/ノラ.avif' : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`}
-                            alt={patch.champion_name_en || patch.champion_name}
-                            className="w-full h-full object-cover"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).style.display = 'none';
-                              const parent = (e.target as HTMLImageElement).parentElement;
-                              if (parent && !parent.querySelector('.fallback-icon')) {
-                                const fallback = document.createElement('div');
-                                fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-sm shadow-inner';
-                                fallback.innerText = patch.champion_name?.substring(0, 1) || '?';
-                                parent.appendChild(fallback);
-                              }
-                            }}
-                          />
-                        ) : iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || ''] ? (
-                          <img 
-                            src={iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || '']}
-                            alt={patch.champion_name_en || patch.champion_name}
-                            className="w-full h-full object-cover"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).style.display = 'none';
-                              const parent = (e.target as HTMLImageElement).parentElement;
-                              if (parent && !parent.querySelector('.fallback-icon')) {
-                                const fallback = document.createElement('div');
-                                fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-slate-200 text-slate-500 font-black text-sm shadow-inner';
-                                fallback.innerText = '⚔️';
-                                parent.appendChild(fallback);
-                              }
-                            }}
-                          />
-                        ) : (
-                          <span className="text-lg">⚔️</span>
-                        )}
-                      </div>
-                      <div className="flex flex-col">
-                        <span className="text-sm font-bold text-slate-800">
-                          {locale === 'en' ? (patch.champion_name_en || patch.champion_name) : patch.champion_name}
-                        </span>
-                        <span className="text-xs font-semibold text-slate-400">Patch {patch.version}</span>
-                      </div>
+          <div className="space-y-4">
+            {filteredPatches.map((patch) => (
+              <div 
+                key={patch.id} 
+                className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-3"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <div className="w-10 h-10 rounded-full overflow-hidden bg-slate-200 flex items-center justify-center border border-slate-300">
+                      {(patch as any).is_champion !== false ? (
+                        <img 
+                          src={patch.champion_name_en === 'Norra' ? '/images/ノラ.avif' : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`}
+                          alt={patch.champion_name_en || patch.champion_name}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).style.display = 'none';
+                            const parent = (e.target as HTMLImageElement).parentElement;
+                            if (parent && !parent.querySelector('.fallback-icon')) {
+                              const fallback = document.createElement('div');
+                              fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-sm shadow-inner';
+                              fallback.innerText = patch.champion_name?.substring(0, 1) || '?';
+                              parent.appendChild(fallback);
+                            }
+                          }}
+                        />
+                      ) : iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || ''] ? (
+                        <img 
+                          src={iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || '']}
+                          alt={patch.champion_name_en || patch.champion_name}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).style.display = 'none';
+                            const parent = (e.target as HTMLImageElement).parentElement;
+                            if (parent && !parent.querySelector('.fallback-icon')) {
+                              const fallback = document.createElement('div');
+                              fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-slate-200 text-slate-500 font-black text-sm shadow-inner';
+                              fallback.innerText = '⚔️';
+                              parent.appendChild(fallback);
+                            }
+                          }}
+                        />
+                      ) : (
+                        <span className="text-lg">⚔️</span>
+                      )}
                     </div>
-                    <span
-                      className={`px-3 py-1 rounded-full text-xs font-bold ${
-                        patch.change_type === "buff"
-                          ? "bg-emerald-100 text-emerald-700 border border-emerald-200"
-                          : patch.change_type === "nerf"
-                          ? "bg-rose-100 text-rose-700 border border-rose-200"
-                          : patch.change_type === "adjust"
-                          ? "bg-amber-100 text-amber-700 border border-amber-200"
-                          : patch.change_type === "new"
-                          ? "bg-purple-100 text-purple-700 border border-purple-200"
-                          : "bg-slate-100 text-slate-700 border border-slate-200"
-                      }`}
-                    >
-                      {patch.change_type.toUpperCase()}
-                    </span>
+                    <div className="flex flex-col">
+                      <span className="text-sm font-bold text-slate-800">
+                        {locale === 'en' ? (patch.champion_name_en || patch.champion_name) : patch.champion_name}
+                      </span>
+                      <span className="text-xs font-semibold text-slate-400">Patch {patch.version}</span>
+                    </div>
                   </div>
-                  <div className="text-sm text-slate-700 pl-1">
-                    {renderDescription(locale === 'en' ? (patch.description_en || patch.description) : patch.description)}
-                  </div>
+                  <span
+                    className={`px-3 py-1 rounded-full text-[10px] font-black tracking-wider uppercase ${
+                      patch.change_type === "buff"
+                        ? "bg-emerald-100 text-emerald-700 border border-emerald-200"
+                        : patch.change_type === "nerf"
+                        ? "bg-rose-100 text-rose-700 border border-rose-200"
+                        : patch.change_type === "adjust"
+                        ? "bg-amber-100 text-amber-700 border border-amber-200"
+                        : patch.change_type === "new"
+                        ? "bg-purple-100 text-purple-700 border border-purple-200"
+                        : "bg-slate-100 text-slate-700 border border-slate-200"
+                    }`}
+                  >
+                    {patch.change_type}
+                  </span>
                 </div>
-              ))}
-            </div>
-          </>
+                <div className="text-sm text-slate-700">
+                  {renderDescription(locale === 'en' ? (patch.description_en || patch.description) : patch.description)}
+                </div>
+              </div>
+            ))}
+          </div>
         )}
       </div>
     </div>

@@ -479,256 +479,184 @@ export default function ChampionDetailsPage() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto pb-20">
-      <Link href="/champions" className="inline-flex items-center text-sm font-bold text-indigo-600 hover:text-indigo-800 mb-6 group transition-colors">
-        <ArrowLeft size={16} className="mr-2 group-hover:-translate-x-1 transition-transform" />
-        {t('back')}
-      </Link>
-
-      {/* Hero Section */}
-      <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-8 border border-slate-200">
-        <div className="absolute inset-0 bg-slate-900">
-          <img 
-            src={id === 'Norra' ? `/images/champions/Norra.avif` : `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`}
-            alt={champion.name}
-            className="w-full h-full object-cover opacity-40 mix-blend-overlay"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = `/images/champions/${id}.avif`;
-              (e.target as HTMLImageElement).onerror = null;
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-transparent"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
-        </div>
-        
-        <div className="relative p-8 md:p-12 flex flex-col md:flex-row gap-8 items-center md:items-end">
+    <div className="pb-24 bg-slate-50 min-h-screen">
+      {/* Header Profile Section */}
+      <div className="bg-white px-4 pt-6 pb-8 border-b border-slate-200 flex flex-col items-center text-center relative shadow-sm">
+        <Link href="/champions" className="absolute top-4 left-4 p-2 text-slate-400 hover:text-slate-600 bg-slate-50 rounded-full active:scale-95 transition-transform">
+          <ArrowLeft size={20} />
+        </Link>
+        <div className="relative mt-2">
           <img 
             src={id === 'Norra' ? `/images/champions/Norra.avif` : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${id}.png`}
             alt={champion.name}
-            className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-slate-800 shadow-2xl bg-slate-900 object-cover"
+            className="w-24 h-24 rounded-full border-4 border-white shadow-md bg-slate-100 object-cover"
             onError={(e) => {
               (e.target as HTMLImageElement).src = `/images/champions/${id}.avif`;
               (e.target as HTMLImageElement).onerror = null;
             }}
           />
-          <div className="flex-1 text-center md:text-left text-white">
-            <h2 className="text-xl md:text-2xl text-indigo-300 font-bold italic drop-shadow">{champion.title}</h2>
-            <h1 className="text-5xl md:text-7xl font-black tracking-tight drop-shadow-lg mb-4">{champion.name}</h1>
-            <div className="flex gap-2">
-                  {champion.tags.map(tag => {
-                    let translatedTag = tag;
-                    if (tag === 'Fighter') translatedTag = t('role_fighter') || tag;
-                    if (tag === 'Mage') translatedTag = t('role_mage') || tag;
-                    if (tag === 'Assassin') translatedTag = t('role_assassin') || tag;
-                    if (tag === 'Marksman') translatedTag = t('role_marksman') || tag;
-                    if (tag === 'Tank') translatedTag = t('role_tank') || tag;
-                    if (tag === 'Support') translatedTag = t('role_support') || tag;
+        </div>
+        <h2 className="text-sm font-bold text-slate-500 mt-4 mb-1">{champion.title}</h2>
+        <h1 className="text-3xl font-black text-slate-900 tracking-tight mb-4">{champion.name}</h1>
+        
+        <div className="flex flex-wrap justify-center gap-2">
+          {champion.tags.map(tag => {
+            let translatedTag = tag;
+            if (tag === 'Fighter') translatedTag = t('role_fighter') || tag;
+            if (tag === 'Mage') translatedTag = t('role_mage') || tag;
+            if (tag === 'Assassin') translatedTag = t('role_assassin') || tag;
+            if (tag === 'Marksman') translatedTag = t('role_marksman') || tag;
+            if (tag === 'Tank') translatedTag = t('role_tank') || tag;
+            if (tag === 'Support') translatedTag = t('role_support') || tag;
 
-                    return (
-                      <span key={tag} className="px-4 py-1.5 bg-indigo-500/30 border border-indigo-400/30 text-indigo-100 rounded-full text-xs font-bold tracking-wider uppercase">
-                        {translatedTag}
-                      </span>
-                    );
-                  })}
-                </div>
-          </div>
+            return (
+              <span key={tag} className={`px-3 py-1 text-[11px] font-bold rounded-full border ${getRoleColor(tag.toUpperCase())}`}>
+                {translatedTag}
+              </span>
+            );
+          })}
         </div>
       </div>
-      <div className="max-w-4xl mx-auto">
-        {/* Main Content */}
-        <div className="space-y-8">
-          {/* Current Meta Stats */}
-          {stats.length > 0 && (
-            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-              <h3 className="text-xl font-extrabold text-slate-800 mb-4 flex items-center gap-2">
-                <Target className="text-indigo-500" />
-                {t('latestMetaStats')}
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {stats.map((stat, idx) => (
-                  <div key={stat.id ? `${stat.id}-${idx}` : `${stat.role}-${idx}`} className="flex items-center justify-between bg-slate-50 border border-slate-200 p-4 rounded-xl shadow-inner">
-                    <span className={`text-sm font-black px-3 py-1 rounded-md border ${getRoleColor(stat.role)}`}>
-                      {stat.role}
-                    </span>
-                    <div className="flex flex-col items-end">
-                      <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">{t('tierWinRate')}</span>
-                      <div className="flex items-baseline gap-2">
-                        <span className="text-2xl font-black text-slate-800">{stat.tier}</span>
-                        <span className={`text-lg font-black ${stat.win_rate >= 50 ? 'text-emerald-600' : 'text-rose-500'}`}>
-                          {stat.win_rate}%
-                        </span>
-                      </div>
-                    </div>
+
+      <div className="px-4 space-y-4 mt-4">
+        {/* Current Meta Stats */}
+        {stats.length > 0 && (
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-5">
+            <h3 className="text-sm font-black text-slate-500 mb-4 flex items-center gap-2 uppercase tracking-wider">
+              <Target size={16} className="text-indigo-500" />
+              {t('latestMetaStats')}
+            </h3>
+            <div className="grid grid-cols-2 gap-3">
+              {stats.map((stat, idx) => (
+                <div key={stat.id ? `${stat.id}-${idx}` : `${stat.role}-${idx}`} className="flex flex-col items-center bg-slate-50 border border-slate-100 p-3 rounded-2xl">
+                  <span className={`text-[10px] font-black px-2 py-0.5 rounded border mb-2 ${getRoleColor(stat.role)}`}>
+                    {stat.role}
+                  </span>
+                  <div className="text-xl font-black text-slate-800 leading-none mb-1">{stat.tier}</div>
+                  <div className={`text-sm font-bold ${stat.win_rate >= 50 ? 'text-emerald-600' : 'text-rose-500'}`}>
+                    {stat.win_rate}%
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
-          )}
+          </div>
+        )}
 
-          {/* Skills Section */}
-          {wrDetails?.skills && (
-            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 relative">
-              <div className="flex items-center justify-between mb-6">
-                <h3 className="text-xl font-extrabold text-slate-800 flex items-center gap-2">
-                  <Sword className="text-indigo-500" />
-                  {t('skills')}
-                </h3>
-                
-                {/* 開発環境限定：編集モードトグル */}
-                {isDevelopment && locale === 'ja' && (
-                  <div className="flex items-center gap-2">
-                    {isEditing ? (
-                      <>
-                        <button 
-                          onClick={toggleEditMode}
-                          disabled={isSaving}
-                          className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-bold text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors disabled:opacity-50"
-                        >
-                          <X size={16} /> キャンセル
-                        </button>
-                        <button 
-                          onClick={handleSaveSkills}
-                          disabled={isSaving}
-                          className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-sm transition-colors disabled:opacity-50"
-                        >
-                          {isSaving ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />} 
-                          {isSaving ? '保存中...' : '保存して自動翻訳'}
-                        </button>
-                      </>
-                    ) : (
-                      <button 
-                        onClick={toggleEditMode}
-                        className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-bold text-indigo-600 bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 rounded-lg transition-colors"
-                      >
-                        <Edit3 size={16} /> スキルを編集する
+        {/* Skills Section */}
+        {wrDetails?.skills && (
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-5">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-sm font-black text-slate-500 flex items-center gap-2 uppercase tracking-wider">
+                <Sword size={16} className="text-indigo-500" />
+                {t('skills')}
+              </h3>
+              {isDevelopment && locale === 'ja' && (
+                <div className="flex items-center">
+                  {isEditing ? (
+                    <div className="flex gap-2">
+                      <button onClick={toggleEditMode} disabled={isSaving} className="p-2 text-slate-400 bg-slate-100 rounded-full">
+                        <X size={14} />
                       </button>
-                    )}
-                  </div>
-                )}
-              </div>
-              
-              <div className="space-y-10">
-                {(isEditing ? editingSkills : wrDetails.skills).map((skill: any, idx: number) => (
-                  <div key={idx} className="flex flex-col gap-4 pb-6 border-b border-slate-100 last:border-0 last:pb-0">
-                    <div className="flex gap-4">
-                      <div className="flex-shrink-0">
-                        <img 
-                          src={
-                            skill.icon || 
-                            (id === 'Norra' 
-                              ? `/images/${encodeURIComponent(skill.name.replace('帰郷のそレッド', '故郷のスレッド').replace('バルーザ', 'パルーザ'))}.avif` 
-                              : `/images/champions/${id}.avif`)
-                          } 
-                          alt={skill.name} 
-                          className={`w-14 h-14 ${skill.id === 'P' ? 'rounded-full' : 'rounded-xl'} border-2 border-slate-200 shadow-sm bg-slate-100 object-cover`}
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = `/images/champions/${id}.avif`; // Fallback
-                          }}
-                        />
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="px-2 py-0.5 bg-slate-800 text-white text-xs font-bold rounded">
-                            {getSkillLabel(skill.id)}
-                          </span>
-                          
-                          {isEditing ? (
-                            <input 
-                              type="text" 
-                              value={skill.name} 
-                              onChange={(e) => handleSkillChange(idx, 'name', e.target.value)}
-                              className="text-lg font-extrabold text-slate-800 border-b-2 border-indigo-400 focus:outline-none focus:border-indigo-600 bg-indigo-50/50 px-1 w-full max-w-xs"
-                            />
-                          ) : (
-                            <h4 className="text-lg font-extrabold text-slate-800">{skill.name}</h4>
-                          )}
-                          
-                          {/* Tags */}
-                          {skill.tags && (
-                            <div className="flex gap-1 ml-2">
-                              {skill.tags.map((tag: string, tIdx: number) => (
-                                <span key={tIdx} className="text-xs font-bold text-indigo-600 bg-indigo-50 border border-indigo-100 px-2 py-0.5 rounded-md">
-                                  {translateSkillTag(tag, locale)}
-                                </span>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                        
-                        {/* Cooldown Text */}
-                        {skill.cooldown_text && (
-                          <div className="text-xs font-bold text-slate-500 mb-3 flex items-center gap-1">
-                            <span className="inline-block w-3 h-3 bg-slate-200 rounded-full flex items-center justify-center">⏳</span>
-                            {translateCooldownText(skill.cooldown_text, locale)}
-                          </div>
-                        )}
-                        
-                        {isEditing ? (
-                          <textarea 
-                            value={skill.description} 
-                            onChange={(e) => handleSkillChange(idx, 'description', e.target.value)}
-                            className="w-full min-h-[120px] text-sm text-slate-700 leading-relaxed font-medium bg-white p-4 rounded-xl border-2 border-indigo-400 focus:outline-none focus:ring-4 focus:ring-indigo-100 resize-y"
-                          />
-                        ) : (
-                          <p className="text-sm text-slate-700 leading-relaxed font-medium bg-slate-50 p-4 rounded-xl border border-slate-100" dangerouslySetInnerHTML={renderDescriptionWithIcons(skill.description)} />
-                        )}
-                      </div>
+                      <button onClick={handleSaveSkills} disabled={isSaving} className="p-2 text-white bg-indigo-600 rounded-full">
+                        {isSaving ? <Loader2 size={14} className="animate-spin" /> : <Save size={14} />}
+                      </button>
                     </div>
+                  ) : (
+                    <button onClick={toggleEditMode} className="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-full">
+                      編集
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+            
+            <div className="space-y-6">
+              {(isEditing ? editingSkills : wrDetails.skills).map((skill: any, idx: number) => (
+                <div key={idx} className="flex flex-col gap-3 pb-6 border-b border-slate-100 last:border-0 last:pb-0">
+                  <div className="flex gap-3">
+                    <img 
+                      src={skill.icon || `/images/champions/${id}.avif`} 
+                      alt={skill.name} 
+                      className={`w-12 h-12 flex-shrink-0 ${skill.id === 'P' ? 'rounded-full' : 'rounded-xl'} border border-slate-200 shadow-sm bg-slate-50 object-cover`}
+                      onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${id}.avif`; }}
+                    />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="px-1.5 py-0.5 bg-slate-800 text-white text-[10px] font-bold rounded">
+                          {getSkillLabel(skill.id)}
+                        </span>
+                        {isEditing ? (
+                          <input type="text" value={skill.name} onChange={(e) => handleSkillChange(idx, 'name', e.target.value)} className="text-base font-bold text-slate-800 border-b border-indigo-400 focus:outline-none w-full" />
+                        ) : (
+                          <h4 className="text-base font-bold text-slate-900 truncate">{skill.name}</h4>
+                        )}
+                      </div>
+                      {skill.cooldown_text && (
+                        <div className="text-[11px] font-bold text-slate-500 flex items-center gap-1">
+                          ⏳ {translateCooldownText(skill.cooldown_text, locale)}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                  
+                  {isEditing ? (
+                    <textarea value={skill.description} onChange={(e) => handleSkillChange(idx, 'description', e.target.value)} className="w-full text-sm text-slate-700 bg-slate-50 p-3 rounded-xl border border-indigo-300 focus:outline-none min-h-[100px]" />
+                  ) : (
+                    <div className="text-sm text-slate-600 leading-relaxed font-medium space-y-2" dangerouslySetInnerHTML={renderDescriptionWithIcons(skill.description)} />
+                  )}
 
-                    {/* Level Progression Table */}
-                    {skill.table && (
-                      <div className="mt-2 ml-0 md:ml-[72px] overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
-                        <table className="w-full text-sm text-left">
-                          <thead className="bg-slate-800 text-slate-100 uppercase font-black text-xs">
-                            <tr>
-                              <th className="px-4 py-2 border-r border-slate-700">
-                                {idx === 1 ? t('growthData') : (locale === 'ja' ? '詳細' : 'Details')}
-                              </th>
-                              {skill.table.headers.map((h: string, i: number) => (
-                                <th key={i} className="px-4 py-2 text-center text-indigo-300">{h}</th>
+                  {skill.table && (
+                    <div className="mt-1 overflow-x-auto rounded-xl border border-slate-100 bg-slate-50">
+                      <table className="w-full text-xs text-left min-w-max">
+                        <thead className="text-slate-400 font-bold border-b border-slate-200">
+                          <tr>
+                            <th className="px-3 py-2 font-bold">{locale === 'ja' ? '詳細' : 'Details'}</th>
+                            {skill.table.headers.map((h: string, i: number) => (
+                              <th key={i} className="px-3 py-2 text-center text-slate-500 font-bold">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100">
+                          {skill.table.rows.map((row: any, rIdx: number) => (
+                            <tr key={rIdx}>
+                              <td className="px-3 py-2 font-bold text-slate-600 bg-white border-r border-slate-100">
+                                {translateTableLabel(row.label, locale)}
+                              </td>
+                              {row.values.map((v: string, vIdx: number) => (
+                                <td key={vIdx} className="px-3 py-2 text-center font-bold text-slate-700 bg-white">
+                                  {v}
+                                </td>
                               ))}
                             </tr>
-                          </thead>
-                          <tbody className="bg-white divide-y divide-slate-100">
-                            {skill.table.rows.map((row: any, rIdx: number) => (
-                              <tr key={rIdx} className="hover:bg-slate-50">
-                                <td className="px-4 py-2 font-bold text-slate-700 border-r border-slate-100 bg-slate-50/50">
-                                  {translateTableLabel(row.label, locale)}
-                                </td>
-                                {row.values.map((v: string, vIdx: number) => (
-                                  <td key={vIdx} className="px-4 py-2 text-center font-bold text-slate-600">
-                                    {v}
-                                  </td>
-                                ))}
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
-          )}
-
-          {/* Lore */}
-          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-            <h3 className="text-xl font-extrabold text-slate-800 mb-4">{t('lore')}</h3>
-            <p className="text-slate-600 leading-relaxed font-medium">
-              {champion.lore}
-            </p>
           </div>
+        )}
 
-          {/* Patch History Section */}
-          <div className="mt-16 border-t border-slate-200 pt-12">
-            <h2 className="text-2xl font-black text-slate-800 mb-6 flex items-center gap-2">
-              <span className="text-indigo-600 text-3xl">#</span>
+        {/* Lore */}
+        <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-5">
+          <h3 className="text-sm font-black text-slate-500 mb-3 uppercase tracking-wider">{t('lore')}</h3>
+          <p className="text-sm text-slate-600 leading-relaxed font-medium">
+            {champion.lore}
+          </p>
+        </div>
+
+        {/* Patch History Section */}
+        <div className="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
+          <div className="p-5 border-b border-slate-100 bg-slate-50">
+            <h3 className="text-sm font-black text-slate-500 uppercase tracking-wider flex items-center gap-2">
+              <span className="text-indigo-500 text-lg">#</span>
               {t('PatchHistory') || 'Patch History'}
-            </h2>
-            <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
-              <PatchTable championId={champion.champion_name_en!} />
-            </div>
+            </h3>
+          </div>
+          <div className="p-4">
+            <PatchTable championId={champion.champion_name_en!} />
           </div>
         </div>
       </div>

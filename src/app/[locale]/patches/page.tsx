@@ -9,24 +9,24 @@ export default function PatchesPage() {
   const t = useTranslations('PatchTable');
 
   return (
-    <div className="max-w-7xl mx-auto space-y-8 pb-12">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
-        <div className="flex items-center gap-3">
-          <div className="p-3 bg-indigo-100 text-indigo-600 rounded-xl shadow-inner">
-            <History size={28} />
-          </div>
-          <div>
-            <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">Patch Notes</h1>
-            <p className="text-slate-500 font-medium">{t('subtitle')}</p>
-          </div>
+    <div className="max-w-md mx-auto bg-slate-50 min-h-screen pb-24 font-sans text-slate-800">
+      <div className="bg-white pt-8 pb-4 px-4 shadow-sm border-b border-slate-200 sticky top-0 z-20 flex items-center gap-3">
+        <div className="w-10 h-10 rounded-xl bg-indigo-50 border border-indigo-100 flex items-center justify-center shrink-0">
+          <History className="text-indigo-600" size={20} />
+        </div>
+        <div>
+          <h1 className="text-xl font-black tracking-tight text-slate-900 leading-none mb-1">
+            Patch Notes
+          </h1>
+          <p className="text-slate-500 text-[10px] font-bold leading-relaxed">
+            {t('subtitle')}
+          </p>
         </div>
       </div>
 
-      {/* PatchTable component now handles searching and filtering internally */}
-      <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
+      <div className="px-4 mt-4 space-y-4">
         <PatchTable />
       </div>
-
     </div>
   );
 }

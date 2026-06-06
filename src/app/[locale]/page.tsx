@@ -3,7 +3,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Trophy, Users, Sparkles, Package, Hexagon, ArrowRight, TrendingUp, History, Calculator, Bell, BookOpen, ShoppingBag } from "lucide-react";
+import { Trophy, Users, Sparkles, Package, Hexagon, ArrowRight, TrendingUp, History, Calculator, Bell, BookOpen, ShoppingBag, FileText, Zap } from "lucide-react";
 import { createClient } from '@supabase/supabase-js';
 import itemsData from '@/data/physical_items_final.json';
 import fallbackPatches from '@/data/patches.json';
@@ -302,104 +302,75 @@ export default function Home() {
   };
 
   return (
-    <div className="space-y-8 pb-16">
+    <div className="pb-8 bg-slate-50 min-h-screen">
       
-      {/* Hero Section */}
-      <div className="relative rounded-3xl overflow-hidden bg-slate-900 border border-slate-800 shadow-2xl group">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-1000 scale-105 group-hover:scale-100"
-          style={{ backgroundImage: "url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg')" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent" />
-        
-        <div className="relative z-10 p-6 max-w-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/20 text-indigo-300 text-[10px] font-bold border border-indigo-500/30 mb-4 backdrop-blur-sm">
-            <Sparkles size={14} />
-            <span>{t('heroBadge')}</span>
+      {/* Notice / Announcement Section */}
+      <div className="mx-4 mt-6 mb-6">
+        <div className="bg-blue-50 rounded-2xl p-4 flex flex-col gap-2 relative overflow-hidden">
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+              <Bell size={14} strokeWidth={2.5} />
+            </div>
+            <h2 className="text-sm font-bold text-blue-900 tracking-tight">
+              {t('noticeTitle')}
+            </h2>
           </div>
-          
-          <h1 className="text-2xl font-black text-white mb-4 leading-tight tracking-tight whitespace-pre-line">
-            {t('heroTitle')}
-          </h1>
-          
-          <p className="text-sm text-slate-300 mb-6 leading-relaxed font-medium">
-            {t('heroDesc')}
+          <p className="text-xs text-blue-800/80 font-medium leading-relaxed mt-1">
+            {t('noticeItemsAndRunes')}
           </p>
-          
-
         </div>
       </div>
 
-      {/* Notice / Announcement Section */}
-      <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 shadow-sm mx-4">
-        <h2 className="text-base font-bold text-amber-800 flex items-center gap-2 mb-2">
-          <Bell className="text-amber-600" size={16} />
-          {t('noticeTitle')}
-        </h2>
-        <ul className="list-disc list-inside space-y-2 text-sm text-amber-900/80 font-medium ml-1">
-          <li>{t('noticeItemsAndRunes')}</li>
-          <li>
-            {t('noticeContact')} 
-            <Link href="/contact" className="text-amber-700 underline font-bold ml-2 hover:text-amber-900">
-              {t('contactUs')}
-            </Link>
-          </li>
-        </ul>
-      </div>
-
       {/* Top Meta Picks Section */}
-      <div className="space-y-4 px-2">
-        <div className="flex items-center justify-between px-2">
-          <div>
-            <h2 className="text-xl font-black text-slate-800 flex items-center gap-2">
-              <TrendingUp className="text-rose-500" size={20} />
-              {t('metaTitle')}
-            </h2>
-            <p className="text-slate-500 font-medium mt-1 mb-1">{t('metaDesc')}</p>
-            <p className="text-xs text-slate-400 font-bold">{t('metaUpdated')}</p>
-          </div>
-          <Link href="/tier-list" className="text-indigo-600 font-bold hover:text-indigo-800 flex items-center gap-1 text-sm bg-indigo-50 px-4 py-2 rounded-full transition-colors">
-            {t('viewAllTier')} <ArrowRight size={14} />
+      <div className="mb-8">
+        <div className="flex items-center justify-between px-4 mb-3">
+          <h2 className="text-[17px] font-bold text-slate-900 tracking-tight">
+            {t('metaTitle')}
+          </h2>
+          <Link href="/tier-list" className="text-xs font-bold text-blue-600 active:text-blue-800 transition-colors">
+            {locale === 'ja' ? 'すべて見る' : 'See all'}
           </Link>
         </div>
 
         {loading ? (
-          <div className="flex gap-4 overflow-x-auto pb-4 md:grid md:grid-cols-5 md:gap-4 md:overflow-visible md:pb-0">
+          <div className="flex gap-3 px-4 overflow-x-auto pb-4 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {[1, 2, 3, 4, 5].map(i => (
-              <div key={i} className="flex-none w-[130px] aspect-[308/560] md:w-auto bg-slate-100 animate-pulse rounded-2xl md:rounded-3xl border border-slate-200"></div>
+              <div key={i} className="flex-none w-[110px] aspect-[4/5] bg-slate-200 animate-pulse rounded-[1.25rem]"></div>
             ))}
           </div>
         ) : (
-          <div className="flex gap-4 overflow-x-auto pb-4 pt-1 snap-x snap-mandatory scroll-smooth scrollbar-thin scrollbar-thumb-slate-300 hover:scrollbar-thumb-slate-400 scrollbar-track-transparent md:grid md:grid-cols-5 md:gap-4 md:overflow-visible md:pb-0">
+          <div className="flex gap-3 px-4 overflow-x-auto pb-4 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {metaPicks.map((pick, idx) => (
               <Link 
                 href={`/champions/${pick.champion_name_en}`} 
                 key={idx}
-                className="group relative flex-none w-[130px] aspect-[308/560] snap-start md:w-auto md:flex-initial rounded-2xl md:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border-2 border-transparent hover:border-indigo-400 flex flex-col justify-end"
+                className="flex-none w-[110px] snap-center rounded-[1.25rem] bg-white overflow-hidden shadow-[0_2px_10px_rgba(0,0,0,0.04)] border border-slate-100 active:scale-95 transition-transform flex flex-col"
               >
-                <div 
-                  className="absolute inset-0 bg-cover bg-top transition-transform duration-700 group-hover:scale-110"
-                  style={{ 
-                    backgroundImage: pick.champion_name_en === 'Norra'
-                      ? `url('/images/champions/Norra.avif')`
-                      : `url('https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${pick.champion_name_en}_0.jpg')`
-                  }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent opacity-90" />
-                
-                <div className="relative z-10 p-3 md:p-4">
-                  <div className="flex items-center justify-between mb-1.5 md:mb-2 gap-1">
-                    <span className={`text-[8px] md:text-[10px] font-bold text-white px-1.5 md:px-2 py-0.5 rounded-full truncate ${getRoleColor(pick.role)}`}>
-                      {pick.role}
-                    </span>
-                    <span className="text-[9px] md:text-xs font-black text-amber-400 bg-amber-900/80 px-1.5 md:px-2 py-0.5 rounded-md border border-amber-500/50 shrink-0">
-                      Tier {pick.tier}
-                    </span>
+                <div className="aspect-square bg-slate-100 relative">
+                  <img 
+                    src={pick.champion_name_en === 'Norra' ? '/images/champions/Norra.avif' : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${pick.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.png`}
+                    alt={pick.champion_name}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = '/images/champions/default.png';
+                    }}
+                  />
+                  <div className="absolute top-2 left-2 bg-white/90 backdrop-blur-md px-1.5 py-0.5 rounded-md text-[9px] font-bold text-slate-700 shadow-sm">
+                    {pick.role}
                   </div>
-                  <h3 className="text-sm md:text-lg font-black text-white group-hover:text-indigo-300 transition-colors truncate">
+                </div>
+                <div className="p-2.5 flex-1 flex flex-col justify-between">
+                  <h3 className="text-[11px] font-bold text-slate-800 leading-tight truncate">
                     {pick.champion_name}
                   </h3>
-                  <p className="text-[10px] md:text-xs text-slate-300 font-medium">{t('winRate')}: <span className="text-emerald-400 font-bold">{pick.win_rate}%</span></p>
+                  <div className="flex items-center justify-between mt-1.5">
+                    <span className="text-[9px] font-bold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">
+                      T{pick.tier}
+                    </span>
+                    <span className="text-[10px] font-bold text-slate-500">
+                      {pick.win_rate.toFixed(1)}%
+                    </span>
+                  </div>
                 </div>
               </Link>
             ))}
@@ -409,245 +380,140 @@ export default function Home() {
 
       {/* Featured Champions Showcase Section (Carousel) */}
       {featuredChampions.length > 0 && (
-        <div className="space-y-4 px-2">
-          <div className="flex items-center justify-between px-2">
+        <div className="mb-8">
+          <div className="flex items-center justify-between px-4 mb-3">
             <div>
-              <h2 className="text-xl font-black text-slate-800 flex items-center gap-2">
-                <Users className="text-emerald-500" size={20} />
-                {locale === 'ja' 
-                  ? `最新パッチ ${featuredChampions[0]?.patchVersion || ''} のバフ対象チャンピオン` 
-                  : `Buffed Champions in Patch ${featuredChampions[0]?.patchVersion || ''}`}
+              <h2 className="text-[17px] font-bold text-slate-900 tracking-tight">
+                {locale === 'ja' ? '最新パッチ バフ対象' : 'Recent Buffs'}
               </h2>
-              <p className="text-slate-500 font-medium mt-1 mb-1">
-                {locale === 'ja' ? '直近のアップデートでスキルやステータスが上方修正（バフ）されたチャンピオン' : 'Champions who received buffs in the recent update'}
-              </p>
+              <p className="text-[11px] text-slate-500 font-medium mt-0.5">Patch {featuredChampions[0]?.patchVersion || ''}</p>
             </div>
-            <Link href="/champions" className="text-indigo-600 font-bold hover:text-indigo-800 flex items-center gap-1 text-sm bg-indigo-50 px-4 py-2 rounded-full transition-colors">
-              {locale === 'ja' ? 'すべてのチャンピオンを見る' : 'View All Champions'} <ArrowRight size={14} />
+            <Link href="/champions" className="text-xs font-bold text-blue-600 active:text-blue-800 transition-colors">
+              {locale === 'ja' ? 'すべて見る' : 'See all'}
             </Link>
           </div>
 
-          {/* Horizontal scrollable carousel */}
-          <div className="flex gap-4 overflow-x-auto pb-4 pt-1 snap-x snap-mandatory scroll-smooth scrollbar-thin scrollbar-thumb-slate-300 hover:scrollbar-thumb-slate-400 scrollbar-track-transparent">
-            {featuredChampions.map((champ: any, idx) => {
-              return (
-                <Link
-                  key={idx}
-                  href={`/champions/${champ.champion_name_en}`}
-                  className="group relative flex-none w-[160px] snap-start bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col items-center text-center hover:scale-[1.03] hover:shadow-xl hover:border-transparent bg-gradient-to-b from-emerald-500/10 via-slate-900 to-slate-900 hover:border-emerald-500/35 transition-all duration-300 overflow-hidden"
-                >
-                  {/* BUFF Badge */}
-                  <span className="absolute top-2 right-2 text-[9px] font-black text-emerald-400 bg-emerald-500/20 border border-emerald-500/30 rounded-md px-1.5 py-0.5 z-20 animate-pulse">
-                    BUFF
+          <div className="flex gap-3 px-4 overflow-x-auto pb-4 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            {featuredChampions.map((champ: any, idx) => (
+              <Link
+                key={idx}
+                href={`/champions/${champ.champion_name_en}`}
+                className="flex-none w-[140px] snap-center bg-white rounded-[1.25rem] p-3 shadow-[0_2px_10px_rgba(0,0,0,0.04)] border border-slate-100 active:scale-95 transition-transform flex flex-col gap-2 relative"
+              >
+                <div className="absolute top-2 right-2 flex items-center justify-center">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                   </span>
-
-                  {/* Glow behind icon */}
-                  <div className="absolute top-4 w-12 h-12 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 bg-emerald-500/20" />
-
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-3 group-hover:scale-110 transition-transform duration-300 shrink-0">
-                    <img
-                      src={
-                        champ.champion_name_en === 'Norra'
-                          ? '/images/champions/Norra.avif'
-                          : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champ.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`
-                      }
-                      alt={champ.champion_name}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                        const parent = e.currentTarget.parentElement;
-                        if (parent && !parent.querySelector('.fallback-icon')) {
-                          const fallback = document.createElement('div');
-                          fallback.className = 'fallback-icon w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-black text-sm shadow-inner';
-                          fallback.innerText = champ.champion_name?.substring(0, 1) || '?';
-                          parent.appendChild(fallback);
-                        }
-                      }}
-                    />
-                  </div>
-
-                  <div className="space-y-1 relative z-10 flex-1 flex flex-col justify-between">
-                    <div>
-                      <h3 className="font-black text-slate-100 text-sm line-clamp-1 group-hover:text-white transition-colors">
-                        {champ.champion_name}
-                      </h3>
-                    </div>
-                    
-                    <div className="text-[10px] text-emerald-400 font-medium line-clamp-2 mt-2 leading-relaxed">
-                      {champ.patchDescription}
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+                </div>
+                <div className="w-10 h-10 rounded-full overflow-hidden bg-slate-100 shrink-0">
+                  <img
+                    src={champ.champion_name_en === 'Norra' ? '/images/champions/Norra.avif' : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champ.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`}
+                    alt={champ.champion_name}
+                    className="w-full h-full object-cover scale-110"
+                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                  />
+                </div>
+                <div>
+                  <h3 className="font-bold text-slate-800 text-xs truncate">
+                    {champ.champion_name}
+                  </h3>
+                  <p className="text-[10px] text-emerald-600 font-medium line-clamp-2 mt-1 leading-snug">
+                    {champ.patchDescription}
+                  </p>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       )}
 
-      {/* Featured Items Showcase Section */}
-      <div className="space-y-4 px-2">
-        <div className="flex items-center justify-between px-2">
-          <div>
-            <h2 className="text-xl font-black text-slate-800 flex items-center gap-2">
-              <ShoppingBag className="text-emerald-500" size={20} />
-              {locale === 'ja' 
-                ? `最新パッチ ${featuredItems.find(f => f.isBuffed)?.patchVersion || ''} のバフ対象アイテム` 
-                : `Buffed Items in Patch ${featuredItems.find(f => f.isBuffed)?.patchVersion || ''}`}
-            </h2>
-            <p className="text-slate-500 font-medium mt-1 mb-1">
-              {locale === 'ja' ? '直近のアップデートで能力値や効果が上方修正（バフ）された注目の装備' : 'Key items that received buffs in the recent update'}
-            </p>
-          </div>
-          <Link href="/items" className="text-indigo-600 font-bold hover:text-indigo-800 flex items-center gap-1 text-sm bg-indigo-50 px-4 py-2 rounded-full transition-colors">
-            {locale === 'ja' ? 'すべてのアイテムを見る' : 'View All Items'} <ArrowRight size={14} />
+      {/* Quick Access Grid */}
+      <div className="px-4">
+        <h2 className="text-[17px] font-bold text-slate-900 tracking-tight mb-3">
+          {locale === 'ja' ? 'ショートカット' : 'Quick Access'}
+        </h2>
+        <div className="grid grid-cols-2 gap-3">
+          <Link href="/champions" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+              <Users size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaChampionsTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaChampionsDesc')}</p>
+            </div>
+          </Link>
+
+          <Link href="/items" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-orange-50 text-orange-600 flex items-center justify-center shrink-0">
+              <ShoppingBag size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaItemsTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaItemsDesc')}</p>
+            </div>
+          </Link>
+
+          <Link href="/spells" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-yellow-50 text-yellow-600 flex items-center justify-center shrink-0">
+              <Zap size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaSpellsTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaSpellsDesc')}</p>
+            </div>
+          </Link>
+
+          <Link href="/runes" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+              <Hexagon size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaRunesTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaRunesDesc')}</p>
+            </div>
+          </Link>
+
+          <Link href="/patches" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center shrink-0">
+              <FileText size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaPatchTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaPatchDesc')}</p>
+            </div>
+          </Link>
+
+          <Link href="/calculator" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-rose-50 text-rose-600 flex items-center justify-center shrink-0">
+              <Calculator size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaCalcTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaCalcDesc')}</p>
+            </div>
+          </Link>
+
+          <Link href="/guide" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-teal-50 text-teal-600 flex items-center justify-center shrink-0">
+              <BookOpen size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaGuideTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaGuideDesc')}</p>
+            </div>
+          </Link>
+          
+          <Link href="/tier-list" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
+              <Trophy size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{t('qaTierTitle')}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{t('qaTierDesc')}</p>
+            </div>
           </Link>
         </div>
-
-        <div className="grid grid-cols-3 gap-3">
-          {featuredItems.slice(0, 6).map((item: any, idx) => {
-            const glowClass = getItemGlowClass(item);
-            const iconGlow = getIconGlowColor(item);
-            return (
-              <Link
-                key={idx}
-                href="/items"
-                className={`group relative bg-slate-900 border border-slate-800 rounded-2xl p-3 flex flex-col items-center text-center hover:scale-[1.05] hover:shadow-xl hover:border-transparent bg-gradient-to-b ${glowClass} transition-all duration-300 overflow-hidden`}
-              >
-                {/* BUFF Badge */}
-                {item.isBuffed && (
-                  <span className="absolute top-2 right-2 text-[9px] font-black text-emerald-400 bg-emerald-500/20 border border-emerald-500/30 rounded-md px-1.5 py-0.5 z-20 animate-pulse">
-                    BUFF
-                  </span>
-                )}
-
-                {/* Glow behind icon */}
-                <div className={`absolute top-3 w-10 h-10 rounded-full blur-xl opacity-60 pointer-events-none transition-all group-hover:scale-125 ${iconGlow}`} />
-
-                <div className="relative w-10 h-10 rounded-xl overflow-hidden bg-slate-950 border border-slate-800 shadow-inner mb-2 group-hover:scale-110 transition-transform duration-300 shrink-0">
-                  <img
-                    src={
-                      item.image === 'default_item.png'
-                        ? 'https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/1055.png'
-                        : item.image.startsWith('/')
-                        ? item.image
-                        : `https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/${item.image}`
-                    }
-                    alt={item.nameJa}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.currentTarget.src = 'https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/1055.png';
-                    }}
-                  />
-                </div>
-
-                <div className="space-y-1 relative z-10 flex-1 flex flex-col justify-between">
-                  <div>
-                    <h3 className="font-black text-slate-100 text-[11px] leading-tight line-clamp-1 group-hover:text-white transition-colors">
-                      {item.nameJa}
-                    </h3>
-                    <span className="text-[10px] font-black text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded-md px-1.5 py-0.5 mt-1 inline-block">
-                      {item.gold} G
-                    </span>
-                  </div>
-                  
-                  {/* Primary stat preview or patch description */}
-                  <div className="text-[9px] text-slate-400 font-semibold line-clamp-2 mt-1 leading-tight">
-                    {item.patchDescription ? (
-                      <span className="text-emerald-400 font-medium">
-                        {item.patchDescription}
-                      </span>
-                    ) : (
-                      item.stats[0] || (item.passives[0] ? item.passives[0].name : '効果のみ')
-                    )}
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Quick Access Grid */}
-      <div className="grid grid-cols-2 gap-3 px-2">
-        <Link href="/champions" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <Users size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaChampionsTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaChampionsDesc')}</p>
-          </div>
-        </Link>
-
-        <Link href="/items" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <ShoppingBag size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaItemsTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaItemsDesc')}</p>
-          </div>
-        </Link>
-
-        <Link href="/spells" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <Sparkles size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaSpellsTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaSpellsDesc')}</p>
-          </div>
-        </Link>
-
-        <Link href="/runes" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <Hexagon size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-indigo-600 transition-colors">{t('qaRunesTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaRunesDesc')}</p>
-          </div>
-        </Link>
-        
-        <Link href="/tier-list" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-rose-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:-rotate-3 transition-transform">
-            <Trophy size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-rose-600 transition-colors">{t('qaTierTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaTierDesc')}</p>
-          </div>
-        </Link>
-
-        <Link href="/patches" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-sky-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <History size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-sky-600 transition-colors">{t('qaPatchTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaPatchDesc')}</p>
-          </div>
-        </Link>
-
-        <Link href="/calculator" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:-rotate-3 transition-transform">
-            <Calculator size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-emerald-600 transition-colors">{t('qaCalcTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaCalcDesc')}</p>
-          </div>
-        </Link>
-
-        <Link href="/guide" className="group bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:border-violet-500 hover:shadow-lg transition-all flex flex-col gap-3">
-          <div className="w-10 h-10 bg-violet-100 text-violet-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform">
-            <BookOpen size={20} />
-          </div>
-          <div>
-            <h3 className="text-base font-bold text-slate-800 mb-0.5 group-hover:text-violet-600 transition-colors">{t('qaGuideTitle')}</h3>
-            <p className="text-[10px] leading-tight text-slate-500">{t('qaGuideDesc')}</p>
-          </div>
-        </Link>
       </div>
 
     </div>

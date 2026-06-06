@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import { LayoutShell } from "@/components/layout/LayoutShell";
+import { MobileAppShell } from "@/components/mobile/MobileAppShell";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Script from "next/script";
@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
+    metadataBase: new URL('https://wildrift-hub.com'),
     title: {
       template: '%s | Wild Rift Hub',
       default: t('defaultTitle'),
@@ -70,6 +71,8 @@ export default async function RootLayout({
     notFound();
   }
 
+  setRequestLocale(locale);
+
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
@@ -77,7 +80,17 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
-        {/* Google Analytics (gtag.js) */}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="theme-color" content="#f8fafc" />
+        {/* AdSense Script */}
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6468686940081297"
+          crossOrigin="anonymous"
+        ></script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-65P6KEVN7X"
           strategy="afterInteractive"
@@ -91,11 +104,11 @@ export default async function RootLayout({
           `}
         </Script>
       </head>
-      <body className="min-h-screen bg-slate-200 dark:bg-slate-900 text-slate-900 font-sans antialiased overflow-y-scroll">
+      <body className="antialiased bg-slate-200">
         <NextIntlClientProvider messages={messages}>
-          <LayoutShell>
+          <MobileAppShell>
             {children}
-          </LayoutShell>
+          </MobileAppShell>
         </NextIntlClientProvider>
       </body>
     </html>
