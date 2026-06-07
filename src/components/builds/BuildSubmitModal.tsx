@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { X, Save, Plus, Loader2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 interface BuildSubmitModalProps {
   championId: string;
@@ -13,6 +14,7 @@ interface BuildSubmitModalProps {
 }
 
 export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, onClose, onSubmitSuccess }: BuildSubmitModalProps) {
+  const t = useTranslations('Builds');
   const [title, setTitle] = useState('');
   const [authorName, setAuthorName] = useState('');
   const [description, setDescription] = useState('');
@@ -65,7 +67,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
       setSelectedItems(prev => prev.filter(id => id !== itemId));
     } else {
       if (selectedItems.length >= 6) {
-        alert("アイテムは最大6つまで選択できます。");
+        alert(t('maxItems'));
         return;
       }
       setSelectedItems(prev => [...prev, itemId]);
@@ -111,7 +113,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
     }
     
     if (nextRunes.length >= 3 && !group?.some(id => mainRunes.includes(id))) {
-      alert("メインルーンは最大3つまで選択できます。");
+      alert(t('maxMainRunes'));
       return;
     }
     
@@ -131,7 +133,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
       setSelectedSpells(prev => prev.filter(id => id !== spellId));
     } else {
       if (selectedSpells.length >= 2) {
-        alert("サモナースペルは最大2つまで選択できます。");
+        alert(t('maxSpells'));
         return;
       }
       setSelectedSpells(prev => [...prev, spellId]);
@@ -140,15 +142,15 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
 
   const handleSubmit = async () => {
     if (!title.trim()) {
-      alert("ビルドのタイトルを入力してください。");
+      alert(t('requireTitle'));
       return;
     }
     if (!deletePassword.trim()) {
-      alert("削除用パスワードを入力してください。");
+      alert(t('requirePassword'));
       return;
     }
     if (!selectedKeystone) {
-      alert("キーストーンを1つ選択してください。");
+      alert(t('requireKeystone'));
       return;
     }
     
@@ -178,7 +180,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
       onClose();
     } catch (error) {
       console.error(error);
-      alert("エラーが発生しました。");
+      alert(t('errorOccurred'));
     } finally {
       setIsSubmitting(false);
     }
@@ -188,36 +190,36 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
     <div className="fixed inset-0 z-[100] bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-4">
       <div className="bg-white rounded-3xl w-full max-w-2xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
         <div className="p-4 border-b border-slate-100 flex items-center justify-between bg-slate-50">
-          <h3 className="font-black text-slate-800">新しいビルドを投稿</h3>
+          <h3 className="font-black text-slate-800">{t('modalTitle')}</h3>
           <button onClick={onClose} className="p-2 text-slate-400 hover:bg-slate-200 rounded-full transition-colors">
             <X size={18} />
           </button>
         </div>
         
         <div className="flex border-b border-slate-100 bg-white">
-          <button onClick={() => setActiveTab('info')} className={`flex-1 py-3 text-sm font-bold border-b-2 transition-colors ${activeTab === 'info' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-slate-400 hover:text-slate-600'}`}>基本情報</button>
-          <button onClick={() => setActiveTab('items')} className={`flex-1 py-3 text-sm font-bold border-b-2 transition-colors ${activeTab === 'items' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-slate-400 hover:text-slate-600'}`}>アイテム ({selectedItems.length}/6)</button>
-          <button onClick={() => setActiveTab('runes')} className={`flex-1 py-3 text-sm font-bold border-b-2 transition-colors ${activeTab === 'runes' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-slate-400 hover:text-slate-600'}`}>スペル / ルーン</button>
+          <button onClick={() => setActiveTab('info')} className={`flex-1 py-3 text-sm font-bold border-b-2 transition-colors ${activeTab === 'info' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-slate-400 hover:text-slate-600'}`}>{t('tabInfo')}</button>
+          <button onClick={() => setActiveTab('items')} className={`flex-1 py-3 text-sm font-bold border-b-2 transition-colors ${activeTab === 'items' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-slate-400 hover:text-slate-600'}`}>{t('tabItems')} ({selectedItems.length}/6)</button>
+          <button onClick={() => setActiveTab('runes')} className={`flex-1 py-3 text-sm font-bold border-b-2 transition-colors ${activeTab === 'runes' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-slate-400 hover:text-slate-600'}`}>{t('tabRunes')}</button>
         </div>
 
         <div className="overflow-y-auto p-6 flex-1 bg-slate-50/50">
           {activeTab === 'info' && (
             <div className="space-y-4">
               <div>
-                <label className="block text-xs font-bold text-slate-500 mb-1">タイトル <span className="text-rose-500">*</span></label>
-                <input type="text" value={title} onChange={e => setTitle(e.target.value)} placeholder="例：現環境最強のワンパン構成" className="w-full bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all" />
+                <label className="block text-xs font-bold text-slate-500 mb-1">{t('formTitle')} <span className="text-rose-500">*</span></label>
+                <input type="text" value={title} onChange={e => setTitle(e.target.value)} placeholder={t('formTitlePlaceholder')} className="w-full bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all" />
               </div>
               <div>
-                <label className="block text-xs font-bold text-slate-500 mb-1">投稿者名 (任意)</label>
-                <input type="text" value={authorName} onChange={e => setAuthorName(e.target.value)} placeholder="名無しさん" className="w-full bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all" />
+                <label className="block text-xs font-bold text-slate-500 mb-1">{t('formAuthor')}</label>
+                <input type="text" value={authorName} onChange={e => setAuthorName(e.target.value)} placeholder={t('formAuthorPlaceholder')} className="w-full bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all" />
               </div>
               <div>
-                <label className="block text-xs font-bold text-slate-500 mb-1">解説・立ち回り (任意)</label>
-                <textarea value={description} onChange={e => setDescription(e.target.value)} placeholder="なぜこの構成が強いのか、どういう立ち回りをするのか解説を書きましょう" className="w-full h-32 bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all resize-none" />
+                <label className="block text-xs font-bold text-slate-500 mb-1">{t('formDesc')}</label>
+                <textarea value={description} onChange={e => setDescription(e.target.value)} placeholder={t('formDescPlaceholder')} className="w-full h-32 bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all resize-none" />
               </div>
               <div>
-                <label className="block text-xs font-bold text-slate-500 mb-1">削除用パスワード <span className="text-rose-500">*</span></label>
-                <input type="text" value={deletePassword} onChange={e => setDeletePassword(e.target.value)} placeholder="例：1234 (後で削除する時に使います)" className="w-full bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all" />
+                <label className="block text-xs font-bold text-slate-500 mb-1">{t('formPassword')} <span className="text-rose-500">*</span></label>
+                <input type="text" value={deletePassword} onChange={e => setDeletePassword(e.target.value)} placeholder={t('formPasswordPlaceholder')} className="w-full bg-white border border-slate-200 rounded-xl p-3 text-sm font-medium focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition-all" />
               </div>
             </div>
           )}
@@ -225,7 +227,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
           {activeTab === 'items' && (
             <div>
               <div className="flex gap-2 flex-wrap mb-4 bg-slate-100 p-3 rounded-xl min-h-[64px]">
-                {selectedItems.length === 0 && <span className="text-slate-400 text-sm font-bold p-2">アイテムを選択してください</span>}
+                {selectedItems.length === 0 && <span className="text-slate-400 text-sm font-bold p-2">{t('selectItems')}</span>}
                 {selectedItems.map(id => {
                   const item = allItems.find(i => i.id === id);
                   return item ? (
@@ -255,7 +257,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
             <div className="space-y-8">
               <div>
                 <h4 className="text-sm font-bold text-slate-700 mb-3 flex items-center gap-2">
-                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">サモナースペル</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">{t('summonerSpells')}</span>
                   <span className="text-xs text-slate-400">({selectedSpells.length}/2)</span>
                 </h4>
                 <div className="grid grid-cols-4 sm:grid-cols-6 gap-3">
@@ -277,7 +279,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
 
               <div>
                 <h4 className="text-sm font-bold text-slate-700 mb-3 flex items-center gap-2">
-                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">キーストーン</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">{t('keystone')}</span>
                 </h4>
                 <div className="grid grid-cols-4 sm:grid-cols-6 gap-3">
                   {keystones.map(rune => (
@@ -296,7 +298,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
               
               <div>
                 <h4 className="text-sm font-bold text-slate-700 mb-2 flex items-center gap-2">
-                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">メインルーン</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">{t('mainRunes')}</span>
                   <span className="text-xs text-slate-400">({mainRunes.length}/3)</span>
                 </h4>
                 <div className="flex gap-2 mb-3">
@@ -345,7 +347,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
 
               <div>
                 <h4 className="text-sm font-bold text-slate-700 mb-2 flex items-center gap-2">
-                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">サブルーン</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-md">{t('subRunes')}</span>
                   <span className="text-xs text-slate-400">({subRune ? 1 : 0}/1)</span>
                 </h4>
                 <div className="flex gap-2 mb-3">
@@ -398,7 +400,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
 
         <div className="p-4 border-t border-slate-100 bg-white flex justify-end gap-3">
           <button onClick={onClose} className="px-5 py-2.5 rounded-xl font-bold text-slate-500 hover:bg-slate-100 transition-colors">
-            キャンセル
+            {t('cancel')}
           </button>
           <button 
             onClick={handleSubmit} 
@@ -406,7 +408,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
             className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-bold transition-colors flex items-center gap-2 disabled:opacity-50"
           >
             {isSubmitting ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
-            投稿する
+            {isSubmitting ? t('submitting') : t('submitAction')}
           </button>
         </div>
       </div>

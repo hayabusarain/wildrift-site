@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { ThumbsUp, Plus, User, Clock, Trash2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { BuildSubmitModal } from './BuildSubmitModal';
 
 interface BuildData {
@@ -28,6 +29,7 @@ interface BuildListProps {
 }
 
 export function BuildList({ championId, allItems, allRunes, allSpells }: BuildListProps) {
+  const t = useTranslations('Builds');
   const [builds, setBuilds] = useState<BuildData[]>([]);
   const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -92,7 +94,7 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
   };
 
   const handleDelete = async (buildId: string) => {
-    const password = prompt('削除用パスワードを入力してください:');
+    const password = prompt(t('deletePrompt'));
     if (!password) return;
 
     try {
@@ -103,39 +105,39 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
       });
 
       if (res.ok) {
-        alert('削除しました。');
+        alert(t('deleteSuccess'));
         fetchBuilds();
       } else {
         const errorData = await res.json();
-        alert(errorData.error || '削除に失敗しました。パスワードが間違っている可能性があります。');
+        alert(errorData.error || t('deleteError'));
       }
     } catch (error) {
       console.error(error);
-      alert('エラーが発生しました。');
+      alert(t('errorOccurred'));
     }
   };
 
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-xl font-black text-slate-800">みんなのビルド</h2>
+        <h2 className="text-xl font-black text-slate-800">{t('title')}</h2>
         <button 
           onClick={() => setIsModalOpen(true)}
           className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl font-bold flex items-center gap-2 transition-all shadow-sm hover:shadow-md"
         >
           <Plus size={18} />
-          投稿する
+          {t('submitBtn')}
         </button>
       </div>
 
       {loading ? (
         <div className="flex justify-center py-12 text-slate-400">
-          <div className="animate-pulse">Loading builds...</div>
+          <div className="animate-pulse">{t('loading')}</div>
         </div>
       ) : builds.length === 0 ? (
         <div className="bg-slate-50 border border-slate-100 rounded-3xl p-12 text-center">
-          <div className="text-slate-400 mb-2 font-medium">まだ投稿されたビルドがありません</div>
-          <p className="text-sm text-slate-500">最初のビルドを投稿して、おすすめ構成をシェアしましょう！</p>
+          <div className="text-slate-400 mb-2 font-medium">{t('noBuilds')}</div>
+          <p className="text-sm text-slate-500">{t('noBuildsDesc')}</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-6">
@@ -170,7 +172,7 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
               <div className="p-5 bg-slate-50 flex flex-col lg:flex-row gap-6">
                 {/* Items */}
                 <div className="flex-1">
-                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-3">Items</h4>
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-3">{t('items')}</h4>
                   <div className="flex flex-wrap gap-2">
                     {build.items?.map((itemId, idx) => {
                       const item = allItems.find(i => i.id === itemId);
@@ -183,7 +185,7 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
                         </div>
                       ) : null;
                     })}
-                    {(!build.items || build.items.length === 0) && <span className="text-sm text-slate-400">指定なし</span>}
+                    {(!build.items || build.items.length === 0) && <span className="text-sm text-slate-400">{t('noItemsSpecified')}</span>}
                   </div>
                 </div>
 
@@ -191,7 +193,7 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
                 <div className="flex-1">
                   <div className="flex flex-col gap-6">
                     <div>
-                      <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-3">Spells</h4>
+                      <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-3">{t('spells')}</h4>
                       <div className="flex items-center gap-2">
                         {build.spells?.map((spellId, idx) => {
                           const spell = allSpells.find(s => s.id === spellId);
@@ -204,12 +206,12 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
                             </div>
                           ) : null;
                         })}
-                        {(!build.spells || build.spells.length === 0) && <span className="text-sm text-slate-400">指定なし</span>}
+                        {(!build.spells || build.spells.length === 0) && <span className="text-sm text-slate-400">{t('noItemsSpecified')}</span>}
                       </div>
                     </div>
 
                     <div>
-                      <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-3">Runes</h4>
+                      <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-3">{t('runes')}</h4>
                       <div className="flex items-center gap-3">
                         {build.runes?.keystone && (() => {
                           const rune = allRunes.find(r => r.id === build.runes.keystone);
@@ -265,7 +267,7 @@ export function BuildList({ championId, allItems, allRunes, allSpells }: BuildLi
 
               {build.description && (
                 <div className="p-5 border-t border-slate-100 bg-white">
-                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-2">解説</h4>
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-2">{t('descriptionLabel')}</h4>
                   <p className="text-sm text-slate-600 whitespace-pre-wrap leading-relaxed">{build.description}</p>
                 </div>
               )}
