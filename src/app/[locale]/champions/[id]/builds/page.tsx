@@ -30,7 +30,9 @@ export default async function ChampionBuildsPage({ params }: { params: Promise<{
   }
 
   const championId = champion.champion_name_en || id;
-  const championName = champion.champion_name || champion.champion_name_en || id;
+  const championName = locale === 'ja' 
+    ? (champion.champion_name || champion.champion_name_en || id)
+    : (champion.champion_name_en || champion.champion_name || id);
 
   return (
     <div className="min-h-screen bg-slate-50 pb-20">
