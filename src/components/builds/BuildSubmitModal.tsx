@@ -2,8 +2,7 @@
 
 import { useState } from 'react';
 import { X, Save, Plus, Loader2 } from 'lucide-react';
-import { useTranslations } from 'next-intl';
-
+import { useTranslations, useLocale } from 'next-intl';
 interface BuildSubmitModalProps {
   championId: string;
   allItems: any[];
@@ -15,6 +14,7 @@ interface BuildSubmitModalProps {
 
 export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, onClose, onSubmitSuccess }: BuildSubmitModalProps) {
   const t = useTranslations('Builds');
+  const locale = useLocale();
   const [title, setTitle] = useState('');
   const [authorName, setAuthorName] = useState('');
   const [description, setDescription] = useState('');
@@ -232,7 +232,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                   const item = allItems.find(i => i.id === id);
                   return item ? (
                     <div key={id} className="relative cursor-pointer" onClick={() => handleItemToggle(id)}>
-                      <img src={getItemImageUrl(item.image)} alt={item.nameJa} className="w-10 h-10 rounded-lg border border-indigo-400" />
+                      <img src={getItemImageUrl(item.image)} alt={locale === 'ja' ? item.nameJa : (item.nameEn || item.nameJa)} className="w-10 h-10 rounded-lg border border-indigo-400" />
                       <div className="absolute -top-2 -right-2 bg-rose-500 text-white rounded-full p-0.5"><X size={10} /></div>
                     </div>
                   ) : null;
@@ -244,9 +244,9 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                     key={item.id} 
                     onClick={() => handleItemToggle(item.id)}
                     className={`relative rounded-xl overflow-hidden border-2 transition-all hover:scale-105 ${selectedItems.includes(item.id) ? 'border-indigo-500 opacity-50' : 'border-transparent hover:border-indigo-200'}`}
-                    title={item.nameJa}
+                    title={locale === 'ja' ? item.nameJa : (item.nameEn || item.nameJa)}
                   >
-                    <img src={getItemImageUrl(item.image)} alt={item.nameJa} className="w-full aspect-square object-cover" />
+                    <img src={getItemImageUrl(item.image)} alt={locale === 'ja' ? item.nameJa : (item.nameEn || item.nameJa)} className="w-full aspect-square object-cover" />
                   </button>
                 ))}
               </div>
@@ -266,10 +266,10 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                       key={spell.id} 
                       onClick={() => handleSpellToggle(spell.id)}
                       className={`flex flex-col items-center gap-1 p-2 rounded-xl border-2 transition-all hover:scale-105 ${selectedSpells.includes(spell.id) ? 'border-indigo-500 bg-indigo-50' : 'border-transparent hover:bg-slate-100'}`}
-                      title={spell.nameJa}
+                      title={locale === 'ja' ? spell.nameJa : (spell.nameEn || spell.nameJa)}
                     >
-                      <img src={spell.image} alt={spell.nameJa} className="w-10 h-10 rounded-lg shadow-sm" />
-                      <span className="text-[10px] font-bold text-center leading-tight truncate w-full">{spell.nameJa}</span>
+                      <img src={spell.image} alt={locale === 'ja' ? spell.nameJa : (spell.nameEn || spell.nameJa)} className="w-10 h-10 rounded-lg shadow-sm" />
+                      <span className="text-[10px] font-bold text-center leading-tight truncate w-full">{locale === 'ja' ? spell.nameJa : (spell.nameEn || spell.nameJa)}</span>
                     </button>
                   ))}
                 </div>
@@ -287,10 +287,10 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                       key={rune.id} 
                       onClick={() => setSelectedKeystone(rune.id)}
                       className={`flex flex-col items-center gap-1 p-2 rounded-xl border-2 transition-all hover:scale-105 ${selectedKeystone === rune.id ? 'border-indigo-500 bg-indigo-50' : 'border-transparent hover:bg-slate-100'}`}
-                      title={rune.nameJa}
+                      title={locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)}
                     >
-                      <img src={rune.image} alt={rune.nameJa} className="w-10 h-10 rounded-full bg-slate-800" />
-                      <span className="text-[10px] font-bold text-center leading-tight truncate w-full">{rune.nameJa}</span>
+                      <img src={rune.image} alt={locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)} className="w-10 h-10 rounded-full bg-slate-800" />
+                      <span className="text-[10px] font-bold text-center leading-tight truncate w-full">{locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)}</span>
                     </button>
                   ))}
                 </div>
@@ -329,11 +329,11 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                                       ? 'border-transparent hover:bg-slate-200 grayscale opacity-40 hover:grayscale-0 hover:opacity-100' 
                                       : 'border-transparent hover:bg-slate-200 bg-white'
                                 }`}
-                                title={rune.nameJa}
+                                title={locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)}
                               >
-                                <img src={rune.image} alt={rune.nameJa} className={`w-8 h-8 rounded-full ${isSelected ? 'ring-2 ring-indigo-500 ring-offset-1 bg-slate-800' : 'bg-slate-800'}`} />
+                                <img src={rune.image} alt={locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)} className={`w-8 h-8 rounded-full ${isSelected ? 'ring-2 ring-indigo-500 ring-offset-1 bg-slate-800' : 'bg-slate-800'}`} />
                                 <span className={`text-[9px] font-bold text-center leading-tight truncate w-full ${isSelected ? 'text-indigo-900' : 'text-slate-500'}`}>
-                                  {rune.nameJa}
+                                  {locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)}
                                 </span>
                               </button>
                             );
@@ -379,11 +379,11 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                                     ? 'border-indigo-500 bg-indigo-50 shadow-sm' 
                                     : 'border-transparent hover:bg-slate-200 bg-white'
                                 }`}
-                                title={rune.nameJa}
+                                title={locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)}
                               >
-                                <img src={rune.image} alt={rune.nameJa} className={`w-8 h-8 rounded-full ${isSelected ? 'ring-2 ring-indigo-500 ring-offset-1 bg-slate-800' : 'bg-slate-800'}`} />
+                                <img src={rune.image} alt={locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)} className={`w-8 h-8 rounded-full ${isSelected ? 'ring-2 ring-indigo-500 ring-offset-1 bg-slate-800' : 'bg-slate-800'}`} />
                                 <span className={`text-[9px] font-bold text-center leading-tight truncate w-full ${isSelected ? 'text-indigo-900' : 'text-slate-500'}`}>
-                                  {rune.nameJa}
+                                  {locale === 'ja' ? rune.nameJa : (rune.nameEn || rune.nameJa)}
                                 </span>
                               </button>
                             );

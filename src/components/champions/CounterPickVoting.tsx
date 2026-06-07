@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { ThumbsDown, Plus, X, Search, ChevronUp, ChevronDown } from 'lucide-react';
+import { useLocale } from 'next-intl';
 
 interface CounterData {
   champion_name_en: string;
@@ -26,6 +27,7 @@ interface CounterPickVotingProps {
 }
 
 export function CounterPickVoting({ championId, staticCounters, allChampions, dict }: CounterPickVotingProps) {
+  const locale = useLocale();
   const [counters, setCounters] = useState<CounterData[]>([]);
   const [loading, setLoading] = useState(true);
   
@@ -266,7 +268,13 @@ export function CounterPickVoting({ championId, staticCounters, allChampions, di
                     className="w-10 h-10 rounded-full bg-slate-200 border border-slate-300"
                     onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${c.champion_name_en}.avif`; }}
                   />
-                  <span className="text-sm font-black text-slate-800">{c.champion_name_en}</span>
+                  <span className="text-sm font-black text-slate-800">
+                    {(() => {
+                      const champInfo = allChampions.find(champ => champ.champion_name_en === c.champion_name_en);
+                      if (!champInfo) return c.champion_name_en;
+                      return locale === 'ja' ? (champInfo.champion_name || c.champion_name_en) : c.champion_name_en;
+                    })()}
+                  </span>
                 </div>
                 
                 <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-xl p-1 shadow-sm">
@@ -329,7 +337,9 @@ export function CounterPickVoting({ championId, staticCounters, allChampions, di
                         onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${c.champion_name_en}.avif`; }}
                       />
                       <div>
-                        <div className="text-sm font-bold text-slate-800">{c.champion_name || c.champion_name_en}</div>
+                        <div className="text-sm font-bold text-slate-800">
+                          {locale === 'ja' ? (c.champion_name || c.champion_name_en) : (c.champion_name_en || c.champion_name)}
+                        </div>
                         <div className="text-[10px] font-bold text-slate-400">{c.role}</div>
                       </div>
                     </button>
