@@ -103,11 +103,15 @@
     "role_marksman": "マークスマン",
     "role_tank": "タンク",
     "role_support": "サポート",
-    "PatchHistory": "パッチノート履歴",
+    "lore": "背景設定",
+    "counters": "相性（カウンター）",
+    "PatchHistory": "パッチ履歴",
+    "buildsTitle": "みんなのビルド",
+    "buildsDesc": "おすすめのアイテムやルーン構成を共有しよう！",
+    "viewBuilds": "ビルドを見る",
     "latestMetaStats": "最新メタデータ",
     "tierWinRate": "ティアと勝率",
-    "growthData": "成長データ",
-    "lore": "ストーリー"
+    "growthData": "成長データ"
   },
   "Dashboard": {
     "title": "パッチノート",
@@ -314,6 +318,7 @@
     "selectItems": "アイテムを選択してください",
     "mainTreeNote": "※メインツリー3つ + サブツリー1つ",
     "maxItems": "アイテムは最大6つまで選択できます。",
-    "cancel": "キャンセル"
+    "cancel": "キャンセル",
+    "backToChampion": "{name}へ戻る"
   }
 }

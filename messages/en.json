@@ -314,6 +314,7 @@
     "selectItems": "Please select items",
     "mainTreeNote": "*3 from Main Tree + 1 from Sub Tree",
     "maxItems": "You can select up to 6 items.",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "backToChampion": "Back to {name}"
   }
 }

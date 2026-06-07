@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { ArrowLeft } from 'lucide-react';
 import championStats from '@/data/champion_stats.json';
@@ -12,6 +13,7 @@ export default async function ChampionBuildsPage({ params }: { params: Promise<{
   // Await params to support Next.js 15
   const resolvedParams = await params;
   const { locale, id } = resolvedParams;
+  const t = await getTranslations('Builds');
   
   if (!id) {
     notFound();
@@ -36,10 +38,10 @@ export default async function ChampionBuildsPage({ params }: { params: Promise<{
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href={`/champions/${id}`} className="p-2 -ml-2 text-slate-400 hover:text-slate-600 transition-colors rounded-full hover:bg-slate-100 flex items-center gap-2">
             <ArrowLeft size={20} />
-            <span className="text-sm font-bold">{championName}へ戻る</span>
+            <span className="text-sm font-bold">{t('backToChampion', { name: championName })}</span>
           </Link>
           <div className="font-black text-slate-800 text-sm">
-            みんなのビルド
+            {t('title')}
           </div>
           <div className="w-10"></div> {/* Spacer for centering */}
         </div>

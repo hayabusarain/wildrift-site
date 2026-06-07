@@ -678,15 +678,15 @@ export default function ChampionDetailsPage() {
           <div>
             <h3 className="text-sm font-black text-slate-500 mb-1 uppercase tracking-wider flex items-center gap-2">
               <Star size={16} className="text-yellow-500" />
-              みんなのビルド
+              {t('buildsTitle')}
             </h3>
-            <p className="text-xs text-slate-400 font-bold">おすすめのアイテムやルーン構成を共有しよう！</p>
+            <p className="text-xs text-slate-400 font-bold">{t('buildsDesc')}</p>
           </div>
           <Link 
             href={`/champions/${id}/builds`}
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-all shadow-sm flex-shrink-0"
           >
-            ビルドを見る
+            {t('viewBuilds')}
           </Link>
         </div>
 
