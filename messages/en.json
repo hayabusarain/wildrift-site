@@ -107,7 +107,10 @@
     "latestMetaStats": "Latest Meta Stats",
     "tierWinRate": "Tier & Win Rate",
     "growthData": "Growth Data",
-    "lore": "Lore"
+    "lore": "Lore",
+    "buildsTitle": "Community Builds",
+    "buildsDesc": "Share your recommended items and rune setups!",
+    "viewBuilds": "View Builds"
   },
   "Dashboard": {
     "title": "Patch Notes",
