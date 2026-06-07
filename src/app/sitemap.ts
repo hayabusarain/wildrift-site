@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://wildrift.hub-game.com';
-  const locales = ['ja'];
+  const locales = ['ja', 'en'];
   
   // Set up Supabase Client
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
