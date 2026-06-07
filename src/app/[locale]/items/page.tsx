@@ -287,16 +287,37 @@ export default function ItemsPage() {
           {showHelp && (
             <div className="px-4 pb-4 pt-2 border-t border-slate-100 text-slate-600 text-[11px] space-y-3">
               <div className="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                <h4 className="font-black text-indigo-600 flex items-center gap-1 mb-1.5"><Sparkles size={12}/>パッシブ効果によるステータス上昇の考慮</h4>
-                <p className="leading-relaxed">グインソーやナッシャートゥース等、パッシブ効果で増加するAD/APも自動検出してソートに反映されます。</p>
+                <h4 className="font-black text-indigo-600 flex items-center gap-1 mb-1.5">
+                  <Sparkles size={12}/>
+                  {locale === 'ja' ? 'パッシブ効果によるステータス上昇の考慮' : 'Passive Stats Considered'}
+                </h4>
+                <p className="leading-relaxed">
+                  {locale === 'ja' 
+                    ? 'グインソーやナッシャートゥース等、パッシブ効果で増加するAD/APも自動検出してソートに反映されます。' 
+                    : 'AD/AP gained from passives (e.g., Nashor\'s Tooth, Guinsoo\'s) is automatically detected and reflected in sorting.'}
+                </p>
               </div>
               <div className="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                <h4 className="font-black text-indigo-600 flex items-center gap-1 mb-1.5"><Layers size={12}/>進化アイテムのソート基準</h4>
-                <p className="leading-relaxed">マナムネ等の進化アイテムは、進化後（ムラマナ等）の最大ステータス値を基準にソートされます。</p>
+                <h4 className="font-black text-indigo-600 flex items-center gap-1 mb-1.5">
+                  <Layers size={12}/>
+                  {locale === 'ja' ? '進化アイテムのソート基準' : 'Evolution Items Sorting'}
+                </h4>
+                <p className="leading-relaxed">
+                  {locale === 'ja' 
+                    ? 'マナムネ等の進化アイテムは、進化後（ムラマナ等）の最大ステータス値を基準にソートされます。' 
+                    : 'Items like Manamune are sorted based on their fully evolved stats (e.g., Muramana).'}
+                </p>
               </div>
               <div className="bg-slate-50 p-3 rounded-xl border border-slate-100">
-                <h4 className="font-black text-indigo-600 flex items-center gap-1 mb-1.5"><Trophy size={12}/>スタック系アイテムのソート基準</h4>
-                <p className="leading-relaxed">ロッドオブエイジス等は最大スタック時の合計最大ステータスを基準とします。</p>
+                <h4 className="font-black text-indigo-600 flex items-center gap-1 mb-1.5">
+                  <Trophy size={12}/>
+                  {locale === 'ja' ? 'スタック系アイテムのソート基準' : 'Stacking Items Sorting'}
+                </h4>
+                <p className="leading-relaxed">
+                  {locale === 'ja' 
+                    ? 'ロッドオブエイジス等は最大スタック時の合計最大ステータスを基準とします。' 
+                    : 'Items like Rod of Ages are sorted based on their maximum stack stats.'}
+                </p>
               </div>
             </div>
           )}
