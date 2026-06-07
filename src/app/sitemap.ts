@@ -65,13 +65,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // 2. Dynamic Champion Pages
   for (const champId of championIds) {
-    // Generate alternates languages object
+    // Generate alternates languages object for main champion page
     const alternatesLanguages: Record<string, string> = {};
     for (const l of locales) {
       alternatesLanguages[l] = `${baseUrl}/${l}/champions/${champId}`;
     }
 
+    // Generate alternates languages object for champion builds page
+    const alternatesLanguagesBuilds: Record<string, string> = {};
+    for (const l of locales) {
+      alternatesLanguagesBuilds[l] = `${baseUrl}/${l}/champions/${champId}/builds`;
+    }
+
     for (const locale of locales) {
+      // Main Champion Page
       sitemapEntries.push({
         url: `${baseUrl}/${locale}/champions/${champId}`,
         lastModified: new Date(),
@@ -79,6 +86,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.6,
         alternates: {
           languages: alternatesLanguages
+        }
+      });
+      
+      // Champion Builds Page
+      sitemapEntries.push({
+        url: `${baseUrl}/${locale}/champions/${champId}/builds`,
+        lastModified: new Date(),
+        changeFrequency: 'daily',
+        priority: 0.5,
+        alternates: {
+          languages: alternatesLanguagesBuilds
         }
       });
     }

@@ -518,5 +518,15 @@
     "image": "/images/runes/transcendence.png",
     "descriptionJa": "以下のレベルに達した際にボーナスを獲得する：レベル1でスキルヘイストが6増加。レベル5でスキルヘイストが6増加。レベル9で、通常スキルが対象に命中するとそのスキルのクールダウンが10%短縮(クールダウン8秒)。",
     "descriptionEn": "Gain bonuses at levels: Level 1: +6 Ability Haste; Level 5: +6 Ability Haste; Level 9: Hitting a basic ability reduces its cooldown by 10% (cooldown 8s)."
+  },
+  {
+    "id": "nimbus_cloak",
+    "nameJa": "ニンバスクローク",
+    "nameEn": "Nimbus Cloak",
+    "category": "Inspiration",
+    "tree": "Inspiration",
+    "image": "/images/runes/nimbus_cloak.png",
+    "descriptionJa": "サモナースペルを使用すると2秒間、移動速度が5-25%増加する（スペルのクールダウンに応じる）。",
+    "descriptionEn": "Casting a Summoner Spell grants 5-25% bonus movement speed for 2 seconds (based on spell cooldown)."
   }
 ]

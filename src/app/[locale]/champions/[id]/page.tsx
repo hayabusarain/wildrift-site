@@ -5,9 +5,10 @@ import { useParams } from 'next/navigation';
 import { createClient } from '@supabase/supabase-js';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2 } from 'lucide-react';
+import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
 import { parseLocalizedText, parseVariables, formatSkillDescription } from '@/utils/localization';
 import { PatchTable } from '@/components/patches/PatchTable';
+import { CounterPickVoting } from '@/components/champions/CounterPickVoting';
 
 import fallbackStats from '@/data/champion_stats.json';
 import skillsJa from '../../../../../public/data/skills/ja.json';
@@ -103,7 +104,7 @@ export default function ChampionDetailsPage() {
   const [champion, setChampion] = useState<ChampionDetailData | null>(initialChampion);
   const [stats, setStats] = useState<any[]>(initialStats);
   const [wrDetails, setWrDetails] = useState<any>(initialWrDetails);
-  const [counters, setCounters] = useState<any>(null);
+  const [staticCounters, setStaticCounters] = useState<any>(null);
   const [loading, setLoading] = useState(false);
 
   // インライン編集用のステート
@@ -111,6 +112,11 @@ export default function ChampionDetailsPage() {
   const [isEditing, setIsEditing] = useState(false);
   const [editingSkills, setEditingSkills] = useState<any[]>([]);
   const [isSaving, setIsSaving] = useState(false);
+  const [expandedSkills, setExpandedSkills] = useState<Record<number, boolean>>({ 0: true, 1: false, 2: false, 3: false, 4: false });
+
+  const toggleSkill = (idx: number) => {
+    setExpandedSkills(prev => ({ ...prev, [idx]: !prev[idx] }));
+  };
 
   useEffect(() => {
     const isLocal = typeof window !== 'undefined' && 
@@ -260,23 +266,17 @@ export default function ChampionDetailsPage() {
         if (tierData) setStats(tierData);
         if (detailsData) setWrDetails(detailsData);
         
-        // Fetch counters data
+        // Fetch static counters data
         try {
           const counterRes = await fetch('/data/counters.json?t=' + Date.now());
           if (counterRes.ok) {
             const counterData = await counterRes.json();
-            // 大文字小文字の違いを吸収してキーを探す
             const counterKey = Object.keys(counterData).find(
               key => key.toLowerCase() === id.toLowerCase() || key.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() === id.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
             );
-            console.log('Counter Data Key Found:', counterKey);
             if (counterKey) {
-              setCounters(counterData[counterKey]);
-            } else {
-              console.warn('No counter data found for champion ID:', id);
+              setStaticCounters(counterData[counterKey]);
             }
-          } else {
-            console.warn('Failed to load counters.json. Status:', counterRes.status);
           }
         } catch (e) {
           console.warn('Counters fetch failed for', id, e);
@@ -572,74 +572,123 @@ export default function ChampionDetailsPage() {
               )}
             </div>
             
-            <div className="space-y-6">
-              {(isEditing ? editingSkills : wrDetails.skills).map((skill: any, idx: number) => (
-                <div key={idx} className="flex flex-col gap-3 pb-6 border-b border-slate-100 last:border-0 last:pb-0">
-                  <div className="flex gap-3">
-                    <img 
-                      src={skill.icon || `/images/champions/${id}.avif`} 
-                      alt={skill.name} 
-                      className={`w-12 h-12 flex-shrink-0 ${skill.id === 'P' ? 'rounded-full' : 'rounded-xl'} border border-slate-200 shadow-sm bg-slate-50 object-cover`}
-                      onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${id}.avif`; }}
-                    />
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="px-1.5 py-0.5 bg-slate-800 text-white text-[10px] font-bold rounded">
-                          {getSkillLabel(skill.id)}
-                        </span>
-                        {isEditing ? (
-                          <input type="text" value={skill.name} onChange={(e) => handleSkillChange(idx, 'name', e.target.value)} className="text-base font-bold text-slate-800 border-b border-indigo-400 focus:outline-none w-full" />
-                        ) : (
-                          <h4 className="text-base font-bold text-slate-900 truncate">{skill.name}</h4>
+            <div className="space-y-4">
+              {(isEditing ? editingSkills : wrDetails.skills).map((skill: any, idx: number) => {
+                const isExpanded = expandedSkills[idx] || isEditing;
+                
+                return (
+                  <div key={idx} className="flex flex-col bg-slate-50 border border-slate-100 rounded-2xl overflow-hidden transition-all">
+                    <div 
+                      className={`flex gap-3 p-4 cursor-pointer hover:bg-slate-100 transition-colors items-center ${isExpanded ? 'border-b border-slate-100' : ''}`}
+                      onClick={() => !isEditing && toggleSkill(idx)}
+                    >
+                      <img 
+                        src={skill.icon || `/images/champions/${id}.avif`} 
+                        alt={skill.name} 
+                        className={`w-12 h-12 flex-shrink-0 ${skill.id === 'P' ? 'rounded-full' : 'rounded-xl'} border border-slate-200 shadow-sm bg-white object-cover`}
+                        onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${id}.avif`; }}
+                      />
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="px-1.5 py-0.5 bg-slate-800 text-white text-[10px] font-bold rounded">
+                            {getSkillLabel(skill.id)}
+                          </span>
+                          {isEditing ? (
+                            <input type="text" value={skill.name} onChange={(e) => handleSkillChange(idx, 'name', e.target.value)} className="text-base font-bold text-slate-800 border-b border-indigo-400 focus:outline-none w-full" onClick={(e) => e.stopPropagation()} />
+                          ) : (
+                            <h4 className="text-base font-bold text-slate-900 truncate">{skill.name}</h4>
+                          )}
+                        </div>
+                        {skill.cooldown_text && (
+                          <div className="text-[11px] font-bold text-slate-500 flex items-center gap-1">
+                            ⏳ {translateCooldownText(skill.cooldown_text, locale)}
+                          </div>
                         )}
                       </div>
-                      {skill.cooldown_text && (
-                        <div className="text-[11px] font-bold text-slate-500 flex items-center gap-1">
-                          ⏳ {translateCooldownText(skill.cooldown_text, locale)}
+                      {!isEditing && (
+                        <div className="text-slate-400 p-2">
+                          {isExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                         </div>
                       )}
                     </div>
-                  </div>
-                  
-                  {isEditing ? (
-                    <textarea value={skill.description} onChange={(e) => handleSkillChange(idx, 'description', e.target.value)} className="w-full text-sm text-slate-700 bg-slate-50 p-3 rounded-xl border border-indigo-300 focus:outline-none min-h-[100px]" />
-                  ) : (
-                    <div className="text-sm text-slate-600 leading-relaxed font-medium space-y-2" dangerouslySetInnerHTML={renderDescriptionWithIcons(skill.description)} />
-                  )}
+                    
+                    {isExpanded && (
+                      <div className="p-4 flex flex-col gap-3 bg-white">
+                        {isEditing ? (
+                          <textarea value={skill.description} onChange={(e) => handleSkillChange(idx, 'description', e.target.value)} className="w-full text-sm text-slate-700 bg-slate-50 p-3 rounded-xl border border-indigo-300 focus:outline-none min-h-[100px]" />
+                        ) : (
+                          <div className="text-sm text-slate-600 leading-relaxed font-medium space-y-2" dangerouslySetInnerHTML={renderDescriptionWithIcons(skill.description)} />
+                        )}
 
-                  {skill.table && (
-                    <div className="mt-1 overflow-x-auto rounded-xl border border-slate-100 bg-slate-50">
-                      <table className="w-full text-xs text-left min-w-max">
-                        <thead className="text-slate-400 font-bold border-b border-slate-200">
-                          <tr>
-                            <th className="px-3 py-2 font-bold">{locale === 'ja' ? '詳細' : 'Details'}</th>
-                            {skill.table.headers.map((h: string, i: number) => (
-                              <th key={i} className="px-3 py-2 text-center text-slate-500 font-bold">{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100">
-                          {skill.table.rows.map((row: any, rIdx: number) => (
-                            <tr key={rIdx}>
-                              <td className="px-3 py-2 font-bold text-slate-600 bg-white border-r border-slate-100">
-                                {translateTableLabel(row.label, locale)}
-                              </td>
-                              {row.values.map((v: string, vIdx: number) => (
-                                <td key={vIdx} className="px-3 py-2 text-center font-bold text-slate-700 bg-white">
-                                  {v}
-                                </td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                </div>
-              ))}
+                        {skill.table && (
+                          <div className="mt-2 overflow-x-auto rounded-xl border border-slate-100 bg-slate-50">
+                            <table className="w-full text-xs text-left min-w-max">
+                              <thead className="text-slate-400 font-bold border-b border-slate-200">
+                                <tr>
+                                  <th className="px-3 py-2 font-bold">{locale === 'ja' ? '詳細' : 'Details'}</th>
+                                  {skill.table.headers.map((h: string, i: number) => (
+                                    <th key={i} className="px-3 py-2 text-center text-slate-500 font-bold">{h}</th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody className="divide-y divide-slate-100">
+                                {skill.table.rows.map((row: any, rIdx: number) => (
+                                  <tr key={rIdx}>
+                                    <td className="px-3 py-2 font-bold text-slate-600 bg-white border-r border-slate-100">
+                                      {translateTableLabel(row.label, locale)}
+                                    </td>
+                                    {row.values.map((v: string, vIdx: number) => (
+                                      <td key={vIdx} className="px-3 py-2 text-center font-bold text-slate-700 bg-white">
+                                        {v}
+                                      </td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
+
+        {/* Counters Voting Section */}
+        <CounterPickVoting 
+          championId={champion.champion_name_en || id} 
+          staticCounters={staticCounters} 
+          allChampions={fallbackStats}
+          dict={{
+            title: t('counters') || '相性（カウンター）',
+            suggest: locale === 'en' ? 'Suggest Counter' : 'カウンターを提案',
+            searchPlaceholder: locale === 'en' ? 'Search champion...' : 'チャンピオン名で検索...',
+            notFound: locale === 'en' ? 'Not found' : '見つかりませんでした',
+            alreadyExists: locale === 'en' ? 'Already exists in the list!' : '既にリストに存在します！',
+            noData: locale === 'en' ? 'No counters suggested yet. Be the first!' : 'カウンター情報がまだありません。提案してください！',
+            cancelInstruction: locale === 'en' ? 'Please click your current vote again to cancel it before voting differently.' : '現在の投票をもう一度クリックして取り消してから、新しく投票してください。'
+          }}
+        />
+
+        {/* Community Builds Link */}
+        <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-5 flex items-center justify-between">
+          <div>
+            <h3 className="text-sm font-black text-slate-500 mb-1 uppercase tracking-wider flex items-center gap-2">
+              <Star size={16} className="text-yellow-500" />
+              みんなのビルド
+            </h3>
+            <p className="text-xs text-slate-400 font-bold">おすすめのアイテムやルーン構成を共有しよう！</p>
+          </div>
+          <Link 
+            href={`/champions/${id}/builds`}
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-all shadow-sm flex-shrink-0"
+          >
+            ビルドを見る
+          </Link>
+        </div>
 
         {/* Lore */}
         <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-5">

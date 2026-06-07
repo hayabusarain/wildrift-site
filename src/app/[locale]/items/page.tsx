@@ -664,9 +664,11 @@ export default function ItemsPage() {
                 ) : selectedItem.stats.length > 0 ? (
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {(locale === 'en' && selectedItem.statsEn && selectedItem.statsEn.length > 0 ? selectedItem.statsEn : selectedItem.stats).map((stat, idx) => (
-                      <div key={idx} className="bg-slate-50 border border-slate-100 rounded-xl px-4 py-3 flex items-center gap-3">
-                        <span className="text-lg">{getStatEmoji(stat)}</span>
-                        <span className="font-bold text-slate-700 text-sm">{stat}</span>
+                      <div key={idx} 
+                           className="bg-slate-50 border border-slate-100 rounded-xl px-4 py-3 flex items-start gap-3"
+                           style={{ gridColumn: stat.length > 25 ? '1 / -1' : undefined }}>
+                        <span className="text-lg shrink-0 mt-0.5">{getStatEmoji(stat)}</span>
+                        <span className="font-bold text-slate-700 text-sm leading-relaxed text-left flex-1">{stat}</span>
                       </div>
                     ))}
                   </div>

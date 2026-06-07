@@ -21,7 +21,8 @@
     "terms": "利用規約",
     "legal": "免責事項",
     "contact": "運営者情報・お問い合わせ",
-    "runes": "ルーン一覧"
+    "runes": "ルーン一覧",
+    "aram": "ランダムミッド"
   },
   "Home": {
     "heroBadge": "Wild Rift 完全攻略データベース",
@@ -261,5 +262,14 @@
     "effects": "効果",
     "cooldown": "クールダウン",
     "detailTitle": "ルーン詳細"
+  },
+  "Modes": {
+    "aramTitle": "ランダムミッド (ARAM) 攻略",
+    "aramDesc": "ランダムミッド専用の最強チャンピオンTier表や、ARAM限定アイテム・ルーンの解説。",
+    "aramRules": "ARAMの特殊ルールと特徴",
+    "aramRulesDesc": "ARAMでは回復効果が減少し、リコールでの回復ができません。序盤のポーク（遠距離攻撃）や集団戦の強さが重視されます。",
+    "aramTierList": "ARAM 強チャンピオンピックアップ",
+    "aramItems": "ARAM専用アイテム",
+    "aramSpells": "おすすめスペル（雪玉）"
   }
 }
