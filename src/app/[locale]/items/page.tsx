@@ -379,17 +379,17 @@ export default function ItemsPage() {
                 onChange={(e) => setSortBy(e.target.value as any)}
                 className="bg-transparent border-none outline-none focus:ring-0 text-slate-800 font-bold w-full text-sm"
               >
-                <option value="gold">ゴールド順</option>
-                <option value="ad">攻撃力順</option>
-                <option value="ap">魔力順</option>
-                <option value="as">攻撃速度順</option>
-                <option value="crit">クリティカル率順</option>
-                <option value="hp">体力順</option>
-                <option value="ar">物理防御順</option>
-                <option value="mr">魔法防御順</option>
-                <option value="haste">スキルヘイスト順</option>
-                <option value="mana">マナ順</option>
-                <option value="name">名前順</option>
+                <option value="gold">{locale === 'ja' ? 'ゴールド順' : 'By Gold'}</option>
+                <option value="ad">{locale === 'ja' ? '攻撃力順' : 'By AD'}</option>
+                <option value="ap">{locale === 'ja' ? '魔力順' : 'By AP'}</option>
+                <option value="as">{locale === 'ja' ? '攻撃速度順' : 'By AS'}</option>
+                <option value="crit">{locale === 'ja' ? 'クリティカル率順' : 'By Crit Rate'}</option>
+                <option value="hp">{locale === 'ja' ? '体力順' : 'By HP'}</option>
+                <option value="ar">{locale === 'ja' ? '物理防御順' : 'By Armor'}</option>
+                <option value="mr">{locale === 'ja' ? '魔法防御順' : 'By MR'}</option>
+                <option value="haste">{locale === 'ja' ? 'スキルヘイスト順' : 'By Haste'}</option>
+                <option value="mana">{locale === 'ja' ? 'マナ順' : 'By Mana'}</option>
+                <option value="name">{locale === 'ja' ? '名前順' : 'By Name'}</option>
               </select>
             </div>
 
@@ -399,7 +399,9 @@ export default function ItemsPage() {
             >
               <ArrowUpDown size={14} className={`text-indigo-600 transition-transform duration-300 ${sortOrder === 'asc' ? 'rotate-180' : ''}`} />
               <span>
-                {sortOrder === 'desc' ? '降順 (高い・大きい)' : '昇順 (低い・小さい)'}
+                {sortOrder === 'desc' 
+                  ? (locale === 'ja' ? '降順 (高い・大きい)' : 'Desc (High/Large)') 
+                  : (locale === 'ja' ? '昇順 (低い・小さい)' : 'Asc (Low/Small)')}
               </span>
             </button>
           </div>
@@ -570,16 +572,16 @@ export default function ItemsPage() {
                 </div>
                 <div className="min-w-0 flex-1 pr-2">
                   <h2 className="text-lg font-black text-slate-900 leading-tight mb-1">
-                    {selectedItem.nameJa}
+                    {locale === 'ja' ? selectedItem.nameJa : selectedItem.nameEn}
                   </h2>
                   {selectedItem.id.startsWith('7') && (
                     <span className="text-[10px] font-black text-amber-700 bg-amber-100 border border-amber-200 rounded inline-flex px-2 py-0.5 items-center gap-1 mb-1">
                       <Award size={12} />
-                      傑作アイテム
+                      {locale === 'ja' ? '傑作アイテム' : 'Masterwork'}
                     </span>
                   )}
                   <p className="text-xs text-slate-500 font-bold">
-                    コスト: <span className="text-amber-600 font-black">{selectedItem.gold} G</span>
+                    {locale === 'ja' ? 'コスト:' : 'Cost:'} <span className="text-amber-600 font-black">{selectedItem.gold} G</span>
                   </p>
                 </div>
               </div>
@@ -609,24 +611,24 @@ export default function ItemsPage() {
                   onClick={() => { setSelectedItem(baseItem); setIsEditing(false); }}
                   className="w-full flex justify-center items-center gap-2 px-4 py-3 text-sm font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-xl active:bg-indigo-100 transition-colors"
                 >
-                  ← {baseItem.nameJa} (進化前) に戻る
+                  {locale === 'ja' ? `← ${baseItem.nameJa} (進化前) に戻る` : `← Back to ${baseItem.nameEn}`}
                 </button>
               )}
 
               {isBootEnchantment && (
                 <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-4 space-y-2">
                   <h4 className="text-xs font-black text-indigo-700 flex items-center gap-1.5">
-                    <SlidersHorizontal size={14} /> エンチャント効果
+                    <SlidersHorizontal size={14} /> {locale === 'ja' ? 'エンチャント効果' : 'Enchantment'}
                   </h4>
                   <p className="text-xs text-indigo-900/80 font-bold leading-relaxed">
-                    すべての2段階目ブーツに付与して合成可能です。
+                    {locale === 'ja' ? 'すべての2段階目ブーツに付与して合成可能です。' : 'Can be upgraded from any tier 2 boots.'}
                   </p>
                 </div>
               )}
 
               <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-4">
                 <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider flex justify-between items-center">
-                  <span>付与ステータス</span>
+                  <span>{locale === 'ja' ? '付与ステータス' : 'Stats'}</span>
                   {isEditing && <button onClick={() => setEditingStats([...editingStats, ''])} className="text-indigo-600 font-bold">+ 追加</button>}
                 </h4>
                 {isEditing ? (
@@ -654,7 +656,7 @@ export default function ItemsPage() {
 
               <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-4">
                 <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider flex justify-between items-center">
-                  <span>特殊効果 (パッシブ / アクティブ)</span>
+                  <span>{locale === 'ja' ? '特殊効果 (パッシブ / アクティブ)' : 'Passives / Actives'}</span>
                   {isEditing && <button onClick={() => setEditingPassives([...editingPassives, {name:'',description:''}])} className="text-indigo-600 font-bold">+ 追加</button>}
                 </h4>
                 {isEditing ? (
@@ -695,18 +697,18 @@ export default function ItemsPage() {
               {evolutionItem && (
                 <div className="pt-4 space-y-3">
                   <h4 className="text-xs font-black text-amber-600 uppercase flex items-center gap-1.5 tracking-wider">
-                    <Sparkles size={14} /> 自動進化先
+                    <Sparkles size={14} /> {locale === 'ja' ? '自動進化先' : 'Evolves Into'}
                   </h4>
                   <button 
                     onClick={() => { setSelectedItem(evolutionItem); setIsEditing(false); }} 
                     className="w-full bg-white border border-amber-200 rounded-2xl p-4 flex items-center gap-4 active:scale-95 transition-transform text-left shadow-sm hover:shadow-md"
                   >
                     <div className="w-14 h-14 rounded-xl overflow-hidden border border-amber-300 shadow-inner bg-slate-50 shrink-0">
-                      <img src={evolutionItem.image.startsWith('/') ? evolutionItem.image : `https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/${evolutionItem.image}`} alt={evolutionItem.nameJa} className="w-full h-full object-cover scale-110" />
+                      <img src={evolutionItem.image.startsWith('/') ? evolutionItem.image : `https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/${evolutionItem.image}`} alt={locale === 'ja' ? evolutionItem.nameJa : evolutionItem.nameEn} className="w-full h-full object-cover scale-110" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h5 className="text-base font-black text-amber-700 mb-1">{evolutionItem.nameJa}</h5>
-                      <span className="text-xs font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-100">詳細を表示</span>
+                      <h5 className="text-base font-black text-amber-700 mb-1">{locale === 'ja' ? evolutionItem.nameJa : evolutionItem.nameEn}</h5>
+                      <span className="text-xs font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-100">{locale === 'ja' ? '詳細を表示' : 'View Details'}</span>
                     </div>
                   </button>
                 </div>
