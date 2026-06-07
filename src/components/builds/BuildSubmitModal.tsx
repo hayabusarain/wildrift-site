@@ -75,10 +75,10 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
   };
 
   const TREES = [
-    { id: 0, title: '覇道 (Domination)', rows: EXCLUSIVE_RUNE_GROUPS.slice(0, 3) },
-    { id: 1, title: '栄華 (Precision)', rows: EXCLUSIVE_RUNE_GROUPS.slice(3, 6) },
-    { id: 2, title: '不滅 (Resolve)', rows: EXCLUSIVE_RUNE_GROUPS.slice(6, 9) },
-    { id: 3, title: '天啓 (Inspiration)', rows: EXCLUSIVE_RUNE_GROUPS.slice(9, 12) },
+    { id: 0, titleJa: '覇道', titleEn: 'Domination', rows: EXCLUSIVE_RUNE_GROUPS.slice(0, 3) },
+    { id: 1, titleJa: '栄華', titleEn: 'Precision', rows: EXCLUSIVE_RUNE_GROUPS.slice(3, 6) },
+    { id: 2, titleJa: '不滅', titleEn: 'Resolve', rows: EXCLUSIVE_RUNE_GROUPS.slice(6, 9) },
+    { id: 3, titleJa: '天啓', titleEn: 'Inspiration', rows: EXCLUSIVE_RUNE_GROUPS.slice(9, 12) },
   ];
 
   const handleMainTreeChange = (id: number) => {
@@ -304,7 +304,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                 <div className="flex gap-2 mb-3">
                   {TREES.map(t => (
                     <button key={t.id} onClick={() => handleMainTreeChange(t.id)} className={`px-3 py-1.5 rounded-lg text-xs font-bold ${mainTreeId === t.id ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}>
-                      {t.title.split(' ')[0]}
+                      {locale === 'ja' ? t.titleJa : t.titleEn}
                     </button>
                   ))}
                 </div>
@@ -357,7 +357,7 @@ export function BuildSubmitModal({ championId, allItems, allRunes, allSpells, on
                       onClick={() => handleSubTreeChange(t.id)} 
                       disabled={mainTreeId === t.id}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold disabled:opacity-50 ${subTreeId === t.id ? 'bg-indigo-600 text-white' : mainTreeId === t.id ? 'bg-slate-50 text-slate-300 cursor-not-allowed' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}>
-                      {t.title.split(' ')[0]}
+                      {locale === 'ja' ? t.titleJa : t.titleEn}
                     </button>
                   ))}
                 </div>
