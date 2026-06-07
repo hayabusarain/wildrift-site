@@ -8,6 +8,7 @@ import { Link } from '@/i18n/routing';
 import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2 } from 'lucide-react';
 import { parseLocalizedText, parseVariables, formatSkillDescription } from '@/utils/localization';
 import { PatchTable } from '@/components/patches/PatchTable';
+
 import fallbackStats from '@/data/champion_stats.json';
 import skillsJa from '../../../../../public/data/skills/ja.json';
 import skillsEn from '../../../../../public/data/skills/en.json';
@@ -541,6 +542,7 @@ export default function ChampionDetailsPage() {
             </div>
           </div>
         )}
+
 
         {/* Skills Section */}
         {wrDetails?.skills && (

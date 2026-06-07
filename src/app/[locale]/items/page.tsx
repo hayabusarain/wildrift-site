@@ -8,6 +8,8 @@ import itemsData from '@/data/physical_items_final.json';
 interface Passive {
   name: string;
   description: string;
+  nameEn?: string;
+  descriptionEn?: string;
 }
 
 interface Item {
@@ -18,6 +20,7 @@ interface Item {
   image: string;
   isCompleted: boolean;
   stats: string[];
+  statsEn?: string[];
   passives: Passive[];
 }
 
@@ -505,18 +508,20 @@ export default function ItemsPage() {
                 
                 <div className="flex flex-col gap-1.5 z-10">
                   {item.stats.length > 0 ? (
-                    item.stats.slice(0, 3).map((stat, idx) => (
+                    (locale === 'en' && item.statsEn && item.statsEn.length > 0 ? item.statsEn : item.stats).slice(0, 3).map((stat, idx) => (
                       <div key={idx} className="text-[10px] text-slate-600 font-bold flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md border border-slate-100">
                         <span>{getStatEmoji(stat)}</span>
                         <span className="truncate">{stat}</span>
                       </div>
                     ))
                   ) : (
-                    <div className="text-[10px] text-slate-400 font-bold bg-slate-50 px-2 py-1 rounded-md border border-slate-100">特殊効果のみ</div>
+                    <div className="text-[10px] text-slate-400 font-bold bg-slate-50 px-2 py-1 rounded-md border border-slate-100">
+                      {locale === 'ja' ? '特殊効果のみ' : 'Passive Only'}
+                    </div>
                   )}
                   {item.stats.length > 3 && (
                     <div className="text-[9px] text-indigo-500 font-bold pl-1 pt-0.5">
-                      + 他 {item.stats.length - 3} 件のステータス
+                      {locale === 'ja' ? `+ 他 ${item.stats.length - 3} 件のステータス` : `+ ${item.stats.length - 3} More Stats`}
                     </div>
                   )}
                 </div>
@@ -525,7 +530,7 @@ export default function ItemsPage() {
                   <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-bold z-10">
                     <span className="flex items-center gap-1">
                       <Layers size={12} className="text-indigo-500" />
-                      特殊効果
+                      {locale === 'ja' ? '特殊効果' : 'Passive'}
                     </span>
                     <span className="bg-slate-100 px-1.5 py-0.5 rounded text-slate-600 font-black">
                       {item.passives.length}
@@ -635,7 +640,7 @@ export default function ItemsPage() {
                   </div>
                 ) : selectedItem.stats.length > 0 ? (
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {selectedItem.stats.map((stat, idx) => (
+                    {(locale === 'en' && selectedItem.statsEn && selectedItem.statsEn.length > 0 ? selectedItem.statsEn : selectedItem.stats).map((stat, idx) => (
                       <div key={idx} className="bg-slate-50 border border-slate-100 rounded-xl px-4 py-3 flex items-center gap-3">
                         <span className="text-lg">{getStatEmoji(stat)}</span>
                         <span className="font-bold text-slate-700 text-sm">{stat}</span>
@@ -643,7 +648,7 @@ export default function ItemsPage() {
                     ))}
                   </div>
                 ) : (
-                  <div className="text-slate-500 italic text-sm py-2">ステータスはありません。</div>
+                  <div className="text-slate-500 italic text-sm py-2">{locale === 'ja' ? 'ステータスはありません。' : 'No stats.'}</div>
                 )}
               </div>
 
@@ -668,19 +673,22 @@ export default function ItemsPage() {
                   <div className="space-y-4">
                     {selectedItem.passives.map((p, idx) => {
                       const isActive = p.name.includes('発動効果') || p.name.includes('アクティブ');
+                      const pName = locale === 'en' && p.nameEn ? p.nameEn : p.name;
+                      const pDesc = locale === 'en' && p.descriptionEn ? p.descriptionEn : p.description;
+                      
                       return (
                         <div key={idx} className={`border rounded-xl p-4 space-y-2 ${isActive ? 'bg-amber-50 border-amber-200' : 'bg-slate-50 border-slate-100'}`}>
                           <div className="flex items-center gap-2">
                             <span className={`w-2 h-2 rounded-full ${isActive ? 'bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.5)]' : 'bg-indigo-500'}`} />
-                            <h5 className={`font-black text-sm ${isActive ? 'text-amber-800' : 'text-indigo-900'}`}>{p.name}</h5>
+                            <h5 className={`font-black text-sm ${isActive ? 'text-amber-800' : 'text-indigo-900'}`}>{pName}</h5>
                           </div>
-                          <p className="text-sm text-slate-600 font-medium leading-relaxed whitespace-pre-wrap pl-4">{p.description}</p>
+                          <p className="text-sm text-slate-600 font-medium leading-relaxed whitespace-pre-wrap pl-4">{pDesc}</p>
                         </div>
                       );
                     })}
                   </div>
                 ) : (
-                  <div className="text-slate-500 italic text-sm py-2">特殊効果はありません。</div>
+                  <div className="text-slate-500 italic text-sm py-2">{locale === 'ja' ? '特殊効果はありません。' : 'No passives.'}</div>
                 )}
               </div>
 
