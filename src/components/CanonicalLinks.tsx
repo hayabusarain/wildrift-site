@@ -1,16 +1,19 @@
 'use client';
 
-import { usePathname } from '@/i18n/routing';
-import { useLocale } from 'next-intl';
+import { usePathname } from 'next/navigation';
 
-export function CanonicalLinks() {
-  const pathname = usePathname();
-  const locale = useLocale();
+export function CanonicalLinks({ locale }: { locale: string }) {
+  const pathname = usePathname() || '';
   
   const baseUrl = 'https://hub-game.com';
   
-  // pathname is the unlocalized path, e.g. "/champions/Amumu" or "/"
-  const cleanPathname = pathname === '/' ? '' : pathname;
+  let cleanPathname = pathname;
+  if (pathname.startsWith('/ja/')) cleanPathname = pathname.slice(3);
+  else if (pathname === '/ja') cleanPathname = '/';
+  else if (pathname.startsWith('/en/')) cleanPathname = pathname.slice(3);
+  else if (pathname === '/en') cleanPathname = '/';
+
+  if (cleanPathname === '/') cleanPathname = '';
   
   const currentUrl = `${baseUrl}/${locale}${cleanPathname}`;
   const jaUrl = `${baseUrl}/ja${cleanPathname}`;
