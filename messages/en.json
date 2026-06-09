@@ -22,7 +22,17 @@
     "legal": "Legal Disclaimer",
     "contact": "Contact & About",
     "runes": "Runes",
-    "aram": "ARAM"
+    "aram": "ARAM",
+    "links": "Links"
+  },
+  "Links": {
+    "title": "Links",
+    "subtitle": "Useful websites and mutual links related to Wild Rift.",
+    "official": "Official Sites",
+    "useful": "Useful Sites",
+    "mutual": "Looking for Mutual Links!",
+    "mutualDesc": "We are looking for mutual links from Wild Rift related blogs, YouTube channels, and streamers. Feel free to contact us via X (Twitter) DM!",
+    "contact": "Contact / Twitter"
   },
   "Home": {
     "heroBadge": "Wild Rift Complete Database",
