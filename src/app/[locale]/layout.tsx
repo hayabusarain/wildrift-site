@@ -7,6 +7,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Script from "next/script";
+import { CanonicalLinks } from '@/components/CanonicalLinks';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
-    metadataBase: new URL('https://wildrift-hub.com'),
+    metadataBase: new URL('https://hub-game.com'),
     title: {
       template: '%s | Wild Rift Hub',
       default: t('defaultTitle'),
@@ -80,6 +81,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
+        <CanonicalLinks />
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" />
