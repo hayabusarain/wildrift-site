@@ -346,8 +346,8 @@
     "category": "Resolve",
     "tree": "Resolve",
     "image": "/images/runes/demolish.png",
-    "descriptionJa": "敵のタワーから550以内の範囲にいると、0.5秒ごとに最大6回までチャージを獲得する。最大までチャージされると、次に行うタワーに対する通常攻撃が追加で(200 + 最大体力の30%)の物理ダメージを与える(クールダウン35秒)。",
-    "descriptionEn": "While within 550 units of an enemy turret, charge an attack over 3s. The next attack deals 200 + 30% max health bonus physical damage. Cooldown: 35s."
+    "descriptionJa": "敵のタワーから550以内の範囲にいると、0.5秒ごとに最大6回までチャージを獲得する。最大までチャージされると、次に行うタワーに対する通常攻撃が追加で(100 + 最大体力の22%)の物理ダメージを与える(クールダウン30秒)。",
+    "descriptionEn": "While within 550 units of an enemy turret, charge an attack over 3s. The next attack deals 100 + 22% max health bonus physical damage. Cooldown: 30s."
   },
   {
     "id": "font_of_life",

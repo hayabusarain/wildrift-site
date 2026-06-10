@@ -133,6 +133,13 @@ export function PatchTable({ championId }: { championId?: string }) {
         });
         setPatches(merged);
         setPatchMetas(metaData || []);
+        
+        const newUniqueVersions = Array.from(new Set(merged.map(p => p.version)))
+          .filter(v => v && /^\d/.test(v))
+          .sort((a, b) => compareVersions(b, a));
+        if (newUniqueVersions.length > 0) {
+          setSelectedVersion(newUniqueVersions[0]);
+        }
       } else {
         const filteredFallback = championId
           ? (fallbackPatches as Patch[]).filter(p => p.champion_name_en === championId)

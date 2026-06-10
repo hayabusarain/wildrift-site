@@ -81,13 +81,20 @@ export default function ChampionsPage() {
     
     if (!seen.has('Norra')) {
       list.push({
-        id: 'Norra',
-        key: 'Norra',
-        name: locale === 'ja' ? 'ノラ' : 'Norra',
-        title: 'Wild Rift Exclusive',
-        blurb: 'Wild Rift専用のチャンピオンです。',
-        tags: ['Mage', 'Support'],
-        info: { attack: 2, defense: 3, magic: 8, difficulty: 5 }
+        id: 'Norra', key: 'Norra', name: locale === 'ja' ? 'ノラ' : 'Norra',
+        title: 'Wild Rift Exclusive', blurb: 'Wild Rift専用のチャンピオンです。', tags: ['Mage', 'Support'], info: { attack: 2, defense: 3, magic: 8, difficulty: 5 }
+      });
+    }
+    if (!seen.has('Skarner')) {
+      list.push({
+        id: 'Skarner', key: 'Skarner', name: locale === 'ja' ? 'スカーナー' : 'Skarner',
+        title: '原始の守護者', blurb: '', tags: ['Fighter', 'Tank'], info: { attack: 7, defense: 8, magic: 5, difficulty: 5 }
+      });
+    }
+    if (!seen.has('Zoe')) {
+      list.push({
+        id: 'Zoe', key: 'Zoe', name: locale === 'ja' ? 'ゾーイ' : 'Zoe',
+        title: '星の神髄', blurb: '', tags: ['Mage', 'Assassin'], info: { attack: 1, defense: 7, magic: 8, difficulty: 8 }
       });
     }
     
@@ -111,13 +118,20 @@ export default function ChampionsPage() {
         const hasNorra = champsArray.some(c => c.id === 'Norra');
         if (!hasNorra) {
           champsArray.push({
-            id: 'Norra',
-            key: 'Norra',
-            name: langCode === 'ja_JP' ? 'ノラ' : 'Norra',
-            title: 'Wild Rift Exclusive',
-            blurb: 'Wild Rift専用のチャンピオンです。',
-            tags: ['Mage', 'Support'],
-            info: { attack: 2, defense: 3, magic: 8, difficulty: 5 }
+            id: 'Norra', key: 'Norra', name: langCode === 'ja_JP' ? 'ノラ' : 'Norra',
+            title: 'Wild Rift Exclusive', blurb: 'Wild Rift専用のチャンピオンです。', tags: ['Mage', 'Support'], info: { attack: 2, defense: 3, magic: 8, difficulty: 5 }
+          });
+        }
+        if (!champsArray.some(c => c.id === 'Skarner')) {
+          champsArray.push({
+            id: 'Skarner', key: 'Skarner', name: langCode === 'ja_JP' ? 'スカーナー' : 'Skarner',
+            title: '原始の守護者', blurb: '', tags: ['Fighter', 'Tank'], info: { attack: 7, defense: 8, magic: 5, difficulty: 5 }
+          });
+        }
+        if (!champsArray.some(c => c.id === 'Zoe')) {
+          champsArray.push({
+            id: 'Zoe', key: 'Zoe', name: langCode === 'ja_JP' ? 'ゾーイ' : 'Zoe',
+            title: '星の神髄', blurb: '', tags: ['Mage', 'Assassin'], info: { attack: 1, defense: 7, magic: 8, difficulty: 8 }
           });
         }
         
@@ -148,7 +162,7 @@ export default function ChampionsPage() {
             }
           });
 
-          const filteredChampsArray = champsArray.filter(champ => !!grouped[champ.id] || champ.id === 'Norra' || champ.id === 'Heimerdinger');
+          const filteredChampsArray = champsArray.filter(champ => !!grouped[champ.id] || ['Norra', 'Heimerdinger', 'Skarner', 'Zoe'].includes(champ.id));
           setChampions(filteredChampsArray);
         } else {
           setChampions(champsArray);
@@ -177,7 +191,7 @@ export default function ChampionsPage() {
       const statsEntry = Object.entries(tierData).find(([key]) => key.toLowerCase() === champ.id.toLowerCase());
       const stats = statsEntry ? statsEntry[1] : [];
       
-      if (stats.length === 0 && champ.id !== 'Norra') return false;
+      if (stats.length === 0 && !['Norra', 'Heimerdinger', 'Skarner', 'Zoe'].includes(champ.id)) return false;
 
       const cleanStr = (s: string) => s.replace(/[\s\u3000・]+/g, '').toLowerCase();
       const query = cleanStr(searchQuery);

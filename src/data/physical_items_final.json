@@ -7,7 +7,7 @@
     "image": "/images/items/cropped/インフィニティ_エッジ.png",
     "isCompleted": true,
     "stats": [
-      "+60 攻撃力",
+      "+65 攻撃力",
       "+25% クリティカル率"
     ],
     "passives": [
@@ -25,7 +25,7 @@
       }
     ],
     "statsEn": [
-      "+60 Attack Damage",
+      "+65 Attack Damage",
       "+25% Critical Rate"
     ]
   },
@@ -876,15 +876,15 @@
     "passives": [
       {
         "name": "切断",
-        "description": "チャンピオンに物理ダメージを与えると、その対象の物理防御を6秒間、6%低下させる。4スタックで24%低下させる。",
+        "description": "チャンピオンに物理ダメージを与えると、その対象の物理防御を6秒間、6%低下させる。5スタックで30%低下させる。",
         "nameEn": "Sunder",
-        "descriptionEn": "Dealing physical damage to champions reduces their Armor by 6% for 6 seconds, stacking up to 4 times for a total of 24% reduction."
+        "descriptionEn": "Dealing physical damage to champions reduces their Armor by 6% for 6 seconds, stacking up to 5 times for a total of 30% reduction."
       },
       {
         "name": "追跡",
-        "description": "敵に物理ダメージを与えると移動速度が20増加する。「切断」を4スタック付与した敵チャンピオンに向かって移動すると移動速度が40増加する。遠隔攻撃チャンピオンは数値が半減する。",
+        "description": "敵に物理ダメージを与えると移動速度が20増加する。「切断」を5スタック付与した敵チャンピオンに向かって移動すると移動速度が40増加する。遠隔攻撃チャンピオンは数値が半減する。",
         "nameEn": "Chase",
-        "descriptionEn": "Dealing physical damage to enemies increases your Movement Speed by 20. Moving towards enemy champions with 4 stacks of 'Sunder' increases Movement Speed by 40. Values are halved for ranged champions."
+        "descriptionEn": "Dealing physical damage to enemies increases your Movement Speed by 20. Moving towards enemy champions with 5 stacks of 'Sunder' increases Movement Speed by 40. Values are halved for ranged champions."
       }
     ],
     "statsEn": [
@@ -1778,7 +1778,7 @@
     "passives": [
       {
         "name": "巧みな一撃",
-        "description": "通常攻撃を行うと、通常スキルの残りクールダウンが15%短縮される。",
+        "description": "通常攻撃を行うと、アルティメット以外のスキルの残りクールダウンが15%短縮される。",
         "nameEn": "Ingenious Strike",
         "descriptionEn": "Basic attacks reduce the remaining cooldown of your basic abilities by 15%."
       }

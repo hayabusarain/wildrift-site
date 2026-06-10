@@ -53,7 +53,7 @@ export default function LinksPage() {
               className="block p-4 rounded-2xl border border-slate-100 hover:border-indigo-200 hover:bg-slate-50 transition-colors"
             >
               <div className="font-bold text-slate-800">英雄联盟手游 (中国公式サイト)</div>
-              <div className="text-xs text-slate-500 mt-1">最新のAPIデータや勝率情報が確認できる本家サイト</div>
+              <div className="text-xs text-slate-500 mt-1">最新の勝率情報などが確認できる本家サイト</div>
             </a>
           </div>
         </div>

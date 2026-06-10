@@ -8269,7 +8269,7 @@
         "範囲ダメージ"
       ],
       "cooldown_text": "8秒",
-      "description": "First activation: Releases curse energy in the targeted direction, dealing 40 magic damage (40 + 32%AP)  to the enemy and placing a curse on the enemy for 3.5 seconds. \n Reactivation: The curse explodes, dealing up to  40 magic damage (40 + 32%AP)  to enemies touched by the curse. Enemies hit will receive up to 50% additional damage based on  reduced health . \n When hitting the second target or later, the damage will be reduced to 20%. Minions and monsters deal 40% damage instead. \n When the curse's effect time ends, the skill will be automatically reactivated.",
+      "description": "First activation: Releases curse energy in the targeted direction, dealing 35 magic damage (35 + 30%AP)  to the enemy and placing a curse on the enemy for 3.5 seconds. \n Reactivation: The curse explodes, dealing up to  35 magic damage (35 + 30%AP)  to enemies touched by the curse. Enemies hit will receive up to 50% additional damage based on  reduced health . \n When hitting the second target or later, the damage will be reduced to 20%. Minions and monsters deal 40% damage instead. \n When the curse's effect time ends, the skill will be automatically reactivated.",
       "table": {
         "headers": [
           "LV 1",
@@ -8290,10 +8290,10 @@
           {
             "label": "基本ダメージ",
             "values": [
-              "40",
-              "70",
-              "100",
-              "130"
+              "35",
+              "65",
+              "95",
+              "125"
             ]
           }
         ]
@@ -16632,10 +16632,10 @@
           {
             "label": "基本ダメージ",
             "values": [
-              "30",
-              "65",
-              "100",
-              "135"
+              "45",
+              "80",
+              "115",
+              "150"
             ]
           }
         ]
@@ -16710,10 +16710,10 @@
           {
             "label": "基本ダメージ",
             "values": [
-              "30",
-              "80",
-              "130",
-              "180"
+              "40",
+              "90",
+              "140",
+              "190"
             ]
           },
           {
@@ -16728,10 +16728,10 @@
           {
             "label": "2段階目ダメージ",
             "values": [
-              "30",
-              "80",
-              "130",
-              "180"
+              "40",
+              "90",
+              "140",
+              "190"
             ]
           }
         ]
@@ -16994,7 +16994,7 @@
         "魔法"
       ],
       "cooldown_text": null,
-      "description": "After using the skill, attack speed increases by 30% (▲) for 4 seconds. \n Every third normal attack deals an additional  35 magic damage  to surrounding enemies. \n Deals  75%  damage to monsters.",
+      "description": "After using the skill, attack speed increases by 30% (▲) for 4 seconds. \n Every third normal attack deals an additional  35 magic damage  to surrounding enemies. \n Deals  100%  damage to monsters.",
       "table": null,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/passive/Diana_Passive_LunarBlade.png"
     },
@@ -20525,7 +20525,7 @@
         "魔法"
       ],
       "cooldown_text": "1秒",
-      "description": "Set up a turret. The turret gradually charges up and attacks surrounding enemies. The turret deals 5 magic damage (5 + 25%AP)  on hit, and when fully charged it fires a beam that deals 25 magic damage (25 + 45%AP) . \n Three active \"H-28G innovation guns\" can be installed at the same time. When Heimerdinger leaves for a certain distance, the turret becomes dormant. \n\n Upgrade! ! ! With technology expansion, this skill will be upgraded to  H-28G Super Cannon . \n\nH-28G innovative cannon stats:\nBasic attack power: (110 (+ 3%AD + 45%AP))\nBasic health: 10HP\nBasic physical defense: 25AR\n Deals 40% damage to monsters.",
+      "description": "Set up a turret. The turret gradually charges up and attacks surrounding enemies. The turret deals 5 magic damage (5 + 25%AP)  on hit, and when fully charged it fires a beam that deals 25 magic damage (25 + 55%AP) . \n Three active \"H-28G innovation guns\" can be installed at the same time. When Heimerdinger leaves for a certain distance, the turret becomes dormant. \n\n Upgrade! ! ! With technology expansion, this skill will be upgraded to  H-28G Super Cannon . \n\nH-28G innovative cannon stats:\nBasic attack power: (110 (+ 3%AD + 45%AP))\nBasic health: 10HP (+8%~50%AP depending on level)\nBasic physical defense: 20~90 (depending on level)\n Deals 40% damage to monsters.\nAdditional damage taken from melee champions is 40%.",
       "table": {
         "headers": [
           "LV 1",
