@@ -316,7 +316,7 @@ export default function Home() {
             </h2>
           </div>
           <p className="text-xs text-blue-800/80 font-medium leading-relaxed mt-1">
-            {t('noticeItemsAndRunes')}
+            {t('noticeUpdate')}
           </p>
         </div>
       </div>

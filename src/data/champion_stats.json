@@ -8,7 +8,7 @@
     "ban_rate": 1.01,
     "tier": "A",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.368Z"
+    "created_at": "2026-06-13T08:09:31.144Z"
   },
   {
     "id": "MissFortune-ADC",
@@ -19,7 +19,7 @@
     "ban_rate": 2.55,
     "tier": "S",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Smolder-ADC",
@@ -30,7 +30,7 @@
     "ban_rate": 18.37,
     "tier": "S",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Jhin-ADC",
@@ -41,7 +41,7 @@
     "ban_rate": 0.56,
     "tier": "A",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Ashe-ADC",
@@ -52,7 +52,7 @@
     "ban_rate": 0.14,
     "tier": "A",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Ezreal-ADC",
@@ -63,7 +63,7 @@
     "ban_rate": 0.27,
     "tier": "A",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Xayah-ADC",
@@ -74,7 +74,7 @@
     "ban_rate": 0.14,
     "tier": "A",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Vayne-ADC",
@@ -85,7 +85,7 @@
     "ban_rate": 13.38,
     "tier": "B",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Kalista-ADC",
@@ -96,7 +96,7 @@
     "ban_rate": 3.29,
     "tier": "B",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Corki-ADC",
@@ -107,7 +107,7 @@
     "ban_rate": 0.02,
     "tier": "B",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Varus-ADC",
@@ -118,7 +118,7 @@
     "ban_rate": 0.36,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Sivir-ADC",
@@ -129,7 +129,7 @@
     "ban_rate": 0.11,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Zeri-ADC",
@@ -140,7 +140,7 @@
     "ban_rate": 0.03,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Jinx-ADC",
@@ -151,7 +151,7 @@
     "ban_rate": 0.25,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Caitlyn-ADC",
@@ -162,7 +162,7 @@
     "ban_rate": 2.92,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Lucian-ADC",
@@ -173,7 +173,7 @@
     "ban_rate": 0.17,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Draven-ADC",
@@ -184,7 +184,7 @@
     "ban_rate": 2.34,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Twitch-ADC",
@@ -195,7 +195,7 @@
     "ban_rate": 0.26,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Samira-ADC",
@@ -206,7 +206,7 @@
     "ban_rate": 4.93,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Kaisa-ADC",
@@ -217,7 +217,7 @@
     "ban_rate": 0.22,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Tristana-ADC",
@@ -228,7 +228,7 @@
     "ban_rate": 0.18,
     "tier": "C",
     "role": "ADC",
-    "created_at": "2026-05-30T03:28:44.369Z"
+    "created_at": "2026-06-13T08:09:31.145Z"
   },
   {
     "id": "Amumu-TOP",
@@ -239,7 +239,7 @@
     "ban_rate": 0.14,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Rammus-TOP",
@@ -250,7 +250,7 @@
     "ban_rate": 3.82,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Nunu-TOP",
@@ -261,7 +261,7 @@
     "ban_rate": 0.48,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Taliyah-TOP",
@@ -272,7 +272,7 @@
     "ban_rate": 50.23,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Warwick-TOP",
@@ -283,7 +283,7 @@
     "ban_rate": 0.73,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Fiddlesticks-TOP",
@@ -294,7 +294,7 @@
     "ban_rate": 2.37,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Lillia-TOP",
@@ -305,7 +305,7 @@
     "ban_rate": 0.9,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "DrMundo-TOP",
@@ -316,7 +316,7 @@
     "ban_rate": 1.06,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Vi-TOP",
@@ -327,7 +327,7 @@
     "ban_rate": 0.69,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Shyvana-TOP",
@@ -338,7 +338,7 @@
     "ban_rate": 6.04,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "JarvanIV-TOP",
@@ -349,7 +349,7 @@
     "ban_rate": 0.4,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Evelynn-TOP",
@@ -360,7 +360,7 @@
     "ban_rate": 2.24,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Fizz-TOP",
@@ -371,7 +371,7 @@
     "ban_rate": 3.88,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Nocturne-TOP",
@@ -382,7 +382,7 @@
     "ban_rate": 8.35,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "XinZhao-TOP",
@@ -393,7 +393,7 @@
     "ban_rate": 1.58,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Nautilus-TOP",
@@ -404,7 +404,7 @@
     "ban_rate": 6.65,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "MasterYi-TOP",
@@ -415,7 +415,7 @@
     "ban_rate": 60.67,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Viego-TOP",
@@ -426,7 +426,7 @@
     "ban_rate": 13.27,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Nidalee-TOP",
@@ -437,7 +437,7 @@
     "ban_rate": 1.92,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Pantheon-TOP",
@@ -448,7 +448,7 @@
     "ban_rate": 2.48,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Gragas-TOP",
@@ -459,7 +459,7 @@
     "ban_rate": 0.24,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Olaf-TOP",
@@ -470,7 +470,7 @@
     "ban_rate": 0.69,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Kindred-TOP",
@@ -481,7 +481,7 @@
     "ban_rate": 0.16,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Hecarim-TOP",
@@ -492,7 +492,7 @@
     "ban_rate": 3.62,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Rengar-TOP",
@@ -503,7 +503,7 @@
     "ban_rate": 0.99,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Ekko-TOP",
@@ -514,7 +514,7 @@
     "ban_rate": 0.09,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Talon-TOP",
@@ -525,7 +525,7 @@
     "ban_rate": 0.32,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Tryndamere-TOP",
@@ -536,7 +536,7 @@
     "ban_rate": 22.96,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Yone-TOP",
@@ -547,7 +547,7 @@
     "ban_rate": 4.99,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Darius-TOP",
@@ -558,7 +558,7 @@
     "ban_rate": 7.33,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Khazix-TOP",
@@ -569,7 +569,7 @@
     "ban_rate": 0.15,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Kayn-TOP",
@@ -580,7 +580,7 @@
     "ban_rate": 0.46,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Graves-TOP",
@@ -591,7 +591,7 @@
     "ban_rate": 1.07,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Zed-TOP",
@@ -602,7 +602,7 @@
     "ban_rate": 1.37,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Ambessa-TOP",
@@ -613,7 +613,7 @@
     "ban_rate": 2.33,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Jax-TOP",
@@ -624,7 +624,7 @@
     "ban_rate": 0.19,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Volibear-TOP",
@@ -635,7 +635,7 @@
     "ban_rate": 2.51,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "MonkeyKing-TOP",
@@ -646,7 +646,7 @@
     "ban_rate": 0.4,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "LeeSin-TOP",
@@ -657,7 +657,18 @@
     "ban_rate": 7.28,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
+  },
+  {
+    "id": "Skarner-TOP",
+    "champion_name": "スカーナー",
+    "champion_name_en": "Skarner",
+    "win_rate": 51,
+    "pick_rate": 5,
+    "ban_rate": 5,
+    "tier": "A",
+    "role": "TOP",
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Taliyah-TOP",
@@ -668,7 +679,7 @@
     "ban_rate": 50.23,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "TwistedFate-TOP",
@@ -679,7 +690,7 @@
     "ban_rate": 0.35,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Xerath-TOP",
@@ -690,7 +701,7 @@
     "ban_rate": 0.93,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Brand-TOP",
@@ -701,7 +712,7 @@
     "ban_rate": 7.64,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Norra-TOP",
@@ -712,7 +723,7 @@
     "ban_rate": 60.25,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Zyra-TOP",
@@ -723,7 +734,7 @@
     "ban_rate": 22.71,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Kennen-TOP",
@@ -734,7 +745,7 @@
     "ban_rate": 0.33,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Swain-TOP",
@@ -745,7 +756,7 @@
     "ban_rate": 2.51,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Teemo-TOP",
@@ -756,7 +767,7 @@
     "ban_rate": 18.49,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Morgana-TOP",
@@ -767,7 +778,7 @@
     "ban_rate": 24.3,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Ahri-TOP",
@@ -778,7 +789,7 @@
     "ban_rate": 0.09,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Nasus-TOP",
@@ -789,7 +800,7 @@
     "ban_rate": 3.75,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Ryze-TOP",
@@ -800,7 +811,7 @@
     "ban_rate": 4.49,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Lux-TOP",
@@ -811,7 +822,7 @@
     "ban_rate": 17.13,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Veigar-TOP",
@@ -822,7 +833,7 @@
     "ban_rate": 13.75,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Zed-TOP",
@@ -833,7 +844,7 @@
     "ban_rate": 1.37,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Galio-TOP",
@@ -844,7 +855,7 @@
     "ban_rate": 1.72,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Kassadin-TOP",
@@ -855,7 +866,7 @@
     "ban_rate": 0.28,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Aurora-TOP",
@@ -866,7 +877,7 @@
     "ban_rate": 6.89,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "AurelionSol-TOP",
@@ -877,7 +888,7 @@
     "ban_rate": 3.25,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Orianna-TOP",
@@ -888,7 +899,7 @@
     "ban_rate": 0.15,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Lissandra-TOP",
@@ -899,7 +910,7 @@
     "ban_rate": 4.29,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Ziggs-TOP",
@@ -910,7 +921,7 @@
     "ban_rate": 2.06,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Syndra-TOP",
@@ -921,7 +932,7 @@
     "ban_rate": 2.42,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Annie-TOP",
@@ -932,7 +943,7 @@
     "ban_rate": 0.09,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Yasuo-TOP",
@@ -943,7 +954,7 @@
     "ban_rate": 11.85,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Velkoz-TOP",
@@ -954,7 +965,7 @@
     "ban_rate": 0.63,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Vex-TOP",
@@ -965,7 +976,7 @@
     "ban_rate": 0.56,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Fizz-TOP",
@@ -976,7 +987,7 @@
     "ban_rate": 3.88,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Malphite-TOP",
@@ -987,7 +998,7 @@
     "ban_rate": 17.51,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Mel-TOP",
@@ -998,7 +1009,7 @@
     "ban_rate": 76.62,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Heimerdinger-TOP",
@@ -1009,7 +1020,7 @@
     "ban_rate": 1.01,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Yone-TOP",
@@ -1020,7 +1031,7 @@
     "ban_rate": 4.99,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Smolder-TOP",
@@ -1031,7 +1042,7 @@
     "ban_rate": 18.44,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Vladimir-TOP",
@@ -1042,7 +1053,7 @@
     "ban_rate": 1.86,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Diana-TOP",
@@ -1053,7 +1064,7 @@
     "ban_rate": 0.08,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Jayce-TOP",
@@ -1064,7 +1075,7 @@
     "ban_rate": 0.64,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Ekko-TOP",
@@ -1075,7 +1086,7 @@
     "ban_rate": 0.09,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Katarina-TOP",
@@ -1086,7 +1097,7 @@
     "ban_rate": 0.32,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Akali-TOP",
@@ -1097,7 +1108,7 @@
     "ban_rate": 0.26,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.370Z"
+    "created_at": "2026-06-13T08:09:31.146Z"
   },
   {
     "id": "Galio-SUPPORT",
@@ -1108,7 +1119,7 @@
     "ban_rate": 1.68,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Zilean-SUPPORT",
@@ -1119,7 +1130,7 @@
     "ban_rate": 1.41,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Sett-SUPPORT",
@@ -1130,7 +1141,7 @@
     "ban_rate": 2.79,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Norra-SUPPORT",
@@ -1141,7 +1152,7 @@
     "ban_rate": 59.7,
     "tier": "S",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Leona-SUPPORT",
@@ -1152,7 +1163,7 @@
     "ban_rate": 6.81,
     "tier": "S",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Maokai-SUPPORT",
@@ -1163,7 +1174,7 @@
     "ban_rate": 0.4,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Zyra-SUPPORT",
@@ -1174,7 +1185,7 @@
     "ban_rate": 22.23,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Braum-SUPPORT",
@@ -1185,7 +1196,7 @@
     "ban_rate": 1.09,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Rell-SUPPORT",
@@ -1196,7 +1207,7 @@
     "ban_rate": 2.19,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Soraka-SUPPORT",
@@ -1207,7 +1218,7 @@
     "ban_rate": 1.48,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Nami-SUPPORT",
@@ -1218,7 +1229,7 @@
     "ban_rate": 0.13,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Nautilus-SUPPORT",
@@ -1229,7 +1240,7 @@
     "ban_rate": 6.59,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Karma-SUPPORT",
@@ -1240,7 +1251,7 @@
     "ban_rate": 0.32,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Blitzcrank-SUPPORT",
@@ -1251,7 +1262,7 @@
     "ban_rate": 2.32,
     "tier": "A",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Janna-SUPPORT",
@@ -1262,7 +1273,7 @@
     "ban_rate": 0.09,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Brand-SUPPORT",
@@ -1273,7 +1284,7 @@
     "ban_rate": 7.77,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Milio-SUPPORT",
@@ -1284,7 +1295,7 @@
     "ban_rate": 3.5,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Malphite-SUPPORT",
@@ -1295,7 +1306,7 @@
     "ban_rate": 17.36,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Lulu-SUPPORT",
@@ -1306,7 +1317,7 @@
     "ban_rate": 6.13,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Sona-SUPPORT",
@@ -1317,7 +1328,7 @@
     "ban_rate": 0.03,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Velkoz-SUPPORT",
@@ -1328,7 +1339,7 @@
     "ban_rate": 0.63,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Morgana-SUPPORT",
@@ -1339,7 +1350,7 @@
     "ban_rate": 24.09,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Senna-SUPPORT",
@@ -1350,7 +1361,7 @@
     "ban_rate": 0.7,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Pyke-SUPPORT",
@@ -1361,7 +1372,7 @@
     "ban_rate": 1.67,
     "tier": "B",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Alistar-SUPPORT",
@@ -1372,7 +1383,7 @@
     "ban_rate": 0.47,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Ornn-SUPPORT",
@@ -1383,7 +1394,7 @@
     "ban_rate": 0.19,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Lux-SUPPORT",
@@ -1394,7 +1405,7 @@
     "ban_rate": 17.07,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Seraphine-SUPPORT",
@@ -1405,7 +1416,7 @@
     "ban_rate": 0.59,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Veigar-SUPPORT",
@@ -1416,7 +1427,7 @@
     "ban_rate": 13.63,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Rakan-SUPPORT",
@@ -1427,7 +1438,7 @@
     "ban_rate": 0.21,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Swain-SUPPORT",
@@ -1438,7 +1449,7 @@
     "ban_rate": 2.57,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Thresh-SUPPORT",
@@ -1449,7 +1460,7 @@
     "ban_rate": 4.17,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Bard-SUPPORT",
@@ -1460,7 +1471,7 @@
     "ban_rate": 0.35,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Yuumi-SUPPORT",
@@ -1471,7 +1482,7 @@
     "ban_rate": 24.42,
     "tier": "C",
     "role": "SUPPORT",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "MonkeyKing-TOP",
@@ -1482,7 +1493,7 @@
     "ban_rate": 0.4,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Teemo-TOP",
@@ -1493,7 +1504,7 @@
     "ban_rate": 18.49,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Sion-TOP",
@@ -1504,7 +1515,7 @@
     "ban_rate": 0.39,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Ambessa-TOP",
@@ -1515,7 +1526,7 @@
     "ban_rate": 2.33,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "KSante-TOP",
@@ -1526,7 +1537,7 @@
     "ban_rate": 65.55,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Vayne-TOP",
@@ -1537,7 +1548,7 @@
     "ban_rate": 13.27,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Sett-TOP",
@@ -1548,7 +1559,7 @@
     "ban_rate": 2.75,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Poppy-TOP",
@@ -1559,7 +1570,7 @@
     "ban_rate": 0.24,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Nautilus-TOP",
@@ -1570,7 +1581,7 @@
     "ban_rate": 6.65,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Garen-TOP",
@@ -1581,7 +1592,7 @@
     "ban_rate": 7.1,
     "tier": "S",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Kalista-TOP",
@@ -1592,7 +1603,7 @@
     "ban_rate": 3.23,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Ryze-TOP",
@@ -1603,7 +1614,7 @@
     "ban_rate": 4.49,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Singed-TOP",
@@ -1614,7 +1625,7 @@
     "ban_rate": 0.25,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Rumble-TOP",
@@ -1625,7 +1636,7 @@
     "ban_rate": 0.5,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Shen-TOP",
@@ -1636,7 +1647,7 @@
     "ban_rate": 0.06,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "DrMundo-TOP",
@@ -1647,7 +1658,7 @@
     "ban_rate": 1.06,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Malphite-TOP",
@@ -1658,7 +1669,7 @@
     "ban_rate": 17.51,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Kennen-TOP",
@@ -1669,7 +1680,7 @@
     "ban_rate": 0.33,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Ornn-TOP",
@@ -1680,7 +1691,7 @@
     "ban_rate": 0.17,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Tryndamere-TOP",
@@ -1691,7 +1702,7 @@
     "ban_rate": 22.96,
     "tier": "A",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Renekton-TOP",
@@ -1702,7 +1713,7 @@
     "ban_rate": 0.3,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Nasus-TOP",
@@ -1713,7 +1724,7 @@
     "ban_rate": 3.75,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Volibear-TOP",
@@ -1724,7 +1735,7 @@
     "ban_rate": 2.51,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Kayle-TOP",
@@ -1735,7 +1746,7 @@
     "ban_rate": 0.36,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Jayce-TOP",
@@ -1746,7 +1757,7 @@
     "ban_rate": 0.64,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Smolder-TOP",
@@ -1757,7 +1768,7 @@
     "ban_rate": 18.44,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Gnar-TOP",
@@ -1768,7 +1779,7 @@
     "ban_rate": 0.24,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Yone-TOP",
@@ -1779,7 +1790,7 @@
     "ban_rate": 4.99,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Urgot-TOP",
@@ -1790,7 +1801,7 @@
     "ban_rate": 3.21,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Jax-TOP",
@@ -1801,7 +1812,7 @@
     "ban_rate": 0.19,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Irelia-TOP",
@@ -1812,7 +1823,7 @@
     "ban_rate": 0.92,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Aatrox-TOP",
@@ -1823,7 +1834,7 @@
     "ban_rate": 5.21,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Mordekaiser-TOP",
@@ -1834,7 +1845,7 @@
     "ban_rate": 13.87,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Darius-TOP",
@@ -1845,7 +1856,7 @@
     "ban_rate": 7.33,
     "tier": "B",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Gwen-TOP",
@@ -1856,7 +1867,7 @@
     "ban_rate": 0.31,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Camille-TOP",
@@ -1867,7 +1878,7 @@
     "ban_rate": 0.08,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Yasuo-TOP",
@@ -1878,7 +1889,7 @@
     "ban_rate": 11.85,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Riven-TOP",
@@ -1889,7 +1900,7 @@
     "ban_rate": 0.34,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Fiora-TOP",
@@ -1900,7 +1911,7 @@
     "ban_rate": 0.49,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
   },
   {
     "id": "Vladimir-TOP",
@@ -1911,6 +1922,17 @@
     "ban_rate": 1.86,
     "tier": "C",
     "role": "TOP",
-    "created_at": "2026-05-30T03:28:44.371Z"
+    "created_at": "2026-06-13T08:09:31.147Z"
+  },
+  {
+    "id": "Skarner-TOP",
+    "champion_name": "スカーナー",
+    "champion_name_en": "Skarner",
+    "win_rate": 51.5,
+    "pick_rate": 3.5,
+    "ban_rate": 5,
+    "tier": "A",
+    "role": "TOP",
+    "created_at": "2026-06-13T08:09:31.147Z"
   }
 ]

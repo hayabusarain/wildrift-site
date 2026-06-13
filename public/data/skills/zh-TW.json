@@ -1531,5 +1531,208 @@
       },
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/spell/UrgotR.png"
     }
+  ],
+  "Skarner": [
+    {
+      "id": "P",
+      "name": "Threads of Vibration",
+      "tags": [
+        "自動効果",
+        "魔法"
+      ],
+      "cooldown_text": null,
+      "description": "Skarner's attacks, Shattered Earth, Upheaval, and Impale apply Quaking to enemies for 4 seconds (max 3 stacks).\nAt 3 stacks, Quaking deals 5%-10% max HP magic damage over its duration.\nDeals 100-450 max damage to monsters.",
+      "table": null,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/passive/Skarner_Passive.png"
+    },
+    {
+      "id": "Q",
+      "name": "Shattered Earth",
+      "tags": [
+        "スロウ",
+        "物理"
+      ],
+      "cooldown_text": "6.8秒",
+      "description": "First Cast: Skarner rips a boulder from the earth, empowering his next 3 attacks. He gains 25% Attack Speed and deals 15 (+100% bonus AD)(+4% bonus HP) physical damage to nearby enemies.\nThe 3rd attack deals bonus physical damage equal to 9% max HP and slows by 40% for 1s.\nRecast (Upheaval): Skarner throws the boulder. It explodes on the first enemy hit, dealing 15 (+100% bonus AD)(+4% bonus HP) + 9% max HP physical damage and slowing by 40% for 1s.",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "6.8",
+              "5.5",
+              "4.3",
+              "3"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "15",
+              "30",
+              "45",
+              "60"
+            ]
+          },
+          {
+            "label": "攻撃速度",
+            "values": [
+              "25%",
+              "30%",
+              "35%",
+              "40%"
+            ]
+          },
+          {
+            "label": "モンスターに対する最大ダメージ",
+            "values": [
+              "200",
+              "250",
+              "300",
+              "350"
+            ]
+          }
+        ]
+      },
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/spell/SkarnerQ.png"
+    },
+    {
+      "id": "W",
+      "name": "Seismic Bastion",
+      "tags": [
+        "バフ",
+        "魔法"
+      ],
+      "cooldown_text": "9秒",
+      "description": "Skarner gains a shield equal to 8% max HP for 2.5 seconds and causes an earthquake, dealing 50 (+80% AP) magic damage and slowing nearby enemies by 20% for 1s.",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "9",
+              "8",
+              "7",
+              "6"
+            ]
+          },
+          {
+            "label": "コスト",
+            "values": [
+              "60",
+              "65",
+              "70",
+              "75"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "50",
+              "70",
+              "90",
+              "110"
+            ]
+          }
+        ]
+      },
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/spell/SkarnerW.png"
+    },
+    {
+      "id": "E",
+      "name": "Ixtal's Impact",
+      "tags": [
+        "妨害",
+        "ダッシュ"
+      ],
+      "cooldown_text": "20秒",
+      "description": "First Cast: Skarner charges forward, ignoring terrain. If he collides with an enemy champion or large monster, he grabs them and carries them for the rest of the charge.\nIf he drags them into a wall, they take 102 (60 + 120% bonus AD + 6% max HP) physical damage and are stunned for 1.5s.\nRecast: End the charge early.\nColliding with a wall reduces the cooldown by 35%.",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3",
+          "LV 4"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "20",
+              "18",
+              "16",
+              "14"
+            ]
+          },
+          {
+            "label": "コスト",
+            "values": [
+              "50",
+              "55",
+              "60",
+              "65"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "60",
+              "90",
+              "120",
+              "150"
+            ]
+          }
+        ]
+      },
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/spell/SkarnerE.png"
+    },
+    {
+      "id": "R",
+      "name": "Impale",
+      "tags": [
+        "妨害",
+        "魔法"
+      ],
+      "cooldown_text": "80秒",
+      "description": "Skarner lashes his tails forward, dealing 150 (+100% AP) magic damage to the first 3 enemy champions hit and suppressing them for 1.5s.\nSuppressed targets are dragged with Skarner.\nIf he hits at least one champion:\n- Gains 40% Move Speed for 1.5s.\n- If Shattered Earth is active, he immediately casts Upheaval.",
+      "table": {
+        "headers": [
+          "LV 1",
+          "LV 2",
+          "LV 3"
+        ],
+        "rows": [
+          {
+            "label": "クールダウン",
+            "values": [
+              "80",
+              "70",
+              "60"
+            ]
+          },
+          {
+            "label": "基本ダメージ",
+            "values": [
+              "150",
+              "250",
+              "350"
+            ]
+          }
+        ]
+      },
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/spell/SkarnerR.png"
+    }
   ]
 }

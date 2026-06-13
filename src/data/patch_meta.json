@@ -45,6 +45,11 @@
     "prediction_en": "This patch focuses on reigning in overly dominant champions while uplifting struggling ones. Nerfs to top-tier regulars like K'Sante, Viego, and Taliyah will encourage wider pick diversity. Conversely, buffs to Shen, Kayle, and Akshan will shake up trading dynamics in the Top and Mid lanes, creating new favorable matchups and altering the meta landscape."
   },
   {
+    "version": "7.2g",
+    "prediction_ja": "スカーナーの登場によりジャングルやトップでのCC・エンゲージ能力が高いピックが増加するでしょう。また、ゾーイやダイアナ、ハイマーディンガーといったメイジ・アサシン系のチャンピオンが強化されたことで、ミッドやジャングルでの影響力が高まります。アイテムではインフィニティエッジの強化によりクリティカル系マークスマンの後半のキャリー力が増し、ブラッククリーバーの強化によって物理ファイターのタンク溶かし能力が向上しました。ルーンとシステムの調整（打ちこわしや赤バフの弱体化）により、序盤のバーストやタワーへの過剰なプレッシャーが緩和され、より長めの集団戦や継続的なプレイが求められるメタにシフトする見込みです。",
+    "prediction_en": "The introduction of Skarner brings heavy CC and engage to the jungle and top lane. Buffs to Zoe, Diana, and Heimerdinger will elevate their presence in the mid lane and jungle. For items, the Infinity Edge buff strengthens critical strike marksmen in the late game, while the Black Cleaver buff improves AD fighters' tank-shredding capabilities. System adjustments, including nerfs to Demolish and Red Buff's burn damage, will reduce early burst and excessive tower pressure, shifting the meta towards more extended teamfights and sustained play."
+  },
+  {
     "version": "7.1e",
     "prediction_ja": "このパッチ7.1eでは、新チャンピオン「タリヤ」の参戦と、一部チャンピオンのバランス調整が行われます。ガレンの耐久力やシヴァーナのスノーボール性能が適正化される一方で、バードやグレイブス、ケインといったチャンピオンの序盤・中盤のパフォーマンスが強化されます。また、ランデュインオーメンの強化により、ADキャリーへのカウンターとしてのタンクの役割がさらに重要になります。全体として、タンクや中盤のテンポを重視した構成が環境の中心になると予想されます。",
     "prediction_en": "In Patch 7.1e, the new champion Taliyah joins the rift alongside balance adjustments for several champions. While Garen's durability and Shyvana's snowball potential are tuned down, early to mid-game performers like Bard, Graves, and Kayn receive meaningful buffs. Furthermore, the buff to Randuin's Omen strengthens the role of tanks as a counter to AD carries. Overall, team compositions focusing on tanks and mid-game tempo are expected to dominate the meta."

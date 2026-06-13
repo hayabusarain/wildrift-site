@@ -52,7 +52,8 @@ const rawData = [
   { cn: "疾风剑豪", jp: "ヤスオ", en: "Yasuo", win: 47.94, pick: 2.80, ban: 11.85 },
   { cn: "放逐之刃", jp: "リヴェン", en: "Riven", win: 47.76, pick: 1.95, ban: 0.34 },
   { cn: "无双剑姬", jp: "フィオラ", en: "Fiora", win: 47.70, pick: 2.35, ban: 0.49 },
-  { cn: "猩红收割者", jp: "ブラッドミア", en: "Vladimir", win: 45.37, pick: 1.62, ban: 1.86 }
+  { cn: "猩红收割者", jp: "ブラッドミア", en: "Vladimir", win: 45.37, pick: 1.62, ban: 1.86 },
+  { cn: "斯卡纳", jp: "スカーナー", en: "Skarner", win: 51.5, pick: 3.5, ban: 5.0 }
 ];
 
 function calculateTier(winRate, pickRate, banRate) {
