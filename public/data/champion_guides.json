@@ -1,0 +1,2930 @@
+{
+  "Aatrox": {
+    "strengths": [
+      "高いサステイン",
+      "集団戦での広範囲大ダメージ"
+    ],
+    "strengthsEn": [
+      "High sustain",
+      "Massive AoE damage in fights"
+    ],
+    "weaknesses": [
+      "スキルの先端当てに依存する",
+      "回復阻害に弱い"
+    ],
+    "weaknessesEn": [
+      "Reliant on landing sweet spots",
+      "Weak against anti-heal"
+    ],
+    "playstyle": "レーンを維持しつつ、集団戦では前線で暴れ回りながらダメージと回復を両立させる。",
+    "playstyleEn": "Maintain lane presence and act as a frontline juggernaut in teamfights, dealing damage while sustaining."
+  },
+  "Ahri": {
+    "strengths": [
+      "機動力が高い",
+      "バーストとキャッチ能力に優れる"
+    ],
+    "strengthsEn": [
+      "High mobility",
+      "Great burst and catch potential"
+    ],
+    "weaknesses": [
+      "方向指定スキルに依存する",
+      "アルティメットが無い時は無防備"
+    ],
+    "weaknessesEn": [
+      "Skillshot reliant",
+      "Vulnerable when ultimate is down"
+    ],
+    "playstyle": "機動力を活かして孤立した敵を狙い、柔らかいターゲットを暗殺する。",
+    "playstyleEn": "Use your mobility to find picks and assassinate squishy targets."
+  },
+  "Akali": {
+    "strengths": [
+      "圧倒的なバーストダメージ",
+      "煙幕による高い生存能力"
+    ],
+    "strengthsEn": [
+      "Exceptional burst damage",
+      "High survivability with Twilight Shroud"
+    ],
+    "weaknesses": [
+      "序盤が弱い",
+      "高い操作スキルが求められる"
+    ],
+    "weaknessesEn": [
+      "Weak early game",
+      "Requires good mechanical skill"
+    ],
+    "playstyle": "序盤のレーン戦を耐え抜き、集団戦では敵の後衛に飛び込む機会をうかがう。",
+    "playstyleEn": "Survive the early lane phase and look for opportunities to dive the backline in teamfights."
+  },
+  "Alistar": {
+    "strengths": [
+      "非常に硬い",
+      "強力なエンゲージとCC"
+    ],
+    "strengthsEn": [
+      "Incredible tankiness",
+      "Strong engage and CC"
+    ],
+    "weaknesses": [
+      "近接攻撃のみ",
+      "序盤のスキルクールダウンが長い"
+    ],
+    "weaknessesEn": [
+      "Melee range",
+      "High cooldowns early"
+    ],
+    "playstyle": "チームのメインエンゲージとして動き、必要に応じて味方のキャリーを守る。",
+    "playstyleEn": "Act as the primary engage for your team and peel for your carries when needed."
+  },
+  "Amumu": {
+    "strengths": [
+      "広範囲のAoE CC",
+      "ジャングルクリアが早い"
+    ],
+    "strengthsEn": [
+      "Massive AoE CC",
+      "Fast jungle clear"
+    ],
+    "weaknesses": [
+      "マナ消費が激しい",
+      "インベードに弱い"
+    ],
+    "weaknessesEn": [
+      "Mana hungry",
+      "Vulnerable to invades"
+    ],
+    "playstyle": "レベル5までファームし、集団戦では戦局を変えるアルティメットでのエンゲージを狙う。",
+    "playstyleEn": "Farm up to level 5, then look for game-changing ultimate engages in teamfights."
+  },
+  "Ashe": {
+    "strengths": [
+      "グローバルアルティメット",
+      "強力なユーティリティと引き撃ち能力"
+    ],
+    "strengthsEn": [
+      "Global ultimate",
+      "Strong utility and kiting"
+    ],
+    "weaknesses": [
+      "逃げスキルがない",
+      "バーストダメージが低い"
+    ],
+    "weaknessesEn": [
+      "No escape mobility",
+      "Low burst damage"
+    ],
+    "playstyle": "優れた射程とスロウを活かして敵を引き撃ちし、クリスタルアローでチャンスを作る。",
+    "playstyleEn": "Use your superior range and slows to kite enemies while setting up plays with Enchanted Crystal Arrow."
+  },
+  "Blitzcrank": {
+    "strengths": [
+      "戦局を変えるフック",
+      "コンボによる高いバースト"
+    ],
+    "strengthsEn": [
+      "Game-changing hook",
+      "High burst with combo"
+    ],
+    "weaknesses": [
+      "フックの命中率に大きく依存する",
+      "外すと無防備になる"
+    ],
+    "weaknessesEn": [
+      "Heavily reliant on landing hook",
+      "Useless if hook misses"
+    ],
+    "playstyle": "レーン戦では積極的にフックを狙い、主要オブジェクトの前にキャッチを成功させる。",
+    "playstyleEn": "Look for aggressive hooks in lane and secure picks before major objectives."
+  },
+  "Brand": {
+    "strengths": [
+      "壊滅的な範囲ダメージ",
+      "集団戦での強い存在感"
+    ],
+    "strengthsEn": [
+      "Devastating AoE damage",
+      "Strong teamfight presence"
+    ],
+    "weaknesses": [
+      "機動力がない",
+      "柔らかい"
+    ],
+    "weaknessesEn": [
+      "No mobility",
+      "Squishy"
+    ],
+    "playstyle": "安全な位置からスキルをばらまき、パッシブの爆発で敵チーム全体に大ダメージを与える。",
+    "playstyleEn": "Cast spells from a safe distance and use your passive explosion to deal massive damage to the enemy team."
+  },
+  "Braum": {
+    "strengths": [
+      "味方キャリーへの優れたピール能力",
+      "高い防御ステータス"
+    ],
+    "strengthsEn": [
+      "Excellent peel for carries",
+      "Strong defensive stats"
+    ],
+    "weaknesses": [
+      "ダメージが低い",
+      "近接のみ"
+    ],
+    "weaknessesEn": [
+      "Low damage output",
+      "Melee only"
+    ],
+    "playstyle": "味方を守る盾となり、パッシブのスタンを活かして敵の攻撃を無力化する。",
+    "playstyleEn": "Act as a shield for your allies and use your passive stun to neutralize enemy threats."
+  },
+  "Caitlyn": {
+    "strengths": [
+      "最長の通常攻撃射程",
+      "強力なレーン支配力"
+    ],
+    "strengthsEn": [
+      "Longest base attack range",
+      "Strong lane dominance"
+    ],
+    "weaknesses": [
+      "中盤のダメージ不足",
+      "ハードエンゲージに弱い"
+    ],
+    "weaknessesEn": [
+      "Mid game damage slump",
+      "Vulnerable to hard engage"
+    ],
+    "playstyle": "遠距離からレーンの対面をいじめ、トラップを使ってオブジェクトをコントロールする。",
+    "playstyleEn": "Bully your lane opponent from afar and control objectives using your traps."
+  },
+  "Camille": {
+    "strengths": [
+      "驚異的な単体拘束力",
+      "強力なスプリットプッシュ"
+    ],
+    "strengthsEn": [
+      "Incredible single target lockdown",
+      "Strong split push"
+    ],
+    "weaknesses": [
+      "高い操作スキルが必要",
+      "フックショットを外すと無防備"
+    ],
+    "weaknessesEn": [
+      "High mechanical skill floor",
+      "Vulnerable if hookshot is missed"
+    ],
+    "playstyle": "サイドレーンで圧力をかけ、集団戦ではアルティメットで重要なターゲットを確実に仕留める。",
+    "playstyleEn": "Apply pressure in side lanes and use your ultimate to lock down and eliminate priority targets in teamfights."
+  },
+  "Darius": {
+    "strengths": [
+      "レーン戦で非常に強力",
+      "キルリセットによる集団戦での大暴れが可能"
+    ],
+    "strengthsEn": [
+      "Huge lane bully",
+      "Massive teamfight potential with resets"
+    ],
+    "weaknesses": [
+      "カイトされやすい",
+      "機動力が低い"
+    ],
+    "weaknessesEn": [
+      "Easily kited",
+      "Low mobility"
+    ],
+    "playstyle": "レーンを支配し、ターゲットにスタックを5つ素早く溜めて集団戦を制圧する。",
+    "playstyleEn": "Dominate your lane and look to secure five stacks on a target to quickly take over teamfights."
+  },
+  "Diana": {
+    "strengths": [
+      "高いバーストダメージ",
+      "戦局を変える範囲アルティメット"
+    ],
+    "strengthsEn": [
+      "High burst damage",
+      "Game-changing AoE ultimate"
+    ],
+    "weaknesses": [
+      "序盤のレーン戦が弱い",
+      "逃げスキルのないオールイン主体"
+    ],
+    "weaknessesEn": [
+      "Weak early lane",
+      "All-in playstyle with no escape"
+    ],
+    "playstyle": "レベル5以降のバーストを活かし、集団戦では複数人にアルティメットを当てて壊滅させる。",
+    "playstyleEn": "Capitalize on your level 5 power spike and aim for multi-man ultimates to decimate teamfights."
+  },
+  "DrMundo": {
+    "strengths": [
+      "凄まじい体力回復",
+      "CCが効きにくい"
+    ],
+    "strengthsEn": [
+      "Immense health regeneration",
+      "Hard to CC"
+    ],
+    "weaknesses": [
+      "ハードCCを持たない",
+      "回復阻害に弱い"
+    ],
+    "weaknessesEn": [
+      "No hard CC",
+      "Weak against anti-heal"
+    ],
+    "playstyle": "チームのダメージを吸収し、体力を回復しながら敵のキャリーを追い詰める。",
+    "playstyleEn": "Absorb damage for your team and run down the enemy carries while regenerating health."
+  },
+  "Draven": {
+    "strengths": [
+      "序盤の圧倒的なダメージ",
+      "スノーボール能力が高い"
+    ],
+    "strengthsEn": [
+      "Unmatched early game damage",
+      "Snowball potential"
+    ],
+    "weaknesses": [
+      "斧を拾うため動きが予測されやすい",
+      "スノーボールが必須"
+    ],
+    "weaknessesEn": [
+      "Catching axes makes movement predictable",
+      "Needs to snowball"
+    ],
+    "playstyle": "レーン戦でアグレッシブに立ち回り、パッシブを換金して試合を支配するスノーボールを狙う。",
+    "playstyleEn": "Play aggressively in lane to cash in your passive and snowball the game out of control."
+  },
+  "Ekko": {
+    "strengths": [
+      "高いバーストと機動力",
+      "失敗を帳消しにできるアルティメット"
+    ],
+    "strengthsEn": [
+      "High burst and mobility",
+      "\"Get out of jail free\" ultimate"
+    ],
+    "weaknesses": [
+      "捕まると柔らかい",
+      "スタンの発動に準備が必要"
+    ],
+    "weaknessesEn": [
+      "Squishy if caught",
+      "Requires setup for stun"
+    ],
+    "playstyle": "集団戦の端で立ち回りつつ後衛に飛び込み、アルティメットを使って安全に離脱する。",
+    "playstyleEn": "Skirmish around the edges of fights and dive the backline, using your ultimate to escape safely."
+  },
+  "Evelynn": {
+    "strengths": [
+      "常時ステルス",
+      "高いバーストダメージ"
+    ],
+    "strengthsEn": [
+      "Permanent invisibility",
+      "High burst damage"
+    ],
+    "weaknesses": [
+      "非常に柔らかい",
+      "レベル5未満では弱い"
+    ],
+    "weaknessesEn": [
+      "Extremely squishy",
+      "Weak before level 5"
+    ],
+    "playstyle": "ステルスを活かしてワードを回避し、集団戦が始まる前に孤立したターゲットを暗殺する。",
+    "playstyleEn": "Use your stealth to bypass wards and assassinate isolated targets before teamfights break out."
+  },
+  "Ezreal": {
+    "strengths": [
+      "高いポークダメージ",
+      "ブリンクスキルによる高い安全性"
+    ],
+    "strengthsEn": [
+      "High poke damage",
+      "Very safe with Arcane Shift"
+    ],
+    "weaknesses": [
+      "方向指定スキルに依存する",
+      "タンクに対する継続火力が不足しがち"
+    ],
+    "weaknessesEn": [
+      "Skillshot reliant",
+      "Lacks consistent DPS against tanks"
+    ],
+    "playstyle": "安全な距離から敵をポークし、明確な有利がある時のみ前に出て攻撃する。",
+    "playstyleEn": "Poke enemies down from a safe distance and only commit forward when you have a clear advantage."
+  },
+  "Fiddlesticks": {
+    "strengths": [
+      "集団戦での圧倒的なAOEダメージとCC",
+      "視界外からの奇襲が非常に強力",
+      "ジャングル周回が早く体力維持が容易"
+    ],
+    "strengthsEn": [
+      "Overwhelming AOE damage and CC in teamfights",
+      "Extremely powerful ambushes from out of vision",
+      "Fast jungle clears with healthy sustain"
+    ],
+    "weaknesses": [
+      "視界を取られるとアルティメットの脅威が半減する",
+      "序盤の1v1での戦闘力が低い",
+      "CCでスキルを中断されやすい"
+    ],
+    "weaknessesEn": [
+      "Ultimate threat is halved when spotted by vision",
+      "Weak 1v1 combat power in the early game",
+      "Channeling skills can be easily interrupted by CC"
+    ],
+    "playstyle": "常に敵の視界外に潜み、アルティメットの「クロウストーム」で敵チーム全体に壊滅的なダメージを与えることを狙うアサシンメイジ。トリンケットやコントロールワードを駆使して視界をコントロールすることが最も重要です。",
+    "playstyleEn": "An assassin mage who constantly lurks out of enemy vision to deal devastating damage to the entire enemy team with his ultimate, Crowstorm. Controlling vision using trinkets and control wards is of utmost importance."
+  },
+  "Fizz": {
+    "strengths": [
+      "対象指定不可スキルによる高い生存能力と機動力",
+      "単体に対する非常に高いバーストダメージ",
+      "アルティメットによる長距離からのエンゲージが可能"
+    ],
+    "strengthsEn": [
+      "High survivability and mobility with untargetable skill",
+      "Extremely high burst damage against single targets",
+      "Can engage from long range using ultimate"
+    ],
+    "weaknesses": [
+      "序盤のレーン戦でハラスを受けやすい",
+      "スキルを使い切った後の隙が大きい",
+      "ウェーブクリア能力が低い"
+    ],
+    "weaknessesEn": [
+      "Susceptible to harass in early laning phase",
+      "Vulnerable after using all skills",
+      "Low wave clear ability"
+    ],
+    "playstyle": "「プレイフル/トリックスター」の対象指定不可を活かして敵の攻撃を避けつつ、一瞬で敵のキャリーを暗殺するアサシン。レベル6以降のアルティメットからのキルポテンシャルは非常に高く、スノーボールを得意とします。",
+    "playstyleEn": "An assassin who uses the untargetable property of Playful/Trickster to dodge enemy attacks while instantly assassinating enemy carries. His kill potential after level 6 with his ultimate is very high, excelling at snowballing."
+  },
+  "Fiora": {
+    "strengths": [
+      "急所を突くことによる高い継続ダメージと回復",
+      "「パリィ」であらゆるCCとダメージを無効化できる",
+      "スプリットプッシュと1v1のタイマン性能が最強クラス"
+    ],
+    "strengthsEn": [
+      "High sustained damage and healing by striking Vitals",
+      "Can negate any CC and damage with Riposte",
+      "Top tier split pushing and 1v1 dueling capabilities"
+    ],
+    "weaknesses": [
+      "集団戦での影響力が出しにくい",
+      "プレイヤーの操作スキルへの依存度が非常に高い",
+      "CCチェーンに弱くフォーカスされると脆い"
+    ],
+    "weaknessesEn": [
+      "Hard to make an impact in 5v5 teamfights",
+      "Highly dependent on player's mechanical skill",
+      "Weak against CC chains and fragile when focused"
+    ],
+    "playstyle": "敵の急所を的確に攻撃し、圧倒的な1v1性能でサイドレーンを支配するスプリットプッシャー。敵の重要なスキルを「パリィ」で防ぎつつ反撃する、高いメカニクスが求められるチャンピオンです。",
+    "playstyleEn": "A split pusher who dominates side lanes with overwhelming 1v1 potential by accurately striking enemy Vitals. A champion requiring high mechanics, blocking key enemy skills with Riposte and countering."
+  },
+  "Gragas": {
+    "strengths": [
+      "豊富なCCと高いバーストダメージ",
+      "パッシブによる高いサステイン能力",
+      "アルティメットによる陣形破壊能力"
+    ],
+    "strengthsEn": [
+      "Abundant CC and high burst damage",
+      "High sustain from passive",
+      "Formation disruption capability with ultimate"
+    ],
+    "weaknesses": [
+      "スキルショットへの依存度が高い",
+      "スキルがクールダウン中の戦闘力が低い",
+      "機動力がスキルに依存している"
+    ],
+    "weaknessesEn": [
+      "High reliance on skillshots",
+      "Low combat power while skills are on cooldown",
+      "Mobility relies entirely on a skill"
+    ],
+    "playstyle": "高いバーストダメージと豊富なCCを活かして、敵をキャッチしたり集団戦の陣形を崩すことができるAPブルーザー。アルティメットの「ワイルドボア」で敵のキャリーを味方の陣地に吹き飛ばすプレイが強力です。",
+    "playstyleEn": "An AP bruiser who can catch enemies and disrupt teamfight formations with high burst damage and abundant CC. Using his ultimate, Explosive Cask, to knock enemy carries into the allied team is highly effective."
+  },
+  "Graves": {
+    "strengths": [
+      "ジャングル周回が早く体力も高く保てる",
+      "アーマー増加による物理ダメージに対する高い耐久力",
+      "高いバーストダメージとスノーボール能力"
+    ],
+    "strengthsEn": [
+      "Fast jungle clear with high health sustain",
+      "High durability against physical damage due to armor stacking",
+      "High burst damage and snowballing potential"
+    ],
+    "weaknesses": [
+      "魔法ダメージやCCに対して脆い",
+      "射程が短くカイトされやすい",
+      "ミニオンを貫通して攻撃できない"
+    ],
+    "weaknessesEn": [
+      "Fragile against magic damage and CC",
+      "Short attack range makes him susceptible to kiting",
+      "Cannot shoot through minions"
+    ],
+    "playstyle": "ショットガンによる独特の通常攻撃を持ち、ジャングルを素早く周回してレベルとゴールドで差をつけるキャリー型ジャングラー。近距離でのバーストダメージが非常に高く、敵のジャングルを荒らすのも得意です。",
+    "playstyleEn": "A carry-style jungler with unique shotgun basic attacks, creating level and gold advantages through fast clearing. He boasts extremely high burst damage at close range and excels at invading the enemy jungle."
+  },
+  "Galio": {
+    "strengths": [
+      "対魔法ダメージに対する高い耐久力",
+      "広範囲の強力なCCとエンゲージ能力",
+      "アルティメットによる長距離からの味方へのカバー"
+    ],
+    "strengthsEn": [
+      "High durability against magic damage",
+      "Wide-area strong CC and engage tools",
+      "Long-range ally cover with his ultimate"
+    ],
+    "weaknesses": [
+      "物理ダメージ主体の構成に対しては少し弱い",
+      "スキルを使った後の継続戦闘能力が低い",
+      "スキルモーションが大きく避けられやすい"
+    ],
+    "weaknessesEn": [
+      "Slightly weaker against physical damage heavy comps",
+      "Low sustained combat power after using abilities",
+      "Skill animations are telegraphed and easy to dodge"
+    ],
+    "playstyle": "味方を守りながら強力なCCで敵を拘束するアンチメイジタンク。アルティメットの「英雄降臨」で遠くから味方の戦闘に合流し、一気に戦局をひっくり返すことができます。",
+    "playstyleEn": "An anti-mage tank who protects allies while locking down enemies with powerful CC. His ultimate, Hero's Entrance, allows him to join fights from afar and instantly turn the tide of battle."
+  },
+  "Garen": {
+    "strengths": [
+      "操作がシンプルで初心者にも扱いやすい",
+      "パッシブによる高いレーン維持能力",
+      "対象指定のサイレンスと確定ダメージのアルティメット"
+    ],
+    "strengthsEn": [
+      "Simple to play and beginner-friendly",
+      "High lane sustain from passive",
+      "Targeted silence and true damage ultimate"
+    ],
+    "weaknesses": [
+      "接近する手段が少なくカイトされやすい",
+      "ハードCCを持たないため味方に依存しがち",
+      "序盤の遠距離攻撃に対する対抗手段が乏しい"
+    ],
+    "weaknessesEn": [
+      "Lacks gap closers and is easily kited",
+      "Lacks hard CC, making him somewhat team-dependent",
+      "Limited counterplay against ranged attacks early game"
+    ],
+    "playstyle": "高い耐久力と継続ダメージで敵陣をかき乱すジャガーノート。体力が減った敵に対してはアルティメットの「デマーシアの正義」で確実にキルを回収し、フロントラインとしてチームを牽引します。",
+    "playstyleEn": "A juggernaut who disrupts the enemy backline with high durability and sustained damage. He secures kills on low-health enemies with his ultimate, Demacian Justice, leading the team as a frontline."
+  },
+  "Gnar": {
+    "strengths": [
+      "ミニナー時のポークと機動力、メガナー時の高い耐久力とCC",
+      "ノーコストでマナ管理が不要",
+      "メガナー時の集団戦における圧倒的な影響力"
+    ],
+    "strengthsEn": [
+      "Poke and mobility as Mini Gnar, high durability and CC as Mega Gnar",
+      "Manaless champion, requiring no mana management",
+      "Overwhelming teamfight presence as Mega Gnar"
+    ],
+    "weaknesses": [
+      "変身のタイミングをコントロールしにくい",
+      "ミニナー時は非常に打たれ弱い",
+      "怒りゲージの管理が難しく味方との連携が必須"
+    ],
+    "weaknessesEn": [
+      "Difficult to perfectly control transformation timing",
+      "Extremely fragile in Mini Gnar form",
+      "Rage management is tricky and requires team coordination"
+    ],
+    "playstyle": "遠距離攻撃のミニナーで有利を作り、近接のメガナーに変身して集団戦に突入する特殊なファイター。メガナーのアルティメットで複数の敵を壁に叩きつけることで、集団戦を完全に支配することができます。",
+    "playstyleEn": "A unique fighter who builds advantages as ranged Mini Gnar and dives into teamfights as melee Mega Gnar. He can completely dominate teamfights by slamming multiple enemies into walls with his Mega Gnar ultimate."
+  },
+  "Gwen": {
+    "strengths": [
+      "最大体力割合ダメージによるタンクキル能力",
+      "「聖なる霧」による遠距離攻撃とCCの無効化",
+      "サステインと継続ダメージ能力が非常に高い"
+    ],
+    "strengthsEn": [
+      "Tank-killing ability with max health percentage damage",
+      "Immunity to ranged attacks and CC outside Hallowed Mist",
+      "Extremely high sustain and sustained damage capabilities"
+    ],
+    "weaknesses": [
+      "CCを持たず敵を逃がしやすい",
+      "序盤のレーン戦が比較的弱い",
+      "接近戦を強いられるためバーストダメージに弱い"
+    ],
+    "weaknessesEn": [
+      "Lacks CC, allowing enemies to easily escape",
+      "Relatively weak early laning phase",
+      "Forced into melee combat, making her vulnerable to burst"
+    ],
+    "playstyle": "敵の懐に入り込み、ハサミを使った連続攻撃で敵を切り刻むAPファイター。「聖なる霧」を使って敵の遠距離攻撃を無効化しながら、圧倒的な継続火力で敵の前衛から崩していくのが得意です。",
+    "playstyleEn": "An AP fighter who dives into the enemy lines and shreds them with continuous scissor attacks. She excels at melting the enemy frontline with overwhelming sustained damage while ignoring ranged attacks using Hallowed Mist."
+  },
+  "Hecarim": {
+    "strengths": [
+      "移動速度がそのまま攻撃力に直結する",
+      "圧倒的なガンク性能とエンゲージ能力",
+      "集団戦での継続的な範囲ダメージと回復"
+    ],
+    "strengthsEn": [
+      "Movement speed directly translates to attack damage",
+      "Overwhelming gank potential and engage capabilities",
+      "Sustained AOE damage and healing in teamfights"
+    ],
+    "weaknesses": [
+      "移動速度を低下させられるCCに非常に弱い",
+      "マナ消費が激しい",
+      "序盤で遅れをとると活躍しにくい"
+    ],
+    "weaknessesEn": [
+      "Extremely vulnerable to slows and movement-impairing CC",
+      "High mana consumption",
+      "Hard to make an impact if falling behind early"
+    ],
+    "playstyle": "驚異的な移動速度から繰り出される奇襲が得意なダイバー。アルティメットで敵陣に恐怖を与えながら突撃し、敵のキャリー陣を一瞬で崩壊させるプレイが魅力です。",
+    "playstyleEn": "A diver excelling at ambushes utilizing his incredible movement speed. His appeal lies in charging into the enemy formation with his ultimate, fearing them and instantly collapsing the enemy carries."
+  },
+  "Heimerdinger": {
+    "strengths": [
+      "タレットを利用した強力なゾーニングと陣地防御能力",
+      "オブジェクトの取得や防衛が非常に得意",
+      "ガンクに来た敵を返り討ちにするポテンシャル"
+    ],
+    "strengthsEn": [
+      "Strong zoning and area defense using turrets",
+      "Excellent at securing and defending objectives",
+      "High potential to turn around and win 1v2 ganks"
+    ],
+    "weaknesses": [
+      "タレットを破壊されると戦闘力が激減する",
+      "機動力がなくガンクを避ける手段が少ない",
+      "タレットの範囲外での戦闘が苦手"
+    ],
+    "weaknessesEn": [
+      "Combat power drops significantly if turrets are destroyed",
+      "Lacks mobility and tools to escape ganks",
+      "Struggles in fights outside of his turret range"
+    ],
+    "playstyle": "タレットを配置して安全なエリアを作り出し、敵を寄せ付けないコントロールメイジ。オブジェクト周辺での戦闘では無類の強さを発揮し、タレットの陣形を利用して敵の攻めを完封します。",
+    "playstyleEn": "A control mage who sets up turrets to create safe zones and keeps enemies at bay. He displays unmatched strength in objective fights, completely shutting down enemy engages with his turret formations."
+  },
+  "Irelia": {
+    "strengths": [
+      "ミニオンを利用した圧倒的な機動力",
+      "パッシブスタック時の高い継続ダメージ",
+      "後衛キャリーへ容易にアクセスできる"
+    ],
+    "strengthsEn": [
+      "Overwhelming mobility utilizing minions",
+      "High sustained damage with max passive stacks",
+      "Can easily access backline carries"
+    ],
+    "weaknesses": [
+      "ミニオンがいない場所での戦闘力が低下する",
+      "操作難易度が非常に高い",
+      "ハードCCで動きを止められると弱い"
+    ],
+    "weaknessesEn": [
+      "Combat power drops in areas without minions",
+      "Extremely high mechanical difficulty",
+      "Vulnerable when locked down by hard CC"
+    ],
+    "playstyle": "「瞬刃」でミニオンを駆け抜けながら敵の急所を突く、極めて高い機動力を持つファイター。スキルを正確に命中させてマークを付与し、連続でスキルを叩き込む高度なメカニクスが要求されます。",
+    "playstyleEn": "A highly mobile fighter who dashes through minions with Bladesurge to strike enemy weak points. Requires high mechanics to accurately land skills, apply marks, and reset dashes for continuous combos."
+  },
+  "Jhin": {
+    "strengths": [
+      "4発目の確定クリティカルによる超バーストダメージ",
+      "スキルによる超長距離からの支援とスネア",
+      "トラップによる視界確保とゾーニング能力"
+    ],
+    "strengthsEn": [
+      "Extreme burst damage from the guaranteed 4th shot critical",
+      "Super long-range support and roots via abilities",
+      "Vision control and zoning capabilities using traps"
+    ],
+    "weaknesses": [
+      "装填時間中は通常攻撃ができず無防備になる",
+      "継続的なDPS(ダメージ/秒)は他のADCに劣る",
+      "機動力がなくアサシンに狙われやすい"
+    ],
+    "weaknessesEn": [
+      "Defenseless during reload times as basic attacks are unavailable",
+      "Sustained DPS is lower compared to other ADCs",
+      "Lacks mobility and is an easy target for assassins"
+    ],
+    "playstyle": "攻撃速度が固定されている代わりに、一撃の重さに特化したスナイパー型マークスマン。遠距離からのスネアやアルティメットでの援護射撃により、安全な位置から戦闘をコントロールします。",
+    "playstyleEn": "A sniper marksman focusing on heavy hitting single shots rather than attack speed. He controls fights from a safe distance using long-range roots and ultimate cover fire."
+  },
+  "Jinx": {
+    "strengths": [
+      "パッシブ発動時の圧倒的な攻撃速度と移動速度",
+      "ロケットランチャーによる長射程の範囲ダメージ",
+      "グローバルアルティメットによるキル回収能力"
+    ],
+    "strengthsEn": [
+      "Overwhelming attack and movement speed when passive triggers",
+      "Long-range AOE damage with rocket launcher",
+      "Kill-securing capability with global ultimate"
+    ],
+    "weaknesses": [
+      "逃走スキルを持たず自衛能力が低い",
+      "序盤の戦闘力が低くアイテム依存度が高い",
+      "パッシブが発動しないと強みを発揮しにくい"
+    ],
+    "weaknessesEn": [
+      "Lacks escape tools and has low self-peel",
+      "Weak early game and highly item-dependent",
+      "Struggles to show her strengths without passive activation"
+    ],
+    "playstyle": "キルやアシストを獲得することで「超エキサイティン！」状態になり、集団戦を一人で薙ぎ払うハイパーキャリー。ゲーム後半の破壊力は凄まじく、味方に守られながらダメージを出し続けることが重要です。",
+    "playstyleEn": "A hyper-carry who sweeps teamfights single-handedly after getting excited from a kill or assist. Her late-game destruction is immense; the key is to deal continuous damage while protected by the team."
+  },
+  "JarvanIV": {
+    "strengths": [
+      "強力なエンゲージとガンク能力",
+      "旗と槍のコンボによる高い機動力",
+      "アルティメットによる敵の分断と閉じ込め"
+    ],
+    "strengthsEn": [
+      "Strong engage and gank potential",
+      "High mobility via the flag-and-drag combo",
+      "Enemy isolation and trapping with ultimate"
+    ],
+    "weaknesses": [
+      "コンボを外すと非常に無防備になる",
+      "アルティメットで味方の邪魔をしてしまうリスクがある",
+      "後半になるとダメージが落ちやすい"
+    ],
+    "weaknessesEn": [
+      "Very vulnerable if the main combo is missed",
+      "Risk of hindering allies with his ultimate terrain",
+      "Damage tends to fall off in the late game"
+    ],
+    "playstyle": "スタンダードかつ強力なエンゲージ能力を持つジャングラー。コンボで敵を打ち上げ、アルティメットで逃げ道を塞ぐことで、味方が攻撃しやすい完璧な状況を作り出します。",
+    "playstyleEn": "A standard yet powerful engage jungler. By knocking up enemies with his combo and blocking escapes with his ultimate, he creates perfect situations for allies to deal damage."
+  },
+  "Jax": {
+    "strengths": [
+      "通常攻撃主体のチャンピオンに対する強力なカウンター",
+      "終盤の圧倒的な1v1性能とスプリットプッシュ能力",
+      "対象指定のリープと範囲スタンによる優秀なエンゲージ"
+    ],
+    "strengthsEn": [
+      "Strong counter to basic-attack reliant champions",
+      "Overwhelming late-game 1v1 and split push potential",
+      "Excellent engage with targeted leap and AOE stun"
+    ],
+    "weaknesses": [
+      "序盤のレーン戦が弱くマナも厳しい",
+      "スキルの依存度が高くCCに弱い",
+      "アイテムが揃うまで影響力を出しにくい"
+    ],
+    "weaknessesEn": [
+      "Weak early laning phase with mana issues",
+      "Highly skill-dependent and vulnerable to CC",
+      "Hard to make an impact before completing core items"
+    ],
+    "playstyle": "敵の通常攻撃を回避しながら反撃するファイター。試合が長引くほど強力になり、終盤は誰にも止められないスプリットプッシャーとして試合をキャリーします。",
+    "playstyleEn": "A fighter who dodges enemy auto-attacks and counters heavily. He grows stronger as the game goes on, carrying the match as an unstoppable late-game split pusher."
+  },
+  "Jayce": {
+    "strengths": [
+      "遠距離と近距離の2つの形態を使い分けられる",
+      "電撃破による強力な長距離ポーク",
+      "序盤から圧倒的なバーストダメージを出せる"
+    ],
+    "strengthsEn": [
+      "Can switch between ranged and melee forms",
+      "Powerful long-range poke with Shock Blast",
+      "Can deal overwhelming burst damage early on"
+    ],
+    "weaknesses": [
+      "操作難易度が高くフォームの切り替え管理が必要",
+      "アルティメットスキルを持たずレベル6のパワースパイクがない",
+      "ゲーム終盤に失速しやすい"
+    ],
+    "weaknessesEn": [
+      "High mechanical difficulty requiring form management",
+      "Lacks a traditional ultimate, missing the level 6 power spike",
+      "Tends to fall off in the late game"
+    ],
+    "playstyle": "キャノン形態でのポークで敵の体力を削り、ハンマー形態で一気に飛び込んでトドメを刺す多芸なチャンピオン。レーンの主導権を握り、序中盤でスノーボールすることが求められます。",
+    "playstyleEn": "A versatile champion who pokes enemies down in Cannon form and dives in with Hammer form for the finish. Requires dominating the lane and snowballing the early to mid game."
+  },
+  "Janna": {
+    "strengths": [
+      "竜巻とアルティメットによる最高峰のディスエンゲージ能力",
+      "シールドによる味方のAD上昇効果",
+      "パッシブによる高い移動速度"
+    ],
+    "strengthsEn": [
+      "Top-tier disengage with tornados and ultimate",
+      "Grants bonus AD to allies via her shield",
+      "High movement speed from her passive"
+    ],
+    "weaknesses": [
+      "自身は非常に打たれ弱い",
+      "ダメージを出す手段が限られている",
+      "スキルのタイミングが難しく経験が必要"
+    ],
+    "weaknessesEn": [
+      "Extremely fragile herself",
+      "Limited tools to deal damage",
+      "Requires experience to time skills correctly"
+    ],
+    "playstyle": "敵の強引なエンゲージを全て拒否し、味方のキャリーを死守するピーラーエンチャンター。敵の飛び込みに合わせて竜巻やアルティメットを使い、完璧に味方を守り抜きます。",
+    "playstyleEn": "A peeling enchanter who rejects all enemy engages and fiercely protects allied carries. Uses tornados and her ultimate precisely in response to enemy dives to perfectly defend her team."
+  },
+  "KogMaw": {
+    "strengths": [
+      "スキル発動時の超長射程と最大体力割合ダメージ",
+      "タンク相手でも一瞬で溶かす火力の高さ",
+      "アルティメットによる長距離からの視界確保とハラス"
+    ],
+    "strengthsEn": [
+      "Super long range and max health percent damage during skill activation",
+      "Incredible DPS that can melt even tanks instantly",
+      "Long-range vision and harass with ultimate"
+    ],
+    "weaknesses": [
+      "機動力が全くなく、ガンクやアサシンに極端に弱い",
+      "スキル非発動時は射程が短く弱い",
+      "味方のピールへの依存度が非常に高い"
+    ],
+    "weaknessesEn": [
+      "Zero mobility, extremely vulnerable to ganks and assassins",
+      "Short range and weak when skill is on cooldown",
+      "Highly dependent on allied peel"
+    ],
+    "playstyle": "ルルなどのエンチャンターと組み合わせることで真価を発揮する、典型的なハイパーキャリー。立ち位置に細心の注意を払い、安全な距離から圧倒的な通常攻撃の雨を降らせます。",
+    "playstyleEn": "A classic hyper-carry whose true potential shines when paired with enchanters like Lulu. Requires meticulous positioning to rain down overwhelming basic attacks from a safe distance."
+  },
+  "Kalista": {
+    "strengths": [
+      "通常攻撃のたびにステップできる無限のカイト能力",
+      "「引き裂く」によるオブジェクト管理の強さ",
+      "アルティメットによる味方との強力な連携とセーブ能力"
+    ],
+    "strengthsEn": [
+      "Infinite kiting ability by stepping after every basic attack",
+      "Strong objective control using Rend",
+      "Powerful team synergy and ally-saving ultimate"
+    ],
+    "weaknesses": [
+      "移動速度低下を受けると攻撃速度も下がる",
+      "操作が非常に忙しく疲労しやすい",
+      "誓いを立てた味方がいないとアルティメットが使えない"
+    ],
+    "weaknessesEn": [
+      "Attack speed drops when affected by movement speed slows",
+      "Mechanically exhausting to play constantly",
+      "Cannot use ultimate without her Oathsworn ally"
+    ],
+    "playstyle": "攻撃と移動を同時に行う独特のパッシブを持ち、敵の攻撃を避けながら槍をスタックさせていくマークスマン。サポートとの連携が必須であり、序盤から積極的にキルを狙うアグレッシブなプレイスタイルが強力です。",
+    "playstyleEn": "A marksman with a unique passive to move while attacking, dodging skillshots while stacking spears. Requires strong synergy with support and thrives on an aggressive playstyle seeking early kills."
+  },
+  "Kaisa": {
+    "strengths": [
+      "アイテム進化によるスキルの大幅強化",
+      "高い機動力とアルティメットによる長距離ダイブ",
+      "APとAD両方のビルドパスが選択可能"
+    ],
+    "strengthsEn": [
+      "Massive skill upgrades upon evolving with items",
+      "High mobility and long-range dive potential with ultimate",
+      "Flexible build paths (both AP and AD viable)"
+    ],
+    "weaknesses": [
+      "射程が短くレーン戦の立ち回りが難しい",
+      "孤立した敵以外にはQのダメージが分散する",
+      "スキル進化前はポテンシャルを発揮しきれない"
+    ],
+    "weaknessesEn": [
+      "Short range makes laning phase positioning tricky",
+      "Q damage scatters unless the enemy is isolated",
+      "Cannot fully utilize her potential before skill evolutions"
+    ],
+    "playstyle": "自身のステータスによってスキルを進化させ、アサシンのような動きができるADC。味方のCCに合わせて長距離からバックラインに飛び込み、孤立した敵を瞬殺するプレイが得意です。",
+    "playstyleEn": "An ADC who evolves her skills based on stats and can act like an assassin. She excels at diving the backline from afar following allied CC and bursting down isolated targets."
+  },
+  "Kindred": {
+    "strengths": [
+      "ジャングラーでありながら強力なマークスマン",
+      "スタックを溜めることで射程とダメージが無限にスケール",
+      "アルティメットによる無敵エリアで逆転可能"
+    ],
+    "strengthsEn": [
+      "A powerful marksman played in the jungle",
+      "Infinite scaling of range and damage by collecting marks",
+      "Game-changing invulnerability zone with her ultimate"
+    ],
+    "weaknesses": [
+      "マークの回収を敵に読まれやすい",
+      "序盤のステータスが低くインベードに弱い",
+      "アルティメットは敵も守ってしまうため使い所が難しい"
+    ],
+    "weaknessesEn": [
+      "Enemies can easily predict her mark collection",
+      "Low early base stats making her vulnerable to invades",
+      "Ultimate can also save enemies, making timing crucial"
+    ],
+    "playstyle": "ジャングルキャンプや敵チャンピオンにマークを付与し、それを狩ることで自身を強化していくレンジドジャングラー。適切なカイトとアルティメットのタイミングで、集団戦を有利に導きます。",
+    "playstyleEn": "A ranged jungler who marks camps and champions, hunting them down to grow stronger. Proper kiting and well-timed ultimates lead the team to victory in fights."
+  },
+  "Khazix": {
+    "strengths": [
+      "孤立した敵に対する規格外のバーストダメージ",
+      "キルやアシストでのジャンプのリセットによる連続キル",
+      "アルティメットのステルスによる攪乱と接近"
+    ],
+    "strengthsEn": [
+      "Unmatched burst damage against isolated targets",
+      "Chain kills due to jump resets on kill or assist",
+      "Stealth from ultimate for disruption and gap closing"
+    ],
+    "weaknesses": [
+      "敵が固まっているとダメージが大幅に低下する",
+      "CCに弱く、フォーカスされるとすぐに倒される",
+      "序盤の体力が低く森の周回がやや辛い"
+    ],
+    "weaknessesEn": [
+      "Damage drops significantly if enemies are grouped",
+      "Vulnerable to CC and dies quickly when focused",
+      "Low early health makes jungle clearing slightly tough"
+    ],
+    "playstyle": "敵の配置を観察し、「孤立」しているターゲットを確実に見つけて暗殺するジャングルアサシン。レベルアップによるスキルの進化でプレイスタイルを状況に合わせて変化させることができます。",
+    "playstyleEn": "A jungle assassin who observes enemy formations to securely find and eliminate 'isolated' targets. He adapts his playstyle to the situation through skill evolutions upon leveling up."
+  },
+  "Kayn": {
+    "strengths": [
+      "壁抜けスキルによる予測不能なガンクルートと高い機動力",
+      "状況に応じてアサシンかブルーザーに変身できる柔軟性",
+      "アルティメットによる対象指定不可とダメージ回避"
+    ],
+    "strengthsEn": [
+      "Unpredictable gank paths and mobility via wall-walking",
+      "Flexibility to transform into an assassin or bruiser based on the game",
+      "Untargetability and damage evasion using ultimate"
+    ],
+    "weaknesses": [
+      "変身前の序盤の戦闘力が非常に低い",
+      "変身形態を間違えると試合に影響を与えにくい",
+      "CCに弱くハードエンゲージを持たない"
+    ],
+    "weaknessesEn": [
+      "Extremely weak combat power before transforming",
+      "Choosing the wrong form can severely limit impact",
+      "Vulnerable to CC and lacks hard engage"
+    ],
+    "playstyle": "序盤は戦闘を避けつつオーブを集め、中盤に「影の暗殺者」か「ダーキン」に変身して真の力を発揮するジャングラー。壁を抜けて敵の意表を突くガンクが最大の魅力です。",
+    "playstyleEn": "A jungler who collects orbs while avoiding heavy early fights, unleashing true power mid-game by transforming into Shadow Assassin or Darkin. His wall-walking ambushes are his biggest charm."
+  },
+  "Kennen": {
+    "strengths": [
+      "エネルギー消費でマナ管理が不要",
+      "アルティメットによる強力なAOEダメージと範囲スタン",
+      "遠距離攻撃による安全なレーニング"
+    ],
+    "strengthsEn": [
+      "Energy-based, requiring no mana management",
+      "Powerful AOE damage and stuns with ultimate",
+      "Safe laning with ranged basic attacks"
+    ],
+    "weaknesses": [
+      "アルティメットが無い時の存在感が薄い",
+      "耐久力が低くバーストダメージに弱い",
+      "エンゲージするには敵陣のど真ん中に入る必要がある"
+    ],
+    "weaknessesEn": [
+      "Low impact when ultimate is on cooldown",
+      "Low durability and vulnerable to burst damage",
+      "Must dive into the center of the enemy team to engage"
+    ],
+    "playstyle": "遠距離攻撃でレーン戦を安全にこなしつつ、集団戦では「雷撃」を纏って敵陣に飛び込むAPファイター。複数人にスタンを付与するアルティメットは、ゲームの勝敗を決定づける力を持っています。",
+    "playstyleEn": "An AP fighter who lanes safely with ranged attacks, then dives into the enemy team wrapped in Lightning Rush. His multi-target stun ultimate has the power to decide the outcome of a game."
+  },
+  "Kassadin": {
+    "strengths": [
+      "レベル16以降の圧倒的な機動力とバーストダメージ",
+      "魔法ダメージに対する強力なパッシブとシールド",
+      "短いクールダウンのブリンクによる追撃能力"
+    ],
+    "strengthsEn": [
+      "Overwhelming mobility and burst after level 16",
+      "Strong passive and shield against magic damage",
+      "Relentless pursuit with low cooldown blinks"
+    ],
+    "weaknesses": [
+      "レベル5になるまで（アルティメット習得前）の極端な弱さ",
+      "物理ダメージを持つアサシンに対しては無防備",
+      "アルティメットの連続使用によるマナ枯渇"
+    ],
+    "weaknessesEn": [
+      "Extreme weakness before reaching level 5 and getting ultimate",
+      "Defenseless against AD assassins",
+      "Rapid mana depletion from continuous ultimate usage"
+    ],
+    "playstyle": "序盤の苦しい時間を耐え抜き、終盤には短いクールダウンのアルティメットで戦場を縦横無尽に駆け巡るレイトゲームキャリー。敵の後衛を瞬時に暗殺し、そのまま離脱する動きが得意です。",
+    "playstyleEn": "A late-game carry who endures a tough early game to dominate later, blinking across the battlefield constantly. Excels at instantly assassinating the backline and safely escaping."
+  },
+  "Katarina": {
+    "strengths": [
+      "キル・アシストでの全スキルクールダウン解消",
+      "短時間で繰り出されるAOEバーストダメージ",
+      "対象指定のブリンクによる高い機動力"
+    ],
+    "strengthsEn": [
+      "Full skill cooldown resets on kills/assists",
+      "Rapid AOE burst damage",
+      "High mobility with targeted blinks"
+    ],
+    "weaknesses": [
+      "CCに極端に弱く、アルティメットを止められやすい",
+      "序盤のレーン戦が弱く主導権を握りにくい",
+      "短剣の落下位置への依存度が高い"
+    ],
+    "weaknessesEn": [
+      "Extremely vulnerable to CC, which interrupts her ultimate easily",
+      "Weak early laning phase making it hard to gain prio",
+      "High reliance on dagger drop locations"
+    ],
+    "playstyle": "短剣を拾うことで大ダメージを発生させ、キルを獲得してスキルを連続発動させるハイリスク・ハイリターンなアサシン。集団戦で敵のCCがなくなった瞬間に飛び込めば、一瞬でペンタキルを狙えます。",
+    "playstyleEn": "A high-risk, high-reward assassin who deals massive damage by picking up daggers, chaining skills through kill resets. Waiting for enemy CC to be used before diving can easily net a Pentakill."
+  },
+  "Karma": {
+    "strengths": [
+      "序盤からの強力なポークとレーン制圧力",
+      "アルティメットによるスキルの強化の柔軟性",
+      "範囲シールドと移動速度上昇による集団戦のサポート"
+    ],
+    "strengthsEn": [
+      "Strong early poke and lane dominance",
+      "Flexible skill enhancement via ultimate",
+      "AOE shields and movement speed buffs for teamfights"
+    ],
+    "weaknesses": [
+      "ゲーム後半になるにつれてダメージ不足に陥りやすい",
+      "ハードCCがスネアのみで確実性に欠ける",
+      "味方キャリーへの依存度が高い"
+    ],
+    "weaknessesEn": [
+      "Damage tends to fall off in the late game",
+      "Hard CC is limited to a delayed root, lacking reliability",
+      "Highly dependent on allied carries"
+    ],
+    "playstyle": "マントラを使って状況に応じたスキル強化を行い、攻守両面で味方を支えるエンチャンターメイジ。レーン戦では強化Qでダメージを与え、集団戦では強化Eで味方全体を守る柔軟な立ち回りが求められます。",
+    "playstyleEn": "An enchanter mage who uses Mantra to empower abilities adaptively, supporting the team in both offense and defense. Uses empowered Q for lane poke and empowered E for team-wide shields in fights."
+  },
+  "KSante": {
+    "strengths": [
+      "タンクでありながら高いダメージを出せる",
+      "アルティメットによる形態変化での1v1性能",
+      "敵のキャリーを壁越しに誘拐する能力"
+    ],
+    "strengthsEn": [
+      "Can dish out high damage despite being a tank",
+      "Incredible 1v1 potential after ultimate transformation",
+      "Ability to kidnap enemy carries over walls"
+    ],
+    "weaknesses": [
+      "形態変化後は体力が減少し非常に打たれ弱くなる",
+      "スキルの射程が短くカイトされやすい",
+      "操作難易度が高く判断力が求められる"
+    ],
+    "weaknessesEn": [
+      "Loses max health and becomes fragile after transforming",
+      "Short skill ranges make him susceptible to kiting",
+      "High mechanical difficulty demanding strong decision-making"
+    ],
+    "playstyle": "序盤は強固な壁として味方を守り、好機にはアルティメットで「オールアウト」形態になり敵を仕留める特異なファイタータンク。壁際での攻防において無類の強さを誇ります。",
+    "playstyleEn": "A unique fighter-tank who acts as a solid wall early on, but transforms into an 'All Out' form to execute enemies when the time is right. Boasts unmatched strength in skirmishes near walls."
+  },
+  "Kayle": {
+    "strengths": [
+      "レベルが上がるごとに飛躍的に射程と火力が上昇する",
+      "終盤の圧倒的なDPSと範囲ダメージ",
+      "アルティメットによる対象への無敵付与"
+    ],
+    "strengthsEn": [
+      "Range and damage drastically scale with levels",
+      "Overwhelming late-game DPS and AOE damage",
+      "Can grant invulnerability to a target with her ultimate"
+    ],
+    "weaknesses": [
+      "序盤がゲーム内で最も弱いレベル",
+      "接近戦しかできない時間帯はミニオンすら触りにくい",
+      "成長する前に試合が終わると何もできない"
+    ],
+    "weaknessesEn": [
+      "Has arguably the weakest early game in the game",
+      "Struggles to even touch minions while melee",
+      "Useless if the game ends before she scales"
+    ],
+    "playstyle": "序盤はひたすら耐え忍び、レベルが上がるにつれて神のような力を手にする究極のレイトゲームキャリー。味方と連携して無敵スキルを活用しつつ、安全な位置から敵を殲滅します。",
+    "playstyleEn": "The ultimate late-game carry who endures the early game to attain god-like power at higher levels. Synergizes with allies using her invulnerability while wiping out enemies from a safe distance."
+  },
+  "Lucian": {
+    "strengths": [
+      "パッシブを活かした序盤からの圧倒的なバーストダメージ",
+      "ブリンクスキルによる高い機動力とカイト能力",
+      "アルティメットによる安全な遠距離からのダメージ出力"
+    ],
+    "strengthsEn": [
+      "Overwhelming early burst damage utilizing passive",
+      "High mobility and kiting with his dash",
+      "Safe long-range damage output with ultimate"
+    ],
+    "weaknesses": [
+      "射程が短く、レイトゲームの集団戦で立ち回りが難しい",
+      "マナ消費が激しい",
+      "CCに捕まると簡単に倒されてしまう"
+    ],
+    "weaknessesEn": [
+      "Short attack range makes late-game teamfights difficult",
+      "High mana consumption",
+      "Easily blown up if caught by CC"
+    ],
+    "playstyle": "スキルと通常攻撃を交互に繰り出すことで、短い時間で大ダメージを与えるアグレッシブなマークスマン。序盤の強さを活かしてレーンをドミネートし、試合のペースを握ります。",
+    "playstyleEn": "An aggressive marksman who alternates skills and basic attacks to deal massive burst damage in a short time. Dominates lanes early to dictate the pace of the game."
+  },
+  "Lillia": {
+    "strengths": [
+      "パッシブによる極めて高い移動速度とカイト能力",
+      "最大体力割合の継続魔法ダメージ",
+      "アルティメットによる複数人への強力な睡眠付与"
+    ],
+    "strengthsEn": [
+      "Extremely high movement speed and kiting via passive",
+      "Max health percentage continuous magic damage",
+      "Powerful multi-target sleep with ultimate"
+    ],
+    "weaknesses": [
+      "体が柔らかくバーストダメージに弱い",
+      "CCを受けると強みの移動速度が活かせない",
+      "序盤のジャングル周回で体力を保ちにくい"
+    ],
+    "weaknessesEn": [
+      "Squishy and vulnerable to burst damage",
+      "Loses her main advantage (speed) when hit by CC",
+      "Hard to maintain healthy HP during early jungle clears"
+    ],
+    "playstyle": "高い移動速度で敵の攻撃を避けながら、スキルの端を当てて継続ダメージを与えるヒット＆アウェイが得意なジャングラー。敵全体を眠らせるアルティメットで、完璧なエンゲージを提供します。",
+    "playstyleEn": "A hit-and-run jungler who dodges attacks with high speed while landing the edge of her skills for sustained damage. Provides perfect engages by putting the entire enemy team to sleep."
+  },
+  "LeeSin": {
+    "strengths": [
+      "序盤の圧倒的な戦闘力とガンク性能",
+      "ワードジャンプなどによる全チャンピオン屈指の機動力",
+      "「龍の怒り」による敵キャリーの配達（インセク）"
+    ],
+    "strengthsEn": [
+      "Overwhelming early combat power and ganking",
+      "Top-tier mobility among all champions (e.g., ward jumping)",
+      "Insec kicks to deliver enemy carries with his ultimate"
+    ],
+    "weaknesses": [
+      "操作難易度が極めて高い",
+      "後半になるにつれてスケールダウンする",
+      "スキルショットを外すと何もできない"
+    ],
+    "weaknessesEn": [
+      "Extremely high mechanical difficulty",
+      "Falls off in scaling as the game goes late",
+      "Useless if his Q skillshot is missed"
+    ],
+    "playstyle": "序盤から積極的にアクションを起こし、試合の主導権を握るアグレッシブなジャングラー。高い機動力を活かして敵陣の裏に回り込み、敵の重要なチャンピオンを味方の前に蹴り飛ばすプレイが代名詞です。",
+    "playstyleEn": "An aggressive jungler who makes proactive plays early to take control of the game. Famous for using high mobility to flank and kick crucial enemy champions into his team (the Insec)."
+  },
+  "Lux": {
+    "strengths": [
+      "長射程のポークと安全な位置からのバーストダメージ",
+      "強力なスネアによるキャッチ能力",
+      "広範囲の味方に付与できるシールド"
+    ],
+    "strengthsEn": [
+      "Long-range poke and safe burst damage",
+      "Strong catch potential with her root",
+      "AOE shield for multiple allies"
+    ],
+    "weaknesses": [
+      "機動力がなくアサシンに対して非常に弱い",
+      "スキルのクールダウン中は無防備",
+      "全てのスキルが方向指定であり外しやすい"
+    ],
+    "weaknessesEn": [
+      "Zero mobility, highly vulnerable to assassins",
+      "Defenseless while skills are on cooldown",
+      "All abilities are skillshots and can be missed"
+    ],
+    "playstyle": "遠距離から光の魔法で敵を拘束し、高火力のアルティメットで一掃するアーティラリーメイジ。安全な距離を保ちつつ、スネアからのフルコンボで敵のキャリーを瞬殺します。",
+    "playstyleEn": "An artillery mage who binds enemies from afar with light magic and obliterates them with a high-damage ultimate. Maintains a safe distance to burst down enemy carries with a full combo from her root."
+  },
+  "Lissandra": {
+    "strengths": [
+      "対象指定のスタンと豊富なAOEハードCC",
+      "アルティメットとゾーニャによる圧倒的な生存・攪乱能力",
+      "壁抜けブリンクによる奇襲エンゲージ"
+    ],
+    "strengthsEn": [
+      "Targeted stun and abundant AOE hard CC",
+      "Incredible survival and disruption via ultimate and stasis",
+      "Surprise engages utilizing wall-bypassing blinks"
+    ],
+    "weaknesses": [
+      "他のメイジに比べて継続火力が低い",
+      "射程が短くポーク合戦に弱い",
+      "ブリンクの移動が遅く対応されやすい"
+    ],
+    "weaknessesEn": [
+      "Lower sustained damage compared to other mages",
+      "Short range makes her weak in poke battles",
+      "Blink claw moves slowly and can be reacted to"
+    ],
+    "playstyle": "敵陣の中心に飛び込み、自身を無敵化しつつ周囲の敵を凍らせるエンゲージメイジ。敵のアサシンから味方を守るピール役としても非常に優秀で、集団戦のコントロール能力に長けています。",
+    "playstyleEn": "An engage mage who dives into the enemy center, making herself invulnerable while freezing surrounding enemies. Also excels as a peeler to protect allies from assassins, boasting great teamfight control."
+  },
+  "Leona": {
+    "strengths": [
+      "全スキルがCCに絡む究極のロックダウン能力",
+      "Wによる非常に高い基礎耐久力",
+      "アルティメットによる長距離エンゲージ"
+    ],
+    "strengthsEn": [
+      "Ultimate lockdown potential with CC on every skill",
+      "Extremely high base durability from her W",
+      "Long-range engage with her ultimate"
+    ],
+    "weaknesses": [
+      "一度飛び込むと自力で逃げる手段がない",
+      "自身でダメージを出す能力が低い",
+      "味方の追従がないと孤立して倒される"
+    ],
+    "weaknessesEn": [
+      "No escape tool once she engages",
+      "Low personal damage output",
+      "Will die isolated if the team doesn't follow up"
+    ],
+    "playstyle": "敵の懐に飛び込み、豊富なスタンでターゲットを釘付けにするアグレッシブなタンクサポート。迷いなくエンゲージを行い、味方が攻撃する隙を完璧に作り出します。",
+    "playstyleEn": "An aggressive tank support who dives the enemy and completely locks down targets with abundant stuns. Initiates without hesitation, creating the perfect window for allies to attack."
+  },
+  "Lulu": {
+    "strengths": [
+      "味方単体を最強にする圧倒的なバフ能力",
+      "敵を無力化する「ポリモーフ」が非常に強力",
+      "アルティメットによる巨大化でのノックアップと体力増加"
+    ],
+    "strengthsEn": [
+      "Overwhelming buffs to hyper-carry a single ally",
+      "Extremely potent 'Polymorph' to neutralize enemies",
+      "Knockup and bonus health from her ultimate's gigantification"
+    ],
+    "weaknesses": [
+      "自身は非常に脆く狙われやすい",
+      "回復スキルを持たないためサステインに欠ける",
+      "味方が育っていないと強みを発揮できない"
+    ],
+    "weaknessesEn": [
+      "Very squishy and easily targeted",
+      "Lacks healing skills, resulting in low sustain",
+      "Cannot shine if allies are behind"
+    ],
+    "playstyle": "味方のADCにバフをかけ続け、敵の飛び込みはポリモーフで完全に無力化する最高峰のエンチャンター。ハイパーキャリー（ジンクスやコグ＝マウなど）と組み合わせることで、手が付けられない強さを発揮します。",
+    "playstyleEn": "A top-tier enchanter who constantly buffs the allied ADC and completely neutralizes enemy divers with Polymorph. Displays unstoppable strength when paired with hyper-carries like Jinx or Kog'Maw."
+  },
+  "MissFortune": {
+    "strengths": [
+      "集団戦におけるアルティメットの破壊力が高い",
+      "移動速度が高く、マップ内の移動が速い"
+    ],
+    "strengthsEn": [
+      "High destructive power with ultimate in team fights",
+      "High movement speed allows fast roaming"
+    ],
+    "weaknesses": [
+      "ブリンクスキルを持たず、ガンクに弱い",
+      "アルティメットの中断や回避に弱い"
+    ],
+    "weaknessesEn": [
+      "Lacks mobility skills, making her vulnerable to ganks",
+      "Vulnerable to ultimate interruption or dodging"
+    ],
+    "playstyle": "レーン戦ではQのバウンドを利用してハラスを行い、優位に立ちます。集団戦では安全な位置からアルティメットを放ち、敵チーム全体に大ダメージを与えることが目標となります。",
+    "playstyleEn": "Harass opponents in the laning phase using the bounce of your Q to gain an advantage. In team fights, aim to unleash your ultimate from a safe distance to deal massive damage to the entire enemy team."
+  },
+  "MasterYi": {
+    "strengths": [
+      "終盤での1対1の殴り合いとキャリー力が最強クラス",
+      "アルティメットによるスロー無効と高い追撃能力"
+    ],
+    "strengthsEn": [
+      "Top-tier 1v1 dueling and carry potential in the late game",
+      "Immunity to slows and high chase potential with ultimate"
+    ],
+    "weaknesses": [
+      "ハードCCに非常に弱い",
+      "序盤のガンク能力と影響力が低い"
+    ],
+    "weaknessesEn": [
+      "Very vulnerable to hard crowd control",
+      "Low gank potential and impact in the early game"
+    ],
+    "playstyle": "序盤はファームに集中し、装備を揃えることを最優先します。中盤以降は孤立した敵を狙うか、集団戦では敵のCCが使われた後に入り込み、一気に敵を掃討するアサシンのように動きます。",
+    "playstyleEn": "Focus primarily on farming in the early game to get your core items. From mid-game onwards, hunt isolated targets or enter team fights after enemy CC has been used to sweep the enemies like an assassin."
+  },
+  "MonkeyKing": {
+    "strengths": [
+      "分身を使ったトリッキーなプレイと生存能力",
+      "アルティメットによる強力なAoEノックアップ"
+    ],
+    "strengthsEn": [
+      "Tricky plays and survivability using clones",
+      "Powerful AoE knock-up with ultimate"
+    ],
+    "weaknesses": [
+      "序盤のダメージトレードがやや弱い",
+      "魔法ダメージに対する耐性が低め"
+    ],
+    "weaknessesEn": [
+      "Slightly weak damage trading in the early game",
+      "Relatively low resistance to magic damage"
+    ],
+    "playstyle": "分身を活用して敵のスキルを空振りさせたり、奇襲をかけたりします。集団戦ではステルスで敵陣の奥深くに入り込み、アルティメットで複数の敵を打ち上げるエンゲージ役を担います。",
+    "playstyleEn": "Utilize your clone to make enemies waste abilities or to launch surprise attacks. In team fights, use stealth to dive deep into the enemy lines and act as the engager by knocking up multiple enemies with your ultimate."
+  },
+  "Morgana": {
+    "strengths": [
+      "ブラックシールドによる強力なCC無効化",
+      "Qの長時間のスネアによるキャッチ能力"
+    ],
+    "strengthsEn": [
+      "Powerful CC immunity provided by Black Shield",
+      "Strong catch potential with long-duration snare from Q"
+    ],
+    "weaknesses": [
+      "スキルのクールダウンが長く、外したときのリスクが大きい",
+      "機動力が低く、アサシンに狙われやすい"
+    ],
+    "weaknessesEn": [
+      "Long ability cooldowns make missing skillshots risky",
+      "Low mobility makes her vulnerable to assassins"
+    ],
+    "playstyle": "レーンではWでウェーブを押しつつ、Qで敵を牽制します。味方のキャリーにシールドを付与して守るか、Qとアルティメットを使って敵陣の動きを制限するコントロールメイジとして立ち回ります。",
+    "playstyleEn": "Push waves with W while poking enemies with Q in lane. Play as a control mage by protecting your allied carries with shields or restricting enemy movements using your Q and ultimate."
+  },
+  "Malphite": {
+    "strengths": [
+      "アルティメットによる最強クラスのエンゲージ能力",
+      "物理防御が高く、AD構成に対して非常に硬い"
+    ],
+    "strengthsEn": [
+      "Top-tier engage capability with his ultimate",
+      "High armor makes him extremely tanky against AD compositions"
+    ],
+    "weaknesses": [
+      "アルティメットがない時のプレッシャーが低い",
+      "魔法ダメージ主体や継続ダメージに弱い"
+    ],
+    "weaknessesEn": [
+      "Low pressure when his ultimate is on cooldown",
+      "Vulnerable to magic damage and sustained damage dealers"
+    ],
+    "playstyle": "序盤は耐え忍び、アルティメットを覚えたら味方と合わせてキルを狙います。集団戦では敵のキャリー陣を巻き込むようにアルティメットを当て、戦況を一気に覆すプレイメーカーとなります。",
+    "playstyleEn": "Play safe in the early game and look for kills with your allies once you unlock your ultimate. In team fights, become a playmaker by hitting the enemy carries with your ultimate to turn the tide of battle."
+  },
+  "Mel": {
+    "strengths": [
+      "強力なポーク能力と遠距離からのプレッシャー",
+      "シールドや回復による味方のサポート能力"
+    ],
+    "strengthsEn": [
+      "Strong poke ability and long-range pressure",
+      "Supportive capabilities with shields or healing for allies"
+    ],
+    "weaknesses": [
+      "接近戦やバーストダメージに弱い",
+      "マナの消費が激しく管理が必要"
+    ],
+    "weaknessesEn": [
+      "Vulnerable to close combat and burst damage",
+      "High mana consumption requires careful management"
+    ],
+    "playstyle": "遠距離からスキルを使って敵の体力を削り、味方が有利に戦える環境を作ります。集団戦では後方に位置取り、味方のサポートと継続的な魔法ダメージの出力に集中します。",
+    "playstyleEn": "Use abilities from a distance to poke down enemy health, creating an advantageous environment for your team. In team fights, stay in the backline, focusing on supporting allies and outputting consistent magic damage."
+  },
+  "Maokai": {
+    "strengths": [
+      "豊富なCCスキルによる高いピールとエンゲージ能力",
+      "パッシブによる優れたサステインと粘り強さ"
+    ],
+    "strengthsEn": [
+      "High peel and engage potential with abundant CC skills",
+      "Excellent sustain and tenacity from his passive"
+    ],
+    "weaknesses": [
+      "マナ消費が激しく、序盤の管理が難しい",
+      "機動力が低く、カイトされやすい"
+    ],
+    "weaknessesEn": [
+      "High mana consumption makes early management difficult",
+      "Low mobility makes him susceptible to being kited"
+    ],
+    "playstyle": "茂みに苗木を投げて視界と陣地を確保しつつ、敵の接近を防ぎます。集団戦では強力なアルティメットで広範囲の敵を足止めし、味方のキャリーを守る強固な前衛として機能します。",
+    "playstyleEn": "Throw saplings into bushes to secure vision and zone control while preventing enemy approaches. In team fights, act as a solid frontline, using your powerful ultimate to lock down a wide area and protect your carries."
+  },
+  "Milio": {
+    "strengths": [
+      "味方の射程を伸ばし、火力を底上げする独自のバフ",
+      "AoEの回復とCC解除による最強のピール能力"
+    ],
+    "strengthsEn": [
+      "Unique buff that extends allied attack range and boosts damage",
+      "Top-tier peel capability with AoE healing and CC cleanse"
+    ],
+    "weaknesses": [
+      "自身は非常に脆く、狙われるとすぐに倒される",
+      "攻撃的なスキルが少なく、味方への依存度が高い"
+    ],
+    "weaknessesEn": [
+      "Extremely squishy and easily taken down when focused",
+      "Lacks offensive skills, making him highly dependent on allies"
+    ],
+    "playstyle": "常に味方のマークスマンやキャリーと行動を共にし、バフを与えて戦闘力を最大化させます。敵の強力なCCや範囲ダメージに合わせてアルティメットを使用し、味方の危機を救う後方支援に徹します。",
+    "playstyleEn": "Always stick with your marksman or carry, providing buffs to maximize their combat power. Focus strictly on backline support, using your ultimate in response to enemy hard CC or AoE damage to save your allies."
+  },
+  "Mordekaiser": {
+    "strengths": [
+      "アルティメットによる1対1の強制隔離",
+      "パッシブ発動時の強力な継続ダメージと耐久力"
+    ],
+    "strengthsEn": [
+      "Forces a 1v1 isolation with his ultimate",
+      "Strong sustained damage and durability when passive is active"
+    ],
+    "weaknesses": [
+      "機動力が低く、距離を詰めにくい",
+      "スキルのモーションが大きく避けられやすい"
+    ],
+    "weaknessesEn": [
+      "Low mobility makes it hard to close the gap",
+      "Skill animations are telegraphed and easy to dodge"
+    ],
+    "playstyle": "レーンではQを使ってプレッシャーをかけ、パッシブを発動させて殴り勝ちます。集団戦では敵の最も厄介なキャリーをアルティメットで異空間に連れ去り、戦場から排除してチームを有利に導きます。",
+    "playstyleEn": "Apply pressure in lane using Q and win trades by activating your passive. In team fights, use your ultimate to banish the most troublesome enemy carry to the Death Realm, eliminating them from the main fight to give your team an advantage."
+  },
+  "Nunu": {
+    "strengths": [
+      "雪玉を使った非常に強力で素早いガンク",
+      "Qによる高いオブジェクト確保能力とサステイン"
+    ],
+    "strengthsEn": [
+      "Extremely powerful and fast ganks using giant snowball",
+      "High objective secure potential and sustain with Q"
+    ],
+    "weaknesses": [
+      "終盤のスケールが低く、火力が落ちる",
+      "アルティメットはCCで簡単に中断されてしまう"
+    ],
+    "weaknessesEn": [
+      "Poor late-game scaling results in a drop in damage output",
+      "Ultimate is easily interrupted by hard CC"
+    ],
+    "playstyle": "序盤から雪玉を転がして各レーンにプレッシャーをかけ続け、スノーボールを狙います。オブジェクト戦ではQとスマイトを組み合わせて確実に確保し、集団戦では前衛として敵の妨害に努めます。",
+    "playstyleEn": "Continuously roll snowballs from the early game to apply pressure on all lanes and start snowballing. Combine Q and Smite to reliably secure objectives, and act as a frontline disruptor in team fights."
+  },
+  "Nocturne": {
+    "strengths": [
+      "視界を奪うアルティメットによる超長距離からの強襲",
+      "1対1での強力なダメージトレード能力"
+    ],
+    "strengthsEn": [
+      "Ultra-long-range ambushes with vision-denying ultimate",
+      "Strong damage trading capabilities in 1v1 situations"
+    ],
+    "weaknesses": [
+      "アルティメットがない時のガンク能力が低い",
+      "集団戦では一度突っ込むと逃げ道がない"
+    ],
+    "weaknessesEn": [
+      "Low gank potential when ultimate is on cooldown",
+      "No escape route once fully engaged in a team fight"
+    ],
+    "playstyle": "レベル5になるまではファームを優先し、アルティメットを覚えたら孤立した敵や体力の低い敵を確実にキルします。集団戦では敵のバックラインに飛び込み、キャリーを瞬殺することが役割です。",
+    "playstyleEn": "Prioritize farming until level 5, then look to secure guaranteed kills on isolated or low-health targets with your ultimate. In team fights, your role is to dive the enemy backline and assassinate their carries."
+  },
+  "Nautilus": {
+    "strengths": [
+      "対象指定のアルティメットと豊富なCCによる絶対的なキャッチ能力",
+      "シールドによる高い耐久力"
+    ],
+    "strengthsEn": [
+      "Absolute catch potential with point-and-click ultimate and abundant CC",
+      "High durability thanks to his shield"
+    ],
+    "weaknesses": [
+      "体が大きく、敵のポークやスキルショットを受けやすい",
+      "逃走能力が低く、一度入ると引くのが難しい"
+    ],
+    "weaknessesEn": [
+      "Large hitbox makes him easy to hit with poke and skillshots",
+      "Low escape potential makes disengaging difficult after committing"
+    ],
+    "playstyle": "フックを使って敵を捕らえ、パッシブの通常攻撃や他のスキルで長時間敵を拘束します。味方のキャリーを守る盾として立ち、対象指定のアルティメットで敵の重要ターゲットを確実に無力化します。",
+    "playstyleEn": "Use your hook to catch enemies, then chain your passive basic attack and other abilities to lock them down for a long time. Stand as a shield for your carries and use your targeted ultimate to reliably neutralize key enemy targets."
+  },
+  "Nidalee": {
+    "strengths": [
+      "槍の命中による超長距離からの高いバーストダメージ",
+      "クーガー形態による極めて高いジャングル周回速度と機動力"
+    ],
+    "strengthsEn": [
+      "High burst damage from ultra-long-range spear hits",
+      "Extremely fast jungle clear speed and mobility in Cougar form"
+    ],
+    "weaknesses": [
+      "槍を外すとダメージが大幅に低下する",
+      "操作難易度が高く、集団戦の立ち回りが難しい"
+    ],
+    "weaknessesEn": [
+      "Damage output drops significantly if spears are missed",
+      "High execution barrier and difficult to position in team fights"
+    ],
+    "playstyle": "ジャングルを素早く周回し、マップを駆け回って敵の隙を突きます。遠距離から槍を当てて敵の体力を削り、体力が減った敵に対してクーガー形態で飛び込んでトドメを刺すヒットアンドアウェイを行います。",
+    "playstyleEn": "Clear the jungle rapidly and roam the map to exploit enemy mistakes. Poke from afar with spears to whittle down health, then switch to Cougar form to dive in and execute low-health targets in a hit-and-run style."
+  },
+  "Norra": {
+    "strengths": [
+      "豊富なポータルや射程の長いスキルによる強力なポーク・ゾーニング能力",
+      "敵を別次元に送ったり、スロウを付与する強力なクラウドコントロール"
+    ],
+    "strengthsEn": [
+      "Strong poke and zoning capabilities with abundant portals and long-range skills",
+      "Strong crowd control capable of banishing enemies to another dimension and applying slows"
+    ],
+    "weaknesses": [
+      "機動力が低く、接近されると非常に脆い",
+      "スキルを当てるのが難しく、予測撃ち（エイム）の精度が求められる"
+    ],
+    "weaknessesEn": [
+      "Low mobility and very fragile when approached",
+      "Skills can be hard to land and require high prediction/aim accuracy"
+    ],
+    "playstyle": "安全な後方からポータルを駆使してスキルを放ち、敵を牽制しながら戦場をコントロールするメイジです。「どこでもない場所へ」で厄介な敵を一時的に隔離し、「ポータルパルーザ！」で広範囲に大ダメージとスロウを与えて集団戦を有利に導きましょう。",
+    "playstyleEn": "A mage who controls the battlefield by casting skills through portals from a safe distance to poke enemies. Isolate troublesome enemies temporarily with 'Nowhere to Go' and use 'Portal Palooza!' to deal massive area damage and slows, leading your team to victory in team fights."
+  },
+  "Nasus": {
+    "strengths": [
+      "Qのスタックを貯めることで得られる無限のダメージスケーリング",
+      "Wによる敵キャリーへの強烈なスローと攻撃速度低下"
+    ],
+    "strengthsEn": [
+      "Infinite damage scaling by stacking his Q",
+      "Severe slow and attack speed reduction on enemy carries with his W"
+    ],
+    "weaknesses": [
+      "序盤が非常に弱く、敵のハラスに苦しみやすい",
+      "カイトされやすく、機動力のある敵に接近するのが難しい"
+    ],
+    "weaknessesEn": [
+      "Extremely weak early game, vulnerable to enemy poke",
+      "Prone to being kited and struggles to close gaps against mobile enemies"
+    ],
+    "playstyle": "序盤はひたすらミニオンのラストヒットをQで取り、スタックを貯めることに専念します。中盤以降は強力なスプリットプッシャーとして塔を破壊し、集団戦ではアルティメットを使って敵の前衛を粉砕します。",
+    "playstyleEn": "Focus solely on last-hitting minions with Q in the early game to build stacks. In the mid-to-late game, become a powerful split-pusher to destroy turrets, and use your ultimate to crush the enemy frontline in team fights."
+  },
+  "Nami": {
+    "strengths": [
+      "回復とダメージを同時にこなすWの汎用性の高さ",
+      "アルティメットによる広範囲の強力なエンゲージ/ディスエンゲージ能力"
+    ],
+    "strengthsEn": [
+      "High versatility with W providing both healing and damage",
+      "Powerful wide-area engage/disengage capability with her ultimate"
+    ],
+    "weaknesses": [
+      "Qの弾速が遅く、当てるのが難しい",
+      "非常に打たれ弱く、アサシンのバーストダメージに弱い"
+    ],
+    "weaknessesEn": [
+      "Q projectile is slow and difficult to land",
+      "Extremely squishy and vulnerable to assassin burst damage"
+    ],
+    "playstyle": "レーン戦ではWを使って有利なダメージトレードを行い、Eで味方の攻撃を強化します。集団戦では後方に位置し、アルティメットで敵の陣形を崩しつつ、味方のサポートとCCの付与に徹底します。",
+    "playstyleEn": "Use W for advantageous damage trades in lane and buff allied attacks with E. Position in the backline during team fights, using your ultimate to disrupt enemy formations while fully committing to supporting allies and applying CC."
+  },
+  "Olaf": {
+    "strengths": [
+      "アルティメットによるあらゆるCCの無効化と強引な突破力",
+      "体力が減るほど攻撃速度とライフスティールが上がるパッシブの殴り合い能力"
+    ],
+    "strengthsEn": [
+      "Total CC immunity and forced breakthrough potential with ultimate",
+      "Passive attack speed and lifesteal increases as health drops, excelling in brawls"
+    ],
+    "weaknesses": [
+      "移動スキルを持たず、地形を越えることができない",
+      "終盤は相対的に耐久力や火力が落ちやすい"
+    ],
+    "weaknessesEn": [
+      "Lacks mobility skills and cannot cross terrain",
+      "Relatively falls off in durability and damage in the late game"
+    ],
+    "playstyle": "斧を連続で投げて敵にスローをかけながら接近し、至近距離での殴り合いに持ち込みます。集団戦ではアルティメットを発動して敵のCCを無視し、一直線に敵のキャリーに向かって突撃します。",
+    "playstyleEn": "Continuously throw axes to slow enemies, closing the gap to force close-quarters brawls. In team fights, activate your ultimate to ignore enemy CC and charge in a straight line toward their carries."
+  },
+  "Orianna": {
+    "strengths": [
+      "ボールを使った安全な距離からのゾーンコントロールとポーク",
+      "アルティメットによる集団戦を一変させるAoEダメージとCC"
+    ],
+    "strengthsEn": [
+      "Safe long-range zone control and poke using her ball",
+      "Game-changing AoE damage and CC in team fights with her ultimate"
+    ],
+    "weaknesses": [
+      "マナ消費が激しく、ボールの管理が難しい",
+      "機動力が低く、アサシンに接近されると何もできずに倒される"
+    ],
+    "weaknessesEn": [
+      "High mana consumption and requires careful ball management",
+      "Low mobility leaves her helpless if an assassin closes the gap"
+    ],
+    "playstyle": "ボールを敵の死角やチョークポイントに配置し、敵の動きを制限しながらハラスを行います。味方のエンゲージ役（マルファイトなど）にボールをつけて飛び込ませ、強力なアルティメットで敵を一網打尽にします。",
+    "playstyleEn": "Place the ball in blind spots or chokepoints to restrict enemy movement while poking. Attach the ball to an allied engager (like Malphite) and follow up with a devastating ultimate to wipe out the enemy team."
+  },
+  "Ornn": {
+    "strengths": [
+      "レーンにいながらアイテムを購入できる独自のパッシブ",
+      "アルティメットによる超長距離からの強力なAoEエンゲージ"
+    ],
+    "strengthsEn": [
+      "Unique passive allowing item purchases without returning to base",
+      "Powerful ultra-long-range AoE engage with his ultimate"
+    ],
+    "weaknesses": [
+      "スキルのモーションが遅く、機動力のある敵に避けられやすい",
+      "序盤のダメージトレードが特定のコンボに依存している"
+    ],
+    "weaknessesEn": [
+      "Slow ability animations make them easy to dodge for mobile enemies",
+      "Early game trades heavily rely on specific combos"
+    ],
+    "playstyle": "ベースに帰らずにアイテムを更新し続け、レーンでの優位性を保ちます。終盤は味方のアイテムをアップグレードしてチーム全体を強化し、集団戦では遠距離からのアルティメットで強力なエンゲージを行います。",
+    "playstyleEn": "Maintain lane advantage by upgrading items without recalling. In the late game, upgrade allied items to buff the entire team, and use your ultimate from long range to initiate powerful engages during team fights."
+  },
+  "Pantheon": {
+    "strengths": [
+      "序盤の圧倒的なダメージトレード能力とキルポテンシャル",
+      "アルティメットによる半グローバルなロームと合流能力"
+    ],
+    "strengthsEn": [
+      "Overwhelming damage trading and kill potential in the early game",
+      "Semi-global roam and join potential with his ultimate"
+    ],
+    "weaknesses": [
+      "試合が長引くほど火力が落ち、スケールしない",
+      "Eの盾の向きを間違えると簡単に倒されてしまう"
+    ],
+    "weaknessesEn": [
+      "Falls off in damage and scaling as the game drags on",
+      "Easily killed if his E shield is faced in the wrong direction"
+    ],
+    "playstyle": "序盤の強さを活かしてレーンを支配し、アルティメットを使って他レーンにガンクを決めてスノーボールさせます。中盤以降は味方のキャリーを守るか、孤立した敵を素早く落とすことに集中します。",
+    "playstyleEn": "Dominate the lane using your early strength, then use your ultimate to gank other lanes and snowball the game. From mid-game onwards, focus on protecting your carries or quickly bursting down isolated targets."
+  },
+  "Pyke": {
+    "strengths": [
+      "アルティメットによる連続キルと味方への追加ゴールド付与",
+      "ステルスとダッシュによる極めて高い機動力と生存能力"
+    ],
+    "strengthsEn": [
+      "Chain execute ultimate that grants bonus gold to allies",
+      "Extremely high mobility and survivability with stealth and dash"
+    ],
+    "weaknesses": [
+      "体力をアイテムで増やせず、非常に脆い",
+      "スキルを外すと逃げるしかなくなり、貢献度が下がる"
+    ],
+    "weaknessesEn": [
+      "Cannot gain bonus health from items, making him very fragile",
+      "Missing abilities renders him largely useless and forced to flee"
+    ],
+    "playstyle": "フックとスタンを活用して攻撃的なレーン戦を展開し、マップを動き回って視界をコントロールします。集団戦では敵の体力が減るのを待ち、アルティメットで次々と処刑してチームにゴールドをもたらします。",
+    "playstyleEn": "Play an aggressive lane using hooks and stuns, then roam to control map vision. In team fights, wait for enemy health bars to drop, then chain execute them with your ultimate to funnel gold to your team."
+  },
+  "Poppy": {
+    "strengths": [
+      "敵のダッシュスキルを止めるWによる強力なアンチイニシエート能力",
+      "壁ドン（E）による確実で長時間のスタン"
+    ],
+    "strengthsEn": [
+      "Strong anti-initiate capability with W blocking enemy dashes",
+      "Reliable and long-duration stun when slamming enemies into walls with E"
+    ],
+    "weaknesses": [
+      "敵を壁に押し込めないとCCが不足する",
+      "アルティメットの使い方が難しく、味方を不利にするリスクがある"
+    ],
+    "weaknessesEn": [
+      "Lacks reliable CC if she can't pin enemies to a wall",
+      "Ultimate is difficult to use perfectly and can accidentally save enemies"
+    ],
+    "playstyle": "敵の位置を常に把握し、Eを使って壁に押し当ててキルを狙います。集団戦では敵のアサシンやファイターの突進をWで防ぎ、アルティメットで厄介な敵を彼方に吹き飛ばして数的不利を作り出します。",
+    "playstyleEn": "Constantly monitor enemy positioning to secure wall stuns with E for kills. In team fights, block assassin or bruiser dashes with W, and use your ultimate to knock away troublesome enemies to create a numbers advantage."
+  },
+  "Rammus": {
+    "strengths": [
+      "物理攻撃主体の構成に対する圧倒的なカウンター能力",
+      "Qの高速移動による回避困難なガンク"
+    ],
+    "strengthsEn": [
+      "Overwhelming counter to physical damage-heavy team comps",
+      "Unavoidable ganks utilizing the high speed of his Q"
+    ],
+    "weaknesses": [
+      "魔法ダメージ主体やCCの豊富な構成には弱い",
+      "ジャングルのクリア速度がやや遅い"
+    ],
+    "weaknessesEn": [
+      "Vulnerable to magic damage-heavy or high-CC comps",
+      "Relatively slow jungle clear speed"
+    ],
+    "playstyle": "Qで高速移動して敵の懐に飛び込み、Eのタウントで敵のキャリーを強制的に攻撃させ、反射ダメージで倒します。AD主体の敵に対しては不沈艦として立ち回り、味方の盾となります。",
+    "playstyleEn": "Use Q's high speed to roll into enemies, then use E's taunt to force enemy carries to attack you and die from reflected damage. Act as an unsinkable shield for your team against AD-heavy lineups."
+  },
+  "Rengar": {
+    "strengths": [
+      "アルティメットのステルスを利用したキャリーの瞬殺能力",
+      "茂みを利用した高い機動力とパッシブのバーストダメージ"
+    ],
+    "strengthsEn": [
+      "Ability to instantly assassinate carries using his stealth ultimate",
+      "High mobility using bushes and immense burst damage from passive"
+    ],
+    "weaknesses": [
+      "茂みがない場所では機動力が著しく低下する",
+      "一度飛び込むと離脱が難しく、CCに弱い"
+    ],
+    "weaknessesEn": [
+      "Mobility drops significantly in areas without bushes",
+      "Hard to disengage once committed and vulnerable to CC"
+    ],
+    "playstyle": "ジャングル内の茂みを活かしてファームや交戦を行い、アルティメットが溜まり次第、敵の柔らかいターゲットを狙って確殺します。集団戦では敵の隙を突き、バックラインを一瞬で崩壊させることが目標です。",
+    "playstyleEn": "Utilize jungle bushes for farming and skirmishing. Once your ultimate is ready, hunt down squishy targets for a guaranteed kill. In team fights, look for openings to instantly obliterate the enemy backline."
+  },
+  "Ryze": {
+    "strengths": [
+      "終盤における圧倒的なDPSと範囲魔法ダメージ",
+      "アルティメットによるチーム全体の長距離テレポート"
+    ],
+    "strengthsEn": [
+      "Overwhelming DPS and AoE magic damage in the late game",
+      "Long-range team teleportation with his ultimate"
+    ],
+    "weaknesses": [
+      "序盤はマナ消費が激しく、戦闘力が低い",
+      "射程が短めで、ダメージを出すために危険な距離に近づく必要がある"
+    ],
+    "weaknessesEn": [
+      "High mana costs and weak combat power in the early game",
+      "Short range forces him into dangerous positions to deal damage"
+    ],
+    "playstyle": "序盤はマナを管理しながらファームに徹し、スケールを待ちます。装備が揃う中盤以降は、スキルを絶え間なく回して敵を溶かし、アルティメットを使ってマクロ面で相手を出し抜きます。",
+    "playstyleEn": "Focus purely on farming and mana management in the early game while waiting to scale. Once geared up in the mid-to-late game, unleash rapid skill combos to melt enemies, and use your ultimate for macro outplays."
+  },
+  "Rell": {
+    "strengths": [
+      "シールド破壊と複数の敵をまとめる強力なAoECC",
+      "物理・魔法防御を奪い、自身を強化するパッシブ"
+    ],
+    "strengthsEn": [
+      "Shield breaking and powerful AoE CC to clump enemies together",
+      "Passive steals armor and magic resist to buff herself"
+    ],
+    "weaknesses": [
+      "Wを使用した後は移動速度が極端に遅くなる",
+      "味方のフォローがないとダメージを出せない"
+    ],
+    "weaknessesEn": [
+      "Movement speed becomes extremely slow after using W",
+      "Cannot deal meaningful damage without allied follow-up"
+    ],
+    "playstyle": "レーン戦では敵の隙を突いてWで飛び込み、味方と合わせてキルを狙います。集団戦ではフラッシュやWを絡めて敵陣のど真ん中に突入し、アルティメットで敵を一箇所に集めて味方の範囲攻撃をサポートします。",
+    "playstyleEn": "Look for openings in lane to crash down with W and secure kills with your ally. In team fights, dive straight into the enemy formation using Flash and W, then use your ultimate to group them up for allied AoE attacks."
+  },
+  "Rakan": {
+    "strengths": [
+      "全サポート中トップクラスの機動力とエンゲージ能力",
+      "Wとアルティメットを組み合わせた回避困難な広範囲CC"
+    ],
+    "strengthsEn": [
+      "Top-tier mobility and engage potential among all supports",
+      "Unavoidable wide-area CC combining W and ultimate"
+    ],
+    "weaknesses": [
+      "自身は脆く、エンゲージ後に味方へ戻れないと倒されやすい",
+      "スキルのクールダウンが長め"
+    ],
+    "weaknessesEn": [
+      "Squishy and easily killed if unable to dash back to an ally after engaging",
+      "Relatively long ability cooldowns"
+    ],
+    "playstyle": "味方と連携して素早く敵の懐に飛び込み、CCを与えてから即座に味方の元へ離脱するヒットアンドアウェイを得意とします。アルティメットを発動して複数の敵を魅了し、一気に戦局を動かします。",
+    "playstyleEn": "Excel at hit-and-run tactics by quickly diving the enemy with an ally, applying CC, and immediately dashing back out. Activate your ultimate to charm multiple enemies and instantly shift the momentum of a team fight."
+  },
+  "Rumble": {
+    "strengths": [
+      "アルティメットによる超射程のAoEダメージと分断能力",
+      "オーバーヒート時の強力な通常攻撃ダメージ"
+    ],
+    "strengthsEn": [
+      "Ultra-long-range AoE damage and zoning capability with ultimate",
+      "Powerful basic attack damage when Overheated"
+    ],
+    "weaknesses": [
+      "熱量（ヒート）の管理が難しく、サイレンス状態になるとスキルが使えない",
+      "逃げスキルがなく、ガンクに弱い"
+    ],
+    "weaknessesEn": [
+      "Heat management is difficult; overheating silences him from using skills",
+      "Lacks escape abilities and is vulnerable to ganks"
+    ],
+    "playstyle": "熱量を50以上に保ちながら火炎放射で敵にプレッシャーをかけます。集団戦では狭い通路やジャングルの地形を活かしてアルティメットを敷き詰め、敵陣を分断しながら大ダメージを与えます。",
+    "playstyleEn": "Maintain Heat above 50 to pressure enemies with your flamethrower. In team fights, lay down your ultimate in narrow chokepoints or jungle terrain to split the enemy formation and deal massive damage."
+  },
+  "Renekton": {
+    "strengths": [
+      "序盤から中盤にかけての圧倒的なレーン戦の強さとバーストダメージ",
+      "怒り（フューリー）を消費した時の強力なスキル効果と回復力"
+    ],
+    "strengthsEn": [
+      "Overwhelming lane dominance and burst damage from early to mid-game",
+      "Powerful empowered abilities and healing when consuming Fury"
+    ],
+    "weaknesses": [
+      "ゲーム終盤になると火力が伸び悩み、失速する",
+      "射程が短く、ポーク構成に対して近づくのが難しい"
+    ],
+    "weaknessesEn": [
+      "Damage falls off and he loses momentum in the late game",
+      "Short range makes it difficult to close gaps against poke comps"
+    ],
+    "playstyle": "フューリーを管理しながらEで接近し、強化Wでスタンさせてダメージを与えた後、再びEで離脱するトレードを行います。序盤で有利を作り、スノーボールしてゲームを早期に終わらせるよう立ち回ります。",
+    "playstyleEn": "Manage Fury to dash in with E, apply a stun with an empowered W for burst damage, and dash out. Capitalize on your early strength to snowball and close out the game quickly."
+  },
+  "Riven": {
+    "strengths": [
+      "スキルキャンセルを活用した非常に高いバーストダメージと機動力",
+      "マナを持たず、クールダウン短縮によるスキルの回転率の良さ"
+    ],
+    "strengthsEn": [
+      "Extremely high burst damage and mobility utilizing animation canceling",
+      "Manaless champion with high ability uptime through cooldown reduction"
+    ],
+    "weaknesses": [
+      "操作難易度が極めて高く、ポテンシャルを引き出すのが難しい",
+      "ハードCCに弱く、足を止められると脆い"
+    ],
+    "weaknessesEn": [
+      "Extremely high mechanical execution required to unlock full potential",
+      "Vulnerable to hard CC; very squishy if locked down"
+    ],
+    "playstyle": "Qと通常攻撃を織り交ぜたコンボでレーンを圧倒し、機動力を活かしてマップ全体にプレッシャーをかけます。集団戦ではフラッシュとスキルを組み合わせて敵のバックラインに急襲し、一瞬でキャリーを粉砕します。",
+    "playstyleEn": "Dominate the lane with combos weaving Q and basic attacks, using your mobility to pressure the entire map. In team fights, combine Flash with your skills to dive the backline and instantly crush their carries."
+  },
+  "Smolder": {
+    "strengths": [
+      "終盤の圧倒的なスケーリング能力",
+      "スタックによる継続的なダメージ増加",
+      "地形を無視できる機動力"
+    ],
+    "strengthsEn": [
+      "Overwhelming late-game scaling",
+      "Continuous damage increase via stacking",
+      "Mobility to bypass terrain"
+    ],
+    "weaknesses": [
+      "序盤のレーン戦が弱い",
+      "射程が短め",
+      "CCに弱く捕まりやすい"
+    ],
+    "weaknessesEn": [
+      "Weak early laning phase",
+      "Relatively short range",
+      "Vulnerable to CC and easily caught"
+    ],
+    "playstyle": "序盤は安全にファームし、スタックを溜めることに集中します。スタックが溜まった中盤以降は、集団戦で後方から圧倒的な範囲ダメージを出し続けるハイパーキャリーとして活躍します。",
+    "playstyleEn": "Focus on farming safely and accumulating stacks in the early game. Once stacked in the mid-to-late game, act as a hyper-carry, dealing overwhelming area-of-effect damage from the backline in teamfights."
+  },
+  "Xayah": {
+    "strengths": [
+      "アルティメットによる高い自衛力",
+      "羽の引き寄せによる強力なAoEダメージとスネア",
+      "オブジェクトを素早く狩る能力"
+    ],
+    "strengthsEn": [
+      "High self-peel with ultimate",
+      "Strong AoE damage and root from feather recall",
+      "Ability to take objectives quickly"
+    ],
+    "weaknesses": [
+      "射程が短い",
+      "機動力が低く逃げ性能がアルティメット依存",
+      "羽の配置に依存するダメージ出力"
+    ],
+    "weaknessesEn": [
+      "Short attack range",
+      "Low mobility, relying heavily on ultimate for escape",
+      "Damage output depends on feather placement"
+    ],
+    "playstyle": "羽を戦場に配置し、敵が羽の間にいるタイミングで引き寄せてダメージとスネアを与えます。アサシンに対してはアルティメットで攻撃を回避し、カウンターを狙うプレイが得意です。",
+    "playstyleEn": "Place feathers on the battlefield and recall them when enemies are in between to deal damage and root them. Excel at countering assassins by dodging their attacks with your ultimate and striking back."
+  },
+  "Vayne": {
+    "strengths": [
+      "確定ダメージによるタンクキル能力",
+      "アルティメットとQを使った高いデュエル性能",
+      "圧倒的なレイトゲームのキャリー力"
+    ],
+    "strengthsEn": [
+      "Tank-killing ability with true damage",
+      "High dueling potential with ultimate and Q",
+      "Overwhelming late-game carry potential"
+    ],
+    "weaknesses": [
+      "射程が短くレーン戦が非常に弱い",
+      "ウェーブクリア能力がない",
+      "操作難易度が高くミスが許されない"
+    ],
+    "weaknessesEn": [
+      "Short range and very weak laning phase",
+      "Lack of wave clear ability",
+      "High mechanical difficulty, leaving no room for error"
+    ],
+    "playstyle": "序盤はひたすらファームに徹し、アイテムを揃えます。集団戦では前衛から順番に確定ダメージで溶かし、インビジブルを駆使して敵のスキルを避けながら戦場を支配します。",
+    "playstyleEn": "Focus entirely on farming in the early game to hit item power spikes. In teamfights, melt the frontline one by one with true damage, and use invisibility to dodge enemy skills while dominating the battlefield."
+  },
+  "Varus": {
+    "strengths": [
+      "非常に長い射程からのポーク能力",
+      "アルティメットによる強力なエンゲージ・キャッチ",
+      "割合ダメージによるタンク処理能力"
+    ],
+    "strengthsEn": [
+      "Long-range poke ability",
+      "Strong engage and pick potential with ultimate",
+      "Tank-shredding capability via percentage damage"
+    ],
+    "weaknesses": [
+      "機動力がなくガンクに弱い",
+      "スキルショットの精度に依存する",
+      "接近戦に弱い"
+    ],
+    "weaknessesEn": [
+      "Lacks mobility and vulnerable to ganks",
+      "Heavily reliant on skillshot accuracy",
+      "Weak in close-quarters combat"
+    ],
+    "playstyle": "長距離からQでダメージを与え続け、敵の体力を削ります。集団戦ではアルティメットで敵を捕らえ、味方と連携して一気にキルを狙うプレイスタイルが強力です。",
+    "playstyleEn": "Constantly poke with Q from a distance to whittle down enemy health. In teamfights, use your ultimate to lock down enemies and coordinate with your team for quick kills."
+  },
+  "Sivir": {
+    "strengths": [
+      "最強クラスのウェーブクリア能力",
+      "アルティメットによるチーム全体の機動力アップ",
+      "スペルシールドによる自衛力"
+    ],
+    "strengthsEn": [
+      "Top-tier wave clear ability",
+      "Team-wide mobility boost from ultimate",
+      "Self-protection via Spell Shield"
+    ],
+    "weaknesses": [
+      "射程が短い",
+      "序盤のマナ消費が激しい",
+      "単体へのバーストダメージが低い"
+    ],
+    "weaknessesEn": [
+      "Short attack range",
+      "High mana consumption in the early game",
+      "Low single-target burst damage"
+    ],
+    "playstyle": "WとQを使って素早くミニオンを処理し、レーンの主導権を握ります。集団戦ではアルティメットで味方のエンゲージや撤退をサポートし、跳弾で敵全体にダメージをばら撒きます。",
+    "playstyleEn": "Use W and Q to quickly clear minions and gain lane priority. In teamfights, use your ultimate to facilitate team engages or disengages, and spread damage to all enemies with ricocheting blades."
+  },
+  "Zeri": {
+    "strengths": [
+      "アルティメット発動時の圧倒的な機動力",
+      "壁を越える移動スキル",
+      "継続的なAoEダメージ"
+    ],
+    "strengthsEn": [
+      "Overwhelming mobility during ultimate",
+      "Terrain-scaling movement skill",
+      "Continuous AoE damage"
+    ],
+    "weaknesses": [
+      "通常攻撃がスキルショットであり操作が難しい",
+      "序盤のダメージが低い",
+      "スロウやCCに非常に弱い"
+    ],
+    "weaknessesEn": [
+      "Auto-attacks are skillshots, making mechanics demanding",
+      "Low early-game damage",
+      "Highly vulnerable to slows and CC"
+    ],
+    "playstyle": "壁を活かした独自のポジショニングで戦い、アルティメットを発動したら敵の攻撃を避けながらカイトし続けます。スタックを維持して戦場を駆け回るのが鍵です。",
+    "playstyleEn": "Utilize unique positioning around walls, and once the ultimate is active, constantly kite while dodging enemy attacks. Maintaining stacks and sprinting around the battlefield is the key to success."
+  },
+  "Twitch": {
+    "strengths": [
+      "ステルスからの奇襲能力",
+      "アルティメットによる超長射程と貫通ダメージ",
+      "集団戦を一人で破壊するポテンシャル"
+    ],
+    "strengthsEn": [
+      "Ambush capability from stealth",
+      "Extreme range and piercing damage with ultimate",
+      "Potential to single-handedly wipe teamfights"
+    ],
+    "weaknesses": [
+      "レーン戦が非常に弱い",
+      "機動力がなく捕まると脆い",
+      "アルティメットのクールダウンに依存する"
+    ],
+    "weaknessesEn": [
+      "Very weak laning phase",
+      "Lacks mobility and is squishy when caught",
+      "Highly reliant on ultimate cooldown"
+    ],
+    "playstyle": "ステルスを使って敵の意表を突くポジションを取り、集団戦が始まった瞬間にアルティメットを展開して敵全体に壊滅的なダメージを与えます。",
+    "playstyleEn": "Use stealth to find an unexpected flank angle, and unleash your ultimate the moment a teamfight erupts to deal devastating piercing damage to the entire enemy team."
+  },
+  "Samira": {
+    "strengths": [
+      "条件を満たした時の圧倒的なAoEバースト",
+      "飛び道具をかき消すWの防御性能",
+      "キルによるダッシュの連続使用"
+    ],
+    "strengthsEn": [
+      "Overwhelming AoE burst when conditions are met",
+      "Projectile-destroying defense from W",
+      "Continuous dash resets on kills"
+    ],
+    "weaknesses": [
+      "射程が短くポークに弱い",
+      "CCに弱くアルティメットを止められやすい",
+      "ランクSにするためのコンボ技術が必要"
+    ],
+    "weaknessesEn": [
+      "Short range, vulnerable to poke",
+      "Weak to CC, which interrupts her ultimate",
+      "Requires combo execution skills to reach S-rank"
+    ],
+    "playstyle": "スキルと通常攻撃を交互に当ててスタイルランクを素早くSに引き上げます。タイミングを見計らって敵陣に飛び込み、アルティメットで敵全体を殲滅するアサシンのようなADCです。",
+    "playstyleEn": "Weave skills and auto-attacks to quickly build your Style rank to S. Wait for the right moment to dive into the enemy team and unleash your ultimate to obliterate everyone like an assassin."
+  },
+  "Tristana": {
+    "strengths": [
+      "レベルスケールで伸びる長い射程",
+      "タワーの破壊速度がトップクラス",
+      "キル・アシストでのジャンプリセット"
+    ],
+    "strengthsEn": [
+      "Attack range scales with level",
+      "Top-tier tower destruction speed",
+      "Jump resets on kills and assists"
+    ],
+    "weaknesses": [
+      "序盤の射程が短くレーン戦が不安定",
+      "Eのパッシブでウェーブコントロールが難しい",
+      "中盤にダメージが落ち込む時間帯がある"
+    ],
+    "weaknessesEn": [
+      "Short early-game range makes laning unstable",
+      "E passive makes wave management difficult",
+      "Experiences a mid-game damage dip"
+    ],
+    "playstyle": "序盤は慎重に立ち回り、装備が揃うのを待ちます。終盤は長い射程から安全にダメージを出し、敵を倒してはジャンプでポジションを変えるアグレッシブなプレイが可能です。",
+    "playstyleEn": "Play carefully in the early game until you get your core items. In the late game, deal damage safely from a long distance and play aggressively by using jump resets to reposition after takedowns."
+  },
+  "Taliyah": {
+    "strengths": [
+      "パッシブとアルティメットによる高いローム能力",
+      "継続的な魔法ダメージ",
+      "強力なゾーニングとバーストコンボ"
+    ],
+    "strengthsEn": [
+      "High roam potential from passive and ultimate",
+      "Consistent magic damage output",
+      "Strong zoning and burst combos"
+    ],
+    "weaknesses": [
+      "スキルショットの難易度が高い",
+      "加工された岩の上ではQの性能が落ちる",
+      "アサシンなどの接近戦に弱い"
+    ],
+    "weaknessesEn": [
+      "High skillshot difficulty",
+      "Q effectiveness drops on Worked Ground",
+      "Vulnerable to assassins and close combat"
+    ],
+    "playstyle": "素早いウェーブクリアから他レーンへのロームを行い、マップ全体に影響を与えます。集団戦ではWとEのコンボで敵をキャッチし、アルティメットで敵の退路や分断を狙います。",
+    "playstyleEn": "Quickly clear waves and roam to other lanes to impact the entire map. In teamfights, catch enemies with the W-E combo and use your ultimate to cut off escape routes or divide the enemy team."
+  },
+  "Warwick": {
+    "strengths": [
+      "圧倒的なサステイン(回復)能力",
+      "体力の低い敵を追跡する高い機動力",
+      "強力な単体拘束アルティメット"
+    ],
+    "strengthsEn": [
+      "Overwhelming sustain (healing) ability",
+      "High mobility for tracking low-health enemies",
+      "Strong single-target lockdown ultimate"
+    ],
+    "weaknesses": [
+      "集団戦ではカイトされやすい",
+      "アルティメットを外すと脅威が半減する",
+      "中盤以降の影響力が低下しがち"
+    ],
+    "weaknessesEn": [
+      "Easily kited in late-game teamfights",
+      "Threat level halves if ultimate misses",
+      "Influence tends to fall off in the mid-to-late game"
+    ],
+    "playstyle": "血の匂い(W)を活かして孤立した敵や体力の低い敵を追い詰め、序盤から積極的にガンクを行います。デュエル性能の高さを活かしてジャングル内での小規模戦を支配します。",
+    "playstyleEn": "Utilize Blood Hunt (W) to track isolated or low-health enemies and execute aggressive early ganks. Leverage high dueling potential to dominate early skirmishes in the jungle."
+  },
+  "Vi": {
+    "strengths": [
+      "対象指定の確実なエンゲージアルティメット",
+      "シールドによる耐久力",
+      "割合ダメージとアーマー低下によるタンク処理"
+    ],
+    "strengthsEn": [
+      "Guaranteed targeted engage ultimate",
+      "Durability from passive shields",
+      "Tank shredding via percentage damage and armor reduction"
+    ],
+    "weaknesses": [
+      "一度飛び込むと逃げ道がない",
+      "Qを外すとダメージと機動力が大幅に落ちる",
+      "CCチェインに弱い"
+    ],
+    "weaknessesEn": [
+      "No escape once fully committed to an engage",
+      "Missing Q significantly lowers damage and mobility",
+      "Vulnerable to CC chains"
+    ],
+    "playstyle": "Qとアルティメットを使って敵の最重要ターゲット(ADCなど)を確実に拘束・排除するダイバーです。味方のアサシンやバーストメイジと合わせて敵のキャリーを瞬殺するプレイが強力です。",
+    "playstyleEn": "Act as a diver using Q and ultimate to strictly lock down and eliminate high-priority targets (like ADCs). Coordinating with allied assassins or burst mages to instantly delete enemy carries is highly effective."
+  },
+  "Shyvana": {
+    "strengths": [
+      "ドラゴンの獲得スピードが早い",
+      "ドラゴンフォーム時の高いAoEダメージと耐久力",
+      "ファームが非常に早い"
+    ],
+    "strengthsEn": [
+      "Fast dragon taking speed",
+      "High AoE damage and durability in Dragon form",
+      "Extremely fast jungle clearing"
+    ],
+    "weaknesses": [
+      "序盤のガンク能力が低い",
+      "フューリーがないとアルティメットが使えない",
+      "CCをほとんど持たない"
+    ],
+    "weaknessesEn": [
+      "Weak early ganking potential",
+      "Cannot use ultimate without Fury",
+      "Almost no crowd control"
+    ],
+    "playstyle": "序盤はひたすらファームとドラゴン獲得に集中します。レベル5以降はフューリーを溜め、ドラゴンフォームでの圧倒的なステータスと範囲ダメージで集団戦を制圧します。",
+    "playstyleEn": "Focus strictly on farming and securing dragons in the early game. Post-level 5, build up Fury and dominate teamfights with the overwhelming stats and area damage of your Dragon form."
+  },
+  "XinZhao": {
+    "strengths": [
+      "序盤の1v1とガンク能力が非常に高い",
+      "アルティメットによる孤立化と飛び道具無効",
+      "操作がシンプルで安定している"
+    ],
+    "strengthsEn": [
+      "Extremely strong early 1v1 and ganking",
+      "Isolation and projectile immunity from ultimate",
+      "Simple and consistent mechanics"
+    ],
+    "weaknesses": [
+      "終盤になるにつれて影響力が落ちる",
+      "逃げスキルを持たない",
+      "壁越えの機動力が条件付き"
+    ],
+    "weaknessesEn": [
+      "Influence falls off heavily in the late game",
+      "Lacks escape abilities",
+      "Wall-jumping mobility is highly conditional"
+    ],
+    "playstyle": "最序盤から積極的にガンクやインベードを行い、試合のペースを握ります。集団戦では敵のキャリーに飛び込み、アルティメットで他の敵の攻撃を弾きながらターゲットを仕留めます。",
+    "playstyleEn": "Control the pace of the game by aggressively ganking and invading from the very beginning. In teamfights, dive the enemy carry and use your ultimate to deflect outside attacks while securing the kill."
+  },
+  "Viego": {
+    "strengths": [
+      "敵のスキルを使える特異なパッシブ",
+      "キルアシスト時の無敵と体力回復",
+      "アルティメットの連続使用によるスノーボール"
+    ],
+    "strengthsEn": [
+      "Unique passive allowing use of enemy abilities",
+      "Invulnerability and healing on takedowns",
+      "Snowball potential through ultimate resets"
+    ],
+    "weaknesses": [
+      "敵のチャンピオンへの知識が必要",
+      "自身が柔らかくバーストダメージに弱い",
+      "最初のキルが取れないと活躍しづらい"
+    ],
+    "weaknessesEn": [
+      "Requires deep knowledge of all enemy champions",
+      "Squishy and vulnerable to burst damage",
+      "Struggles to contribute if the first kill isn't secured"
+    ],
+    "playstyle": "集団戦では味方と連携して素早く最初の1キルを取り、パッシブで敵に憑依して次々とアルティメットを叩き込むリセット型のプレイスタイルです。",
+    "playstyleEn": "Coordinate with the team to secure the crucial first kill in teamfights, then use your passive to possess the enemy and chain ultimate resets to wipe out the remaining foes."
+  },
+  "Talon": {
+    "strengths": [
+      "壁を飛び越える圧倒的なローム・逃走能力",
+      "瞬時に敵を倒すバーストダメージ",
+      "アルティメットのステルスによる奇襲"
+    ],
+    "strengthsEn": [
+      "Overwhelming roam and escape ability by jumping walls",
+      "Instant burst damage to annihilate enemies",
+      "Ambush potential from ultimate's stealth"
+    ],
+    "weaknesses": [
+      "レイトゲームや集団戦での影響力が低い",
+      "タンクやブルーザーに対してダメージが通らない",
+      "壁越えのクールダウン中は機動力が落ちる"
+    ],
+    "weaknessesEn": [
+      "Low influence in late game and large teamfights",
+      "Struggles to deal damage to tanks and bruisers",
+      "Mobility plummets while wall-jump is on cooldown"
+    ],
+    "playstyle": "レーンを素早くプッシュし、壁を越えてジャングルや他レーンにプレッシャーをかけます。孤立した柔らかいターゲットを瞬殺して離脱するヒット＆アウェイが得意です。",
+    "playstyleEn": "Quickly push the lane and jump walls to pressure the jungle or other lanes. Excels at hit-and-run tactics, instantly bursting isolated squishy targets and escaping safely."
+  },
+  "Tryndamere": {
+    "strengths": [
+      "アルティメットによる数秒間の不死身",
+      "クリティカルと通常攻撃による強烈なDPS",
+      "機動力が高くスプリットプッシュが強力"
+    ],
+    "strengthsEn": [
+      "Few seconds of invincibility from ultimate",
+      "Intense DPS through crits and auto-attacks",
+      "High mobility makes for powerful split pushing"
+    ],
+    "weaknesses": [
+      "CCに非常に弱くカイトされやすい",
+      "チームファイトでの貢献度が低い",
+      "フューリーがない状態では弱い"
+    ],
+    "weaknessesEn": [
+      "Highly vulnerable to CC and easily kited",
+      "Low contribution in traditional teamfights",
+      "Weak without built-up Fury"
+    ],
+    "playstyle": "サイドレーンを押し続け、敵チームの注意を引きつけます。1v1のデュエル性能と不死身のアルティメットを活かし、タワーを折り続ける自己中心的なキャリースタイルです。",
+    "playstyleEn": "Relentlessly push side lanes to draw enemy attention. Utilize high 1v1 dueling power and the invincibility ultimate to continuously take down towers in a selfish carry style."
+  },
+  "Yone": {
+    "strengths": [
+      "物理・魔法のハイブリッドダメージ",
+      "Eを使った安全な位置からのハラスと暗殺",
+      "アルティメットによる強力なAoEエンゲージ"
+    ],
+    "strengthsEn": [
+      "Mixed physical and magic damage",
+      "Safe harassment and assassination using E",
+      "Strong AoE engage with ultimate"
+    ],
+    "weaknesses": [
+      "序盤のレーン戦が弱い",
+      "CCチェインに弱くバーストで落とされやすい",
+      "Qのスタック管理が必要"
+    ],
+    "weaknessesEn": [
+      "Weak early laning phase",
+      "Vulnerable to CC chains and easily burst down",
+      "Requires Q stack management"
+    ],
+    "playstyle": "序盤は慎重にファームし、アイテムが揃うのを待ちます。集団戦ではEで前進し、Q3とアルティメットを組み合わせて敵のバックラインを壊滅させる強力なアサシン/ファイターです。",
+    "playstyleEn": "Farm carefully early on until reaching item spikes. In teamfights, act as a powerful assassin/fighter by engaging with E, combining Q3 and ultimate to obliterate the enemy backline."
+  },
+  "Zed": {
+    "strengths": [
+      "影を利用した高い機動力とアウトプレイ性能",
+      "ターゲットを確実に仕留めるアルティメット",
+      "マナ不要でポーク能力も高い"
+    ],
+    "strengthsEn": [
+      "High mobility and outplay potential using shadows",
+      "Ultimate guarantees target execution",
+      "Manaless with high poke potential"
+    ],
+    "weaknesses": [
+      "ストップウォッチ等の防御アイテムに弱い",
+      "エナジー管理が重要",
+      "操作難易度が非常に高い"
+    ],
+    "weaknessesEn": [
+      "Countered heavily by defensive items like Stasis",
+      "Requires careful Energy management",
+      "Extremely high mechanical difficulty"
+    ],
+    "playstyle": "レーンでは影を使ったコンボで一方的に体力を削り、キルを狙います。集団戦では敵のADCやメイジにアルティメットで飛び込み、瞬時に倒して影で離脱します。",
+    "playstyleEn": "In lane, use shadow combos to unilaterally poke the enemy and seek kill opportunities. In teamfights, dive the enemy ADC or mage with your ultimate, burst them instantly, and escape via shadow."
+  },
+  "Volibear": {
+    "strengths": [
+      "タワーの攻撃を無効化するアルティメット",
+      "パッシブとWによる高いサステインと継続火力",
+      "序盤の小規模戦での圧倒的な強さ"
+    ],
+    "strengthsEn": [
+      "Ultimate disables enemy towers",
+      "High sustain and sustained damage from passive and W",
+      "Overwhelming strength in early skirmishes"
+    ],
+    "weaknesses": [
+      "遠距離からのカイトに弱い",
+      "接近する手段が直線的",
+      "終盤はスケールダウンする"
+    ],
+    "weaknessesEn": [
+      "Vulnerable to kiting from a distance",
+      "Engage pattern is predictable and linear",
+      "Falls off in scaling during the late game"
+    ],
+    "playstyle": "Qの移動速度アップで強引に接近し、Wで回復しながら殴り合います。アルティメットを使った強引なタワーダイブが得意で、スノーボールの起点を作りやすいです。",
+    "playstyleEn": "Force engagements using Q's movement speed and brawl while healing with W. Excels at aggressive tower dives using ultimate, easily creating snowball opportunities for the team."
+  },
+  "Skarner": {
+    "strengths": [
+      "アルティメットによる問答無用のサプレッション(拘束)",
+      "クリスタル・スパイア周辺での圧倒的なステータス",
+      "強力なフラッシュ+アルティメットのエンゲージ"
+    ],
+    "strengthsEn": [
+      "Unconditional suppression with ultimate",
+      "Overwhelming stats around Crystal Spires",
+      "Potent Flash + Ultimate engage capability"
+    ],
+    "weaknesses": [
+      "スパイア外では性能が低下する",
+      "アルティメットを解除されるアイテム(QSS)に弱い",
+      "カイトに弱く接近が難しい"
+    ],
+    "weaknessesEn": [
+      "Performance drops outside of Spire zones",
+      "Countered by items that cleanse suppression (QSS)",
+      "Vulnerable to kiting and struggles to close gaps"
+    ],
+    "playstyle": "マップ内のスパイアを制圧してジャングルの主導権を握ります。集団戦では移動速度を上げて敵の重要ターゲットに接近し、アルティメットで味方陣地へ引きずり込みます。",
+    "playstyleEn": "Control the Spires to secure jungle dominance. In teamfights, boost your movement speed to close in on a high-value target and drag them into your team with your ultimate."
+  },
+  "TwistedFate": {
+    "strengths": [
+      "アルティメットによる半グローバルなプレッシャー",
+      "ゴールドカードによる対象指定スタン",
+      "パッシブによるゴールド獲得の速さ"
+    ],
+    "strengthsEn": [
+      "Semi-global pressure from ultimate",
+      "Targeted stun with Gold Card",
+      "Accelerated gold generation from passive"
+    ],
+    "weaknesses": [
+      "機動力がなくガンクに弱い",
+      "バーストダメージが他のメイジより低い",
+      "アルティメットのクールダウン中は影響力が小さい"
+    ],
+    "weaknessesEn": [
+      "Lacks mobility and vulnerable to ganks",
+      "Lower burst damage compared to other mages",
+      "Small impact while ultimate is on cooldown"
+    ],
+    "playstyle": "ウェーブを素早く処理し、アルティメットを使ってサイドレーンへガンクを繰り返します。味方を育てることでマップ全体をコントロールするマクロ重視のチャンピオンです。",
+    "playstyleEn": "Quickly clear waves and use ultimate to repeatedly gank side lanes. A macro-focused champion who controls the entire map by helping teammates secure an advantage."
+  },
+  "Xerath": {
+    "strengths": [
+      "超長射程からのポークダメージ",
+      "安全な位置からキルを狙えるアルティメット",
+      "優秀なウェーブクリア能力"
+    ],
+    "strengthsEn": [
+      "Extreme long-range poke damage",
+      "Can secure kills from safe distance with ultimate",
+      "Excellent wave clear ability"
+    ],
+    "weaknesses": [
+      "機動力が皆無",
+      "スキルが全て方向指定で当てづらい",
+      "懐に入られると非常に脆い"
+    ],
+    "weaknessesEn": [
+      "Absolute lack of mobility",
+      "All abilities are skillshots and can be dodged",
+      "Extremely squishy and helpless when engaged upon"
+    ],
+    "playstyle": "敵の攻撃が届かない安全な距離からスキルを撃ち続け、敵の体力を削ります。集団戦の前後でポークを行い、体力が減った敵をアルティメットで狙撃してトドメを刺します。",
+    "playstyleEn": "Constantly fire spells from a safe distance out of enemy reach to whittle down their health. Poke before and after teamfights, and execute low-health targets with your ultimate."
+  },
+  "Zyra": {
+    "strengths": [
+      "植物を利用した強力なゾーニング",
+      "高いAoEバーストダメージとCC",
+      "視界確保やブッシュチェックが安全に行える"
+    ],
+    "strengthsEn": [
+      "Strong zoning utilizing plants",
+      "High AoE burst damage and CC",
+      "Can safely establish vision and check bushes"
+    ],
+    "weaknesses": [
+      "足が遅く逃げ性能が低い",
+      "耐久力が非常に低い",
+      "植物のAIにダメージが依存する場面がある"
+    ],
+    "weaknessesEn": [
+      "Slow movement speed and poor escape capabilities",
+      "Extremely low durability",
+      "Damage output can sometimes rely on plant AI"
+    ],
+    "playstyle": "種を配置し、スキルを当てて植物を成長させることで敵の接近を阻みます。敵が飛び込んできたところに合わせてアルティメットを展開するカウンターエンゲージが強力です。",
+    "playstyleEn": "Place seeds and hit them with spells to grow plants, zoning out enemy approaches. Excels at counter-engaging by dropping her ultimate right when enemies dive in."
+  },
+  "Swain": {
+    "strengths": [
+      "アルティメット中の圧倒的な回復力と耐久力",
+      "Eによるキャッチ能力",
+      "集団戦での継続的なAoEダメージ"
+    ],
+    "strengthsEn": [
+      "Overwhelming healing and durability during ultimate",
+      "Strong pick potential with E",
+      "Continuous AoE damage in teamfights"
+    ],
+    "weaknesses": [
+      "機動力が低く射程が短い",
+      "重傷(回復阻害)アイテムに弱い",
+      "スキルを外すと隙が大きい"
+    ],
+    "weaknessesEn": [
+      "Low mobility and short range",
+      "Vulnerable to Grievous Wounds (anti-heal) items",
+      "Highly punishable when missing skills"
+    ],
+    "playstyle": "最前線で敵の攻撃を受け止めつつ、アルティメットで敵全体から体力を吸い続けるドレインタンクです。集団戦の中心に陣取ることで真価を発揮します。",
+    "playstyleEn": "Acts as a drain tank, absorbing front-line damage while sapping health from all nearby enemies with his ultimate. Shows his true value by positioning right in the center of teamfights."
+  },
+  "Teemo": {
+    "strengths": [
+      "キノコ(アルティメット)によるマップコントロール",
+      "Qのブラインドによる通常攻撃アタッカーへのカウンター",
+      "ステルスからの奇襲"
+    ],
+    "strengthsEn": [
+      "Map control using mushrooms (ultimate)",
+      "Counters auto-attackers with Q's blind",
+      "Ambush potential from stealth"
+    ],
+    "weaknesses": [
+      "集団戦での影響力が低い",
+      "柔らかくキャッチされるとすぐに倒される",
+      "スイーパー(赤トリンケット)で対策されやすい"
+    ],
+    "weaknessesEn": [
+      "Low impact in direct 5v5 teamfights",
+      "Squishy and dies quickly if caught",
+      "Easily countered by Oracle Lenses (sweepers)"
+    ],
+    "playstyle": "オブジェクト周辺や敵の通り道にキノコをばら撒き、視界とマップの主導権を握ります。レーン戦では毒とブラインドで近接チャンピオンを徹底的にいじめ抜きます。",
+    "playstyleEn": "Scatter mushrooms around objectives and enemy pathing to gain vision and map control. In lane, mercilessly harass melee champions using poison and blind."
+  },
+  "Veigar": {
+    "strengths": [
+      "パッシブによる無限のAPスケーリング",
+      "Eのケージによる強力な範囲スタン・ゾーニング",
+      "ワンコンボで敵を消し去るアルティメット"
+    ],
+    "strengthsEn": [
+      "Infinite AP scaling from passive",
+      "Strong AoE stun/zoning from E (cage)",
+      "One-shot capability with ultimate"
+    ],
+    "weaknesses": [
+      "序盤が非常に弱くマナがきつい",
+      "機動力が皆無",
+      "Eがクールダウン中の無防備さ"
+    ],
+    "weaknessesEn": [
+      "Very weak early game with mana issues",
+      "Complete lack of mobility",
+      "Extremely defenseless while E is on cooldown"
+    ],
+    "playstyle": "序盤はひたすらQでミニオンを倒し、魔力を無限にスタックさせます。ゲーム後半にはスキル一つで敵のキャリーの体力を半分以上削り取る、脅威のバーストメイジになります。",
+    "playstyleEn": "Focus purely on executing minions with Q in the early game to infinitely stack Ability Power. By late game, become a terrifying burst mage capable of halving an enemy carry's health with a single spell."
+  },
+  "Ziggs": {
+    "strengths": [
+      "圧倒的なタワー破壊能力",
+      "安全な距離からのAoEポーク",
+      "アルティメットによる半グローバル支援"
+    ],
+    "strengthsEn": [
+      "Overwhelming tower-destruction capability",
+      "AoE poke from a safe distance",
+      "Semi-global support with ultimate"
+    ],
+    "weaknesses": [
+      "スキルショットへの依存度が高い",
+      "アサシンに接近されると脆い",
+      "W以外の逃げスキルがない"
+    ],
+    "weaknessesEn": [
+      "High reliance on landing skillshots",
+      "Squishy and vulnerable to assassins in close quarters",
+      "No escape tool other than W"
+    ],
+    "playstyle": "長い射程を活かして敵をポークし、ウェーブを押し込みます。パッシブとWを利用してタワーを瞬時に破壊し、オブジェクトの有利をチームにもたらすシージ(攻城)特化メイジです。",
+    "playstyleEn": "Use long range to poke enemies and push waves. A siege-specialized mage who leverages passive and W to instantly demolish towers and secure objective advantages for the team."
+  },
+  "Syndra": {
+    "strengths": [
+      "単体への絶対的なバーストダメージ",
+      "Eによる長射程の範囲スタン",
+      "動きながらスキルを撃てる"
+    ],
+    "strengthsEn": [
+      "Absolute single-target burst damage",
+      "Long-range AoE stun with E",
+      "Can cast spells while moving"
+    ],
+    "weaknesses": [
+      "機動力がない",
+      "球体の管理と配置が難しい",
+      "防具を積んだタンクには弱い"
+    ],
+    "weaknessesEn": [
+      "Lacks mobility",
+      "Sphere management and positioning is difficult",
+      "Struggles against heavily armored tanks"
+    ],
+    "playstyle": "レーン戦では球体を配置してハラスを行い、Eでスタンを狙います。集団戦では敵の柔らかいキャリーにアルティメットを叩き込み、一撃で排除するプレイが求められます。",
+    "playstyleEn": "Harass in lane by placing spheres and look for stun opportunities with E. In teamfights, the goal is to unleash your ultimate on an enemy squishy carry to instantly eliminate them."
+  },
+  "Yasuo": {
+    "strengths": [
+      "ミニオンを利用した圧倒的な機動力",
+      "W(風の壁)による飛び道具の完全無効化",
+      "条件付きだが強力なAoEノックアップとアーマー貫通"
+    ],
+    "strengthsEn": [
+      "Overwhelming mobility using minions",
+      "Complete projectile negation with W (Wind Wall)",
+      "Conditional but potent AoE knock-up and armor penetration"
+    ],
+    "weaknesses": [
+      "近接系のためハラスに弱い",
+      "ノックアップ手段がないとアルティメットが使えない",
+      "プレイヤーのスキル依存度が極めて高い"
+    ],
+    "weaknessesEn": [
+      "Vulnerable to harass as a melee champion",
+      "Cannot cast ultimate without a knock-up",
+      "Extremely high reliance on player skill"
+    ],
+    "playstyle": "ミニオンを滑るように移動しながらダメージを与え、竜巻で敵を打ち上げてアルティメットに繋ぎます。味方のノックアップスキルと連携すると集団戦を一瞬で破壊できます。",
+    "playstyleEn": "Dash smoothly through minions to deal damage, knock enemies up with your tornado, and follow up with your ultimate. Synergizing with teammates' knock-ups can instantly win teamfights."
+  },
+  "Velkoz": {
+    "strengths": [
+      "パッシブによる確定ダメージ",
+      "幾何学的な軌道を描くQによるハラス",
+      "アルティメットの強烈なレーザー範囲ダメージ"
+    ],
+    "strengthsEn": [
+      "True damage from passive",
+      "Harassment using Q's geometric angles",
+      "Intense AoE laser damage from ultimate"
+    ],
+    "weaknesses": [
+      "機動力が一切ない",
+      "全スキルが方向指定",
+      "アルティメット中は自身が動けないため隙だらけ"
+    ],
+    "weaknessesEn": [
+      "Zero mobility",
+      "All abilities are skillshots",
+      "Immobile and vulnerable while channeling ultimate"
+    ],
+    "playstyle": "Qの分裂を利用して安全な位置から敵にスタックを付与します。スタックが溜まった対象にアルティメットを照射し、確定ダメージで前衛後衛問わず溶かし尽くします。",
+    "playstyleEn": "Use Q's split geometry to safely apply stacks to enemies. Unleash your ultimate on stacked targets to melt through both frontline and backline with true damage."
+  },
+  "Vex": {
+    "strengths": [
+      "ダッシュ系のチャンピオンに対する強烈なカウンター",
+      "パッシブによるAoEフィアー",
+      "アルティメットによる超長距離からのエンゲージ"
+    ],
+    "strengthsEn": [
+      "Hard counter to dashing and highly mobile champions",
+      "AoE fear from passive",
+      "Extreme long-range engage with ultimate"
+    ],
+    "weaknesses": [
+      "アルティメットを外すと接近手段がない",
+      "継続ダメージが低い",
+      "パッシブがない時間は無防備"
+    ],
+    "weaknessesEn": [
+      "No gap closer if ultimate misses",
+      "Low sustained damage",
+      "Defenseless when passive fear is down"
+    ],
+    "playstyle": "パッシブのフィアーを構え、アサシンの接近を防ぎます。キルチャンスがあればアルティメットで遠距離から敵陣の中央に飛び込み、Wで周囲の敵全員を恐怖状態にしてバーストを与えます。",
+    "playstyleEn": "Hold onto your passive fear to deter assassin engages. When a kill window opens, dive from afar with your ultimate into the center of the enemy team and use W to fear and burst everyone around you."
+  },
+  "Vladimir": {
+    "strengths": [
+      "マナレスでQによる無限のサステイン",
+      "Wの対象指定不可による高い生存能力",
+      "終盤の圧倒的なAoEバーストダメージ"
+    ],
+    "strengthsEn": [
+      "Manaless with infinite sustain from Q",
+      "High survivability using W's untargetability",
+      "Overwhelming late-game AoE burst damage"
+    ],
+    "weaknesses": [
+      "序盤のダメージとクールダウンが弱い",
+      "射程が短く接近手段に乏しい",
+      "回復阻害アイテムに弱い"
+    ],
+    "weaknessesEn": [
+      "Weak early game damage and long cooldowns",
+      "Short range and lacks gap closers",
+      "Vulnerable to anti-heal items"
+    ],
+    "playstyle": "序盤は無理をせずファームと回復に専念し、アイテムを揃えます。装備が完成した終盤は、フラッシュから敵陣に飛び込み、対象指定不可を駆使しながら敵のバックラインを一人で壊滅させます。",
+    "playstyleEn": "Play safe early, focusing on farming and sustaining to reach item spikes. In the late game, flash into the enemy team and use untargetability to solo-wipe their backline."
+  },
+  "Zilean": {
+    "strengths": [
+      "アルティメットによる味方の蘇生",
+      "圧倒的な移動速度バフ/デバフ",
+      "Qの二連発によるAoEスタン"
+    ],
+    "strengthsEn": [
+      "Revives allies with ultimate",
+      "Overwhelming movement speed buffs/debuffs",
+      "AoE stun by landing double Q"
+    ],
+    "weaknesses": [
+      "ダメージスキルがQしかない",
+      "序盤のマナ消費が激しい",
+      "味方への依存度が高い"
+    ],
+    "weaknessesEn": [
+      "Q is the only damage-dealing ability",
+      "High mana consumption early game",
+      "Highly team-dependent"
+    ],
+    "playstyle": "味方のキャリーに移動速度上昇を付与してカイトを支援し、倒されそうなタイミングでアルティメットを使って蘇生させます。爆弾(Q)を使ったスタンで集団戦のゾーニングも行います。",
+    "playstyleEn": "Buff allied carries with movement speed to help them kite, and cast your ultimate to revive them right before they die. Zone enemies in teamfights by stunning them with double bombs (Q)."
+  },
+  "Sett": {
+    "strengths": [
+      "受けたダメージを確定ダメージに変換するW",
+      "パッシブによる高い体力自動回復",
+      "敵タンクを武器にする強力なエンゲージアルティメット"
+    ],
+    "strengthsEn": [
+      "Converts taken damage into true damage with W",
+      "High base health regeneration from passive",
+      "Strong engage ultimate that uses enemy tanks as weapons"
+    ],
+    "weaknesses": [
+      "接近手段が乏しくカイトに弱い",
+      "Wを外すと耐久力とダメージが激減する",
+      "機動力が低い"
+    ],
+    "weaknessesEn": [
+      "Lacks gap closers and is easily kited",
+      "Missing W severely drops durability and damage",
+      "Low overall mobility"
+    ],
+    "playstyle": "強引に前線に出て敵のダメージを吸収し、溜まった闘志をWの確定ダメージと巨大なシールドに変換してカウンターを狙います。集団戦では敵のフロントラインを掴んで敵陣の奥へ叩きつけます。",
+    "playstyleEn": "Force your way to the frontline to absorb damage, then convert built-up Grit into massive true damage and a huge shield with W to counterattack. In teamfights, grab the enemy tank and slam them into their backline."
+  },
+  "Soraka": {
+    "strengths": [
+      "Wによる圧倒的な単体回復能力",
+      "アルティメットによるグローバルヒール",
+      "Eのサイレンスとスネアによる強力な妨害"
+    ],
+    "strengthsEn": [
+      "Overwhelming single-target healing with W",
+      "Global healing via ultimate",
+      "Strong disruption with E's silence and root"
+    ],
+    "weaknesses": [
+      "味方を回復するたびに自身の体力を消費する",
+      "機動力がなくフォーカスされると脆い",
+      "回復阻害アイテムで対策されやすい"
+    ],
+    "weaknessesEn": [
+      "Consumes own health to heal allies",
+      "Lacks mobility and dies quickly when focused",
+      "Easily countered by anti-heal items"
+    ],
+    "playstyle": "Qを敵に当てて自身の体力を回復し、その体力を使って味方を回復し続ける「歩く泉」です。集団戦では敵のアサシンから逃げつつ、Eのサイレンスで敵のスキルコンボを封じます。",
+    "playstyleEn": "Act as a 'walking fountain' by landing Qs to heal yourself and using that health to constantly heal allies. In teamfights, stay away from assassins while disrupting enemy combos using E's silence."
+  },
+  "Sona": {
+    "strengths": [
+      "後半の圧倒的なオーラによるチーム強化",
+      "広範囲を対象とするアルティメットのスタン",
+      "スキルを連打できる継続戦闘能力"
+    ],
+    "strengthsEn": [
+      "Overwhelming late-game team buffs via auras",
+      "Wide AoE stun with ultimate",
+      "Sustained combat ability by spamming low-cooldown skills"
+    ],
+    "weaknesses": [
+      "序盤が非常に弱く脆い",
+      "マナ消費が激しい",
+      "ハードCCがアルティメットしかない"
+    ],
+    "weaknessesEn": [
+      "Extremely weak and squishy in the early game",
+      "High mana consumption",
+      "Ultimate is her only hard crowd control"
+    ],
+    "playstyle": "序盤は死なないように立ち回り、スタックとアイテムを揃えます。試合が長引くほどスキルのクールダウンが短縮され、回復・シールド・移動速度上昇を途切れなくばら撒く最強のエンチャンターになります。",
+    "playstyleEn": "Play to survive the early game while accumulating stacks and items. As the game goes on, reduced cooldowns allow you to endlessly spam heals, shields, and speed buffs, becoming the ultimate enchanter."
+  },
+  "Senna": {
+    "strengths": [
+      "魂を回収することによる無限の射程とダメージスケール",
+      "回復、スネア、カモフラージュを持つ万能なスキルセット",
+      "グローバルなシールド兼ダメージのアルティメット"
+    ],
+    "strengthsEn": [
+      "Infinite scaling for range and damage by collecting souls",
+      "Versatile kit with healing, rooting, and camouflage",
+      "Global ultimate offering both shields and damage"
+    ],
+    "weaknesses": [
+      "攻撃速度の上がりが遅い",
+      "耐久力が非常に低い",
+      "ハードエンゲージに弱い"
+    ],
+    "weaknessesEn": [
+      "Slow attack speed scaling",
+      "Very low baseline durability",
+      "Vulnerable to hard engage comps"
+    ],
+    "playstyle": "サポートでありながらADCのようなダメージを出せるマークスマンです。ハラスと魂の回収を両立させ、中盤以降は長射程を活かして安全な位置からダメージと回復を提供します。",
+    "playstyleEn": "A marksman support capable of dealing ADC-level damage. Balance harassing with collecting souls, and use your long range in the mid-to-late game to safely deal damage and heal allies."
+  },
+  "Seraphine": {
+    "strengths": [
+      "味方と重なることで強化されるスキル群",
+      "広範囲へのシールドと回復能力",
+      "集団戦の勝敗を決める長距離チャームのアルティメット"
+    ],
+    "strengthsEn": [
+      "Abilities are amplified when grouped with allies",
+      "Wide AoE shielding and healing",
+      "Game-deciding long-range charm ultimate"
+    ],
+    "weaknesses": [
+      "スキルの弾速が遅く避けられやすい",
+      "孤立した状態での1v1は非常に弱い",
+      "序盤のクールダウンが長い"
+    ],
+    "weaknessesEn": [
+      "Slow projectile speeds make skills easy to dodge",
+      "Extremely weak in isolated 1v1 situations",
+      "Long cooldowns in the early game"
+    ],
+    "playstyle": "味方と固まって行動することでポテンシャルを最大限に発揮します。アルティメットは味方や敵を経由するごとに射程が伸びるため、乱戦の最後方から撃ち込んで敵全体を魅了します。",
+    "playstyleEn": "Maximizes potential by staying grouped with teammates. Since the ultimate extends its range when passing through allies or enemies, cast it from the far backline to charm the entire enemy team."
+  },
+  "Thresh": {
+    "strengths": [
+      "フックとランタンによる攻防一体の万能さ",
+      "ランタンによる味方の救出やガンク合わせ",
+      "魂の回収による無限のアーマー・APスケール"
+    ],
+    "strengthsEn": [
+      "Versatile offense and defense with hooks and flays",
+      "Lantern saves allies or sets up ganks",
+      "Infinite armor and AP scaling from collecting souls"
+    ],
+    "weaknesses": [
+      "スキルの使用難易度と判断のハードルが高い",
+      "基礎アーマーが成長しない(パッシブ依存)",
+      "ポークメイジに削られやすい"
+    ],
+    "weaknessesEn": [
+      "High mechanical difficulty and requires quick decision making",
+      "Base armor does not grow naturally (relies on passive)",
+      "Vulnerable to being poked out by mages"
+    ],
+    "playstyle": "Qのフックで交戦の起点を作り、Eで敵の接近を弾き飛ばすなど、あらゆる状況に対応できるプレイメーカーです。ランタンの位置次第で味方の命を救うことも、キルを生み出すことも可能です。",
+    "playstyleEn": "A supreme playmaker who can initiate fights with Q hooks and peel dives with E. Depending on lantern placement, you can single-handedly save an ally's life or set up a guaranteed kill."
+  },
+  "Yuumi": {
+    "strengths": [
+      "味方に密着する対象指定不可のパッシブ",
+      "安定した回復とシールドの付与",
+      "味方のステータスを底上げするバフ能力"
+    ],
+    "strengthsEn": [
+      "Untargetable passive while attached to an ally",
+      "Consistent healing and shielding",
+      "Buffs that significantly amplify an ally's stats"
+    ],
+    "weaknesses": [
+      "自身での移動や防御力が皆無",
+      "密着した味方が倒されると道連れになりやすい",
+      "CCを受けると一定時間味方に密着できない"
+    ],
+    "weaknessesEn": [
+      "Virtually no independent mobility or defenses",
+      "Likely to die immediately if the attached ally falls",
+      "Cannot attach to allies for a short duration if hit by hard CC"
+    ],
+    "playstyle": "最も育っている味方に密着し、回復やシールドで徹底的にサポートして「死なないキャリー」を作り上げます。アルティメットをタイミング良く使って集団戦のサポートを行います。",
+    "playstyleEn": "Attach to your most fed teammate to create an 'unkillable carry' through relentless heals and shields. Provide crucial teamfight support by timing your ultimate correctly."
+  },
+  "Sion": {
+    "strengths": [
+      "Wのパッシブによる無限の体力スケール",
+      "倒されても一時的に復活するゾンビパッシブ",
+      "アルティメットによる超長距離からの強引なエンゲージ"
+    ],
+    "strengthsEn": [
+      "Infinite health scaling via W passive",
+      "Zombie passive allows temporary revival after death",
+      "Unstoppable long-range engage with ultimate"
+    ],
+    "weaknesses": [
+      "スキルが全て大振りで避けられやすい",
+      "割合ダメージや防御貫通に弱い",
+      "機動力が低くカイトされやすい"
+    ],
+    "weaknessesEn": [
+      "Highly telegraphed skills are easily dodged",
+      "Vulnerable to percentage health damage and penetration",
+      "Low mobility leads to easy kiting"
+    ],
+    "playstyle": "レーン戦ではQのチャージで圧力をかけつつ、ファームして最大体力を増やします。集団戦ではアルティメットで敵陣に突っ込み、巨大な盾となってダメージを吸収しつつ場を荒らします。",
+    "playstyleEn": "Apply pressure in lane with charged Qs while farming to build max health. In teamfights, charge in with your ultimate to disrupt the enemy backline and act as a massive meat shield."
+  },
+  "Singed": {
+    "strengths": [
+      "毒を撒き散らしながら逃げる独特のダメージディール",
+      "敵の背後に投げ飛ばすフリップ(E)によるキャッチ",
+      "プロキシファームによるレーンの圧力"
+    ],
+    "strengthsEn": [
+      "Unique damage dealing by spreading poison while running away",
+      "Strong catch potential with E flip",
+      "Massive lane pressure through proxy farming"
+    ],
+    "weaknesses": [
+      "序盤のレーン戦が非常に弱い",
+      "射程がなく自ら接近する必要がある",
+      "チームと連携しづらい独自すぎるプレイスタイル"
+    ],
+    "weaknessesEn": [
+      "Extremely weak early laning phase",
+      "Lacks range and must force melee engagements",
+      "Highly unorthodox playstyle makes team coordination difficult"
+    ],
+    "playstyle": "敵のタワー裏でミニオンを倒すプロキシファームで敵の気を引き、追跡してきた敵を毒で削り倒す嫌がらせ特化のプレイスタイルです。集団戦では敵陣を駆け回って陣形を崩します。",
+    "playstyleEn": "Specializes in annoyance through proxy farming behind enemy towers to draw attention, then whittling down pursuers with poison. In teamfights, run relentlessly through the enemy formation to create chaos."
+  },
+  "Shen": {
+    "strengths": [
+      "アルティメットによる味方へのグローバルシールドとテレポート",
+      "Wによる通常攻撃の完全ブロック",
+      "Eのタウント(挑発)による強力なCC"
+    ],
+    "strengthsEn": [
+      "Global shield and teleport to ally via ultimate",
+      "Complete auto-attack blocking with W",
+      "Strong crowd control with E's taunt"
+    ],
+    "weaknesses": [
+      "ウェーブクリア能力が非常に低い",
+      "アルティメット使用時に自身のタワーが削られやすい",
+      "遠距離攻撃を持たない"
+    ],
+    "weaknessesEn": [
+      "Extremely poor wave clear capability",
+      "Leaving lane with ultimate often costs tower plating",
+      "Completely lacks ranged attacks"
+    ],
+    "playstyle": "サイドレーンでスプリットプッシュを行いながら、常にマップ全体に気を配ります。味方がピンチになった瞬間にアルティメットで駆けつけ、形勢を逆転させる「守護者」の役割を担います。",
+    "playstyleEn": "Split push in side lanes while keeping a constant eye on the map. Act as a guardian by using your ultimate to instantly join allies in danger and turn the tides of the skirmish."
+  },
+  "Urgot": {
+    "strengths": [
+      "近接チャンピオンを圧倒する射撃とシールド",
+      "パッシブの脚部キャノンによる高い割合バースト",
+      "体力が低い敵を確殺するアルティメット"
+    ],
+    "strengthsEn": [
+      "Dominates melee champions with ranged attacks and shields",
+      "High percentage burst from passive leg cannons",
+      "Ultimate executes low-health enemies guaranteed"
+    ],
+    "weaknesses": [
+      "機動力が低く遠距離メイジに弱い",
+      "巨体のためスキルショットを被弾しやすい",
+      "脚部のクールダウン管理が必要"
+    ],
+    "weaknessesEn": [
+      "Low mobility, vulnerable to long-range mages",
+      "Large hitbox makes him easily hit by skillshots",
+      "Requires management of leg cannon cooldowns"
+    ],
+    "playstyle": "Wを発動して敵の周りを回りながら、パッシブのキャノンを連続で叩き込みます。体力が減ったターゲットをアルティメットで捕らえ、処刑することで周囲の敵に恐怖を与えて集団戦を制圧します。",
+    "playstyleEn": "Activate W and circle the enemy to continuously trigger your passive leg cannons. Secure kills with your execute ultimate to inflict a massive AoE fear, disrupting the entire enemy team."
+  }
+}

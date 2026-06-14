@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { ThumbsDown, Plus, X, Search, ChevronUp, ChevronDown } from 'lucide-react';
 import { useLocale } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 interface CounterData {
   champion_name_en: string;
@@ -261,21 +262,21 @@ export function CounterPickVoting({ championId, staticCounters, allChampions, di
 
             return (
               <div key={c.champion_name_en} className="flex items-center justify-between bg-slate-50 border border-slate-100 p-3 rounded-2xl">
-                <div className="flex items-center gap-3">
+                <Link href={`/champions/${c.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}`} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                   <img 
-                    src={`https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${c.champion_name_en}.png`}
+                    src={`https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${c.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.png`}
                     alt={c.champion_name_en}
-                    className="w-10 h-10 rounded-full bg-slate-200 border border-slate-300"
-                    onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${c.champion_name_en}.avif`; }}
+                    className="w-10 h-10 rounded-full bg-slate-200 border border-slate-300 shadow-sm"
+                    onError={(e) => { (e.target as HTMLImageElement).src = `/images/champions/${c.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.avif`; }}
                   />
-                  <span className="text-sm font-black text-slate-800">
+                  <span className="text-sm font-black text-slate-800 underline-offset-2 decoration-slate-300">
                     {(() => {
                       const champInfo = allChampions.find(champ => champ.champion_name_en === c.champion_name_en);
                       if (!champInfo) return c.champion_name_en;
                       return locale === 'ja' ? (champInfo.champion_name || c.champion_name_en) : c.champion_name_en;
                     })()}
                   </span>
-                </div>
+                </Link>
                 
                 <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-xl p-1 shadow-sm">
                   <button 

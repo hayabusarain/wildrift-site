@@ -42,15 +42,23 @@ const compareVersions = (a: string, b: string): number => {
   return suffixA.localeCompare(suffixB);
 };
 
-export function PatchTable({ championId }: { championId?: string }) {
+export function PatchTable({ 
+  championId,
+  initialServerPatches,
+  initialServerMetas
+}: { 
+  championId?: string;
+  initialServerPatches?: Patch[];
+  initialServerMetas?: PatchMeta[];
+}) {
   const t = useTranslations("PatchTable");
   const locale = useLocale();
-  const initialPatches = championId
+  const baseInitialPatches = championId
     ? (fallbackPatches as Patch[]).filter(p => p.champion_name_en === championId)
     : (fallbackPatches as Patch[]);
 
-  const [patches, setPatches] = useState<Patch[]>(initialPatches);
-  const [patchMetas, setPatchMetas] = useState<PatchMeta[]>(fallbackPatchMetas as PatchMeta[]);
+  const [patches, setPatches] = useState<Patch[]>(initialServerPatches || baseInitialPatches);
+  const [patchMetas, setPatchMetas] = useState<PatchMeta[]>(initialServerMetas || fallbackPatchMetas as PatchMeta[]);
   const [loading, setLoading] = useState(false);
   
   // Derive unique versions from the loaded patches (only include standard numeric versions)
@@ -155,8 +163,10 @@ export function PatchTable({ championId }: { championId?: string }) {
   };
 
   useEffect(() => {
-    fetchPatches();
-  }, []);
+    if (!initialServerPatches) {
+      fetchPatches();
+    }
+  }, [initialServerPatches]);
 
   useEffect(() => {
     async function fetchIconsMap() {

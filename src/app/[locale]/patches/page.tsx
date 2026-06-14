@@ -1,12 +1,51 @@
-'use client';
-
-import { Search, History, Filter } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+import { History } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
+import { createClient } from '@supabase/supabase-js';
 import { PatchTable } from '@/components/patches/PatchTable';
-import { useState } from 'react';
 
-export default function PatchesPage() {
-  const t = useTranslations('PatchTable');
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'PatchTable' });
+  
+  return {
+    title: t('title') || 'Patch Notes',
+    description: t('subtitle') || 'Wild Rift Patch Notes & AI Meta Predictions',
+  };
+}
+
+export default async function PatchesPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'PatchTable' });
+
+  let patches = null;
+  let patchMetas = null;
+
+  try {
+    const { data: patchesData, error: patchesError } = await supabase
+      .from('patches')
+      .select('*')
+      .order('version', { ascending: false })
+      .order('created_at', { ascending: true });
+
+    if (!patchesError && patchesData) {
+      patches = patchesData;
+    }
+
+    const { data: metaData, error: metaError } = await supabase
+      .from('patch_meta')
+      .select('*');
+
+    if (!metaError && metaData) {
+      patchMetas = metaData;
+    }
+  } catch (e) {
+    console.error('Failed to fetch patches server-side', e);
+  }
 
   return (
     <div className="max-w-md mx-auto bg-slate-50 min-h-screen pb-24 font-sans text-slate-800">
@@ -25,7 +64,10 @@ export default function PatchesPage() {
       </div>
 
       <div className="px-4 mt-4 space-y-4">
-        <PatchTable />
+        <PatchTable 
+          initialServerPatches={patches || undefined} 
+          initialServerMetas={patchMetas || undefined} 
+        />
       </div>
     </div>
   );

@@ -1,0 +1,110 @@
+{
+  "MissFortune": {
+    "reason": "脅威アイテムとの相性が抜群で、レーンの主導権を握りやすく、集団戦のUltの火力が圧倒的です。",
+    "reasonEn": "Exceptional synergy with lethality items gives her easy lane dominance and devastating teamfight damage with her Ultimate."
+  },
+  "Smolder": {
+    "reason": "スタックを溜めた後のスケーリングが非常に高く、後半の集団戦において止められない継続ダメージを叩き出します。",
+    "reasonEn": "Unmatched scaling after accumulating stacks, unleashing unstoppable sustained damage in late-game teamfights."
+  },
+  "Amumu": {
+    "reason": "Qによる強力なエンゲージと広範囲のCCを持つUltにより、集団戦を一人で決定づける影響力を持っています。",
+    "reasonEn": "Incredible teamfight influence with powerful engage from his Q and a massive AoE crowd control Ultimate."
+  },
+  "Rammus": {
+    "reason": "物理攻撃主体の構成に対して絶対的なカウンターとなり、機動力を活かしたガンクで試合のテンポを作れます。",
+    "reasonEn": "An absolute counter to AD-heavy compositions, dictating the game's tempo with highly mobile ganks."
+  },
+  "Nunu": {
+    "reason": "圧倒的なオブジェクト管理能力と素早いジャングルクリア、そして強力なガンク性能で序盤から試合を支配します。",
+    "reasonEn": "Dominates the early game with unrivaled objective control, fast jungle clears, and potent ganking capabilities."
+  },
+  "Taliyah": {
+    "reason": "パッシブによる高いローム能力と、地形を変えるUltによってマップ全体にプレッシャーをかけ続けることができます。",
+    "reasonEn": "Applies immense map-wide pressure through her passive roaming speed and terrain-altering Ultimate."
+  },
+  "Warwick": {
+    "reason": "高いサステインと1v1性能を持ち、血の匂いを追うパッシブによりマップを素早く駆け回りキルを回収します。",
+    "reasonEn": "High sustain and 1v1 dueling power, combined with his passive that allows him to quickly hunt down low-health targets."
+  },
+  "Fiddlesticks": {
+    "reason": "視界外からのUltによる奇襲が極めて強力で、集団戦を一瞬で崩壊させるAoEダメージとCCが脅威です。",
+    "reasonEn": "Devastating surprise attacks with his Ultimate from out of vision, featuring massive AoE damage and crowd control."
+  },
+  "Lillia": {
+    "reason": "機動力の高さと確定ダメージによりタンキーな敵も容易に削り、Ultでの広範囲睡眠が集団戦で猛威を振るいます。",
+    "reasonEn": "High mobility and true damage easily melt tanky foes, while her huge AoE sleep Ultimate dominates teamfights."
+  },
+  "Shyvana": {
+    "reason": "ファーム速度が非常に速く、ドラゴンを獲得するたびに強化されるため、後半戦で手が付けられないステータスモンスターになります。",
+    "reasonEn": "Incredibly fast clear speed and scales into an unstoppable stat monster in the late game by securing dragons."
+  },
+  "MasterYi": {
+    "reason": "アイテムが揃った後のキャリー能力が随一であり、CCが少ない構成に対しては一人で敵陣を壊滅させることができます。",
+    "reasonEn": "Unrivaled hard-carry potential with items, capable of single-handedly wiping out enemy teams lacking crowd control."
+  },
+  "TwistedFate": {
+    "reason": "Ultによるグローバルな影響力でサイドレーンを支援し、確定CCのゴールドカードで味方のキルを確実にセットアップします。",
+    "reasonEn": "Provides global map presence with his Ultimate, easily setting up kills with the point-and-click stun of his Gold Card."
+  },
+  "Xerath": {
+    "reason": "超長射程からのポークダメージが圧倒的で、安全な位置から敵の体力を削り切り、オブジェクト戦を有利に進められます。",
+    "reasonEn": "Overwhelming poke damage from extreme range allows him to safely whittle down enemies and control objectives."
+  },
+  "Brand": {
+    "reason": "割合ダメージによるタンクへの強さと、集団戦で連鎖するスキルコンボが爆発的なAoE火力を生み出します。",
+    "reasonEn": "Percentage health damage shreds tanks, and his chained skill combos unleash explosive AoE damage in tightly packed teamfights."
+  },
+  "Norra": {
+    "reason": "ポータルを活用した高い機動力と味方の支援能力に優れ、予測不能な動きで敵を翻弄する強力なメイジです。",
+    "reasonEn": "Highly mobile and supportive with her portals, frustrating enemies with unpredictable movements and powerful magic damage."
+  },
+  "Zyra": {
+    "reason": "植物による高いゾーニング能力と持続ダメージにより、レーン戦を制圧し、オブジェクト周りの戦闘で無類の強さを発揮します。",
+    "reasonEn": "Oppressive lane control and sustained damage from her plants make her incredibly strong in fights around objectives."
+  },
+  "Teemo": {
+    "reason": "キノコによるマップコントロールと視界制圧が強力で、敵のローテーションを遅らせ、心理的なプレッシャーを与え続けます。",
+    "reasonEn": "Powerful map control and vision dominance with his mushrooms, delaying enemy rotations and applying immense psychological pressure."
+  },
+  "Morgana": {
+    "reason": "ブラックシールドによるCC無効化が味方キャリーを守るのに最適で、Qの長時間のスネアがピックアップに非常に有効です。",
+    "reasonEn": "Black Shield perfectly protects allied carries from CC, while her long-duration Q snare is highly effective for getting picks."
+  },
+  "Lux": {
+    "reason": "長射程のバインドとシールドによる攻防一体のスキルセットを持ち、コンボが決まった時のバーストダメージが脅威です。",
+    "reasonEn": "A versatile kit with long-range binds and shielding, boasting threatening burst damage when her full combo lands."
+  },
+  "Veigar": {
+    "reason": "無限にスケールする魔力と、指定範囲を隔離するEのスキルが攻防において強力で、終盤は敵をワンショットで倒せます。",
+    "reasonEn": "Infinitely scaling ability power and an oppressive AoE cage (E), allowing him to one-shot enemies in the late game."
+  },
+  "Mel": {
+    "reason": "独自のシールドとヒール能力により味方を強力にサポートし、集団戦での継戦能力を大幅に引き上げる優秀なエンチャンターです。",
+    "reasonEn": "An exceptional enchanter providing powerful shields and healing, drastically increasing her team's survivability in prolonged teamfights."
+  },
+  "Leona": {
+    "reason": "豊富なCCチェーンと高い耐久力を誇り、味方のキルラインを作り出すアグレッシブなエンゲージが魅力です。",
+    "reasonEn": "Boasts incredible durability and a massive chain of crowd control, perfect for aggressive engages that set up kills."
+  },
+  "MonkeyKing": {
+    "reason": "分身によるトリッキーな動きと、敵陣の奥深くに飛び込んで打ち上げるAoEのUltが集団戦で絶大な効果を発揮します。",
+    "reasonEn": "Tricky outplays with his clone and a massive AoE knock-up Ultimate that excels at diving deep into enemy lines during teamfights."
+  },
+  "KSante": {
+    "reason": "圧倒的な耐久力と、Ult使用時の爆発的な火力を併せ持ち、タンクでありながらアサシンのような働きができる万能ファイターです。",
+    "reasonEn": "Combines incredible tankiness with explosive damage during his Ultimate, functioning as a versatile bruiser with assassin-like qualities."
+  },
+  "Vayne": {
+    "reason": "割合確定ダメージによりどんなタンクも溶かすことができ、UltとQを組み合わせたステルスによる高い自衛能力とチェイス性能を持っています。",
+    "reasonEn": "Melts any tank with true percentage damage, featuring high self-peel and chase potential with stealth from her Ultimate and Q."
+  },
+  "Sett": {
+    "reason": "レーン戦での高い殴り合い性能と、受けたダメージを巨大なシールドと確定ダメージに変換するWが集団戦で逆転のポテンシャルを秘めています。",
+    "reasonEn": "Strong laning brawler who can turn immense taken damage into a massive shield and AoE true damage, flipping teamfights."
+  },
+  "Garen": {
+    "reason": "操作がシンプルでミスが少なく、高いサステインと耐久力、そして対象を確実に処刑するUltにより安定して前線を支えられます。",
+    "reasonEn": "Mechanically straightforward and highly forgiving, offering unmatched sustain, durability, and a reliable execution Ultimate."
+  }
+}

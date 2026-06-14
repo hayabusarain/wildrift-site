@@ -1,3451 +1,2629 @@
 {
   "Aatrox": {
-    "strong_against": [
-      {
-        "champion_name_en": "Pantheon",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Riven",
-        "win_rate": "54.6"
-      },
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "53.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Jhin",
-        "win_rate": "46.0"
+        "champion_name_en": "Fiora"
       },
       {
-        "champion_name_en": "Nasus",
-        "win_rate": "47.2"
+        "champion_name_en": "Irelia"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Sion"
       },
       {
-        "champion_name_en": "Corki",
-        "win_rate": "47.0"
+        "champion_name_en": "DrMundo"
       }
     ]
   },
   "Ahri": {
-    "strong_against": [
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "52.7"
-      },
-      {
-        "champion_name_en": "Lucian",
-        "win_rate": "55.5"
-      },
-      {
-        "champion_name_en": "Xayah",
-        "win_rate": "56.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Ornn",
-        "win_rate": "47.3"
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Nilah",
-        "win_rate": "47.6"
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Lux"
       },
       {
-        "champion_name_en": "Thresh",
-        "win_rate": "47.3"
+        "champion_name_en": "Veigar"
       }
     ]
   },
   "Akali": {
-    "strong_against": [
-      {
-        "champion_name_en": "MasterYi",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Pantheon",
-        "win_rate": "52.7"
-      },
-      {
-        "champion_name_en": "Zyra",
-        "win_rate": "55.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "DrMundo",
-        "win_rate": "44.6"
+        "champion_name_en": "Galio"
       },
       {
-        "champion_name_en": "Nami",
-        "win_rate": "46.2"
-      },
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "47.5"
-      }
-    ]
-  },
-  "Akshan": {
-    "strong_against": [
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Riven",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Nunu",
-        "win_rate": "56.1"
+        "champion_name_en": "Vex"
       }
     ],
-    "weak_against": [
+    "strong_against": [
       {
-        "champion_name_en": "Garen",
-        "win_rate": "43.3"
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Brand",
-        "win_rate": "46.5"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "45.1"
+        "champion_name_en": "Veigar"
       }
     ]
   },
   "Alistar": {
-    "strong_against": [
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "55.9"
-      },
-      {
-        "champion_name_en": "Pantheon",
-        "win_rate": "52.0"
-      },
-      {
-        "champion_name_en": "Darius",
-        "win_rate": "55.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Nami",
-        "win_rate": "47.0"
+        "champion_name_en": "Janna"
       },
       {
-        "champion_name_en": "DrMundo",
-        "win_rate": "45.3"
+        "champion_name_en": "Morgana"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
       },
       {
-        "champion_name_en": "Jinx",
-        "win_rate": "45.9"
+        "champion_name_en": "Blitzcrank"
+      }
+    ]
+  },
+  "Ambessa": {
+    "weak_against": [
+      {
+        "champion_name_en": "Jax"
+      },
+      {
+        "champion_name_en": "Fiora"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Sion"
+      },
+      {
+        "champion_name_en": "DrMundo"
       }
     ]
   },
   "Amumu": {
-    "strong_against": [
-      {
-        "champion_name_en": "Singed",
-        "win_rate": "53.0"
-      },
-      {
-        "champion_name_en": "Teemo",
-        "win_rate": "56.9"
-      },
-      {
-        "champion_name_en": "TwistedFate",
-        "win_rate": "54.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Lucian",
-        "win_rate": "45.9"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Norra",
-        "win_rate": "46.3"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Rammus"
       },
       {
-        "champion_name_en": "Malphite",
-        "win_rate": "47.5"
+        "champion_name_en": "MasterYi"
       }
     ]
   },
   "Annie": {
-    "strong_against": [
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "55.9"
-      },
-      {
-        "champion_name_en": "Yone",
-        "win_rate": "53.7"
-      },
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "52.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "46.2"
+        "champion_name_en": "Orianna"
       },
       {
-        "champion_name_en": "Kaisa",
-        "win_rate": "45.0"
+        "champion_name_en": "Syndra"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Vladimir",
-        "win_rate": "45.7"
+        "champion_name_en": "Akali"
       }
     ]
   },
   "Ashe": {
-    "strong_against": [
-      {
-        "champion_name_en": "Olaf",
-        "win_rate": "53.4"
-      },
-      {
-        "champion_name_en": "Yasuo",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Norra",
-        "win_rate": "56.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Nilah",
-        "win_rate": "45.1"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Singed",
-        "win_rate": "47.3"
+        "champion_name_en": "Tristana"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Kindred",
-        "win_rate": "46.2"
+        "champion_name_en": "Ezreal"
       }
     ]
   },
   "AurelionSol": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ahri",
-        "win_rate": "54.0"
-      },
-      {
-        "champion_name_en": "Draven",
-        "win_rate": "53.0"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "52.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Zyra",
-        "win_rate": "46.0"
+        "champion_name_en": "Zed"
       },
       {
-        "champion_name_en": "Akshan",
-        "win_rate": "46.6"
+        "champion_name_en": "Fizz"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "44.2"
+        "champion_name_en": "Lux"
+      }
+    ]
+  },
+  "Aurora": {
+    "weak_against": [
+      {
+        "champion_name_en": "Syndra"
+      },
+      {
+        "champion_name_en": "Orianna"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Annie"
+      },
+      {
+        "champion_name_en": "Veigar"
+      }
+    ]
+  },
+  "Bard": {
+    "weak_against": [
+      {
+        "champion_name_en": "Blitzcrank"
+      },
+      {
+        "champion_name_en": "Pyke"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
+      },
+      {
+        "champion_name_en": "Alistar"
       }
     ]
   },
   "Blitzcrank": {
-    "strong_against": [
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Ashe",
-        "win_rate": "54.3"
-      },
-      {
-        "champion_name_en": "Morgana",
-        "win_rate": "52.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Corki",
-        "win_rate": "44.6"
+        "champion_name_en": "Alistar"
       },
       {
-        "champion_name_en": "Braum",
-        "win_rate": "47.5"
+        "champion_name_en": "Leona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Sona"
       },
       {
-        "champion_name_en": "Karma",
-        "win_rate": "47.2"
+        "champion_name_en": "Soraka"
       }
     ]
   },
   "Brand": {
-    "strong_against": [
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "56.8"
-      },
-      {
-        "champion_name_en": "Ekko",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Gragas",
-        "win_rate": "56.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kindred",
-        "win_rate": "43.6"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "43.0"
+        "champion_name_en": "Pyke"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
       },
       {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "45.2"
+        "champion_name_en": "Alistar"
       }
     ]
   },
   "Braum": {
-    "strong_against": [
-      {
-        "champion_name_en": "Pyke",
-        "win_rate": "55.8"
-      },
-      {
-        "champion_name_en": "Aatrox",
-        "win_rate": "53.4"
-      },
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "52.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Morgana",
-        "win_rate": "48.0"
+        "champion_name_en": "Karma"
       },
       {
-        "champion_name_en": "Lulu",
-        "win_rate": "46.7"
+        "champion_name_en": "Lulu"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
       },
       {
-        "champion_name_en": "Lillia",
-        "win_rate": "47.8"
+        "champion_name_en": "Nautilus"
       }
     ]
   },
   "Caitlyn": {
-    "strong_against": [
-      {
-        "champion_name_en": "Yasuo",
-        "win_rate": "55.6"
-      },
-      {
-        "champion_name_en": "Lulu",
-        "win_rate": "56.4"
-      },
-      {
-        "champion_name_en": "Darius",
-        "win_rate": "55.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "TwistedFate",
-        "win_rate": "45.8"
+        "champion_name_en": "Jhin"
       },
       {
-        "champion_name_en": "Senna",
-        "win_rate": "43.1"
+        "champion_name_en": "Varus"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Seraphine",
-        "win_rate": "46.1"
+        "champion_name_en": "Ezreal"
       }
     ]
   },
   "Camille": {
-    "strong_against": [
-      {
-        "champion_name_en": "Vi",
-        "win_rate": "56.0"
-      },
-      {
-        "champion_name_en": "Irelia",
-        "win_rate": "53.8"
-      },
-      {
-        "champion_name_en": "Warwick",
-        "win_rate": "53.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Corki",
-        "win_rate": "46.0"
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Viego",
-        "win_rate": "46.1"
-      },
-      {
-        "champion_name_en": "Ashe",
-        "win_rate": "46.7"
-      }
-    ]
-  },
-  "Cassiopeia": {
-    "strong_against": [
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Jax",
-        "win_rate": "54.3"
-      },
-      {
-        "champion_name_en": "Yasuo",
-        "win_rate": "53.6"
+        "champion_name_en": "Fiora"
       }
     ],
-    "weak_against": [
+    "strong_against": [
       {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "43.7"
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Camille",
-        "win_rate": "47.8"
-      },
-      {
-        "champion_name_en": "Yuumi",
-        "win_rate": "46.2"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Corki": {
-    "strong_against": [
-      {
-        "champion_name_en": "Rakan",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Ashe",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "55.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Malphite",
-        "win_rate": "45.6"
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Fizz",
-        "win_rate": "44.7"
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Kassadin"
       },
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "45.9"
+        "champion_name_en": "Veigar"
       }
     ]
   },
   "Darius": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "52.8"
-      },
-      {
-        "champion_name_en": "AurelionSol",
-        "win_rate": "55.2"
-      },
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "54.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Jayce",
-        "win_rate": "43.7"
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Jax",
-        "win_rate": "43.2"
+        "champion_name_en": "Teemo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Jinx",
-        "win_rate": "47.9"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Diana": {
-    "strong_against": [
-      {
-        "champion_name_en": "Xayah",
-        "win_rate": "56.6"
-      },
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Zed",
-        "win_rate": "55.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sivir",
-        "win_rate": "48.0"
+        "champion_name_en": "XinZhao"
       },
       {
-        "champion_name_en": "Evelynn",
-        "win_rate": "43.4"
-      },
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "44.3"
-      }
-    ]
-  },
-  "DrMundo": {
-    "strong_against": [
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "56.2"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Rengar",
-        "win_rate": "53.1"
+        "champion_name_en": "LeeSin"
       }
     ],
-    "weak_against": [
+    "strong_against": [
       {
-        "champion_name_en": "Syndra",
-        "win_rate": "43.5"
+        "champion_name_en": "Amumu"
       },
       {
-        "champion_name_en": "Galio",
-        "win_rate": "47.5"
-      },
-      {
-        "champion_name_en": "Sivir",
-        "win_rate": "45.3"
+        "champion_name_en": "Rammus"
       }
     ]
   },
   "Draven": {
-    "strong_against": [
-      {
-        "champion_name_en": "Fizz",
-        "win_rate": "56.5"
-      },
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Jhin",
-        "win_rate": "55.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "MissFortune",
-        "win_rate": "47.5"
+        "champion_name_en": "Caitlyn"
       },
       {
-        "champion_name_en": "Amumu",
-        "win_rate": "44.7"
+        "champion_name_en": "Ashe"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Irelia",
-        "win_rate": "46.5"
+        "champion_name_en": "Ezreal"
+      }
+    ]
+  },
+  "DrMundo": {
+    "weak_against": [
+      {
+        "champion_name_en": "Aatrox"
+      },
+      {
+        "champion_name_en": "Gwen"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Ekko": {
-    "strong_against": [
-      {
-        "champion_name_en": "Tryndamere",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Norra",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Kindred",
-        "win_rate": "55.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kassadin",
-        "win_rate": "46.1"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Volibear",
-        "win_rate": "44.9"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Amumu"
       },
       {
-        "champion_name_en": "Sion",
-        "win_rate": "44.8"
+        "champion_name_en": "Rammus"
       }
     ]
   },
   "Evelynn": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ziggs",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Kayle",
-        "win_rate": "56.4"
-      },
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "54.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Garen",
-        "win_rate": "47.6"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Morgana",
-        "win_rate": "47.3"
+        "champion_name_en": "Rengar"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Amumu"
       },
       {
-        "champion_name_en": "Gwen",
-        "win_rate": "44.2"
+        "champion_name_en": "Rammus"
       }
     ]
   },
   "Ezreal": {
-    "strong_against": [
-      {
-        "champion_name_en": "Jhin",
-        "win_rate": "53.1"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "52.2"
-      },
-      {
-        "champion_name_en": "Shen",
-        "win_rate": "55.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "45.6"
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Zed",
-        "win_rate": "47.5"
+        "champion_name_en": "Draven"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ashe"
       },
       {
-        "champion_name_en": "Nami",
-        "win_rate": "45.2"
+        "champion_name_en": "Jinx"
+      }
+    ]
+  },
+  "Fiddlesticks": {
+    "weak_against": [
+      {
+        "champion_name_en": "XinZhao"
+      },
+      {
+        "champion_name_en": "Olaf"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Rammus"
+      },
+      {
+        "champion_name_en": "Amumu"
       }
     ]
   },
   "Fiora": {
-    "strong_against": [
-      {
-        "champion_name_en": "Rammus",
-        "win_rate": "54.6"
-      },
-      {
-        "champion_name_en": "Urgot",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Kennen",
-        "win_rate": "56.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Wukong",
-        "win_rate": "45.5"
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Warwick",
-        "win_rate": "47.5"
+        "champion_name_en": "Pantheon"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Aatrox"
       },
       {
-        "champion_name_en": "Olaf",
-        "win_rate": "43.2"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Fizz": {
-    "strong_against": [
-      {
-        "champion_name_en": "LeeSin",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Katarina",
-        "win_rate": "56.9"
-      },
-      {
-        "champion_name_en": "Shyvana",
-        "win_rate": "52.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Volibear",
-        "win_rate": "47.7"
+        "champion_name_en": "Kassadin"
       },
       {
-        "champion_name_en": "TwistedFate",
-        "win_rate": "44.6"
+        "champion_name_en": "Galio"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "47.7"
+        "champion_name_en": "Syndra"
       }
     ]
   },
   "Galio": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "55.5"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "56.4"
-      },
-      {
-        "champion_name_en": "Ezreal",
-        "win_rate": "55.7"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Vi",
-        "win_rate": "46.9"
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Irelia",
-        "win_rate": "44.0"
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Zeri",
-        "win_rate": "45.1"
+        "champion_name_en": "Katarina"
       }
     ]
   },
   "Garen": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "52.9"
-      },
-      {
-        "champion_name_en": "Senna",
-        "win_rate": "55.7"
-      },
-      {
-        "champion_name_en": "Zyra",
-        "win_rate": "53.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Nasus",
-        "win_rate": "46.4"
+        "champion_name_en": "Darius"
       },
       {
-        "champion_name_en": "Vex",
-        "win_rate": "46.5"
+        "champion_name_en": "Teemo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Riven"
       },
       {
-        "champion_name_en": "Yasuo",
-        "win_rate": "45.0"
+        "champion_name_en": "Irelia"
+      }
+    ]
+  },
+  "Gnar": {
+    "weak_against": [
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Yasuo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Darius"
       }
     ]
   },
   "Gragas": {
-    "strong_against": [
-      {
-        "champion_name_en": "Fiora",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "52.9"
-      },
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "52.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Malphite",
-        "win_rate": "43.4"
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Brand",
-        "win_rate": "44.8"
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Rammus",
-        "win_rate": "43.5"
+        "champion_name_en": "Renekton"
       }
     ]
   },
   "Graves": {
-    "strong_against": [
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "55.3"
-      },
-      {
-        "champion_name_en": "Gwen",
-        "win_rate": "54.3"
-      },
-      {
-        "champion_name_en": "Syndra",
-        "win_rate": "54.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Volibear",
-        "win_rate": "43.9"
+        "champion_name_en": "MasterYi"
       },
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "44.1"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "Pyke",
-        "win_rate": "47.8"
+        "champion_name_en": "Kindred"
       }
     ]
   },
   "Gwen": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Renekton",
-        "win_rate": "52.2"
-      },
-      {
-        "champion_name_en": "Volibear",
-        "win_rate": "52.7"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Warwick",
-        "win_rate": "47.1"
+        "champion_name_en": "Fiora"
       },
       {
-        "champion_name_en": "Yone",
-        "win_rate": "44.1"
+        "champion_name_en": "Jax"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ornn"
       },
       {
-        "champion_name_en": "Varus",
-        "win_rate": "44.2"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Hecarim": {
-    "strong_against": [
-      {
-        "champion_name_en": "Soraka",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Kennen",
-        "win_rate": "56.6"
-      },
-      {
-        "champion_name_en": "Jax",
-        "win_rate": "55.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Diana",
-        "win_rate": "45.8"
+        "champion_name_en": "Rengar"
       },
       {
-        "champion_name_en": "Garen",
-        "win_rate": "43.3"
+        "champion_name_en": "Khazix"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "DrMundo",
-        "win_rate": "47.1"
+        "champion_name_en": "Graves"
       }
     ]
   },
   "Heimerdinger": {
-    "strong_against": [
-      {
-        "champion_name_en": "DrMundo",
-        "win_rate": "56.0"
-      },
-      {
-        "champion_name_en": "Darius",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Jayce",
-        "win_rate": "53.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Blitzcrank",
-        "win_rate": "47.9"
+        "champion_name_en": "Syndra"
       },
       {
-        "champion_name_en": "Senna",
-        "win_rate": "43.9"
+        "champion_name_en": "Orianna"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Graves",
-        "win_rate": "45.4"
+        "champion_name_en": "Yasuo"
       }
     ]
   },
   "Irelia": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "AurelionSol",
-        "win_rate": "52.7"
-      },
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "52.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Evelynn",
-        "win_rate": "47.7"
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Fizz",
-        "win_rate": "45.6"
+        "champion_name_en": "Renekton"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Gnar"
       },
       {
-        "champion_name_en": "Jinx",
-        "win_rate": "43.4"
+        "champion_name_en": "Jayce"
       }
     ]
   },
   "Janna": {
-    "strong_against": [
-      {
-        "champion_name_en": "Caitlyn",
-        "win_rate": "56.8"
-      },
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "56.8"
-      },
-      {
-        "champion_name_en": "Gwen",
-        "win_rate": "54.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Akali",
-        "win_rate": "43.4"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Kayn",
-        "win_rate": "43.5"
+        "champion_name_en": "Pyke"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
       },
       {
-        "champion_name_en": "DrMundo",
-        "win_rate": "46.4"
+        "champion_name_en": "Alistar"
       }
     ]
   },
   "JarvanIV": {
-    "strong_against": [
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Ashe",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Lucian",
-        "win_rate": "55.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sion",
-        "win_rate": "44.3"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Orianna",
-        "win_rate": "44.3"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "Ezreal",
-        "win_rate": "44.5"
+        "champion_name_en": "Evelynn"
       }
     ]
   },
   "Jax": {
-    "strong_against": [
-      {
-        "champion_name_en": "Shyvana",
-        "win_rate": "55.6"
-      },
-      {
-        "champion_name_en": "Vi",
-        "win_rate": "56.5"
-      },
-      {
-        "champion_name_en": "Karma",
-        "win_rate": "53.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sion",
-        "win_rate": "44.8"
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Talon",
-        "win_rate": "47.8"
+        "champion_name_en": "Kennen"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Fiora"
       },
       {
-        "champion_name_en": "MasterYi",
-        "win_rate": "47.3"
+        "champion_name_en": "Irelia"
       }
     ]
   },
   "Jayce": {
-    "strong_against": [
-      {
-        "champion_name_en": "Graves",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Kennen",
-        "win_rate": "54.0"
-      },
-      {
-        "champion_name_en": "Kaisa",
-        "win_rate": "55.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Soraka",
-        "win_rate": "46.7"
+        "champion_name_en": "Irelia"
       },
       {
-        "champion_name_en": "MasterYi",
-        "win_rate": "44.9"
+        "champion_name_en": "MonkeyKing"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "44.4"
+        "champion_name_en": "Darius"
       }
     ]
   },
   "Jhin": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ekko",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Camille",
-        "win_rate": "55.0"
-      },
-      {
-        "champion_name_en": "Fiora",
-        "win_rate": "55.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "45.2"
+        "champion_name_en": "Tristana"
       },
       {
-        "champion_name_en": "Ahri",
-        "win_rate": "44.6"
+        "champion_name_en": "Lucian"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "MissFortune",
-        "win_rate": "47.3"
+        "champion_name_en": "Ezreal"
       }
     ]
   },
   "Jinx": {
-    "strong_against": [
-      {
-        "champion_name_en": "Malphite",
-        "win_rate": "54.6"
-      },
-      {
-        "champion_name_en": "Ashe",
-        "win_rate": "57.0"
-      },
-      {
-        "champion_name_en": "MasterYi",
-        "win_rate": "54.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Amumu",
-        "win_rate": "45.8"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Brand",
-        "win_rate": "46.8"
+        "champion_name_en": "Tristana"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Wukong",
-        "win_rate": "45.3"
+        "champion_name_en": "Zeri"
       }
     ]
   },
   "Kaisa": {
-    "strong_against": [
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "53.6"
-      },
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "53.1"
-      },
-      {
-        "champion_name_en": "Ezreal",
-        "win_rate": "52.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Gwen",
-        "win_rate": "43.9"
+        "champion_name_en": "Caitlyn"
       },
       {
-        "champion_name_en": "Diana",
-        "win_rate": "43.4"
+        "champion_name_en": "Draven"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ezreal"
       },
       {
-        "champion_name_en": "Seraphine",
-        "win_rate": "47.6"
+        "champion_name_en": "Sivir"
+      }
+    ]
+  },
+  "Kalista": {
+    "weak_against": [
+      {
+        "champion_name_en": "Ashe"
+      },
+      {
+        "champion_name_en": "Draven"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ezreal"
+      },
+      {
+        "champion_name_en": "Vayne"
       }
     ]
   },
   "Karma": {
-    "strong_against": [
-      {
-        "champion_name_en": "Wukong",
-        "win_rate": "55.1"
-      },
-      {
-        "champion_name_en": "Vayne",
-        "win_rate": "56.9"
-      },
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "53.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Rakan",
-        "win_rate": "47.7"
+        "champion_name_en": "Nautilus"
       },
       {
-        "champion_name_en": "Swain",
-        "win_rate": "44.9"
+        "champion_name_en": "Leona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Janna"
       },
       {
-        "champion_name_en": "Zed",
-        "win_rate": "45.0"
+        "champion_name_en": "Lulu"
       }
     ]
   },
   "Kassadin": {
-    "strong_against": [
-      {
-        "champion_name_en": "Tryndamere",
-        "win_rate": "54.4"
-      },
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "55.2"
-      },
-      {
-        "champion_name_en": "Xayah",
-        "win_rate": "56.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Swain",
-        "win_rate": "46.8"
+        "champion_name_en": "Zed"
       },
       {
-        "champion_name_en": "Teemo",
-        "win_rate": "44.3"
+        "champion_name_en": "Talon"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Nasus",
-        "win_rate": "44.5"
+        "champion_name_en": "Katarina"
       }
     ]
   },
   "Katarina": {
-    "strong_against": [
-      {
-        "champion_name_en": "Rakan",
-        "win_rate": "53.4"
-      },
-      {
-        "champion_name_en": "Shyvana",
-        "win_rate": "53.4"
-      },
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "55.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "46.0"
+        "champion_name_en": "Galio"
       },
       {
-        "champion_name_en": "Twitch",
-        "win_rate": "45.5"
+        "champion_name_en": "Kassadin"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "45.4"
+        "champion_name_en": "Velkoz"
       }
     ]
   },
   "Kayle": {
-    "strong_against": [
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "53.7"
-      },
-      {
-        "champion_name_en": "Graves",
-        "win_rate": "55.8"
-      },
-      {
-        "champion_name_en": "Gragas",
-        "win_rate": "55.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Rakan",
-        "win_rate": "45.0"
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Jayce",
-        "win_rate": "44.9"
+        "champion_name_en": "Irelia"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Evelynn",
-        "win_rate": "45.6"
+        "champion_name_en": "Darius"
       }
     ]
   },
   "Kayn": {
-    "strong_against": [
-      {
-        "champion_name_en": "Senna",
-        "win_rate": "56.1"
-      },
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "54.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sivir",
-        "win_rate": "46.9"
+        "champion_name_en": "Graves"
       },
       {
-        "champion_name_en": "XinZhao",
-        "win_rate": "47.9"
+        "champion_name_en": "MasterYi"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "Zed",
-        "win_rate": "45.2"
+        "champion_name_en": "Amumu"
       }
     ]
   },
   "Kennen": {
-    "strong_against": [
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "56.8"
-      },
-      {
-        "champion_name_en": "Orianna",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Aatrox",
-        "win_rate": "52.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Braum",
-        "win_rate": "47.9"
+        "champion_name_en": "Irelia"
       },
       {
-        "champion_name_en": "Syndra",
-        "win_rate": "43.0"
+        "champion_name_en": "Jayce"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Nilah",
-        "win_rate": "43.3"
+        "champion_name_en": "Darius"
       }
     ]
   },
   "Khazix": {
-    "strong_against": [
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Tristana",
-        "win_rate": "52.2"
-      },
-      {
-        "champion_name_en": "Orianna",
-        "win_rate": "53.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Amumu",
-        "win_rate": "44.4"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Urgot",
-        "win_rate": "46.5"
+        "champion_name_en": "Rengar"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "Ezreal",
-        "win_rate": "44.1"
+        "champion_name_en": "Evelynn"
       }
     ]
   },
   "Kindred": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ekko",
-        "win_rate": "54.4"
-      },
-      {
-        "champion_name_en": "Garen",
-        "win_rate": "53.6"
-      },
-      {
-        "champion_name_en": "Varus",
-        "win_rate": "53.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "AurelionSol",
-        "win_rate": "47.1"
+        "champion_name_en": "MasterYi"
       },
       {
-        "champion_name_en": "Akali",
-        "win_rate": "47.8"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "Jayce",
-        "win_rate": "45.6"
+        "champion_name_en": "Gragas"
+      }
+    ]
+  },
+  "KogMaw": {
+    "weak_against": [
+      {
+        "champion_name_en": "Draven"
+      },
+      {
+        "champion_name_en": "Lucian"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
+      },
+      {
+        "champion_name_en": "Ezreal"
+      }
+    ]
+  },
+  "KSante": {
+    "weak_against": [
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Darius"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Sion"
+      },
+      {
+        "champion_name_en": "Ornn"
       }
     ]
   },
   "LeeSin": {
-    "strong_against": [
-      {
-        "champion_name_en": "Malphite",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Norra",
-        "win_rate": "56.4"
-      },
-      {
-        "champion_name_en": "Irelia",
-        "win_rate": "54.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Annie",
-        "win_rate": "43.3"
+        "champion_name_en": "Vi"
       },
       {
-        "champion_name_en": "Kaisa",
-        "win_rate": "44.4"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Nidalee"
       },
       {
-        "champion_name_en": "Rengar",
-        "win_rate": "45.0"
+        "champion_name_en": "Amumu"
       }
     ]
   },
   "Leona": {
-    "strong_against": [
-      {
-        "champion_name_en": "Teemo",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Aatrox",
-        "win_rate": "56.8"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "52.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Khazix",
-        "win_rate": "47.2"
+        "champion_name_en": "Morgana"
       },
       {
-        "champion_name_en": "Hecarim",
-        "win_rate": "45.5"
+        "champion_name_en": "Janna"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Ahri",
-        "win_rate": "43.8"
+        "champion_name_en": "Nautilus"
       }
     ]
   },
   "Lillia": {
-    "strong_against": [
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "56.1"
-      },
-      {
-        "champion_name_en": "Khazix",
-        "win_rate": "53.2"
-      },
-      {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "56.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "45.6"
+        "champion_name_en": "MasterYi"
       },
       {
-        "champion_name_en": "Diana",
-        "win_rate": "47.4"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Rammus"
       },
       {
-        "champion_name_en": "Annie",
-        "win_rate": "47.2"
+        "champion_name_en": "Amumu"
+      }
+    ]
+  },
+  "Lissandra": {
+    "weak_against": [
+      {
+        "champion_name_en": "Syndra"
+      },
+      {
+        "champion_name_en": "Orianna"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Fizz"
+      },
+      {
+        "champion_name_en": "Zed"
       }
     ]
   },
   "Lucian": {
-    "strong_against": [
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "55.7"
-      },
-      {
-        "champion_name_en": "Rengar",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "MissFortune",
-        "win_rate": "54.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Talon",
-        "win_rate": "43.6"
+        "champion_name_en": "Caitlyn"
       },
       {
-        "champion_name_en": "Vayne",
-        "win_rate": "46.0"
+        "champion_name_en": "Draven"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Senna",
-        "win_rate": "46.7"
+        "champion_name_en": "Ezreal"
       }
     ]
   },
   "Lulu": {
-    "strong_against": [
-      {
-        "champion_name_en": "Seraphine",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Swain",
-        "win_rate": "53.7"
-      },
-      {
-        "champion_name_en": "Urgot",
-        "win_rate": "54.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Wukong",
-        "win_rate": "47.3"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Nautilus",
-        "win_rate": "44.0"
+        "champion_name_en": "Pyke"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
       },
       {
-        "champion_name_en": "Janna",
-        "win_rate": "47.5"
+        "champion_name_en": "Alistar"
       }
     ]
   },
   "Lux": {
-    "strong_against": [
-      {
-        "champion_name_en": "Darius",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Nunu",
-        "win_rate": "53.3"
-      },
-      {
-        "champion_name_en": "Nautilus",
-        "win_rate": "54.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sivir",
-        "win_rate": "44.0"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Ziggs",
-        "win_rate": "44.4"
-      },
-      {
-        "champion_name_en": "Seraphine",
-        "win_rate": "45.5"
-      }
-    ]
-  },
-  "Malphite": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Talon",
-        "win_rate": "55.1"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "56.0"
+        "champion_name_en": "Pyke"
       }
     ],
-    "weak_against": [
-      {
-        "champion_name_en": "Warwick",
-        "win_rate": "44.6"
-      },
-      {
-        "champion_name_en": "Graves",
-        "win_rate": "44.0"
-      },
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "43.2"
-      }
-    ]
-  },
-  "MasterYi": {
     "strong_against": [
       {
-        "champion_name_en": "Thresh",
-        "win_rate": "55.4"
+        "champion_name_en": "Janna"
       },
       {
-        "champion_name_en": "Graves",
-        "win_rate": "53.3"
-      },
-      {
-        "champion_name_en": "Vex",
-        "win_rate": "55.0"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "45.5"
-      },
-      {
-        "champion_name_en": "Vi",
-        "win_rate": "45.2"
-      },
-      {
-        "champion_name_en": "Camille",
-        "win_rate": "47.4"
+        "champion_name_en": "Lulu"
       }
     ]
   },
   "MissFortune": {
-    "strong_against": [
-      {
-        "champion_name_en": "Zed",
-        "win_rate": "52.4"
-      },
-      {
-        "champion_name_en": "Jax",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "52.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "47.0"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Ahri",
-        "win_rate": "43.6"
+        "champion_name_en": "Tristana"
       },
       {
-        "champion_name_en": "Shyvana",
-        "win_rate": "44.1"
-      }
-    ]
-  },
-  "Morgana": {
-    "strong_against": [
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "55.1"
-      },
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "55.7"
-      },
-      {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "56.1"
+        "champion_name_en": "Samira"
       }
     ],
-    "weak_against": [
-      {
-        "champion_name_en": "Jax",
-        "win_rate": "43.7"
-      },
-      {
-        "champion_name_en": "Orianna",
-        "win_rate": "45.8"
-      },
-      {
-        "champion_name_en": "MasterYi",
-        "win_rate": "46.7"
-      }
-    ]
-  },
-  "Nami": {
     "strong_against": [
       {
-        "champion_name_en": "Sion",
-        "win_rate": "55.2"
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "53.0"
+        "champion_name_en": "Ezreal"
       },
       {
-        "champion_name_en": "LeeSin",
-        "win_rate": "54.8"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "AurelionSol",
-        "win_rate": "47.5"
-      },
-      {
-        "champion_name_en": "Ezreal",
-        "win_rate": "45.0"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "43.7"
-      }
-    ]
-  },
-  "Nasus": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nunu",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "52.6"
-      },
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "56.7"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Kayn",
-        "win_rate": "45.1"
-      },
-      {
-        "champion_name_en": "Kayle",
-        "win_rate": "43.9"
-      },
-      {
-        "champion_name_en": "Jinx",
-        "win_rate": "43.8"
-      }
-    ]
-  },
-  "Nautilus": {
-    "strong_against": [
-      {
-        "champion_name_en": "Pyke",
-        "win_rate": "55.5"
-      },
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "55.2"
-      },
-      {
-        "champion_name_en": "Lucian",
-        "win_rate": "56.6"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "47.9"
-      },
-      {
-        "champion_name_en": "Blitzcrank",
-        "win_rate": "45.4"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "46.8"
-      }
-    ]
-  },
-  "Nilah": {
-    "strong_against": [
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "55.0"
-      },
-      {
-        "champion_name_en": "Morgana",
-        "win_rate": "55.4"
-      },
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "55.0"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "48.0"
-      },
-      {
-        "champion_name_en": "Fiora",
-        "win_rate": "45.8"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "46.7"
-      }
-    ]
-  },
-  "Norra": {
-    "strong_against": [
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "54.4"
-      },
-      {
-        "champion_name_en": "Nunu",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Nilah",
-        "win_rate": "52.4"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Swain",
-        "win_rate": "45.1"
-      },
-      {
-        "champion_name_en": "Nautilus",
-        "win_rate": "45.1"
-      },
-      {
-        "champion_name_en": "Thresh",
-        "win_rate": "43.3"
-      }
-    ]
-  },
-  "Nunu": {
-    "strong_against": [
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "56.5"
-      },
-      {
-        "champion_name_en": "Renekton",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Gragas",
-        "win_rate": "52.0"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Ekko",
-        "win_rate": "45.5"
-      },
-      {
-        "champion_name_en": "Irelia",
-        "win_rate": "46.1"
-      },
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "47.2"
-      }
-    ]
-  },
-  "Olaf": {
-    "strong_against": [
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Kaisa",
-        "win_rate": "52.9"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Twitch",
-        "win_rate": "47.2"
-      },
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "46.0"
-      },
-      {
-        "champion_name_en": "Draven",
-        "win_rate": "45.0"
-      }
-    ]
-  },
-  "Orianna": {
-    "strong_against": [
-      {
-        "champion_name_en": "Pantheon",
-        "win_rate": "53.8"
-      },
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "55.7"
-      },
-      {
-        "champion_name_en": "Rakan",
-        "win_rate": "55.9"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Nautilus",
-        "win_rate": "44.6"
-      },
-      {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "43.6"
-      },
-      {
-        "champion_name_en": "Wukong",
-        "win_rate": "44.2"
-      }
-    ]
-  },
-  "Ornn": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ashe",
-        "win_rate": "53.0"
-      },
-      {
-        "champion_name_en": "Brand",
-        "win_rate": "56.3"
-      },
-      {
-        "champion_name_en": "Lucian",
-        "win_rate": "52.1"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Caitlyn",
-        "win_rate": "45.4"
-      },
-      {
-        "champion_name_en": "Jayce",
-        "win_rate": "44.8"
-      },
-      {
-        "champion_name_en": "Draven",
-        "win_rate": "47.5"
-      }
-    ]
-  },
-  "Pantheon": {
-    "strong_against": [
-      {
-        "champion_name_en": "Brand",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Shen",
-        "win_rate": "55.9"
-      },
-      {
-        "champion_name_en": "Zoe",
-        "win_rate": "56.5"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Yone",
-        "win_rate": "44.6"
-      },
-      {
-        "champion_name_en": "Ezreal",
-        "win_rate": "47.9"
-      },
-      {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "43.2"
-      }
-    ]
-  },
-  "Pyke": {
-    "strong_against": [
-      {
-        "champion_name_en": "Aatrox",
-        "win_rate": "53.1"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "56.4"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Janna",
-        "win_rate": "44.6"
-      },
-      {
-        "champion_name_en": "Jhin",
-        "win_rate": "46.7"
-      },
-      {
-        "champion_name_en": "Brand",
-        "win_rate": "44.1"
-      }
-    ]
-  },
-  "Rakan": {
-    "strong_against": [
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "53.5"
-      },
-      {
-        "champion_name_en": "Zeri",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Nunu",
-        "win_rate": "52.4"
-      }
-    ],
-    "weak_against": [
-      {
-        "champion_name_en": "Irelia",
-        "win_rate": "47.4"
-      },
-      {
-        "champion_name_en": "Ekko",
-        "win_rate": "45.9"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "47.2"
+        "champion_name_en": "Jinx"
       }
     ]
   },
   "Rammus": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ekko",
-        "win_rate": "54.3"
-      },
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "53.9"
-      },
-      {
-        "champion_name_en": "Volibear",
-        "win_rate": "53.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sion",
-        "win_rate": "44.9"
+        "champion_name_en": "Mordekaiser"
       },
       {
-        "champion_name_en": "Vex",
-        "win_rate": "46.6"
+        "champion_name_en": "Gwen"
       },
       {
-        "champion_name_en": "Lulu",
-        "win_rate": "47.4"
+        "champion_name_en": "Darius"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Tryndamere"
+      },
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Yasuo"
       }
     ]
   },
-  "Renekton": {
-    "strong_against": [
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "52.9"
-      },
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Ahri",
-        "win_rate": "55.3"
-      }
-    ],
+  "Nunu": {
     "weak_against": [
       {
-        "champion_name_en": "Seraphine",
-        "win_rate": "47.9"
+        "champion_name_en": "Darius"
       },
       {
-        "champion_name_en": "Graves",
-        "win_rate": "43.1"
+        "champion_name_en": "Sett"
       },
       {
-        "champion_name_en": "Jayce",
-        "win_rate": "45.6"
+        "champion_name_en": "Fiora"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Kennen"
+      }
+    ]
+  },
+  "Nocturne": {
+    "weak_against": [
+      {
+        "champion_name_en": "Shen"
+      },
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Jax"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Kayle"
+      },
+      {
+        "champion_name_en": "Gnar"
+      }
+    ]
+  },
+  "Nautilus": {
+    "weak_against": [
+      {
+        "champion_name_en": "Darius"
+      },
+      {
+        "champion_name_en": "Fiora"
+      },
+      {
+        "champion_name_en": "Gwen"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Tryndamere"
+      }
+    ]
+  },
+  "MasterYi": {
+    "weak_against": [
+      {
+        "champion_name_en": "Jax"
+      },
+      {
+        "champion_name_en": "Renekton"
+      },
+      {
+        "champion_name_en": "Malphite"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
+      },
+      {
+        "champion_name_en": "Kayle"
+      },
+      {
+        "champion_name_en": "Sion"
+      }
+    ]
+  },
+  "Nidalee": {
+    "weak_against": [
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Camille"
+      },
+      {
+        "champion_name_en": "Jax"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Darius"
+      },
+      {
+        "champion_name_en": "Teemo"
+      }
+    ]
+  },
+  "Pantheon": {
+    "weak_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Shen"
+      },
+      {
+        "champion_name_en": "Ornn"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Fiora"
+      },
+      {
+        "champion_name_en": "Yasuo"
+      },
+      {
+        "champion_name_en": "Teemo"
+      }
+    ]
+  },
+  "Olaf": {
+    "weak_against": [
+      {
+        "champion_name_en": "Fiora"
+      },
+      {
+        "champion_name_en": "Camille"
+      },
+      {
+        "champion_name_en": "Jax"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Pantheon"
+      },
+      {
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Rengar": {
-    "strong_against": [
-      {
-        "champion_name_en": "Syndra",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Draven",
-        "win_rate": "52.1"
-      },
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "55.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kindred",
-        "win_rate": "45.8"
+        "champion_name_en": "Darius"
       },
       {
-        "champion_name_en": "Akshan",
-        "win_rate": "46.4"
+        "champion_name_en": "Sett"
       },
       {
-        "champion_name_en": "Kassadin",
-        "win_rate": "44.8"
+        "champion_name_en": "Renekton"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Kayle"
+      },
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Yasuo"
+      }
+    ]
+  },
+  "MonkeyKing": {
+    "weak_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Darius"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Yasuo"
+      },
+      {
+        "champion_name_en": "Kayle"
+      }
+    ]
+  },
+  "Norra": {
+    "weak_against": [
+      {
+        "champion_name_en": "Blitzcrank"
+      },
+      {
+        "champion_name_en": "Pyke"
+      },
+      {
+        "champion_name_en": "Leona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Lulu"
+      },
+      {
+        "champion_name_en": "Janna"
+      },
+      {
+        "champion_name_en": "Soraka"
+      }
+    ]
+  },
+  "Morgana": {
+    "weak_against": [
+      {
+        "champion_name_en": "Karma"
+      },
+      {
+        "champion_name_en": "Senna"
+      },
+      {
+        "champion_name_en": "Sona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Blitzcrank"
+      },
+      {
+        "champion_name_en": "Leona"
+      },
+      {
+        "champion_name_en": "Alistar"
+      }
+    ]
+  },
+  "Nasus": {
+    "weak_against": [
+      {
+        "champion_name_en": "Darius"
+      },
+      {
+        "champion_name_en": "Renekton"
+      },
+      {
+        "champion_name_en": "Aatrox"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Tryndamere"
+      },
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Kayle"
+      }
+    ]
+  },
+  "Ryze": {
+    "weak_against": [
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Camille"
+      },
+      {
+        "champion_name_en": "Riven"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Garen"
+      }
+    ]
+  },
+  "Orianna": {
+    "weak_against": [
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Camille"
+      },
+      {
+        "champion_name_en": "Yasuo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Darius"
+      }
+    ]
+  },
+  "Malphite": {
+    "weak_against": [
+      {
+        "champion_name_en": "Mordekaiser"
+      },
+      {
+        "champion_name_en": "Gwen"
+      },
+      {
+        "champion_name_en": "Vladimir"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Tryndamere"
+      },
+      {
+        "champion_name_en": "Jax"
+      },
+      {
+        "champion_name_en": "Irelia"
+      }
+    ]
+  },
+  "Mel": {
+    "weak_against": [
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Riven"
+      },
+      {
+        "champion_name_en": "Camille"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Darius"
+      },
+      {
+        "champion_name_en": "Teemo"
+      }
+    ]
+  },
+  "Maokai": {
+    "weak_against": [
+      {
+        "champion_name_en": "Morgana"
+      },
+      {
+        "champion_name_en": "Karma"
+      },
+      {
+        "champion_name_en": "Janna"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
+      },
+      {
+        "champion_name_en": "Alistar"
+      },
+      {
+        "champion_name_en": "Blitzcrank"
+      }
+    ]
+  },
+  "Rell": {
+    "weak_against": [
+      {
+        "champion_name_en": "Janna"
+      },
+      {
+        "champion_name_en": "Morgana"
+      },
+      {
+        "champion_name_en": "Thresh"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
+      },
+      {
+        "champion_name_en": "Blitzcrank"
+      },
+      {
+        "champion_name_en": "Pyke"
+      }
+    ]
+  },
+  "Nami": {
+    "weak_against": [
+      {
+        "champion_name_en": "Blitzcrank"
+      },
+      {
+        "champion_name_en": "Leona"
+      },
+      {
+        "champion_name_en": "Pyke"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Janna"
+      },
+      {
+        "champion_name_en": "Lulu"
+      },
+      {
+        "champion_name_en": "Yuumi"
+      }
+    ]
+  },
+  "Milio": {
+    "weak_against": [
+      {
+        "champion_name_en": "Blitzcrank"
+      },
+      {
+        "champion_name_en": "Pyke"
+      },
+      {
+        "champion_name_en": "Thresh"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Lulu"
+      },
+      {
+        "champion_name_en": "Janna"
+      },
+      {
+        "champion_name_en": "Soraka"
+      }
+    ]
+  },
+  "Pyke": {
+    "weak_against": [
+      {
+        "champion_name_en": "Leona"
+      },
+      {
+        "champion_name_en": "Alistar"
+      },
+      {
+        "champion_name_en": "Braum"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Soraka"
+      },
+      {
+        "champion_name_en": "Sona"
+      },
+      {
+        "champion_name_en": "Nami"
+      }
+    ]
+  },
+  "Ornn": {
+    "weak_against": [
+      {
+        "champion_name_en": "Fiora"
+      },
+      {
+        "champion_name_en": "Gwen"
+      },
+      {
+        "champion_name_en": "Camille"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Renekton"
+      }
+    ]
+  },
+  "Rakan": {
+    "weak_against": [
+      {
+        "champion_name_en": "Morgana"
+      },
+      {
+        "champion_name_en": "Janna"
+      },
+      {
+        "champion_name_en": "Thresh"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
+      },
+      {
+        "champion_name_en": "Pyke"
+      },
+      {
+        "champion_name_en": "Lulu"
+      }
+    ]
+  },
+  "Poppy": {
+    "weak_against": [
+      {
+        "champion_name_en": "Darius"
+      },
+      {
+        "champion_name_en": "Garen"
+      },
+      {
+        "champion_name_en": "Olaf"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Riven"
+      },
+      {
+        "champion_name_en": "Irelia"
+      },
+      {
+        "champion_name_en": "Camille"
+      }
+    ]
+  },
+  "Rumble": {
+    "weak_against": [
+      {
+        "champion_name_en": "Aatrox"
+      },
+      {
+        "champion_name_en": "Renekton"
+      },
+      {
+        "champion_name_en": "Darius"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Teemo"
+      },
+      {
+        "champion_name_en": "Jax"
+      }
+    ]
+  },
+  "Renekton": {
+    "weak_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Ornn"
+      },
+      {
+        "champion_name_en": "Garen"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
+      },
+      {
+        "champion_name_en": "Riven"
+      },
+      {
+        "champion_name_en": "Irelia"
+      }
+    ]
+  },
+  "Mordekaiser": {
+    "weak_against": [
+      {
+        "champion_name_en": "Fiora"
+      },
+      {
+        "champion_name_en": "Olaf"
+      },
+      {
+        "champion_name_en": "Tryndamere"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
+      },
+      {
+        "champion_name_en": "Shen"
+      },
+      {
+        "champion_name_en": "Ornn"
       }
     ]
   },
   "Riven": {
-    "strong_against": [
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "56.1"
-      },
-      {
-        "champion_name_en": "Lillia",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "52.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kayn",
-        "win_rate": "44.5"
+        "champion_name_en": "Renekton"
       },
       {
-        "champion_name_en": "Evelynn",
-        "win_rate": "45.5"
+        "champion_name_en": "Poppy"
       },
       {
-        "champion_name_en": "Jayce",
-        "win_rate": "46.2"
+        "champion_name_en": "Malphite"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
+      },
+      {
+        "champion_name_en": "Yone"
+      },
+      {
+        "champion_name_en": "Kayle"
       }
     ]
   },
   "Samira": {
-    "strong_against": [
-      {
-        "champion_name_en": "Rammus",
-        "win_rate": "52.1"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "56.9"
-      },
-      {
-        "champion_name_en": "Ahri",
-        "win_rate": "56.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Sett",
-        "win_rate": "43.4"
+        "champion_name_en": "Ashe"
       },
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "45.0"
+        "champion_name_en": "Caitlyn"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Sivir"
       },
       {
-        "champion_name_en": "Akshan",
-        "win_rate": "45.0"
+        "champion_name_en": "Jinx"
       }
     ]
   },
   "Senna": {
-    "strong_against": [
-      {
-        "champion_name_en": "Norra",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "MissFortune",
-        "win_rate": "53.0"
-      },
-      {
-        "champion_name_en": "Gragas",
-        "win_rate": "55.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kennen",
-        "win_rate": "46.8"
+        "champion_name_en": "Nautilus"
       },
       {
-        "champion_name_en": "Jax",
-        "win_rate": "44.7"
+        "champion_name_en": "Blitzcrank"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yuumi"
       },
       {
-        "champion_name_en": "Katarina",
-        "win_rate": "47.3"
+        "champion_name_en": "Braum"
       }
     ]
   },
   "Seraphine": {
-    "strong_against": [
-      {
-        "champion_name_en": "Brand",
-        "win_rate": "53.5"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "53.0"
-      },
-      {
-        "champion_name_en": "Rengar",
-        "win_rate": "55.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Nami",
-        "win_rate": "45.9"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Zoe",
-        "win_rate": "44.6"
+        "champion_name_en": "Nautilus"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
       },
       {
-        "champion_name_en": "Kayn",
-        "win_rate": "46.4"
+        "champion_name_en": "Janna"
       }
     ]
   },
   "Sett": {
-    "strong_against": [
-      {
-        "champion_name_en": "Alistar",
-        "win_rate": "54.4"
-      },
-      {
-        "champion_name_en": "Sion",
-        "win_rate": "52.0"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "56.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Nautilus",
-        "win_rate": "45.2"
+        "champion_name_en": "Volibear"
       },
       {
-        "champion_name_en": "Akshan",
-        "win_rate": "46.3"
+        "champion_name_en": "Renekton"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Nasus",
-        "win_rate": "43.7"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Shen": {
-    "strong_against": [
-      {
-        "champion_name_en": "Senna",
-        "win_rate": "53.3"
-      },
-      {
-        "champion_name_en": "Lucian",
-        "win_rate": "53.4"
-      },
-      {
-        "champion_name_en": "Katarina",
-        "win_rate": "52.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kayle",
-        "win_rate": "43.2"
+        "champion_name_en": "Darius"
       },
       {
-        "champion_name_en": "Brand",
-        "win_rate": "46.0"
+        "champion_name_en": "Mordekaiser"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
       },
       {
-        "champion_name_en": "Fiora",
-        "win_rate": "47.8"
+        "champion_name_en": "Pantheon"
       }
     ]
   },
   "Shyvana": {
-    "strong_against": [
-      {
-        "champion_name_en": "Morgana",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Fizz",
-        "win_rate": "55.9"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "52.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Lucian",
-        "win_rate": "45.3"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Jhin",
-        "win_rate": "48.0"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Amumu"
       },
       {
-        "champion_name_en": "Kayle",
-        "win_rate": "47.9"
+        "champion_name_en": "MasterYi"
       }
     ]
   },
   "Singed": {
-    "strong_against": [
-      {
-        "champion_name_en": "Vi",
-        "win_rate": "52.4"
-      },
-      {
-        "champion_name_en": "Zed",
-        "win_rate": "52.5"
-      },
-      {
-        "champion_name_en": "Rakan",
-        "win_rate": "55.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Yone",
-        "win_rate": "46.4"
+        "champion_name_en": "Teemo"
       },
       {
-        "champion_name_en": "Zeri",
-        "win_rate": "47.1"
+        "champion_name_en": "Jayce"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "44.0"
+        "champion_name_en": "Shen"
       }
     ]
   },
   "Sion": {
-    "strong_against": [
-      {
-        "champion_name_en": "Graves",
-        "win_rate": "56.3"
-      },
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "55.6"
-      },
-      {
-        "champion_name_en": "Khazix",
-        "win_rate": "57.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kennen",
-        "win_rate": "44.5"
+        "champion_name_en": "Darius"
       },
       {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "47.2"
+        "champion_name_en": "Aatrox"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Malphite"
       },
       {
-        "champion_name_en": "Morgana",
-        "win_rate": "47.0"
+        "champion_name_en": "Pantheon"
       }
     ]
   },
   "Sivir": {
-    "strong_against": [
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "52.7"
-      },
-      {
-        "champion_name_en": "Khazix",
-        "win_rate": "54.4"
-      },
-      {
-        "champion_name_en": "MissFortune",
-        "win_rate": "53.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "AurelionSol",
-        "win_rate": "47.3"
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Nautilus",
-        "win_rate": "43.6"
+        "champion_name_en": "Draven"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Caitlyn"
       },
       {
-        "champion_name_en": "Veigar",
-        "win_rate": "46.3"
+        "champion_name_en": "Ezreal"
+      }
+    ]
+  },
+  "Skarner": {
+    "weak_against": [
+      {
+        "champion_name_en": "Olaf"
+      },
+      {
+        "champion_name_en": "LeeSin"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Rengar"
+      },
+      {
+        "champion_name_en": "Khazix"
+      }
+    ]
+  },
+  "Smolder": {
+    "weak_against": [
+      {
+        "champion_name_en": "Draven"
+      },
+      {
+        "champion_name_en": "Caitlyn"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ezreal"
+      },
+      {
+        "champion_name_en": "Sivir"
       }
     ]
   },
   "Sona": {
-    "strong_against": [
-      {
-        "champion_name_en": "Norra",
-        "win_rate": "52.2"
-      },
-      {
-        "champion_name_en": "Irelia",
-        "win_rate": "53.9"
-      },
-      {
-        "champion_name_en": "Lucian",
-        "win_rate": "56.7"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "44.5"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Syndra",
-        "win_rate": "46.4"
+        "champion_name_en": "Leona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Janna"
       },
       {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "47.3"
+        "champion_name_en": "Lulu"
       }
     ]
   },
   "Soraka": {
-    "strong_against": [
-      {
-        "champion_name_en": "Morgana",
-        "win_rate": "54.3"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "53.5"
-      },
-      {
-        "champion_name_en": "Kaisa",
-        "win_rate": "56.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Xayah",
-        "win_rate": "43.5"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "45.8"
+        "champion_name_en": "Nautilus"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
       },
       {
-        "champion_name_en": "Fizz",
-        "win_rate": "47.0"
+        "champion_name_en": "Yuumi"
       }
     ]
   },
   "Swain": {
-    "strong_against": [
-      {
-        "champion_name_en": "Pantheon",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Braum",
-        "win_rate": "53.4"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "56.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Draven",
-        "win_rate": "47.4"
+        "champion_name_en": "Katarina"
       },
       {
-        "champion_name_en": "Irelia",
-        "win_rate": "45.7"
+        "champion_name_en": "Fizz"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Viego",
-        "win_rate": "47.5"
+        "champion_name_en": "Vladimir"
       }
     ]
   },
   "Syndra": {
-    "strong_against": [
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Samira",
-        "win_rate": "52.8"
-      },
-      {
-        "champion_name_en": "Orianna",
-        "win_rate": "54.7"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Morgana",
-        "win_rate": "46.0"
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Graves",
-        "win_rate": "45.4"
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Annie"
       },
       {
-        "champion_name_en": "Renekton",
-        "win_rate": "44.6"
+        "champion_name_en": "Orianna"
+      }
+    ]
+  },
+  "Taliyah": {
+    "weak_against": [
+      {
+        "champion_name_en": "Zed"
+      },
+      {
+        "champion_name_en": "Katarina"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ryze"
+      },
+      {
+        "champion_name_en": "Vladimir"
       }
     ]
   },
   "Talon": {
-    "strong_against": [
-      {
-        "champion_name_en": "Fizz",
-        "win_rate": "53.2"
-      },
-      {
-        "champion_name_en": "Jayce",
-        "win_rate": "53.9"
-      },
-      {
-        "champion_name_en": "Caitlyn",
-        "win_rate": "56.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "43.8"
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Lux",
-        "win_rate": "44.5"
+        "champion_name_en": "Diana"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "Garen",
-        "win_rate": "45.2"
+        "champion_name_en": "Lux"
       }
     ]
   },
   "Teemo": {
-    "strong_against": [
-      {
-        "champion_name_en": "Sett",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Ezreal",
-        "win_rate": "55.2"
-      },
-      {
-        "champion_name_en": "Ahri",
-        "win_rate": "52.7"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Graves",
-        "win_rate": "44.5"
+        "champion_name_en": "Malphite"
       },
       {
-        "champion_name_en": "Kindred",
-        "win_rate": "44.0"
+        "champion_name_en": "Pantheon"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Ekko",
-        "win_rate": "48.0"
+        "champion_name_en": "Singed"
       }
     ]
   },
   "Thresh": {
-    "strong_against": [
-      {
-        "champion_name_en": "XinZhao",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Urgot",
-        "win_rate": "55.0"
-      },
-      {
-        "champion_name_en": "Ornn",
-        "win_rate": "55.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Zed",
-        "win_rate": "47.9"
+        "champion_name_en": "Morgana"
       },
       {
-        "champion_name_en": "Vex",
-        "win_rate": "43.5"
+        "champion_name_en": "Zyra"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Leona"
       },
       {
-        "champion_name_en": "Zeri",
-        "win_rate": "46.1"
+        "champion_name_en": "Nautilus"
       }
     ]
   },
   "Tristana": {
-    "strong_against": [
-      {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "55.2"
-      },
-      {
-        "champion_name_en": "Fizz",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Talon",
-        "win_rate": "54.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Kindred",
-        "win_rate": "46.5"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Lucian",
-        "win_rate": "44.5"
+        "champion_name_en": "Caitlyn"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Swain",
-        "win_rate": "44.4"
+        "champion_name_en": "Ezreal"
       }
     ]
   },
   "Tryndamere": {
-    "strong_against": [
-      {
-        "champion_name_en": "MissFortune",
-        "win_rate": "55.0"
-      },
-      {
-        "champion_name_en": "Zyra",
-        "win_rate": "54.3"
-      },
-      {
-        "champion_name_en": "XinZhao",
-        "win_rate": "56.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Talon",
-        "win_rate": "47.5"
+        "champion_name_en": "Malphite"
       },
       {
-        "champion_name_en": "Evelynn",
-        "win_rate": "45.5"
+        "champion_name_en": "Jax"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "Rengar",
-        "win_rate": "44.6"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "TwistedFate": {
-    "strong_against": [
-      {
-        "champion_name_en": "Braum",
-        "win_rate": "52.7"
-      },
-      {
-        "champion_name_en": "Ziggs",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Yuumi",
-        "win_rate": "52.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Pantheon",
-        "win_rate": "46.4"
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Olaf",
-        "win_rate": "45.9"
+        "champion_name_en": "Yasuo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "Lulu",
-        "win_rate": "46.4"
+        "champion_name_en": "Annie"
       }
     ]
   },
   "Twitch": {
-    "strong_against": [
-      {
-        "champion_name_en": "Fizz",
-        "win_rate": "52.4"
-      },
-      {
-        "champion_name_en": "Kindred",
-        "win_rate": "56.2"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "56.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Lillia",
-        "win_rate": "45.0"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Hecarim",
-        "win_rate": "44.4"
+        "champion_name_en": "Lucian"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Draven",
-        "win_rate": "47.4"
+        "champion_name_en": "Jinx"
       }
     ]
   },
   "Urgot": {
-    "strong_against": [
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Sett",
-        "win_rate": "56.9"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "54.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "47.1"
+        "champion_name_en": "Mordekaiser"
       },
       {
-        "champion_name_en": "Jax",
-        "win_rate": "47.4"
+        "champion_name_en": "Aatrox"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Garen"
       },
       {
-        "champion_name_en": "MasterYi",
-        "win_rate": "45.6"
+        "champion_name_en": "Sion"
       }
     ]
   },
   "Varus": {
-    "strong_against": [
-      {
-        "champion_name_en": "Nunu",
-        "win_rate": "52.9"
-      },
-      {
-        "champion_name_en": "Gragas",
-        "win_rate": "54.4"
-      },
-      {
-        "champion_name_en": "Aatrox",
-        "win_rate": "54.0"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Diana",
-        "win_rate": "45.8"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "XinZhao",
-        "win_rate": "45.6"
+        "champion_name_en": "Tristana"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Vayne"
       },
       {
-        "champion_name_en": "Syndra",
-        "win_rate": "43.0"
+        "champion_name_en": "Jhin"
       }
     ]
   },
   "Vayne": {
-    "strong_against": [
-      {
-        "champion_name_en": "Kindred",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Malphite",
-        "win_rate": "52.3"
-      },
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "56.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Amumu",
-        "win_rate": "45.6"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Corki",
-        "win_rate": "45.4"
+        "champion_name_en": "Caitlyn"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ezreal"
       },
       {
-        "champion_name_en": "Garen",
-        "win_rate": "47.7"
+        "champion_name_en": "Sivir"
       }
     ]
   },
   "Veigar": {
-    "strong_against": [
-      {
-        "champion_name_en": "JarvanIV",
-        "win_rate": "55.8"
-      },
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "52.6"
-      },
-      {
-        "champion_name_en": "Aatrox",
-        "win_rate": "52.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Caitlyn",
-        "win_rate": "47.7"
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Karma",
-        "win_rate": "43.7"
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Annie"
       },
       {
-        "champion_name_en": "Akali",
-        "win_rate": "46.5"
+        "champion_name_en": "AurelionSol"
+      }
+    ]
+  },
+  "Velkoz": {
+    "weak_against": [
+      {
+        "champion_name_en": "Fizz"
+      },
+      {
+        "champion_name_en": "Yasuo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ryze"
+      },
+      {
+        "champion_name_en": "Annie"
       }
     ]
   },
   "Vex": {
-    "strong_against": [
-      {
-        "champion_name_en": "Karma",
-        "win_rate": "56.5"
-      },
-      {
-        "champion_name_en": "XinZhao",
-        "win_rate": "55.8"
-      },
-      {
-        "champion_name_en": "Orianna",
-        "win_rate": "55.4"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Garen",
-        "win_rate": "47.1"
+        "champion_name_en": "Syndra"
       },
       {
-        "champion_name_en": "Renekton",
-        "win_rate": "45.6"
+        "champion_name_en": "Xerath"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Yasuo"
       },
       {
-        "champion_name_en": "Rengar",
-        "win_rate": "46.5"
+        "champion_name_en": "Yone"
       }
     ]
   },
   "Vi": {
-    "strong_against": [
-      {
-        "champion_name_en": "Renekton",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Jayce",
-        "win_rate": "52.4"
-      },
-      {
-        "champion_name_en": "Yuumi",
-        "win_rate": "55.2"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Malphite",
-        "win_rate": "47.9"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Leona",
-        "win_rate": "47.8"
+        "champion_name_en": "XinZhao"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "MasterYi"
       },
       {
-        "champion_name_en": "Talon",
-        "win_rate": "44.2"
+        "champion_name_en": "Khazix"
       }
     ]
   },
   "Viego": {
-    "strong_against": [
-      {
-        "champion_name_en": "Xayah",
-        "win_rate": "54.9"
-      },
-      {
-        "champion_name_en": "Vladimir",
-        "win_rate": "53.3"
-      },
-      {
-        "champion_name_en": "Morgana",
-        "win_rate": "55.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Pyke",
-        "win_rate": "44.1"
+        "champion_name_en": "LeeSin"
       },
       {
-        "champion_name_en": "Nami",
-        "win_rate": "47.9"
+        "champion_name_en": "Rammus"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Amumu"
       },
       {
-        "champion_name_en": "Zeri",
-        "win_rate": "45.4"
+        "champion_name_en": "MasterYi"
       }
     ]
   },
   "Vladimir": {
-    "strong_against": [
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "55.6"
-      },
-      {
-        "champion_name_en": "Pyke",
-        "win_rate": "54.7"
-      },
-      {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "52.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Akshan",
-        "win_rate": "44.5"
+        "champion_name_en": "Kassadin"
       },
       {
-        "champion_name_en": "Aatrox",
-        "win_rate": "46.2"
+        "champion_name_en": "Orianna"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Zed"
       },
       {
-        "champion_name_en": "Jax",
-        "win_rate": "45.2"
+        "champion_name_en": "Fizz"
       }
     ]
   },
   "Volibear": {
-    "strong_against": [
-      {
-        "champion_name_en": "LeeSin",
-        "win_rate": "56.5"
-      },
-      {
-        "champion_name_en": "Yone",
-        "win_rate": "54.6"
-      },
-      {
-        "champion_name_en": "Nami",
-        "win_rate": "54.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Ahri",
-        "win_rate": "47.2"
+        "champion_name_en": "Teemo"
       },
       {
-        "champion_name_en": "Corki",
-        "win_rate": "45.6"
+        "champion_name_en": "Kayle"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Riven"
       },
       {
-        "champion_name_en": "Gwen",
-        "win_rate": "43.6"
+        "champion_name_en": "Irelia"
       }
     ]
   },
   "Warwick": {
-    "strong_against": [
-      {
-        "champion_name_en": "Gwen",
-        "win_rate": "54.1"
-      },
-      {
-        "champion_name_en": "Urgot",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Akshan",
-        "win_rate": "53.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Annie",
-        "win_rate": "46.7"
+        "champion_name_en": "Olaf"
       },
       {
-        "champion_name_en": "Nilah",
-        "win_rate": "45.9"
-      },
-      {
-        "champion_name_en": "Gragas",
-        "win_rate": "46.1"
-      }
-    ]
-  },
-  "Wukong": {
-    "strong_against": [
-      {
-        "champion_name_en": "Veigar",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Samira",
-        "win_rate": "53.2"
-      },
-      {
-        "champion_name_en": "Volibear",
-        "win_rate": "55.2"
+        "champion_name_en": "Rammus"
       }
     ],
-    "weak_against": [
+    "strong_against": [
       {
-        "champion_name_en": "Morgana",
-        "win_rate": "44.0"
+        "champion_name_en": "MasterYi"
       },
       {
-        "champion_name_en": "Akshan",
-        "win_rate": "44.0"
-      },
-      {
-        "champion_name_en": "Akali",
-        "win_rate": "43.7"
+        "champion_name_en": "Rengar"
       }
     ]
   },
   "Xayah": {
-    "strong_against": [
-      {
-        "champion_name_en": "Lulu",
-        "win_rate": "53.1"
-      },
-      {
-        "champion_name_en": "Vladimir",
-        "win_rate": "53.1"
-      },
-      {
-        "champion_name_en": "Leona",
-        "win_rate": "56.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Lillia",
-        "win_rate": "45.9"
+        "champion_name_en": "Caitlyn"
       },
       {
-        "champion_name_en": "Camille",
-        "win_rate": "43.8"
+        "champion_name_en": "MissFortune"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Kaisa"
       },
       {
-        "champion_name_en": "Lux",
-        "win_rate": "43.7"
+        "champion_name_en": "Vayne"
+      }
+    ]
+  },
+  "Xerath": {
+    "weak_against": [
+      {
+        "champion_name_en": "Fizz"
+      },
+      {
+        "champion_name_en": "Zed"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ryze"
+      },
+      {
+        "champion_name_en": "Annie"
       }
     ]
   },
   "XinZhao": {
-    "strong_against": [
-      {
-        "champion_name_en": "Rammus",
-        "win_rate": "56.0"
-      },
-      {
-        "champion_name_en": "Kayle",
-        "win_rate": "53.6"
-      },
-      {
-        "champion_name_en": "Kayn",
-        "win_rate": "52.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Ezreal",
-        "win_rate": "44.9"
+        "champion_name_en": "Jax"
       },
       {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "44.8"
+        "champion_name_en": "Olaf"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "MasterYi"
       },
       {
-        "champion_name_en": "Teemo",
-        "win_rate": "47.1"
+        "champion_name_en": "Amumu"
       }
     ]
   },
   "Yasuo": {
-    "strong_against": [
-      {
-        "champion_name_en": "Soraka",
-        "win_rate": "56.5"
-      },
-      {
-        "champion_name_en": "Morgana",
-        "win_rate": "52.9"
-      },
-      {
-        "champion_name_en": "Rakan",
-        "win_rate": "55.6"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Olaf",
-        "win_rate": "45.6"
+        "champion_name_en": "Annie"
       },
       {
-        "champion_name_en": "Pyke",
-        "win_rate": "46.5"
+        "champion_name_en": "Renekton"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Gnar"
       },
       {
-        "champion_name_en": "Yuumi",
-        "win_rate": "44.6"
+        "champion_name_en": "Lux"
       }
     ]
   },
   "Yone": {
-    "strong_against": [
-      {
-        "champion_name_en": "Evelynn",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Shen",
-        "win_rate": "56.7"
-      },
-      {
-        "champion_name_en": "Samira",
-        "win_rate": "56.5"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "MissFortune",
-        "win_rate": "46.6"
+        "champion_name_en": "Annie"
       },
       {
-        "champion_name_en": "LeeSin",
-        "win_rate": "46.7"
+        "champion_name_en": "Pantheon"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "Hecarim",
-        "win_rate": "43.9"
+        "champion_name_en": "Ziggs"
       }
     ]
   },
   "Yuumi": {
-    "strong_against": [
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "54.2"
-      },
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "56.8"
-      },
-      {
-        "champion_name_en": "Corki",
-        "win_rate": "52.1"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Fiora",
-        "win_rate": "43.9"
+        "champion_name_en": "Nautilus"
       },
       {
-        "champion_name_en": "Nasus",
-        "win_rate": "47.0"
+        "champion_name_en": "Leona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
       },
       {
-        "champion_name_en": "Warwick",
-        "win_rate": "43.1"
+        "champion_name_en": "Soraka"
       }
     ]
   },
   "Zed": {
-    "strong_against": [
-      {
-        "champion_name_en": "Annie",
-        "win_rate": "54.6"
-      },
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "55.1"
-      },
-      {
-        "champion_name_en": "Hecarim",
-        "win_rate": "54.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Ornn",
-        "win_rate": "47.9"
+        "champion_name_en": "Vladimir"
       },
       {
-        "champion_name_en": "Lillia",
-        "win_rate": "44.9"
+        "champion_name_en": "Ekko"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Veigar"
       },
       {
-        "champion_name_en": "Veigar",
-        "win_rate": "45.3"
+        "champion_name_en": "Lux"
       }
     ]
   },
   "Zeri": {
-    "strong_against": [
-      {
-        "champion_name_en": "Ezreal",
-        "win_rate": "53.6"
-      },
-      {
-        "champion_name_en": "Rammus",
-        "win_rate": "52.4"
-      },
-      {
-        "champion_name_en": "Amumu",
-        "win_rate": "53.9"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Talon",
-        "win_rate": "44.1"
+        "champion_name_en": "Draven"
       },
       {
-        "champion_name_en": "Caitlyn",
-        "win_rate": "47.4"
+        "champion_name_en": "Tristana"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ezreal"
       },
       {
-        "champion_name_en": "Cassiopeia",
-        "win_rate": "45.2"
+        "champion_name_en": "Sivir"
       }
     ]
   },
   "Ziggs": {
-    "strong_against": [
-      {
-        "champion_name_en": "Garen",
-        "win_rate": "54.5"
-      },
-      {
-        "champion_name_en": "Nautilus",
-        "win_rate": "54.8"
-      },
-      {
-        "champion_name_en": "Zeri",
-        "win_rate": "54.8"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Teemo",
-        "win_rate": "47.6"
+        "champion_name_en": "Fizz"
       },
       {
-        "champion_name_en": "Heimerdinger",
-        "win_rate": "44.1"
+        "champion_name_en": "Yasuo"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Ryze"
       },
       {
-        "champion_name_en": "Wukong",
-        "win_rate": "44.0"
+        "champion_name_en": "Annie"
       }
     ]
   },
-  "Zoe": {
-    "strong_against": [
-      {
-        "champion_name_en": "Swain",
-        "win_rate": "56.4"
-      },
-      {
-        "champion_name_en": "Jayce",
-        "win_rate": "52.1"
-      },
-      {
-        "champion_name_en": "Khazix",
-        "win_rate": "52.9"
-      }
-    ],
+  "Zilean": {
     "weak_against": [
       {
-        "champion_name_en": "Sivir",
-        "win_rate": "44.9"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "Nunu",
-        "win_rate": "47.1"
+        "champion_name_en": "Pyke"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
       },
       {
-        "champion_name_en": "Twitch",
-        "win_rate": "44.1"
+        "champion_name_en": "Janna"
       }
     ]
   },
   "Zyra": {
-    "strong_against": [
-      {
-        "champion_name_en": "Lux",
-        "win_rate": "55.3"
-      },
-      {
-        "champion_name_en": "Tryndamere",
-        "win_rate": "52.1"
-      },
-      {
-        "champion_name_en": "Khazix",
-        "win_rate": "54.3"
-      }
-    ],
     "weak_against": [
       {
-        "champion_name_en": "Fizz",
-        "win_rate": "47.5"
+        "champion_name_en": "Blitzcrank"
       },
       {
-        "champion_name_en": "MissFortune",
-        "win_rate": "43.3"
+        "champion_name_en": "Leona"
+      }
+    ],
+    "strong_against": [
+      {
+        "champion_name_en": "Braum"
       },
       {
-        "champion_name_en": "Amumu",
-        "win_rate": "43.5"
+        "champion_name_en": "Morgana"
       }
     ]
   }

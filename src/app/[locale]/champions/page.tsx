@@ -107,6 +107,30 @@ export default function ChampionsPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('All');
 
+  // Restore filter and search state from sessionStorage
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const savedFilter = sessionStorage.getItem('champions_activeFilter');
+      const savedSearch = sessionStorage.getItem('champions_searchQuery');
+      if (savedFilter) setActiveFilter(savedFilter);
+      if (savedSearch) setSearchQuery(savedSearch);
+    }
+  }, []);
+
+  const handleFilterChange = (roleId: string) => {
+    setActiveFilter(roleId);
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('champions_activeFilter', roleId);
+    }
+  };
+
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('champions_searchQuery', query);
+    }
+  };
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -235,23 +259,23 @@ export default function ChampionsPage() {
             type="text"
             placeholder={t('searchPlaceholder')}
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => handleSearchChange(e.target.value)}
             className="w-full pl-10 pr-4 py-3 bg-slate-100 border border-transparent rounded-2xl focus:border-slate-300 focus:bg-white outline-none text-slate-800 placeholder-slate-400 font-bold text-sm transition-all"
           />
         </div>
       </div>
 
-      {/* Role Filters - Horizontal Carousel */}
+      {/* Role Filters */}
       <div className="pt-4 pb-2 bg-slate-50">
-        <div className="flex overflow-x-auto snap-x snap-mandatory gap-2 px-4 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div className="flex flex-wrap justify-center gap-2 px-4">
           {roles.map(role => (
             <button
               key={role.id}
-              onClick={() => setActiveFilter(role.id)}
-              className={`flex items-center gap-2 flex-shrink-0 py-2.5 px-4 rounded-2xl font-bold text-sm transition-all snap-center ${
+              onClick={() => handleFilterChange(role.id)}
+              className={`flex items-center gap-1.5 py-1.5 px-3 rounded-xl font-bold text-xs transition-all ${
                 activeFilter === role.id
-                  ? 'bg-slate-900 text-white shadow-md scale-100'
-                  : 'bg-white text-slate-600 border border-slate-200 scale-[0.98] active:scale-95'
+                  ? 'bg-slate-900 text-white shadow-md'
+                  : 'bg-white text-slate-600 border border-slate-200 active:scale-95'
               }`}
             >
               {role.icon}
