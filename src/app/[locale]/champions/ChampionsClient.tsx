@@ -61,14 +61,22 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
     }
   };
 
+  const lanes = [
+    { id: 'All', label: 'すべて', icon: <Users size={16} /> },
+    { id: 'TOP', label: 'トップ', icon: <Target size={16} /> },
+    { id: 'JUNGLE', label: 'ジャングル', icon: <Zap size={16} /> },
+    { id: 'MID', label: 'ミッド', icon: <Sparkles size={16} /> },
+    { id: 'ADC', label: 'デュオ', icon: <Crosshair size={16} /> },
+    { id: 'SUPPORT', label: 'サポート', icon: <HeartPulse size={16} /> },
+  ];
+
   const roles = [
-    { id: 'All', label: 'All', icon: <Users size={16} /> },
-    { id: 'Fighter', label: 'Fighter', icon: <Target size={16} /> },
-    { id: 'Tank', label: 'Tank', icon: <Shield size={16} /> },
-    { id: 'Mage', label: 'Mage', icon: <Sparkles size={16} /> },
-    { id: 'Assassin', label: 'Assassin', icon: <Zap size={16} /> },
-    { id: 'Marksman', label: 'Marksman', icon: <Crosshair size={16} /> },
-    { id: 'Support', label: 'Support', icon: <HeartPulse size={16} /> },
+    { id: 'Fighter', label: 'ファイター', icon: <Target size={14} /> },
+    { id: 'Tank', label: 'タンク', icon: <Shield size={14} /> },
+    { id: 'Mage', label: 'メイジ', icon: <Sparkles size={14} /> },
+    { id: 'Assassin', label: 'アサシン', icon: <Zap size={14} /> },
+    { id: 'Marksman', label: 'マークスマン', icon: <Crosshair size={14} /> },
+    { id: 'Support', label: 'サポート', icon: <HeartPulse size={14} /> },
   ];
 
   const filteredChampions = useMemo(() => {
@@ -84,10 +92,21 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
                             cleanStr(champ.title).includes(query) ||
                             cleanStr(champ.id).includes(query) ||
                             (champ.id === 'Norra' && cleanStr('ノラ').includes(query));
-      const matchesFilter = activeFilter === 'All' || champ.tags.includes(activeFilter);
+      const matchesFilter = activeFilter === 'All' || 
+                            champ.tags.includes(activeFilter) || 
+                            stats.some(s => s.role === activeFilter) || 
+                            (stats.length === 0 && (
+                              (activeFilter === 'SUPPORT' && champ.id === 'Norra') ||
+                              (activeFilter === 'MID' && champ.id === 'Norra') ||
+                              (activeFilter === 'TOP' && champ.id === 'Skarner') ||
+                              (activeFilter === 'JUNGLE' && champ.id === 'Skarner') ||
+                              (activeFilter === 'MID' && champ.id === 'Zoe') ||
+                              (activeFilter === 'MID' && champ.id === 'Heimerdinger')
+                            ));
       return matchesSearch && matchesFilter;
-    }).sort((a, b) => a.name.localeCompare(b.name));
-    
+    });
+
+    result.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
     return result;
   }, [initialChampions, searchQuery, activeFilter, tierData]);
 
@@ -118,23 +137,48 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
         </div>
       </div>
 
-      {/* Role Filters */}
-      <div className="pt-4 pb-2 bg-slate-50">
-        <div className="flex flex-wrap justify-center gap-2 px-4">
-          {roles.map(role => (
-            <button
-              key={role.id}
-              onClick={() => handleFilterChange(role.id)}
-              className={`flex items-center gap-1.5 py-1.5 px-3 rounded-xl font-bold text-xs transition-all ${
-                activeFilter === role.id
-                  ? 'bg-slate-900 text-white shadow-md'
-                  : 'bg-white text-slate-600 border border-slate-200 active:scale-95'
-              }`}
-            >
-              {role.icon}
-              <span>{role.label}</span>
-            </button>
-          ))}
+      {/* Filters */}
+      <div className="pt-4 pb-2 bg-slate-50 px-4 space-y-4">
+        {/* レーン絞り込み */}
+        <div>
+          <div className="text-[10px] font-black text-slate-400 mb-1.5 uppercase tracking-wider pl-1">レーンで絞り込み</div>
+          <div className="flex flex-wrap gap-2">
+            {lanes.map(lane => (
+              <button
+                key={lane.id}
+                onClick={() => handleFilterChange(lane.id)}
+                className={`flex items-center gap-1.5 py-1.5 px-3 rounded-xl font-bold text-xs transition-all ${
+                  activeFilter === lane.id
+                    ? 'bg-slate-900 text-white shadow-md'
+                    : 'bg-white text-slate-600 border border-slate-200 active:scale-95'
+                }`}
+              >
+                {lane.icon}
+                <span>{lane.label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 役割絞り込み */}
+        <div>
+          <div className="text-[10px] font-black text-slate-400 mb-1.5 uppercase tracking-wider pl-1">役割で絞り込み</div>
+          <div className="flex flex-wrap gap-2">
+            {roles.map(role => (
+              <button
+                key={role.id}
+                onClick={() => handleFilterChange(role.id)}
+                className={`flex items-center gap-1.5 py-1 px-2.5 rounded-lg font-bold text-[11px] transition-all ${
+                  activeFilter === role.id
+                    ? 'bg-slate-800 text-white shadow-md'
+                    : 'bg-slate-100 text-slate-500 border border-slate-200 active:scale-95'
+                }`}
+              >
+                {role.icon}
+                <span>{role.label}</span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 

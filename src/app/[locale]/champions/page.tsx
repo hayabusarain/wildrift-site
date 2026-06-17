@@ -22,7 +22,8 @@ interface ChampionData {
   };
 }
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Champions' });
   return {
     title: `${t('title')} | Wild Rift Tactical Hub`,
@@ -37,7 +38,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default async function ChampionsPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function ChampionsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const langCode = locale === 'ja' ? 'ja_JP' : 'en_US';
   
   let ddData;
