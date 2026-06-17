@@ -116,7 +116,7 @@
       "No escape mobility",
       "Low burst damage"
     ],
-    "playstyle": "優れた射程とスロウを活かして敵を引き撃ちし、クリスタルアローでチャンスを作る。",
+    "playstyle": "ワイルドリフトではUltのクリスタルアローを撃った後に軌道を操作できるため、遠距離からでも的確にエンゲージを狙えるマークスマン。通常攻撃のスロウで敵を引き撃ちし続けます。",
     "playstyleEn": "Use your superior range and slows to kite enemies while setting up plays with Enchanted Crystal Arrow."
   },
   "Blitzcrank": {
@@ -788,7 +788,7 @@
       "Limited tools to deal damage",
       "Requires experience to time skills correctly"
     ],
-    "playstyle": "敵の強引なエンゲージを全て拒否し、味方のキャリーを死守するピーラーエンチャンター。敵の飛び込みに合わせて竜巻やアルティメットを使い、完璧に味方を守り抜きます。",
+    "playstyle": "1スキルの竜巻が2チャージ可能になり、3スキルが自動で味方にシールドを付与するようになった、防衛力の高いエンチャンター。敵のエンゲージをUltで弾き飛ばし、味方のキャリーを死守します。",
     "playstyleEn": "A peeling enchanter who rejects all enemy engages and fiercely protects allied carries. Uses tornados and her ultimate precisely in response to enemy dives to perfectly defend her team."
   },
   "KogMaw": {
@@ -852,7 +852,7 @@
     ],
     "weaknesses": [
       "射程が短くレーン戦の立ち回りが難しい",
-      "孤立した敵以外にはQのダメージが分散する",
+      "孤立した敵以外には1スキルのダメージが分散する",
       "スキル進化前はポテンシャルを発揮しきれない"
     ],
     "weaknessesEn": [
@@ -1004,7 +1004,7 @@
       "Weak early laning phase making it hard to gain prio",
       "High reliance on dagger drop locations"
     ],
-    "playstyle": "短剣を拾うことで大ダメージを発生させ、キルを獲得してスキルを連続発動させるハイリスク・ハイリターンなアサシン。集団戦で敵のCCがなくなった瞬間に飛び込めば、一瞬でペンタキルを狙えます。",
+    "playstyle": "短剣を拾うことで大ダメージを発生させるアサシン。ワイルドリフトではUlt中にゆっくりと移動できるため、敵のスキルを避けながらダメージを与え続けることが可能です。キルを獲得してスキルを連続発動しペンタキルを狙います。",
     "playstyleEn": "A high-risk, high-reward assassin who deals massive damage by picking up daggers, chaining skills through kill resets. Waiting for enemy CC to be used before diving can easily net a Pentakill."
   },
   "Karma": {
@@ -1028,7 +1028,7 @@
       "Hard CC is limited to a delayed root, lacking reliability",
       "Highly dependent on allied carries"
     ],
-    "playstyle": "マントラを使って状況に応じたスキル強化を行い、攻守両面で味方を支えるエンチャンターメイジ。レーン戦では強化Qでダメージを与え、集団戦では強化Eで味方全体を守る柔軟な立ち回りが求められます。",
+    "playstyle": "パッシブスキルでスタックを溜めることで、次の通常スキルを強化できるメイジ/エンチャンター。Ultの「トランセンデンス」による強力な範囲引き寄せで、集団戦の形を一気に作り出すことができます。",
     "playstyleEn": "An enchanter mage who uses Mantra to empower abilities adaptively, supporting the team in both offense and defense. Uses empowered Q for lane poke and empowered E for team-wide shields in fights."
   },
   "KSante": {
@@ -1148,7 +1148,7 @@
       "Falls off in scaling as the game goes late",
       "Useless if his Q skillshot is missed"
     ],
-    "playstyle": "序盤から積極的にアクションを起こし、試合の主導権を握るアグレッシブなジャングラー。高い機動力を活かして敵陣の裏に回り込み、敵の重要なチャンピオンを味方の前に蹴り飛ばすプレイが代名詞です。",
+    "playstyle": "序盤から積極的にアクションを起こし、試合の主導権を握るアグレッシブなジャングラー。ワイルドリフトでは2スキルが自由な方向にダッシュできるため、極めて高い機動力を誇ります。敵陣の裏に回り込み、Ultで敵のキャリーを味方の前に蹴り飛ばすプレイが強力です。",
     "playstyleEn": "An aggressive jungler who makes proactive plays early to take control of the game. Famous for using high mobility to flank and kick crucial enemy champions into his team (the Insec)."
   },
   "Lux": {
@@ -1172,7 +1172,7 @@
       "Defenseless while skills are on cooldown",
       "All abilities are skillshots and can be missed"
     ],
-    "playstyle": "遠距離から光の魔法で敵を拘束し、高火力のアルティメットで一掃するアーティラリーメイジ。安全な距離を保ちつつ、スネアからのフルコンボで敵のキャリーを瞬殺します。",
+    "playstyle": "1スキルがミニオンを貫通し、3スキルが敵の範囲内で即座に爆発するようになったことで、非常に扱いやすくなったメイジ。安全な距離を保ちつつ、スネアからのフルコンボで敵を瞬殺します。",
     "playstyleEn": "An artillery mage who binds enemies from afar with light magic and obliterates them with a high-damage ultimate. Maintains a safe distance to burst down enemy carries with a full combo from her root."
   },
   "Lissandra": {
@@ -1202,7 +1202,7 @@
   "Leona": {
     "strengths": [
       "全スキルがCCに絡む究極のロックダウン能力",
-      "Wによる非常に高い基礎耐久力",
+      "2スキルによる非常に高い基礎耐久力",
       "アルティメットによる長距離エンゲージ"
     ],
     "strengthsEn": [
@@ -1264,7 +1264,7 @@
       "Lacks mobility skills, making her vulnerable to ganks",
       "Vulnerable to ultimate interruption or dodging"
     ],
-    "playstyle": "レーン戦ではQのバウンドを利用してハラスを行い、優位に立ちます。集団戦では安全な位置からアルティメットを放ち、敵チーム全体に大ダメージを与えることが目標となります。",
+    "playstyle": "レーン戦では1スキルのバウンドを利用してハラスを行い、優位に立ちます。集団戦では安全な位置からアルティメットを放ち、敵チーム全体に大ダメージを与えることが目標となります。",
     "playstyleEn": "Harass opponents in the laning phase using the bounce of your Q to gain an advantage. In team fights, aim to unleash your ultimate from a safe distance to deal massive damage to the entire enemy team."
   },
   "MasterYi": {
@@ -1310,7 +1310,7 @@
   "Morgana": {
     "strengths": [
       "ブラックシールドによる強力なCC無効化",
-      "Qの長時間のスネアによるキャッチ能力"
+      "1スキルの長時間のスネアによるキャッチ能力"
     ],
     "strengthsEn": [
       "Powerful CC immunity provided by Black Shield",
@@ -1324,7 +1324,7 @@
       "Long ability cooldowns make missing skillshots risky",
       "Low mobility makes her vulnerable to assassins"
     ],
-    "playstyle": "レーンではWでウェーブを押しつつ、Qで敵を牽制します。味方のキャリーにシールドを付与して守るか、Qとアルティメットを使って敵陣の動きを制限するコントロールメイジとして立ち回ります。",
+    "playstyle": "レーンでは2スキルでウェーブを押しつつ、1スキルで敵を牽制します。味方のキャリーにシールドを付与して守るか、1スキルとアルティメットを使って敵陣の動きを制限するコントロールメイジとして立ち回ります。",
     "playstyleEn": "Push waves with W while poking enemies with Q in lane. Play as a control mage by protecting your allied carries with shields or restricting enemy movements using your Q and ultimate."
   },
   "Malphite": {
@@ -1424,13 +1424,13 @@
       "Low mobility makes it hard to close the gap",
       "Skill animations are telegraphed and easy to dodge"
     ],
-    "playstyle": "レーンではQを使ってプレッシャーをかけ、パッシブを発動させて殴り勝ちます。集団戦では敵の最も厄介なキャリーをアルティメットで異空間に連れ去り、戦場から排除してチームを有利に導きます。",
+    "playstyle": "レーンでは1スキルを使ってプレッシャーをかけ、パッシブを発動させて殴り勝ちます。集団戦では敵の最も厄介なキャリーをアルティメットで異空間に連れ去り、戦場から排除してチームを有利に導きます。",
     "playstyleEn": "Apply pressure in lane using Q and win trades by activating your passive. In team fights, use your ultimate to banish the most troublesome enemy carry to the Death Realm, eliminating them from the main fight to give your team an advantage."
   },
   "Nunu": {
     "strengths": [
       "雪玉を使った非常に強力で素早いガンク",
-      "Qによる高いオブジェクト確保能力とサステイン"
+      "1スキルによる高いオブジェクト確保能力とサステイン"
     ],
     "strengthsEn": [
       "Extremely powerful and fast ganks using giant snowball",
@@ -1444,7 +1444,7 @@
       "Poor late-game scaling results in a drop in damage output",
       "Ultimate is easily interrupted by hard CC"
     ],
-    "playstyle": "序盤から雪玉を転がして各レーンにプレッシャーをかけ続け、スノーボールを狙います。オブジェクト戦ではQとスマイトを組み合わせて確実に確保し、集団戦では前衛として敵の妨害に努めます。",
+    "playstyle": "序盤から雪玉を転がして各レーンにプレッシャーをかけ続け、スノーボールを狙います。オブジェクト戦では1スキルとスマイトを組み合わせて確実に確保し、集団戦では前衛として敵の妨害に努めます。",
     "playstyleEn": "Continuously roll snowballs from the early game to apply pressure on all lanes and start snowballing. Combine Q and Smite to reliably secure objectives, and act as a frontline disruptor in team fights."
   },
   "Nocturne": {
@@ -1529,8 +1529,8 @@
   },
   "Nasus": {
     "strengths": [
-      "Qのスタックを貯めることで得られる無限のダメージスケーリング",
-      "Wによる敵キャリーへの強烈なスローと攻撃速度低下"
+      "1スキルのスタックを貯めることで得られる無限のダメージスケーリング",
+      "2スキルによる敵キャリーへの強烈なスローと攻撃速度低下"
     ],
     "strengthsEn": [
       "Infinite damage scaling by stacking his Q",
@@ -1544,12 +1544,12 @@
       "Extremely weak early game, vulnerable to enemy poke",
       "Prone to being kited and struggles to close gaps against mobile enemies"
     ],
-    "playstyle": "序盤はひたすらミニオンのラストヒットをQで取り、スタックを貯めることに専念します。中盤以降は強力なスプリットプッシャーとして塔を破壊し、集団戦ではアルティメットを使って敵の前衛を粉砕します。",
+    "playstyle": "序盤はひたすらミニオンのラストヒットを1スキルで取り、スタックを貯めることに専念します。中盤以降は強力なスプリットプッシャーとして塔を破壊し、集団戦ではアルティメットを使って敵の前衛を粉砕します。",
     "playstyleEn": "Focus solely on last-hitting minions with Q in the early game to build stacks. In the mid-to-late game, become a powerful split-pusher to destroy turrets, and use your ultimate to crush the enemy frontline in team fights."
   },
   "Nami": {
     "strengths": [
-      "回復とダメージを同時にこなすWの汎用性の高さ",
+      "回復とダメージを同時にこなす2スキルの汎用性の高さ",
       "アルティメットによる広範囲の強力なエンゲージ/ディスエンゲージ能力"
     ],
     "strengthsEn": [
@@ -1557,14 +1557,14 @@
       "Powerful wide-area engage/disengage capability with her ultimate"
     ],
     "weaknesses": [
-      "Qの弾速が遅く、当てるのが難しい",
+      "1スキルの弾速が遅く、当てるのが難しい",
       "非常に打たれ弱く、アサシンのバーストダメージに弱い"
     ],
     "weaknessesEn": [
       "Q projectile is slow and difficult to land",
       "Extremely squishy and vulnerable to assassin burst damage"
     ],
-    "playstyle": "レーン戦ではWを使って有利なダメージトレードを行い、Eで味方の攻撃を強化します。集団戦では後方に位置し、アルティメットで敵の陣形を崩しつつ、味方のサポートとCCの付与に徹底します。",
+    "playstyle": "レーン戦では2スキルを使って有利なダメージトレードを行い、3スキルで味方の攻撃を強化します。集団戦では後方に位置し、アルティメットで敵の陣形を崩しつつ、味方のサポートとCCの付与に徹底します。",
     "playstyleEn": "Use W for advantageous damage trades in lane and buff allied attacks with E. Position in the backline during team fights, using your ultimate to disrupt enemy formations while fully committing to supporting allies and applying CC."
   },
   "Olaf": {
@@ -1638,7 +1638,7 @@
     ],
     "weaknesses": [
       "試合が長引くほど火力が落ち、スケールしない",
-      "Eの盾の向きを間違えると簡単に倒されてしまう"
+      "3スキルの盾の向きを間違えると簡単に倒されてしまう"
     ],
     "weaknessesEn": [
       "Falls off in damage and scaling as the game drags on",
@@ -1669,8 +1669,8 @@
   },
   "Poppy": {
     "strengths": [
-      "敵のダッシュスキルを止めるWによる強力なアンチイニシエート能力",
-      "壁ドン（E）による確実で長時間のスタン"
+      "敵のダッシュスキルを止める2スキルによる強力なアンチイニシエート能力",
+      "壁ドン（3スキル）による確実で長時間のスタン"
     ],
     "strengthsEn": [
       "Strong anti-initiate capability with W blocking enemy dashes",
@@ -1684,13 +1684,13 @@
       "Lacks reliable CC if she can't pin enemies to a wall",
       "Ultimate is difficult to use perfectly and can accidentally save enemies"
     ],
-    "playstyle": "敵の位置を常に把握し、Eを使って壁に押し当ててキルを狙います。集団戦では敵のアサシンやファイターの突進をWで防ぎ、アルティメットで厄介な敵を彼方に吹き飛ばして数的不利を作り出します。",
+    "playstyle": "敵の位置を常に把握し、3スキルを使って壁に押し当ててキルを狙います。集団戦では敵のアサシンやファイターの突進を2スキルで防ぎ、アルティメットで厄介な敵を彼方に吹き飛ばして数的不利を作り出します。",
     "playstyleEn": "Constantly monitor enemy positioning to secure wall stuns with E for kills. In team fights, block assassin or bruiser dashes with W, and use your ultimate to knock away troublesome enemies to create a numbers advantage."
   },
   "Rammus": {
     "strengths": [
       "物理攻撃主体の構成に対する圧倒的なカウンター能力",
-      "Qの高速移動による回避困難なガンク"
+      "1スキルの高速移動による回避困難なガンク"
     ],
     "strengthsEn": [
       "Overwhelming counter to physical damage-heavy team comps",
@@ -1704,7 +1704,7 @@
       "Vulnerable to magic damage-heavy or high-CC comps",
       "Relatively slow jungle clear speed"
     ],
-    "playstyle": "Qで高速移動して敵の懐に飛び込み、Eのタウントで敵のキャリーを強制的に攻撃させ、反射ダメージで倒します。AD主体の敵に対しては不沈艦として立ち回り、味方の盾となります。",
+    "playstyle": "1スキルで高速移動して敵の懐に飛び込み、3スキルのタウントで敵のキャリーを強制的に攻撃させ、反射ダメージで倒します。AD主体の敵に対しては不沈艦として立ち回り、味方の盾となります。",
     "playstyleEn": "Use Q's high speed to roll into enemies, then use E's taunt to force enemy carries to attack you and die from reflected damage. Act as an unsinkable shield for your team against AD-heavy lineups."
   },
   "Rengar": {
@@ -1757,20 +1757,20 @@
       "Passive steals armor and magic resist to buff herself"
     ],
     "weaknesses": [
-      "Wを使用した後は移動速度が極端に遅くなる",
+      "2スキルを使用した後は移動速度が極端に遅くなる",
       "味方のフォローがないとダメージを出せない"
     ],
     "weaknessesEn": [
       "Movement speed becomes extremely slow after using W",
       "Cannot deal meaningful damage without allied follow-up"
     ],
-    "playstyle": "レーン戦では敵の隙を突いてWで飛び込み、味方と合わせてキルを狙います。集団戦ではフラッシュやWを絡めて敵陣のど真ん中に突入し、アルティメットで敵を一箇所に集めて味方の範囲攻撃をサポートします。",
+    "playstyle": "レーン戦では敵の隙を突いて2スキルで飛び込み、味方と合わせてキルを狙います。集団戦ではフラッシュや2スキルを絡めて敵陣のど真ん中に突入し、アルティメットで敵を一箇所に集めて味方の範囲攻撃をサポートします。",
     "playstyleEn": "Look for openings in lane to crash down with W and secure kills with your ally. In team fights, dive straight into the enemy formation using Flash and W, then use your ultimate to group them up for allied AoE attacks."
   },
   "Rakan": {
     "strengths": [
       "全サポート中トップクラスの機動力とエンゲージ能力",
-      "Wとアルティメットを組み合わせた回避困難な広範囲CC"
+      "2スキルとアルティメットを組み合わせた回避困難な広範囲CC"
     ],
     "strengthsEn": [
       "Top-tier mobility and engage potential among all supports",
@@ -1824,7 +1824,7 @@
       "Damage falls off and he loses momentum in the late game",
       "Short range makes it difficult to close gaps against poke comps"
     ],
-    "playstyle": "フューリーを管理しながらEで接近し、強化Wでスタンさせてダメージを与えた後、再びEで離脱するトレードを行います。序盤で有利を作り、スノーボールしてゲームを早期に終わらせるよう立ち回ります。",
+    "playstyle": "フューリーを管理しながら3スキルで接近し、強化2スキルでスタンさせてダメージを与えた後、再び3スキルで離脱するトレードを行います。序盤で有利を作り、スノーボールしてゲームを早期に終わらせるよう立ち回ります。",
     "playstyleEn": "Manage Fury to dash in with E, apply a stun with an empowered W for burst damage, and dash out. Capitalize on your early strength to snowball and close out the game quickly."
   },
   "Riven": {
@@ -1844,7 +1844,7 @@
       "Extremely high mechanical execution required to unlock full potential",
       "Vulnerable to hard CC; very squishy if locked down"
     ],
-    "playstyle": "Qと通常攻撃を織り交ぜたコンボでレーンを圧倒し、機動力を活かしてマップ全体にプレッシャーをかけます。集団戦ではフラッシュとスキルを組み合わせて敵のバックラインに急襲し、一瞬でキャリーを粉砕します。",
+    "playstyle": "1スキルと通常攻撃を織り交ぜたコンボでレーンを圧倒し、機動力を活かしてマップ全体にプレッシャーをかけます。集団戦ではフラッシュとスキルを組み合わせて敵のバックラインに急襲し、一瞬でキャリーを粉砕します。",
     "playstyleEn": "Dominate the lane with combos weaving Q and basic attacks, using your mobility to pressure the entire map. In team fights, combine Flash with your skills to dive the backline and instantly crush their carries."
   },
   "Smolder": {
@@ -1898,7 +1898,7 @@
   "Vayne": {
     "strengths": [
       "確定ダメージによるタンクキル能力",
-      "アルティメットとQを使った高いデュエル性能",
+      "アルティメットと1スキルを使った高いデュエル性能",
       "圧倒的なレイトゲームのキャリー力"
     ],
     "strengthsEn": [
@@ -1940,7 +1940,7 @@
       "Heavily reliant on skillshot accuracy",
       "Weak in close-quarters combat"
     ],
-    "playstyle": "長距離からQでダメージを与え続け、敵の体力を削ります。集団戦ではアルティメットで敵を捕らえ、味方と連携して一気にキルを狙うプレイスタイルが強力です。",
+    "playstyle": "長距離から1スキルでダメージを与え続け、敵の体力を削ります。集団戦ではアルティメットで敵を捕らえ、味方と連携して一気にキルを狙うプレイスタイルが強力です。",
     "playstyleEn": "Constantly poke with Q from a distance to whittle down enemy health. In teamfights, use your ultimate to lock down enemies and coordinate with your team for quick kills."
   },
   "Sivir": {
@@ -1964,7 +1964,7 @@
       "High mana consumption in the early game",
       "Low single-target burst damage"
     ],
-    "playstyle": "WとQを使って素早くミニオンを処理し、レーンの主導権を握ります。集団戦ではアルティメットで味方のエンゲージや撤退をサポートし、跳弾で敵全体にダメージをばら撒きます。",
+    "playstyle": "2スキルと1スキルを使って素早くミニオンを処理し、レーンの主導権を握ります。集団戦ではアルティメットで味方のエンゲージや撤退をサポートし、跳弾で敵全体にダメージをばら撒きます。",
     "playstyleEn": "Use W and Q to quickly clear minions and gain lane priority. In teamfights, use your ultimate to facilitate team engages or disengages, and spread damage to all enemies with ricocheting blades."
   },
   "Zeri": {
@@ -2018,7 +2018,7 @@
   "Samira": {
     "strengths": [
       "条件を満たした時の圧倒的なAoEバースト",
-      "飛び道具をかき消すWの防御性能",
+      "飛び道具をかき消す2スキルの防御性能",
       "キルによるダッシュの連続使用"
     ],
     "strengthsEn": [
@@ -2052,7 +2052,7 @@
     ],
     "weaknesses": [
       "序盤の射程が短くレーン戦が不安定",
-      "Eのパッシブでウェーブコントロールが難しい",
+      "3スキルのパッシブでウェーブコントロールが難しい",
       "中盤にダメージが落ち込む時間帯がある"
     ],
     "weaknessesEn": [
@@ -2076,7 +2076,7 @@
     ],
     "weaknesses": [
       "スキルショットの難易度が高い",
-      "加工された岩の上ではQの性能が落ちる",
+      "加工された岩の上では1スキルの性能が落ちる",
       "アサシンなどの接近戦に弱い"
     ],
     "weaknessesEn": [
@@ -2084,7 +2084,7 @@
       "Q effectiveness drops on Worked Ground",
       "Vulnerable to assassins and close combat"
     ],
-    "playstyle": "素早いウェーブクリアから他レーンへのロームを行い、マップ全体に影響を与えます。集団戦ではWとEのコンボで敵をキャッチし、アルティメットで敵の退路や分断を狙います。",
+    "playstyle": "素早いウェーブクリアから他レーンへのロームを行い、マップ全体に影響を与えます。集団戦では2スキルと3スキルのコンボで敵をキャッチし、アルティメットで敵の退路や分断を狙います。",
     "playstyleEn": "Quickly clear waves and roam to other lanes to impact the entire map. In teamfights, catch enemies with the W-E combo and use your ultimate to cut off escape routes or divide the enemy team."
   },
   "Warwick": {
@@ -2108,7 +2108,7 @@
       "Threat level halves if ultimate misses",
       "Influence tends to fall off in the mid-to-late game"
     ],
-    "playstyle": "血の匂い(W)を活かして孤立した敵や体力の低い敵を追い詰め、序盤から積極的にガンクを行います。デュエル性能の高さを活かしてジャングル内での小規模戦を支配します。",
+    "playstyle": "血の匂い(2スキル)を活かして孤立した敵や体力の低い敵を追い詰め、序盤から積極的にガンクを行います。デュエル性能の高さを活かしてジャングル内での小規模戦を支配します。",
     "playstyleEn": "Utilize Blood Hunt (W) to track isolated or low-health enemies and execute aggressive early ganks. Leverage high dueling potential to dominate early skirmishes in the jungle."
   },
   "Vi": {
@@ -2124,7 +2124,7 @@
     ],
     "weaknesses": [
       "一度飛び込むと逃げ道がない",
-      "Qを外すとダメージと機動力が大幅に落ちる",
+      "1スキルを外すとダメージと機動力が大幅に落ちる",
       "CCチェインに弱い"
     ],
     "weaknessesEn": [
@@ -2132,7 +2132,7 @@
       "Missing Q significantly lowers damage and mobility",
       "Vulnerable to CC chains"
     ],
-    "playstyle": "Qとアルティメットを使って敵の最重要ターゲット(ADCなど)を確実に拘束・排除するダイバーです。味方のアサシンやバーストメイジと合わせて敵のキャリーを瞬殺するプレイが強力です。",
+    "playstyle": "1スキルとアルティメットを使って敵の最重要ターゲット(ADCなど)を確実に拘束・排除するダイバーです。味方のアサシンやバーストメイジと合わせて敵のキャリーを瞬殺するプレイが強力です。",
     "playstyleEn": "Act as a diver using Q and ultimate to strictly lock down and eliminate high-priority targets (like ADCs). Coordinating with allied assassins or burst mages to instantly delete enemy carries is highly effective."
   },
   "Shyvana": {
@@ -2258,7 +2258,7 @@
   "Yone": {
     "strengths": [
       "物理・魔法のハイブリッドダメージ",
-      "Eを使った安全な位置からのハラスと暗殺",
+      "3スキルを使った安全な位置からのハラスと暗殺",
       "アルティメットによる強力なAoEエンゲージ"
     ],
     "strengthsEn": [
@@ -2269,14 +2269,14 @@
     "weaknesses": [
       "序盤のレーン戦が弱い",
       "CCチェインに弱くバーストで落とされやすい",
-      "Qのスタック管理が必要"
+      "1スキルのスタック管理が必要"
     ],
     "weaknessesEn": [
       "Weak early laning phase",
       "Vulnerable to CC chains and easily burst down",
       "Requires Q stack management"
     ],
-    "playstyle": "序盤は慎重にファームし、アイテムが揃うのを待ちます。集団戦ではEで前進し、Q3とアルティメットを組み合わせて敵のバックラインを壊滅させる強力なアサシン/ファイターです。",
+    "playstyle": "序盤は慎重にファームし、アイテムが揃うのを待ちます。集団戦では3スキルで前進し、1スキル3とアルティメットを組み合わせて敵のバックラインを壊滅させる強力なアサシン/ファイターです。",
     "playstyleEn": "Farm carefully early on until reaching item spikes. In teamfights, act as a powerful assassin/fighter by engaging with E, combining Q3 and ultimate to obliterate the enemy backline."
   },
   "Zed": {
@@ -2306,7 +2306,7 @@
   "Volibear": {
     "strengths": [
       "タワーの攻撃を無効化するアルティメット",
-      "パッシブとWによる高いサステインと継続火力",
+      "パッシブと2スキルによる高いサステインと継続火力",
       "序盤の小規模戦での圧倒的な強さ"
     ],
     "strengthsEn": [
@@ -2324,7 +2324,7 @@
       "Engage pattern is predictable and linear",
       "Falls off in scaling during the late game"
     ],
-    "playstyle": "Qの移動速度アップで強引に接近し、Wで回復しながら殴り合います。アルティメットを使った強引なタワーダイブが得意で、スノーボールの起点を作りやすいです。",
+    "playstyle": "1スキルの移動速度アップで強引に接近し、2スキルで回復しながら殴り合います。アルティメットを使った強引なタワーダイブが得意で、スノーボールの起点を作りやすいです。",
     "playstyleEn": "Force engagements using Q's movement speed and brawl while healing with W. Excels at aggressive tower dives using ultimate, easily creating snowball opportunities for the team."
   },
   "Skarner": {
@@ -2426,7 +2426,7 @@
   "Swain": {
     "strengths": [
       "アルティメット中の圧倒的な回復力と耐久力",
-      "Eによるキャッチ能力",
+      "3スキルによるキャッチ能力",
       "集団戦での継続的なAoEダメージ"
     ],
     "strengthsEn": [
@@ -2450,7 +2450,7 @@
   "Teemo": {
     "strengths": [
       "キノコ(アルティメット)によるマップコントロール",
-      "Qのブラインドによる通常攻撃アタッカーへのカウンター",
+      "1スキルのブラインドによる通常攻撃アタッカーへのカウンター",
       "ステルスからの奇襲"
     ],
     "strengthsEn": [
@@ -2474,7 +2474,7 @@
   "Veigar": {
     "strengths": [
       "パッシブによる無限のAPスケーリング",
-      "Eのケージによる強力な範囲スタン・ゾーニング",
+      "3スキルのケージによる強力な範囲スタン・ゾーニング",
       "ワンコンボで敵を消し去るアルティメット"
     ],
     "strengthsEn": [
@@ -2485,14 +2485,14 @@
     "weaknesses": [
       "序盤が非常に弱くマナがきつい",
       "機動力が皆無",
-      "Eがクールダウン中の無防備さ"
+      "3スキルがクールダウン中の無防備さ"
     ],
     "weaknessesEn": [
       "Very weak early game with mana issues",
       "Complete lack of mobility",
       "Extremely defenseless while E is on cooldown"
     ],
-    "playstyle": "序盤はひたすらQでミニオンを倒し、魔力を無限にスタックさせます。ゲーム後半にはスキル一つで敵のキャリーの体力を半分以上削り取る、脅威のバーストメイジになります。",
+    "playstyle": "序盤はひたすら1スキルでミニオンを倒し、魔力を無限にスタックさせます。ゲーム後半にはスキル一つで敵のキャリーの体力を半分以上削り取る、脅威のバーストメイジになります。",
     "playstyleEn": "Focus purely on executing minions with Q in the early game to infinitely stack Ability Power. By late game, become a terrifying burst mage capable of halving an enemy carry's health with a single spell."
   },
   "Ziggs": {
@@ -2509,20 +2509,20 @@
     "weaknesses": [
       "スキルショットへの依存度が高い",
       "アサシンに接近されると脆い",
-      "W以外の逃げスキルがない"
+      "2スキル以外の逃げスキルがない"
     ],
     "weaknessesEn": [
       "High reliance on landing skillshots",
       "Squishy and vulnerable to assassins in close quarters",
       "No escape tool other than W"
     ],
-    "playstyle": "長い射程を活かして敵をポークし、ウェーブを押し込みます。パッシブとWを利用してタワーを瞬時に破壊し、オブジェクトの有利をチームにもたらすシージ(攻城)特化メイジです。",
+    "playstyle": "長い射程を活かして敵をポークし、ウェーブを押し込みます。パッシブと2スキルを利用してタワーを瞬時に破壊し、オブジェクトの有利をチームにもたらすシージ(攻城)特化メイジです。",
     "playstyleEn": "Use long range to poke enemies and push waves. A siege-specialized mage who leverages passive and W to instantly demolish towers and secure objective advantages for the team."
   },
   "Syndra": {
     "strengths": [
       "単体への絶対的なバーストダメージ",
-      "Eによる長射程の範囲スタン",
+      "3スキルによる長射程の範囲スタン",
       "動きながらスキルを撃てる"
     ],
     "strengthsEn": [
@@ -2540,13 +2540,13 @@
       "Sphere management and positioning is difficult",
       "Struggles against heavily armored tanks"
     ],
-    "playstyle": "レーン戦では球体を配置してハラスを行い、Eでスタンを狙います。集団戦では敵の柔らかいキャリーにアルティメットを叩き込み、一撃で排除するプレイが求められます。",
+    "playstyle": "レーン戦では球体を配置してハラスを行い、3スキルでスタンを狙います。集団戦では敵の柔らかいキャリーにアルティメットを叩き込み、一撃で排除するプレイが求められます。",
     "playstyleEn": "Harass in lane by placing spheres and look for stun opportunities with E. In teamfights, the goal is to unleash your ultimate on an enemy squishy carry to instantly eliminate them."
   },
   "Yasuo": {
     "strengths": [
       "ミニオンを利用した圧倒的な機動力",
-      "W(風の壁)による飛び道具の完全無効化",
+      "2スキル(風の壁)による飛び道具の完全無効化",
       "条件付きだが強力なAoEノックアップとアーマー貫通"
     ],
     "strengthsEn": [
@@ -2570,7 +2570,7 @@
   "Velkoz": {
     "strengths": [
       "パッシブによる確定ダメージ",
-      "幾何学的な軌道を描くQによるハラス",
+      "幾何学的な軌道を描く1スキルによるハラス",
       "アルティメットの強烈なレーザー範囲ダメージ"
     ],
     "strengthsEn": [
@@ -2588,7 +2588,7 @@
       "All abilities are skillshots",
       "Immobile and vulnerable while channeling ultimate"
     ],
-    "playstyle": "Qの分裂を利用して安全な位置から敵にスタックを付与します。スタックが溜まった対象にアルティメットを照射し、確定ダメージで前衛後衛問わず溶かし尽くします。",
+    "playstyle": "1スキルの分裂を利用して安全な位置から敵にスタックを付与します。スタックが溜まった対象にアルティメットを照射し、確定ダメージで前衛後衛問わず溶かし尽くします。",
     "playstyleEn": "Use Q's split geometry to safely apply stacks to enemies. Unleash your ultimate on stacked targets to melt through both frontline and backline with true damage."
   },
   "Vex": {
@@ -2612,13 +2612,13 @@
       "Low sustained damage",
       "Defenseless when passive fear is down"
     ],
-    "playstyle": "パッシブのフィアーを構え、アサシンの接近を防ぎます。キルチャンスがあればアルティメットで遠距離から敵陣の中央に飛び込み、Wで周囲の敵全員を恐怖状態にしてバーストを与えます。",
+    "playstyle": "パッシブのフィアーを構え、アサシンの接近を防ぎます。キルチャンスがあればアルティメットで遠距離から敵陣の中央に飛び込み、2スキルで周囲の敵全員を恐怖状態にしてバーストを与えます。",
     "playstyleEn": "Hold onto your passive fear to deter assassin engages. When a kill window opens, dive from afar with your ultimate into the center of the enemy team and use W to fear and burst everyone around you."
   },
   "Vladimir": {
     "strengths": [
-      "マナレスでQによる無限のサステイン",
-      "Wの対象指定不可による高い生存能力",
+      "マナレスで1スキルによる無限のサステイン",
+      "2スキルの対象指定不可による高い生存能力",
       "終盤の圧倒的なAoEバーストダメージ"
     ],
     "strengthsEn": [
@@ -2643,7 +2643,7 @@
     "strengths": [
       "アルティメットによる味方の蘇生",
       "圧倒的な移動速度バフ/デバフ",
-      "Qの二連発によるAoEスタン"
+      "1スキルの二連発によるAoEスタン"
     ],
     "strengthsEn": [
       "Revives allies with ultimate",
@@ -2651,7 +2651,7 @@
       "AoE stun by landing double Q"
     ],
     "weaknesses": [
-      "ダメージスキルがQしかない",
+      "ダメージスキルが1スキルしかない",
       "序盤のマナ消費が激しい",
       "味方への依存度が高い"
     ],
@@ -2660,12 +2660,12 @@
       "High mana consumption early game",
       "Highly team-dependent"
     ],
-    "playstyle": "味方のキャリーに移動速度上昇を付与してカイトを支援し、倒されそうなタイミングでアルティメットを使って蘇生させます。爆弾(Q)を使ったスタンで集団戦のゾーニングも行います。",
+    "playstyle": "味方のキャリーに移動速度上昇を付与してカイトを支援し、倒されそうなタイミングでアルティメットを使って蘇生させます。爆弾(1スキル)を使ったスタンで集団戦のゾーニングも行います。",
     "playstyleEn": "Buff allied carries with movement speed to help them kite, and cast your ultimate to revive them right before they die. Zone enemies in teamfights by stunning them with double bombs (Q)."
   },
   "Sett": {
     "strengths": [
-      "受けたダメージを確定ダメージに変換するW",
+      "受けたダメージを確定ダメージに変換する2スキル",
       "パッシブによる高い体力自動回復",
       "敵タンクを武器にする強力なエンゲージアルティメット"
     ],
@@ -2676,7 +2676,7 @@
     ],
     "weaknesses": [
       "接近手段が乏しくカイトに弱い",
-      "Wを外すと耐久力とダメージが激減する",
+      "2スキルを外すと耐久力とダメージが激減する",
       "機動力が低い"
     ],
     "weaknessesEn": [
@@ -2684,14 +2684,14 @@
       "Missing W severely drops durability and damage",
       "Low overall mobility"
     ],
-    "playstyle": "強引に前線に出て敵のダメージを吸収し、溜まった闘志をWの確定ダメージと巨大なシールドに変換してカウンターを狙います。集団戦では敵のフロントラインを掴んで敵陣の奥へ叩きつけます。",
+    "playstyle": "強引に前線に出て敵のダメージを吸収し、溜まった闘志を2スキルの確定ダメージと巨大なシールドに変換してカウンターを狙います。集団戦では敵のフロントラインを掴んで敵陣の奥へ叩きつけます。",
     "playstyleEn": "Force your way to the frontline to absorb damage, then convert built-up Grit into massive true damage and a huge shield with W to counterattack. In teamfights, grab the enemy tank and slam them into their backline."
   },
   "Soraka": {
     "strengths": [
-      "Wによる圧倒的な単体回復能力",
+      "2スキルによる圧倒的な単体回復能力",
       "アルティメットによるグローバルヒール",
-      "Eのサイレンスとスネアによる強力な妨害"
+      "3スキルのサイレンスとスネアによる強力な妨害"
     ],
     "strengthsEn": [
       "Overwhelming single-target healing with W",
@@ -2708,7 +2708,7 @@
       "Lacks mobility and dies quickly when focused",
       "Easily countered by anti-heal items"
     ],
-    "playstyle": "Qを敵に当てて自身の体力を回復し、その体力を使って味方を回復し続ける「歩く泉」です。集団戦では敵のアサシンから逃げつつ、Eのサイレンスで敵のスキルコンボを封じます。",
+    "playstyle": "回復に自身の体力を消費しなくなったため、マナがある限り味方を回復し続けられる最強のヒーラー。集団戦では敵のアサシンから逃げつつ、3スキルのサイレンスで敵の致命的なコンボを封じます。",
     "playstyleEn": "Act as a 'walking fountain' by landing Qs to heal yourself and using that health to constantly heal allies. In teamfights, stay away from assassins while disrupting enemy combos using E's silence."
   },
   "Sona": {
@@ -2732,7 +2732,7 @@
       "High mana consumption",
       "Ultimate is her only hard crowd control"
     ],
-    "playstyle": "序盤は死なないように立ち回り、スタックとアイテムを揃えます。試合が長引くほどスキルのクールダウンが短縮され、回復・シールド・移動速度上昇を途切れなくばら撒く最強のエンチャンターになります。",
+    "playstyle": "パッシブで敵にスタンを与えられるようになり、攻撃的にも動けるようになったエンチャンター。試合が長引くほどスキルのクールダウンが短縮され、オーラを途切れなくばら撒く最強のサポーターになります。",
     "playstyleEn": "Play to survive the early game while accumulating stacks and items. As the game goes on, reduced cooldowns allow you to endlessly spam heals, shields, and speed buffs, becoming the ultimate enchanter."
   },
   "Senna": {
@@ -2804,7 +2804,7 @@
       "Base armor does not grow naturally (relies on passive)",
       "Vulnerable to being poked out by mages"
     ],
-    "playstyle": "Qのフックで交戦の起点を作り、Eで敵の接近を弾き飛ばすなど、あらゆる状況に対応できるプレイメーカーです。ランタンの位置次第で味方の命を救うことも、キルを生み出すことも可能です。",
+    "playstyle": "1スキルのフックで交戦の起点を作り、3スキルで敵の接近を弾き飛ばすなど、あらゆる状況に対応できるプレイメーカーです。ランタンの位置次第で味方の命を救うことも、キルを生み出すことも可能です。",
     "playstyleEn": "A supreme playmaker who can initiate fights with Q hooks and peel dives with E. Depending on lantern placement, you can single-handedly save an ally's life or set up a guaranteed kill."
   },
   "Yuumi": {
@@ -2833,7 +2833,7 @@
   },
   "Sion": {
     "strengths": [
-      "Wのパッシブによる無限の体力スケール",
+      "2スキルのパッシブによる無限の体力スケール",
       "倒されても一時的に復活するゾンビパッシブ",
       "アルティメットによる超長距離からの強引なエンゲージ"
     ],
@@ -2852,13 +2852,13 @@
       "Vulnerable to percentage health damage and penetration",
       "Low mobility leads to easy kiting"
     ],
-    "playstyle": "レーン戦ではQのチャージで圧力をかけつつ、ファームして最大体力を増やします。集団戦ではアルティメットで敵陣に突っ込み、巨大な盾となってダメージを吸収しつつ場を荒らします。",
+    "playstyle": "ワイルドリフトではUltの旋回性能が高く、長い距離を曲がりながら突進できるため奇襲が強力です。レーン戦では1スキルのチャージで圧力をかけ、集団戦では巨大な盾となって敵陣を荒らします。",
     "playstyleEn": "Apply pressure in lane with charged Qs while farming to build max health. In teamfights, charge in with your ultimate to disrupt the enemy backline and act as a massive meat shield."
   },
   "Singed": {
     "strengths": [
       "毒を撒き散らしながら逃げる独特のダメージディール",
-      "敵の背後に投げ飛ばすフリップ(E)によるキャッチ",
+      "敵の背後に投げ飛ばすフリップ(3スキル)によるキャッチ",
       "プロキシファームによるレーンの圧力"
     ],
     "strengthsEn": [
@@ -2882,8 +2882,8 @@
   "Shen": {
     "strengths": [
       "アルティメットによる味方へのグローバルシールドとテレポート",
-      "Wによる通常攻撃の完全ブロック",
-      "Eのタウント(挑発)による強力なCC"
+      "2スキルによる通常攻撃の完全ブロック",
+      "3スキルのタウント(挑発)による強力なCC"
     ],
     "strengthsEn": [
       "Global shield and teleport to ally via ultimate",
@@ -2924,7 +2924,7 @@
       "Large hitbox makes him easily hit by skillshots",
       "Requires management of leg cannon cooldowns"
     ],
-    "playstyle": "Wを発動して敵の周りを回りながら、パッシブのキャノンを連続で叩き込みます。体力が減ったターゲットをアルティメットで捕らえ、処刑することで周囲の敵に恐怖を与えて集団戦を制圧します。",
+    "playstyle": "2スキルを発動して敵の周りを回りながら、パッシブのキャノンを連続で叩き込みます。体力が減ったターゲットをアルティメットで捕らえ、処刑することで周囲の敵に恐怖を与えて集団戦を制圧します。",
     "playstyleEn": "Activate W and circle the enemy to continuously trigger your passive leg cannons. Secure kills with your execute ultimate to inflict a massive AoE fear, disrupting the entire enemy team."
   }
 }
