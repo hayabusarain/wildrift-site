@@ -87,7 +87,23 @@
   "Champions": {
     "title": "Champions",
     "subtitle": "Check stats, skills, and details for all champions.",
-    "searchPlaceholder": "Search champions..."
+    "searchPlaceholder": "Search champions...",
+    "filterLanes": "Filter by Lane",
+    "filterRoles": "Filter by Role",
+    "laneAll": "All",
+    "laneTop": "Top",
+    "laneJungle": "Jungle",
+    "laneMid": "Mid",
+    "laneAdc": "Duo",
+    "laneSupport": "Support",
+    "roleFighter": "Fighter",
+    "roleTank": "Tank",
+    "roleMage": "Mage",
+    "roleAssassin": "Assassin",
+    "roleMarksman": "Marksman",
+    "roleSupport": "Support",
+    "notFound": "No Champions Found",
+    "notFoundDesc": "There are no champions matching your search criteria."
   },
   "ChampionDetail": {
     "back": "Back to Champions",

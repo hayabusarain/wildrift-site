@@ -1,6 +1,7 @@
 'use client';
 
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 import { useState, useMemo, useEffect } from 'react';
 import { Search, Users, Target, Shield, Zap, Crosshair, HeartPulse, Sparkles } from 'lucide-react';
 import { useTranslations } from 'next-intl';
@@ -62,21 +63,21 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
   };
 
   const lanes = [
-    { id: 'All', label: 'すべて', icon: <Users size={16} /> },
-    { id: 'TOP', label: 'トップ', icon: <Target size={16} /> },
-    { id: 'JUNGLE', label: 'ジャングル', icon: <Zap size={16} /> },
-    { id: 'MID', label: 'ミッド', icon: <Sparkles size={16} /> },
-    { id: 'ADC', label: 'デュオ', icon: <Crosshair size={16} /> },
-    { id: 'SUPPORT', label: 'サポート', icon: <HeartPulse size={16} /> },
+    { id: 'All', label: t('laneAll'), icon: <Users size={16} /> },
+    { id: 'TOP', label: t('laneTop'), icon: <Target size={16} /> },
+    { id: 'JUNGLE', label: t('laneJungle'), icon: <Zap size={16} /> },
+    { id: 'MID', label: t('laneMid'), icon: <Sparkles size={16} /> },
+    { id: 'ADC', label: t('laneAdc'), icon: <Crosshair size={16} /> },
+    { id: 'SUPPORT', label: t('laneSupport'), icon: <HeartPulse size={16} /> },
   ];
 
   const roles = [
-    { id: 'Fighter', label: 'ファイター', icon: <Target size={14} /> },
-    { id: 'Tank', label: 'タンク', icon: <Shield size={14} /> },
-    { id: 'Mage', label: 'メイジ', icon: <Sparkles size={14} /> },
-    { id: 'Assassin', label: 'アサシン', icon: <Zap size={14} /> },
-    { id: 'Marksman', label: 'マークスマン', icon: <Crosshair size={14} /> },
-    { id: 'Support', label: 'サポート', icon: <HeartPulse size={14} /> },
+    { id: 'Fighter', label: t('roleFighter'), icon: <Target size={14} /> },
+    { id: 'Tank', label: t('roleTank'), icon: <Shield size={14} /> },
+    { id: 'Mage', label: t('roleMage'), icon: <Sparkles size={14} /> },
+    { id: 'Assassin', label: t('roleAssassin'), icon: <Zap size={14} /> },
+    { id: 'Marksman', label: t('roleMarksman'), icon: <Crosshair size={14} /> },
+    { id: 'Support', label: t('roleSupport'), icon: <HeartPulse size={14} /> },
   ];
 
   const filteredChampions = useMemo(() => {
@@ -141,7 +142,7 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
       <div className="pt-4 pb-2 bg-slate-50 px-4 space-y-4">
         {/* レーン絞り込み */}
         <div>
-          <div className="text-[10px] font-black text-slate-400 mb-1.5 uppercase tracking-wider pl-1">レーンで絞り込み</div>
+          <div className="text-[10px] font-black text-slate-400 mb-1.5 uppercase tracking-wider pl-1">{t('filterLanes')}</div>
           <div className="flex flex-wrap gap-2">
             {lanes.map(lane => (
               <button
@@ -162,7 +163,7 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
 
         {/* 役割絞り込み */}
         <div>
-          <div className="text-[10px] font-black text-slate-400 mb-1.5 uppercase tracking-wider pl-1">役割で絞り込み</div>
+          <div className="text-[10px] font-black text-slate-400 mb-1.5 uppercase tracking-wider pl-1">{t('filterRoles')}</div>
           <div className="flex flex-wrap gap-2">
             {roles.map(role => (
               <button
@@ -189,14 +190,18 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
             <Link 
               key={champion.id} 
               href={`/champions/${champion.id}`} 
+              prefetch={false}
               className="flex flex-col items-center gap-1.5 active:scale-95 transition-transform"
             >
               <div className="relative w-[76px] h-[76px] sm:w-20 sm:h-20 rounded-2xl overflow-hidden bg-slate-100 shadow-sm border border-slate-200">
-                <img 
+                <Image 
                   src={champion.id === 'Norra' ? `/images/champions/Norra.avif` : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champion.id}.png`}
                   alt={champion.name}
-                  className="w-full h-full object-cover scale-[1.05]"
+                  fill
+                  sizes="(max-width: 640px) 76px, 80px"
+                  className="object-cover scale-[1.05]"
                   onError={(e) => {
+                    (e.target as HTMLImageElement).srcset = '';
                     (e.target as HTMLImageElement).src = `/images/champions/${champion.id}.avif`;
                     (e.target as HTMLImageElement).onerror = null;
                   }}
@@ -212,8 +217,8 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
         {filteredChampions.length === 0 && (
           <div className="col-span-full text-center py-12 bg-white rounded-3xl border border-slate-200 mt-4 shadow-sm">
             <Users className="mx-auto h-10 w-10 text-slate-300 mb-3" />
-            <h3 className="text-base font-black text-slate-800">見つかりませんでした</h3>
-            <p className="text-xs font-bold text-slate-400 mt-1">検索条件に一致するチャンピオンがいません。</p>
+            <h3 className="text-base font-black text-slate-800">{t('notFound')}</h3>
+            <p className="text-xs font-bold text-slate-400 mt-1">{t('notFoundDesc')}</p>
           </div>
         )}
       </div>

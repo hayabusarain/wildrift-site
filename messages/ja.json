@@ -87,7 +87,23 @@
   "Champions": {
     "title": "チャンピオン一覧",
     "subtitle": "全チャンピオンのステータスやスキルを確認できます。",
-    "searchPlaceholder": "チャンピオン名で検索..."
+    "searchPlaceholder": "チャンピオン名で検索...",
+    "filterLanes": "レーンで絞り込み",
+    "filterRoles": "役割で絞り込み",
+    "laneAll": "すべて",
+    "laneTop": "トップ",
+    "laneJungle": "ジャングル",
+    "laneMid": "ミッド",
+    "laneAdc": "デュオ",
+    "laneSupport": "サポート",
+    "roleFighter": "ファイター",
+    "roleTank": "タンク",
+    "roleMage": "メイジ",
+    "roleAssassin": "アサシン",
+    "roleMarksman": "マークスマン",
+    "roleSupport": "サポート",
+    "notFound": "見つかりませんでした",
+    "notFoundDesc": "検索条件に一致するチャンピオンがいません。"
   },
   "ChampionDetail": {
     "back": "チャンピオン一覧に戻る",

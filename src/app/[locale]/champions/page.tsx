@@ -129,5 +129,16 @@ export default async function ChampionsPage({ params }: { params: Promise<{ loca
 
   const filteredChampsArray = champsArray.filter(champ => !!tierData[champ.id] || ['Norra', 'Heimerdinger', 'Skarner', 'Zoe'].includes(champ.id));
 
-  return <ChampionsClient initialChampions={filteredChampsArray} tierData={tierData} />;
+  // Reduce payload size by omitting unused fields
+  const lightweightChamps = filteredChampsArray.map(champ => ({
+    id: champ.id,
+    key: champ.key,
+    name: champ.name,
+    title: champ.title,
+    tags: champ.tags,
+    blurb: '',
+    info: { attack: 0, defense: 0, magic: 0, difficulty: 0 }
+  }));
+
+  return <ChampionsClient initialChampions={lightweightChamps} tierData={tierData} />;
 }
