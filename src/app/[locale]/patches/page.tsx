@@ -1,12 +1,9 @@
 import { Metadata } from 'next';
 import { History } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabase/server';
 import { PatchTable } from '@/components/patches/PatchTable';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
-const supabase = createClient(supabaseUrl, supabaseKey);
+import { getDDragonIconMap } from '@/utils/ddragon';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -26,6 +23,8 @@ export default async function PatchesPage({ params }: { params: Promise<{ locale
   let patchMetas = null;
 
   try {
+    const supabase = await createClient();
+
     const { data: patchesData, error: patchesError } = await supabase
       .from('patches')
       .select('*')
@@ -47,6 +46,8 @@ export default async function PatchesPage({ params }: { params: Promise<{ locale
     console.error('Failed to fetch patches server-side', e);
   }
 
+  const iconMap = await getDDragonIconMap();
+
   return (
     <div className="max-w-md mx-auto bg-slate-50 min-h-screen pb-24 font-sans text-slate-800">
       <div className="bg-white pt-8 pb-4 px-4 shadow-sm border-b border-slate-200 sticky top-0 z-20 flex items-center gap-3">
@@ -67,6 +68,7 @@ export default async function PatchesPage({ params }: { params: Promise<{ locale
         <PatchTable 
           initialServerPatches={patches || undefined} 
           initialServerMetas={patchMetas || undefined} 
+          initialIconMap={iconMap}
         />
       </div>
     </div>

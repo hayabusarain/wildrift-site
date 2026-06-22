@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { Database } from "@/types/database";
 import { useTranslations, useLocale } from "next-intl";
@@ -45,11 +45,13 @@ const compareVersions = (a: string, b: string): number => {
 export function PatchTable({ 
   championId,
   initialServerPatches,
-  initialServerMetas
+  initialServerMetas,
+  initialIconMap = {}
 }: { 
   championId?: string;
   initialServerPatches?: Patch[];
   initialServerMetas?: PatchMeta[];
+  initialIconMap?: Record<string, string>;
 }) {
   const t = useTranslations("PatchTable");
   const locale = useLocale();
@@ -69,7 +71,6 @@ export function PatchTable({
   const [selectedVersion, setSelectedVersion] = useState<string | null>(uniqueVersions[0] || null);
   const [searchQuery, setSearchQuery] = useState("");
   const [filterType, setFilterType] = useState<"all" | "buff" | "nerf" | "adjust">("all");
-  const [iconMap, setIconMap] = useState<Record<string, string>>({});
 
   // Set default selected version when patches load
   useEffect(() => {
@@ -167,43 +168,6 @@ export function PatchTable({
       fetchPatches();
     }
   }, [initialServerPatches]);
-
-  useEffect(() => {
-    async function fetchIconsMap() {
-      try {
-        const map: Record<string, string> = {};
-        
-        // Fetch Items
-        const resItems = await fetch(`https://ddragon.leagueoflegends.com/cdn/14.8.1/data/en_US/item.json`);
-        const dataItems = await resItems.json();
-        for (const key of Object.keys(dataItems.data)) {
-          const item = dataItems.data[key];
-          const normalizedName = item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-          map[normalizedName] = `https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/${item.image.full}`;
-        }
-
-        // Fetch Runes
-        const resRunes = await fetch(`https://ddragon.leagueoflegends.com/cdn/14.8.1/data/en_US/runesReforged.json`);
-        const dataRunes = await resRunes.json();
-        for (const tree of dataRunes) {
-          for (const slot of tree.slots) {
-            for (const rune of slot.runes) {
-              const nameNormalized = rune.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-              const keyNormalized = rune.key.toLowerCase();
-              const url = `https://ddragon.leagueoflegends.com/cdn/img/${rune.icon}`;
-              map[nameNormalized] = url;
-              map[keyNormalized] = url;
-            }
-          }
-        }
-        
-        setIconMap(map);
-      } catch (err) {
-        console.error('Failed to fetch icon map:', err);
-      }
-    }
-    fetchIconsMap();
-  }, []);
 
   if (loading && patches.length === 0) {
     return <div className="p-4 text-center text-slate-500">{t("loading")}</div>;
@@ -365,9 +329,9 @@ export function PatchTable({
                             }
                           }}
                         />
-                      ) : iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || ''] ? (
+                      ) : initialIconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || ''] ? (
                         <img 
-                          src={iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || '']}
+                          src={initialIconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || '']}
                           alt={patch.champion_name_en || patch.champion_name}
                           className="w-full h-full object-cover"
                           loading="lazy"
