@@ -205,9 +205,7 @@ export function PatchTable({
     });
   }, [patches, searchQuery, filterType, selectedVersion]);
 
-  if (loading && patches.length === 0) {
-    return <div className="p-4 text-center text-slate-500">{t("loading")}</div>;
-  }
+
 
   return (
     <div className="space-y-6">
@@ -300,7 +298,9 @@ export function PatchTable({
       {/* Error message removed */}
       
       <div>
-        {filteredPatches.length === 0 ? (
+        {loading && patches.length === 0 ? (
+          <div className="p-4 text-center text-slate-500">{t("loading")}</div>
+        ) : filteredPatches.length === 0 ? (
           <div className="text-center py-12 text-slate-400 font-medium">
             {t("noResults")}
           </div>
