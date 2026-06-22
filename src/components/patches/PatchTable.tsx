@@ -169,9 +169,6 @@ export function PatchTable({
     }
   }, [initialServerPatches]);
 
-  if (loading && patches.length === 0) {
-    return <div className="p-4 text-center text-slate-500">{t("loading")}</div>;
-  }
 
   const selectedPatchMeta = patchMetas.find(m => m.version === selectedVersion);
 
