@@ -9,6 +9,10 @@ import { routing } from '@/i18n/routing';
 import Script from "next/script";
 import { CanonicalLinks } from '@/components/CanonicalLinks';
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

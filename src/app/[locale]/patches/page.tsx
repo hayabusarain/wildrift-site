@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { History } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
-import { createClient } from '@/lib/supabase/server';
+import { supabase } from '@/lib/supabase';
 import { PatchTable } from '@/components/patches/PatchTable';
 import { getDDragonIconMap } from '@/utils/ddragon';
 
@@ -23,7 +23,7 @@ export default async function PatchesPage({ params }: { params: Promise<{ locale
   let patchMetas = null;
 
   try {
-    const supabase = await createClient();
+
 
     const { data: patchesData, error: patchesError } = await supabase
       .from('patches')
