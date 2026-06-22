@@ -9,8 +9,8 @@ export default function middleware(request: NextRequest) {
   const hasLocaleCookie = request.cookies.has('NEXT_LOCALE');
   
   if (!hasLocaleCookie) {
-    // Vercel populates request.geo with geographical information based on the IP
-    const country = request.geo?.country;
+    // Vercel populates 'x-vercel-ip-country' header with geographical information
+    const country = request.headers.get('x-vercel-ip-country');
     
     if (country === 'JP') {
       // Force Japan to ja
