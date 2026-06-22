@@ -217,25 +217,28 @@ export function PatchTable({
   };
 
   // フィルタリングロジック
-  const filteredPatches = patches.filter(p => {
-    // 1. テキスト検索
+  const filteredPatches = useMemo(() => {
     const query = searchQuery.toLowerCase();
-    const matchText = !query || 
-      (p.champion_name && p.champion_name.toLowerCase().includes(query)) || 
-      (p.champion_name_en && p.champion_name_en.toLowerCase().includes(query)) ||
-      (p.description && p.description.toLowerCase().includes(query)) ||
-      (p.description_en && p.description_en.toLowerCase().includes(query));
+    
+    return patches.filter(p => {
+      // 1. テキスト検索
+      const matchText = !query || 
+        (p.champion_name && p.champion_name.toLowerCase().includes(query)) || 
+        (p.champion_name_en && p.champion_name_en.toLowerCase().includes(query)) ||
+        (p.description && p.description.toLowerCase().includes(query)) ||
+        (p.description_en && p.description_en.toLowerCase().includes(query));
 
-    // 2. タイプフィルター
-    const matchType = filterType === "all" || p.change_type === filterType;
+      // 2. タイプフィルター
+      const matchType = filterType === "all" || p.change_type === filterType;
 
-    // 3. バージョンフィルター
-    // 検索入力があるか、フィルターがall以外の場合は、全バージョンを串刺し検索する
-    const isSearching = query.length > 0 || filterType !== "all";
-    const matchVersion = isSearching || p.version === selectedVersion;
+      // 3. バージョンフィルター
+      // 検索入力があるか、フィルターがall以外の場合は、全バージョンを串刺し検索する
+      const isSearching = query.length > 0 || filterType !== "all";
+      const matchVersion = isSearching || p.version === selectedVersion;
 
-    return matchText && matchType && matchVersion;
-  });
+      return matchText && matchType && matchVersion;
+    });
+  }, [patches, searchQuery, filterType, selectedVersion]);
 
 
 
@@ -349,6 +352,8 @@ export function PatchTable({
                           src={patch.champion_name_en === 'Norra' ? '/images/ノラ.avif' : `https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '') || ''}.png`}
                           alt={patch.champion_name_en || patch.champion_name}
                           className="w-full h-full object-cover"
+                          loading="lazy"
+                          decoding="async"
                           onError={(e) => {
                             (e.target as HTMLImageElement).style.display = 'none';
                             const parent = (e.target as HTMLImageElement).parentElement;
@@ -365,6 +370,8 @@ export function PatchTable({
                           src={iconMap[patch.champion_name_en?.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() || '']}
                           alt={patch.champion_name_en || patch.champion_name}
                           className="w-full h-full object-cover"
+                          loading="lazy"
+                          decoding="async"
                           onError={(e) => {
                             (e.target as HTMLImageElement).style.display = 'none';
                             const parent = (e.target as HTMLImageElement).parentElement;
