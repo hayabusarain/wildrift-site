@@ -80,36 +80,59 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
     { id: 'Support', label: t('roleSupport'), icon: <HeartPulse size={14} /> },
   ];
 
-  const filteredChampions = useMemo(() => {
-    const result = initialChampions.filter(champ => {
-      const statsEntry = Object.entries(tierData).find(([key]) => key.toLowerCase() === champ.id.toLowerCase());
-      const stats = statsEntry ? statsEntry[1] : [];
-      
-      if (stats.length === 0 && !['Norra', 'Heimerdinger', 'Skarner', 'Zoe'].includes(champ.id)) return false;
+  const lowercaseTierData = useMemo(() => {
+    const map = new Map<string, ChampionStat[]>();
+    Object.entries(tierData).forEach(([key, value]) => {
+      map.set(key.toLowerCase(), value);
+    });
+    return map;
+  }, [tierData]);
 
-      const cleanStr = (s: string) => s.replace(/[\s\u3000・]+/g, '').toLowerCase();
-      const query = cleanStr(searchQuery);
-      const matchesSearch = cleanStr(champ.name).includes(query) || 
-                            cleanStr(champ.title).includes(query) ||
-                            cleanStr(champ.id).includes(query) ||
-                            (champ.id === 'Norra' && cleanStr('ノラ').includes(query));
+  const cleanStr = (s: string) => s.replace(/[\s\u3000・]+/g, '').toLowerCase();
+
+  const preparedChampions = useMemo(() => {
+    return initialChampions.map(champ => ({
+      ...champ,
+      cleanName: cleanStr(champ.name),
+      cleanTitle: cleanStr(champ.title),
+      cleanId: cleanStr(champ.id),
+      isNorra: champ.id === 'Norra',
+      isSkarner: champ.id === 'Skarner',
+      isHeimer: champ.id === 'Heimerdinger',
+      isZoe: champ.id === 'Zoe',
+    }));
+  }, [initialChampions]);
+
+  const filteredChampions = useMemo(() => {
+    const query = cleanStr(searchQuery);
+    
+    const result = preparedChampions.filter(champ => {
+      const stats = lowercaseTierData.get(champ.id.toLowerCase()) || [];
+      
+      if (stats.length === 0 && !champ.isNorra && !champ.isHeimer && !champ.isSkarner && !champ.isZoe) return false;
+
+      const matchesSearch = champ.cleanName.includes(query) || 
+                            champ.cleanTitle.includes(query) ||
+                            champ.cleanId.includes(query) ||
+                            (champ.isNorra && 'ノラ'.includes(query));
+                            
       const matchesFilter = activeFilter === 'All' || 
                             champ.tags.includes(activeFilter) || 
                             stats.some(s => s.role === activeFilter) || 
                             (stats.length === 0 && (
-                              (activeFilter === 'SUPPORT' && champ.id === 'Norra') ||
-                              (activeFilter === 'MID' && champ.id === 'Norra') ||
-                              (activeFilter === 'TOP' && champ.id === 'Skarner') ||
-                              (activeFilter === 'JUNGLE' && champ.id === 'Skarner') ||
-                              (activeFilter === 'MID' && champ.id === 'Zoe') ||
-                              (activeFilter === 'MID' && champ.id === 'Heimerdinger')
+                              (activeFilter === 'SUPPORT' && champ.isNorra) ||
+                              (activeFilter === 'MID' && champ.isNorra) ||
+                              (activeFilter === 'TOP' && champ.isSkarner) ||
+                              (activeFilter === 'JUNGLE' && champ.isSkarner) ||
+                              (activeFilter === 'MID' && champ.isZoe) ||
+                              (activeFilter === 'MID' && champ.isHeimer)
                             ));
       return matchesSearch && matchesFilter;
     });
 
     result.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
     return result;
-  }, [initialChampions, searchQuery, activeFilter, tierData]);
+  }, [preparedChampions, searchQuery, activeFilter, lowercaseTierData]);
 
   return (
     <div className="w-full max-w-md mx-auto bg-slate-50 min-h-screen pb-24">
@@ -200,6 +223,7 @@ export default function ChampionsClient({ initialChampions, tierData }: Champion
                   fill
                   sizes="(max-width: 640px) 76px, 80px"
                   className="object-cover scale-[1.05]"
+                  unoptimized={true}
                   onError={(e) => {
                     (e.target as HTMLImageElement).srcset = '';
                     (e.target as HTMLImageElement).src = `/images/champions/${champion.id}.avif`;

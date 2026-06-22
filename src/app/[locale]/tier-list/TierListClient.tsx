@@ -157,6 +157,8 @@ export default function TierListClient({ initialStats, error }: TierListClientPr
                       src={`https://ddragon.leagueoflegends.com/cdn/16.10.1/img/champion/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.png`}
                       alt={champion.champion_name_en}
                       className="w-full h-full object-cover scale-[1.05]"
+                      loading="lazy"
+                      decoding="async"
                       onError={(e) => {
                         (e.target as HTMLImageElement).src = `/images/champions/${champion.champion_name_en.replace(/[^a-zA-Z0-9]/g, '')}.avif`;
                       }}
