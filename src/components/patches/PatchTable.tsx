@@ -198,13 +198,19 @@ export function PatchTable({
       // 3. バージョンフィルター
       // 検索入力があるか、フィルターがall以外の場合は、全バージョンを串刺し検索する
       const isSearching = query.length > 0 || filterType !== "all";
-      const matchVersion = isSearching || p.version === selectedVersion;
-
-      return matchText && matchType && matchVersion;
+      
+      if (isSearching) {
+        return matchText && matchType;
+      } else {
+        // 通常時（検索なし）は、選択されたバージョンのパッチのみ表示
+        return p.version === selectedVersion && matchText && matchType;
+      }
     });
   }, [patches, searchQuery, filterType, selectedVersion]);
 
-
+  if (loading && patches.length === 0) {
+    return <div className="p-4 text-center text-slate-500">{t("loading")}</div>;
+  }
 
   return (
     <div className="space-y-6">
