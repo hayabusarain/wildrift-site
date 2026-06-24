@@ -1,0 +1,68 @@
+{
+  "objectives": [
+    {
+      "nameJa": "火ドラゴン (Infernal Dragon)",
+      "nameEn": "Infernal Dragon",
+      "statsJa": "チーム全体の攻撃力(AD)と魔力(AP)が割合で増加する。",
+      "statsEn": "Grants a percentage increase to overall Attack Damage (AD) and Ability Power (AP).",
+      "strategyJa": "バーストダメージやスケーリング構成で優先度が高い。出現前に川の視界を確保し、集団戦に備える。",
+      "strategyEn": "High priority for burst damage and scaling team comps. Secure vision in the river before it spawns and prepare for teamfights."
+    },
+    {
+      "nameJa": "海ドラゴン (Ocean Dragon)",
+      "nameEn": "Ocean Dragon",
+      "statsJa": "一定時間ごとに減少体力の一定割合を継続回復する。",
+      "statsEn": "Restores a percentage of missing health continuously over time.",
+      "strategyJa": "ポーク構成やシージ（攻城）において非常に強力。川の茂みをワードで管理し、安全に獲得する。",
+      "strategyEn": "Extremely powerful for poke and siege compositions. Ward the river bushes to secure it safely."
+    },
+    {
+      "nameJa": "山ドラゴン (Mountain Dragon)",
+      "nameEn": "Mountain Dragon",
+      "statsJa": "チーム全体の物理防御(Armor)と魔法防御(MR)が割合で増加する。",
+      "statsEn": "Grants a percentage increase to overall Armor and Magic Resist.",
+      "strategyJa": "タンク構成や敵のバーストダメージを耐える際に有効。スティールの危険がある場合はピットの外に引っ張り出して戦う。",
+      "strategyEn": "Effective for tanky comps or surviving burst damage. Pull the dragon out of the pit if there is a risk of it being stolen."
+    },
+    {
+      "nameJa": "氷ドラゴン (Ice Dragon)",
+      "nameEn": "Ice Dragon",
+      "statsJa": "スキルヘイストが増加し、スキルの回転率が上がる。",
+      "statsEn": "Grants Ability Haste, reducing the cooldown of abilities.",
+      "strategyJa": "メイジやエンチャンターなど、スキルを多用するチャンピオンにとって価値が高い。ブラストコーンを破壊して敵の侵入を防ぐ。",
+      "strategyEn": "Highly valuable for ability-reliant champions like mages and enchanters. Destroy blast cones to prevent enemy steals."
+    },
+    {
+      "nameJa": "リフトヘラルド (Rift Herald)",
+      "nameEn": "Rift Herald",
+      "statsJa": "試合時間5:00に出現し、一度だけ討伐可能。獲得すると「ヘラルドの瞳」を入手し、召喚するとタワーに突撃して確定ダメージを与える。",
+      "statsEn": "Spawns at 5:00 and can only be slain once. Yields the 'Eye of the Herald', which summons it to charge an enemy turret, dealing massive true damage.",
+      "strategyJa": "タワープレートからゴールドを獲得するために序盤の最重要オブジェクト。背中の開いた目を攻撃すると追加の確定ダメージを与えて素早く狩れる。",
+      "strategyEn": "Crucial early-game objective to secure turret plating gold. Hit the exposed eye on its back to deal bonus true damage and take it down quickly."
+    },
+    {
+      "nameJa": "バロン・ナッシャー (Baron Nashor)",
+      "nameEn": "Baron Nashor",
+      "statsJa": "試合時間12:00に出現。「男爵の力」を付与し、ADとAPを増加させ、リコールを高速化し、周囲のミニオンを強化（射程、ダメージ、被ダメージ軽減）する。",
+      "statsEn": "Spawns at 12:00. Grants 'Hand of Baron', which increases AD and AP, empowers recall, and significantly buffs nearby minions (increased range, damage, and damage reduction).",
+      "strategyJa": "チーム全体の連携が必須。集団戦に勝った後や、敵のジャングラーをキルした直後に狙う。強化されたミニオンを使ってインヒビタータワーをシージする。",
+      "strategyEn": "Requires team coordination. Best attempted after winning a teamfight or securing a pick on the enemy jungler. Use empowered minions to siege inhibitor turrets."
+    },
+    {
+      "nameJa": "エルダードラゴン (Elder Dragon)",
+      "nameEn": "Elder Dragon",
+      "statsJa": "試合時間20:00に出現。攻撃時に確定ダメージの炎上を付与し、体力が一定割合（15%）以下の敵にダメージを与えると即死（キル）させる。",
+      "statsEn": "Spawns at 20:00. Attacks burn enemies for true damage, and damaging an enemy below 15% health instantly executes them.",
+      "strategyJa": "ゲームを終わらせる最強のバフ。獲得した場合は積極的に集団戦を起こす。敵が触っている場合は、全力で阻止・スティールを狙う必要がある。",
+      "strategyEn": "The ultimate game-ending buff. Force teamfights if secured. If the enemy is attempting it, you must contest or steal at all costs."
+    },
+    {
+      "nameJa": "リフトスカトル (Scuttle Crab)",
+      "nameEn": "Scuttle Crab",
+      "statsJa": "試合時間1:15に出現。討伐すると川に視界と移動速度が上がる祭壇を提供し、ゴールドと経験値を得る。",
+      "statsEn": "Spawns at 1:15. Once slain, provides unremovable vision and a speed shrine in the river, along with gold and XP.",
+      "strategyJa": "ジャングラーにとって序盤の視界制圧とガンク防止の要。",
+      "strategyEn": "Key early-game objective for junglers to establish river control and prevent ganks."
+    }
+  ]
+}

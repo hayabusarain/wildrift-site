@@ -1,0 +1,68 @@
+{
+  "tactics": [
+    {
+      "nameJa": "スプリットプッシュ (1-4陣形)",
+      "nameEn": "1-4 Split Push",
+      "executionJa": "1人がサイドレーン（通常はバロンレーン）をプッシュし、残り4人が反対側のオブジェクト（ドラゴンなど）やミッドレーンに圧力をかける。ワイルドリフトはマップが狭く合流が早いため、プッシュするプレイヤーは常にミニマップで敵のローテーションを確認し、敵が複数人向かってきたら直ちに退却する。4人側は絶対に無理なエンゲージを避け、敵がサイドレーンに気を取られた瞬間にオブジェクトを取得するか、数の有利を活かしてタワーを削る。",
+      "executionEn": "One player pushes a side lane (usually Baron lane) while the remaining four pressure the opposite side objective (e.g., Dragon) or Mid lane. Because the Wild Rift map is smaller and rotations are faster, the split pusher must constantly monitor the minimap and retreat instantly if multiple enemies rotate. The 4-man group must avoid hard engaging and instead secure the objective or chip towers the moment enemies commit to defending the side lane.",
+      "winConditionJa": "スプリットプッシャーが1v1で勝てる、もしくは敵の防衛を強制できる状態であること。4人側がエンゲージを拒否しつつウェーブクリアできること。",
+      "winConditionEn": "The split pusher can win the 1v1 or force enemy defense. The 4-man group must have sufficient wave clear and disengage to avoid being collapsed on."
+    },
+    {
+      "nameJa": "スプリットプッシュ (1-3-1陣形)",
+      "nameEn": "1-3-1 Split Push",
+      "executionJa": "2人がそれぞれのサイドレーン（トップとボット）をプッシュし、残り3人がミッドを維持する陣形。テレポートのサモナースペルが存在しないため（ブーツエンチャントのみ）、サイドを担当するチャンピオンは機動力が高く、ガンクを逃れられるアサシンやファイターが適している。3人側はミッドで視界を確保し、絶対に捕まらない位置をキープする。敵がどちらかのサイドに人数を割いた瞬間、逆側のサイドとミッドで同時にタワーを削る。",
+      "executionEn": "Two players push the side lanes (Top and Bot) while three maintain Mid lane. Since there is no Teleport summoner spell (only boot enchants), the side laners must be highly mobile assassins or fighters capable of escaping ganks. The 3-man group secures vision around Mid and maintains a safe position to avoid being caught. The moment the enemy allocates numbers to one side, the opposite side and Mid chip towers simultaneously.",
+      "winConditionJa": "両サイドのプレイヤーが1v1に強く、かつ逃走能力に優れていること。ミッドの3人が敵のエンゲージを完全に拒否できること。",
+      "winConditionEn": "Both side laners are strong duelists with excellent escape tools. The Mid 3-man group can completely disengage from any enemy initiation."
+    },
+    {
+      "nameJa": "フロント・トゥ・バック (正面対陣)",
+      "nameEn": "Front-to-Back Teamfight",
+      "executionJa": "タンクやブルーザーが前線を構築し、その後ろからメイジやADC（マークスマン）が火力を出す最も基本的な集団戦陣形。敵のフロントラインから順に焦点を合わせて処理していく。ADCとメイジはお互いをカバーできる距離を保ち、敵のアサシンやダイバーが後衛に侵入してきた場合は、サポートが即座にピール（剥がし）を行う。",
+      "executionEn": "The most fundamental teamfight formation where tanks/bruisers form the frontline, and mages/ADCs output sustained damage from behind. The team focuses down the enemy frontline sequentially. The ADC and Mage maintain a distance where they can cover each other, and if enemy assassins or divers penetrate the backline, the Support immediately peels them off.",
+      "winConditionJa": "自チームのフロントラインが敵の攻撃に耐えられること。後衛が敵のダイブから身を守り、継続的に火力を出し続けられること。",
+      "winConditionEn": "The allied frontline can withstand enemy damage. The backline can survive enemy dives and continuously output sustained damage."
+    },
+    {
+      "nameJa": "フランキング (挟み撃ち)",
+      "nameEn": "Flanking",
+      "executionJa": "アサシンやエンゲージ能力を持つチャンピオンが、敵の視界外（ジャングルや壁越し）から回り込み、敵の後衛（ADCやメイジ）に直接奇襲をかける戦術。ワイルドリフトはマップが小さいため、赤トリンケットやコントロールワードで視界を消しつつ、短い距離で側面に回り込むことが容易。フランクを行うプレイヤーは、味方の本隊が敵と交戦を開始した直後に突入する。",
+      "executionEn": "A tactic where an assassin or engage-heavy champion maneuvers completely out of enemy vision (via the jungle or over walls) to directly ambush the enemy backline (ADC or Mage). Because the Wild Rift map is small, it is easy to sweep vision with Sweeping Lens/Control Wards and flank over short distances. The flanker enters the fight exactly after the allied main force has initiated combat with the enemy.",
+      "winConditionJa": "フランカーの接近経路の視界が完全にクリアされていること。本隊が敵の注意を十分に引きつけていること。",
+      "winConditionEn": "The flanker's approach path is completely cleared of enemy vision. The main allied force successfully draws the enemy's full attention."
+    },
+    {
+      "nameJa": "ピック / キャッチ構成",
+      "nameEn": "Pick/Catch Comps",
+      "executionJa": "孤立した敵を単体CC（ハードクラウドコントロール）で捕まえ、一瞬でバーストダメージを与えてキルを取る戦術。視界の暗いジャングル内や、オブジェクト周りのブッシュに複数人で潜伏（デスパッシュ）する。ワイルドリフトはローテーションが早いため、1人をピックした後は直ちに数的有利（5v4）を活かしてバロンやタワーといったオブジェクトの取得に移行する。",
+      "executionEn": "A tactic focusing on catching isolated enemies with single-target hard CC and instantly bursting them down. Multiple players hide in unwarded jungle areas or bushes around objectives (death brush). Because Wild Rift has rapid rotations, after picking off one target, the team immediately transitions to securing an objective like Baron or a tower using the numerical advantage (5v4).",
+      "winConditionJa": "マップの重要なチョークポイント（狭い通路）の視界を制圧していること。ターゲットを一瞬で倒し切れるバーストダメージがあること。",
+      "winConditionEn": "Complete vision control over crucial map choke points. Sufficient burst damage to 100-to-0 the target instantly."
+    },
+    {
+      "nameJa": "ポーク ＆ シージ (攻城戦)",
+      "nameEn": "Poke & Siege",
+      "executionJa": "射程の長いスキルを持つチャンピオン（ジェイス、ゾーイ、エズリアルなど）で敵の体力を削り（ポーク）、敵が防衛できない状態にしてからタワーやオブジェクトを奪取する（シージ）陣形。敵のエンゲージ範囲外を常にキープし、少しずつ前線を押し上げる。敵が無理にエンゲージしてきた場合は、ディスエンゲージ（戦闘回避）スキルを使って引き撃ちを行う。",
+      "executionEn": "A formation utilizing long-range champions (e.g., Jayce, Zoe, Ezreal) to whittle down enemy health (poke) until they cannot defend, allowing the team to take towers or objectives (siege). The team stays strictly outside the enemy's engage range and slowly pushes the frontline. If the enemy forces an engage, the team uses disengage tools and kites backward.",
+      "winConditionJa": "敵のハードエンゲージを回避・拒否できること。ポークスキルが敵のキャリーや回復阻害対象に命中し、体力を削り切れること。",
+      "winConditionEn": "Ability to evade or completely deny enemy hard engage. Poke abilities successfully land on enemy carries to force them out of base."
+    },
+    {
+      "nameJa": "ウォンボコンボ (AoEエンゲージ)",
+      "nameEn": "Wombo Combo (AoE Engage)",
+      "executionJa": "マルファイト、アムム、ケネンなどの広範囲（AoE）クラウドコントロールスキルを複数連続で叩き込み、敵集団を一網打尽にする戦術。マップの狭いジャングル内や、ドラゴン/バロンピットなどの閉鎖空間に敵を誘い込むことで成功率が飛躍的に上がる。最初のエンゲージ役が突入した瞬間、味方全員が一切の躊躇なく後続のAoEダメージとCCを重ね合わせる。",
+      "executionEn": "A tactic chaining multiple massive Area of Effect (AoE) crowd control abilities (e.g., Malphite, Amumu, Kennen) to instantly wipe the enemy team. The success rate skyrockets by baiting enemies into narrow jungle paths or confined spaces like the Dragon/Baron pits. The moment the primary engager goes in, the entire team must layer their follow-up AoE damage and CC without hesitation.",
+      "winConditionJa": "主要なアルティメットスキルが全てクールダウン解消済みであること。敵チームが一箇所に固まる狭い地形での戦闘を強制すること。",
+      "winConditionEn": "All key ultimate abilities are off cooldown. Forcing the teamfight in a narrow chokepoint where the enemy team is grouped tightly."
+    },
+    {
+      "nameJa": "クロスマップ・プレイ",
+      "nameEn": "Cross-map Plays",
+      "executionJa": "敵がマップの片側（例：ヘラルドやトップタワー）にリソースを割いている間に、即座にマップの反対側（例：ドラゴンやボットタワー）でアクションを起こすマクロ戦術。ワイルドリフトは歩行での移動距離が短いため、敵の動きを見てからでは対応が間に合わないことが多い。そのため、事前に敵の配置を予測し、アクションを同時多発的に実行してトレード（等価交換）を成立させる。",
+      "executionEn": "A macro strategy where the team immediately makes a play on the opposite side of the map (e.g., Dragon or Bot tower) while the enemy commits resources to one side (e.g., Herald or Top tower). Because walking distances are short in Wild Rift, reacting after seeing the enemy move is often too late. Therefore, players must predict enemy positioning and execute simultaneous actions to force an objective trade.",
+      "winConditionJa": "常にミニマップ上で敵のジャングラーやローム組の位置を把握していること。守れないオブジェクトを即座に見捨てて、逆側で確実に利益を得る判断力。",
+      "winConditionEn": "Constant tracking of the enemy Jungler and roaming supports on the minimap. Decisive shotcalling to immediately abandon an undefendable objective and secure guaranteed value on the opposite side."
+    }
+  ]
+}

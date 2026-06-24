@@ -1,6 +1,6 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { BookOpen, Compass, Brain, Target as TargetIcon, Flame, HelpCircle, Sparkles, CheckCircle2 } from 'lucide-react';
+import { BookOpen, Compass, Brain, Target as TargetIcon, Flame, HelpCircle, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
 import massiveGuide from '@/../public/data/massive_guide.json';
 
 export default function GuidePage() {
@@ -249,6 +249,28 @@ export default function GuidePage() {
                   );
                 })}
               </div>
+            </div>
+          </section>
+
+          {/* Deep Dive Link */}
+          <section className="scroll-mt-24 pb-8">
+            <div className="bg-gradient-to-r from-slate-900 to-indigo-950 rounded-3xl p-8 shadow-xl border border-indigo-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="space-y-2 text-white">
+                <h3 className="text-xl font-black flex items-center gap-2">
+                  <BookOpen className="text-indigo-400" size={24} />
+                  {isJa ? 'さらに深い理論を知りたいですか？' : 'Want to dive deeper into the theory?'}
+                </h3>
+                <p className="text-slate-300 text-sm font-medium">
+                  {isJa ? '無駄を省いた「純粋なゲームの仕様・マクロ戦術・ミクロ技術」だけをまとめた完全大辞典はこちら。' : 'Check out the complete Encyclopedia for pure mechanics, macro tactics, and advanced game theory without the fluff.'}
+                </p>
+              </div>
+              <Link 
+                href="/encyclopedia" 
+                className="shrink-0 bg-white text-indigo-900 hover:bg-indigo-50 px-6 py-3 rounded-xl font-black text-sm flex items-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-md"
+              >
+                {isJa ? 'ワイリフ大辞典へ' : 'Go to Encyclopedia'}
+                <ArrowRight size={18} />
+              </Link>
             </div>
           </section>
 

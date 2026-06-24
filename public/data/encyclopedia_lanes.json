@@ -1,0 +1,68 @@
+{
+  "mechanics": [
+    {
+      "nameJa": "フリーズ (Freezing)",
+      "nameEn": "Freezing",
+      "howToJa": "敵ウェーブが味方ウェーブよりミニオン数で勝る状態（通常キャスターミニオン2～3体の差）を維持し、自陣タワーの攻撃範囲外にウェーブを留める。ミニオンのHPが尽きる直前にのみラストヒットを行う。",
+      "howToEn": "Maintain a wave state just outside allied turret range by ensuring the enemy wave has a numerical advantage (typically 2-3 caster minions). Execute last hits at the absolute latest frame.",
+      "purposeJa": "敵のレーン位置を自陣側に強制し、ガンクへの脆弱性を高める。同時に敵のファームをディナイし、安全なリソース獲得を実現する。",
+      "purposeEn": "Force the enemy laner to overextend, maximizing their vulnerability to ganks. Deny enemy resources while securing safe farm."
+    },
+    {
+      "nameJa": "スロープッシュ (Slow Pushing)",
+      "nameEn": "Slow Pushing",
+      "howToJa": "敵ウェーブのメレーミニオンのみを早期に処理し、味方ウェーブに軽微な数的優位を作る。その後はラストヒットのみを行い、後続の味方ウェーブを合流させて巨大なウェーブを構築する。",
+      "howToEn": "Clear enemy melee minions early to establish a slight numerical advantage. Proceed with last-hitting only, allowing subsequent allied waves to stack into a massive formation.",
+      "purposeJa": "巨大なウェーブを盾にしたタワーダイブの準備、またはドラゴンやヘラルド等のオブジェクトファイトに向けた長時間のレーンプライオリティ確保。",
+      "purposeEn": "Prepare for a coordinated tower dive or secure extended lane priority for map objectives (Dragon/Rift Herald). The stacked wave heavily penalizes enemy roams."
+    },
+    {
+      "nameJa": "ファストプッシュ/ショウブ (Fast Pushing / Shoving)",
+      "nameEn": "Fast Pushing (Shoving)",
+      "howToJa": "スキルと通常攻撃のDPSを最大化し、敵ミニオンウェーブを最短時間で全滅させ、味方ウェーブを敵タワーへクラッシュさせる。",
+      "howToEn": "Maximize DPS output using abilities and auto-attacks to clear the enemy wave in minimum time, forcing the allied wave to crash into the enemy turret.",
+      "purposeJa": "敵タワーにミニオンのキルを吸収させ、敵にゴールドと経験値のロストを強要する。ローム、ディープワード配置、リコールのための行動猶予（タイマー）を生成する。",
+      "purposeEn": "Force the enemy turret to consume allied minions, denying gold and experience to the opponent. Generate actionable time (a 'timer') for roaming, deep warding, or recalling."
+    },
+    {
+      "nameJa": "トレーディングスタンス (Trading Stance)",
+      "nameEn": "Trading Stance",
+      "howToJa": "体力の低い自陣ミニオンの付近に位置取り、敵チャンピオンがラストヒットを取る瞬間のAAモーション硬直（アニメーションロック）に合わせてスキルや通常攻撃を叩き込む。",
+      "howToEn": "Position near low-health allied minions. Capitalize on the enemy champion's animation lock during their last-hit attempt to deliver an uncontested ability or auto-attack.",
+      "purposeJa": "敵の反撃が不可能なタイミングでダメージトレードを行い、レーンにおけるヘルス有利を一方的に構築する。",
+      "purposeEn": "Execute one-sided damage trades while the opponent cannot retaliate, systematically building a health advantage in the lane."
+    },
+    {
+      "nameJa": "ウェーブバウンス (Wave Bouncing)",
+      "nameEn": "Wave Bouncing",
+      "howToJa": "味方ウェーブを敵タワーに完全にクラッシュさせた後、リセットされた次ウェーブ同士がレーン中央より敵タワー寄りで衝突することを利用する。タワーの攻撃を受けた味方ミニオンが先に死滅するため、ウェーブは自然と自陣側へプッシュ（バウンス）する。",
+      "howToEn": "After crashing a wave fully into the enemy turret, the next minion waves meet closer to the enemy side. The turret assists in clearing the allied wave, causing the new wave to naturally push (bounce) back towards your side.",
+      "purposeJa": "プッシュ状態から安全なプル状態（自陣側への押し込まれ）へ移行させ、フリーズの起点を作る。",
+      "purposeEn": "Transition the lane from an overextended pushing state to a safe pulling state, establishing the foundation for a subsequent freeze."
+    },
+    {
+      "nameJa": "ゾーニング (Zoning)",
+      "nameEn": "Zoning",
+      "howToJa": "レベル先行、体力優位、またはアイテム有利を背景に、敵チャンピオンとミニオンウェーブの間に物理的に立ち塞がる。接近すればキルラインであるという脅威（プレッシャー）を与え続ける。",
+      "howToEn": "Utilize an existing advantage (level, health, items) to physically position your champion between the enemy and the minion wave. Maintain lethal threat to deter their approach.",
+      "purposeJa": "敵を経験値およびゴールドの獲得範囲（XPレンジ）外へ排斥し、スノーボールを加速させる。",
+      "purposeEn": "Expel the enemy from experience and gold range entirely, accelerating the snowball effect of existing leads."
+    },
+    {
+      "nameJa": "レーンプライオリティ (Lane Priority)",
+      "nameEn": "Lane Priority",
+      "howToJa": "ウェーブをプッシュすることで自レーンに敵を釘付けにし、マップ上の他の地点（川、ジャングル）へ先に移動できる状態（First Move Advantage）を確保する。",
+      "howToEn": "Establish pushing control in the lane, pinning the enemy to their turret and securing the capability to move first (First Move Advantage) to other map locations.",
+      "purposeJa": "スカトルクラブの奪い合い、ジャングルのインベイド、ドラゴン戦において、味方チームが数的不利に陥るのを防ぎ、能動的なアクションを可能にする。",
+      "purposeEn": "Ensure proactive participation and numerical advantage in neutral objective securement (Scuttler, Dragon) and jungle skirmishes."
+    },
+    {
+      "nameJa": "リコールタイミング (Recall Timing)",
+      "nameEn": "Recall Timing",
+      "howToJa": "キャノンミニオン（大砲）ウェーブの到着直前、またはウェーブを完全にクラッシュさせた直後にリコールを行う。Wild Riftの短いレーンと速いミニオン移動速度（PC版より到着間隔が短い）を考慮し、テレポートエンチャント（ブーツ派生）が無い場合は即座の判断が必須となる。",
+      "howToEn": "Recall immediately prior to a cannon minion wave arrival or directly after a hard crash. Given Wild Rift's shorter lanes, faster minion movement, and rapid spawn rates compared to PC, instant decision-making is critical, especially when lacking the Teleport boot enchant.",
+      "purposeJa": "ベース帰還時の経験値とゴールドの損失を最小化し、アイテムスパイクを迎えた状態でレーン戦に復帰する。",
+      "purposeEn": "Minimize resource bleed (gold/XP) during base trips, returning to lane efficiently to leverage newly acquired item spikes."
+    }
+  ]
+}

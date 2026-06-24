@@ -1,0 +1,248 @@
+[
+  {
+    "term": "Gank",
+    "termJa": "ガンク",
+    "descJa": "他レーンからプレイヤーが奇襲をかけ、数的優位を作って敵を倒す戦術。主にジャングラーが行うが、他レーンからのロームも含まれる。",
+    "descEn": "A surprise attack on an enemy champion, usually creating a numbers advantage to secure a kill. This is primarily performed by the Jungler, though other laners can also gank."
+  },
+  {
+    "term": "Peel",
+    "termJa": "ピール",
+    "descJa": "敵の接近を阻害し、味方の最重要火力を守る行動。クラウドコントロールやシールドを活用し、味方が生存してダメージを出せる環境を構築する。",
+    "descEn": "The act of protecting an allied carry by stopping enemies from attacking or approaching them. This relies on crowd control and defensive abilities to keep the targeted ally safe."
+  },
+  {
+    "term": "Kiting",
+    "termJa": "カイト（引き撃ち）",
+    "descJa": "敵との距離を保つために、移動と攻撃を交互に繰り返す技術。遠距離チャンピオンが近接チャンピオンからダメージを受けずに立ち回る際に必須となる。",
+    "descEn": "The technique of attacking an enemy while continuously moving backward to maintain a safe distance. It allows ranged champions to deal damage without being hit by melee attackers."
+  },
+  {
+    "term": "Zoning",
+    "termJa": "ゾーニング",
+    "descJa": "立ち位置やスキルのプレッシャーを利用して、敵を特定のエリアから遠ざける戦術。これにより、敵のミニオンからの経験値やゴールドの獲得、オブジェクトへの接近を阻害する。",
+    "descEn": "Using positioning or the threat of abilities to force enemies away from a specific area. This denies them access to minion gold, experience, or map objectives."
+  },
+  {
+    "term": "Priority",
+    "termJa": "プライオリティ（主導権）",
+    "descJa": "ミニオンウェーブを敵タワー側に押し込むことで得られる、マップ上での行動の自由度。プライオリティを持つレーナーは、敵より早くオブジェクト戦や味方のカバーに合流できる。",
+    "descEn": "The advantage gained by pushing a minion wave into the enemy tower, giving the player freedom to move around the map. A laner with priority can rotate to objectives or fights faster than their opponent."
+  },
+  {
+    "term": "Split Push",
+    "termJa": "スプリットプッシュ",
+    "descJa": "チームの主力が集団戦やオブジェクトの睨み合いをしている間、離れた別レーンを単独で押し込む戦術。敵に防衛人員を割かせ、マップ全体のプレッシャーをコントロールする。",
+    "descEn": "Pushing a lane away from the rest of the team while they contest objectives or group elsewhere. This forces the enemy to split their attention and assign someone to defend the pushed lane."
+  },
+  {
+    "term": "Freeze",
+    "termJa": "フリーズ",
+    "descJa": "ミニオンの衝突位置を自陣タワーの直前に固定し、ウェーブを維持する技術。敵を危険な位置までおびき出しつつ、安全にファームを行うために用いられる。",
+    "descEn": "Managing the minion wave so it permanently meets just outside an allied tower. This allows the player to farm safely while forcing the enemy to overextend to get gold and experience."
+  },
+  {
+    "term": "Slow Push",
+    "termJa": "スロープッシュ",
+    "descJa": "敵側のミニオンを少しだけ多く倒し、自軍の巨大なウェーブをゆっくりと構築する戦術。タワーダイブの準備や、マップの逆側で行動する時間を稼ぐために有効。",
+    "descEn": "Deliberately killing only a few enemy minions to build up a massive wave of allied minions over time. This creates a strong pushing force that requires an enemy to eventually respond, freeing up the map."
+  },
+  {
+    "term": "Shove",
+    "termJa": "シャヴ（ハードプッシュ）",
+    "descJa": "スキルを駆使して素早くミニオンウェーブを処理し、敵タワーに押し付けること。リコールする前や、他レーンへロームする時間を確保するために行われる。",
+    "descEn": "Using abilities and fast attacks to clear an enemy minion wave as quickly as possible. This is typically done to crash the wave into the enemy tower before recalling or roaming."
+  },
+  {
+    "term": "Recall",
+    "termJa": "リコール",
+    "descJa": "詠唱時間を経て本拠地（泉）へ帰還するシステム。体力とマナを回復し、獲得したゴールドでアイテムを購入するために使用される。",
+    "descEn": "Channeling an ability to teleport back to the allied base. It is used to restore health and mana, as well as to spend accumulated gold on items."
+  },
+  {
+    "term": "Crowd Control",
+    "termJa": "クラウドコントロール（CC）",
+    "descJa": "敵の移動や攻撃、スキルの使用を制限・阻害する効果の総称。スタン、スネア、サイレンスなど様々な種類が存在する。",
+    "descEn": "A broad term for abilities that limit, disrupt, or completely remove an enemy's ability to move or act. This includes effects like stuns, roots, and silences."
+  },
+  {
+    "term": "Stun",
+    "termJa": "スタン",
+    "descJa": "対象の移動、通常攻撃、スキルの発動を完全に封じる強力な行動妨害効果。集団戦で特定の敵を無力化する際の中核となる。",
+    "descEn": "A hard crowd control effect that completely prevents the target from moving, attacking, or casting abilities. It is highly effective for locking down priority targets during teamfights."
+  },
+  {
+    "term": "Root",
+    "termJa": "スネア（ルート）",
+    "descJa": "対象の移動系スキルや歩行を封じる行動妨害効果。移動はできないが、その場での通常攻撃や一部のスキルは使用可能。",
+    "descEn": "A crowd control effect that locks a target in place, preventing all movement. The affected champion can still cast most abilities and perform basic attacks."
+  },
+  {
+    "term": "Silence",
+    "termJa": "サイレンス",
+    "descJa": "対象のスキル詠唱や発動を一定時間封じる効果。スキルに依存するメイジやアサシンに対して特に有効な行動妨害である。",
+    "descEn": "A status effect that prevents the target from casting abilities. It is particularly devastating against mages and assassins who rely heavily on spellcasting to deal damage."
+  },
+  {
+    "term": "Knockup",
+    "termJa": "ノックアップ",
+    "descJa": "対象を空中に打ち上げ、一切の行動を不可能にする最上位のCC。テナシティ（行動妨害耐性）や浄化系のエンチャントで解除できない特徴を持つ。",
+    "descEn": "An airborne crowd control effect that completely disables the target and prevents any action. Unlike most other CC effects, it cannot be reduced by tenacity or cleansed."
+  },
+  {
+    "term": "Macro",
+    "termJa": "マクロ",
+    "descJa": "マップ全体の状況把握、オブジェクトの取得判断、人員配置など、大局的な戦略や意思決定。チーム全体での勝利条件を達成するための知識を指す。",
+    "descEn": "High-level strategic gameplay involving map awareness, objective control, and team rotations. It is the tactical knowledge required to win the game beyond individual champion mechanics."
+  },
+  {
+    "term": "Micro",
+    "termJa": "ミクロ",
+    "descJa": "スキルのエイム、回避、コンボ、立ち回りなど、プレイヤー個人の操作技術のこと。1対1の戦闘や集団戦でのパフォーマンスに直結する。",
+    "descEn": "Individual mechanical skill, including dodging, aiming skillshots, execution of combos, and exact positioning. It dictates how well a player handles their specific champion in combat."
+  },
+  {
+    "term": "Objective",
+    "termJa": "オブジェクト",
+    "descJa": "ドラゴン、ヘラルド、バロン、タワーなど、破壊・討伐することでチーム全体に有利をもたらす要素。試合の勝敗を大きく左右する。",
+    "descEn": "Key map elements such as Dragons, the Rift Herald, Baron Nashor, and Turrets. Securing these provides substantial buffs or map control and is the primary way to win the game."
+  },
+  {
+    "term": "Vision",
+    "termJa": "視界（ビジョン）",
+    "descJa": "マップ上における敵の位置情報や視認状況のこと。ワードを設置することで視界を確保し、ガンクの回避やオブジェクト周辺の安全を確認する。",
+    "descEn": "Information about enemy locations and map areas, usually gained by placing wards. Establishing good vision is crucial for avoiding ambushes and safely securing objectives."
+  },
+  {
+    "term": "Sweeper Lens",
+    "termJa": "オラクルレンズ",
+    "descJa": "周囲に隠された敵のワードや罠を無効化・看破するトリンケット。ガンクの成功率を上げたり、オブジェクト周りの敵の視界を奪うために用いる。",
+    "descEn": "A trinket accessory used to reveal and disable enemy stealth wards and traps in a sweeping radius. It is essential for clearing enemy vision around objectives or before ganking."
+  },
+  {
+    "term": "Leash",
+    "termJa": "リーシュ",
+    "descJa": "試合開始直後に、レーナーがジャングラーの最初のモンスター狩猟を手伝う行動。ジャングラーの体力温存と周回速度の向上に寄与する。",
+    "descEn": "The act of laners assisting the Jungler in killing their first jungle camp at the start of the game. This helps the Jungler preserve health and complete their clear faster."
+  },
+  {
+    "term": "Invade",
+    "termJa": "インベード",
+    "descJa": "敵側のジャングル領域に侵入し、モンスターを奪ったり敵ジャングラーを奇襲する戦術。敵のジャングルリソースを枯渇させ、経験値差を広げる狙いがある。",
+    "descEn": "Entering the enemy jungle to steal monster camps or ambush the enemy Jungler. This denies gold and experience to the opponent, setting them behind."
+  },
+  {
+    "term": "Scaling",
+    "termJa": "スケーリング",
+    "descJa": "時間の経過やアイテムの完成に伴ってチャンピオンが強力になっていく度合い。スケーリングが高いチャンピオンは、試合後半で無類の強さを発揮する。",
+    "descEn": "The degree to which a champion increases in power as the game progresses and they acquire more items. High-scaling champions are relatively weak early but become dominant in the late game."
+  },
+  {
+    "term": "Power Spike",
+    "termJa": "パワースパイク",
+    "descJa": "特定のレベル到達やコアアイテムの完成により、チャンピオンの強さが急激に跳ね上がるタイミング。この時間帯に戦闘を起こすことが定石とされる。",
+    "descEn": "A specific point in the game where a champion experiences a sudden surge in strength, usually upon reaching a certain level or completing a core item. Players aim to force fights during these spikes."
+  },
+  {
+    "term": "Snowball",
+    "termJa": "スノーボール",
+    "descJa": "序盤で得た小さな有利（キルやゴールド差）を徐々に拡大し、最終的に圧倒的な格差へと発展させること。試合を決定づける重要な概念。",
+    "descEn": "The process of using a small early advantage, such as a single kill or a gold lead, to generate increasingly larger advantages. It leads to an overwhelming lead that is difficult to stop."
+  },
+  {
+    "term": "Poke",
+    "termJa": "ポーク",
+    "descJa": "安全な距離から射程の長いスキルや通常攻撃を当て、敵の体力を一方的に削る行動。集団戦の前に敵を撤退させる目的で行われる。",
+    "descEn": "Dealing damage to enemies from a safe distance using long-ranged abilities or attacks. The goal is to weaken the enemy team significantly before an all-out fight begins."
+  },
+  {
+    "term": "Engage",
+    "termJa": "エンゲージ",
+    "descJa": "移動スキルや強力なCCを用いて、強制的に集団戦を開始するアクション。主にタンクやサポートが、敵の隙を突いて決行する。",
+    "descEn": "The act of forcing a teamfight to begin, usually by using long-range gap closers or heavy crowd control abilities. It is typically initiated by tanks or heavy crowd control supports."
+  },
+  {
+    "term": "Disengage",
+    "termJa": "ディスエンゲージ",
+    "descJa": "敵のエンゲージを拒否し、味方を安全に退却させる行動。不利な状況での戦闘を避け、味方の生存を図る戦術。",
+    "descEn": "The act of breaking off an enemy's attempt to engage a fight, allowing the allied team to retreat safely. It relies on abilities that slow, knock back, or trap pursuing enemies."
+  },
+  {
+    "term": "Flank",
+    "termJa": "フランク",
+    "descJa": "敵の視界外や死角から回り込み、後衛の脆いチャンピオンを直接強襲する戦術。アサシンやブルーザーが得意とする集団戦の立ち回り。",
+    "descEn": "Approaching an enemy team from the side or behind, bypassing their frontline to attack vulnerable carries. It is a highly effective teamfight strategy for assassins and mobile bruisers."
+  },
+  {
+    "term": "Front-to-Back",
+    "termJa": "フロント・トゥ・バック",
+    "descJa": "両チームが前衛のタンクから順に攻撃を集中させ、徐々に後衛へとダメージを波及させる正統派の集団戦。ADCの立ち位置と生存力が鍵となる。",
+    "descEn": "A standard teamfight structure where both teams focus on killing the enemy frontline tanks before moving on to the squishy backline. It relies heavily on the steady damage output of the marksman."
+  },
+  {
+    "term": "Tower Dive",
+    "termJa": "タワーダイブ",
+    "descJa": "敵がタワー下にいる状態でも、タワーからの攻撃を強引に引き受けながら敵をキルするプレイ。ミニオンウェーブの押し込みとタゲ受けの連携が必要。",
+    "descEn": "Executing a kill on an enemy who is under the protection of their turret, deliberately taking turret damage in the process. It requires careful coordination and minion wave management."
+  },
+  {
+    "term": "Trade",
+    "termJa": "トレード",
+    "descJa": "レーン戦において、敵と互いにダメージを交換する行為。体力差やマナ差を有利にし、キル圧力やゾーニングに繋げる目的がある。",
+    "descEn": "The exchange of damage between opposing laners. Favorable trading results in the enemy losing more health or resources, creating kill pressure or zoning opportunities."
+  },
+  {
+    "term": "All-in",
+    "termJa": "オールイン",
+    "descJa": "持っているスキル、サモナースペル、アルティメットの全てを注ぎ込み、確実に敵をキルしに行くプレイ。トレードとは異なり、後戻りできない決死の攻撃を指す。",
+    "descEn": "Committing all available abilities, ultimate skills, and summoner spells in a definitive attempt to kill the opponent. Unlike a trade, an all-in offers no easy route for retreat."
+  },
+  {
+    "term": "Burst",
+    "termJa": "バースト（瞬間火力）",
+    "descJa": "ごく短時間で大量のダメージを連続して叩き込むこと。敵が反応する暇を与えずにキルを狙う、アサシンやメイジの主要なダメージの出し方。",
+    "descEn": "Inflicting a massive amount of damage in a very short time window. It is characteristic of assassins and burst mages aiming to delete a target before they can react."
+  },
+  {
+    "term": "DPS",
+    "termJa": "DPS（継続火力）",
+    "descJa": "1秒あたりのダメージ量を意味し、転じて持続的にダメージを出し続ける能力を指す。マークスマンによる通常攻撃の連続などがこれに該当する。",
+    "descEn": "Stands for Damage Per Second, referring to a champion's ability to output a continuous, sustained stream of damage. Marksmen heavily rely on DPS through fast basic attacks."
+  },
+  {
+    "term": "Sustain",
+    "termJa": "サステイン（維持力）",
+    "descJa": "回復スキルや体力吸収によって、リコールせずに戦線に留まり続ける能力。レーン戦での優位性や、集団戦後のオブジェクト取得に直結する。",
+    "descEn": "The capability to replenish health or mana through abilities or items without needing to recall. High sustain allows champions to stay in a lane or on the map longer."
+  },
+  {
+    "term": "Roam",
+    "termJa": "ローム",
+    "descJa": "自身の担当レーンを離れ、マップの別エリアへ移動して味方の支援やガンクを行うこと。ミッドレーナーやサポートが能動的に試合を動かす際の手段。",
+    "descEn": "Leaving one's assigned lane to travel to other parts of the map to assist allies or set up ganks. Mid laners and supports frequently roam to impact the entire map."
+  },
+  {
+    "term": "Overextend",
+    "termJa": "オーバーエクステンド",
+    "descJa": "安全な範囲を越えて深く押し込みすぎたり、視界のない危険地帯へ進みすぎること。敵のガンクや奇襲の格好の標的となる。",
+    "descEn": "Pushing too far forward in a lane or entering dangerous territory without adequate vision or backup. This positional mistake makes a player highly vulnerable to being collapsed on or ganked."
+  },
+  {
+    "term": "Facecheck",
+    "termJa": "フェイスチェック",
+    "descJa": "視界のない茂み（ブッシュ）に、自身の体で直接踏み込んで安全を確認する危険な行為。待ち伏せに遭い、無防備な状態で攻撃を受けるリスクが高い。",
+    "descEn": "Walking directly into an unwarded brush to check if enemies are hiding there. It is a highly dangerous practice that often results in walking directly into a fatal ambush."
+  },
+  {
+    "term": "Last Hit",
+    "termJa": "ラストヒット（CS）",
+    "descJa": "ミニオンの体力を削り切り、とどめの一撃を刺すこと。確実に行うことでゴールドを獲得し、試合の装備差をつける基本かつ最重要な技術。",
+    "descEn": "Landing the killing blow on an enemy minion or monster. Executing this properly is the primary method of earning gold and is fundamental to gaining a resource advantage."
+  },
+  {
+    "term": "Draft",
+    "termJa": "ドラフト",
+    "descJa": "試合開始前のチャンピオン選択画面にて、両チームがピック（選択）とバン（禁止）を行うプロセス。チーム構成のシナジーやカウンターを考慮する。",
+    "descEn": "The champion selection and banning phase before a match begins. Teams strategically pick champions to build synergistic compositions and ban counters."
+  }
+]
