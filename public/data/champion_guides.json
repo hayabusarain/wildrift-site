@@ -3766,5 +3766,95 @@
     "lateGameEn": "The usage of your ultimate (Tempered Fate) becomes game-deciding. Use it to catch enemy carries while your team closes the gap, or throw it to completely neutralize a hard enemy engage.",
     "teamfight": "Rで敵の前衛と後衛を分断し、有利な人数差を作り出して戦いを始めます。戦闘中はQを敵2体や壁に当ててスタンを量産し、Wの回復と加速で味方をサポートし続けましょう。",
     "teamfightEn": "Use your ultimate to split the enemy frontline and backline, creating a localized numbers advantage. During the fight, consistently look for Q stuns on two targets or terrain, and support allies with W heals."
+  },
+  "Akshan": {
+    "earlyGame": "序盤はパッシブのシールドと2連撃を活かして、アグレッシブにトレードを行いましょう。スキル1のブーメランでウェーブクリアとハラスを同時に行い、主導権を握るのが理想です。レベル5になったら、アルティメットを活用してキルを狙うか、ステルスを使って他レーンへのロームを積極的に行いましょう。",
+    "earlyGameEn": "In the early game, use your passive shield and double attack to trade aggressively. Use your Skill 1 boomerang to wave clear and harass simultaneously, taking control of the lane. Once you hit Level 5, use your ultimate for kill pressure or roam to other lanes using your stealth.",
+    "midGame": "中盤はステルスを駆使して、孤立した敵をアサシンしたり、味方のガンクをサポートしたりする遊撃手として動きます。地形を活用したスキル3のフックショットで、予期せぬ角度からエンゲージすることが重要です。味方が倒された場合は、悪党をキルして復活させるパッシブを狙いましょう。",
+    "midGameEn": "In the mid game, act as a roamer using stealth to assassinate isolated targets or assist with ally ganks. It's crucial to engage from unexpected angles using your Skill 3 hookshot around terrain. If allies are taken down, focus on killing Scoundrels to trigger your resurrection passive.",
+    "lateGame": "終盤は敵のCCやバーストダメージに弱いため、集団戦では立ち位置に細心の注意が必要です。不用意にフックショットで突っ込まず、味方のエンゲージに合わせて後入りする形が理想です。蘇生パッシブは終盤のオブジェクトファイトで試合を決定づける力があります。",
+    "lateGameEn": "In the late game, you are vulnerable to CC and burst damage, so positioning in teamfights requires extreme caution. Avoid diving in recklessly with your hookshot; ideally, follow up on your team's engage. Your resurrection passive can be game-deciding around late-game objective fights.",
+    "teamfight": "集団戦では、敵のキャリーを横から強襲するか、味方のピールを受けながらフロントからダメージを出します。フックショットは逃げスキルとしても強力なので、敵のアサシンから距離を取る際にも活用しましょう。悪党のキルを最優先し、チームの人数有利を作り出すことが勝利への鍵です。",
+    "teamfightEn": "In teamfights, either flank the enemy carries or deal damage front-to-back while being peeled by your team. The hookshot is also a powerful escape tool, so use it to create distance from enemy assassins. Prioritizing Scoundrel kills to create a numbers advantage is the key to victory.",
+    "strengths": [
+      "序盤の強力なライントレードとハラス",
+      "ステルスによる高いローム性能",
+      "味方を即座に復活させる唯一無二のパッシブ"
+    ],
+    "strengthsEn": [
+      "Strong early lane trading and harass",
+      "High roaming potential with stealth",
+      "Unique passive that instantly revives allies"
+    ],
+    "weaknesses": [
+      "CCに非常に弱く、フックショットを止められると致命的",
+      "終盤のダメージスケーリングがやや控えめ",
+      "操作難易度が高く、地形の把握が必須"
+    ],
+    "weaknessesEn": [
+      "Extremely vulnerable to CC; being interrupted during hookshot is fatal",
+      "Slightly lower late-game damage scaling",
+      "High mechanical skill floor and requires terrain awareness"
+    ]
+  },
+  "Nilah": {
+    "earlyGame": "序盤は射程が短いため、敵のハラスに耐えながらファームに集中しましょう。スキル1でラストヒットを取りつつ、回復とシールドを活かして体力を維持します。味方からの回復やシールド効果が増幅されるパッシブがあるため、エンチャンターサポートとの相性が抜群です。レベル5でアルティメットを覚えると、強力なオールインが可能になります。",
+    "earlyGameEn": "Due to your short range in the early game, focus on farming while enduring enemy harass. Use Skill 1 to secure last hits and rely on healing and shielding to sustain. Your passive amplifies incoming heals and shields, making you synergize perfectly with enchanter supports. Hitting Level 5 unlocks your ultimate for a strong all-in.",
+    "midGame": "中盤はコアアイテムが揃い始め、ダメージとサステインが跳ね上がります。スキル2で敵の通常攻撃を無効化しながら接近し、スキル3のダッシュで敵陣に飛び込んで戦いましょう。ジャングルの小規模戦やオブジェクトファイトで、複数人を巻き込むように立ち回るのが強力です。",
+    "midGameEn": "In the mid game, core items start coming online, significantly boosting your damage and sustain. Use Skill 2 to dodge basic attacks while closing the gap, and dash in with Skill 3. You excel in jungle skirmishes and objective fights by trying to catch multiple enemies.",
+    "lateGame": "終盤のニーラは圧倒的な火力と自己回復力を持つ、近接ハイパーキャリーとなります。クリティカル率に応じて防御貫通とライフスティールが増加するため、タンク相手でも溶かすことができます。ただし、敵のハードCCには弱いため、入るタイミングを見極めることが非常に重要です。",
+    "lateGameEn": "In the late game, Nilah becomes a melee hypercarry with overwhelming damage and self-healing. Scaling critical strike chance grants armor penetration and lifesteal, allowing you to melt even tanks. However, you are highly susceptible to hard CC, making the timing of your engage absolutely critical.",
+    "teamfight": "集団戦では、敵の主要なCCスキルが使われた後、または味方のイニシエートに合わせて飛び込みます。アルティメットで敵を中央に引き寄せ、スキル1のAoEダメージを叩き込みましょう。スキル2をタイミング良く使い、敵マークスマンの攻撃を無効化しつつ味方を守る動きも効果的です。",
+    "teamfightEn": "In teamfights, dive in after key enemy CC abilities are used, or follow up on your team's initiation. Use your ultimate to pull enemies together and unleash AoE damage with Skill 1. Timing your Skill 2 correctly to dodge enemy marksmen's attacks while protecting nearby allies is also highly effective.",
+    "strengths": [
+      "近接戦闘における圧倒的な火力とサステイン",
+      "味方の回復とシールド効果を増幅させるパッシブ",
+      "スキル2による通常攻撃の無効化と魔法ダメージ軽減"
+    ],
+    "strengthsEn": [
+      "Overwhelming damage and sustain in melee combat",
+      "Passive that amplifies ally healing and shielding",
+      "Skill 2 dodges basic attacks and reduces magic damage"
+    ],
+    "weaknesses": [
+      "射程が短く、序盤のレーニングが苦しい",
+      "敵のポーク構成やカイトに弱い",
+      "ダメージを出すために接近する必要があり、CCに弱い"
+    ],
+    "weaknessesEn": [
+      "Short range makes early laning phase difficult",
+      "Weak against poke compositions and kiting",
+      "Needs to get into melee range to deal damage, vulnerable to CC"
+    ]
+  },
+  "Zoe": {
+    "earlyGame": "序盤はスキル1のパドルスターでミニオンのラストヒットを取りつつ、敵へのハラスを狙います。スキル3の睡眠を壁越しに当てると射程が伸びるため、死角からの奇襲を意識しましょう。レベル5になれば、アルティメットを使った予測困難なポークや、安全な位置からの睡眠付与が可能になります。",
+    "earlyGameEn": "In the early game, focus on last-hitting minions and harassing the enemy with your Skill 1 Paddle Star. Your Skill 3 Sleepy Trouble Bubble travels further over walls, so aim for surprise attacks from blind spots. Reaching Level 5 allows for unpredictable poke and safe bubble casts using your ultimate.",
+    "midGame": "中盤は視界外からの超遠距離ポークと、睡眠からのワンコンボキルを狙うキャッチ要員として機能します。オブジェクト周辺の視界を確保し、敵が近づいてきたところを壁越しのスキル3で狙撃しましょう。落ちているサモナースペルやアクティブアイテムを拾い、機動力を高めながら戦場を駆け回るのがゾーイの強みです。",
+    "midGameEn": "In the mid game, function as a catch-focused mage, dealing extreme long-range poke and executing one-combo kills on sleeping targets. Secure vision around objectives and snipe approaching enemies with Skill 3 through walls. Picking up dropped Summoner Spells and active items to boost mobility and traverse the battlefield is Zoe's core strength.",
+    "lateGame": "終盤は一度のスキル1で柔らかい敵の体力を半分以上削るほどの圧倒的なバーストダメージを持ちます。集団戦が本格的に始まる前に敵をポークし、戦意を喪失させるかリコールに追い込むのが理想の展開です。ただし、自身も非常に打たれ弱いため、立ち位置には細心の注意を払いましょう。",
+    "lateGameEn": "In the late game, Zoe possesses overwhelming burst damage, easily taking over half a squishy target's health with a single Skill 1. The ideal scenario is poking enemies before a full teamfight starts, forcing them to retreat or recall. However, since you are highly squishy, pay extremely close attention to your positioning.",
+    "teamfight": "集団戦のど真ん中で戦うのではなく、外縁部からポークと睡眠で敵陣を崩す役割を担います。味方の前衛にピールしてもらいながら、敵のキャリーにスキル3を当てることを狙いましょう。乱戦になれば、敵が使用したスペルを拾って連発し、予測不可能な動きで敵を翻弄できます。",
+    "teamfightEn": "Rather than fighting in the middle of a teamfight, your role is to disrupt the enemy team from the periphery using poke and sleep. Rely on your frontline for peel while trying to land Skill 3 on enemy carries. In chaotic fights, you can continuously pick up and use dropped spells to outmaneuver the enemy with unpredictable movement.",
+    "strengths": [
+      "超長射程からの理不尽なバーストダメージ",
+      "壁越しの睡眠による強力なキャッチ能力",
+      "敵のサモナースペルを奪って利用する変幻自在な立ち回り"
+    ],
+    "strengthsEn": [
+      "Unreasonable burst damage from extreme range",
+      "Powerful catch potential with sleep through walls",
+      "Unpredictable playstyle by stealing and using enemy Summoner Spells"
+    ],
+    "weaknesses": [
+      "方向指定スキルへの依存度が高く、当てられないと火力が出ない",
+      "逃げスキルが乏しく、一度捕まるとすぐに倒される",
+      "ウェーブクリアがやや遅く、押し込まれるとポークの強みが活きない"
+    ],
+    "weaknessesEn": [
+      "Highly dependent on skillshots; dealing no damage if you miss",
+      "Lacks reliable escape tools and dies quickly if caught",
+      "Somewhat slow wave clear, losing poke advantage when pushed in"
+    ]
   }
 }
