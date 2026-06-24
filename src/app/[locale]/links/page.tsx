@@ -65,10 +65,15 @@ export default function LinksPage() {
             {t('useful')}
           </h2>
           <div className="space-y-3">
-            {/* ここに追加のリンクを入れられます */}
-            <div className="p-4 rounded-2xl border border-dashed border-slate-200 bg-slate-50 text-center text-sm font-semibold text-slate-400">
-              準備中
-            </div>
+            <a 
+              href="https://hub-game.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block p-4 rounded-2xl border border-slate-100 hover:border-indigo-200 hover:bg-slate-50 transition-colors"
+            >
+              <div className="font-bold text-slate-800">Hub-Game.com</div>
+              <div className="text-xs text-slate-500 mt-1">ゲーム攻略ポータルサイト</div>
+            </a>
           </div>
         </div>
       </div>
