@@ -1,276 +1,117 @@
 {
   "glossary": [
-    {
-      "term": "Gank (ガンク)",
-      "descJa": "他のレーンに奇襲をかけること。ジャングラーやミッドレーナーの華であり、試合を動かす最大のファクターだ。初心者はただ突っ込むのではなく、「敵が自陣のタワーに近寄りすぎている（オーバーエクステンド）」タイミングを虎視眈々と狙え！ガンクを刺す前にはピン（Ping）を鳴らして味方に知らせるのがマナーであり、成功率を爆上げする秘訣だ。敵の視界（ワード）を避けるルート取りも意識しろ。キルが取れなくても、敵のフラッシュやウルトを落とさせるだけでレーナーは圧倒的に楽になる。深追いしすぎてカウンターガンク（逆襲）を食らうのだけは絶対に避けろよ！",
-      "descEn": "An ambush on an unsuspecting lane, the bread and butter of Junglers and Mid laners. Don't just run in blindly! Wait for the enemy to overextend (push past the river). Ping your laner before going in—communication is key to executing a perfect gank. Path through unwarded areas to maintain the element of surprise. Remember, burning an enemy's Flash or Ultimate is still a massive win for your laner. Just don't get greedy and dive too deep, or you'll get counter-ganked and throw the lead!"
-    },
-    {
-      "term": "Peel (ピール)",
-      "descJa": "味方のキャリー（主にADCやメイジなど、火力は高いが柔らかいチャンピオン）に群がる敵を剥がし、守り抜くプレイのこと。タンクやサポートの超重要任務だ。初心者は集団戦になると敵のキャリーを狙いに突っ込みがちだが、自分のチームで一番育っている味方を守るほうが勝率が高いことも多い。CC（スタンやスロウ）を使って敵のアサシンやファイターの足を止め、味方キャリーが安全にダメージを出し続けられる「最強の砲台」になれる環境を整えてやれ！",
-      "descEn": "Protecting your fragile carry (like your ADC or Mage) from enemy threats. This is the sacred duty of Supports and Tanks. Beginners often tunnel vision on diving the enemy backline, but keeping your most fed teammate alive is usually the winning play. Use your Crowd Control (stuns, slows, knock-ups) to stop enemy assassins or fighters in their tracks. Create a safe zone where your carry can pump out maximum DPS without fear of getting deleted!"
-    },
-    {
-      "term": "CC (Crowd Control)",
-      "descJa": "スタン、スネア、スロウ、ノックアップなど、敵の行動を制限するスキルの総称。ワイルドリフトにおいてCCは絶対正義だ。CCチェイン（味方とタイミングを合わせてCCを連続で当てること）が決まれば、どんなに育った敵でも何もできずに溶かすことができる。自分がCCスキルを持っているなら、適当に撃つのではなく、敵のキャリーに当てるか、味方を守るために残しておくか、状況を見極める冷静さを持て！",
-      "descEn": "Abilities that limit enemy movement or actions (Stuns, Snares, Slows, Knock-ups). In Wild Rift, CC is king. Chaining CC with your team ensures an enemy is locked down and deleted before they can press a single button. If you have a crucial CC ability, don't just spam it off cooldown. Hold it to catch out the enemy carry, or save it to peel for your own team. Patience and timing with CC win teamfights!"
-    },
-    {
-      "term": "Kiting (カイト/引き撃ち)",
-      "descJa": "敵から一定の距離を保ちながら、移動と通常攻撃を繰り返す超絶テクニック。特にADCにとっては必須の命綱だ。敵の近接チャンピオンから逃げつつダメージを与え続けることで、一方的にキルを取ることができる。オートアタック（通常攻撃）を撃った直後の硬直時間を移動でキャンセルするイメージだ。初心者は棒立ちで殴り合いがちだが、常に動き続けることで敵のスキルショットを避けやすくなるメリットもあるぞ！練習あるのみ！",
-      "descEn": "The art of attacking while moving backwards or staying out of the enemy's reach. This is a life-saving mechanic, especially for ADCs. By continuously moving between auto-attacks, you can deal damage to melee enemies while keeping yourself perfectly safe out of their range. It effectively cancels the attack animation's backswing. Don't just stand still like a turret! Keeping on the move also makes you infinitely harder to hit with skillshots."
-    },
-    {
-      "term": "Split Push (スプリットプッシュ)",
-      "descJa": "チームの主力が別の場所（ドラゴンやバロンなど）で敵と睨み合っている隙に、単独で別のレーンを押し込み、タワーを破壊する戦術。1v1に強く、逃げ足の速いチャンピオン（ジャックス、カミール、トリンダメアなど）の十八番だ。敵が自分を止めに2人以上来たら味方が反対側のオブジェクトを取れ、1人しか来なければそいつをボコしてタワーを折るという、相手に地獄の二択を迫る究極の嫌がらせ。ただし、マップを見て敵の動きを把握していないとただのトロール（戦犯）になるので注意！",
-      "descEn": "Pushing a lane alone while the rest of your team applies pressure elsewhere (like at Dragon or Baron). This tactic is perfect for strong 1v1 duelists with high mobility (Jax, Camille, Tryndamere). You force the enemy team into a lose-lose situation: if they send multiple people to stop you, your team takes the major objective. If they send one, you kill them and take the tower. However, if you do this without map awareness and die for free, you're just throwing the game!"
-    },
-    {
-      "term": "Freeze (フリーズ/ウェーブ管理)",
-      "descJa": "自陣タワーの攻撃がギリギリ届かない位置でミニオン同士を戦わせ、ウェーブの進行を「凍結」させる高度なテクニック。自分が有利な時にこれを行うと、敵はミニオンのラストヒット（CS）を取るために危険な位置まで前に出ざるを得なくなり、ガンクの格好の的になるか、経験値すら吸えずに餓死する。レーン戦で相手を精神的に追い詰める最強のハラスメント手法だ。ラストヒットだけをギリギリのタイミングで取るのがコツだ！",
-      "descEn": "Holding the minion wave right outside your tower's range. When you have a lead, freezing forces the enemy laner to step dangerously far forward just to get last hits or even soak experience. This makes them incredibly vulnerable to ganks. It's the ultimate psychological warfare in the laning phase, effectively starving your opponent of gold and exp. Only last-hit minions at the very last possible second to maintain the freeze!"
-    },
-    {
-      "term": "Slow Push (スロープッシュ)",
-      "descJa": "敵のミニオンを自陣のミニオンより少しだけ減らし、時間をかけて巨大なミニオンウェーブを作り上げること。これがタワーに押し寄せると、敵はタワー下で大量のCSを処理するのに釘付けになり、その隙に自分はドラゴンに寄ったり、リコールしたり、ロームしたりする「時間」を作り出せる。巨大なウェーブを盾にしてのタワーダイブも超強力だ。マクロを理解する上で絶対にマスターしたいテクニックの一つ！",
-      "descEn": "Killing just a few enemy minions (like the caster minions) so your wave slowly builds up into a massive army as it pushes forward. When this huge wave crashes into the enemy tower, the opponent is forced to stay and clear it. This gives you a massive window of 'free time' to roam, secure Dragon, or recall. Diving the enemy with a huge minion wave backing you up is also devastating. Mastering slow pushes is key to high-level macro play!"
-    },
-    {
-      "term": "Engage (エンゲージ)",
-      "descJa": "集団戦（チームファイト）の火蓋を切ること。アリスターのコンボや、マルファイトのウルトなど、強力なCCを伴う突撃が一般的だ。最高のエンゲージは、敵の陣形が崩れている時や、敵のキャリーが甘えた位置に出た瞬間にブチかますこと！ただし、味方がついてこれない距離から1人で突っ込むと、ただの「自殺志願者」になってしまう。常に味方の位置と、ウルトやフラッシュのクールダウンを確認してからゴーサインを出せ！",
-      "descEn": "Initiating a teamfight. This is usually done with a powerful CC ability, like an Alistar combo or a Malphite ultimate. The perfect engage happens when the enemy team is out of position or their carry steps too far forward. But beware: if you engage from two screens away and your team can't follow up, you're not a hero, you're just feeding. Always check your team's positioning and ultimate cooldowns before pulling the trigger!"
-    },
-    {
-      "term": "Disengage (ディスエンゲージ)",
-      "descJa": "敵のエンゲージをいなし、不利な戦闘を強制終了させて後退すること。ジャンナのウルトやナミの波が代表的だ。味方の体力が低い時や、数的不利な状況で敵が突っ込んできた時に、チームの全滅を防ぐ命綱となる。「今は戦うべきではない」という素早い判断力と、敵の突進を完璧にカウンターするスキル精度が求められる。逃げるが勝ちという言葉は、ワイルドリフトでも大正解だ！",
-      "descEn": "Forcing the enemy to stop their engage and backing away from an unfavorable fight. Champions like Janna (with her ultimate) or Nami excel at this. Disengaging saves your team from getting wiped when you're low on health or outnumbered. It requires split-second decision-making to realize 'we can't win this' and the mechanical skill to perfectly counter the enemy's dive. Living to fight another day is always a winning strategy!"
-    },
-    {
-      "term": "Macro (マクロ)",
-      "descJa": "操作スキル（ミクロ）ではなく、マップ全体の状況把握、オブジェクト（タワー、ドラゴン、バロン）の管理、ウェーブコントロール、人員配置など、ゲーム全体を俯瞰する「戦略」のこと。操作が多少下手でも、マクロが神ががっていれば勝てるのがMOBAの面白いところ。次に出るドラゴンは何か？敵のジャングラーは今どこにいるか？どのレーンを押すべきか？常に頭をフル回転させて、チームを勝利に導く司令塔になれ！",
-      "descEn": "The strategic aspect of the game, completely separate from mechanical skill (Micro). It involves map awareness, objective control (Towers, Dragons, Baron), wave management, and rotations. The beauty of MOBAs is that brilliant macro can often overcome mediocre mechanics. What's the next objective? Where is the enemy jungler? Which lane should be pushed? Always be thinking three steps ahead and act as the brain of your team!"
-    },
-    {
-      "term": "Micro (ミクロ)",
-      "descJa": "チャンピオンの操作精度、スキルのエイムと回避、コンボの入力速度、カイトなどの「プレイヤースキル・反射神経」のこと。ヤスオ、ゼド、イレリアなどのチャンピオンは、このミクロが極限まで要求される。ミクロが優れていれば、1v2の絶望的な状況でもアウトプレイ（スーパープレイで敵を返り討ちにすること）が可能になる。練習モード（プラクティス）でコンボが手に馴染むまで無限に反復練習しろ！",
-      "descEn": "Your mechanical skill, precision, and reaction time. This covers landing skillshots, dodging abilities, executing fast combos, and kiting. Champions like Yasuo, Zed, and Irelia demand god-tier micro. Players with insane micro can turn absolute 1v2 disadvantages into mind-blowing outplays. Hit the practice tool and drill your champion's combos until they become pure muscle memory!"
-    },
-    {
-      "term": "Roam (ローム)",
-      "descJa": "自分の担当レーンを離れて、他のレーンに介入（ガンクなど）したり、ジャングラーと一緒に敵の森に侵入したりする動き。主にミッドレーナーやサポートが行う。自分のレーンのミニオンを敵タワーまで押し込んでからロームするのが鉄則。そうしないと、自分が留守の間にタワーの耐久値を削られ、ミニオンの経験値とゴールドをロストして大損してしまう。上手いロームは試合をぶっ壊すほどのインパクトがあるぞ！",
-      "descEn": "Leaving your assigned lane to impact other parts of the map, like ganking another lane or invading the enemy jungle with your Jungler. Mid laners and Supports are the main roamers. The golden rule: always push your minion wave under the enemy tower before roaming! If you don't, you'll lose tons of gold and exp to your own tower, and the enemy will take tower plates. A well-timed roam can snowball the entire game out of control!"
-    },
-    {
-      "term": "Priority (プライオリティ / Prio)",
-      "descJa": "「レーン主導権」のこと。自分がミニオンウェーブを敵陣側に押し込んでおり、いつでも自由にレーンから離れられる状態を指す。「ミッドにPrioがある」なら、味方のジャングラーは強気に川（リバー）の蟹（スカトル）を取ったり、ドラゴンを触ったりできる。なぜなら、戦闘が起きてもミッドレーナーが先に合流（寄る）できるからだ。ジャングラーを助けたいなら、まずは自分のレーンでPrioを確保しろ！",
-      "descEn": "Lane priority. It means you have pushed your minion wave faster than your opponent, giving you the freedom to move first to a skirmish. If your Mid laner has 'Prio', your Jungler can aggressively contest the Scuttle Crab or start Dragon, knowing that their Mid laner can rotate to help much faster than the enemy. If you want to help your Jungler secure the map, you need to establish priority in your lane!"
-    },
-    {
-      "term": "Ward / Vision Control (ワード / 視界管理)",
-      "descJa": "マップの暗闇に視界をもたらすアイテム（ワード）を置き、敵の動きを把握すること。ワイルドリフトにおいて「視界は命」だ。敵のジャングラーのガンクを未然に防ぎ、オブジェクト周りの有利を作るために必須。逆に、スイープレンズ（赤トリンケット）やコントロールワードを使って敵の視界を消すことも同じくらい重要だ。サポートだけでなく、5人全員がマップの暗がりにワードを刺し続ける意識を持て！",
-      "descEn": "Placing wards to illuminate the fog of war and track enemy movements. In Wild Rift, vision is quite literally life. It prevents enemy ganks and is absolutely mandatory for setting up major objectives. Conversely, denying enemy vision with Sweeping Lenses or Control Wards is just as crucial. Vision control isn't just the Support's job—all 5 players must actively participate in lighting up the map and starving the enemy of information!"
-    },
-    {
-      "term": "Invade (インベード)",
-      "descJa": "敵のジャングル（森）に侵入すること。試合開始直後に全員で突撃してファーストブラッド（最初のキル）を狙う「レベル1インベード」や、敵ジャングラーが逆サイドにいる隙に中立モンスターを根こそぎ奪い取るカウンタージャングルなどがある。敵のメンタルとリソースを同時にへし折る強力な戦術だが、敵のカバーが早かった場合は逆に自分たちが崩壊するハイリスク・ハイリターンなプレイだ！",
-      "descEn": "Entering the enemy's jungle. This could be a 5-man 'Level 1 Invade' right at the start of the game to secure First Blood, or sneaking in to steal jungle camps (Counter-jungling) when the enemy jungler shows on the opposite side of the map. It's a high-risk, high-reward tactic that destroys the enemy jungler's resources and mental state. Just make sure you have lane priority, or you'll get collapsed on and feed!"
-    },
-    {
-      "term": "Leash (リーシュ)",
-      "descJa": "試合開始直後、ジャングラーが最初の中立モンスター（赤バフや青バフ）を狩るのを、サイドレーンのプレイヤーが数発殴って手伝ってあげること。これがあるとジャングラーは体力と時間を大幅に節約でき、その後のガンクが成功しやすくなる。ただし、殴りすぎてトドメ（ラストヒット）を奪ってしまうとジャングラーが発狂するので、モンスターの体力が500くらいになったら速やかに自分のレーンに戻れ！",
-      "descEn": "Helping your Jungler damage their first jungle camp (Red or Blue buff) at the very start of the game. A good leash saves your Jungler massive amounts of health and time, allowing them to clear faster and gank sooner. But beware: DO NOT steal the last hit! Once the monster drops to around 500 HP, immediately back off and head to your lane so you don't miss any minion experience."
-    },
-    {
-      "term": "Poke (ポーク)",
-      "descJa": "遠距離からスキルや通常攻撃でチクチクとダメージを与え、敵の体力を削ること。ジグス、エズリアル、ジェイスなどの得意技。本格的な集団戦（オールイン）が始まる前に敵をボロボロにしておけば、戦わずにオブジェクト（タワーやドラゴン）を明け渡すか、負け戦をするかの地獄の二択を迫ることができる。ポークする時は、敵の強引なエンゲージ（突進）に捕まらないよう、絶対に安全な距離を保て！",
-      "descEn": "Whittling down the enemy's health from a safe distance using long-range abilities or attacks. Champions like Ziggs, Ezreal, and Jayce are masters of poke. By draining the enemy's health before a full teamfight even starts, you force them into a brutal choice: give up the objective for free, or take a fight they are guaranteed to lose. When poking, maintain max distance so you don't get engaged on!"
-    },
-    {
-      "term": "Burst (バースト)",
-      "descJa": "一瞬で爆発的なダメージを叩き出すこと。アサシン（ゼドやフィズ）やバーストメイジ（アニーやヴェイガー）の代名詞。敵の柔らかいキャリーを0.5秒で消し炭にするのが仕事だ。バーストダメージを叩き込んだ後はスキルがクールダウンに入り、一時的に無力になるため、確実にキルを取り切れるタイミングを見極める「暗殺者の眼」が必要不可欠だ。敵のキャリーにフラッシュを使わせる暇も与えるな！",
-      "descEn": "Dealing massive amounts of damage in a fraction of a second. This is the hallmark of Assassins (Zed, Fizz) and Burst Mages (Annie, Veigar). Your sole purpose is to delete the enemy's squishy carry in the blink of an eye. Since your damage drops to zero while your abilities are on cooldown, you must have the 'eye of an assassin' to know exactly when your combo is lethal. Don't even give them time to press Flash!"
-    },
-    {
-      "term": "Sustained Damage / DPS (継続ダメージ)",
-      "descJa": "スキルコンボの一発屋ではなく、通常攻撃などを主体にして「途切れることなく一定のダメージを出し続ける」能力。ADC（マークスマン）や一部のファイターが担当する。硬いタンクやブルーザーを削り切るには、バーストよりもこのDPSが絶対に必要になる。集団戦でDPSキャラがどれだけ長く生き残って殴り続けられるかが、勝敗を分ける最大のカギだ。最後まで生き残って全員蜂の巣にしてやれ！",
-      "descEn": "Damage Per Second. The ability to output consistent, continuous damage over a long period, primarily through auto-attacks. ADCs (Marksmen) and some Fighters excel at this. Burst damage won't scratch a massive Tank, so DPS is absolutely mandatory to melt down beefy frontlines. The outcome of a teamfight is entirely dependent on how long the DPS champions can stay alive and keep auto-attacking. Stay alive and shred them all!"
-    },
-    {
-      "term": "Frontline (フロントライン)",
-      "descJa": "チームの最前線に立ち、敵の攻撃を受け止めたり、敵陣に突撃したりする役割。ガチムチのタンク（ドクター・ムンド、サイオン）やファイターが担う。自分が肉の盾となることで、後ろにいる柔らかい味方（バックライン）が安全にダメージを出せる環境を作るのが仕事だ。「俺の屍を越えてゆけ」の精神で、敵の強烈なCCやウルトを全身で受け止めろ！ただし、無意味に突っ込んで犬死にするのはNGだ。",
-      "descEn": "The vanguard of the team, responsible for absorbing enemy damage and engaging fights. Beefy Tanks (Dr. Mundo, Sion) and Fighters form the frontline. Your job is to be a meat shield, creating a safe perimeter for your squishy backline carries to deal damage. Embrace the 'over my dead body' mentality and soak up critical enemy CC and ultimates! Just remember, being a frontline doesn't mean feeding pointlessly."
-    },
-    {
-      "term": "Backline (バックライン)",
-      "descJa": "チームの後方に位置し、安全な場所からダメージや回復・シールドを提供する役割。ADC、メイジ、エンチャンターサポートが該当する。フロントラインが作ってくれた壁の後ろから、火力をぶち撒けるのが仕事だ。立ち位置（ポジショニング）が全てであり、敵のアサシンに横からワンパンされたらその集団戦は即終了となる。常に敵の脅威の位置を把握し、ミリ単位で安全圏をキープする臆病さと冷静さを持て！",
-      "descEn": "The fragile champions positioned safely in the rear, providing damage, healing, or shields. ADCs, Mages, and Enchanter Supports make up the backline. Your job is to pump out maximum damage from behind the safety of your beefy frontline. Positioning is everything—if an enemy assassin flanks and one-shots you, the teamfight is instantly lost. Maintain a healthy dose of paranoia, track enemy threats, and keep your distance!"
-    },
-    {
-      "term": "Zoning (ゾーニング)",
-      "descJa": "自分の存在やスキルを使って、敵を特定のエリアから「追い払う・近づかせない」ようにすること。育ったファイターや強力なCCを持つサポートが敵のキャリーにプレッシャーをかけ、集団戦に参加させない動きが代表的。また、レーン戦で有利な時にミニオンの前に立ち、敵が経験値すら吸えないようにする「経験値ゾーニング」は、相手を確実におかしくさせる極悪非道なテクニックだ！",
-      "descEn": "Using your presence or abilities to completely deny enemies access to a specific area. A fed fighter or a support with heavy CC can zone the enemy carry, completely preventing them from joining a teamfight. In lane, 'EXP Zoning'—standing past the minion wave when you have a massive lead so the enemy can't even get close enough to soak experience—is a ruthless tactic guaranteed to tilt your opponent into oblivion!"
-    },
-    {
-      "term": "CS / Last Hit (CS / ラストヒット)",
-      "descJa": "Creep Scoreの略。ミニオンに最後の一撃（トドメ）を刺してゴールドを獲得すること。ワイルドリフトで強くなるための最も地味で、最も重要な基礎スキル。キルを取るよりも、確実にCSを取りこぼさないプレイヤーの方が最終的なゴールド量は多くなる。プラクティスモードで、スキルを一切使わずに通常攻撃だけで完璧にCSを取る練習を100時間やれ！それがチャレンジャーへの第一歩だ！",
-      "descEn": "Creep Score. Securing the killing blow on a minion to earn gold. This is the most unglamorous yet absolutely crucial fundamental skill in Wild Rift. A player who farms perfectly will always have more gold and items than a player who constantly hunts for coin-flip kills. Go into the Practice Tool and spend 100 hours practicing perfect last-hitting using ONLY your auto-attacks. That is your first real step toward Challenger!"
-    },
-    {
-      "term": "Recall / Back (リコール / バック)",
-      "descJa": "基地（泉）に帰還し、体力とマナを全回復してアイテムを購入すること。リコールする「タイミング」がマクロの極意だ。ウェーブを敵タワーに押し付けた直後や、敵をキルした直後がベストタイミング。中途半端なタイミングで帰ると、ミニオンウェーブをタワーに焼かれて莫大なゴールドと経験値を失う。常に「今帰ってアイテムを買えば、次のドラゴン戦で無双できるか？」を計算してリコールボタンを押せ！",
-      "descEn": "Teleporting back to the fountain to restore health/mana and buy items. Knowing EXACTLY when to recall is the essence of macro. The best time is right after crashing a minion wave into the enemy tower or securing a kill. Recalling at the wrong time means your tower will execute your minion wave, causing you to lose massive amounts of gold and exp. Always calculate: 'If I back now, will my new item win us the upcoming Dragon fight?'"
-    },
-    {
-      "term": "Dive / Tower Dive (ダイブ / タワーダイブ)",
-      "descJa": "敵が安全だと思っている「自陣のタワー下」に強引に突っ込み、敵をキルすること。大量のミニオンを押し付けたタイミングで味方のジャングラーと共に行うのがセオリーだ。タワーの強力な攻撃（アグロ）を誰が受け、どのタイミングで範囲外に逃げるか（アグロピンポン）の完璧な連携が求められる。成功すれば敵のメンタルは粉砕されるが、失敗すれば敵にダブルキルを献上する諸刃の剣！計算し尽くされた殺意を持て！",
-      "descEn": "Aggressively attacking an enemy who thinks they are safe under their own tower. This is typically orchestrated with your Jungler right after pushing a massive minion wave into the tower. It requires flawless execution of 'aggro juggling'—knowing who takes the first tower shot and exactly when they need to step out of range to survive. A successful dive shatters the enemy's mental, but a botched one feeds them a double kill. Execute with calculated malice!"
-    },
-    {
-      "term": "Trade (トレード)",
-      "descJa": "レーン戦において、敵とお互いにダメージを与え合うこと。自分のスキルを当てて敵のスキルを避ける、または味方のミニオンが多いタイミングで殴り合うなどして、「敵の体力を自分より多く減らす（有利なトレード）」ことがレーン戦を制する鍵となる。敵がラストヒット（CS）を取ろうと通常攻撃のモーションに入った一瞬の隙を狙ってスキルを叩き込むのは、上位帯では常識の凶悪テクニックだ！",
-      "descEn": "Exchanging damage with your lane opponent. The entire laning phase revolves around securing 'winning trades'—dealing more damage to the enemy than you take by landing your skills, dodging theirs, or fighting inside a larger allied minion wave. Striking the enemy the exact millisecond they are locked in their auto-attack animation to secure a CS is a brutal, mandatory tactic in high Elo. Make them bleed for every single minion!"
-    },
-    {
-      "term": "All-in (オールイン)",
-      "descJa": "フラッシュ、アルティメット、イグナイトなど、自分が持っている全てのリソース（手札）を出し切って、確実に敵をキルしにいくプレイ。敵の体力が減っていたり、敵の重要なスキル（フラッシュなど）がクールダウン中であることを完璧に把握した上で発動する。「絶対に殺す」という強い意志と、ダメージ計算の正確さが必要。失敗すると全てを失い、丸裸でレーンに戻るハメになるので気合いを入れろ！",
-      "descEn": "Committing absolutely everything you have—Ultimate, Flash, Ignite, all abilities—in a do-or-die attempt to secure a kill. You only pull this trigger when you know the enemy's health is in lethal range, or you are tracking their cooldowns and know their Flash is down. It requires total commitment and perfect damage calculation. If you fail an all-in, you are left completely exposed with zero defensive tools. Go big or go home!"
-    },
-    {
-      "term": "Shotcall (ショットコール)",
-      "descJa": "試合中、「今バロンをやろう」「ここは引こう」「このタワーを折ろう」など、チームの動きを決定づける指示（ピン出しやチャット）を行うこと。迷いのあるチームは確実に負ける。優れたショットコーラーは、多少リスクのある判断でもチーム全員を信じさせて動かすカリスマ性が必要。自分が一番育っている時や、ジャングラー・サポートなどのマップ全体を見ているロールが積極的にピンを出してチームを引っ張れ！",
-      "descEn": "Making the critical in-game decisions and directing your team via Pings or chat (e.g., 'Rush Baron now,' 'Back off,' 'Push mid'). A hesitant team is a losing team. A great shotcaller needs the charisma and game sense to make the entire team commit to a play, even a risky one. If you are the most fed player, or playing a high-macro role like Jungle/Support, you MUST use your pings aggressively and lead your troops to victory!"
-    },
-    {
-      "term": "MMR / Elo (マッチメイキングレート)",
-      "descJa": "画面上のランク（ゴールドやエメラルドなど）とは別に、システムが裏で計算しているあなたの「本当の実力値」。連勝するとMMRが爆上がりし、自分より上のランクのプレイヤーとマッチングするようになる（勝つとポイントが多く貰える）。逆に連敗するとMMRが腐り、勝ってもポイントが貰えない地獄（通称ヘル）に落ちる。MMRを高く保つ唯一の秘訣は、自分のプレイに集中して着実に勝率を上げることだ！",
-      "descEn": "Matchmaking Rating. The hidden, internal number the system uses to determine your 'true' skill level, entirely separate from your visible rank (like Gold or Emerald). Win streaks skyrocket your MMR, placing you with higher-ranked players and giving you massive LP gains. Lose streaks ruin your MMR, trapping you in 'Elo Hell' where a win barely gives you anything. The only way to fix your MMR is to focus on your own gameplay and grind out a positive win rate!"
-    },
-    {
-      "term": "Tilt (ティルト)",
-      "descJa": "ミスや味方のトロール、理不尽な負け方などによってメンタルが崩壊し、冷静なプレイができなくなる状態のこと。ティルト状態のプレイヤーは無理な戦闘を仕掛けては死ぬ「フィードマシーン」と化す。連敗している時は間違いなくティルトしているので、ワイルドリフトを一旦閉じて外の空気を吸え。冷たい水を飲み、深呼吸しろ。メンタルコントロールも最強のプレイヤースキルの一つだということを忘れるな！",
-      "descEn": "A state of severe mental frustration and anger caused by mistakes, toxic teammates, or bad losses, resulting in a total inability to play rationally. A tilted player becomes a feeding machine, constantly forcing bad fights out of desperation. If you're on a losing streak, you are tilted. Close the game. Go outside. Drink some water. Breathe. Never queue up angry! Emotional control is arguably the most powerful mechanical skill in the entire game!"
-    },
-    {
-      "term": "Smurf (スマーフ)",
-      "descJa": "高ランクの実力者が、わざと低ランクの新しいアカウント（サブ垢）を作り、初心者を無双してボコボコにすること。敵にスマーフのゼドやリー・シンがいた場合、絶望的な実力差でゲームを完全に破壊される。理不尽に感じるかもしれないが、「上位帯のプレイヤーはこんな動きをするのか」とリプレイを見て学ぶチャンスでもある。心を折られずに、スマーフの動きを全て盗んで自分の血肉にしろ！",
-      "descEn": "A highly skilled, high-ranked player playing on a brand new, low-ranked account to completely stomp beginners. Facing a Smurf playing Zed or Lee Sin can feel utterly hopeless as they systematically dismantle your entire team. It's frustrating, but treat it as a masterclass. Watch the replay. How did they move? How did they manage the wave? Don't let it break your mental; steal their knowledge, adapt, and use their tricks to climb!"
-    },
-    {
-      "term": "OP / Broken (OP / ぶっ壊れ)",
-      "descJa": "Overpoweredの略。現在のパッチにおいて、性能が高すぎて「バランスが崩壊している」チャンピオンやアイテムのこと。ワイルドリフトでは頻繁にバランス調整が行われるため、昨日のゴミが今日のOPになることも日常茶飯事。パッチノートを読み込み、現在何がOPなのかを把握してそれをピックする（あるいはBANする）ことは、ランクを上げるための最もズルくて最も賢い戦略だ！",
-      "descEn": "Overpowered. Champions or items that are statistically so strong in the current patch that they are fundamentally breaking the game's balance. Because Wild Rift is constantly updated, today's trash-tier champion can easily become tomorrow's nightmare OP pick. Religiously reading the patch notes, figuring out what is broken, and either abusing it for free LP or banning it every game is the smartest and dirtiest way to climb the ranks!"
-    },
-    {
-      "term": "Meta (メタ)",
-      "descJa": "Most Effective Tactic Available（現在利用可能な最も効果的な戦術）の略。その時期のパッチにおいて最も勝率が高く、プロや上位プレイヤーがこぞって使うチャンピオン構成や戦術の流行のこと。「今はアサシンが強いメタ」「今はタンクが2枚必要なメタ」などと使われる。自分の好きなチャンピオン（OTP）を貫くのもカッコいいが、メタを理解して環境に順応できる柔軟なプレイヤーこそが最速でランクを駆け上がる！",
-      "descEn": "Most Effective Tactic Available. The dominant playstyles, champion compositions, and strategies that are statistically proven to yield the highest win rates in the current patch. You'll hear things like 'Assassin meta' or 'Tank meta.' While one-tricking your favorite champion (OTP) is respectable, the players who climb the fastest are the flexible ones who deeply understand the meta, adapt to the current ecosystem, and ruthlessly exploit what is currently strong!"
-    }
+    { "term": "Gank (ガンク)", "descJa": "他のレーンに奇襲をかけること。", "descEn": "Ambushes from another lane." },
+    { "term": "CC (状態異常)", "descJa": "スタンやスロウなど、敵の行動を制限するスキル。", "descEn": "Crowd Control (Stuns, Slows, Roots)." },
+    { "term": "Peel (ピール)", "descJa": "味方のキャリーを敵の攻撃から守る・引き剥がすこと。", "descEn": "Protecting your carries from enemy engage." },
+    { "term": "Kite (引き撃ち)", "descJa": "敵と距離を保ちながら、逃げつつ攻撃すること。", "descEn": "Moving backward between basic attacks to stay safe." },
+    { "term": "Roam (ローム)", "descJa": "自分のレーンから離れ、他のレーンを助けに行くこと。", "descEn": "Leaving your lane to help other lanes." },
+    { "term": "Ward (ワード)", "descJa": "マップに視界を提供するアイテム。最重要。", "descEn": "Items providing map vision. Extremely important." },
+    { "term": "Tilt (ティルト)", "descJa": "感情的になり、冷静なプレイができなくなる状態。", "descEn": "Playing poorly due to frustration or anger." },
+    { "term": "Macro (マクロ)", "descJa": "マップ全体を見た戦術的・大局的な判断力。", "descEn": "Overall game sense and strategic decision-making." },
+    { "term": "Micro (ミクロ)", "descJa": "スキルの命中率や回避など、純粋な操作技術。", "descEn": "Individual mechanical skill and champion control." },
+    { "term": "Focus (フォーカス)", "descJa": "集団戦で、チーム全員が同じ敵を狙うこと。", "descEn": "The team targeting the same enemy in a teamfight." }
   ],
   "lanes": [
     {
       "id": "solo",
-      "nameJa": "Solo (トップレーン)",
-      "nameEn": "Solo Lane (Top)",
-      "guideJa": "Soloレーンの完全攻略マニュアル。通称「陸の孤島」。ここは1対1の純粋な殴り合いと、ウェーブコントロールの技術が全てを決める修羅の国だ。序盤はジャングラーの介入が少ないため、一度キルを取られてレベル差・ゴールド差がつくと、相手がミスしない限り一生タワー下で土下座することになる。だからこそ、「フリーズ」と「スロープッシュ」の概念を絶対にマスターしなければならない。\n\n有利を作ったらミニオンウェーブをタワー手前でフリーズし、敵が経験値を吸いにきたら容赦なく殴りつけろ。タワーを折った後は、チームの盾となる（タンクの場合）か、サイドレーンを一生押し込んで敵にプレッシャーを与え続ける（スプリットプッシャーの場合）かの判断が求められる。\n\nまた、テレポート（靴エンチャント）の使い方はSoloレーンの花形だ。反対側のドラゴン周辺で集団戦が起こりそうな時、巨大なミニオンウェーブを敵タワーに押し付けてからテレポートで背後から急襲（フランク）する動きは、ゲームを決定づける破壊力を持つ。孤独なレーンだが、その影響力は全レーン中トップクラス。己のフィジカルとマクロで敵を捻り潰せ！",
-      "guideEn": "Complete Solo Lane Manual. Often called an 'Island,' the Solo Lane is a ruthless battlefield where pure 1v1 mechanics and flawless wave control dictate everything. Because Junglers visit less frequently early on, a single mistake leading to a death and an experience deficit means you'll be groveling under your tower for the rest of the laning phase. This is exactly why you MUST master the concepts of 'Freezing' and 'Slow Pushing.'\n\nWhen you get a lead, freeze the wave just outside your tower and brutally punish the enemy every time they step up for a minion. Once the first tower falls, you must choose your destiny based on your champion: become the unkillable frontline meat-shield for your team (if playing a Tank), or become a relentless split-pushing nightmare demanding multi-man responses in the side lanes (if playing a Bruiser/Fighter).\n\nFurthermore, mastering Teleport (Boot Enchant) is the pinnacle of Solo Lane expression. Crashing a massive wave into the enemy tower and then Teleporting to completely flank the enemy during a Dragon fight is a game-ending maneuver. You may be isolated, but a fed, macro-smart Solo Laner is an unstoppable force of nature that dictates the entire game!"
+      "nameJa": "Solo (トップ)",
+      "nameEn": "Solo Lane",
+      "pointsJa": [
+        "役割：前線で味方を守る強靭なタンク・ファイター",
+        "序盤：死なずにミニオンを倒し、確実にお金を稼ぐ",
+        "集団戦：敵の陣形に突っ込み、相手の陣形を崩す"
+      ],
+      "pointsEn": [
+        "Role: Tank or Bruiser forming the frontline",
+        "Early: Focus on safe farming without dying",
+        "Teamfight: Dive the enemy backline to disrupt"
+      ]
     },
     {
       "id": "jungle",
       "nameJa": "Jungle (ジャングル)",
       "nameEn": "Jungle",
-      "guideJa": "Jungleレーンの完全攻略マニュアル。チームの心臓であり、ゲームの勝敗の7割を握る最重要かつ最も過酷なロールだ。レーンでミニオンを狩るのではなく、森の中立モンスターを狩りながらマップ全体を駆け回り、味方を勝たせるのが仕事。ジャングラーには「完璧なルート構築」「ガンクのタイミング」「オブジェクト管理」という3つの神業が求められる。\n\n初心者はまず、自分のチャンピオンがレベル5（ウルト取得）で強いのか、レベル2からガンクできるのかを理解しろ。そしてマップを常に10秒に1回は見ろ！敵のレーナーが前に出過ぎていたら、背後からガンクをぶちかましてキルを取るか、最低でもフラッシュを落とさせろ。ガンクが決まったら、そのまま一緒にタワーを殴るか、ドラゴンやヘラルドといった最重要オブジェクトを獲得するんだ。\n\n絶対に忘れてはいけないのが「スマイト（Smite）」の存在。オブジェクトのラストヒットは必ずジャングラーのスマイトで取らなければならない。敵ジャングラーとのスマイト勝負は心臓が止まるほどプレッシャーがかかるが、これに勝てるメンタルと反射神経を持つ者だけが最強のジャングラーを名乗れる。全レーンから文句を言われることもあるが、ミュートにして己の信じる勝利のルートを駆け抜けろ！",
-      "guideEn": "Complete Jungle Manual. The beating heart of the team and the most punishing, high-impact role in the entire game. You don't farm lane minions; you farm neutral camps in the fog of war while orchestrating the flow of the entire map. A Jungler must master three divine arts: flawless pathing, immaculate gank timing, and absolute objective control.\n\nFirst, understand your champion's identity. Are you a terrifying Level 2 ganker, or do you need to power-farm to Level 5 for an Ultimate-reliant powerspike? Look at the minimap every 10 seconds! If an enemy laner is overextended, flank them ruthlessly to secure a kill or burn their Flash. A successful gank should ALWAYS translate into taking a tower plate, stealing enemy jungle camps, or securing a major objective like Dragon or Rift Herald.\n\nThe most critical tool in your arsenal is 'Smite'. Securing the killing blow on epic monsters with Smite is your absolute responsibility. 50/50 Smite battles against the enemy Jungler are heart-stopping, high-adrenaline moments—only those with nerves of steel and lightning reflexes survive. Laners will blame you for everything, but ignore them (or mute them) and execute your master plan. You are the conductor; make them dance to your tune!"
+      "pointsJa": [
+        "役割：中立モンスターを狩りつつ、全レーンを支援",
+        "序盤：ガンク（奇襲）で味方レーナーを有利にする",
+        "集団戦：スマイトでドラゴンやバロンを確実に確保する"
+      ],
+      "pointsEn": [
+        "Role: Clear camps and support all lanes",
+        "Early: Ambush (Gank) to give your laners an advantage",
+        "Teamfight: Secure Dragons/Barons with Smite"
+      ]
     },
     {
       "id": "mid",
-      "nameJa": "Mid (ミッドレーン)",
+      "nameJa": "Mid (ミッド)",
       "nameEn": "Mid Lane",
-      "guideJa": "Midレーンの完全攻略マニュアル。マップのど真ん中に位置する、ゲームの主人公ポジションだ。アサシンやメイジといった、一瞬で敵を消し炭にする超火力チャンピオンが集う激戦区。このレーンの勝者はマップ全域に絶大な影響力（プレッシャー）を及ぼすことができる。\n\nミッドで最も重要な概念が「ローム（遊撃）」と「レーン主導権（Prio）」だ。敵より早くミニオンを処理（プッシュ）できれば、自分が先にジャングラーの川での戦闘に寄ったり、サイドレーン（トップやボット）に奇襲（ガンク）を仕掛けることができる。アサシンを使っているなら、レベル5になった瞬間にサイドレーンにロームしてダブルキルをかっさらうのが仕事だ。メイジを使っているなら、圧倒的なポーク（遠距離攻撃）で敵の体力を削り、集団戦を始まる前に終わらせろ。\n\nマップの中央にいるため、両サイドのジャングルから敵のガンクを受ける危険性が最も高い。ワードを片方の川（ブッシュ）に置き、ジャングラーがいないと確信できる側に寄ってプレイする「ポジショニング」の技術が生存率を劇的に上げる。最強のミクロ（操作技術）と、全レーンを見渡すマクロ（状況判断）を融合させ、ゲームをキャリーする真の主人公になれ！",
-      "guideEn": "Complete Mid Lane Manual. Positioned at the exact center of the map, you are the main character of the game. This is the thunderdome of explosive Assassins and destructive Mages who can instantly delete squishy targets. Winning the Mid Lane means you radiate terrifying pressure across the entire map.\n\nThe holy grail of Mid lane concepts are 'Roaming' and 'Lane Priority (Prio)'. If you can clear the minion wave faster than your opponent (shoving), you unlock the freedom to rotate first to help your Jungler secure river Scuttle Crabs, or execute devastating ganks in the side lanes. If you're an Assassin, your job is to hit Level 5, shove the wave, and terrorize the side lanes for double kills. If you're a Control Mage, your job is to poke enemies into oblivion and dictate the pace of teamfights before they even begin.\n\nBecause you are in the center, you are susceptible to ganks from all possible angles. Proper warding and 'leaning'—positioning yourself closer to the side of the river you have warded and know is safe—will drastically increase your survival rate. Combine god-tier mechanical outplays (Micro) with map-wide situational awareness (Macro) to carry the game on your back!"
+      "pointsJa": [
+        "役割：高い瞬間火力を持つメイジやアサシン",
+        "序盤：ミニオンを素早く処理し、他レーンへローム（支援）",
+        "集団戦：敵の柔らかいキャリーを瞬殺する"
+      ],
+      "pointsEn": [
+        "Role: High burst damage Mage or Assassin",
+        "Early: Clear waves fast and Roam to help others",
+        "Teamfight: Assassinate the enemy squishy carries"
+      ]
     },
     {
       "id": "duo",
-      "nameJa": "Duo / ADC (デュオ / マークスマン)",
-      "nameEn": "Duo Lane (ADC/Dragon Lane)",
-      "guideJa": "Duoレーン（ADC）の完全攻略マニュアル。チームの最大火力であり、後半戦の勝敗を完全に支配する超重要ポジション。主な役割は、遠距離からの通常攻撃（オートアタック）で敵のタンクを溶かし、タワーやオブジェクトを最速で破壊することだ。しかし、火力と引き換えに「豆腐のように柔らかい」という致命的な弱点を持つ。\n\n序盤は絶対に死なずに、死に物狂いでミニオンのラストヒット（CS）を取り続けろ。ADCの強さはゴールド（装備）に直結する。1キルを狙って死ぬくらいなら、確実に30CSを取ったほうが100倍マシだ。サポートとの連携が必須であり、サポートがエンゲージ（突進）した時に合わせるか、サポートが回復してくれたタイミングで反撃に出るか、常に2人で1つの生き物のように動く必要がある。\n\n集団戦におけるADCの合言葉は「絶対に生き残れ」だ。敵のアサシンやファイターは、全てのリソースを吐き出してあなたを殺しにくる。敵の強力なスキル（ウルトやCC）が誰に使われたかを完璧に把握し、自分が安全だと確信できるまでは絶対に前に出るな。「カイト（引き撃ち）」の技術を極め、前線から少しずつ敵を削り殺す死神となれ！あなたが生きている限り、チームは負けない！",
-      "guideEn": "Complete Duo Lane (ADC) Manual. You are the ultimate glass cannon, the sustained damage powerhouse that entirely dictates the outcome of late-game teamfights. Your primary objective is to shred through enemy Tanks with relentless auto-attacks and obliterate Towers and Dragons faster than anyone else. However, in exchange for this god-like damage, you are as fragile as wet paper.\n\nIn the early game, your singular religion is farming. Do not die. Focus desperately on securing every single minion last hit (CS). An ADC's power is entirely dependent on gold and item spikes. Going for a risky 50/50 kill and dying is a disaster; flawlessly securing 30 CS is a guaranteed victory. You must operate in perfect sync with your Support—follow up instantly on their engages, or use their heals/shields to win trades. Move as one entity.\n\nIn teamfights, your absolute mantra is: 'STAY ALIVE.' Every enemy Assassin and Bruiser will sacrifice their own mother just to dive you. You must meticulously track major enemy cooldowns (Ultimates, hard CC) and NEVER step forward until those lethal abilities have been blown on someone else. Master the art of 'Kiting'—moving backward seamlessly between every auto-attack—to stay just out of reach while melting the frontline. As long as the ADC breathes, the game is winnable!"
+      "nameJa": "Duo (ADC)",
+      "nameEn": "Duo Lane (ADC)",
+      "pointsJa": [
+        "役割：遠距離から継続的にダメージを出すチームの矛",
+        "序盤：サポートに守られながら、ひたすらファーム",
+        "集団戦：絶対に死なない位置から、カイト（引き撃ち）で敵を削る"
+      ],
+      "pointsEn": [
+        "Role: Ranged sustained physical damage",
+        "Early: Farm safely while protected by your Support",
+        "Teamfight: Stay alive and deal damage from a safe distance"
+      ]
     },
     {
       "id": "support",
       "nameJa": "Support (サポート)",
       "nameEn": "Support",
-      "guideJa": "Supportの完全攻略マニュアル。チームの守護神であり、裏の支配者。CSを取らずに味方ADCを育て上げ、マップ全体の視界をコントロールし、集団戦の口火を切る（または敵の突撃を無力化する）のが仕事だ。キルもゴールドも持たないが、「試合を作っているのはサポートである」と断言できるほどの影響力を持つ。\n\nサポートには大きく分けて3種類ある。アリスターやレオナのような「エンゲージタンク（敵陣に突っ込んでCCをばら撒く）」、ルルやジャンナのような「エンチャンター（後方からシールドや回復で味方を不死身にする）」、そしてラックスやカルマのような「メイジ（圧倒的な火力で敵をポークする）」。自分のチャンピオンがどのタイプかを理解し、レーン戦では敵にプレッシャーを与えてADCがCSを取りやすい環境（ゾーニング）を作ってやれ。\n\n中盤以降は「視界管理（ワーディング）」が最重要任務となる。次のドラゴン戦が始まる1分前にそのエリアに出向き、スイープレンズで敵のワードを消し、味方のワードをばら撒いて「デスゾーン」を作り上げろ。暗闇の中からフック（引っ張りスキル）を当てれば、その瞬間に試合は決まる。常にマップを見渡し、味方のミスをカバーし、完璧なピン出しでチームを勝利に導く最高の司令塔になれ！",
-      "guideEn": "Complete Support Manual. You are the guardian angel and the shadowy mastermind of the team. Your job is to sacrifice your own gold to hyper-feed your ADC, control the vision of the entire map, and dictate the flow of teamfights through engages or flawless peeling. You may have the lowest kill count and gold, but make no mistake: a god-tier Support carries the game harder than anyone else.\n\nUnderstand your identity: Are you a heavy Engage Tank (Alistar, Leona) diving into the backline to spread chaos and CC? Are you an Enchanter (Lulu, Janna) sitting in the backline, turning your ADC into an unkillable, machine-gunning god with shields and heals? Or are you a Mage Support (Lux, Karma) meant to poke the enemy into submission? In the laning phase, your sheer presence must exert pressure, zoning the enemies so your ADC can farm in absolute peace.\n\nTransitioning into the mid/late game, 'Vision Control' becomes your holy mission. A full minute before a Dragon spawns, you must be there with your Sweeping Lens, clearing enemy wards and establishing a perimeter of deep vision, effectively turning the jungle into a death trap for the enemy. Landing a crucial hook from the fog of war instantly wins the game. Babysit your team's mistakes, spam pings to guide their macro, and orchestrate the victory from the shadows!"
+      "pointsJa": [
+        "役割：回復やシールド、CCで味方を徹底的に守る",
+        "序盤：ADCを守り育て、視界（ワード）を確保する",
+        "集団戦：味方のキャリーを守る（ピール）、または交戦の起点を作る"
+      ],
+      "pointsEn": [
+        "Role: Protect allies with heals, shields, or CC",
+        "Early: Nurture your ADC and provide vision (Wards)",
+        "Teamfight: Protect carries (Peel) or initiate fights"
+      ]
     }
   ],
   "macroMicro": {
-    "titleJa": "勝敗を分ける「マクロ」と「ミクロ」の概念",
-    "titleEn": "The Concepts of Macro and Micro",
-    "contentJa": "ミクロとマクロ、この二つの概念を理解することは、君がブロンズからチャレンジャーへと駆け上がるための第一歩だ。まず「ミクロ（Micro）」とは何か？それは、君自身のキャラクター（チャンピオン）をどう操作するかという、個人のメカニクスのことだ。スキルのエイム、コンボの正確さ、ラストヒットの精度、相手のスキルを避ける反応速度など、プレイヤー自身のプレイスキルに直結する。対面との1v1で勝つためには必須の能力だが、ミクロだけで勝てるのはせいぜいプラチナかエメラルド帯までだ。\n\n一方「マクロ（Macro）」とは、ゲーム全体を俯瞰する大局観のこと。ミニマップを見て「敵のジャングラーは今どこにいるか？」「どのレーンをプッシュすべきか？」「いつドラゴンに集まるか？」「タワーを捨てるべきか守るべきか？」といった、チーム全体を勝利に導くための意思決定のことだ。初心者がまず鍛えるべきは、圧倒的にこのマクロの基本知識だ。\n\nなぜなら、ワイルドリフトは5v5のチームゲームだからだ。いくら君がレーン戦で3キル取って無双していても、マクロの理解が浅ければ、不用意に敵陣に突っ込んでシャットダウンゴールドを献上し、結果的にゲームをひっくり返されてしまう。まずはマップを見る癖をつけよう。常に画面の左上（または右上）にあるミニマップを視界の端に捉え、敵の位置を予測するんだ。「敵が見えない＝ガンクに来るかもしれない」という危機感を持てるかどうかが、初心者を脱却する鍵になる。ミクロは反復練習で徐々に身につくが、マクロは「知っているか、意識しているか」ですぐに改善できる。今日から君もマップチェッカーになれ！",
-    "contentEn": "Understanding the concepts of Micro and Macro is your first and most crucial step to climbing from Bronze all the way to Challenger. First, what is 'Micro'? Micro refers to your individual mechanics and how well you control your specific champion. It includes aiming skillshots, executing combos flawlessly, precise last-hitting, dodging enemy abilities, and your raw reaction speed. It's the skill that allows you to win your 1v1 lane matchups and style on your opponents. However, relying purely on Micro will only carry you so far—usually plateauing around Platinum or Emerald.\n\nOn the other hand, 'Macro' is the grand strategy and your overall game sense. It involves looking at the minimap and making game-winning decisions: 'Where is the enemy jungler tracking right now?', 'Which wave should we push?', 'When do we rotate for Dragon?', or 'Do we trade this turret or defend it?' For beginners, improving your Macro knowledge should be your absolute number one priority.\n\nWhy? Because Wild Rift is a 5v5 team game. You could be 3/0 in the laning phase with insane mechanical outplays, but if your Macro is terrible, you'll end up overextending without vision, giving away a massive shutdown bounty, and single-handedly throwing the game for your team. The foundational habit you need to build right now is map awareness. You need to constantly glue your eyes to the minimap. A good rule of thumb is to glance at it every few seconds. You need to develop the paranoid mindset of 'If I can't see the enemy, they are probably sitting in my bush waiting to gank me.' While Micro takes hundreds of hours of muscle memory to perfect, Macro can be improved immediately just by consciously thinking about it. Stop playing on autopilot, start making active decisions, and become the shotcaller your team needs!"
+    "titleJa": "ミクロとマクロ",
+    "titleEn": "Micro vs Macro",
+    "microJa": "【ミクロ】スキルの命中率や回避など、プレイヤー個人の「操作技術」。",
+    "macroJa": "【マクロ】ミニマップを見て取るべき行動を決める「戦術的な判断力」。",
+    "microEn": "[Micro] Individual mechanics, aiming, and dodging.",
+    "macroEn": "[Macro] Tactical decision-making and map awareness.",
+    "summaryJa": "操作力（ミクロ）だけで勝てるのは中級者まで。勝率を劇的に上げるなら、圧倒的にマクロ（判断力）を鍛えるのが近道です！",
+    "summaryEn": "Micro only carries you so far. Improving your Macro is the fastest and most reliable way to rank up!"
   },
   "objectives": [
-    {
-      "nameJa": "ドラゴン（属性ごとの違い）",
-      "nameEn": "Dragons (Elemental Differences)",
-      "descJa": "サモナーズリフトにおいて、ドラゴンは試合の主導権を握るための最も重要な中立オブジェクトの一つだ。それぞれ異なるバフ（恩恵）をもたらす4属性のドラゴンが存在し、どのドラゴンがスポーンするかによって戦術を変える必要がある。\n\n・インファーナル（火）ドラゴン：物理・魔法ダメージが割合で上昇する。キャリーが育っている場合、このバフは試合を破壊するレベルの火力を生み出す。絶対に相手に渡してはいけない超重要ドラゴンだ。\n・オーシャン（水）ドラゴン：体力とマナが継続的に回復するようになる。特にポーク構成（遠距離からチクチク削る構成）や、長引く集団戦、レーンの維持において凶悪な効果を発揮する。\n・マウンテン（土）ドラゴン：物理防御と魔法防御が割合で上昇する。味方にタンクやブルーザーが多い場合、彼らが要塞と化す。敵のアサシンのワンコンボを防ぐためにも有効だ。\n・アイスト（氷）ドラゴン：スキルヘイスト（クールダウン短縮）が得られる。スキル依存度の高いメイジやエンチャンターにとって喉から手が出るほど欲しいバフだ。\n\nドラゴンを取るタイミングは、基本的には「自分たちが有利な時」だ。敵のジャングラーをキルした直後や、ボットレーン（デュオレーン）の敵をリコールさせた時などがベストタイミング。初心者にありがちなのが、不利な状況なのに無理にドラゴンに寄って、全滅（エース）＋ドラゴン献上という最悪のコンボを決めてしまうことだ。取れない時は潔く諦めて、逆にタワーを折るなどのトレード（交換）を狙うマクロの判断が求められるぞ。",
-      "descEn": "On Summoner's Rift, Dragons are arguably the most contested neutral objectives and a primary win condition. There are four distinct elemental dragons, each providing a unique, permanent buff to your entire team. You must adapt your macro play based on which element is spawning.\n\n- Infernal (Fire) Dragon: Grants a percentage increase to Attack Damage and Ability Power. This is pure combat stats. If your carries are ahead, the Infernal buff acts as a massive force multiplier that can completely take over the game. This is a high-priority objective that you must contest if possible.\n- Ocean (Water) Dragon: Provides continuous health and mana regeneration. This is unbelievably oppressive for poke compositions and extended teamfights. It also allows you to sustain in side lanes without needing to recall, granting immense map pressure.\n- Mountain (Earth) Dragon: Increases your team's percentage Armor and Magic Resist. If you have a tanky frontline or bruisers, they will become unkillable raid bosses. It's also an excellent defensive tool to survive an enemy assassin's burst combo.\n- Ice Dragon: Grants Ability Haste, drastically reducing the cooldowns of your team's abilities. For ability-reliant mages, supports, and certain assassins, spamming their key spells more often in fights is absolutely devastating.\n\nThe optimal timing to secure a dragon is when you have established clear priority. This means doing it right after killing the enemy Jungler, or after forcing the enemy duo lane to recall. The biggest mistake beginners make is forcing a highly disadvantaged dragon fight (e.g., your team is low on HP, or outnumbered) just because it's there. Giving up a dragon and wiping your whole team is a guaranteed way to lose the game. Sometimes, the smartest macro play is to concede the dragon and cross-map trade for a Rift Herald or an enemy turret."
-    },
-    {
-      "nameJa": "リフトヘラルド",
-      "nameEn": "Rift Herald",
-      "descJa": "試合の序盤、バロンピットにスポーンする一つ目のカニみたいな化け物、それがリフトヘラルド（通称：ヘラルド）だ。こいつの価値は「タワーの破壊」に直結する。ヘラルドを討伐すると「ヘラルドの瞳」を獲得でき、これを使うことでヘラルドを召喚できる。召喚されたヘラルドは敵のタワーに向かって猛突進し、固定の大ダメージを与えてくれる。\n\nファーストタワー（最初に折られたタワー）には追加のゴールドボーナス（ファーストブラッドタワー）があるため、ヘラルドを使ってこれをもぎ取ることが序盤の大きな目標になる。さらに、タワープレート（タワーのHPゲージの区切り）が残っている時間帯（試合開始から一定時間内）にヘラルドをぶつければ、プレート破壊のゴールドも大量に入り、対象のレーナーに莫大なゴールドアドバンテージをもたらす。\n\n使うタイミングが命だ。味方のミニオンウェーブが敵タワーに押し込まれている時、かつ敵のレーナーが不在（リコール中やデスタイマー中）の時に召喚するのがベスト。絶対にやってはいけないのが、敵が5人待ち構えているミッドレーンのど真ん中に適当に出すことだ。ヘラルドが突進する前に処理されてしまい、完全に無駄撃ちになる。また、ヘラルドの背中にある「紫色の目玉」は弱点だ。敵がヘラルドを出してきたら、背後に回って通常攻撃を当てることで大ダメージを与え、素早く処理できることを覚えておこう。",
-      "descEn": "The Rift Herald, also affectionately known as 'Shelly', is the void-corrupted scuttler that spawns in the Baron pit during the early game. Its value cannot be overstated: it is your premier tool for destroying enemy turrets and securing massive early gold leads. Slaying the Herald drops the 'Eye of the Herald', which you can pick up to summon her later. Once summoned, the Herald will march down the nearest lane and perform a devastating headbutt charge against the first enemy turret it encounters.\n\nSecuring the First Turret of the game grants a huge global gold bonus (First Blood Turret). Using the Herald to secure this objective is a classic, highly effective early-game strategy. Furthermore, if you crash the Herald into a turret before the Turret Plating falls off, you will instantly collect several plates' worth of gold, heavily accelerating your team's item power spikes.\n\nTiming is absolutely everything with the Rift Herald. The perfect moment to summon it is when you have crashed a massive minion wave into the enemy tower and the enemy laner is dead or recalling. The absolute worst thing you can do is panic-summon it in the middle of a lane when all 5 enemies are defending. They will easily burst it down before it even gets to charge. Also, remember that the Rift Herald has a massive weak spot: the glowing purple eye on its back. Whether you are fighting it in the pit or defending your own turret against a summoned Herald, constantly walk behind it and hit the eye to deal massive true damage and kill it quickly."
-    },
-    {
-      "nameJa": "バロン・ナッシャー",
-      "nameEn": "Baron Nashor",
-      "descJa": "試合の中盤以降に登場する、サモナーズリフトにおける最強・最大のボス、それがバロン・ナッシャーだ。こいつを討伐すると得られる「牙のバフ（バロンバフ）」は、文字通り「ゲームを終わらせる力」を持っている。\n\nバロンバフを獲得すると、味方チャンピオンの攻撃力と魔力が大幅に上昇するだけでなく、リコール（本拠地への帰還）の詠唱時間が劇的に短縮される。だが、真の恐ろしさは「ミニオンの強化」にある。バロンバフを持ったプレイヤーの周囲にいる味方ミニオンは紫色にオーラを放ち、移動速度、攻撃範囲、耐久力が異常なほど強化される。この強化ミニオン（特に砲台ミニオン）と一緒にタワーに押し寄せるシージ（攻城戦）は、敵にとって防ぐのが極めて困難な悪夢となる。\n\nしかし、バロンを触るという行為自体が最大のリスキーなギャンブルでもある。バロンは範囲攻撃や防御力低下デバフを与えてくるため、バロンと戦っているチームはHPが削られ、非常に弱い状態になる。そこで敵チームに急襲されると、バロンもキルも全て奪われる「バロンスティールからの全滅」という最悪の逆転劇（通称バロンスロー）が起きてしまう。バロンを始める（コールする）条件は明確だ。「敵のジャングラーが死んでいる」「敵の複数がボットレーンなど遠くに見えた」「集団戦で大勝した」このいずれかが揃っていない限り、初心者はバロンに触るべきではない。リスクとリターンの天秤を常に意識しろ！",
-      "descEn": "Baron Nashor is the ultimate endgame boss of Summoner's Rift. Spawning in the mid-to-late game, securing the 'Hand of Baron' buff is the single most definitive way to close out a game. It is literally the win-condition objective.\n\nWhen your team secures the Baron buff, every living member receives a massive boost to their Attack Damage and Ability Power, along with an Empowered Recall that dramatically reduces the time it takes to return to the fountain. However, the true game-breaking power of the Baron buff lies in its minion empowerment aura. Minions marching near a champion with the Baron buff will gain increased movement speed, durability, and attack range. Siege minions, in particular, become absolute artillery units that can chunk down turrets from a safe distance. Trying to clear a Baron-empowered minion wave is a nightmare for the defending team.\n\nBut beware: starting a Baron attempt is the biggest gamble you can make. The Baron deals heavy AoE damage and applies a debuff that reduces your team's armor and magic resist. You will be taking heavy damage while doing it. If the enemy team contests you in the pit, you risk suffering a 'Baron Throw'—getting wiped by the enemy and having the Baron stolen, completely flipping the momentum of the game. The golden rule for beginners is: Do NOT start Baron unless you have a massive advantage. You only pull the trigger on Baron if the enemy Jungler is dead, you just won a massive 5v5 teamfight, or you see 3+ enemies showing in the far opposite bottom lane. Always weigh the catastrophic risks before making the Baron call!"
-    },
-    {
-      "nameJa": "エルダードラゴン",
-      "nameEn": "Elder Dragon",
-      "descJa": "試合が究極のレイトゲーム（終盤戦）にもつれ込んだ時、最後に降臨する絶望の化身がエルダードラゴンだ。通常の属性ドラゴンのバフとは次元が違う、文字通り「絶対的なフィニッシャー」となるバフを付与する。\n\nエルダーバフの最も恐ろしい能力は「確定キル（処刑）」のパッシブだ。エルダーバフを持った味方の攻撃が敵チャンピオンに当たり、その敵のHPが一定ライン（20%未満）を下回ると、空から巨大な光線が降り注ぎ、どれほど硬いタンクであろうと、どれほどシールドを張っていようと、有無を言わさず即死（処刑）させる。さらに、攻撃を当てるだけで継続的な燃焼ダメージも与える。このバフを持っているチームとの集団戦は、相手にとって「HPが実質80%しかない状態で、触れられたら溶ける」という地獄のような状況になる。\n\nエルダードラゴンがスポーンしている時間帯は、たった一つのミス、たった一人のキャッチ（孤立して倒されること）がそのままゲームの敗北に直結する。視界（ワード）の確保が何よりも重要だ。エルダードラゴン周辺の視界をコントロールし、敵をフェイスチェック（視界のない草むらに突っ込むこと）させてキルを取る。バロン以上に、絶対に敵に渡してはいけないオブジェクトだ。もし相手がエルダーを取ってしまったら、バフが切れるまで死に物狂いで自陣のベースに引きこもり、絶対に戦わないこと。これが唯一の生存ルートだ。",
-      "descEn": "When a match drags on into the extreme late game, the ultimate harbinger of doom descends upon the Rift: the Elder Dragon. Unlike the standard elemental dragons, the Elder Dragon provides a temporary buff that transcends normal stats. It is an absolute, undeniable game-ending force.\n\nThe most terrifying aspect of the Aspect of the Dragon (Elder Buff) is its 'Execute' mechanic. If any champion with the buff deals damage to an enemy and drops their health below 20%, a massive beam of Elder fire will rain down from the sky, instantly executing them. It does not matter if they are a 5000-HP tank stacked with armor, or an enchanter with massive shields—they instantly die. Furthermore, simply damaging an enemy applies a massive true-damage burn. Fighting a team with Elder Buff feels impossible because your entire team effectively starts the fight with a 20% max health penalty, and any sustained damage will instantly melt you.\n\nWhen the Elder Dragon is on the map, a single positional mistake or a single player getting caught out translates instantly into a 'Defeat' screen. Vision control around the Elder pit is the most critical aspect of the late game. You must secure the area with wards, sweep for enemy vision, and force the enemy into making dangerous face-checks into unwarded bushes. You cannot, under any circumstances, allow the enemy team to secure this objective for free. If the enemy team does manage to secure the Elder Buff, your absolute only win condition is to turtle inside your base, clear minion waves from a safe distance, and completely refuse to fight until the buff duration expires. Do not engage!"
-    },
-    {
-      "nameJa": "タワーとインヒビター",
-      "nameEn": "Turrets & Inhibitors",
-      "descJa": "キルを取ることばかりに夢中になっている初心者に告ぐ。ワイルドリフトは「キル数で競うデスマッチ」ではない。「敵の本拠地（ネクサス）を破壊する攻城ゲーム」だ。そして、ネクサスに到達するために立ちはだかる防衛設備がタワー（砲台）とインヒビターだ。\n\nタワーは君たちの安全地帯であり、敵の進軍を防ぐ壁だ。序盤のタワーダイブ（タワーの攻撃範囲内に突っ込んで敵をキルすること）は非常にリスクが高く、タワーの攻撃を数発受けただけで簡単に形勢逆転されてしまう。逆に言えば、自分が不利な時はタワーの下でファーム（ミニオンを倒すこと）をして耐えるのが基本戦術だ。タワーを折ることは、マップ上の安全エリアを広げ、敵のジャングルに侵入する視界（コントロール）を得ることを意味する。だからこそ、オブジェクト戦の合間にレーンをプッシュし、タワーを削ることがマクロの基本中の基本なのだ。\n\nさらに奥にあるインヒビター（陣地の最深部にある建造物）を破壊すると、自軍の陣地から「スーパーミニオン」が出撃するようになる。こいつは通常のミニオンとは比較にならないほど硬く、攻撃力も高い。スーパーミニオンがレーンを押し上げ続けるため、敵チームは常にそのレーンの防衛に誰かを割かなければならなくなる。つまり、インヒビターを一つ折るだけで、残りのマップ（バロンやドラゴン）での戦いが常に「5対4（あるいはそれ以上）」の有利な状況を作り出せるのだ。キルを追うな、タワーを折れ。これが勝者のメンタリティだ。",
-      "descEn": "Listen up, all you kill-hungry beginners out there. Wild Rift is NOT a Team Deathmatch where the highest kill score wins. It is a siege game. The ultimate goal is to destroy the enemy Nexus, and the massive defensive structures standing in your way are the Turrets and the Inhibitors.\n\nTurrets act as your safe havens and the primary roadblocks to the enemy's advance. In the early game, attempting a 'Turret Dive' (chasing an enemy under their tower to kill them) is incredibly risky, as turret aggro deals ramping, massive damage that can easily turn your offensive play into a humiliating death. Conversely, if you are losing your lane, the smartest strategy is to hug your turret, safely last-hit minions, and survive. Destroying an enemy turret is a massive macro victory: it cracks the map open, expanding your team's safe zones, and allows you to establish deep vision control inside the enemy jungle. Pushing waves and taking down turrets between dragon fights is the fundamental backbone of good macro play.\n\nDeeper into the enemy base sit the Inhibitors. Destroying an enemy Inhibitor is a game-changing event because it causes your Nexus to spawn 'Super Minions' in that specific lane. Super Minions are incredibly tanky and deal massive damage. They will constantly push the lane automatically, forcing the enemy team to always dedicate at least one player to stay back and defend their base. This means that whenever a neutral objective like Baron or Dragon spawns, your team will have a massive numbers advantage on the map because the enemy is trapped in their base fighting off Super Minions. Stop chasing useless kills in the jungle. Focus on the towers. Focus on the Inhibitors. That is the mentality of a winner."
-    }
+    { "nameJa": "🔥 火ドラゴン", "nameEn": "🔥 Infernal Dragon", "descJa": "味方全体の「攻撃力・魔力」がUP。最優先で取りたい。", "descEn": "Increases overall AD/AP. High priority." },
+    { "nameJa": "💧 水ドラゴン", "nameEn": "💧 Ocean Dragon", "descJa": "「体力自動回復」がUP。ポーク構成や長期戦に強い。", "descEn": "Grants HP regen. Great for sustained fights." },
+    { "nameJa": "🪨 土ドラゴン", "nameEn": "🪨 Mountain Dragon", "descJa": "「防御力」がUP。味方のタンクがさらに硬くなる。", "descEn": "Increases Armor/MR. Makes tanks incredibly durable." },
+    { "nameJa": "❄️ 氷ドラゴン", "nameEn": "❄️ Ice Dragon", "descJa": "「スキルヘイスト」がUP。スキルを連発しやすくなる。", "descEn": "Grants Ability Haste for faster spell casting." },
+    { "nameJa": "🦀 リフトヘラルド", "nameEn": "🦀 Rift Herald", "descJa": "召喚すると敵タワーに突進し大ダメージ。序盤のタワー破壊に必須。", "descEn": "Charges at enemy turrets for massive damage. Crucial for early gold." },
+    { "nameJa": "🐍 バロン・ナッシャー", "nameEn": "🐍 Baron Nashor", "descJa": "周囲の味方ミニオンを大強化。試合を終わらせる最強の攻城バフ。", "descEn": "Empowers nearby minions. The ultimate game-ending siege buff." },
+    { "nameJa": "🐉 エルダードラゴン", "nameEn": "🐉 Elder Dragon", "descJa": "一定HP以下の敵を即死（処刑）させる。取られたら戦ってはいけない。", "descEn": "Instantly executes low HP enemies. Absolute game-ender." }
   ],
   "mental": [
-    {
-      "titleJa": "1. ティルト（感情的になること）の防止",
-      "titleEn": "1. Preventing Tilt",
-      "descJa": "対戦ゲームにおいて最大の敵は、相手プレイヤーではない。君自身の「感情」だ。味方が理不尽なフィード（何度も死ぬこと）をした、自分の操作ミスで重要な場面を落とした...そんな時にイライラして冷静な判断ができなくなる状態を「ティルト（Tilt）」と呼ぶ。ティルト状態になると、無理なキルを狙って逆に死んだり、マップを全く見なくなったりと、プレイの質が著しく低下する。\n\nティルトを防ぐ最強の防具は「チャットのミュート機能」だ。暴言を吐く味方や煽ってくる敵のピン・チャットは、試合開始直後に即座にミュートしろ。彼らの言葉に反応しても勝率は1ミリも上がらない。また、連敗している時は「次こそ勝つ」と熱くなって回し続けるのが一番危険だ。2連敗したら一旦スマホを置け。水を飲み、ストレッチをし、15分間ゲームから離れろ。心の中の炎を落ち着かせ、常に「自分にできるベストなプレイは何か」だけを考え続ける冷徹なマシーンになることが、ランクを上げるための必須メンタルだ。",
-      "descEn": "In competitive gaming, your greatest enemy isn't the player on the other side of the screen; it's your own emotions. When a teammate feeds relentlessly, or you botch a critical combo, the frustration that boils over and clouds your judgment is called 'Tilt'. When you are tilted, your gameplay degrades drastically. You stop looking at the minimap, you take highly aggressive and irrational risks to 'carry harder', and you inevitably die more, creating a vicious cycle of losing.\n\nThe ultimate armor against tilt is the 'Mute' button. If a teammate starts flaming in chat or spamming toxic pings, mute them instantly. Arguing with random players on the internet will not increase your win rate by a single percent; it will only distract you. Furthermore, when you are on a losing streak, the absolute worst thing you can do is instantly queue up again to 'win it back'. This is called 'rage-queueing'. If you lose two games in a row, put the phone down. Go drink a glass of water, do some stretches, and walk away from the game for 15 minutes. Reset your mental state. To climb the ranked ladder, you need to become a cold, calculating machine that only focuses on one question: 'What is the absolute best play I can make right now?'"
-    },
-    {
-      "titleJa": "2. リプレイの見直し方：自己反省の鬼になれ",
-      "titleEn": "2. Reviewing Replays: Become a Demon of Self-Reflection",
-      "descJa": "試合に負けた時、君はどうしている？「味方のジャングラーがゴミだった」「ADCがダメージを出さなかった」と文句を言って、すぐに次の試合のボタンを押していないか？もしそうなら、君は一生同じランクから抜け出せない。上手いプレイヤーと下手なプレイヤーの決定的な違いは「自分のプレイを振り返るかどうか」だ。\n\nワイルドリフトにはリプレイ機能がある。負けた試合、特に「自分がキャリーできなかった試合」のリプレイを見直すんだ。そして、自分がデスした瞬間を何度も再生しろ。「なぜここで死んだのか？」「視界がなかったのに前に出すぎたのではないか？」「敵のサモナースペル（フラッシュなど）のクールダウンを計算していなかったのではないか？」と、徹底的に自分のミスを粗探しするんだ。味方のミスはどうでもいい。君がコントロールできるのは君自身のキャラクターだけだ。自分の1つのデスを重く受け止め、それを防ぐ手段を考える。この地道な反省作業こそが、マクロとミクロを劇的に向上させる最強のトレーニングメソッドなのだ。",
-      "descEn": "What do you do immediately after losing a ranked match? Do you instantly hit 'Play Again' while complaining that 'My jungler was trash' or 'Our ADC dealt zero damage'? If you do, you will be hard-stuck in your current rank forever. The absolute defining difference between a low-elo player and a high-elo player is their willingness to review their own gameplay.\n\nWild Rift has a built-in Replay system. Use it. Watch the replays of the games you lost, especially the ones where you felt you played 'okay' but still couldn't carry. Fast-forward to every single time you died and analyze it brutally. Ask yourself: 'Why did I die here?', 'Did I push past the river without vision?', 'Did I forget to track the enemy mid laner's roam?', 'Did I miscalculate their Flash cooldown?' Do not look at your teammates' mistakes. You cannot control your teammates; you can only control your own champion. Treat every single one of your deaths as a massive failure on your part, and figure out how to avoid it next time. This tedious, painful process of self-reflection is the ultimate hyperbolic time chamber for improving your Macro and Micro."
-    },
-    {
-      "titleJa": "3. 使うチャンピオンを絞る重要性：ワントリックの強さ",
-      "titleEn": "3. The Importance of Narrowing Your Champion Pool: The Power of the One-Trick",
-      "descJa": "初心者が最も陥りやすい罠の一つが、「色々なチャンピオンを気分で使い分ける」ことだ。プロの試合を見て「あのチャンピオン強そう！」と毎回ピックを変えているようでは、絶対に上達しない。なぜなら、チャンピオンの操作（ミクロ）に意識が割かれてしまい、マップを見る余裕（マクロ）が完全に消え失せてしまうからだ。\n\nランクを上げたいなら、自分が最も得意とするチャンピオンを「2〜3体」に極限まで絞り込め。できれば同じロール（役割）のチャンピオンが良い。たった一つのチャンピオンを何百回も使い込むことで、スキルの射程、ダメージの感覚、マッチアップの有利不利が、頭で考えるのではなく「感覚（マッスルメモリー）」として染み付く。息をするようにチャンピオンを操作できるようになって初めて、脳のキャパシティを「敵のジャングラーの位置予測」や「次のオブジェクトの管理」といったマクロ的な思考に回すことができるようになるのだ。器用貧乏になるな。一つの武器を研ぎ澄ませ。",
-      "descEn": "One of the most common and devastating traps beginners fall into is playing a massive roster of different champions. If you are picking a new champion every game because you saw a pro player carry with it, you will never climb. Why? Because when you are playing a champion you don't fully understand, 100% of your brainpower is dedicated to basic Micro—figuring out skill ranges, combos, and damage output. You have exactly zero mental capacity left to look at the minimap or think about Macro.\n\nIf you want to climb the ranked ladder efficiently, you must brutally restrict your champion pool to a maximum of 2 or 3 champions, preferably within the same role. This is called becoming a 'One-Trick Pony' (OTP) or having a tight champion pool. By playing the same champion hundreds of times, their mechanics become entirely subconscious muscle memory. You know your exact damage limits, your specific lane matchups, and your power spikes without even thinking. Only when piloting your champion becomes as natural as breathing can you finally free up your mind to focus on the real game: tracking the enemy jungler, setting up vision, and shotcalling objectives. Do not be a jack-of-all-trades. Master one weapon to perfection."
-    },
-    {
-      "titleJa": "4. デスを減らす考え方：命の重みを知れ",
-      "titleEn": "4. How to Reduce Deaths: Understand the Value of Your Life",
-      "descJa": "MOBAというジャンルにおいて、初心者が勘違いしている最大の真理を教えよう。「キルを取るプレイヤー」よりも「絶対にデスしないプレイヤー」の方が、圧倒的に価値が高い。君が敵を倒して得られるゴールドよりも、君が死んで敵に与えるゴールドと「マップから消えている時間」の損失の方が遥かに重いのだ。\n\n1回のデスは、敵に300ゴールドを与えるだけではない。君が死んでいる十数秒〜数十秒の間、君はミニオンの経験値とゴールドをロストし、味方は数的不利を強いられ、敵はその隙にドラゴンやタワーといったオブジェクトをタダで獲得する。つまり、君の1デスはチーム全体に壊滅的なスノーボール（雪だるま式に不利が拡大すること）を引き起こす。「相打ちならOK」という考えは今すぐ捨てろ。特に自分がシャットダウン（連続キルによる賞金首）を持っている時、無理に突っ込んで死ぬのは完全な戦犯行為（トロール）だ。ギリギリのキルを狙うくらいなら、フラッシュを使ってでも確実に生き延びてリコールしろ。生存することこそが、最大の攻撃なのだ。",
-      "descEn": "Let me teach you the most fundamental truth of the MOBA genre, a truth that almost every beginner fundamentally misunderstands: A player who NEVER dies is infinitely more valuable to the team than a player who gets a lot of kills but dies just as much. The gold and map pressure you give the enemy team by dying is vastly more detrimental than the gold you gain from securing a risky kill.\n\nA single death is not just handing the enemy 300 gold. While you are staring at a grey screen for 15 to 40 seconds, you are bleeding out on minion experience and gold. Your team is forced to play shorthanded, completely giving up map control. The enemy team will use your death timer to freely secure Dragons, Rift Heralds, or Turrets. Your single death cascades into a massive snowball of disadvantages for your entire team. Erase the mentality of 'a 1-for-1 trade is worth it' from your brain. If you have a bounty on your head (shutdown gold), dying for a greedy kill is absolute griefing. Instead of flipping a coin on a flashy mechanical outplay, use your Flash aggressively to escape, recall, and stay alive. In Wild Rift, staying alive is the strongest form of offense."
-    },
-    {
-      "titleJa": "5. 味方のせいにしない思考法：自己責任の哲学",
-      "titleEn": "5. The Mindset of Not Blaming Teammates: The Philosophy of Extreme Ownership",
-      "descJa": "最後に、プロフェッショナルとして君に最も伝えたいメンタルセットだ。「味方が弱かったから負けた」。これは事実かもしれない。AFK（放置）が出た、意図的にフィードするプレイヤーがいた...オンラインゲームである以上、どうしようもない「アンラッキーな試合」は全体の2〜3割必ず存在する。だが、それに文句を言うことに何の価値がある？\n\n君が集中すべきは「自分に何ができたか」という自己責任の哲学だけだ。ミッドが崩壊したなら、「自分がジャングルとしてもっと早くカバーに行けたのではないか？」と考える。サポートがワードを置かないなら、「自分がADCとしてコントロールワードを余分に買うべきだった」と考える。環境や他人のせいにするのは、自分の成長から逃げる弱者の言い訳だ。チャレンジャー帯のプレイヤーは、ブロンズやシルバーの試合に放り込まれても、文句一つ言わずに圧倒的な実力で9割以上の勝率を叩き出して勝ち上がる。つまり、君の現在のランクは、間違いなく君自身の今の実力そのものなのだ。「勝ちは自分の実力、負けも自分の実力」。この強靭なメンタルを持った者だけが、高みへと登り詰めることができる。",
-      "descEn": "Finally, this is the most important mental framework I can impart to you as a professional coach. 'We lost because my teammates were terrible.' This might actually be a factual statement. You will encounter AFK players, intentional feeders, and people playing on 500 ping. In any online competitive game, roughly 20-30% of your matches are simply unwinnable due to factors outside your control. But let me ask you: what value does complaining about them bring?\n\nYou must adopt a philosophy of 'Extreme Ownership'. Focus entirely on what YOU could have done differently. If your Mid lane collapses, ask yourself, 'Could I have roamed earlier as a Jungler to relieve pressure?' If your Support refuses to ward, tell yourself, 'I need to buy extra control wards as the ADC and play safer.' Blaming your environment or your teammates is a weak excuse used to avoid personal growth. Put a Challenger player in a Bronze or Silver lobby, and they will consistently win 90%+ of their games despite having terrible teammates. This proves that your current rank is a direct, accurate reflection of your current skill level. Internalize this mantra: 'Every victory is earned by me, and every defeat is a lesson for me.' Only players who embrace this unbreakable mentality will ever reach the pinnacle of the ranked ladder."
-    }
+    { "titleJa": "1. 視界のない場所へ行かない", "titleEn": "1. Don't Facecheck", "descJa": "ミニマップに敵が映っていない時、草むらには敵が5人隠れていると思え。", "descEn": "If enemies are missing on the map, assume they are waiting in the bush." },
+    { "titleJa": "2. チャットは即ミュート", "titleEn": "2. Mute Toxic Chat", "descJa": "暴言や煽りピンは即ミュート。言い返しても勝率は1%も上がらない。", "descEn": "Instantly mute toxicity. Arguing never increases your win rate." },
+    { "titleJa": "3. 使うキャラを絞る", "titleEn": "3. Limit Champion Pool", "descJa": "得意な2〜3体に絞り、操作を「無意識」レベルまで極めよう。", "descEn": "Master 2-3 champions so you can focus entirely on the map, not mechanics." },
+    { "titleJa": "4. 命の重みを知る", "titleEn": "4. Value Your Life", "descJa": "「無理にキルを取る」より「絶対に死なない」プレイヤーの方が遥かに強い。", "descEn": "A player who never dies is much more valuable than one who gets risky kills." },
+    { "titleJa": "5. 味方のせいにしない", "titleEn": "5. Focus on Yourself", "descJa": "自分がコントロールできるのは自分のキャラだけ。常に自己反省を怠るな。", "descEn": "You can only control your own plays. Focus on your own mistakes to improve." }
   ]
 }
