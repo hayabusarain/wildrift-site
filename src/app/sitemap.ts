@@ -33,6 +33,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/runes',
     '/spells',
     '/guide',
+    '/encyclopedia',
     '/terms',
     '/privacy',
     '/legal',
