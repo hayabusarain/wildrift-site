@@ -229,6 +229,16 @@ export default function HomeClient({ metaPicks, featuredItems, featuredChampions
             </div>
           </Link>
           
+          <Link href="/encyclopedia" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center shrink-0">
+              <BookOpen size={18} strokeWidth={2.5} />
+            </div>
+            <div>
+              <h3 className="text-xs font-bold text-slate-800">{locale === 'ja' ? 'ワイリフ大辞典' : 'Encyclopedia'}</h3>
+              <p className="text-[9px] text-slate-500 mt-0.5 line-clamp-1">{locale === 'ja' ? '詳細なゲームの仕様やマクロ戦術を学ぶ' : 'Learn detailed game mechanics & macro'}</p>
+            </div>
+          </Link>
+          
           <Link href="/tier-list" className="bg-white p-3.5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-3 active:scale-95 transition-transform">
             <div className="w-9 h-9 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
               <Trophy size={18} strokeWidth={2.5} />

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Link, usePathname } from "@/i18n/routing";
-import { Home, Users, ShoppingBag, Trophy, Menu, X, FileText, Calculator, Zap, Hexagon, BookOpen, Map, HelpCircle, Swords, Link2 } from "lucide-react";
+import { Home, Users, ShoppingBag, Trophy, Menu, X, FileText, Calculator, Zap, Hexagon, BookOpen, Map, HelpCircle, Swords, Link2, Library } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export function TabBar() {
@@ -23,6 +23,7 @@ export function TabBar() {
     { href: "/runes", icon: Hexagon, label: t("runes") },
     { href: "/calculator", icon: Calculator, label: t("calculator") },
     { href: "/guide", icon: BookOpen, label: t("guide") },
+    { href: "/encyclopedia", icon: Library, label: t("encyclopedia") || "大辞典" },
     { href: "/links", icon: Link2, label: t("links") },
     // { href: "/modes/aram", icon: Swords, label: t("aram") }, // ユーザーの希望により一時非表示
   ];
