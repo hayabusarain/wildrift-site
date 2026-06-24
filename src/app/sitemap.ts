@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
+import championGuides from '@/../public/data/champion_guides.json';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://hub-game.com';
@@ -9,14 +10,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
   
-  let championIds: string[] = [];
+  let championIds: string[] = Object.keys(championGuides);
   
   if (supabaseUrl && supabaseKey) {
     const supabase = createClient(supabaseUrl, supabaseKey);
     // Fetch active champions from stats table to filter out PC LoL only entries
     const { data } = await supabase.from('champion_stats').select('champion_name_en');
     if (data) {
-      championIds = Array.from(new Set(data.map(c => c.champion_name_en))).filter(Boolean);
+      const dbIds = data.map(c => c.champion_name_en).filter(Boolean);
+      championIds = Array.from(new Set([...championIds, ...dbIds]));
     }
   }
 
