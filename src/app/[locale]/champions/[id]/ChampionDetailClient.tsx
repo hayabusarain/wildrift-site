@@ -515,7 +515,7 @@ export default function ChampionDetailClient({
                   </div>
                   
                   <div className="flex flex-wrap items-center gap-2 mt-1">
-                    {combo.sequence.split('->').map((step: string, stepIdx: number, arr: string[]) => {
+                    {((locale === 'en' && combo.sequenceEn) ? combo.sequenceEn : combo.sequence).split('->').map((step: string, stepIdx: number, arr: string[]) => {
                       const trimmed = step.trim();
                       const isAttack = trimmed.toLowerCase() === 'aa' || trimmed === '通常攻撃';
                       const isSpell = trimmed === 'フラッシュ' || trimmed.toLowerCase() === 'flash';

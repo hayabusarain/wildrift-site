@@ -5,14 +5,16 @@
       "nameEn": "Basic Trade",
       "sequence": "2 -> AA -> 1 -> AA",
       "description": "2スキルでスロウをかけ、通常攻撃を重ねてから1スキルで追撃します。",
-      "descriptionEn": "Slow with 2, AA, then empower with 1."
+      "descriptionEn": "Slow with 2, AA, then empower with 1.",
+      "sequenceEn": "2 -> AA -> 1 -> AA"
     },
     {
       "name": "遠距離エンゲージ",
       "nameEn": "Long Range Engage",
       "sequence": "Ult(操作) -> 2 -> AA",
       "description": "Ultを操作して確実に敵に当て、スタン中に2スキルと通常攻撃でダメージを出します。",
-      "descriptionEn": "Steer Ult to hit, then follow with 2 and AA."
+      "descriptionEn": "Steer Ult to hit, then follow with 2 and AA.",
+      "sequenceEn": "Ult(操作) -> 2 -> AA"
     }
   ],
   "Ezreal": [
@@ -21,14 +23,16 @@
       "nameEn": "Basic Poke",
       "sequence": "1",
       "description": "1で遠距離からダメージを与えます。",
-      "descriptionEn": "Deal damage from long range with 1."
+      "descriptionEn": "Deal damage from long range with 1.",
+      "sequenceEn": "1"
     },
     {
       "name": "フルバースト",
       "nameEn": "Full Burst",
       "sequence": "2 -> 3 -> 1 -> AA",
       "description": "2を当ててから3で接近し、1と通常攻撃で一気にダメージを与えます。",
-      "descriptionEn": "Land 2, then close the distance with 3, and burst them down with 1 and basic attacks."
+      "descriptionEn": "Land 2, then close the distance with 3, and burst them down with 1 and basic attacks.",
+      "sequenceEn": "2 -> 3 -> 1 -> AA"
     }
   ],
   "Corki": [
@@ -37,14 +41,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA -> 3 -> AA",
       "description": "1を当てて視界とダメージを取り、3で防御力を下げつつ通常攻撃を行います。",
-      "descriptionEn": "Land 1 for vision and damage, then use 3 to reduce defenses while basic attacking."
+      "descriptionEn": "Land 1 for vision and damage, then use 3 to reduce defenses while basic attacking.",
+      "sequenceEn": "1 -> AA -> 3 -> AA"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "2 -> 3 -> 1 -> Ult -> AA",
       "description": "2で距離を詰め、3を起動しながら1とUltで一気にダメージを与えます。",
-      "descriptionEn": "Close the distance with 2, activate 3, and burst them down with 1 and Ult."
+      "descriptionEn": "Close the distance with 2, activate 3, and burst them down with 1 and Ult.",
+      "sequenceEn": "2 -> 3 -> 1 -> Ult -> AA"
     }
   ],
   "Caitlyn": [
@@ -53,21 +59,24 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> AA",
       "description": "1で遠距離からダメージを与え、射程を活かした通常攻撃を入れます。",
-      "descriptionEn": "Deal damage from long range with 1, and use basic attacks utilizing your range."
+      "descriptionEn": "Deal damage from long range with 1, and use basic attacks utilizing your range.",
+      "sequenceEn": "1 -> AA"
     },
     {
       "name": "トラップコンボ",
       "nameEn": "Trap Combo",
       "sequence": "2 -> AA -> 1 -> AA",
       "description": "2の罠にかかった敵に対してヘッドショットを撃ち、1で追撃します。",
-      "descriptionEn": "Shoot a Headshot at enemies caught in 2's trap, then follow up with 1."
+      "descriptionEn": "Shoot a Headshot at enemies caught in 2's trap, then follow up with 1.",
+      "sequenceEn": "2 -> AA -> 1 -> AA"
     },
     {
       "name": "逃げコンボ",
       "nameEn": "Escape Combo",
       "sequence": "3 -> 1 -> AA",
       "description": "3でスロウを与えつつ距離を取り、同時に1を撃ってヘッドショットを当てます。",
-      "descriptionEn": "Apply a slow and create distance with 3, while simultaneously shooting 1 and landing a Headshot."
+      "descriptionEn": "Apply a slow and create distance with 3, while simultaneously shooting 1 and landing a Headshot.",
+      "sequenceEn": "3 -> 1 -> AA"
     }
   ],
   "Draven": [
@@ -76,14 +85,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA -> 2 -> AA",
       "description": "1で斧を回しながら攻撃し、2で移動速度と攻撃速度を上げて追撃します。",
-      "descriptionEn": "Attack while spinning an axe with 1, and follow up by increasing your movement and attack speed with 2."
+      "descriptionEn": "Attack while spinning an axe with 1, and follow up by increasing your movement and attack speed with 2.",
+      "sequenceEn": "1 -> AA -> 2 -> AA"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "3 -> AA -> 1 -> 2 -> AA -> Ult",
       "description": "3で敵の動きを止め、斧を拾いながら2で加速し、Ultでとどめを刺します。",
-      "descriptionEn": "Interrupt enemy movement with 3, catch an axe while accelerating with 2, and finish them off with Ult."
+      "descriptionEn": "Interrupt enemy movement with 3, catch an axe while accelerating with 2, and finish them off with Ult.",
+      "sequenceEn": "3 -> AA -> 1 -> 2 -> AA -> Ult"
     }
   ],
   "Amumu": [
@@ -92,14 +103,16 @@
       "nameEn": "Gank Combo",
       "sequence": "1 -> 2 -> 3 -> AA",
       "description": "1で敵に接近してスタンさせ、2と3で継続ダメージを与えます。",
-      "descriptionEn": "Approach and stun the enemy with 1, then deal continuous damage with 2 and 3."
+      "descriptionEn": "Approach and stun the enemy with 1, then deal continuous damage with 2 and 3.",
+      "sequenceEn": "1 -> 2 -> 3 -> AA"
     },
     {
       "name": "集団戦エンゲージ",
       "nameEn": "Teamfight Engage",
       "sequence": "1 -> Ult -> 2 -> 3",
       "description": "1で敵陣に飛び込み、Ultで広範囲の敵をスタンさせます。",
-      "descriptionEn": "Dive into the enemy team with 1, and stun a wide area of enemies with Ult."
+      "descriptionEn": "Dive into the enemy team with 1, and stun a wide area of enemies with Ult.",
+      "sequenceEn": "1 -> Ult -> 2 -> 3"
     }
   ],
   "DrMundo": [
@@ -108,14 +121,16 @@
       "nameEn": "Basic Poke",
       "sequence": "1",
       "description": "包丁(1)を投げてスロウと割合ダメージを与えます。",
-      "descriptionEn": "Throw a cleaver (1) to apply a slow and deal percentage health damage."
+      "descriptionEn": "Throw a cleaver (1) to apply a slow and deal percentage health damage.",
+      "sequenceEn": "1"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "1 -> Ult -> 2 -> 3 -> AA",
       "description": "1でスロウをかけ、Ultで回復しつつ移動速度を上げ、2と3で張り付いて攻撃します。",
-      "descriptionEn": "Apply a slow with 1, increase movement speed and heal with Ult, then stick to the enemy and attack with 2 and 3."
+      "descriptionEn": "Apply a slow with 1, increase movement speed and heal with Ult, then stick to the enemy and attack with 2 and 3.",
+      "sequenceEn": "1 -> Ult -> 2 -> 3 -> AA"
     }
   ],
   "Evelynn": [
@@ -124,7 +139,8 @@
       "nameEn": "Basic Assassin Combo",
       "sequence": "2 -> 1 -> 3 -> 1 -> Ult",
       "description": "2で魅了の準備をし、1で発動。3で接近してダメージを与え、Ultで離脱します。",
-      "descriptionEn": "Prepare to charm with 2, and trigger it with 1. Close the distance and deal damage with 3, then disengage with Ult."
+      "descriptionEn": "Prepare to charm with 2, and trigger it with 1. Close the distance and deal damage with 3, then disengage with Ult.",
+      "sequenceEn": "2 -> 1 -> 3 -> 1 -> Ult"
     }
   ],
   "Ekko": [
@@ -133,14 +149,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> AA",
       "description": "1でスロウをかけ、3で距離を詰めてパッシブを発動させます。",
-      "descriptionEn": "Apply a slow with 1, then close the distance with 3 to trigger your passive."
+      "descriptionEn": "Apply a slow with 1, then close the distance with 3 to trigger your passive.",
+      "sequenceEn": "1 -> 3 -> AA"
     },
     {
       "name": "スタンコンボ",
       "nameEn": "Stun Combo",
       "sequence": "2 -> 3 -> AA -> 1 -> AA",
       "description": "2の範囲内に入りながら3で接近し、敵をスタンさせてからダメージを出します。",
-      "descriptionEn": "Enter the range of 2 while approaching with 3, stun the enemy, and then deal damage."
+      "descriptionEn": "Enter the range of 2 while approaching with 3, stun the enemy, and then deal damage.",
+      "sequenceEn": "2 -> 3 -> AA -> 1 -> AA"
     }
   ],
   "Darius": [
@@ -149,14 +167,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> AA -> 2 -> 1",
       "description": "3で引き寄せ、AAと2でスロウを付与してから、1の刃の部分を確実に当てます。",
-      "descriptionEn": "Pull the enemy with 3, apply a slow with AA and 2, then ensure you hit the blade part of 1."
+      "descriptionEn": "Pull the enemy with 3, apply a slow with AA and 2, then ensure you hit the blade part of 1.",
+      "sequenceEn": "3 -> AA -> 2 -> 1"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "3 -> AA -> 2 -> 1 -> AA -> Ult",
       "description": "出血スタックを5まで溜めてから、Ultで大ダメージを与えます。",
-      "descriptionEn": "Stack Hemorrhage to 5, then deal massive damage with Ult."
+      "descriptionEn": "Stack Hemorrhage to 5, then deal massive damage with Ult.",
+      "sequenceEn": "3 -> AA -> 2 -> 1 -> AA -> Ult"
     }
   ],
   "Ambessa": [
@@ -165,14 +185,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA -> 2 -> AA",
       "description": "1でダメージを与えつつパッシブのAAを入れ、2でシールドを張りながらトレードします。",
-      "descriptionEn": "Deal damage with 1 while weaving in a passive AA, and trade while shielding yourself with 2."
+      "descriptionEn": "Deal damage with 1 while weaving in a passive AA, and trade while shielding yourself with 2.",
+      "sequenceEn": "1 -> AA -> 2 -> AA"
     },
     {
       "name": "エンゲージ",
       "nameEn": "Engage",
       "sequence": "Ult -> AA -> 1 -> AA -> 3",
       "description": "Ultで飛び込んでから、各スキルの間にパッシブのAAを挟んでダメージを最大化します。",
-      "descriptionEn": "Dive in with Ult, then weave passive AAs between each skill to maximize damage."
+      "descriptionEn": "Dive in with Ult, then weave passive AAs between each skill to maximize damage.",
+      "sequenceEn": "Ult -> AA -> 1 -> AA -> 3"
     }
   ],
   "Brand": [
@@ -181,14 +203,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 1 -> 2",
       "description": "3で炎上させ、1でスタンを取り、2で追加ダメージを与えます。",
-      "descriptionEn": "Ignite the target with 3, stun them with 1, and deal additional damage with 2."
+      "descriptionEn": "Ignite the target with 3, stun them with 1, and deal additional damage with 2.",
+      "sequenceEn": "3 -> 1 -> 2"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "Ult -> 3 -> 2 -> 1",
       "description": "Ultを敵集団に放ち、3で炎上を拡散させ、2と1で大ダメージを与えます。",
-      "descriptionEn": "Unleash Ult into the enemy team, spread the blaze with 3, and deal massive damage with 2 and 1."
+      "descriptionEn": "Unleash Ult into the enemy team, spread the blaze with 3, and deal massive damage with 2 and 1.",
+      "sequenceEn": "Ult -> 3 -> 2 -> 1"
     }
   ],
   "Ahri": [
@@ -197,14 +221,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 1 -> 2 -> AA",
       "description": "3でチャームを当て、1と2で確実にダメージを与えます。",
-      "descriptionEn": "Land your charm with 3, and reliably deal damage with 1 and 2."
+      "descriptionEn": "Land your charm with 3, and reliably deal damage with 1 and 2.",
+      "sequenceEn": "3 -> 1 -> 2 -> AA"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "Ult -> 3 -> 1 -> 2 -> Ult -> AA",
       "description": "Ultで位置取りをして3を当て、残りのスキルを叩き込んでからUltで離脱します。",
-      "descriptionEn": "Reposition with Ult and land 3, unleash the rest of your skills, then disengage with Ult."
+      "descriptionEn": "Reposition with Ult and land 3, unleash the rest of your skills, then disengage with Ult.",
+      "sequenceEn": "Ult -> 3 -> 1 -> 2 -> Ult -> AA"
     }
   ],
   "Aurora": [
@@ -213,14 +239,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> 1",
       "description": "1でダメージを与え、再発動して戻ってくる弾で追加ダメージと回復を行います。",
-      "descriptionEn": "Deal damage with 1, then recast to return the projectile for additional damage and healing."
+      "descriptionEn": "Deal damage with 1, then recast to return the projectile for additional damage and healing.",
+      "sequenceEn": "1 -> 1"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "3 -> 1 -> Ult -> 2 -> 1",
       "description": "3でスロウをかけ、Ultで閉じ込めてから1と2でダメージを出します。",
-      "descriptionEn": "Apply a slow with 3, trap them with Ult, and then deal damage with 1 and 2."
+      "descriptionEn": "Apply a slow with 3, trap them with Ult, and then deal damage with 1 and 2.",
+      "sequenceEn": "3 -> 1 -> Ult -> 2 -> 1"
     }
   ],
   "AurelionSol": [
@@ -229,14 +257,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 1",
       "description": "3で敵を中心に集め、1を当てて継続ダメージと星屑スタックを獲得します。",
-      "descriptionEn": "Gather enemies to the center with 3, and hit them with 1 to deal continuous damage and gain Stardust stacks."
+      "descriptionEn": "Gather enemies to the center with 3, and hit them with 1 to deal continuous damage and gain Stardust stacks.",
+      "sequenceEn": "3 -> 1"
     },
     {
       "name": "ロームコンボ",
       "nameEn": "Roam Combo",
       "sequence": "2 -> 3 -> 1 -> Ult",
       "description": "2で飛行して接近し、3で逃げ道を塞ぎつつ1とUltで一気に倒し切ります。",
-      "descriptionEn": "Fly in with 2 to approach, block their escape route with 3, and burst them down with 1 and Ult."
+      "descriptionEn": "Fly in with 2 to approach, block their escape route with 3, and burst them down with 1 and Ult.",
+      "sequenceEn": "2 -> 3 -> 1 -> Ult"
     }
   ],
   "Annie": [
@@ -245,7 +275,8 @@
       "nameEn": "Stun Engage",
       "sequence": "パッシブ(スタン)Ult -> 2 -> 1",
       "description": "スタン付きのUltを敵集団に叩き込み、ティバーズと共に一気にダメージを出します。",
-      "descriptionEn": "Engage with stun Ult, follow with 2 and 1."
+      "descriptionEn": "Engage with stun Ult, follow with 2 and 1.",
+      "sequenceEn": "Passive(Stun)Ult -> 2 -> 1"
     }
   ],
   "Diana": [
@@ -254,14 +285,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> 2 -> AA",
       "description": "1で月光を付与し、3で接近。2のシールドを展開しつつAAでパッシブのダメージを出します。",
-      "descriptionEn": "Apply Moonlight with 1 and approach with 3. Deploy your shield with 2 while dealing passive damage with AA."
+      "descriptionEn": "Apply Moonlight with 1 and approach with 3. Deploy your shield with 2 while dealing passive damage with AA.",
+      "sequenceEn": "1 -> 3 -> 2 -> AA"
     },
     {
       "name": "集団戦エンゲージ",
       "nameEn": "Teamfight Engage",
       "sequence": "1 -> 3 -> Ult -> 2 -> フラッシュ",
       "description": "1から3で敵陣に飛び込み、Ultで複数の敵を引き寄せて大ダメージを与えます。",
-      "descriptionEn": "Dive into the enemy team using 1 into 3, and use Ult to pull in multiple enemies and deal massive damage."
+      "descriptionEn": "Dive into the enemy team using 1 into 3, and use Ult to pull in multiple enemies and deal massive damage.",
+      "sequenceEn": "1 -> 3 -> Ult -> 2 -> Flash"
     }
   ],
   "Akali": [
@@ -270,14 +303,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> AA",
       "description": "1の先端を当ててスロウにし、円の外に出て強化AAを入れます。",
-      "descriptionEn": "Hit with the tip of 1 to apply a slow, step out of the ring, and land an empowered AA."
+      "descriptionEn": "Hit with the tip of 1 to apply a slow, step out of the ring, and land an empowered AA.",
+      "sequenceEn": "1 -> AA"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "Ult -> 3 -> 3 -> 1 -> 2 -> Ult",
       "description": "Ultの1段目で接近し、3でマーク。3の再発動で飛びつき、2で身を隠しながら1を撃ち、Ultの2段目でとどめを刺します。",
-      "descriptionEn": "Approach with the first cast of Ult and mark with 3. Recast 3 to dash to them, hide with 2 while shooting 1, and finish them off with the second cast of Ult."
+      "descriptionEn": "Approach with the first cast of Ult and mark with 3. Recast 3 to dash to them, hide with 2 while shooting 1, and finish them off with the second cast of Ult.",
+      "sequenceEn": "Ult -> 3 -> 3 -> 1 -> 2 -> Ult"
     }
   ],
   "Braum": [
@@ -286,14 +321,16 @@
       "nameEn": "Basic Engage",
       "sequence": "1 -> AA -> 2 -> 3",
       "description": "1でスロウをかけ、AAでパッシブのスタックを付与。2で味方に飛びつき3で守ります。",
-      "descriptionEn": "Apply a slow with 1, and add a passive stack with AA. Leap to an ally with 2 and protect them with 3."
+      "descriptionEn": "Apply a slow with 1, and add a passive stack with AA. Leap to an ally with 2 and protect them with 3.",
+      "sequenceEn": "1 -> AA -> 2 -> 3"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "2 -> Ult -> 1 -> 3",
       "description": "味方（または前衛）に2で飛びつき、Ultで敵をノックアップさせます。",
-      "descriptionEn": "Leap to an ally (or frontline) with 2, and knock up enemies with Ult."
+      "descriptionEn": "Leap to an ally (or frontline) with 2, and knock up enemies with Ult.",
+      "sequenceEn": "2 -> Ult -> 1 -> 3"
     }
   ],
   "Blitzcrank": [
@@ -302,14 +339,16 @@
       "nameEn": "Basic Catch",
       "sequence": "1 -> 3 -> AA",
       "description": "1で敵を引き寄せ、3で打ち上げます。",
-      "descriptionEn": "Pull the enemy with 1, and knock them up with 3."
+      "descriptionEn": "Pull the enemy with 1, and knock them up with 3.",
+      "sequenceEn": "1 -> 3 -> AA"
     },
     {
       "name": "サイレンスコンボ",
       "nameEn": "Silence Combo",
       "sequence": "2 -> 3 -> AA -> Ult -> 1",
       "description": "2で加速して3で打ち上げ、Ultでサイレンスを付与し、逃げる敵を1で引き寄せます。",
-      "descriptionEn": "Accelerate with 2, knock them up with 3, apply a silence with Ult, and pull the fleeing enemy with 1."
+      "descriptionEn": "Accelerate with 2, knock them up with 3, apply a silence with Ult, and pull the fleeing enemy with 1.",
+      "sequenceEn": "2 -> 3 -> AA -> Ult -> 1"
     }
   ],
   "Alistar": [
@@ -318,14 +357,16 @@
       "nameEn": "Basic Engage",
       "sequence": "2 -> 1",
       "description": "2で突進中に1を入力し、敵をノックバックさせずにその場で打ち上げます。",
-      "descriptionEn": "Input 1 while dashing with 2 to knock up the enemy in place without knocking them back."
+      "descriptionEn": "Input 1 while dashing with 2 to knock up the enemy in place without knocking them back.",
+      "sequenceEn": "2 -> 1"
     },
     {
       "name": "インセクコンボ",
       "nameEn": "Insec Combo",
       "sequence": "フラッシュ -> 1 -> 2",
       "description": "フラッシュで敵に接近して1で打ち上げ、敵の後ろに回り込んで2で味方の方向に押し出します。",
-      "descriptionEn": "Use Flash to get close to the enemy, knock them up with 1, get behind them, and push them toward your allies with 2."
+      "descriptionEn": "Use Flash to get close to the enemy, knock them up with 1, get behind them, and push them toward your allies with 2.",
+      "sequenceEn": "Flash -> 1 -> 2"
     }
   ],
   "Bard": [
@@ -334,14 +375,16 @@
       "nameEn": "Basic Trade",
       "sequence": "AA -> 1 -> AA",
       "description": "ミープ付きのAAでスロウをかけ、1でスタンを狙います。",
-      "descriptionEn": "Apply a slow with a Meep-empowered AA, and aim for a stun with 1."
+      "descriptionEn": "Apply a slow with a Meep-empowered AA, and aim for a stun with 1.",
+      "sequenceEn": "AA -> 1 -> AA"
     },
     {
       "name": "エンゲージ",
       "nameEn": "Engage",
       "sequence": "Ult -> 1 -> AA",
       "description": "Ultで遠くの敵を黄金化させて足止めし、解除のタイミングに合わせて1でスタンさせます。",
-      "descriptionEn": "Put distant enemies in stasis with Ult to stop them, and time your 1 to stun them as it ends."
+      "descriptionEn": "Put distant enemies in stasis with Ult to stop them, and time your 1 to stun them as it ends.",
+      "sequenceEn": "Ult -> 1 -> AA"
     }
   ],
   "Aatrox": [
@@ -350,14 +393,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1(1段目) -> 2 -> 1(2段目) -> 3 -> 1(3段目) -> AA",
       "description": "1(1段目)を当てて2を付与し、1(2段目)と3で引き寄せを確実にし、1(3段目)で大ダメージを与えます。",
-      "descriptionEn": "Hit 1 (1st cast), apply 2, ensure the pull with 1 (2nd cast) and 3, then deal massive damage with 1 (3rd cast)."
+      "descriptionEn": "Hit 1 (1st cast), apply 2, ensure the pull with 1 (2nd cast) and 3, then deal massive damage with 1 (3rd cast).",
+      "sequenceEn": "1(1st) -> 2 -> 1(2nd) -> 3 -> 1(3rd) -> AA"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "Ult -> 1(1段目) -> 2 -> 1(2段目) -> 3 -> 1(3段目) -> AA",
       "description": "Ultを発動して自己バフをかけ、1のスイートスポットを連続で当てて敵を倒し切ります。",
-      "descriptionEn": "Activate Ult to buff yourself, and consecutively hit the sweet spots of 1 to finish off the enemy."
+      "descriptionEn": "Activate Ult to buff yourself, and consecutively hit the sweet spots of 1 to finish off the enemy.",
+      "sequenceEn": "Ult -> 1(1st) -> 2 -> 1(2nd) -> 3 -> 1(3rd) -> AA"
     }
   ],
   "Camille": [
@@ -366,14 +411,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1(1段目) -> 2 -> 3 -> 3 -> 1(2段目)",
       "description": "1(1段目)をミニオンなどに当て、2でスロウをかけつつ3で壁蹴りして接近し、確定ダメージの1(2段目)を入れます。",
-      "descriptionEn": "Hit a minion or target with 1 (1st cast), apply a slow with 2 while approaching with a wall jump from 3, and land the true damage of 1 (2nd cast)."
+      "descriptionEn": "Hit a minion or target with 1 (1st cast), apply a slow with 2 while approaching with a wall jump from 3, and land the true damage of 1 (2nd cast).",
+      "sequenceEn": "1(1st) -> 2 -> 3 -> 3 -> 1(2nd)"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "3 -> 3 -> Ult -> 1(1段目) -> AA -> 1(2段目)",
       "description": "3で遠距離から接近し、Ultで対象を逃がさず閉じ込め、1の確定ダメージで倒します。",
-      "descriptionEn": "Approach from a distance with 3, trap the target with Ult so they cannot escape, and finish them with the true damage of 1."
+      "descriptionEn": "Approach from a distance with 3, trap the target with Ult so they cannot escape, and finish them with the true damage of 1.",
+      "sequenceEn": "3 -> 3 -> Ult -> 1(1st) -> AA -> 1(2nd)"
     }
   ],
   "Fiddlesticks": [
@@ -382,14 +429,16 @@
       "nameEn": "Ambush Combo",
       "sequence": "Ult -> 1 -> 3 -> 2",
       "description": "視界外からUltで飛び込み、1でフィアーを与え、3でサイレンス、2でダメージと回復を行う強力なコンボ。",
-      "descriptionEn": "A powerful combo where you dive from out of vision with Ult, apply fear with 1, silence with 3, and deal damage and heal with 2."
+      "descriptionEn": "A powerful combo where you dive from out of vision with Ult, apply fear with 1, silence with 3, and deal damage and heal with 2.",
+      "sequenceEn": "Ult -> 1 -> 3 -> 2"
     },
     {
       "name": "基本ハラス",
       "nameEn": "Basic Harass",
       "sequence": "3 -> 1 -> 2",
       "description": "3でスロウとサイレンスを与え、1でフィアーにし、2で体力を吸収する基本的なトレード。",
-      "descriptionEn": "A basic trade where you apply a slow and silence with 3, fear with 1, and drain health with 2."
+      "descriptionEn": "A basic trade where you apply a slow and silence with 3, fear with 1, and drain health with 2.",
+      "sequenceEn": "3 -> 1 -> 2"
     }
   ],
   "Fiora": [
@@ -398,14 +447,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA -> 3 -> AA -> AA",
       "description": "1で急所を突き、AAと3のスキルリセットを活かして連続でダメージを与えるコンボ。",
-      "descriptionEn": "A combo that strikes a vital with 1, and deals continuous damage utilizing the auto-attack resets of AA and 3."
+      "descriptionEn": "A combo that strikes a vital with 1, and deals continuous damage utilizing the auto-attack resets of AA and 3.",
+      "sequenceEn": "1 -> AA -> 3 -> AA -> AA"
     },
     {
       "name": "オールイン（R使用）",
       "nameEn": "All-In (with R)",
       "sequence": "Ult -> 1 -> AA -> 3 -> AA -> 2",
       "description": "Ultを展開し、1やAAで急所を素早く攻撃して回復陣を展開する。2は敵のCCに合わせる。",
-      "descriptionEn": "Deploy Ult, quickly strike the vitals with 1 and AAs to trigger the healing area. Use 2 in response to enemy CC."
+      "descriptionEn": "Deploy Ult, quickly strike the vitals with 1 and AAs to trigger the healing area. Use 2 in response to enemy CC.",
+      "sequenceEn": "Ult -> 1 -> AA -> 3 -> AA -> 2"
     }
   ],
   "Fizz": [
@@ -414,14 +465,16 @@
       "nameEn": "One-Shot Combo",
       "sequence": "Ult -> 2 -> 1 -> 3 -> AA",
       "description": "遠距離からUltを当て、2を発動した状態で1で突進し、3で追撃または離脱するコンボ。",
-      "descriptionEn": "A combo where you land Ult from a distance, dash in with 1 while 2 is active, and use 3 to chase or disengage."
+      "descriptionEn": "A combo where you land Ult from a distance, dash in with 1 while 2 is active, and use 3 to chase or disengage.",
+      "sequenceEn": "Ult -> 2 -> 1 -> 3 -> AA"
     },
     {
       "name": "ショートトレード",
       "nameEn": "Short Trade",
       "sequence": "1 -> AA -> 2 -> 3",
       "description": "1で接近してAA、2で追加ダメージを与え、3で安全な位置に下がる基本的なトレード。",
-      "descriptionEn": "A basic trade where you approach with 1 followed by an AA, deal additional damage with 2, and fall back to a safe position with 3."
+      "descriptionEn": "A basic trade where you approach with 1 followed by an AA, deal additional damage with 2, and fall back to a safe position with 3.",
+      "sequenceEn": "1 -> AA -> 2 -> 3"
     }
   ],
   "Galio": [
@@ -430,14 +483,16 @@
       "nameEn": "Basic CC Combo",
       "sequence": "3 -> 2 -> 1 -> AA",
       "description": "3でノックアップさせ、2でタウントし、1でダメージを与えつつパッシブのAAを叩き込むコンボ。",
-      "descriptionEn": "A combo that knocks up with 3, taunts with 2, deals damage with 1, and finishes with a passive AA."
+      "descriptionEn": "A combo that knocks up with 3, taunts with 2, deals damage with 1, and finishes with a passive AA.",
+      "sequenceEn": "3 -> 2 -> 1 -> AA"
     },
     {
       "name": "フラッシュWコンボ",
       "nameEn": "Flash W Combo",
       "sequence": "2チャージ -> フラッシュ -> 1 -> 3 -> AA",
       "description": "2をチャージしながらフラッシュで接近し、複数の敵をタウントするエンゲージコンボ。",
-      "descriptionEn": "An engage combo where you charge 2, close the gap with Flash, and taunt multiple enemies."
+      "descriptionEn": "An engage combo where you charge 2, close the gap with Flash, and taunt multiple enemies.",
+      "sequenceEn": "2Charge -> Flash -> 1 -> 3 -> AA"
     }
   ],
   "Garen": [
@@ -446,14 +501,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> 2",
       "description": "1で移動速度を上げサイレンスを付与し、3でダメージを与える。2でダメージを軽減しつつ離脱する。",
-      "descriptionEn": "Increase movement speed and apply silence with 1, then deal damage with 3. Use 2 to reduce damage while disengaging."
+      "descriptionEn": "Increase movement speed and apply silence with 1, then deal damage with 3. Use 2 to reduce damage while disengaging.",
+      "sequenceEn": "1 -> 3 -> 2"
     },
     {
       "name": "キルコンボ",
       "nameEn": "Kill Combo",
       "sequence": "1 -> 3 -> Ult",
       "description": "1のサイレンスと3のダメージで敵の体力を削り、最後はUltの確定ダメージでトドメを刺す。",
-      "descriptionEn": "Whittle down the enemy's health with the silence from 1 and damage from 3, then finish them off with the true damage of Ult."
+      "descriptionEn": "Whittle down the enemy's health with the silence from 1 and damage from 3, then finish them off with the true damage of Ult.",
+      "sequenceEn": "1 -> 3 -> Ult"
     }
   ],
   "Gnar": [
@@ -462,14 +519,16 @@
       "nameEn": "Mega Gnar Engage",
       "sequence": "3 -> Ult -> 2 -> 1 -> AA",
       "description": "怒りが溜まる直前に3で飛び込み、空中でメガナーに変身してUltで壁ドンし、CCを繋ぐコンボ。",
-      "descriptionEn": "A combo where you jump in with 3 right before your rage fills, transform into Mega Gnar mid-air, slam them into a wall with Ult, and chain CC."
+      "descriptionEn": "A combo where you jump in with 3 right before your rage fills, transform into Mega Gnar mid-air, slam them into a wall with Ult, and chain CC.",
+      "sequenceEn": "3 -> Ult -> 2 -> 1 -> AA"
     },
     {
       "name": "ミニナーカイト",
       "nameEn": "Mini Gnar Kite",
       "sequence": "1 -> AA -> AA",
       "description": "1でスロウを付与し、AAを2回当てて2のパッシブを発動し、移動速度を上げて引き撃ちする。",
-      "descriptionEn": "Apply a slow with 1, land two AAs to trigger the passive of 2, and kite backward with increased movement speed."
+      "descriptionEn": "Apply a slow with 1, land two AAs to trigger the passive of 2, and kite backward with increased movement speed.",
+      "sequenceEn": "1 -> AA -> AA"
     }
   ],
   "Gragas": [
@@ -478,14 +537,16 @@
       "nameEn": "Basic Combo",
       "sequence": "2 -> 3 -> 1 -> AA",
       "description": "2を飲んで準備し、3でスタンさせ、その隙に1と強化AAを叩き込むコンボ。",
-      "descriptionEn": "A combo where you prepare by drinking 2, stun them with 3, and use that opening to land 1 and an empowered AA."
+      "descriptionEn": "A combo where you prepare by drinking 2, stun them with 3, and use that opening to land 1 and an empowered AA.",
+      "sequenceEn": "2 -> 3 -> 1 -> AA"
     },
     {
       "name": "インセクコンボ",
       "nameEn": "Insec Combo",
       "sequence": "2 -> 3 -> Ult -> 1 -> AA",
       "description": "3で敵に接近し、Ultを敵の後ろに落として味方側に吹き飛ばす強力なエンゲージ。",
-      "descriptionEn": "A powerful engage where you approach the enemy with 3, drop Ult behind them, and knock them into your team."
+      "descriptionEn": "A powerful engage where you approach the enemy with 3, drop Ult behind them, and knock them into your team.",
+      "sequenceEn": "2 -> 3 -> Ult -> 1 -> AA"
     }
   ],
   "Graves": [
@@ -494,14 +555,16 @@
       "nameEn": "Burst Combo",
       "sequence": "2 -> 1 -> 3 -> AA -> Ult",
       "description": "2で視界を奪い、1を壁に当てて即座に爆発させ、3で接近してAA、Ultでトドメを刺すコンボ。",
-      "descriptionEn": "A combo where you blind the enemy with 2, hit a wall with 1 to detonate it instantly, close in with 3 for an AA, and finish them with Ult."
+      "descriptionEn": "A combo where you blind the enemy with 2, hit a wall with 1 to detonate it instantly, close in with 3 for an AA, and finish them with Ult.",
+      "sequenceEn": "2 -> 1 -> 3 -> AA -> Ult"
     },
     {
       "name": "基本リロード",
       "nameEn": "Basic Reload",
       "sequence": "AA -> AA -> 3 -> AA",
       "description": "弾を2発撃ち切った後、3を使って素早く1発リロードし、追撃する基本的な立ち回り。",
-      "descriptionEn": "A basic maneuver where you fire both shells, then use 3 to quickly reload one shell and continue the pursuit."
+      "descriptionEn": "A basic maneuver where you fire both shells, then use 3 to quickly reload one shell and continue the pursuit.",
+      "sequenceEn": "AA -> AA -> 3 -> AA"
     }
   ],
   "Gwen": [
@@ -510,14 +573,16 @@
       "nameEn": "Stack Consumption Combo",
       "sequence": "3 -> 1 -> AA",
       "description": "スタックが最大（4）の状態で3で接近し、1のフルスタックダメージを与えてからAAで追撃する。",
-      "descriptionEn": "Approach with 3 while at maximum (4) stacks, deal full-stack damage with 1, and follow up with AAs."
+      "descriptionEn": "Approach with 3 while at maximum (4) stacks, deal full-stack damage with 1, and follow up with AAs.",
+      "sequenceEn": "3 -> 1 -> AA"
     },
     {
       "name": "オールインコンボ",
       "nameEn": "All-In Combo",
       "sequence": "Ult(1段目) -> 3 -> 1 -> AA -> Ult(2段目) -> AA -> Ult(3段目)",
       "description": "Ultの針を当てつつ3と1で接近・ダメージを与え、さらにUltを連続で使用して大ダメージを狙う。",
-      "descriptionEn": "Hit with Ult needles while using 3 and 1 to approach and deal damage, then consecutively cast Ult for massive damage."
+      "descriptionEn": "Hit with Ult needles while using 3 and 1 to approach and deal damage, then consecutively cast Ult for massive damage.",
+      "sequenceEn": "Ult(1st) -> 3 -> 1 -> AA -> Ult(2nd) -> AA -> Ult(3rd)"
     }
   ],
   "Hecarim": [
@@ -526,14 +591,16 @@
       "nameEn": "Engage Combo",
       "sequence": "3 -> Ult -> 2 -> 1 -> AA",
       "description": "3の移動速度上昇を活かしてUltで飛び込み、敵を分断しつつ2と1で範囲ダメージを与える。",
-      "descriptionEn": "Utilize the movement speed from 3 to dive in with Ult, split the enemies apart, and deal area damage with 2 and 1."
+      "descriptionEn": "Utilize the movement speed from 3 to dive in with Ult, split the enemies apart, and deal area damage with 2 and 1.",
+      "sequenceEn": "3 -> Ult -> 2 -> 1 -> AA"
     },
     {
       "name": "基本ギャンク",
       "nameEn": "Basic Gank",
       "sequence": "3 -> AA -> 1 -> 2 -> 1",
       "description": "3のノックバックで敵を味方側に押し出し、1と2で継続ダメージを与える。",
-      "descriptionEn": "Knock the enemy into your team with 3, and deal continuous damage with 1 and 2."
+      "descriptionEn": "Knock the enemy into your team with 3, and deal continuous damage with 1 and 2.",
+      "sequenceEn": "3 -> AA -> 1 -> 2 -> 1"
     }
   ],
   "Heimerdinger": [
@@ -542,14 +609,16 @@
       "nameEn": "Stun Combo",
       "sequence": "3 -> 2 -> 1",
       "description": "3のグレネードでスタンさせ、その隙に2のロケットを全弾命中させ、1のタレットで追撃する。",
-      "descriptionEn": "Stun with the 3 grenade, land all 2 rockets in the opening, and follow up with the 1 turret."
+      "descriptionEn": "Stun with the 3 grenade, land all 2 rockets in the opening, and follow up with the 1 turret.",
+      "sequenceEn": "3 -> 2 -> 1"
     },
     {
       "name": "アルティメットタレット",
       "nameEn": "Ultimate Turret",
       "sequence": "Ult -> 1 -> 3 -> 2",
       "description": "Ultで強化タレット（1）を配置し、3と2を使って敵をタレットの射程内に留めさせる。",
-      "descriptionEn": "Place an upgraded turret (1) with Ult, and use 3 and 2 to keep the enemy within the turret's range."
+      "descriptionEn": "Place an upgraded turret (1) with Ult, and use 3 and 2 to keep the enemy within the turret's range.",
+      "sequenceEn": "Ult -> 1 -> 3 -> 2"
     }
   ],
   "Irelia": [
@@ -558,14 +627,16 @@
       "nameEn": "Full Stack Engage",
       "sequence": "3(1段目) -> 3(2段目) -> 1 -> AA -> 1 -> 2",
       "description": "3でスタンとマークを付与し、1で接近してAA、もう一度1を使ってダメージを出し、2で攻撃を防ぐ。",
-      "descriptionEn": "Stun and mark with 3, close the gap with 1 and AA, use 1 again to deal damage, and block attacks with 2."
+      "descriptionEn": "Stun and mark with 3, close the gap with 1 and AA, use 1 again to deal damage, and block attacks with 2.",
+      "sequenceEn": "3(1st) -> 3(2nd) -> 1 -> AA -> 1 -> 2"
     },
     {
       "name": "アルティメットコンボ",
       "nameEn": "Ultimate Combo",
       "sequence": "Ult -> 1 -> 3(1段目) -> 3(2段目) -> 1 -> AA -> 1",
       "description": "Ultで複数の敵にマークを付与し1で飛び込み、3でさらにマークをつけて1を連続で回すコンボ。",
-      "descriptionEn": "Mark multiple enemies with Ult and dive in with 1, apply more marks with 3, and chain 1 continuously."
+      "descriptionEn": "Mark multiple enemies with Ult and dive in with 1, apply more marks with 3, and chain 1 continuously.",
+      "sequenceEn": "Ult -> 1 -> 3(1st) -> 3(2nd) -> 1 -> AA -> 1"
     }
   ],
   "Janna": [
@@ -574,7 +645,8 @@
       "nameEn": "Disengage",
       "sequence": "1 -> Ult",
       "description": "竜巻で敵を打ち上げ、さらにUltでノックバックさせて味方を守ります。",
-      "descriptionEn": "Knock up with 1, then knock back with Ult."
+      "descriptionEn": "Knock up with 1, then knock back with Ult.",
+      "sequenceEn": "1 -> Ult"
     }
   ],
   "JarvanIV": [
@@ -583,14 +655,16 @@
       "nameEn": "EQ Combo",
       "sequence": "3 -> 1 -> AA -> 2",
       "description": "3の旗に向かって1を打ち込み、敵をノックアップさせ、AA（パッシブ）と2でスロウを与える。",
-      "descriptionEn": "Cast 1 toward the 3 flag to knock up the enemy, and apply a slow with AA (passive) and 2."
+      "descriptionEn": "Cast 1 toward the 3 flag to knock up the enemy, and apply a slow with AA (passive) and 2.",
+      "sequenceEn": "3 -> 1 -> AA -> 2"
     },
     {
       "name": "オールインエンゲージ",
       "nameEn": "All-In Engage",
       "sequence": "3 -> 1 -> Ult -> 2",
       "description": "31でノックアップさせた直後にUltで敵を壁の中に閉じ込め、2でシールドとスロウを展開する。",
-      "descriptionEn": "Trap the enemy in a wall with Ult immediately after knocking them up with 3-1, and cast 2 for a shield and slow."
+      "descriptionEn": "Trap the enemy in a wall with Ult immediately after knocking them up with 3-1, and cast 2 for a shield and slow.",
+      "sequenceEn": "3 -> 1 -> Ult -> 2"
     }
   ],
   "Jax": [
@@ -599,14 +673,16 @@
       "nameEn": "Jump Stun",
       "sequence": "3(1段目) -> 1 -> 3(2段目) -> 2 -> AA",
       "description": "3を回しながら1で飛びつき、3を再発動してスタンさせ、2の強化AAを叩き込む。",
-      "descriptionEn": "Leap with 1 while spinning 3, reactivate 3 to stun, and land 2's empowered AA."
+      "descriptionEn": "Leap with 1 while spinning 3, reactivate 3 to stun, and land 2's empowered AA.",
+      "sequenceEn": "3(1st) -> 1 -> 3(2nd) -> 2 -> AA"
     },
     {
       "name": "トレードコンボ",
       "nameEn": "Trade Combo",
       "sequence": "AA -> AA -> 2 -> 1 -> 3",
       "description": "ミニオンを殴ってパッシブを溜め、AAの後に2でリセットし、1と3を使って離脱または追撃する。",
-      "descriptionEn": "Hit minions to stack the passive, reset your AA with 2, and use 1 and 3 to disengage or pursue."
+      "descriptionEn": "Hit minions to stack the passive, reset your AA with 2, and use 1 and 3 to disengage or pursue.",
+      "sequenceEn": "AA -> AA -> 2 -> 1 -> 3"
     }
   ],
   "Jayce": [
@@ -615,14 +691,16 @@
       "nameEn": "Poke Combo",
       "sequence": "3(キャノン) -> 1(キャノン)",
       "description": "キャノンフォームで3のゲートを展開し、即座に1を撃つことで高速かつ高火力の弾を飛ばす。",
-      "descriptionEn": "Deploy 3's gate in Cannon form and immediately shoot 1 to fire a high-speed, high-damage blast."
+      "descriptionEn": "Deploy 3's gate in Cannon form and immediately shoot 1 to fire a high-speed, high-damage blast.",
+      "sequenceEn": "3(Cannon) -> 1(Cannon)"
     },
     {
       "name": "フルバースト",
       "nameEn": "Full Burst",
       "sequence": "3(キャノン) -> 1(キャノン) -> 2(キャノン) -> Ult -> 1(ハンマー) -> AA -> AA -> AA -> 3(ハンマー)",
       "description": "強化1を当てた後2を発動し、ハンマーに持ち替えて1で飛び込み、高速AAを叩き込んで3で弾く。",
-      "descriptionEn": "After landing an empowered 1, activate 2, switch to Hammer with Ult, jump in with 1, land rapid AAs, and knock them away with 3."
+      "descriptionEn": "After landing an empowered 1, activate 2, switch to Hammer with Ult, jump in with 1, land rapid AAs, and knock them away with 3.",
+      "sequenceEn": "3(Cannon) -> 1(Cannon) -> 2(Cannon) -> Ult -> 1(Hammer) -> AA -> AA -> AA -> 3(Hammer)"
     }
   ],
   "Jhin": [
@@ -631,14 +709,16 @@
       "nameEn": "Snare Combo",
       "sequence": "AA -> 2 -> 1 -> AA(4発目)",
       "description": "味方のダメージや自身のAAの後に2でスネアをかけ、1と確定クリティカルの4発目を確実に当てる。",
-      "descriptionEn": "Root the enemy with 2 after ally damage or your AA, and guarantee 1 and the critical 4th shot."
+      "descriptionEn": "Root the enemy with 2 after ally damage or your AA, and guarantee 1 and the critical 4th shot.",
+      "sequenceEn": "AA -> 2 -> 1 -> AA(4発目)"
     },
     {
       "name": "ポークコンボ",
       "nameEn": "Poke Combo",
       "sequence": "1 -> 2 -> AA",
       "description": "ミニオンを経由して1のダメージを跳ねさせ、2で追撃しつつAAを1発入れる安全なトレード。",
-      "descriptionEn": "Bounce 1's damage through minions, follow up with 2, and weave in one AA for a safe trade."
+      "descriptionEn": "Bounce 1's damage through minions, follow up with 2, and weave in one AA for a safe trade.",
+      "sequenceEn": "1 -> 2 -> AA"
     }
   ],
   "Jinx": [
@@ -647,14 +727,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1(ロケット) -> 2 -> 1(ミニガン) -> AA",
       "description": "ロケットランチャーで長距離から攻撃し、2でスロウを当ててからミニガンで追撃する。",
-      "descriptionEn": "Attack from long range with the rocket launcher, land a slow with 2, and pursue with the minigun."
+      "descriptionEn": "Attack from long range with the rocket launcher, land a slow with 2, and pursue with the minigun.",
+      "sequenceEn": "1(Rocket) -> 2 -> 1(Minigun) -> AA"
     },
     {
       "name": "トラップコンボ",
       "nameEn": "Trap Combo",
       "sequence": "3 -> 2 -> AA -> Ult",
       "description": "味方のCCに合わせて3の罠を置き、スネア中に2とAAでダメージを稼ぎ、最後はUltでキルを狙う。",
-      "descriptionEn": "Place 3's traps on top of ally CC, deal damage with 2 and AA while rooted, and finish them with Ult."
+      "descriptionEn": "Place 3's traps on top of ally CC, deal damage with 2 and AA while rooted, and finish them with Ult.",
+      "sequenceEn": "3 -> 2 -> AA -> Ult"
     }
   ],
   "Kaisa": [
@@ -663,14 +745,16 @@
       "nameEn": "Burst Combo",
       "sequence": "2 -> Ult -> 1 -> AA -> 3",
       "description": "2を当ててプラズマを付与し、Ultで一気に接近して1とAAでスタックを起爆させ、3で離脱・追撃する。",
-      "descriptionEn": "Apply Plasma with 2, dash in with Ult, detonate stacks with 1 and AA, and use 3 to disengage or pursue."
+      "descriptionEn": "Apply Plasma with 2, dash in with Ult, detonate stacks with 1 and AA, and use 3 to disengage or pursue.",
+      "sequenceEn": "2 -> Ult -> 1 -> AA -> 3"
     },
     {
       "name": "孤立Qコンボ",
       "nameEn": "Isolated Q Combo",
       "sequence": "3 -> AA -> 1 -> 2 -> AA",
       "description": "3のインビジブルで接近し、敵が孤立した状態で1のミサイルを全弾命中させる。",
-      "descriptionEn": "Approach while invisible with 3, and land all 1 missiles on an isolated enemy."
+      "descriptionEn": "Approach while invisible with 3, and land all 1 missiles on an isolated enemy.",
+      "sequenceEn": "3 -> AA -> 1 -> 2 -> AA"
     }
   ],
   "Kalista": [
@@ -679,14 +763,16 @@
       "nameEn": "Basic Kiting",
       "sequence": "AA -> ステップ -> 1 -> ステップ -> 3",
       "description": "AAと1でパッシブのステップを踏みながら槍をスタックさせ、3で一気にダメージとスロウを与える。",
-      "descriptionEn": "Use AA and 1 to dash with your passive while stacking spears, then activate 3 for massive damage and a slow."
+      "descriptionEn": "Use AA and 1 to dash with your passive while stacking spears, then activate 3 for massive damage and a slow.",
+      "sequenceEn": "AA -> Step -> 1 -> Step -> 3"
     },
     {
       "name": "エンゲージコンボ",
       "nameEn": "Engage Combo",
       "sequence": "Ult -> AA -> 3",
       "description": "契約した味方をUltで投げ飛ばしてノックアップさせ、その隙にAAで槍を刺して3で起爆する。",
-      "descriptionEn": "Throw your Oathsworn ally with Ult to knock up enemies, then impale them with AAs and detonate with 3."
+      "descriptionEn": "Throw your Oathsworn ally with Ult to knock up enemies, then impale them with AAs and detonate with 3.",
+      "sequenceEn": "Ult -> AA -> 3"
     }
   ],
   "Karma": [
@@ -695,14 +781,16 @@
       "nameEn": "Harass",
       "sequence": "3 -> 1",
       "description": "3スキルのシールドと移動速度アップで近づき、1スキルを当てます。",
-      "descriptionEn": "Use 3 to close gap, then hit 1."
+      "descriptionEn": "Use 3 to close gap, then hit 1.",
+      "sequenceEn": "3 -> 1"
     },
     {
       "name": "集団戦エンゲージ",
       "nameEn": "Teamfight Engage",
       "sequence": "Ult -> 強化1",
       "description": "Ultで敵を複数人引き寄せたところに、パッシブで強化した1スキルを叩き込みます。",
-      "descriptionEn": "Pull enemies with Ult, then hit them with empowered 1."
+      "descriptionEn": "Pull enemies with Ult, then hit them with empowered 1.",
+      "sequenceEn": "Ult -> Empowered 1"
     }
   ],
   "Kassadin": [
@@ -711,14 +799,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> 3",
       "description": "1で魔法シールドを展開しつつダメージを与え、3でスロウをかける安全なレーン戦のコンボ。",
-      "descriptionEn": "Deal damage and gain a magic shield with 1, then apply a slow with 3 for a safe laning combo."
+      "descriptionEn": "Deal damage and gain a magic shield with 1, then apply a slow with 3 for a safe laning combo.",
+      "sequenceEn": "1 -> 3"
     },
     {
       "name": "ワンコンボ",
       "nameEn": "One-Shot Combo",
       "sequence": "Ult -> 3 -> AA -> 2 -> 1",
       "description": "Ultで飛び込み、3でスロウ、AAの直後に2でAAキャンセルしてバーストを出し、1で追撃・シールドを獲得する。",
-      "descriptionEn": "Riftwalk in with Ult, slow with 3, reset AA with 2 for burst, and follow up/shield with 1."
+      "descriptionEn": "Riftwalk in with Ult, slow with 3, reset AA with 2 for burst, and follow up/shield with 1.",
+      "sequenceEn": "Ult -> 3 -> AA -> 2 -> 1"
     }
   ],
   "Katarina": [
@@ -727,7 +817,8 @@
       "nameEn": "Basic Engage",
       "sequence": "1 -> 3 -> 2 -> Ult",
       "description": "1スキルで短剣を投げ、3スキルで飛び込みます。2スキルで短剣を落としつつUltを発動します。",
-      "descriptionEn": "Throw 1, jump with 3, drop 2 and Ult."
+      "descriptionEn": "Throw 1, jump with 3, drop 2 and Ult.",
+      "sequenceEn": "1 -> 3 -> 2 -> Ult"
     }
   ],
   "Kayle": [
@@ -736,14 +827,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA -> 3",
       "description": "1でスロウと防御力低下を与え、AAを入れつつ3でAAキャンセルし追加ダメージを与える。",
-      "descriptionEn": "Apply a slow and defense reduction with 1, weave in an AA, and reset it with 3 for extra damage."
+      "descriptionEn": "Apply a slow and defense reduction with 1, weave in an AA, and reset it with 3 for extra damage.",
+      "sequenceEn": "1 -> AA -> 3"
     },
     {
       "name": "カイトコンボ",
       "nameEn": "Kiting Combo",
       "sequence": "2 -> 1 -> AA -> 3",
       "description": "2で移動速度と体力を回復して距離を取り、1でスロウをかけて引き撃ちを行う。",
-      "descriptionEn": "Heal and gain movement speed with 2 to create distance, then kite while slowing them with 1."
+      "descriptionEn": "Heal and gain movement speed with 2 to create distance, then kite while slowing them with 1.",
+      "sequenceEn": "2 -> 1 -> AA -> 3"
     }
   ],
   "Kayn": [
@@ -752,14 +845,16 @@
       "nameEn": "Basic Gank (Rhaast)",
       "sequence": "3 -> 2 -> 1 -> AA -> Ult",
       "description": "3で壁を抜け、2のノックアップを当て、1でダメージを与えつつ接近し、体力が減ったらUltで回復する。",
-      "descriptionEn": "Walk through walls with 3, land 2's knock-up, close the gap/damage with 1, and heal with Ult when low."
+      "descriptionEn": "Walk through walls with 3, land 2's knock-up, close the gap/damage with 1, and heal with Ult when low.",
+      "sequenceEn": "3 -> 2 -> 1 -> AA -> Ult"
     },
     {
       "name": "暗殺コンボ（青ケイン）",
       "nameEn": "Assassination Combo (Shadow Assassin)",
       "sequence": "3 -> 2 -> 1 -> Ult -> スマイト",
       "description": "壁から高速で接近し、2と1をほぼ同時に放ち、Ultでトドメを刺す一瞬のバーストコンボ。",
-      "descriptionEn": "Approach rapidly through walls, cast 2 and 1 almost simultaneously, and finish with Ult in an instant burst."
+      "descriptionEn": "Approach rapidly through walls, cast 2 and 1 almost simultaneously, and finish with Ult in an instant burst.",
+      "sequenceEn": "3 -> 2 -> 1 -> Ult -> Smite"
     }
   ],
   "Kennen": [
@@ -768,14 +863,16 @@
       "nameEn": "Teamfight Engage",
       "sequence": "3 -> Ult -> 2 -> 1 -> ゾーニャの砂時計",
       "description": "3で高速移動して敵陣に突っ込み、Ultを展開して2で複数人をスタンさせ、フォーカスされたらゾーニャを使う。",
-      "descriptionEn": "Sprint into the enemy team with 3, cast Ult and 2 to stun multiple targets, and use Zhonya's if focused."
+      "descriptionEn": "Sprint into the enemy team with 3, cast Ult and 2 to stun multiple targets, and use Zhonya's if focused.",
+      "sequenceEn": "3 -> Ult -> 2 -> 1 -> Stasis"
     },
     {
       "name": "レーントレード",
       "nameEn": "Lane Trade",
       "sequence": "AA(強化) -> 1 -> 2",
       "description": "強化AA（手裏剣のスタック）を当て、1を当ててから2を使用し、遠距離から安全にスタンとダメージを与える。",
-      "descriptionEn": "Land an empowered AA (shuriken stack) and 1, then cast 2 to safely stun and deal damage from afar."
+      "descriptionEn": "Land an empowered AA (shuriken stack) and 1, then cast 2 to safely stun and deal damage from afar.",
+      "sequenceEn": "AA(Empowered ) -> 1 -> 2"
     }
   ],
   "Khazix": [
@@ -784,14 +881,16 @@
       "nameEn": "Assassination Combo",
       "sequence": "3 -> 1 -> AA -> 2 -> Ult",
       "description": "3で飛びかかり空中で1を発動、着地時にAAと2を当て、Ultのインビジブルで離脱または追撃する。",
-      "descriptionEn": "Leap with 3, cast 1 mid-air, land AA and 2 upon landing, and use Ult's invisibility to escape or pursue."
+      "descriptionEn": "Leap with 3, cast 1 mid-air, land AA and 2 upon landing, and use Ult's invisibility to escape or pursue.",
+      "sequenceEn": "3 -> 1 -> AA -> 2 -> Ult"
     },
     {
       "name": "ブッシュアンブッシュ",
       "nameEn": "Bush Ambush",
       "sequence": "AA -> 1 -> 2 -> Ult -> AA -> 1",
       "description": "孤立した敵に接近してAAと1で大ダメージを与え、Ultで姿を消してパッシブを再発動し、再び攻撃する。",
-      "descriptionEn": "Ambush an isolated enemy with AA and 1 for massive damage, use Ult to turn invisible, reset passive, and strike again."
+      "descriptionEn": "Ambush an isolated enemy with AA and 1 for massive damage, use Ult to turn invisible, reset passive, and strike again.",
+      "sequenceEn": "AA -> 1 -> 2 -> Ult -> AA -> 1"
     }
   ],
   "Kindred": [
@@ -800,14 +899,16 @@
       "nameEn": "Basic Kiting",
       "sequence": "2 -> 1 -> AA -> 3 -> AA -> 1",
       "description": "2を展開して1のクールダウンを短縮し、3でスロウをかけてから1で位置調整しつつ3回目の攻撃を狙う。",
-      "descriptionEn": "Deploy 2 to reduce 1's cooldown, slow with 3, and reposition with 1 while aiming for the 3rd attack."
+      "descriptionEn": "Deploy 2 to reduce 1's cooldown, slow with 3, and reposition with 1 while aiming for the 3rd attack.",
+      "sequenceEn": "2 -> 1 -> AA -> 3 -> AA -> 1"
     },
     {
       "name": "アルティメット生存",
       "nameEn": "Ultimate Survival",
       "sequence": "3 -> AA -> Ult -> AA -> 1 -> AA",
       "description": "Ultを展開して不死身になりつつ、敵に3のスタックを溜めておき、Ult終了直後に3発目を起爆して倒し切る。",
-      "descriptionEn": "Cast Ult to become invulnerable while stacking 3 on the enemy, then detonate the 3rd hit right as Ult ends to secure the kill."
+      "descriptionEn": "Cast Ult to become invulnerable while stacking 3 on the enemy, then detonate the 3rd hit right as Ult ends to secure the kill.",
+      "sequenceEn": "3 -> AA -> Ult -> AA -> 1 -> AA"
     }
   ],
   "KogMaw": [
@@ -816,14 +917,16 @@
       "nameEn": "Long Range Artillery",
       "sequence": "2 -> 3 -> AA -> AA -> Ult",
       "description": "2を発動して射程と最大体力割合ダメージを得て、3でスロウをかけながらAAを続け、逃げる敵にUltを落とす。",
-      "descriptionEn": "Activate 2 for range and max HP damage, slow with 3 while weaving AAs, and drop Ult on fleeing enemies."
+      "descriptionEn": "Activate 2 for range and max HP damage, slow with 3 while weaving AAs, and drop Ult on fleeing enemies.",
+      "sequenceEn": "2 -> 3 -> AA -> AA -> Ult"
     },
     {
       "name": "ポークコンボ",
       "nameEn": "Poke Combo",
       "sequence": "3 -> Ult -> 1",
       "description": "3でスロウをかけ、Ultで遠距離からダメージを与えつつ1で防御力を下げる。",
-      "descriptionEn": "Slow with 3, deal long-range damage with Ult, and shred defenses with 1."
+      "descriptionEn": "Slow with 3, deal long-range damage with Ult, and shred defenses with 1.",
+      "sequenceEn": "3 -> Ult -> 1"
     }
   ],
   "KSante": [
@@ -832,14 +935,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA -> 1 -> AA -> 3 -> 2",
       "description": "1とAAを交互に出してスタックを溜め、3でシールドを得てから2でダメージ軽減とCCを狙う。",
-      "descriptionEn": "Alternate 1 and AA to build stacks, gain a shield with 3, and use 2 for damage reduction and CC."
+      "descriptionEn": "Alternate 1 and AA to build stacks, gain a shield with 3, and use 2 for damage reduction and CC.",
+      "sequenceEn": "1 -> AA -> 1 -> AA -> 3 -> 2"
     },
     {
       "name": "壁ドンオールイン",
       "nameEn": "Wall All-In",
       "sequence": "1(3段目) -> 2 -> Ult -> 1 -> AA -> 3 -> AA",
       "description": "1の3段目で敵を引き寄せ、2で壁際に押し込み、Ultで壁を抜けてオールアウト状態になり大ダメージを出す。",
-      "descriptionEn": "Pull the enemy with the 3rd cast of 1, push them into a wall with 2, and use Ult to smash them through it, entering All Out form for massive damage."
+      "descriptionEn": "Pull the enemy with the 3rd cast of 1, push them into a wall with 2, and use Ult to smash them through it, entering All Out form for massive damage.",
+      "sequenceEn": "1(3rd) -> 2 -> Ult -> 1 -> AA -> 3 -> AA"
     }
   ],
   "LeeSin": [
@@ -848,14 +953,16 @@
       "nameEn": "Basic Gank",
       "sequence": "2 -> 1(1段目) -> 1(2段目) -> 3 -> AA",
       "description": "2スキルで敵に接近し、確実に1スキルを当ててスロウとダメージを与えます。",
-      "descriptionEn": "Gap close with 2, land 1 for damage and slow."
+      "descriptionEn": "Gap close with 2, land 1 for damage and slow.",
+      "sequenceEn": "2 -> 1(1st) -> 1(2nd) -> 3 -> AA"
     },
     {
       "name": "インセク",
       "nameEn": "Insec",
       "sequence": "1(1段目) -> 1(2段目) -> 2 -> Ult",
       "description": "1スキルで敵に飛びつき、2スキルで敵の後ろに回り込んでからUltで味方側に蹴り飛ばします。",
-      "descriptionEn": "Dash to enemy with 1, use 2 to get behind them, and kick them back with Ult."
+      "descriptionEn": "Dash to enemy with 1, use 2 to get behind them, and kick them back with Ult.",
+      "sequenceEn": "1(1st) -> 1(2nd) -> 2 -> Ult"
     }
   ],
   "Leona": [
@@ -864,14 +971,16 @@
       "nameEn": "All-In Engage",
       "sequence": "2 -> 3 -> 1 -> Ult",
       "description": "2で防御を固めてから3で飛びつき、1でスタンさせ、その後にUltを確定させて長時間のCCチェインを作る。",
-      "descriptionEn": "Raise defenses with 2, dive with 3, stun with 1, and guarantee Ult for a long CC chain."
+      "descriptionEn": "Raise defenses with 2, dive with 3, stun with 1, and guarantee Ult for a long CC chain.",
+      "sequenceEn": "2 -> 3 -> 1 -> Ult"
     },
     {
       "name": "確実なRコンボ",
       "nameEn": "Guaranteed R Combo",
       "sequence": "Ult -> 2 -> 3 -> 1",
       "description": "遠距離からUltのスタンまたはスロウを当て、その隙に3で飛びついて1でCCを継続させる。",
-      "descriptionEn": "Hit a stun or slow from afar with Ult, then follow up by diving with 3 and chaining CC with 1."
+      "descriptionEn": "Hit a stun or slow from afar with Ult, then follow up by diving with 3 and chaining CC with 1.",
+      "sequenceEn": "Ult -> 2 -> 3 -> 1"
     }
   ],
   "Lillia": [
@@ -880,14 +989,16 @@
       "nameEn": "Sleep Engage",
       "sequence": "1 -> Ult -> 2 -> 3 -> 1",
       "description": "1の外側を当ててパッシブを付与し、Ultで眠らせ、2の中心で大ダメージを与えてから追撃する。",
-      "descriptionEn": "Hit the outer edge of 1 to apply passive, put them to sleep with Ult, and deal massive damage with the center of 2 before pursuing."
+      "descriptionEn": "Hit the outer edge of 1 to apply passive, put them to sleep with Ult, and deal massive damage with the center of 2 before pursuing.",
+      "sequenceEn": "1 -> Ult -> 2 -> 3 -> 1"
     },
     {
       "name": "ヒットアンドアウェイ",
       "nameEn": "Hit and Run",
       "sequence": "3 -> 1 -> AA",
       "description": "3の種を当ててスロウにし、1の外側を当てて移動速度を上げ、すぐに距離を取る安全なコンボ。",
-      "descriptionEn": "Land 3's seed for a slow, hit 1's outer edge for movement speed, and quickly retreat safely."
+      "descriptionEn": "Land 3's seed for a slow, hit 1's outer edge for movement speed, and quickly retreat safely.",
+      "sequenceEn": "3 -> 1 -> AA"
     }
   ],
   "Lissandra": [
@@ -896,14 +1007,16 @@
       "nameEn": "Teamfight Engage",
       "sequence": "3(1段目) -> 3(2段目) -> 2 -> 1 -> Ult(自分)",
       "description": "3で敵陣に飛び込み、2で周囲をスネアさせ、1を撃った後にUltを自分に使って無敵状態になり時間を稼ぐ。",
-      "descriptionEn": "Dive the enemy team with 3, root everyone nearby with 2, fire 1, and self-cast Ult to become invulnerable and stall."
+      "descriptionEn": "Dive the enemy team with 3, root everyone nearby with 2, fire 1, and self-cast Ult to become invulnerable and stall.",
+      "sequenceEn": "3(1st) -> 3(2nd) -> 2 -> 1 -> Ult(Self)"
     },
     {
       "name": "確実なキャッチ",
       "nameEn": "Reliable Catch",
       "sequence": "3(1段目) -> 3(2段目) -> Ult(敵) -> 2 -> 1 -> AA",
       "description": "3で接近し、Ultを対象指定で敵に使ってスタンさせ、2と1で追撃する単体フォーカスコンボ。",
-      "descriptionEn": "Approach with 3, point-and-click Ult an enemy to stun them, and follow up with 2 and 1 for single-target burst."
+      "descriptionEn": "Approach with 3, point-and-click Ult an enemy to stun them, and follow up with 2 and 1 for single-target burst.",
+      "sequenceEn": "3(1st) -> 3(2nd) -> Ult(Enemy) -> 2 -> 1 -> AA"
     }
   ],
   "Lucian": [
@@ -912,14 +1025,16 @@
       "nameEn": "Full Burst",
       "sequence": "3 -> AA -> 1 -> AA -> 2 -> AA -> Ult",
       "description": "スキルの間にパッシブの2連AAを正確に挟み込み、素早くダメージを出した後にUltで追撃する。",
-      "descriptionEn": "Accurately weave passive double AAs between skills to deal rapid burst damage, then follow up with Ult."
+      "descriptionEn": "Accurately weave passive double AAs between skills to deal rapid burst damage, then follow up with Ult.",
+      "sequenceEn": "3 -> AA -> 1 -> AA -> 2 -> AA -> Ult"
     },
     {
       "name": "ショートトレード",
       "nameEn": "Short Trade",
       "sequence": "1 -> AA -> 3 -> AA",
       "description": "ミニオン越しに1を当ててから接近し、AAと3を使ってダメージを出しつつ安全な位置に下がる。",
-      "descriptionEn": "Hit 1 through minions, step up for an AA, and use 3 to deal damage while retreating to safety."
+      "descriptionEn": "Hit 1 through minions, step up for an AA, and use 3 to deal damage while retreating to safety.",
+      "sequenceEn": "1 -> AA -> 3 -> AA"
     }
   ],
   "Lulu": [
@@ -928,14 +1043,16 @@
       "nameEn": "Peel Combo",
       "sequence": "3(味方) -> 2(敵) -> 1",
       "description": "味方に3でシールドを付与し、飛び込んできた敵を2でポリモーフ（変身）させ、1でスロウをかける。",
-      "descriptionEn": "Shield an ally with 3, Polymorph diving enemies with 2, and apply a slow with 1."
+      "descriptionEn": "Shield an ally with 3, Polymorph diving enemies with 2, and apply a slow with 1.",
+      "sequenceEn": "3(Ally) -> 2(Enemy) -> 1"
     },
     {
       "name": "バーストポーク",
       "nameEn": "Burst Poke",
       "sequence": "3(敵) -> 1 -> AA",
       "description": "敵に3を使ってピックスをくっつけ、そこから確実な角度で1を当てて大ダメージを狙う。",
-      "descriptionEn": "Attach Pix to an enemy with 3, then fire 1 from a guaranteed angle for massive damage."
+      "descriptionEn": "Attach Pix to an enemy with 3, then fire 1 from a guaranteed angle for massive damage.",
+      "sequenceEn": "3(Enemy) -> 1 -> AA"
     }
   ],
   "Lux": [
@@ -944,14 +1061,16 @@
       "nameEn": "Basic Harass",
       "sequence": "3 -> AA",
       "description": "3スキルを敵に当てて爆発させ、通常攻撃でパッシブの追加ダメージを与えます。",
-      "descriptionEn": "Hit 3, then AA to proc passive."
+      "descriptionEn": "Hit 3, then AA to proc passive.",
+      "sequenceEn": "3 -> AA"
     },
     {
       "name": "ワンコンボ",
       "nameEn": "One-Shot Combo",
       "sequence": "1 -> 3 -> Ult",
       "description": "1スキルのスネアを当て、3スキルとUltを同時に叩き込んで一瞬でダメージを出します。",
-      "descriptionEn": "Root with 1, then follow up with 3 and Ult."
+      "descriptionEn": "Root with 1, then follow up with 3 and Ult.",
+      "sequenceEn": "1 -> 3 -> Ult"
     }
   ],
   "Malphite": [
@@ -960,14 +1079,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> 3 -> 2 -> AA",
       "description": "レーン戦での基本的なダメージトレードです。1でスロウをかけ、3で攻撃速度を下げます。",
-      "descriptionEn": "A basic damage trade for laning. Slow with 1 and reduce attack speed with 3."
+      "descriptionEn": "A basic damage trade for laning. Slow with 1 and reduce attack speed with 3.",
+      "sequenceEn": "1 -> 3 -> 2 -> AA"
     },
     {
       "name": "フルコンボ",
       "nameEn": "Full Combo",
       "sequence": "Ult -> 3 -> 1 -> 2 -> AA",
       "description": "アルティメットを使ったバーストコンボです。集団戦のイニシエートに最適です。",
-      "descriptionEn": "A burst combo using your Ultimate. Perfect for initiating teamfights."
+      "descriptionEn": "A burst combo using your Ultimate. Perfect for initiating teamfights.",
+      "sequenceEn": "Ult -> 3 -> 1 -> 2 -> AA"
     }
   ],
   "Maokai": [
@@ -976,14 +1097,16 @@
       "nameEn": "Basic Engage",
       "sequence": "2 -> 1 -> 3",
       "description": "2で対象にスネアを与え、1でノックバックさせる基本的なエンゲージです。",
-      "descriptionEn": "A basic engage where you root the target with 2 and knock them back with 1."
+      "descriptionEn": "A basic engage where you root the target with 2 and knock them back with 1.",
+      "sequenceEn": "2 -> 1 -> 3"
     },
     {
       "name": "集団戦エンゲージ",
       "nameEn": "Teamfight Engage",
       "sequence": "Ult -> 2 -> 1 -> 3",
       "description": "アルティメットで複数の敵を拘束し、2で確実に捕まえる強力なイニシエートコンボです。",
-      "descriptionEn": "A powerful initiate combo that uses Ultimate to lock down multiple enemies and 2 to guarantee a catch."
+      "descriptionEn": "A powerful initiate combo that uses Ultimate to lock down multiple enemies and 2 to guarantee a catch.",
+      "sequenceEn": "Ult -> 2 -> 1 -> 3"
     }
   ],
   "MasterYi": [
@@ -992,7 +1115,8 @@
       "nameEn": "Basic Combat",
       "sequence": "1 -> AA -> 2 -> AA -> 3",
       "description": "1で距離を詰め、通常攻撃の合間に2を使ってAAキャンセルを行うコンボです。",
-      "descriptionEn": "Close the gap with 1 and use 2 between basic attacks as an AA reset."
+      "descriptionEn": "Close the gap with 1 and use 2 between basic attacks as an AA reset.",
+      "sequenceEn": "1 -> AA -> 2 -> AA -> 3"
     }
   ],
   "Mel": [
@@ -1001,7 +1125,8 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> 2",
       "description": "スキルを組み合わせた基本的なダメージトレードです。",
-      "descriptionEn": "A basic damage trade combining your skills."
+      "descriptionEn": "A basic damage trade combining your skills.",
+      "sequenceEn": "1 -> 3 -> 2"
     }
   ],
   "Milio": [
@@ -1010,7 +1135,8 @@
       "nameEn": "Harass Combo",
       "sequence": "3 -> AA -> 1 -> 2",
       "description": "3でシールドを付与して通常攻撃の射程を伸ばし、安全にハラスを行うコンボです。",
-      "descriptionEn": "Grant a shield with 3 to increase basic attack range and safely harass the enemy."
+      "descriptionEn": "Grant a shield with 3 to increase basic attack range and safely harass the enemy.",
+      "sequenceEn": "3 -> AA -> 1 -> 2"
     }
   ],
   "MissFortune": [
@@ -1019,14 +1145,16 @@
       "nameEn": "Basic Trade",
       "sequence": "AA -> 1 -> AA",
       "description": "通常攻撃の間に1を挟み込み、パッシブの追加ダメージを活かすコンボです。",
-      "descriptionEn": "Weave 1 between basic attacks to maximize the additional damage from your passive."
+      "descriptionEn": "Weave 1 between basic attacks to maximize the additional damage from your passive.",
+      "sequenceEn": "AA -> 1 -> AA"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "3 -> Ult",
       "description": "3のスロウで敵の動きを遅くし、Ultのダメージを最大限に与える集団戦コンボです。",
-      "descriptionEn": "A teamfight combo that slows enemies with 3 to ensure maximum damage from your Ultimate."
+      "descriptionEn": "A teamfight combo that slows enemies with 3 to ensure maximum damage from your Ultimate.",
+      "sequenceEn": "3 -> Ult"
     }
   ],
   "MonkeyKing": [
@@ -1035,14 +1163,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 1 -> 2 -> AA",
       "description": "3で接近し、1でダメージを与えた後、2の分身で安全に離脱するコンボです。",
-      "descriptionEn": "Approach with 3, deal damage with 1, and use 2's clone to safely disengage."
+      "descriptionEn": "Approach with 3, deal damage with 1, and use 2's clone to safely disengage.",
+      "sequenceEn": "3 -> 1 -> 2 -> AA"
     },
     {
       "name": "フルコンボ",
       "nameEn": "Full Combo",
       "sequence": "3 -> Ult -> 1 -> 2",
       "description": "集団戦で複数の敵にノックアップを与えるためのフルエンゲージコンボです。",
-      "descriptionEn": "A full engage combo to knock up multiple enemies in teamfights."
+      "descriptionEn": "A full engage combo to knock up multiple enemies in teamfights.",
+      "sequenceEn": "3 -> Ult -> 1 -> 2"
     }
   ],
   "Mordekaiser": [
@@ -1051,14 +1181,16 @@
       "nameEn": "Passive Trigger",
       "sequence": "3 -> 1 -> AA",
       "description": "3で引き寄せ、1と通常攻撃でパッシブを素早く発動させるコンボです。",
-      "descriptionEn": "A combo that pulls the enemy with 3, and quickly activates the passive with 1 and auto-attacks."
+      "descriptionEn": "A combo that pulls the enemy with 3, and quickly activates the passive with 1 and auto-attacks.",
+      "sequenceEn": "3 -> 1 -> AA"
     },
     {
       "name": "1v1確殺",
       "nameEn": "1v1 Kill",
       "sequence": "Ult -> 3 -> 1 -> AA",
       "description": "アルティメットで敵を隔離し、確実にキルを取りに行くコンボです。",
-      "descriptionEn": "A combo that isolates the enemy with the ultimate and goes for a sure kill."
+      "descriptionEn": "A combo that isolates the enemy with the ultimate and goes for a sure kill.",
+      "sequenceEn": "Ult -> 3 -> 1 -> AA"
     }
   ],
   "Morgana": [
@@ -1067,14 +1199,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> 2",
       "description": "1のスネアを当て、動けない敵に2の継続ダメージを与えるコンボです。",
-      "descriptionEn": "A combo that lands the root from 1, and deals continuous damage with 2 to the immobilized enemy."
+      "descriptionEn": "A combo that lands the root from 1, and deals continuous damage with 2 to the immobilized enemy.",
+      "sequenceEn": "1 -> 2"
     },
     {
       "name": "集団戦エンゲージ",
       "nameEn": "Teamfight Engage",
       "sequence": "Ult -> ゾーニャ -> 1 -> 2",
       "description": "敵陣の中心でUltを発動し、ゾーニャの砂時計で安全を確保する集団戦の要となるコンボです。",
-      "descriptionEn": "A crucial teamfight combo that activates Ult in the center of the enemy team and ensures safety with Zhonya's Hourglass."
+      "descriptionEn": "A crucial teamfight combo that activates Ult in the center of the enemy team and ensures safety with Zhonya's Hourglass.",
+      "sequenceEn": "Ult -> Stasis -> 1 -> 2"
     }
   ],
   "Nami": [
@@ -1083,14 +1217,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> AA -> 2 -> 1",
       "description": "3を自分にかけてスロウ付きの通常攻撃を行い、1を当てやすくするコンボです。",
-      "descriptionEn": "A combo where you cast 3 on yourself to perform auto-attacks with a slow, making it easier to land 1."
+      "descriptionEn": "A combo where you cast 3 on yourself to perform auto-attacks with a slow, making it easier to land 1.",
+      "sequenceEn": "3 -> AA -> 2 -> 1"
     },
     {
       "name": "フルコンボ",
       "nameEn": "Full Combo",
       "sequence": "Ult -> 1 -> 2 -> 3",
       "description": "Ultの巨大な波でノックアップさせ、確実に追加のCCと回復を行うコンボです。",
-      "descriptionEn": "A combo that knocks up enemies with the massive wave of the Ult, guaranteeing follow-up CC and healing."
+      "descriptionEn": "A combo that knocks up enemies with the massive wave of the Ult, guaranteeing follow-up CC and healing.",
+      "sequenceEn": "Ult -> 1 -> 2 -> 3"
     }
   ],
   "Nasus": [
@@ -1099,7 +1235,8 @@
       "nameEn": "Basic Trade",
       "sequence": "2 -> 3 -> 1 -> AA",
       "description": "2でスロウを与え、3で防御力を下げてから1の強力な一撃を叩き込みます。",
-      "descriptionEn": "A combo that applies a slow with 2, reduces armor with 3, and then lands a powerful strike with 1."
+      "descriptionEn": "A combo that applies a slow with 2, reduces armor with 3, and then lands a powerful strike with 1.",
+      "sequenceEn": "2 -> 3 -> 1 -> AA"
     }
   ],
   "Nautilus": [
@@ -1108,14 +1245,16 @@
       "nameEn": "Basic Engage",
       "sequence": "1 -> AA -> 2 -> 3",
       "description": "1でフックし、パッシブのAAでスネアを与え、2と3で追加ダメージとシールドを得ます。",
-      "descriptionEn": "A combo that hooks with 1, roots with a passive auto-attack, and gains bonus damage and a shield with 2 and 3."
+      "descriptionEn": "A combo that hooks with 1, roots with a passive auto-attack, and gains bonus damage and a shield with 2 and 3.",
+      "sequenceEn": "1 -> AA -> 2 -> 3"
     },
     {
       "name": "確殺コンボ",
       "nameEn": "Sure Kill Combo",
       "sequence": "Ult -> 1 -> AA -> 2 -> 3",
       "description": "回避不能なUltから入り、CCを連鎖させる確実なキルコンボです。",
-      "descriptionEn": "A guaranteed kill combo that initiates with an unavoidable Ult and chains CC."
+      "descriptionEn": "A guaranteed kill combo that initiates with an unavoidable Ult and chains CC.",
+      "sequenceEn": "Ult -> 1 -> AA -> 2 -> 3"
     }
   ],
   "Nidalee": [
@@ -1124,7 +1263,8 @@
       "nameEn": "Basic Burst",
       "sequence": "1(ヒト) -> Ult -> 2(クーガー) -> 3 -> 1",
       "description": "槍を当ててマークを付与し、クーガー形態で飛びついてバーストダメージを与えます。",
-      "descriptionEn": "A combo that lands a spear to apply a mark, then leaps in Cougar form to deal burst damage."
+      "descriptionEn": "A combo that lands a spear to apply a mark, then leaps in Cougar form to deal burst damage.",
+      "sequenceEn": "1(Human) -> Ult -> 2(Cougar) -> 3 -> 1"
     }
   ],
   "Nocturne": [
@@ -1133,14 +1273,16 @@
       "nameEn": "Assassination Combo",
       "sequence": "Ult -> 1 -> 3 -> 2 -> AA",
       "description": "アルティメットで視界を奪って接近し、恐怖とバフを活かして素早く倒し切ります。",
-      "descriptionEn": "A combo that uses the ultimate to deny vision and close the gap, utilizing fear and buffs to quickly finish off the target."
+      "descriptionEn": "A combo that uses the ultimate to deny vision and close the gap, utilizing fear and buffs to quickly finish off the target.",
+      "sequenceEn": "Ult -> 1 -> 3 -> 2 -> AA"
     },
     {
       "name": "基本トレード",
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> 2 -> AA",
       "description": "1の上を歩いてステータスを上げながら、3で恐怖を与える基本的な戦闘コンボです。",
-      "descriptionEn": "A basic combat combo that fears the enemy with 3 while walking on the trail of 1 to increase stats."
+      "descriptionEn": "A basic combat combo that fears the enemy with 3 while walking on the trail of 1 to increase stats.",
+      "sequenceEn": "1 -> 3 -> 2 -> AA"
     }
   ],
   "Norra": [
@@ -1149,7 +1291,8 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> 2",
       "description": "スキルを連続して使用し、効率よくダメージを与える基本コンボです。",
-      "descriptionEn": "A basic combo that uses skills consecutively to deal damage efficiently."
+      "descriptionEn": "A basic combo that uses skills consecutively to deal damage efficiently.",
+      "sequenceEn": "1 -> 3 -> 2"
     }
   ],
   "Nunu": [
@@ -1158,14 +1301,16 @@
       "nameEn": "Gank Combo",
       "sequence": "2 -> 3 -> 1",
       "description": "雪玉を転がして接近し、3でスネアを与え、1でダメージと回復を行います。",
-      "descriptionEn": "A combo that rolls a snowball to approach, roots with 3, and uses 1 for damage and healing."
+      "descriptionEn": "A combo that rolls a snowball to approach, roots with 3, and uses 1 for damage and healing.",
+      "sequenceEn": "2 -> 3 -> 1"
     },
     {
       "name": "茂みバースト",
       "nameEn": "Bush Burst",
       "sequence": "2 -> Ult",
       "description": "視界のない茂みから最大チャージのUltを発動する奇襲コンボです。",
-      "descriptionEn": "A surprise combo that unleashes a fully charged Ult from an unwarded brush."
+      "descriptionEn": "A surprise combo that unleashes a fully charged Ult from an unwarded brush.",
+      "sequenceEn": "2 -> Ult"
     }
   ],
   "Olaf": [
@@ -1174,7 +1319,8 @@
       "nameEn": "Basic Combo",
       "sequence": "1 -> AA -> 3 -> 2 -> 1",
       "description": "斧を拾いながら連続で1を使用し、殴り合いで優位に立つコンボです。",
-      "descriptionEn": "A combo that repeatedly uses 1 while picking up the axe, gaining the upper hand in a brawl."
+      "descriptionEn": "A combo that repeatedly uses 1 while picking up the axe, gaining the upper hand in a brawl.",
+      "sequenceEn": "1 -> AA -> 3 -> 2 -> 1"
     }
   ],
   "Orianna": [
@@ -1183,14 +1329,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1 -> 2 -> 3",
       "description": "ボールを移動させてダメージとスロウを与え、シールドで安全に帰還させます。",
-      "descriptionEn": "A combo that moves the ball to deal damage and a slow, then returns it safely with a shield."
+      "descriptionEn": "A combo that moves the ball to deal damage and a slow, then returns it safely with a shield.",
+      "sequenceEn": "1 -> 2 -> 3"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "1 -> Ult -> 2 -> 3",
       "description": "ボールを敵陣の中心に配置し、Ultで引き寄せてから大ダメージを与えるコンボです。",
-      "descriptionEn": "A combo that places the ball in the center of the enemy team, pulls them in with the Ult, and deals massive damage."
+      "descriptionEn": "A combo that places the ball in the center of the enemy team, pulls them in with the Ult, and deals massive damage.",
+      "sequenceEn": "1 -> Ult -> 2 -> 3"
     }
   ],
   "Ornn": [
@@ -1199,14 +1347,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> 3 -> 2 -> AA",
       "description": "1の柱を出し、3で壁ドンさせてから2で脆弱状態にするコンボです。",
-      "descriptionEn": "A combo that creates a pillar with 1, knocks the enemy into it with 3, and then makes them brittle with 2."
+      "descriptionEn": "A combo that creates a pillar with 1, knocks the enemy into it with 3, and then makes them brittle with 2.",
+      "sequenceEn": "1 -> 3 -> 2 -> AA"
     },
     {
       "name": "フルコンボ",
       "nameEn": "Full Combo",
       "sequence": "Ult(1段目) -> Ult(2段目) -> 1 -> 3 -> 2 -> AA",
       "description": "アルティメットで長距離からノックアップを与え、全てのCCを叩き込みます。",
-      "descriptionEn": "A combo that applies a knock-up from long range with the ultimate and unleashes all CC."
+      "descriptionEn": "A combo that applies a knock-up from long range with the ultimate and unleashes all CC.",
+      "sequenceEn": "Ult(1st) -> Ult(2nd) -> 1 -> 3 -> 2 -> AA"
     }
   ],
   "Pantheon": [
@@ -1215,14 +1365,16 @@
       "nameEn": "Basic Trade",
       "sequence": "強化2 -> AA -> 1 -> 3",
       "description": "強化2で確実にスタンとダメージを与え、3でダメージを防ぎながら離脱します。",
-      "descriptionEn": "A combo that guarantees a stun and damage with an empowered 2, and disengages while blocking damage with 3."
+      "descriptionEn": "A combo that guarantees a stun and damage with an empowered 2, and disengages while blocking damage with 3.",
+      "sequenceEn": "Empowered 2 -> AA -> 1 -> 3"
     },
     {
       "name": "ロームコンボ",
       "nameEn": "Roam Combo",
       "sequence": "Ult -> 強化2 -> AA -> 1 -> 3",
       "description": "アルティメットで他レーンに急行し、CCを連鎖させるコンボです。",
-      "descriptionEn": "A combo that rushes to another lane with the ultimate and chains CC."
+      "descriptionEn": "A combo that rushes to another lane with the ultimate and chains CC.",
+      "sequenceEn": "Ult -> Empowered 2 -> AA -> 1 -> 3"
     }
   ],
   "Poppy": [
@@ -1231,14 +1383,16 @@
       "nameEn": "Wall Stun Combo",
       "sequence": "3 -> 1 -> AA",
       "description": "壁に向かって3を使用しスタンさせ、1の最大ダメージを叩き込みます。",
-      "descriptionEn": "A combo that uses 3 towards a wall to stun, followed by the maximum damage of 1."
+      "descriptionEn": "A combo that uses 3 towards a wall to stun, followed by the maximum damage of 1.",
+      "sequenceEn": "3 -> 1 -> AA"
     },
     {
       "name": "CCチェーン",
       "nameEn": "CC Chain",
       "sequence": "3 -> 1 -> Ult",
       "description": "壁ドンからUltを短押ししてノックアップさせ、敵を拘束し続けるコンボです。",
-      "descriptionEn": "A combo that continuously locks down the enemy by following a wall stun with a short-cast Ult knock-up."
+      "descriptionEn": "A combo that continuously locks down the enemy by following a wall stun with a short-cast Ult knock-up.",
+      "sequenceEn": "3 -> 1 -> Ult"
     }
   ],
   "Pyke": [
@@ -1247,14 +1401,16 @@
       "nameEn": "Basic Engage",
       "sequence": "1(チャージ) -> 3 -> AA",
       "description": "フックで引き寄せた直後に3でスタンさせる基本のコンボです。",
-      "descriptionEn": "A basic combo that stuns with 3 immediately after pulling the enemy with a hook."
+      "descriptionEn": "A basic combo that stuns with 3 immediately after pulling the enemy with a hook.",
+      "sequenceEn": "1(Charge) -> 3 -> AA"
     },
     {
       "name": "アサシンコンボ",
       "nameEn": "Assassin Combo",
       "sequence": "3 -> フラッシュ -> 1 -> Ult",
       "description": "3の残像をフラッシュで強制的に当て、確殺ラインに入った敵をUltで処刑します。",
-      "descriptionEn": "A combo that forces the phantom of 3 to hit using Flash, and executes enemies in kill threshold with the Ult."
+      "descriptionEn": "A combo that forces the phantom of 3 to hit using Flash, and executes enemies in kill threshold with the Ult.",
+      "sequenceEn": "3 -> Flash -> 1 -> Ult"
     }
   ],
   "Rakan": [
@@ -1263,14 +1419,16 @@
       "nameEn": "Basic Engage",
       "sequence": "2 -> 1 -> 3",
       "description": "2でノックアップさせ、1を当ててから味方に3で戻る安全なコンボです。",
-      "descriptionEn": "A safe combo that knocks up with 2, lands 1, and returns to an ally with 3."
+      "descriptionEn": "A safe combo that knocks up with 2, lands 1, and returns to an ally with 3.",
+      "sequenceEn": "2 -> 1 -> 3"
     },
     {
       "name": "集団戦エンゲージ",
       "nameEn": "Teamfight Engage",
       "sequence": "Ult -> 2 -> 1 -> 3",
       "description": "Ultで移動速度を上げながら魅了し、集まった敵を2でノックアップさせます。",
-      "descriptionEn": "A combo that gains movement speed and charms with the Ult, then knocks up the grouped enemies with 2."
+      "descriptionEn": "A combo that gains movement speed and charms with the Ult, then knocks up the grouped enemies with 2.",
+      "sequenceEn": "Ult -> 2 -> 1 -> 3"
     }
   ],
   "Rammus": [
@@ -1279,14 +1437,16 @@
       "nameEn": "Basic Gank",
       "sequence": "1 -> 3 -> 2 -> AA",
       "description": "1で高速移動して衝突し、3でタウントして反射ダメージを与えます。",
-      "descriptionEn": "A combo that collides with high movement speed from 1, and taunts with 3 to deal reflect damage."
+      "descriptionEn": "A combo that collides with high movement speed from 1, and taunts with 3 to deal reflect damage.",
+      "sequenceEn": "1 -> 3 -> 2 -> AA"
     },
     {
       "name": "フルエンゲージ",
       "nameEn": "Full Engage",
       "sequence": "1 -> Ult -> 3 -> 2 -> AA",
       "description": "1の途中でUltを使って飛び込み、敵の中心でタウントを行います。",
-      "descriptionEn": "A combo that uses the Ult to leap in during 1, and taunts in the center of the enemy team."
+      "descriptionEn": "A combo that uses the Ult to leap in during 1, and taunts in the center of the enemy team.",
+      "sequenceEn": "1 -> Ult -> 3 -> 2 -> AA"
     }
   ],
   "Rell": [
@@ -1295,14 +1455,16 @@
       "nameEn": "Basic Engage",
       "sequence": "2(乗馬解除) -> 3 -> 1",
       "description": "2で飛び込んでシールドを獲得し、3と1でCCとダメージを追加します。",
-      "descriptionEn": "A combo that leaps in with 2 to gain a shield, and adds CC and damage with 3 and 1."
+      "descriptionEn": "A combo that leaps in with 2 to gain a shield, and adds CC and damage with 3 and 1.",
+      "sequenceEn": "2(Dismount) -> 3 -> 1"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "Ult -> 2(乗馬解除) -> 3 -> 1",
       "description": "Ultで敵を一箇所に引き寄せながら2でまとめてノックアップさせる強力なコンボです。",
-      "descriptionEn": "A powerful combo that pulls enemies together with the Ult while knocking them all up with 2."
+      "descriptionEn": "A powerful combo that pulls enemies together with the Ult while knocking them all up with 2.",
+      "sequenceEn": "Ult -> 2(Dismount) -> 3 -> 1"
     }
   ],
   "Renekton": [
@@ -1311,7 +1473,8 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 強化2 -> 1 -> 3",
       "description": "3で飛び込み、フューリーの溜まった2でスタンさせ、1を当てて3で離脱します。",
-      "descriptionEn": "A combo that dashes in with 3, stuns with a high-fury 2, lands 1, and disengages with 3."
+      "descriptionEn": "A combo that dashes in with 3, stuns with a high-fury 2, lands 1, and disengages with 3.",
+      "sequenceEn": "3 -> Empowered 2 -> 1 -> 3"
     }
   ],
   "Rengar": [
@@ -1320,7 +1483,8 @@
       "nameEn": "One Shot Combo",
       "sequence": "Ult -> 飛びつき中に3 -> 1 -> 2 -> 強化1",
       "description": "アルティメットのステルスから飛びかかり、一瞬で全てのスキルを叩き込む暗殺コンボです。",
-      "descriptionEn": "An assassination combo that leaps from the ultimate's stealth and unleashes all skills in an instant."
+      "descriptionEn": "An assassination combo that leaps from the ultimate's stealth and unleashes all skills in an instant.",
+      "sequenceEn": "Ult -> during dash3 -> 1 -> 2 -> Empowered 1"
     }
   ],
   "Riven": [
@@ -1329,14 +1493,16 @@
       "nameEn": "Fast Q",
       "sequence": "1 -> AA -> 1 -> AA -> 1 -> AA",
       "description": "1のアニメーションを移動コマンドでキャンセルし、AAを素早く挟み込む必須テクニックです。",
-      "descriptionEn": "An essential technique that cancels the animation of 1 with a movement command to quickly weave in auto-attacks."
+      "descriptionEn": "An essential technique that cancels the animation of 1 with a movement command to quickly weave in auto-attacks.",
+      "sequenceEn": "1 -> AA -> 1 -> AA -> 1 -> AA"
     },
     {
       "name": "フルバースト",
       "nameEn": "Full Burst",
       "sequence": "3 -> Ult -> 2 -> 1 -> AA -> Ult2",
       "description": "3とUltを同時に入力してアニメーションを消し、CCチェーンで一気に倒し切ります。",
-      "descriptionEn": "A combo that inputs 3 and Ult simultaneously to cancel the animation, finishing off the enemy at once with a CC chain."
+      "descriptionEn": "A combo that inputs 3 and Ult simultaneously to cancel the animation, finishing off the enemy at once with a CC chain.",
+      "sequenceEn": "3 -> Ult -> 2 -> 1 -> AA -> Ult2"
     }
   ],
   "Rumble": [
@@ -1345,14 +1511,16 @@
       "nameEn": "Basic Harass",
       "sequence": "3 -> 2 -> 1 -> 3",
       "description": "3でスロウを与え、2でシールドを張りながら1の炎でダメージを与えるコンボです。",
-      "descriptionEn": "A combo that slows with 3, and deals damage with the flames of 1 while shielding with 2."
+      "descriptionEn": "A combo that slows with 3, and deals damage with the flames of 1 while shielding with 2.",
+      "sequenceEn": "3 -> 2 -> 1 -> 3"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "Ult -> 3 -> 1 -> 2 -> 3",
       "description": "Ultの絨毯爆撃で敵の陣形を崩し、高熱状態の1で焼き尽くすコンボです。",
-      "descriptionEn": "A combo that disrupts the enemy formation with the Ult's carpet bombing, and burns them down with an overheated 1."
+      "descriptionEn": "A combo that disrupts the enemy formation with the Ult's carpet bombing, and burns them down with an overheated 1.",
+      "sequenceEn": "Ult -> 3 -> 1 -> 2 -> 3"
     }
   ],
   "Ryze": [
@@ -1361,7 +1529,8 @@
       "nameEn": "Basic Combo",
       "sequence": "1 -> 3 -> 1 -> 2 -> 1",
       "description": "スキルの合間に1を挟むことでパッシブを最大限に活かし、シールドと移動速度を得るコンボです。",
-      "descriptionEn": "A combo that maximizes the passive by weaving 1 between skills, gaining a shield and movement speed."
+      "descriptionEn": "A combo that maximizes the passive by weaving 1 between skills, gaining a shield and movement speed.",
+      "sequenceEn": "1 -> 3 -> 1 -> 2 -> 1"
     }
   ],
   "Samira": [
@@ -1370,7 +1539,8 @@
       "nameEn": "Basic Combo",
       "sequence": "AA -> 1 -> AA -> 3 -> AA -> 2 -> Ult",
       "description": "素早くスタイルランクをSまで上げるための基本コンボ。",
-      "descriptionEn": "A basic combo to quickly stack the Style grade to S."
+      "descriptionEn": "A basic combo to quickly stack the Style grade to S.",
+      "sequenceEn": "AA -> 1 -> AA -> 3 -> AA -> 2 -> Ult"
     }
   ],
   "Senna": [
@@ -1379,14 +1549,16 @@
       "nameEn": "Harass Combo",
       "sequence": "AA -> 1",
       "description": "レーン戦でパッシブの霧を素早く回収する基本トレード。",
-      "descriptionEn": "A basic trade to quickly harvest Mist from the passive during laning phase."
+      "descriptionEn": "A basic trade to quickly harvest Mist from the passive during laning phase.",
+      "sequenceEn": "AA -> 1"
     },
     {
       "name": "キャッチコンボ",
       "nameEn": "Catch Combo",
       "sequence": "2 -> 1 -> AA",
       "description": "2スキルでスネアを当ててからの追撃コンボ。",
-      "descriptionEn": "A follow-up combo after landing a root with 2スキル."
+      "descriptionEn": "A follow-up combo after landing a root with Skill 2.",
+      "sequenceEn": "2 -> 1 -> AA"
     }
   ],
   "Seraphine": [
@@ -1395,14 +1567,16 @@
       "nameEn": "Poke Combo",
       "sequence": "3 -> 1 -> AA",
       "description": "3スキルでスロウまたはスネアを付与し、1スキルでダメージを与える基本ポーク。",
-      "descriptionEn": "A basic poke that applies a slow or root with 3スキル, and deals damage with 1スキル."
+      "descriptionEn": "A basic poke that applies a slow or root with Skill 3, and deals damage with Skill 1.",
+      "sequenceEn": "3 -> 1 -> AA"
     },
     {
       "name": "アルティメットコンボ",
       "nameEn": "Ultimate Combo",
       "sequence": "Ult -> 3 -> 1 -> AA",
       "description": "Ultのチャームから確実に行動阻害とダメージを叩き込むコンボ。",
-      "descriptionEn": "A combo that guarantees crowd control and damage following the charm from Ult."
+      "descriptionEn": "A combo that guarantees crowd control and damage following the charm from Ult.",
+      "sequenceEn": "Ult -> 3 -> 1 -> AA"
     }
   ],
   "Sett": [
@@ -1411,14 +1585,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> AA -> AA -> 1 -> AA -> AA",
       "description": "3スキルで引き寄せてから通常攻撃と1スキルの強化攻撃を叩き込む。",
-      "descriptionEn": "A combo that pulls with 3スキル, followed by auto-attacks and the empowered attacks of 1スキル."
+      "descriptionEn": "A combo that pulls with Skill 3, followed by auto-attacks and the empowered attacks of Skill 1.",
+      "sequenceEn": "3 -> AA -> AA -> 1 -> AA -> AA"
     },
     {
       "name": "フルバースト",
       "nameEn": "Full Burst",
       "sequence": "Ult -> 3 -> AA -> AA -> 1 -> 2",
       "description": "Ultで敵陣に突っ込み、最大スタックの2スキルでフィニッシュする。",
-      "descriptionEn": "A combo that dives into the enemy team with Ult and finishes with a fully stacked 2スキル."
+      "descriptionEn": "A combo that dives into the enemy team with Ult and finishes with a fully stacked Skill 2.",
+      "sequenceEn": "Ult -> 3 -> AA -> AA -> 1 -> 2"
     }
   ],
   "Shen": [
@@ -1427,7 +1603,8 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 1 -> AA -> AA -> AA",
       "description": "3スキルのタウントで捕まえ、1スキルで剣を引き寄せて強化通常攻撃を行う。",
-      "descriptionEn": "A combo that catches enemies with 3スキル's taunt, pulls the blade with 1スキル, and delivers empowered auto-attacks."
+      "descriptionEn": "A combo that catches enemies with Skill 3's taunt, pulls the blade with Skill 1, and delivers empowered auto-attacks.",
+      "sequenceEn": "3 -> 1 -> AA -> AA -> AA"
     }
   ],
   "Shyvana": [
@@ -1436,7 +1613,8 @@
       "nameEn": "Basic Engage",
       "sequence": "Ult -> 3 -> 2 -> 1 -> AA",
       "description": "ドラゴンフォームになり、強化3スキルから入る強力なエンゲージ。",
-      "descriptionEn": "A powerful engage that transforms into Dragon Form and initiates with an empowered 3スキル."
+      "descriptionEn": "A powerful engage that transforms into Dragon Form and initiates with an empowered Skill 3.",
+      "sequenceEn": "Ult -> 3 -> 2 -> 1 -> AA"
     }
   ],
   "Singed": [
@@ -1445,7 +1623,8 @@
       "nameEn": "Flip Combo",
       "sequence": "1(On) -> 2 -> 3",
       "description": "2スキルの沼の中に3スキルで敵を投げ込み、スネア状態にする。",
-      "descriptionEn": "A combo that flings the enemy into the Mega Adhesive (2スキル) with 3スキル to root them."
+      "descriptionEn": "A combo that flings the enemy into the Mega Adhesive (Skill 2) with Skill 3 to root them.",
+      "sequenceEn": "1(On) -> 2 -> 3"
     }
   ],
   "Sion": [
@@ -1454,7 +1633,8 @@
       "nameEn": "Basic Combo",
       "sequence": "3 -> 1 -> 2",
       "description": "3スキルでスロウと防御力低下を与え、1スキルをチャージして打ち上げます。",
-      "descriptionEn": "Slow with 3, then charge 1 to knock up."
+      "descriptionEn": "Slow with 3, then charge 1 to knock up.",
+      "sequenceEn": "3 -> 1 -> 2"
     }
   ],
   "Sivir": [
@@ -1463,7 +1643,8 @@
       "nameEn": "Basic Poke",
       "sequence": "AA -> 2 -> 1",
       "description": "2スキルで通常攻撃のタイマーをリセットしつつ、1スキルでダメージを出す。",
-      "descriptionEn": "A combo that resets the auto-attack timer with 2スキル while dealing damage with 1スキル."
+      "descriptionEn": "A combo that resets the auto-attack timer with Skill 2 while dealing damage with Skill 1.",
+      "sequenceEn": "AA -> 2 -> 1"
     }
   ],
   "Skarner": [
@@ -1472,7 +1653,8 @@
       "nameEn": "Catch Combo",
       "sequence": "2 -> 3 -> AA -> 1 -> Ult",
       "description": "3スキルでスロウをかけAAでスタンさせ、Ultで敵を連れ去る。",
-      "descriptionEn": "A combo that slows with 3スキル, stuns with an auto-attack, and drags the enemy away with Ult."
+      "descriptionEn": "A combo that slows with Skill 3, stuns with an auto-attack, and drags the enemy away with Ult.",
+      "sequenceEn": "2 -> 3 -> AA -> 1 -> Ult"
     }
   ],
   "Smolder": [
@@ -1481,7 +1663,8 @@
       "nameEn": "Basic Harass",
       "sequence": "2 -> 1 -> AA",
       "description": "2スキルでスロウを付与し、1スキルを確実に当てる。",
-      "descriptionEn": "A combo that applies a slow with 2スキル to guarantee hitting 1スキル."
+      "descriptionEn": "A combo that applies a slow with Skill 2 to guarantee hitting Skill 1.",
+      "sequenceEn": "2 -> 1 -> AA"
     }
   ],
   "Sona": [
@@ -1490,14 +1673,16 @@
       "nameEn": "Stun Combo",
       "sequence": "パッシブ(スタン)AA -> 1 -> AA",
       "description": "スタックが溜まった状態の通常攻撃で敵をスタンさせ、1スキルで追撃します。",
-      "descriptionEn": "Stun with passive AA, then follow with 1."
+      "descriptionEn": "Stun with passive AA, then follow with 1.",
+      "sequenceEn": "Passive(Stun)AA -> 1 -> AA"
     },
     {
       "name": "集団戦コンボ",
       "nameEn": "Teamfight Combo",
       "sequence": "3 -> Ult -> 1",
       "description": "3スキルで味方と移動し、Ultで敵を複数スタンさせ、1スキルでダメージを与えます。",
-      "descriptionEn": "Engage with 3, Ult multiple enemies, then 1."
+      "descriptionEn": "Engage with 3, Ult multiple enemies, then 1.",
+      "sequenceEn": "3 -> Ult -> 1"
     }
   ],
   "Soraka": [
@@ -1506,14 +1691,16 @@
       "nameEn": "Basic Trade",
       "sequence": "1 -> AA",
       "description": "1スキルを当てて自身の体力を回復しつつハラスします。",
-      "descriptionEn": "Hit 1 to heal and harass."
+      "descriptionEn": "Hit 1 to heal and harass.",
+      "sequenceEn": "1 -> AA"
     },
     {
       "name": "詠唱妨害",
       "nameEn": "Interrupt",
       "sequence": "3 -> 1",
       "description": "3スキルで敵のスキルを封じ、足が止まったところに1スキルを当てます。",
-      "descriptionEn": "Silence with 3, then hit 1."
+      "descriptionEn": "Silence with 3, then hit 1.",
+      "sequenceEn": "3 -> 1"
     }
   ],
   "Swain": [
@@ -1522,7 +1709,8 @@
       "nameEn": "Catch Combo",
       "sequence": "3 -> 3(再発動) -> 2 -> 1",
       "description": "3スキルでスネアさせ、引き寄せながら2スキルと1スキルを当てる。",
-      "descriptionEn": "Snare with 3スキル, pull them in, and hit with 2スキル and 1スキル."
+      "descriptionEn": "Snare with Skill 3, pull them in, and hit with Skill 2 and Skill 1.",
+      "sequenceEn": "3 -> 3(Recast) -> 2 -> 1"
     }
   ],
   "Syndra": [
@@ -1531,14 +1719,16 @@
       "nameEn": "Stun Combo",
       "sequence": "1 -> 3",
       "description": "1スキルでオーブを出し、3スキルで押し出して敵をスタンさせる。",
-      "descriptionEn": "Spawn an orb with 1スキル and push it with 3スキル to stun the enemy."
+      "descriptionEn": "Spawn an orb with Skill 1 and push it with Skill 3 to stun the enemy.",
+      "sequenceEn": "1 -> 3"
     },
     {
       "name": "バーストコンボ",
       "nameEn": "Burst Combo",
       "sequence": "1 -> 3 -> 2 -> 1 -> Ult",
       "description": "スタンさせてからオーブを叩きつけ、Ultで最大ダメージを出す。",
-      "descriptionEn": "Stun them, then smash orbs into them and deal maximum damage with Ult."
+      "descriptionEn": "Stun them, then smash orbs into them and deal maximum damage with Ult.",
+      "sequenceEn": "1 -> 3 -> 2 -> 1 -> Ult"
     }
   ],
   "Taliyah": [
@@ -1547,7 +1737,8 @@
       "nameEn": "Basic Burst",
       "sequence": "2 -> 3 -> 1",
       "description": "2スキルで敵を3スキルの地雷原に投げ込み、大ダメージを与える。",
-      "descriptionEn": "Use 2スキル to throw the enemy into 3スキル's minefield, dealing massive damage."
+      "descriptionEn": "Use Skill 2 to throw the enemy into Skill 3's minefield, dealing massive damage.",
+      "sequenceEn": "2 -> 3 -> 1"
     }
   ],
   "Talon": [
@@ -1556,14 +1747,16 @@
       "nameEn": "Basic Assassination",
       "sequence": "2 -> 1 -> AA",
       "description": "2スキルを2ヒットさせ、1スキルで近づきAAでパッシブを出血させる。",
-      "descriptionEn": "Hit 2スキル twice, approach with 1スキル, and apply passive bleed with AA."
+      "descriptionEn": "Hit Skill 2 twice, approach with Skill 1, and apply passive bleed with AA.",
+      "sequenceEn": "2 -> 1 -> AA"
     },
     {
       "name": "フルバースト",
       "nameEn": "Full Burst",
       "sequence": "2 -> Ult -> 1 -> AA",
       "description": "Ultのステルスで近づき、1スキルとAAでパッシブを発動させる瞬殺コンボ。",
-      "descriptionEn": "Approach with Ult's stealth, then proc the passive with 1スキル and AA for an instant kill combo."
+      "descriptionEn": "Approach with Ult's stealth, then proc the passive with Skill 1 and AA for an instant kill combo.",
+      "sequenceEn": "2 -> Ult -> 1 -> AA"
     }
   ],
   "Teemo": [
@@ -1572,7 +1765,8 @@
       "nameEn": "Harass Combo",
       "sequence": "AA -> 1 -> AA",
       "description": "ブラインドで反撃を防ぎつつ一方的にダメージを与える。",
-      "descriptionEn": "Prevent counterattacks with a blind while dealing one-sided damage."
+      "descriptionEn": "Prevent counterattacks with a blind while dealing one-sided damage.",
+      "sequenceEn": "AA -> 1 -> AA"
     }
   ],
   "Thresh": [
@@ -1581,14 +1775,16 @@
       "nameEn": "Basic Engage",
       "sequence": "1 -> 1(再発動) -> 3 -> Ult",
       "description": "フックを当てて飛び込み、3スキルで引き戻しUltの壁を展開する。",
-      "descriptionEn": "Land a hook to jump in, pull them back with 3スキル, and deploy Ult's walls."
+      "descriptionEn": "Land a hook to jump in, pull them back with Skill 3, and deploy Ult's walls.",
+      "sequenceEn": "1 -> 1(Recast) -> 3 -> Ult"
     },
     {
       "name": "近距離コンボ",
       "nameEn": "Close Range Combo",
       "sequence": "3 -> 1",
       "description": "3スキルの打ち上げ＆スロウで動きを止め、確実に行動阻害を継続する。",
-      "descriptionEn": "Stop their movement with 3スキル's knock-up and slow, ensuring continued crowd control."
+      "descriptionEn": "Stop their movement with Skill 3's knock-up and slow, ensuring continued crowd control.",
+      "sequenceEn": "3 -> 1"
     }
   ],
   "Tristana": [
@@ -1597,7 +1793,8 @@
       "nameEn": "All-in Combo",
       "sequence": "2 -> 3 -> 1 -> AA -> AA -> AA -> AA -> Ult",
       "description": "2スキルで飛び込み3スキルの爆弾をつけ、AAで最大スタックにして起爆しUltでトドメ。",
-      "descriptionEn": "Jump in with 2スキル, attach 3スキル's bomb, stack it to max with AAs to detonate, and finish with Ult."
+      "descriptionEn": "Jump in with Skill 2, attach Skill 3's bomb, stack it to max with AAs to detonate, and finish with Ult.",
+      "sequenceEn": "2 -> 3 -> 1 -> AA -> AA -> AA -> AA -> Ult"
     }
   ],
   "Tryndamere": [
@@ -1606,7 +1803,8 @@
       "nameEn": "Trade Combo",
       "sequence": "2 -> AA -> 3",
       "description": "2スキルでスロウとAD低下を与え、AAをしてから3スキルで離脱する。",
-      "descriptionEn": "Apply slow and AD reduction with 2スキル, use AA, then disengage with 3スキル."
+      "descriptionEn": "Apply slow and AD reduction with Skill 2, use AA, then disengage with Skill 3.",
+      "sequenceEn": "2 -> AA -> 3"
     }
   ],
   "TwistedFate": [
@@ -1615,14 +1813,16 @@
       "nameEn": "Basic Catch",
       "sequence": "2(Gold) -> 1 -> AA",
       "description": "ゴールドカードでスタンさせ、1スキルとAAでダメージを出す。",
-      "descriptionEn": "Stun with a Gold Card, and deal damage with 1スキル and AA."
+      "descriptionEn": "Stun with a Gold Card, and deal damage with Skill 1 and AA.",
+      "sequenceEn": "2(Gold) -> 1 -> AA"
     },
     {
       "name": "ロームコンボ",
       "nameEn": "Roam Combo",
       "sequence": "Ult -> Ult(再発動) -> 2(Gold) -> 1",
       "description": "Ultで裏にテレポートし、確定スタンからキルを狙う。",
-      "descriptionEn": "Teleport behind with Ult and aim for a kill with a guaranteed stun."
+      "descriptionEn": "Teleport behind with Ult and aim for a kill with a guaranteed stun.",
+      "sequenceEn": "Ult -> Ult(Recast) -> 2(Gold) -> 1"
     }
   ],
   "Twitch": [
@@ -1631,7 +1831,8 @@
       "nameEn": "Assassination Combo",
       "sequence": "1 -> 2 -> Ult -> AA -> 3",
       "description": "1スキルのステルスから2スキルのスロウをかけ、Ultの貫通攻撃でスタックを溜めて3スキルで起爆。",
-      "descriptionEn": "Use 1スキル's stealth to apply 2スキル's slow, stack with Ult's piercing attacks, and detonate with 3スキル."
+      "descriptionEn": "Use Skill 1's stealth to apply Skill 2's slow, stack with Ult's piercing attacks, and detonate with Skill 3.",
+      "sequenceEn": "1 -> 2 -> Ult -> AA -> 3"
     }
   ],
   "Urgot": [
@@ -1640,7 +1841,8 @@
       "nameEn": "All-in Combo",
       "sequence": "1 -> 3 -> 2 -> AA -> Ult",
       "description": "1スキルでスロウをかけ、3スキルで投げ飛ばし2スキルの連射で削りUltで処刑する。",
-      "descriptionEn": "Apply slow with 1スキル, flip them with 3スキル, whittle them down with 2スキル's rapid fire, and execute with Ult."
+      "descriptionEn": "Apply slow with Skill 1, flip them with Skill 3, whittle them down with Skill 2's rapid fire, and execute with Ult.",
+      "sequenceEn": "1 -> 3 -> 2 -> AA -> Ult"
     }
   ],
   "Varus": [
@@ -1649,7 +1851,8 @@
       "nameEn": "Basic Burst",
       "sequence": "Ult -> AA -> 3 -> AA -> AA -> 1",
       "description": "Ultのスネアから入り、スタックを溜めてスキルで起爆する。",
-      "descriptionEn": "Engage with Ult's snare, build up stacks, and detonate them with skills."
+      "descriptionEn": "Engage with Ult's snare, build up stacks, and detonate them with skills.",
+      "sequenceEn": "Ult -> AA -> 3 -> AA -> AA -> 1"
     }
   ],
   "Vayne": [
@@ -1658,14 +1861,16 @@
       "nameEn": "Stun Combo",
       "sequence": "1 -> 3",
       "description": "1スキルで位置を調整し、3スキルで壁ドンスタンを狙う。",
-      "descriptionEn": "Adjust your position with 1スキル and aim for a wall stun with 3スキル."
+      "descriptionEn": "Adjust your position with Skill 1 and aim for a wall stun with Skill 3.",
+      "sequenceEn": "1 -> 3"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in",
       "sequence": "Ult -> 1 -> AA -> AA -> AA -> 3",
       "description": "Ultを発動して1スキルのステルスで翻弄し、3発目の確定ダメージを入れる。",
-      "descriptionEn": "Activate Ult and toy with them using 1スキル's stealth to land the 3rd hit true damage."
+      "descriptionEn": "Activate Ult and toy with them using Skill 1's stealth to land the 3rd hit true damage.",
+      "sequenceEn": "Ult -> 1 -> AA -> AA -> AA -> 3"
     }
   ],
   "Veigar": [
@@ -1674,7 +1879,8 @@
       "nameEn": "Catch Combo",
       "sequence": "3 -> 2 -> 1 -> Ult",
       "description": "3スキルの檻でスタンさせ、2スキルと1スキルの確定ヒットからUltでトドメを刺す。",
-      "descriptionEn": "Stun with 3スキル's cage, land a guaranteed 2スキル and 1スキル, and finish off with Ult."
+      "descriptionEn": "Stun with Skill 3's cage, land a guaranteed Skill 2 and Skill 1, and finish off with Ult.",
+      "sequenceEn": "3 -> 2 -> 1 -> Ult"
     }
   ],
   "Velkoz": [
@@ -1683,7 +1889,8 @@
       "nameEn": "Full Combo",
       "sequence": "1 -> 3 -> 2 -> Ult",
       "description": "1スキルでスロウをかけ、3スキルのノックアップと2スキルでスタックを溜めUltで溶かす。",
-      "descriptionEn": "Slow with 1スキル, stack with 3スキル's knock-up and 2スキル, and melt them with Ult."
+      "descriptionEn": "Slow with Skill 1, stack with Skill 3's knock-up and Skill 2, and melt them with Ult.",
+      "sequenceEn": "1 -> 3 -> 2 -> Ult"
     }
   ],
   "Vex": [
@@ -1692,7 +1899,8 @@
       "nameEn": "All-in Combo",
       "sequence": "Ult -> Ult(再発動) -> 2 -> 3 -> 1",
       "description": "Ultで飛び込み、パッシブ付きの2スキルで範囲フィアーを与えて殲滅する。",
-      "descriptionEn": "Jump in with Ult and use 2スキル with passive to apply AoE fear and obliterate."
+      "descriptionEn": "Jump in with Ult and use Skill 2 with passive to apply AoE fear and obliterate.",
+      "sequenceEn": "Ult -> Ult(Recast) -> 2 -> 3 -> 1"
     }
   ],
   "Vi": [
@@ -1701,14 +1909,16 @@
       "nameEn": "Basic Engage",
       "sequence": "1 -> AA -> 3",
       "description": "1スキルのノックバックからAAと3スキルのAAキャンセルでパッシブを素早く発動。",
-      "descriptionEn": "Knockback with 1スキル, then quickly proc the passive using AA and 3スキル's AA reset."
+      "descriptionEn": "Knockback with Skill 1, then quickly proc the passive using AA and Skill 3's AA reset.",
+      "sequenceEn": "1 -> AA -> 3"
     },
     {
       "name": "ロックダウン",
       "nameEn": "Lockdown Combo",
       "sequence": "Ult -> 1 -> AA -> 3",
       "description": "Ultで確実に単体を打ち上げ、1スキルでさらにチェインCCをかける。",
-      "descriptionEn": "Guarantee a single-target knock-up with Ult and chain CC with 1スキル."
+      "descriptionEn": "Guarantee a single-target knock-up with Ult and chain CC with Skill 1.",
+      "sequenceEn": "Ult -> 1 -> AA -> 3"
     }
   ],
   "Viego": [
@@ -1717,7 +1927,8 @@
       "nameEn": "Basic Trade",
       "sequence": "2 -> AA -> 1 -> AA",
       "description": "2スキルのスタンからスキル後の強化AAを交互に叩き込む。",
-      "descriptionEn": "Start with 2スキル's stun and alternate hitting them with skills and empowered AAs."
+      "descriptionEn": "Start with Skill 2's stun and alternate hitting them with skills and empowered AAs.",
+      "sequenceEn": "2 -> AA -> 1 -> AA"
     }
   ],
   "Vladimir": [
@@ -1726,14 +1937,16 @@
       "nameEn": "Basic Harass",
       "sequence": "1(強化) -> 3 -> 2",
       "description": "強化1スキルでダメージと回復を行い、3スキルのチャージをしながら2スキルで離脱。",
-      "descriptionEn": "Deal damage and heal with empowered 1スキル, charge 3スキル, and disengage with 2スキル."
+      "descriptionEn": "Deal damage and heal with empowered Skill 1, charge Skill 3, and disengage with Skill 2.",
+      "sequenceEn": "1(Empowered ) -> 3 -> 2"
     },
     {
       "name": "オールイン",
       "nameEn": "All-in Combo",
       "sequence": "Ult -> 3(チャージ) -> 2 -> 1",
       "description": "Ultで被ダメージ増加を付与し、3スキルと2スキルの複合ダメージを与え1スキルでトドメ。",
-      "descriptionEn": "Apply damage amplification with Ult, deal combined damage from 3スキル and 2スキル, and finish with 1スキル."
+      "descriptionEn": "Apply damage amplification with Ult, deal combined damage from Skill 3 and Skill 2, and finish with Skill 1.",
+      "sequenceEn": "Ult -> 3(Charge) -> 2 -> 1"
     }
   ],
   "Volibear": [
@@ -1742,7 +1955,8 @@
       "nameEn": "Engage Combo",
       "sequence": "1 -> 3 -> AA -> 2 -> AA",
       "description": "1スキルの移動速度上昇で近づきスタンさせ、自分の足元に3スキルを置いてシールドを得る。",
-      "descriptionEn": "Approach and stun using 1スキル's movement speed boost, placing 3スキル at your feet to gain a shield."
+      "descriptionEn": "Approach and stun using Skill 1's movement speed boost, placing Skill 3 at your feet to gain a shield.",
+      "sequenceEn": "1 -> 3 -> AA -> 2 -> AA"
     }
   ],
   "Warwick": [
@@ -1751,7 +1965,8 @@
       "nameEn": "Catch Combo",
       "sequence": "3 -> 1(長押し) -> 3(再発動) -> AA",
       "description": "3スキルを展開して1スキルで敵の裏に回り、3スキルのフィアーで敵を味方側に逃げさせる。",
-      "descriptionEn": "Activate 3スキル, get behind the enemy with 1スキル, and use 3スキル's fear to make them flee toward your team."
+      "descriptionEn": "Activate Skill 3, get behind the enemy with Skill 1, and use Skill 3's fear to make them flee toward your team.",
+      "sequenceEn": "3 -> 1(Hold) -> 3(Recast) -> AA"
     }
   ],
   "Xayah": [
@@ -1760,14 +1975,16 @@
       "nameEn": "Snare Combo",
       "sequence": "1 -> AA -> 3",
       "description": "1スキルと通常攻撃で羽を3枚配置し、3スキルで引き戻してスネアさせる。",
-      "descriptionEn": "Place 3 feathers with 1スキル and AAs, then pull them back with 3スキル to snare."
+      "descriptionEn": "Place 3 feathers with Skill 1 and AAs, then pull them back with Skill 3 to snare.",
+      "sequenceEn": "1 -> AA -> 3"
     },
     {
       "name": "自衛＆反転",
       "nameEn": "Defend & Turn Combo",
       "sequence": "Ult -> 3 -> 2 -> AA",
       "description": "Ultで無敵になりつつ羽をばらまき、3スキルでスネアさせて反撃する。",
-      "descriptionEn": "Become untargetable and scatter feathers with Ult, then snare with 3スキル to counterattack."
+      "descriptionEn": "Become untargetable and scatter feathers with Ult, then snare with Skill 3 to counterattack.",
+      "sequenceEn": "Ult -> 3 -> 2 -> AA"
     }
   ],
   "Xerath": [
@@ -1776,7 +1993,8 @@
       "nameEn": "Basic Poke",
       "sequence": "3 -> 2 -> 1",
       "description": "3スキルのスタンを当て、確定で2スキルの中心ダメージと1スキルを入れる。",
-      "descriptionEn": "Land 3スキル's stun to guarantee 2スキル's center damage and 1スキル."
+      "descriptionEn": "Land Skill 3's stun to guarantee Skill 2's center damage and Skill 1.",
+      "sequenceEn": "3 -> 2 -> 1"
     }
   ],
   "XinZhao": [
@@ -1785,7 +2003,8 @@
       "nameEn": "Basic Engage",
       "sequence": "3 -> 2 -> 1 -> AA -> AA",
       "description": "3スキルで飛び込み2スキルのスロウを当て、1スキルの3段目で打ち上げる。",
-      "descriptionEn": "Dash in with 3スキル, apply 2スキル's slow, and knock up with the 3rd hit of 1スキル."
+      "descriptionEn": "Dash in with Skill 3, apply Skill 2's slow, and knock up with the 3rd hit of Skill 1.",
+      "sequenceEn": "3 -> 2 -> 1 -> AA -> AA"
     }
   ],
   "Yasuo": [
@@ -1794,14 +2013,16 @@
       "nameEn": "Basic Trade",
       "sequence": "3 -> 1 -> AA -> 3",
       "description": "ミニオンを伝って近づき、EQの回転斬りをしてから離脱する。",
-      "descriptionEn": "Dash through minions to approach, perform EQ's spinning slash, and then disengage."
+      "descriptionEn": "Dash through minions to approach, perform EQ's spinning slash, and then disengage.",
+      "sequenceEn": "3 -> 1 -> AA -> 3"
     },
     {
       "name": "ノックアップコンボ",
       "nameEn": "Knockup Combo",
       "sequence": "1(3段目) -> Ult -> 1",
       "description": "竜巻で打ち上げ、Ultで飛んでから着地後に1スキルを当てる。",
-      "descriptionEn": "Knock up with a tornado, blink to them with Ult, and hit 1スキル after landing."
+      "descriptionEn": "Knock up with a tornado, blink to them with Ult, and hit Skill 1 after landing.",
+      "sequenceEn": "1(3rd) -> Ult -> 1"
     }
   ],
   "Yone": [
@@ -1810,7 +2031,8 @@
       "nameEn": "All-in Combo",
       "sequence": "3 -> 1(3段目) -> Ult -> 2 -> 1 -> AA -> 3(再発動)",
       "description": "3スキルで離脱位置を確保し、1スキルの打ち上げからUltを確実に入れフルバースト。",
-      "descriptionEn": "Secure a retreat point with 3スキル, use 1スキル's knock-up to guarantee Ult, and deal full burst damage."
+      "descriptionEn": "Secure a retreat point with Skill 3, use Skill 1's knock-up to guarantee Ult, and deal full burst damage.",
+      "sequenceEn": "3 -> 1(3rd) -> Ult -> 2 -> 1 -> AA -> 3(Recast)"
     }
   ],
   "Yuumi": [
@@ -1819,7 +2041,8 @@
       "nameEn": "Basic Poke",
       "sequence": "2(密着) -> 1 -> 3",
       "description": "味方に密着して1スキルを操作して当て、3スキルで回復とシールドを与える。",
-      "descriptionEn": "Attach to an ally, steer and hit 1スキル, and provide healing and shielding with 3スキル."
+      "descriptionEn": "Attach to an ally, steer and hit Skill 1, and provide healing and shielding with Skill 3.",
+      "sequenceEn": "2(Melee range) -> 1 -> 3"
     }
   ],
   "Zed": [
@@ -1828,14 +2051,16 @@
       "nameEn": "Harass Combo",
       "sequence": "2 -> 3 -> 1",
       "description": "2スキルの影を出し、影と本体で3スキルと1スキルを当てて電撃を発動させる。",
-      "descriptionEn": "Spawn 2スキル's shadow, hit 3スキル and 1スキル with both shadow and main body to trigger Electrocute."
+      "descriptionEn": "Spawn Skill 2's shadow, hit Skill 3 and Skill 1 with both shadow and main body to trigger Electrocute.",
+      "sequenceEn": "2 -> 3 -> 1"
     },
     {
       "name": "暗殺コンボ",
       "nameEn": "Assassination Combo",
       "sequence": "Ult -> 2 -> 3 -> 1 -> AA -> Ult(再発動)",
       "description": "Ultから入り2スキルの影を配置、本体と2つの影の手裏剣を全て当てて確殺する。",
-      "descriptionEn": "Engage with Ult, place 2スキル's shadow, and land all shurikens from the main body and two shadows for a guaranteed kill."
+      "descriptionEn": "Engage with Ult, place Skill 2's shadow, and land all shurikens from the main body and two shadows for a guaranteed kill.",
+      "sequenceEn": "Ult -> 2 -> 3 -> 1 -> AA -> Ult(Recast)"
     }
   ],
   "Zeri": [
@@ -1844,7 +2069,8 @@
       "nameEn": "Basic Trade",
       "sequence": "2 -> 3 -> 1 -> AA",
       "description": "2スキルでスロウをかけ、3スキルで位置調整しつつ1スキルを連射する。",
-      "descriptionEn": "Apply slow with 2スキル, adjust position with 3スキル, and rapid-fire 1スキル."
+      "descriptionEn": "Apply slow with Skill 2, adjust position with Skill 3, and rapid-fire Skill 1.",
+      "sequenceEn": "2 -> 3 -> 1 -> AA"
     }
   ],
   "Ziggs": [
@@ -1853,7 +2079,8 @@
       "nameEn": "Basic Poke",
       "sequence": "3 -> 2 -> 1",
       "description": "3スキルの地雷原と2スキルの爆薬で行動を制限し、1スキルを確実に当てる。",
-      "descriptionEn": "Restrict movement with 3スキル's minefield and 2スキル's explosive charge, and guarantee a 1スキル hit."
+      "descriptionEn": "Restrict movement with Skill 3's minefield and Skill 2's explosive charge, and guarantee a Skill 1 hit.",
+      "sequenceEn": "3 -> 2 -> 1"
     }
   ],
   "Zilean": [
@@ -1862,7 +2089,8 @@
       "nameEn": "Double Bomb",
       "sequence": "1 -> 2 -> 1",
       "description": "1スキルの爆弾をつけ、2スキルでクールダウンを解消して即座にもう一つ1スキルをつけてスタンさせる。",
-      "descriptionEn": "Attach a 1スキル bomb, reset cooldown with 2スキル, and instantly attach another 1スキル to stun."
+      "descriptionEn": "Attach a Skill 1 bomb, reset cooldown with Skill 2, and instantly attach another Skill 1 to stun.",
+      "sequenceEn": "1 -> 2 -> 1"
     }
   ],
   "Zyra": [
@@ -1871,7 +2099,8 @@
       "nameEn": "Basic Combo",
       "sequence": "3 -> 2 -> 2 -> 1 -> Ult",
       "description": "3スキルのスネアに合わせて種をまき、1スキルで植物を咲かせてUltで強化する。",
-      "descriptionEn": "Plant seeds timed with 3スキル's snare, bloom plants with 1スキル, and empower them with Ult."
+      "descriptionEn": "Plant seeds timed with Skill 3's snare, bloom plants with Skill 1, and empower them with Ult.",
+      "sequenceEn": "3 -> 2 -> 2 -> 1 -> Ult"
     }
   ]
 }
