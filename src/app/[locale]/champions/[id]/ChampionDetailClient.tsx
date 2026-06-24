@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2, ChevronDown, ChevronUp, ThumbsUp, ThumbsDown, BookOpen } from 'lucide-react';
+import { ArrowLeft, Sword, Shield, Zap, Target, Star, Edit3, Save, X, Loader2, ChevronDown, ChevronUp, ThumbsUp, ThumbsDown, BookOpen, Sun, SunMoon, Moon, Swords, AlertTriangle } from 'lucide-react';
 import { PatchTable } from '@/components/patches/PatchTable';
 import { CounterPickVoting } from '@/components/champions/CounterPickVoting';
 import { formatSkillDescription } from '@/utils/localization';
@@ -421,17 +421,78 @@ export default function ChampionDetailClient({
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-sm font-black text-slate-500 mb-3 flex items-center gap-2 uppercase tracking-wider">
-                <BookOpen size={16} className="text-indigo-500" />
-                {locale === 'ja' ? '基本の立ち回り' : 'Playstyle'}
-              </h3>
-              <div className="bg-indigo-50/30 p-4 rounded-2xl border border-indigo-100">
-                <p className="text-sm text-slate-700 font-bold leading-loose whitespace-pre-wrap">
-                  {locale === 'en' && guide.playstyleEn ? guide.playstyleEn : guide.playstyle}
-                </p>
+            {guide.earlyGame && (
+              <div className="mt-6">
+                <h3 className="text-sm font-black text-slate-500 mb-3 flex items-center gap-2 uppercase tracking-wider">
+                  <Sun size={16} className="text-amber-500" />
+                  {locale === 'ja' ? '序盤の立ち回り' : 'Early Game'}
+                </h3>
+                <div className="bg-amber-50/30 p-4 rounded-2xl border border-amber-100">
+                  <p className="text-sm text-slate-700 font-bold leading-loose whitespace-pre-wrap">
+                    {locale === 'en' && guide.earlyGameEn ? guide.earlyGameEn : guide.earlyGame}
+                  </p>
+                </div>
               </div>
-            </div>
+            )}
+
+            {guide.midGame && (
+              <div className="mt-4">
+                <h3 className="text-sm font-black text-slate-500 mb-3 flex items-center gap-2 uppercase tracking-wider">
+                  <SunMoon size={16} className="text-indigo-400" />
+                  {locale === 'ja' ? '中盤の立ち回り' : 'Mid Game'}
+                </h3>
+                <div className="bg-indigo-50/30 p-4 rounded-2xl border border-indigo-100">
+                  <p className="text-sm text-slate-700 font-bold leading-loose whitespace-pre-wrap">
+                    {locale === 'en' && guide.midGameEn ? guide.midGameEn : guide.midGame}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {guide.lateGame && (
+              <div className="mt-4">
+                <h3 className="text-sm font-black text-slate-500 mb-3 flex items-center gap-2 uppercase tracking-wider">
+                  <Moon size={16} className="text-purple-500" />
+                  {locale === 'ja' ? '終盤の立ち回り' : 'Late Game'}
+                </h3>
+                <div className="bg-purple-50/30 p-4 rounded-2xl border border-purple-100">
+                  <p className="text-sm text-slate-700 font-bold leading-loose whitespace-pre-wrap">
+                    {locale === 'en' && guide.lateGameEn ? guide.lateGameEn : guide.lateGame}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {guide.teamfight && (
+              <div className="mt-4">
+                <h3 className="text-sm font-black text-slate-500 mb-3 flex items-center gap-2 uppercase tracking-wider">
+                  <Swords size={16} className="text-rose-500" />
+                  {locale === 'ja' ? '集団戦の立ち回り' : 'Teamfights'}
+                </h3>
+                <div className="bg-rose-50/30 p-4 rounded-2xl border border-rose-100">
+                  <p className="text-sm text-slate-700 font-bold leading-loose whitespace-pre-wrap">
+                    {locale === 'en' && guide.teamfightEn ? guide.teamfightEn : guide.teamfight}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {(guide.ngTitle || guide.ngText) && (
+              <div className="mt-6">
+                <h3 className="text-sm font-black text-red-500 mb-3 flex items-center gap-2 tracking-wider">
+                  <AlertTriangle size={16} className="text-red-500" />
+                  {locale === 'ja' ? '⚠️ 初心者がやりがちなNG行動' : '⚠️ Common Mistakes'}
+                </h3>
+                <div className="bg-red-50/50 p-4 rounded-2xl border-2 border-red-200">
+                  <h4 className="text-base font-black text-red-700 mb-2">
+                    {locale === 'en' && guide.ngTitleEn ? guide.ngTitleEn : guide.ngTitle}
+                  </h4>
+                  <p className="text-sm text-red-900/80 font-bold leading-loose whitespace-pre-wrap">
+                    {locale === 'en' && guide.ngTextEn ? guide.ngTextEn : guide.ngText}
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
@@ -512,12 +573,7 @@ export default function ChampionDetailClient({
           </Link>
         </div>
 
-        <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-5">
-          <h3 className="text-sm font-black text-slate-500 mb-3 uppercase tracking-wider">{t('lore')}</h3>
-          <p className="text-sm text-slate-600 leading-relaxed font-medium">
-            {champion.lore}
-          </p>
-        </div>
+
 
         <div className="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
           <div className="p-5 border-b border-slate-100 bg-slate-50">
