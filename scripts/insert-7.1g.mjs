@@ -6,135 +6,141 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 const patches = [
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "スカーナー",
     champion_name_en: "Skarner",
     change_type: "new",
-    description: "リワークされたスカーナーがワイルドリフトに登場。高い耐久力とCCを持ち、ジャングルでの活躍が期待されます。",
-    description_en: "Skarner arrives in Wild Rift after his rework, bringing high durability and CC to the jungle.",
+    description: "新登場\n原始の守護者、スカーナー\n古代の巨大生物種ブラカーンであるスカーナーは、イシュタルの支配層“ユン・タル”初代メンバーのひとりとして崇拝されている。\n高い耐久力とCCを持ち、ジャングルでの活躍が期待されます。",
+    description_en: "New Release\nSkarner, the Primordial Sovereign\nArrives in Wild Rift after his rework, bringing high durability and CC to the jungle.",
     is_champion: true
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "オーロラ",
     champion_name_en: "Aurora",
     change_type: "nerf",
-    description: "スキル1「折れ重なる魔法」の基本ダメージと魔力反映率が低下。",
-    description_en: "Skill 1 base damage and AP ratio decreased.",
+    description: "【折れ重なる魔法】\n最初の発動時のダメージ：40/70/100/130 + 魔力の32% → 35/65/95/125 + 魔力の30%\n再発動時のダメージ：40/70/100/130 + 魔力の32% → 35/65/95/125 + 魔力の30%",
+    description_en: "[Twofold Hex]\nFirst cast damage: 40/70/100/130 + 32% AP → 35/65/95/125 + 30% AP\nRecast damage: 40/70/100/130 + 32% AP → 35/65/95/125 + 30% AP",
     is_champion: true
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "ゾーイ",
     champion_name_en: "Zoe",
     change_type: "buff",
-    description: "スキル1「パドルスター！」の基本ダメージが増加。スキル3「スリープバブル」の基本魔力ダメージと確定ダメージが増加。",
-    description_en: "Skill 1 base damage increased. Skill 3 base magic and true damage increased.",
+    description: "【パドルスター！】\n基本ダメージ：30/65/100/135 → 45/80/115/150\n\n【スリープバブル】\n基本魔力ダメージ：30/80/130/180 → 40/90/140/190\n基本確定ダメージ：30/80/130/180 → 40/90/140/190",
+    description_en: "[Paddle Star!]\nBase damage: 30/65/100/135 → 45/80/115/150\n\n[Sleepy Trouble Bubble]\nBase magic damage: 30/80/130/180 → 40/90/140/190\nBase true damage: 30/80/130/180 → 40/90/140/190",
     is_champion: true
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "ダイアナ",
     champion_name_en: "Diana",
     change_type: "buff",
-    description: "固有スキル「繊月の刃」のモンスターに対するダメージが75%から100%に増加。",
-    description_en: "Passive damage modifier against monsters increased from 75% to 100%.",
+    description: "【繊月の刃】\nジャングルモンスターに対するダメージ：75% → 100%",
+    description_en: "[Moonsilver Blade]\nDamage against jungle monsters: 75% → 100%",
     is_champion: true
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "ハイマーディンガー",
     champion_name_en: "Heimerdinger",
     change_type: "buff",
-    description: "砲台の物理防御、体力の魔力反映率、レーザービームの魔力反映率が増加。近接チャンピオンから受ける追加ダメージが減少。",
-    description_en: "Turret armor, health AP ratio, and laser AP ratio increased. Bonus damage taken from melee champions decreased.",
+    description: "【H-28G革新砲】\n砲台の物理防御：10～80（レベルに応じて） → 20～90\n砲台の体力の魔力反映率：3%～45% → 8%～50%\n砲台のレーザービームの魔力反映率：45% → 55%\n砲台が近接チャンピオンから受ける追加ダメージ：50% → 40%\n\n【アップグレード！！！】\n「H-28Q超絶砲」が近接チャンピオンから受ける追加ダメージ：50% → 40%",
+    description_en: "[H-28G Evolution Turret]\nTurret Armor: 10~80 → 20~90\nTurret Health AP ratio: 3%~45% → 8%~50%\nTurret Laser AP ratio: 45% → 55%\nBonus damage taken from melee champions: 50% → 40%\n\n[UPGRADE!!!]\nH-28Q Apex Turret bonus damage taken from melee champions: 50% → 40%",
     is_champion: true
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "インフィニティ エッジ",
     champion_name_en: "InfinityEdge",
     change_type: "buff",
-    description: "攻撃力が増加（+60 → +65）。",
-    description_en: "Attack Damage increased (+60 -> +65).",
+    description: "【基本ステータス】\n攻撃力：+60 → +65",
+    description_en: "[Base Stats]\nAttack Damage: +60 → +65",
     is_champion: false
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "ブラック クリーバー",
     champion_name_en: "BlackCleaver",
     change_type: "buff",
-    description: "物理防御低下の最大スタック数が4から5に増加（最大低下率30%）。増加移動速度発動の必要スタック数も5に増加。",
-    description_en: "Armor reduction max stacks increased to 5 (30% total reduction). Movement speed activation stacks also increased.",
+    description: "【切断】\n物理防御低下の最大スタック数：4 → 5 （最大低下率：24% → 30%）\n\n【追跡】\n増加移動速度が発動する「切断」のスタック数：4 → 5",
+    description_en: "[Sunder]\nArmor reduction max stacks: 4 → 5 (Max reduction: 24% → 30%)\n\n[Rage]\nSunder stacks required for bonus movement speed: 4 → 5",
     is_champion: false
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "打ちこわし",
     champion_name_en: "Demolish",
     change_type: "adjust",
-    description: "タワーへのダメージが低下したが、クールダウンが短縮（35秒 → 30秒）。",
-    description_en: "Damage to turrets decreased, but cooldown reduced from 35s to 30s.",
+    description: "ダメージ：200 + 最大体力の30% → 100 + 最大体力の22%\nクールダウン：35秒 → 30秒",
+    description_en: "Damage: 200 + 30% max HP → 100 + 22% max HP\nCooldown: 35s → 30s",
     is_champion: false
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "チル・スマイト",
     champion_name_en: "ChillingSmite",
     change_type: "nerf",
-    description: "チャンピオンに対する確定ダメージが全レベルで40に低下。",
-    description_en: "True damage against champions reduced to a flat 40 at all levels.",
+    description: "チャンピオンへの確定ダメージ：38～183.6（レベルに応じて） → 全レベルで40",
+    description_en: "True damage to champions: 38~183.6 (based on level) → 40 at all levels",
     is_champion: false
   },
   {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "レッドブランブルバック",
     champion_name_en: "RedBrambleback",
     change_type: "nerf",
-    description: "「焦炎の王冠」のチャンピオンに対する毎秒炎上ダメージが低下。",
-    description_en: "Red buff burn damage per second against champions decreased.",
+    description: "【残火の赤紋章】\nチャンピオンに対する毎秒炎上ダメージ：6～34（レベルに応じて） → 5～15（レベルに応じて、数値上昇はレベル6から）\nチャンピオン以外に対する毎秒炎上ダメージ：3～17（レベルに応じて） → 5～15（レベルに応じて、数値上昇はレベル6から）",
+    description_en: "[Crest of Cinders]\nBurn damage per second to champions: 6~34 → 5~15\nBurn damage per second to non-champions: 3~17 → 5~15",
     is_champion: false
   },
   {
-    version: "7.2g",
-    champion_name: "ラララランダムミッド",
-    champion_name_en: "ARAM",
-    change_type: "new",
-    description: "「金床スペシャリスト」や「ヒットコンボ」などの新たなオーグメントが追加。",
-    description_en: "New augments added including Anvil Specialist and Hit Combo.",
-    is_champion: false
-  },
-  {
-    version: "7.2g",
+    version: "7.1g",
     champion_name: "バグ修正",
     champion_name_en: "Bugfixes",
     change_type: "adjust",
-    description: "ナヴォリクイックブレードの説明文誤り修正、ハルブレイカーのバフ持続不具合修正。",
-    description_en: "Fixed Navori Quickblades tooltip and Hullbreaker minion buff persistence bug.",
+    description: "アイテム「ナヴォリ クイックブレード」の説明文の誤りを修正。\nアイテム「ハルブレイカー」の所有者が倒された後も、周囲のミニオンのバフが持続していた不具合を修正。",
+    description_en: "Fixed Navori Quickblades tooltip error. Fixed Hullbreaker minion buff persisting after owner's death.",
+    is_champion: false
+  },
+  {
+    version: "7.1g",
+    champion_name: "ラララランダムミッド",
+    champion_name_en: "ARAM",
+    change_type: "adjust",
+    description: "「金床スペシャリスト」や「ヒットコンボ」など、新たなオーグメントが多数追加されました。",
+    description_en: "New augments added including Anvil Specialist and Hit Combo.",
     is_champion: false
   }
 ];
 
 const meta = {
-  version: "7.2g",
+  version: "7.1g",
   prediction_ja: "スカーナーの登場によりジャングルやトップでのCC・エンゲージ能力が高いピックが増加するでしょう。また、ゾーイやダイアナ、ハイマーディンガーといったメイジ・アサシン系のチャンピオンが強化されたことで、ミッドやジャングルでの影響力が高まります。アイテムではインフィニティエッジの強化によりクリティカル系マークスマンの後半のキャリー力が増し、ブラッククリーバーの強化によって物理ファイターのタンク溶かし能力が向上しました。ルーンとシステムの調整（打ちこわしや赤バフの弱体化）により、序盤のバーストやタワーへの過剰なプレッシャーが緩和され、より長めの集団戦や継続的なプレイが求められるメタにシフトする見込みです。",
   prediction_en: "The introduction of Skarner brings heavy CC and engage to the jungle and top lane. Buffs to Zoe, Diana, and Heimerdinger will elevate their presence in the mid lane and jungle. For items, the Infinity Edge buff strengthens critical strike marksmen in the late game, while the Black Cleaver buff improves AD fighters' tank-shredding capabilities. System adjustments, including nerfs to Demolish and Red Buff's burn damage, will reduce early burst and excessive tower pressure, shifting the meta towards more extended teamfights and sustained play."
 };
 
 async function insertData() {
-  // Delete existing data for 7.2g
-  await supabase.from('patches').delete().eq('version', '7.2g');
-  await supabase.from('patch_meta').delete().eq('version', '7.2g');
+  await supabase.from('patches').delete().eq('version', '7.1g');
+  await supabase.from('patch_meta').delete().eq('version', '7.1g');
 
-  // Insert new patches
-  const { data: pData, error: pError } = await supabase.from('patches').insert(patches);
+  // Insert in order with incrementing timestamps
+  let baseTime = new Date('2026-06-10T00:00:00Z').getTime();
+  const patchesWithTime = patches.map((p, i) => {
+    return {
+      ...p,
+      created_at: new Date(baseTime + i * 1000).toISOString()
+    };
+  });
+
+  const { data: pData, error: pError } = await supabase.from('patches').insert(patchesWithTime);
   if (pError) {
     console.error('Error inserting patches:', pError);
   } else {
     console.log('Patches inserted successfully.');
   }
 
-  // Insert new meta
   const { data: mData, error: mError } = await supabase.from('patch_meta').insert(meta);
   if (mError) {
     console.error('Error inserting patch_meta:', mError);
