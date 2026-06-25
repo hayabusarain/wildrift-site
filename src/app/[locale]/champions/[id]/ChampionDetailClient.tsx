@@ -236,7 +236,7 @@ export default function ChampionDetailClient({
         <h1 className="text-3xl font-black text-slate-900 tracking-tight mb-4">{champion.name}</h1>
         
         <div className="flex flex-wrap justify-center gap-2">
-          {champion.tags.map((tag: string) => {
+          {(champion.tags || []).map((tag: string) => {
             let translatedTag = tag;
             if (tag.toLowerCase() === 'fighter') translatedTag = t('role_fighter') || tag;
             if (tag.toLowerCase() === 'mage') translatedTag = t('role_mage') || tag;
@@ -305,7 +305,7 @@ export default function ChampionDetailClient({
             </div>
             
             <div className="space-y-4">
-              {(isEditing ? editingSkills : wrDetails.skills).map((skill: any, idx: number) => {
+              {(isEditing ? editingSkills : (wrDetails?.skills || [])).map((skill: any, idx: number) => {
                 const isExpanded = expandedSkills[idx] || isEditing;
                 
                 return (
@@ -358,18 +358,18 @@ export default function ChampionDetailClient({
                               <thead className="text-slate-400 font-bold border-b border-slate-200">
                                 <tr>
                                   <th className="px-3 py-2 font-bold">{locale === 'ja' ? '詳細' : 'Details'}</th>
-                                  {skill.table.headers.map((h: string, i: number) => (
+                                  {(skill.table.headers || []).map((h: string, i: number) => (
                                     <th key={i} className="px-3 py-2 text-center text-slate-500 font-bold">{h}</th>
                                   ))}
                                 </tr>
                               </thead>
                               <tbody className="divide-y divide-slate-100">
-                                {skill.table.rows.map((row: any, rIdx: number) => (
+                                {((skill.table.rows || []) as any[]).map((row: any, rIdx: number) => (
                                   <tr key={rIdx}>
                                     <td className="px-3 py-2 font-bold text-slate-600 bg-white border-r border-slate-100">
                                       {translateTableLabel(row.label, locale)}
                                     </td>
-                                    {row.values.map((v: string, vIdx: number) => (
+                                    {(row.values || []).map((v: string, vIdx: number) => (
                                       <td key={vIdx} className="px-3 py-2 text-center font-bold text-slate-700 bg-white">
                                         {v}
                                       </td>
@@ -397,7 +397,7 @@ export default function ChampionDetailClient({
                 {locale === 'ja' ? '強み (Strengths)' : 'Strengths'}
               </h3>
               <ul className="space-y-2">
-                {(locale === 'en' && guide.strengthsEn ? guide.strengthsEn : guide.strengths).map((point: string, idx: number) => (
+                {((locale === 'en' && guide.strengthsEn) ? guide.strengthsEn : (guide.strengths || [])).map((point: string, idx: number) => (
                   <li key={`str-${idx}`} className="flex gap-2 items-start text-sm text-slate-700 font-bold leading-relaxed bg-emerald-50/50 p-3 rounded-xl border border-emerald-100/50">
                     <span className="text-emerald-500 font-black shrink-0 mt-0.5">✓</span>
                     {point}
@@ -412,7 +412,7 @@ export default function ChampionDetailClient({
                 {locale === 'ja' ? '弱点 (Weaknesses)' : 'Weaknesses'}
               </h3>
               <ul className="space-y-2">
-                {(locale === 'en' && guide.weaknessesEn ? guide.weaknessesEn : guide.weaknesses).map((point: string, idx: number) => (
+                {((locale === 'en' && guide.weaknessesEn) ? guide.weaknessesEn : (guide.weaknesses || [])).map((point: string, idx: number) => (
                   <li key={`weak-${idx}`} className="flex gap-2 items-start text-sm text-slate-700 font-bold leading-relaxed bg-rose-50/50 p-3 rounded-xl border border-rose-100/50">
                     <span className="text-rose-500 font-black shrink-0 mt-0.5">×</span>
                     {point}
