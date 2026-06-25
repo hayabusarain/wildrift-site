@@ -26,15 +26,34 @@ export default function HomeClient({ metaPicks, featuredItems, featuredChampions
   return (
     <div className="pb-8 bg-slate-50 min-h-screen">
       {/* Hero Header */}
-      <div className="px-5 pt-10 pb-4 relative overflow-hidden">
-        <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-gradient-to-br from-blue-400/20 to-indigo-500/0 rounded-full blur-3xl pointer-events-none"></div>
-        <h1 className="text-[32px] font-black tracking-tight text-slate-900 leading-[1.25] relative z-10">
-          {locale === 'ja' ? 'ワイルドリフト' : 'Wild Rift'}
-          <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600">
-            {locale === 'ja' ? '攻略データベース' : 'Tactical Hub'}
-          </span>
-        </h1>
+      <div className="relative mb-8 rounded-b-[2.5rem] overflow-hidden bg-white shadow-[0_4px_20px_rgb(0,0,0,0.03)] border-b border-slate-100/50">
+        {/* Background Image & Effects */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-60 mix-blend-multiply"
+          style={{ backgroundImage: "url('/images/hero-light.png')" }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/30 via-white/70 to-white" />
+        <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" />
+        
+        {/* Content */}
+        <div className="relative z-10 px-4 pt-10 pb-12 flex flex-col items-center text-center">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-5 bg-white/90 backdrop-blur-md border border-slate-200/50 rounded-full shadow-sm">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+            </span>
+            <span className="text-[10px] font-bold text-slate-600 uppercase tracking-widest">
+              DATABASE ACTIVE
+            </span>
+          </div>
+          
+          <h1 className="text-[28px] md:text-4xl font-black tracking-tight text-slate-800 leading-[1.2] mb-1">
+            Wild Rift
+            <br />
+            <span className="text-blue-600 text-[32px] md:text-[40px]">攻略データベース</span>
+          </h1>
+          
+        </div>
       </div>
 
       {/* Notice / Announcement Section */}

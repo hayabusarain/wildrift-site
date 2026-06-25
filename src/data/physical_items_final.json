@@ -1653,7 +1653,7 @@
     "image": "/images/items/cropped/ケミパンク_チェーンソード.png",
     "isCompleted": true,
     "stats": [
-      "+250 最大体力",
+      "+400 最大体力",
       "+45 攻撃力",
       "+15 スキルヘイスト"
     ],
@@ -1666,7 +1666,7 @@
       }
     ],
     "statsEn": [
-      "+250 Max Health",
+      "+400 Max Health",
       "+45 Attack Damage",
       "+15 Ability Haste"
     ]
